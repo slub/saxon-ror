@@ -5353,8 +5353,63 @@
   {
     "id": "https://ror.org/020n3fw10",
     "name": "Fraunhofer Institute for Photonic Microsystems",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2003,
     "types": [
       "Facility"
+    ],
+    "relationships": [
+      {
+        "label": "Fraunhofer Society",
+        "type": "Parent",
+        "id": "https://ror.org/05hkkdn48"
+      }
+    ],
+    "addresses": [
+      {
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "state": null,
+        "state_code": null,
+        "city": "Dresden",
+        "geonames_city": {
+          "id": 2935022,
+          "city": "Dresden",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "id": 2842566,
+            "ascii_name": "Saxony",
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          }
+        },
+        "postcode": null,
+        "primary": false,
+        "line": null,
+        "country_geonames_id": 2921044
+      }
     ],
     "links": [
       "http://www.ipms.fraunhofer.de/en/"
@@ -5373,65 +5428,10 @@
         "iso639": "de"
       }
     ],
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 2003,
     "country": {
-      "country_code": "DE",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     },
-    "relationships": [
-      {
-        "type": "Parent",
-        "label": "Fraunhofer Society",
-        "id": "https://ror.org/05hkkdn48"
-      }
-    ],
-    "addresses": [
-      {
-        "line": null,
-        "lat": 51.12524,
-        "lng": 13.783969,
-        "postcode": null,
-        "primary": false,
-        "city": "Dresden",
-        "state": null,
-        "state_code": null,
-        "country_geonames_id": 2921044,
-        "geonames_city": {
-          "id": 2935022,
-          "city": "Dresden",
-          "nuts_level1": {
-            "code": "DED",
-            "name": "SACHSEN"
-          },
-          "nuts_level2": {
-            "code": "DED2",
-            "name": "Dresden"
-          },
-          "nuts_level3": {
-            "code": "DED2F",
-            "name": "Sächsische Schweiz-Osterzgebirge"
-          },
-          "geonames_admin1": {
-            "id": 2842566,
-            "name": "Saxony",
-            "ascii_name": "Saxony",
-            "code": "DE.13"
-          },
-          "geonames_admin2": {
-            "id": null,
-            "name": null,
-            "ascii_name": null,
-            "code": null
-          },
-          "license": {
-            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-            "license": "http://creativecommons.org/licenses/by/3.0/"
-          }
-        }
-      }
-    ],
     "external_ids": {
       "ISNI": {
         "preferred": null,
@@ -5440,9 +5440,9 @@
         ]
       },
       "Wikidata": {
-        "preferred": null,
+        "preferred": "Q1391898",
         "all": [
-          "Q1451974"
+          "Q1391898"
         ]
       },
       "GRID": {
