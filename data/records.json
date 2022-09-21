@@ -5080,8 +5080,68 @@
   {
     "id": "https://ror.org/01zy2cs03",
     "name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1992,
     "types": [
       "Facility"
+    ],
+    "relationships": [
+      {
+        "label": "Helmholtz Association of German Research Centres",
+        "type": "Parent",
+        "id": "https://ror.org/0281dp749"
+      },
+      {
+        "label": "Helmholtz Institute Freiberg for Resource Technology",
+        "type": "Child",
+        "id": "https://ror.org/04kdb0j04"
+      }
+    ],
+    "addresses": [
+      {
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "state": null,
+        "state_code": null,
+        "city": "Dresden",
+        "geonames_city": {
+          "id": 2935022,
+          "city": "Dresden",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "id": 2842566,
+            "ascii_name": "Saxony",
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          }
+        },
+        "postcode": null,
+        "primary": false,
+        "line": null,
+        "country_geonames_id": 2921044
+      }
     ],
     "links": [
       "https://www.hzdr.de"
@@ -5093,70 +5153,10 @@
     "status": "active",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Helmholtz-Zentrum_Dresden-Rossendorf",
     "labels": [],
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1992,
     "country": {
-      "country_code": "DE",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     },
-    "relationships": [
-      {
-        "type": "Parent",
-        "label": "Helmholtz Association of German Research Centres",
-        "id": "https://ror.org/0281dp749"
-      },
-      {
-        "type": "Child",
-        "label": "Helmholtz Institute Freiberg for Resource Technology",
-        "id": "https://ror.org/04kdb0j04"
-      }
-    ],
-    "addresses": [
-      {
-        "line": null,
-        "lat": 51.062242,
-        "lng": 13.952196,
-        "postcode": null,
-        "primary": false,
-        "city": "Dresden",
-        "state": null,
-        "state_code": null,
-        "country_geonames_id": 2921044,
-        "geonames_city": {
-          "id": 2935022,
-          "city": "Dresden",
-          "nuts_level1": {
-            "code": "DED",
-            "name": "SACHSEN"
-          },
-          "nuts_level2": {
-            "code": "DED2",
-            "name": "Dresden"
-          },
-          "nuts_level3": {
-            "code": "DED2F",
-            "name": "Sächsische Schweiz-Osterzgebirge"
-          },
-          "geonames_admin1": {
-            "id": 2842566,
-            "name": "Saxony",
-            "ascii_name": "Saxony",
-            "code": "DE.13"
-          },
-          "geonames_admin2": {
-            "id": null,
-            "name": null,
-            "ascii_name": null,
-            "code": null
-          },
-          "license": {
-            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-            "license": "http://creativecommons.org/licenses/by/3.0/"
-          }
-        }
-      }
-    ],
     "external_ids": {
       "ISNI": {
         "preferred": null,
@@ -5179,6 +5179,12 @@
       "GRID": {
         "preferred": "grid.40602.30",
         "all": "grid.40602.30"
+      },
+      "FundRef": {
+        "preferred": "501100014754",
+        "all": [
+          "501100014754"
+        ]
       }
     }
   },
