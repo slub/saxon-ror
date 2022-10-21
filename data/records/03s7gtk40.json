@@ -1,8 +1,83 @@
 {
   "id": "https://ror.org/03s7gtk40",
   "name": "Leipzig University",
+  "email_address": "",
+  "ip_addresses": [],
+  "established": 1409,
   "types": [
     "Education"
+  ],
+  "relationships": [
+    {
+      "label": "IFB Adiposity Diseases",
+      "type": "Related",
+      "id": "https://ror.org/02sy3xj90"
+    },
+    {
+      "label": "Institut für Nichtklassische Chemie",
+      "type": "Related",
+      "id": "https://ror.org/02hcvme33"
+    },
+    {
+      "label": "Klinikum Chemnitz",
+      "type": "Related",
+      "id": "https://ror.org/04wkp4f46"
+    },
+    {
+      "label": "University Hospital Leipzig",
+      "type": "Related",
+      "id": "https://ror.org/028hv5492"
+    },
+    {
+      "label": "Bach Archiv Leipzig",
+      "type": "Child",
+      "id": "https://ror.org/05s928n76"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 51.33962,
+      "lng": 12.37129,
+      "state": null,
+      "state_code": null,
+      "city": "Leipzig",
+      "geonames_city": {
+        "id": 2879139,
+        "city": "Leipzig",
+        "geonames_admin1": {
+          "name": "Saxony",
+          "id": 2842566,
+          "ascii_name": "Saxony",
+          "code": "DE.13"
+        },
+        "geonames_admin2": {
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": "DE.13.00"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 2921044
+    }
   ],
   "links": [
     "https://www.uni-leipzig.de/en/"
@@ -17,85 +92,10 @@
       "iso639": "de"
     }
   ],
-  "email_address": "",
-  "ip_addresses": [],
-  "established": 1409,
   "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
+    "country_name": "Germany",
+    "country_code": "DE"
   },
-  "relationships": [
-    {
-      "type": "Related",
-      "label": "IFB Adiposity Diseases",
-      "id": "https://ror.org/02sy3xj90"
-    },
-    {
-      "type": "Related",
-      "label": "Institut für Nichtklassische Chemie",
-      "id": "https://ror.org/02hcvme33"
-    },
-    {
-      "type": "Related",
-      "label": "Klinikum Chemnitz",
-      "id": "https://ror.org/04wkp4f46"
-    },
-    {
-      "type": "Related",
-      "label": "University Hospital Leipzig",
-      "id": "https://ror.org/028hv5492"
-    },
-    {
-      "type": "Child",
-      "label": "Bach Archiv Leipzig",
-      "id": "https://ror.org/05s928n76"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.339,
-      "lng": 12.379,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": "Sachsen",
-      "state_code": "DE-SN",
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
-  ],
   "external_ids": {
     "ISNI": {
       "preferred": null,
@@ -118,6 +118,12 @@
     "GRID": {
       "preferred": "grid.9647.c",
       "all": "grid.9647.c"
+    },
+    "FundRef": {
+      "preferred": "501100008678",
+      "all": [
+        "501100008678"
+      ]
     }
   }
 }
