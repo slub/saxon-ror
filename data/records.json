@@ -759,6 +759,12 @@
       "country_code": "DE"
     },
     "external_ids": {
+      "FundRef": {
+        "preferred": "501100013296",
+        "all": [
+          "501100013296"
+        ]
+      },
       "OrgRef": {
         "preferred": null,
         "all": [
@@ -775,10 +781,10 @@
         "preferred": "grid.419532.8",
         "all": "grid.419532.8"
       },
-      "FundRef": {
-        "preferred": "501100013296",
+      "ISNI": {
+        "preferred": "0000 0004 0491 7940",
         "all": [
-          "501100013296"
+          "0000 0004 0491 7940"
         ]
       }
     }
@@ -10750,8 +10756,57 @@
   {
     "id": "https://ror.org/03fry2j13",
     "name": "Museum für Naturkunde Chemnitz",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2004,
     "types": [
       "Archive"
+    ],
+    "relationships": [],
+    "addresses": [
+      {
+        "lat": 50.8357,
+        "lng": 12.92922,
+        "state": null,
+        "state_code": null,
+        "city": "Chemnitz",
+        "geonames_city": {
+          "id": 2940132,
+          "city": "Chemnitz",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "id": 2842566,
+            "ascii_name": "Saxony",
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          }
+        },
+        "postcode": null,
+        "primary": false,
+        "line": null,
+        "country_geonames_id": 2921044
+      }
     ],
     "links": [
       "http://www.naturkundemuseum-chemnitz.de/en/startseite.html"
@@ -10761,63 +10816,20 @@
     "status": "active",
     "wikipedia_url": "",
     "labels": [],
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 2004,
     "country": {
-      "country_code": "DE",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     },
-    "relationships": [],
-    "addresses": [
-      {
-        "line": null,
-        "lat": 50.830892,
-        "lng": 12.923344,
-        "postcode": null,
-        "primary": false,
-        "city": "Chemnitz",
-        "state": null,
-        "state_code": null,
-        "country_geonames_id": 2921044,
-        "geonames_city": {
-          "id": 2940132,
-          "city": "Chemnitz",
-          "nuts_level1": {
-            "code": "DED",
-            "name": "SACHSEN"
-          },
-          "nuts_level2": {
-            "code": "DED4",
-            "name": "Chemnitz"
-          },
-          "nuts_level3": {
-            "code": "DED41",
-            "name": "Chemnitz, Kreisfreie Stadt"
-          },
-          "geonames_admin1": {
-            "id": 2842566,
-            "name": "Saxony",
-            "ascii_name": "Saxony",
-            "code": "DE.13"
-          },
-          "geonames_admin2": {
-            "id": null,
-            "name": null,
-            "ascii_name": null,
-            "code": null
-          },
-          "license": {
-            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-            "license": "http://creativecommons.org/licenses/by/3.0/"
-          }
-        }
-      }
-    ],
     "external_ids": {
       "GRID": {
         "preferred": "grid.462598.4",
         "all": "grid.462598.4"
+      },
+      "ISNI": {
+        "preferred": "0000 0004 9549 2852",
+        "all": [
+          "0000 0004 9549 2852"
+        ]
       }
     }
   },
@@ -11425,14 +11437,20 @@
       "country_code": "DE"
     },
     "external_ids": {
-      "GRID": {
-        "preferred": "grid.492175.c",
-        "all": "grid.492175.c"
-      },
       "FundRef": {
         "preferred": "501100019173",
         "all": [
           "501100019173"
+        ]
+      },
+      "GRID": {
+        "preferred": "grid.492175.c",
+        "all": "grid.492175.c"
+      },
+      "ISNI": {
+        "preferred": "0000 0005 0272 0658",
+        "all": [
+          "0000 0005 0272 0658"
         ]
       }
     }
@@ -14585,8 +14603,63 @@
   {
     "id": "https://ror.org/04kdb0j04",
     "name": "Helmholtz Institute Freiberg for Resource Technology",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2011,
     "types": [
       "Government"
+    ],
+    "relationships": [
+      {
+        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "type": "Parent",
+        "id": "https://ror.org/01zy2cs03"
+      }
+    ],
+    "addresses": [
+      {
+        "lat": 50.91089,
+        "lng": 13.33881,
+        "state": null,
+        "state_code": null,
+        "city": "Freiberg",
+        "geonames_city": {
+          "id": 2925192,
+          "city": "Freiberg",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "id": 2842566,
+            "ascii_name": "Saxony",
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          }
+        },
+        "postcode": null,
+        "primary": false,
+        "line": null,
+        "country_geonames_id": 2921044
+      }
     ],
     "links": [
       "http://www.hzdr.de/db/Cms?pNid=2423"
@@ -14603,69 +14676,20 @@
         "iso639": "de"
       }
     ],
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 2011,
     "country": {
-      "country_code": "DE",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     },
-    "relationships": [
-      {
-        "type": "Parent",
-        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
-        "id": "https://ror.org/01zy2cs03"
-      }
-    ],
-    "addresses": [
-      {
-        "line": null,
-        "lat": 50.929126,
-        "lng": 13.348177,
-        "postcode": null,
-        "primary": false,
-        "city": "Freiberg",
-        "state": null,
-        "state_code": null,
-        "country_geonames_id": 2921044,
-        "geonames_city": {
-          "id": 2925192,
-          "city": "Freiberg",
-          "nuts_level1": {
-            "code": "DED",
-            "name": "SACHSEN"
-          },
-          "nuts_level2": {
-            "code": "DED4",
-            "name": "Chemnitz"
-          },
-          "nuts_level3": {
-            "code": "DED43",
-            "name": "Mittelsachsen"
-          },
-          "geonames_admin1": {
-            "id": 2842566,
-            "name": "Saxony",
-            "ascii_name": "Saxony",
-            "code": "DE.13"
-          },
-          "geonames_admin2": {
-            "id": null,
-            "name": null,
-            "ascii_name": null,
-            "code": null
-          },
-          "license": {
-            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-            "license": "http://creativecommons.org/licenses/by/3.0/"
-          }
-        }
-      }
-    ],
     "external_ids": {
       "GRID": {
         "preferred": "grid.461897.5",
         "all": "grid.461897.5"
+      },
+      "ISNI": {
+        "preferred": "0000 0004 8004 3165",
+        "all": [
+          "0000 0004 8004 3165"
+        ]
       }
     }
   },
@@ -15416,6 +15440,12 @@
       "GRID": {
         "preferred": "grid.505969.6",
         "all": "grid.505969.6"
+      },
+      "ISNI": {
+        "preferred": "0000 0001 2168 0824",
+        "all": [
+          "0000 0001 2168 0824"
+        ]
       }
     }
   },
