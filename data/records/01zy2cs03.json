@@ -25,14 +25,15 @@
       "lng": 13.73832,
       "state": null,
       "state_code": null,
+      "country_geonames_id": 2921044,
       "city": "Dresden",
       "geonames_city": {
         "id": 2935022,
         "city": "Dresden",
         "geonames_admin1": {
           "name": "Saxony",
-          "id": 2842566,
           "ascii_name": "Saxony",
+          "id": 2842566,
           "code": "DE.13"
         },
         "geonames_admin2": {
@@ -40,10 +41,6 @@
           "id": null,
           "ascii_name": null,
           "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
           "name": null,
@@ -56,12 +53,15 @@
         "nuts_level3": {
           "name": null,
           "code": null
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
         }
       },
-      "postcode": null,
       "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
+      "postcode": null,
+      "line": null
     }
   ],
   "links": [
@@ -85,6 +85,12 @@
         "0000 0001 2158 0612"
       ]
     },
+    "FundRef": {
+      "preferred": "501100014754",
+      "all": [
+        "501100014754"
+      ]
+    },
     "OrgRef": {
       "preferred": null,
       "all": [
@@ -100,12 +106,6 @@
     "GRID": {
       "preferred": "grid.40602.30",
       "all": "grid.40602.30"
-    },
-    "FundRef": {
-      "preferred": "501100014754",
-      "all": [
-        "501100014754"
-      ]
     }
   }
 }
