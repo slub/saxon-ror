@@ -1,8 +1,118 @@
 {
   "id": "https://ror.org/042aqky30",
   "name": "TU Dresden",
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1828,
   "types": [
     "Education"
+  ],
+  "relationships": [
+    {
+      "label": "Carl-Thiem-Klinikum Cottbus",
+      "type": "Related",
+      "id": "https://ror.org/044fhy270"
+    },
+    {
+      "label": "Klinikum Görlitz",
+      "type": "Related",
+      "id": "https://ror.org/00qcpjs09"
+    },
+    {
+      "label": "Krankenhaus Dresden-Friedrichstadt",
+      "type": "Related",
+      "id": "https://ror.org/035xba693"
+    },
+    {
+      "label": "University Hospital Carl Gustav Carus",
+      "type": "Related",
+      "id": "https://ror.org/04za5zm41"
+    },
+    {
+      "label": "Center for Systems Biology Dresden",
+      "type": "Child",
+      "id": "https://ror.org/05hrn3e05"
+    },
+    {
+      "label": "Complexity and Topology in Quantum Matter",
+      "type": "Child",
+      "id": "https://ror.org/00kkpv737"
+    },
+    {
+      "label": "Förderverein Institut für Medizintechnik Dresden",
+      "type": "Child",
+      "id": "https://ror.org/04wn6w972"
+    },
+    {
+      "label": "Institut für Holztechnologie Dresden",
+      "type": "Child",
+      "id": "https://ror.org/00me29179"
+    },
+    {
+      "label": "Institute of Automation",
+      "type": "Child",
+      "id": "https://ror.org/056qj1t15"
+    },
+    {
+      "label": "NaMLab (Germany)",
+      "type": "Child",
+      "id": "https://ror.org/028070c57"
+    },
+    {
+      "label": "Paul Langerhans Institute Dresden",
+      "type": "Child",
+      "id": "https://ror.org/05ke5hb07"
+    },
+    {
+      "label": "TransDeN Lab",
+      "type": "Child",
+      "id": "https://ror.org/01dj9qb53"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 51.05089,
+      "lng": 13.73832,
+      "state": null,
+      "state_code": null,
+      "city": "Dresden",
+      "geonames_city": {
+        "id": 2935022,
+        "city": "Dresden",
+        "geonames_admin1": {
+          "name": "Saxony",
+          "id": 2842566,
+          "ascii_name": "Saxony",
+          "code": "DE.13"
+        },
+        "geonames_admin2": {
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": "DE.13.00"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 2921044
+    }
   ],
   "links": [
     "http://tu-dresden.de/en"
@@ -21,115 +131,10 @@
       "iso639": "de"
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1828,
   "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
+    "country_name": "Germany",
+    "country_code": "DE"
   },
-  "relationships": [
-    {
-      "type": "Related",
-      "label": "Carl-Thiem-Klinikum Cottbus",
-      "id": "https://ror.org/044fhy270"
-    },
-    {
-      "type": "Related",
-      "label": "Klinikum Görlitz",
-      "id": "https://ror.org/00qcpjs09"
-    },
-    {
-      "type": "Related",
-      "label": "Krankenhaus Dresden-Friedrichstadt",
-      "id": "https://ror.org/035xba693"
-    },
-    {
-      "type": "Related",
-      "label": "University Hospital Carl Gustav Carus",
-      "id": "https://ror.org/04za5zm41"
-    },
-    {
-      "type": "Child",
-      "label": "Center for Systems Biology Dresden",
-      "id": "https://ror.org/05hrn3e05"
-    },
-    {
-      "type": "Child",
-      "label": "Complexity and Topology in Quantum Matter",
-      "id": "https://ror.org/00kkpv737"
-    },
-    {
-      "type": "Child",
-      "label": "Förderverein Institut für Medizintechnik Dresden",
-      "id": "https://ror.org/04wn6w972"
-    },
-    {
-      "type": "Child",
-      "label": "Institut für Holztechnologie Dresden",
-      "id": "https://ror.org/00me29179"
-    },
-    {
-      "type": "Child",
-      "label": "Institute of Automation",
-      "id": "https://ror.org/056qj1t15"
-    },
-    {
-      "type": "Child",
-      "label": "NaMLab (Germany)",
-      "id": "https://ror.org/028070c57"
-    },
-    {
-      "type": "Child",
-      "label": "Paul Langerhans Institute Dresden",
-      "id": "https://ror.org/05ke5hb07"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.029469,
-      "lng": 13.728975,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
-  ],
   "external_ids": {
     "ISNI": {
       "preferred": null,
