@@ -1,14 +1,68 @@
 {
   "id": "https://ror.org/00a208s56",
   "name": "Chemnitz University of Technology",
+  "email_address": "",
+  "ip_addresses": [],
+  "established": 1836,
   "types": [
     "Education"
+  ],
+  "relationships": [
+    {
+      "label": "An-Institut für Transfer und Weiterbildung",
+      "type": "Child",
+      "id": "https://ror.org/054kgce12"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 50.8357,
+      "lng": 12.92922,
+      "state": null,
+      "state_code": null,
+      "city": "Chemnitz",
+      "geonames_city": {
+        "id": 2940132,
+        "city": "Chemnitz",
+        "geonames_admin1": {
+          "name": "Saxony",
+          "id": 2842566,
+          "ascii_name": "Saxony",
+          "code": "DE.13"
+        },
+        "geonames_admin2": {
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": "DE.13.00"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 2921044
+    }
   ],
   "links": [
     "https://www.tu-chemnitz.de/index.html.en"
   ],
   "aliases": [
-    "Technische Universität Chemnitz",
     "TU Chemnitz"
   ],
   "acronyms": [],
@@ -20,65 +74,10 @@
       "iso639": "de"
     }
   ],
-  "email_address": "",
-  "ip_addresses": [],
-  "established": 1836,
   "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
+    "country_name": "Germany",
+    "country_code": "DE"
   },
-  "relationships": [
-    {
-      "type": "Child",
-      "label": "An-Institut für Transfer und Weiterbildung",
-      "id": "https://ror.org/054kgce12"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 50.813611,
-      "lng": 12.929167,
-      "postcode": null,
-      "primary": false,
-      "city": "Chemnitz",
-      "state": "Sachsen",
-      "state_code": "DE-SN",
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED41",
-          "name": "Chemnitz, Kreisfreie Stadt"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
-  ],
   "external_ids": {
     "ISNI": {
       "preferred": null,
