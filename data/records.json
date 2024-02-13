@@ -2615,6 +2615,79 @@
     }
   },
   {
+    "ip_addresses": [],
+    "aliases": [
+      "datafutures"
+    ],
+    "acronyms": [
+      "DF"
+    ],
+    "links": [
+      "https://www.data-futures.org"
+    ],
+    "country": {
+      "country_name": "Germany",
+      "country_code": "DE"
+    },
+    "name": "Data Futures GmbH",
+    "wikipedia_url": null,
+    "addresses": [
+      {
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "state": null,
+        "state_code": null,
+        "country_geonames_id": 2921044,
+        "city": "Leipzig",
+        "geonames_city": {
+          "id": 2879139,
+          "city": "Leipzig",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "ascii_name": "Saxony",
+            "id": 2842566,
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          }
+        },
+        "primary": false,
+        "postcode": null,
+        "line": null
+      }
+    ],
+    "types": [
+      "Nonprofit"
+    ],
+    "external_ids": {},
+    "established": 2017,
+    "relationships": [],
+    "email_address": null,
+    "id": "https://ror.org/01653xx13",
+    "labels": [],
+    "status": "active"
+  },
+  {
     "id": "https://ror.org/016xad343",
     "name": "Senckenberg Natural History Collections Dresden",
     "types": [
@@ -7580,6 +7653,99 @@
         "all": "grid.500380.e"
       }
     }
+  },
+  {
+    "ip_addresses": [],
+    "aliases": [],
+    "acronyms": [],
+    "links": [
+      "https://www.freistaat.sachsen.de"
+    ],
+    "country": {
+      "country_name": "Germany",
+      "country_code": "DE"
+    },
+    "name": "Freistaat Sachsen",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saxony",
+    "addresses": [
+      {
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "state": null,
+        "state_code": null,
+        "country_geonames_id": 2921044,
+        "city": "Dresden",
+        "geonames_city": {
+          "id": 2935022,
+          "city": "Dresden",
+          "geonames_admin1": {
+            "name": "Saxony",
+            "ascii_name": "Saxony",
+            "id": 2842566,
+            "code": "DE.13"
+          },
+          "geonames_admin2": {
+            "name": null,
+            "id": null,
+            "ascii_name": null,
+            "code": "DE.13.00"
+          },
+          "nuts_level1": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level2": {
+            "name": null,
+            "code": null
+          },
+          "nuts_level3": {
+            "name": null,
+            "code": null
+          },
+          "license": {
+            "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+            "license": "http://creativecommons.org/licenses/by/3.0/"
+          }
+        },
+        "primary": false,
+        "postcode": null,
+        "line": null
+      }
+    ],
+    "types": [
+      "Government"
+    ],
+    "external_ids": {
+      "ISNI": {
+        "preferred": "0000 0004 0555 6964",
+        "all": [
+          "0000 0004 0555 6964"
+        ]
+      },
+      "Wikidata": {
+        "preferred": "Q1202",
+        "all": [
+          "Q1202"
+        ]
+      },
+      "FundRef": {
+        "preferred": "501100014913",
+        "all": [
+          "501100014913"
+        ]
+      }
+    },
+    "established": null,
+    "relationships": [],
+    "email_address": null,
+    "id": "https://ror.org/02hyyn853",
+    "labels": [
+      {
+        "label": "Free State of Saxony",
+        "iso639": "en"
+      }
+    ],
+    "status": "active"
   },
   {
     "id": "https://ror.org/02jskg402",
@@ -12713,7 +12879,7 @@
   },
   {
     "id": "https://ror.org/03wf51b65",
-    "name": "Saxon State and University Library Dresden",
+    "name": "SLUB Dresden",
     "email_address": null,
     "ip_addresses": [],
     "established": 1556,
@@ -12767,10 +12933,10 @@
       }
     ],
     "links": [
-      "http://www.slub-dresden.de/en/home/"
+      "https://www.slub-dresden.de"
     ],
     "aliases": [
-      "SLUB Dresden"
+      "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
     ],
     "acronyms": [
       "SLUB"
@@ -12779,8 +12945,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden",
     "labels": [
       {
-        "label": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden",
-        "iso639": "de"
+        "label": "Saxon State and University Library Dresden",
+        "iso639": "en"
       }
     ],
     "country": {
@@ -12792,6 +12958,12 @@
         "preferred": null,
         "all": [
           "0000 0001 1939 5418"
+        ]
+      },
+      "FundRef": {
+        "preferred": "501100015022",
+        "all": [
+          "501100015022"
         ]
       },
       "OrgRef": {
@@ -12809,12 +12981,6 @@
       "GRID": {
         "preferred": "grid.449614.a",
         "all": "grid.449614.a"
-      },
-      "FundRef": {
-        "preferred": "501100015022",
-        "all": [
-          "501100015022"
-        ]
       }
     }
   },
