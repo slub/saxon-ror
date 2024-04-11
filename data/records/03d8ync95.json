@@ -1,86 +1,71 @@
 {
-  "id": "https://ror.org/03d8ync95",
-  "name": "Stiftung Deutsche Depressionshilfe",
-  "types": [
-    "Other"
-  ],
-  "links": [
-    "https://www.deutsche-depressionshilfe.de/start"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 2008,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.324255,
-      "lng": 12.39781,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.324255,
+        "lng": 12.39781,
+        "name": "Leipzig"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 2008,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.492161.9"
+      ],
+      "preferred": "grid.492161.9"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0004 8519 2872"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q15849272"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03d8ync95",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deutsche-depressionshilfe.de/start"
+    }
+  ],
+  "names": [
+    {
+      "value": "Stiftung Deutsche Depressionshilfe",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "other"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.492161.9",
-      "all": "grid.492161.9"
+    "last_modified": {
+      "date": "2021-04-06",
+      "schema_version": "2.0"
     }
   }
 }

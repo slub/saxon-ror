@@ -1,88 +1,78 @@
 {
-  "id": "https://ror.org/02rmvby88",
-  "name": "Institut für Angewandte Trainingswissenschaft",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.iat.uni-leipzig.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "IAT"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1992,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.339168,
-      "lng": 12.354591,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.339168,
+        "lng": 12.354591,
+        "name": "Leipzig"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1992,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.506315.4"
+      ],
+      "preferred": "grid.506315.4"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0000 9587 3138"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q1664800"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/02rmvby88",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iat.uni-leipzig.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "IAT",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
     },
-    "GRID": {
-      "preferred": "grid.506315.4",
-      "all": "grid.506315.4"
+    {
+      "value": "Institut für Angewandte Trainingswissenschaft",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

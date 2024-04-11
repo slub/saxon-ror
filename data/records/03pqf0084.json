@@ -1,83 +1,78 @@
 {
-  "id": "https://ror.org/03pqf0084",
-  "name": "International University Institute",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "http://www.ihi-zittau.de/cms/en/803/News/"
-  ],
-  "aliases": [
-    "International Graduate School (IHI) Zittau"
-  ],
-  "acronyms": [
-    "IHI"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Geschichte des Internationalen Hochschulinstituts (IHI) Zittau",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1993,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 50.895913,
-      "lng": 14.805417,
-      "postcode": null,
-      "primary": false,
-      "city": "Zittau",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2804008,
-        "city": "Zittau",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2D",
-          "name": "Görlitz"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2804008,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.895913,
+        "lng": 14.805417,
+        "name": "Zittau"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.466013.6",
-      "all": "grid.466013.6"
+  "established": 1993,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.466013.6"
+      ],
+      "preferred": "grid.466013.6"
+    }
+  ],
+  "id": "https://ror.org/03pqf0084",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ihi-zittau.de/cms/en/803/News/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Geschichte des Internationalen Hochschulinstituts (IHI) Zittau",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "IHI",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "International Graduate School (IHI) Zittau",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "International University Institute",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

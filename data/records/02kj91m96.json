@@ -1,80 +1,63 @@
 {
-  "id": "https://ror.org/02kj91m96",
-  "name": "Leipzig Heart Institute",
-  "types": [
-    "Facility"
+  "locations": [
+    {
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.307203,
+        "lng": 12.433329,
+        "name": "Leipzig"
+      }
+    }
   ],
-  "links": [
-    "http://leipzig-heart.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 2015,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.491961.2"
+      ],
+      "preferred": "grid.491961.2"
+    }
+  ],
+  "id": "https://ror.org/02kj91m96",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://leipzig-heart.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Leipzig Heart Institute",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Helios Kliniken",
       "id": "https://ror.org/04fjkxc67"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.307203,
-      "lng": 12.433329,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.491961.2",
-      "all": "grid.491961.2"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

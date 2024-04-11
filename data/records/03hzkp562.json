@@ -1,101 +1,96 @@
 {
-  "id": "https://ror.org/03hzkp562",
-  "name": "Hochschule für Grafik und Buchkunst Leipzig",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "http://www.hgb-leipzig.de/index.php?a=aktuell&js=2"
-  ],
-  "aliases": [
-    "Zeichnungs-, Mahlerey und Architectur-Akademie"
-  ],
-  "acronyms": [
-    "HGB"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Grafik_und_Buchkunst_Leipzig",
-  "labels": [
+  "locations": [
     {
-      "label": "Academy of Visual Arts Leipzig",
-      "iso639": "en"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1764,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.333221,
-      "lng": 12.367821,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.333221,
+        "lng": 12.367821,
+        "name": "Leipzig"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1764,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.462294.f"
+      ],
+      "preferred": "grid.462294.f"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 0671 1864"
-      ]
+      ],
+      "preferred": null
     },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "27722010"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q315175"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03hzkp562",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hgb-leipzig.de/index.php?a=aktuell&js=2"
     },
-    "GRID": {
-      "preferred": "grid.462294.f",
-      "all": "grid.462294.f"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Grafik_und_Buchkunst_Leipzig"
+    }
+  ],
+  "names": [
+    {
+      "value": "Academy of Visual Arts Leipzig",
+      "types": [
+        "label"
+      ],
+      "lang": "en"
+    },
+    {
+      "value": "HGB",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Grafik und Buchkunst Leipzig",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Zeichnungs-, Mahlerey und Architectur-Akademie",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

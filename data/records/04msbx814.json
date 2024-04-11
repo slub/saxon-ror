@@ -1,99 +1,89 @@
 {
-  "id": "https://ror.org/04msbx814",
-  "name": "University of Music and Theatre Leipzig",
-  "email_address": null,
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      }
+    }
+  ],
   "established": 1843,
-  "types": [
-    "Education"
-  ],
-  "relationships": [],
-  "addresses": [
+  "external_ids": [
     {
-      "lat": 51.33962,
-      "lng": 12.37129,
-      "state": null,
-      "state_code": null,
-      "city": "Leipzig",
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
-    }
-  ],
-  "links": [
-    "http://www.hmt-leipzig.de/en/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "HMT"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Music_and_Theatre_Leipzig",
-  "labels": [
+      "type": "grid",
+      "all": [
+        "grid.449986.e"
+      ],
+      "preferred": "grid.449986.e"
+    },
     {
-      "label": "Hochschule für Musik und Theater Felix Mendelssohn Bartholdy Leipzig",
-      "iso639": "de"
-    }
-  ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+      "type": "isni",
       "all": [
         "0000 0001 2293 251X"
-      ]
+      ],
+      "preferred": null
     },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "1566553"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q312578"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/04msbx814",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hmt-leipzig.de/en/"
     },
-    "GRID": {
-      "preferred": "grid.449986.e",
-      "all": "grid.449986.e"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Music_and_Theatre_Leipzig"
+    }
+  ],
+  "names": [
+    {
+      "value": "HMT",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Musik und Theater Felix Mendelssohn Bartholdy Leipzig",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "University of Music and Theatre Leipzig",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2023-10-26",
+      "schema_version": "2.0"
     }
   }
 }

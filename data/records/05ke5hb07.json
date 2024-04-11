@@ -1,97 +1,87 @@
 {
-  "id": "https://ror.org/05ke5hb07",
-  "name": "Paul Langerhans Institute Dresden",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "https://tu-dresden.de/med/mf/plid"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "PLID"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Paul Langerhans Institut Dresden",
-      "iso639": "de"
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.056571,
+        "lng": 13.77599,
+        "name": "Dresden"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.507329.a"
+      ],
+      "preferred": "grid.507329.a"
+    }
+  ],
+  "id": "https://ror.org/05ke5hb07",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tu-dresden.de/med/mf/plid"
+    }
+  ],
+  "names": [
+    {
+      "value": "PLID",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Paul Langerhans Institut Dresden",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "Paul Langerhans Institute Dresden",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Helmholtz Zentrum München",
       "id": "https://ror.org/00cfam450"
     },
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "TU Dresden",
       "id": "https://ror.org/042aqky30"
     },
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "University Hospital Carl Gustav Carus",
       "id": "https://ror.org/04za5zm41"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.056571,
-      "lng": 13.77599,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.507329.a",
-      "all": "grid.507329.a"
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

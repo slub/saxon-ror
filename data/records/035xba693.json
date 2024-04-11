@@ -1,86 +1,70 @@
 {
-  "id": "https://ror.org/035xba693",
-  "name": "Krankenhaus Dresden-Friedrichstadt",
-  "types": [
-    "Healthcare"
+  "locations": [
+    {
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.059676,
+        "lng": 13.718177,
+        "name": "Dresden"
+      }
+    }
   ],
-  "links": [
-    "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": "",
-  "ip_addresses": [],
   "established": 1849,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.413263.1"
+      ],
+      "preferred": "grid.413263.1"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0000 8578 5687"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/035xba693",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
+    }
+  ],
+  "names": [
+    {
+      "value": "Krankenhaus Dresden-Friedrichstadt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Related",
+      "type": "related",
       "label": "TU Dresden",
       "id": "https://ror.org/042aqky30"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.059676,
-      "lng": 13.718177,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "healthcare"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0000 8578 5687"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.413263.1",
-      "all": "grid.413263.1"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

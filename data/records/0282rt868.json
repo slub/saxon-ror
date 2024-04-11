@@ -1,91 +1,82 @@
 {
-  "id": "https://ror.org/0282rt868",
-  "name": "German Hygiene Museum",
-  "types": [
-    "Archive"
-  ],
-  "links": [
-    "http://www.dhmd.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/German_Hygiene_Museum",
-  "labels": [
+  "locations": [
     {
-      "label": "Deutsches Hygiene-Museum",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1912,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.044167,
-      "lng": 13.746667,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.044167,
+        "lng": 13.746667,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1912,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.438116.9"
+      ],
+      "preferred": "grid.438116.9"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 2158 7427"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q874373"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/0282rt868",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dhmd.de/"
     },
-    "GRID": {
-      "preferred": "grid.438116.9",
-      "all": "grid.438116.9"
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/German_Hygiene_Museum"
+    }
+  ],
+  "names": [
+    {
+      "value": "Deutsches Hygiene-Museum",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "German Hygiene Museum",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "archive"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

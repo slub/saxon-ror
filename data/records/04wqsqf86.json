@@ -1,99 +1,89 @@
 {
-  "id": "https://ror.org/04wqsqf86",
-  "name": "Dresden Academy of Fine Arts",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "http://www.hfbk-dresden.de/en/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "HfBK"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Dresden_Academy_of_Fine_Arts",
-  "labels": [
+  "locations": [
     {
-      "label": "Hochschule für Bildende Künste Dresden",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1764,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.052778,
-      "lng": 13.7425,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.052778,
+        "lng": 13.7425,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1764,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.462289.3"
+      ],
+      "preferred": "grid.462289.3"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 0768 0430"
-      ]
+      ],
+      "preferred": null
     },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "7952467"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q464752"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/04wqsqf86",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hfbk-dresden.de/en/"
     },
-    "GRID": {
-      "preferred": "grid.462289.3",
-      "all": "grid.462289.3"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Dresden_Academy_of_Fine_Arts"
+    }
+  ],
+  "names": [
+    {
+      "value": "Dresden Academy of Fine Arts",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "HfBK",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Bildende Künste Dresden",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

@@ -1,101 +1,98 @@
 {
-  "id": "https://ror.org/026taa863",
-  "name": "Fraunhofer Institute for Machine Tools and Forming Technology",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.iwu.fraunhofer.de/en.html"
-  ],
-  "aliases": [
-    "Fraunhofer IWU"
-  ],
-  "acronyms": [
-    "IWU"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik",
-      "iso639": "de"
+      "geonames_id": 2940132,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.814252,
+        "lng": 12.926292,
+        "name": "Chemnitz"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1991,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.461651.1"
+      ],
+      "preferred": "grid.461651.1"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0004 0574 2038"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1452042"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/026taa863",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iwu.fraunhofer.de/en.html"
+    }
+  ],
+  "names": [
+    {
+      "value": "Fraunhofer IWU",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer Institute for Machine Tools and Forming Technology",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "IWU",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Fraunhofer Society",
       "id": "https://ror.org/05hkkdn48"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 50.814252,
-      "lng": 12.926292,
-      "postcode": null,
-      "primary": false,
-      "city": "Chemnitz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED41",
-          "name": "Chemnitz, Kreisfreie Stadt"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0574 2038"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q1452042"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.461651.1",
-      "all": "grid.461651.1"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

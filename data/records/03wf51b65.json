@@ -1,107 +1,103 @@
 {
-  "id": "https://ror.org/03wf51b65",
-  "name": "SLUB Dresden",
-  "email_address": null,
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      }
+    }
+  ],
   "established": 1556,
-  "types": [
-    "Archive"
-  ],
-  "relationships": [],
-  "addresses": [
+  "external_ids": [
     {
-      "lat": 51.05089,
-      "lng": 13.73832,
-      "state": null,
-      "state_code": null,
-      "city": "Dresden",
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
-    }
-  ],
-  "links": [
-    "https://www.slub-dresden.de"
-  ],
-  "aliases": [
-    "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
-  ],
-  "acronyms": [
-    "SLUB"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden",
-  "labels": [
-    {
-      "label": "Saxon State and University Library Dresden",
-      "iso639": "en"
-    }
-  ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 1939 5418"
-      ]
-    },
-    "FundRef": {
-      "preferred": "501100015022",
+      "type": "fundref",
       "all": [
         "501100015022"
-      ]
+      ],
+      "preferred": "501100015022"
     },
-    "OrgRef": {
-      "preferred": null,
+    {
+      "type": "grid",
       "all": [
-        "5150675"
-      ]
+        "grid.449614.a"
+      ],
+      "preferred": "grid.449614.a"
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 1939 5418"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
       "all": [
         "Q323270"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03wf51b65",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.slub-dresden.de"
     },
-    "GRID": {
-      "preferred": "grid.449614.a",
-      "all": "grid.449614.a"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden"
+    }
+  ],
+  "names": [
+    {
+      "value": "SLUB",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "SLUB Dresden",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Saxon State and University Library Dresden",
+      "types": [
+        "label"
+      ],
+      "lang": "en"
+    },
+    {
+      "value": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "archive"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-02-13",
+      "schema_version": "2.0"
     }
   }
 }

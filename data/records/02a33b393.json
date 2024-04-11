@@ -1,109 +1,95 @@
 {
-  "id": "https://ror.org/02a33b393",
-  "name": "Max Planck Institute for Evolutionary Anthropology",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.eva.mpg.de/index.html"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology",
-  "labels": [
+  "locations": [
     {
-      "label": "Max-Planck-Institut für Evolutionäre Anthropologie",
-      "iso639": "de"
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.320556,
+        "lng": 12.394444,
+        "name": "Leipzig"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1997,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "fundref",
+      "all": [
+        "501100007768"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "grid",
+      "all": [
+        "grid.419518.0"
+      ],
+      "preferred": "grid.419518.0"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 2159 1813"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q682926"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/02a33b393",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.eva.mpg.de/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology"
+    }
+  ],
+  "names": [
+    {
+      "value": "Max Planck Institute for Evolutionary Anthropology",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Max-Planck-Institut für Evolutionäre Anthropologie",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Max Planck Society",
       "id": "https://ror.org/01hhn8329"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.320556,
-      "lng": 12.394444,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2159 1813"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "FundRef": {
-      "preferred": null,
-      "all": [
-        "501100007768"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "968521"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q682926"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.419518.0",
-      "all": "grid.419518.0"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

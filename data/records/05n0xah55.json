@@ -1,80 +1,64 @@
 {
-  "id": "https://ror.org/05n0xah55",
-  "name": "Ev. Diakonissenkrankenhaus Leipzig",
-  "types": [
-    "Healthcare"
-  ],
-  "links": [
-    "https://www.diako-leipzig.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1900,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.343214,
-      "lng": 12.320478,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.343214,
+        "lng": 12.320478,
+        "name": "Leipzig"
       }
     }
   ],
-  "external_ids": {
-    "Wikidata": {
-      "preferred": null,
+  "established": 1900,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.507814.f"
+      ],
+      "preferred": "grid.507814.f"
+    },
+    {
+      "type": "wikidata",
       "all": [
         "Q1208335"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05n0xah55",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.diako-leipzig.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Ev. Diakonissenkrankenhaus Leipzig",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ],
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.507814.f",
-      "all": "grid.507814.f"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

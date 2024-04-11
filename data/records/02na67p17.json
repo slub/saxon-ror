@@ -1,74 +1,57 @@
 {
-  "id": "https://ror.org/02na67p17",
-  "name": "IBZ - Salzchemie (Germany)",
-  "types": [
-    "Company"
-  ],
-  "links": [
-    "http://www.ibz-freiberg.de/en"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": "",
-  "ip_addresses": [],
-  "established": 2003,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.935927,
-      "lng": 13.351048,
-      "postcode": null,
-      "primary": false,
-      "city": "Halsbrücke",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2911426,
-        "city": "Halsbrücke",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED43",
-          "name": "Mittelsachsen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2911426,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.935927,
+        "lng": 13.351048,
+        "name": "Halsbrücke"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.435358.c",
-      "all": "grid.435358.c"
+  "established": 2003,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.435358.c"
+      ],
+      "preferred": "grid.435358.c"
+    }
+  ],
+  "id": "https://ror.org/02na67p17",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ibz-freiberg.de/en"
+    }
+  ],
+  "names": [
+    {
+      "value": "IBZ - Salzchemie (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "company"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

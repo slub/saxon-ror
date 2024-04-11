@@ -1,114 +1,100 @@
 {
-  "id": "https://ror.org/01bf9rw71",
-  "name": "Max Planck Institute for the Physics of Complex Systems",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "https://www.pks.mpg.de/institute/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_the_Physics_of_Complex_Systems",
-  "labels": [
+  "locations": [
     {
-      "label": "Max-Planck-Institut für Physik Komplexer Systeme",
-      "iso639": "de"
-    }
-  ],
-  "email_address": "",
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [
-    {
-      "type": "Parent",
-      "label": "Max Planck Society",
-      "id": "https://ror.org/01hhn8329"
-    },
-    {
-      "type": "Child",
-      "label": "Center for Systems Biology Dresden",
-      "id": "https://ror.org/05hrn3e05"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.026986,
-      "lng": 13.716826,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.026986,
+        "lng": 13.716826,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2154 3117"
-      ]
-    },
-    "FundRef": {
-      "preferred": null,
+  "established": null,
+  "external_ids": [
+    {
+      "type": "fundref",
       "all": [
         "501100007767"
-      ]
+      ],
+      "preferred": null
     },
-    "OrgRef": {
-      "preferred": null,
+    {
+      "type": "grid",
       "all": [
-        "27440678"
-      ]
+        "grid.419560.f"
+      ],
+      "preferred": "grid.419560.f"
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 2154 3117"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
       "all": [
         "Q6795124"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/01bf9rw71",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pks.mpg.de/institute/"
     },
-    "GRID": {
-      "preferred": "grid.419560.f",
-      "all": "grid.419560.f"
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_the_Physics_of_Complex_Systems"
+    }
+  ],
+  "names": [
+    {
+      "value": "Max Planck Institute for the Physics of Complex Systems",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Max-Planck-Institut für Physik Komplexer Systeme",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "child",
+      "label": "Center for Systems Biology Dresden",
+      "id": "https://ror.org/05hrn3e05"
+    },
+    {
+      "type": "parent",
+      "label": "Max Planck Society",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

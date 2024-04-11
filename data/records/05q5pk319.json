@@ -1,93 +1,106 @@
 {
-  "id": "https://ror.org/05q5pk319",
-  "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1992,
-  "types": [
-    "Education"
-  ],
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "lat": 51.05089,
-      "lng": 13.73832,
-      "state": null,
-      "state_code": null,
-      "city": "Dresden",
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      }
     }
   ],
-  "links": [
-    "https://www.htw-dresden.de"
-  ],
-  "aliases": [
-    "HTW Dresden",
-    "Hochschule für Technik und Wirtschaft Dresden",
-    "Dresden University of Applied Sciences",
-    "HTWD - University of Applied Sciences"
-  ],
-  "acronyms": [
-    "HTWD"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1992,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.434947.9"
+      ],
+      "preferred": "grid.434947.9"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0004 0643 2840"
-      ]
+      ],
+      "preferred": null
     },
-    "GRID": {
-      "preferred": "grid.434947.9",
-      "all": "grid.434947.9"
-    },
-    "Wikidata": {
-      "preferred": "Q1622222",
+    {
+      "type": "wikidata",
       "all": [
         "Q1622222"
-      ]
+      ],
+      "preferred": "Q1622222"
+    }
+  ],
+  "id": "https://ror.org/05q5pk319",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.htw-dresden.de"
+    }
+  ],
+  "names": [
+    {
+      "value": "Dresden University of Applied Sciences",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "HTW Dresden",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "HTWD",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "HTWD - University of Applied Sciences",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Technik und Wirtschaft Dresden",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-02-21",
+      "schema_version": "2.0"
     }
   }
 }

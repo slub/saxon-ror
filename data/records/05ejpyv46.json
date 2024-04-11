@@ -1,92 +1,81 @@
 {
-  "id": "https://ror.org/05ejpyv46",
-  "name": "Applied Materials (Germany)",
-  "types": [
-    "Company"
+  "locations": [
+    {
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.078504,
+        "lng": 13.74897,
+        "name": "Dresden"
+      }
+    }
   ],
-  "links": [
-    "http://www.appliedmaterials.com/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Applied_Materials",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1967,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.432741.7"
+      ],
+      "preferred": "grid.432741.7"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0004 0374 139X"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q30255420"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05ejpyv46",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.appliedmaterials.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Applied_Materials"
+    }
+  ],
+  "names": [
+    {
+      "value": "Applied Materials (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Applied Materials (United States)",
       "id": "https://ror.org/04h1q4c89"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.078504,
-      "lng": 13.74897,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "company"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0374 139X"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q30255420"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.432741.7",
-      "all": "grid.432741.7"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

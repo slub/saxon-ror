@@ -1,94 +1,96 @@
 {
-  "id": "https://ror.org/01y01jq30",
-  "name": "Carl Maria von Weber College of Music",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "http://www.hfmdd.de/english/welcome/"
-  ],
-  "aliases": [
-    "Dresden Conservatory",
-    "Dresden Royal Conservatory"
-  ],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Musik_Carl_Maria_von_Weber",
-  "labels": [
+  "locations": [
     {
-      "label": "Hochschule für Musik \"Carl Maria von Weber\"",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1856,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.054224,
-      "lng": 13.724863,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.054224,
+        "lng": 13.724863,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1856,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.461657.7"
+      ],
+      "preferred": "grid.461657.7"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 2319 9065"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q468181"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/01y01jq30",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hfmdd.de/english/welcome/"
     },
-    "GRID": {
-      "preferred": "grid.461657.7",
-      "all": "grid.461657.7"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Musik_Carl_Maria_von_Weber"
+    }
+  ],
+  "names": [
+    {
+      "value": "Carl Maria von Weber College of Music",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Dresden Conservatory",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Dresden Royal Conservatory",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule für Musik \"Carl Maria von Weber\"",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

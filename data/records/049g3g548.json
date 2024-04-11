@@ -1,74 +1,57 @@
 {
-  "id": "https://ror.org/049g3g548",
-  "name": "Sana Kliniken Leipziger Land",
-  "types": [
-    "Healthcare"
-  ],
-  "links": [
-    "https://www.kliniken-leipziger-land.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.13425,
-      "lng": 12.50554,
-      "postcode": null,
-      "primary": false,
-      "city": "Borna",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2946172,
-        "city": "Borna",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2946172,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.13425,
+        "lng": 12.50554,
+        "name": "Borna"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.491944.5",
-      "all": "grid.491944.5"
+  "established": null,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.491944.5"
+      ],
+      "preferred": "grid.491944.5"
+    }
+  ],
+  "id": "https://ror.org/049g3g548",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kliniken-leipziger-land.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Sana Kliniken Leipziger Land",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

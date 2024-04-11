@@ -1,92 +1,77 @@
 {
-  "id": "https://ror.org/04wkp4f46",
-  "name": "Klinikum Chemnitz",
-  "email_address": null,
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2940132,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.8357,
+        "lng": 12.92922,
+        "name": "Chemnitz"
+      }
+    }
+  ],
   "established": 1994,
-  "types": [
-    "Healthcare"
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.459629.5"
+      ],
+      "preferred": "grid.459629.5"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0004 0389 4214"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1774602"
+      ],
+      "preferred": "Q1774602"
+    }
+  ],
+  "id": "https://ror.org/04wkp4f46",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.klinikumchemnitz.de"
+    }
+  ],
+  "names": [
+    {
+      "value": "Klinikum Chemnitz",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
   ],
   "relationships": [
     {
       "label": "Leipzig University",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/03s7gtk40"
     }
   ],
-  "addresses": [
-    {
-      "lat": 50.8357,
-      "lng": 12.92922,
-      "state": null,
-      "state_code": null,
-      "city": "Chemnitz",
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
-    }
-  ],
-  "links": [
-    "https://www.klinikumchemnitz.de"
-  ],
-  "aliases": [],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0389 4214"
-      ]
+  "types": [
+    "healthcare"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.459629.5",
-      "all": "grid.459629.5"
-    },
-    "Wikidata": {
-      "preferred": "Q1774602",
-      "all": [
-        "Q1774602"
-      ]
+    "last_modified": {
+      "date": "2023-11-08",
+      "schema_version": "2.0"
     }
   }
 }

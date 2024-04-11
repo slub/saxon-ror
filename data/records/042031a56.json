@@ -1,76 +1,64 @@
 {
-  "id": "https://ror.org/042031a56",
-  "name": "Verband Sächsischer Bildungsinstitute",
-  "types": [
-    "Other"
-  ],
-  "links": [
-    "https://www.vsbi.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "VSBI"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1991,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.982978,
-      "lng": 13.8583,
-      "postcode": null,
-      "primary": false,
-      "city": "Heidenau",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2907887,
-        "city": "Heidenau",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2907887,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.982978,
+        "lng": 13.8583,
+        "name": "Heidenau"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.506587.9",
-      "all": "grid.506587.9"
+  "established": 1991,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.506587.9"
+      ],
+      "preferred": "grid.506587.9"
+    }
+  ],
+  "id": "https://ror.org/042031a56",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vsbi.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "VSBI",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Verband Sächsischer Bildungsinstitute",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "other"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

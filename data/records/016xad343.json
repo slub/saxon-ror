@@ -1,101 +1,98 @@
 {
-  "id": "https://ror.org/016xad343",
-  "name": "Senckenberg Natural History Collections Dresden",
-  "types": [
-    "Archive"
-  ],
-  "links": [
-    "https://www.senckenberg.de/en/institutes/senckenberg-naturhistorische-sammlung-dresden/"
-  ],
-  "aliases": [
-    "State Natural History Collections of Dresden"
-  ],
-  "acronyms": [
-    "SGN"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Senckenberg Naturhistorische Sammlungen Dresden",
-      "iso639": "de"
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.1288834,
+        "lng": 13.7925417,
+        "name": "Dresden"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 2009,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.512720.3"
+      ],
+      "preferred": "grid.512720.3"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0000 9326 155X"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q2269939"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/016xad343",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.senckenberg.de/en/institutes/senckenberg-naturhistorische-sammlung-dresden/"
+    }
+  ],
+  "names": [
+    {
+      "value": "SGN",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Senckenberg Natural History Collections Dresden",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Senckenberg Naturhistorische Sammlungen Dresden",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "State Natural History Collections of Dresden",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Senckenberg Society for Nature Research",
       "id": "https://ror.org/00xmqmx64"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.1288834,
-      "lng": 13.7925417,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "archive"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0000 9326 155X"
-      ]
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q2269939"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.512720.3",
-      "all": "grid.512720.3"
+    "last_modified": {
+      "date": "2021-09-23",
+      "schema_version": "2.0"
     }
   }
 }

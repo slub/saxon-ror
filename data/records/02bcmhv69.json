@@ -1,86 +1,74 @@
 {
-  "id": "https://ror.org/02bcmhv69",
-  "name": "Electrovaya (Germany)",
-  "types": [
-    "Company"
+  "locations": [
+    {
+      "geonames_id": 2893437,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.29838,
+        "lng": 14.098059,
+        "name": "Kamenz"
+      }
+    }
   ],
-  "links": [
-    "http://www.electrovaya.com/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Electrovaya",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1996,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.473071.6"
+      ],
+      "preferred": "grid.473071.6"
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q50508106"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/02bcmhv69",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.electrovaya.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Electrovaya"
+    }
+  ],
+  "names": [
+    {
+      "value": "Electrovaya (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Electrovaya (Canada)",
       "id": "https://ror.org/03xm51a29"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.29838,
-      "lng": 14.098059,
-      "postcode": null,
-      "primary": false,
-      "city": "Kamenz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2893437,
-        "city": "Kamenz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2C",
-          "name": "Bautzen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "company"
   ],
-  "external_ids": {
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q50508106"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.473071.6",
-      "all": "grid.473071.6"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

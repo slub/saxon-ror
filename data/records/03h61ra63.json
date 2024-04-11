@@ -1,101 +1,98 @@
 {
-  "id": "https://ror.org/03h61ra63",
-  "name": "Fraunhofer Center for International Management and Knowledge Economy",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "https://www.imw.fraunhofer.de/"
-  ],
-  "aliases": [
-    "Fraunhofer IMW"
-  ],
-  "acronyms": [
-    "IMW"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Fraunhofer-Zentrum für Internationales Management und Wissensökonomie",
-      "iso639": "de"
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.338476,
+        "lng": 12.376974,
+        "name": "Leipzig"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 2006,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.462230.1"
+      ],
+      "preferred": "grid.462230.1"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0004 0542 1568"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1452057"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03h61ra63",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.imw.fraunhofer.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Fraunhofer Center for International Management and Knowledge Economy",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer IMW",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer-Zentrum für Internationales Management und Wissensökonomie",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "IMW",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Fraunhofer Society",
       "id": "https://ror.org/05hkkdn48"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.338476,
-      "lng": 12.376974,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0542 1568"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q1452057"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.462230.1",
-      "all": "grid.462230.1"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

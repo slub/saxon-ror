@@ -1,99 +1,95 @@
 {
-  "id": "https://ror.org/05jv9s411",
-  "name": "Senckenberg Museum für Naturkunde Görlitz",
-  "types": [
-    "Archive"
-  ],
-  "links": [
-    "https://museumgoerlitz.senckenberg.de/"
-  ],
-  "aliases": [
-    "Naturkundemuseum Görlitz"
-  ],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Natural_History,_G%C3%B6rlitz",
-  "labels": [
+  "locations": [
     {
-      "label": "Senckenberg Museum of Natural History Görlitz",
-      "iso639": "en"
+      "geonames_id": 2918987,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.153484,
+        "lng": 14.986746,
+        "name": "Görlitz"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1860,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.500044.5"
+      ],
+      "preferred": "grid.500044.5"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 1016 2925"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q2269936"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05jv9s411",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://museumgoerlitz.senckenberg.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Museum_of_Natural_History,_G%C3%B6rlitz"
+    }
+  ],
+  "names": [
+    {
+      "value": "Naturkundemuseum Görlitz",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Senckenberg Museum für Naturkunde Görlitz",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Senckenberg Museum of Natural History Görlitz",
+      "types": [
+        "label"
+      ],
+      "lang": "en"
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Senckenberg Society for Nature Research",
       "id": "https://ror.org/00xmqmx64"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.153484,
-      "lng": 14.986746,
-      "postcode": null,
-      "primary": false,
-      "city": "Görlitz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2918987,
-        "city": "Görlitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2D",
-          "name": "Görlitz"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "archive"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 1016 2925"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q2269936"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.500044.5",
-      "all": "grid.500044.5"
+    "last_modified": {
+      "date": "2021-09-23",
+      "schema_version": "2.0"
     }
   }
 }

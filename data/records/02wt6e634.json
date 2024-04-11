@@ -1,93 +1,84 @@
 {
-  "id": "https://ror.org/02wt6e634",
-  "name": "Leibniz Institute for Regional Geography",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.ifl-leipzig.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "IfL"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Leibniz-Institut für Länderkunde",
-      "iso639": "de"
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.347249,
+        "lng": 12.471643,
+        "name": "Leipzig"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1896,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.461797.a"
+      ],
+      "preferred": "grid.461797.a"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 1014 1323"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/02wt6e634",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ifl-leipzig.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "IfL",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Leibniz Institute for Regional Geography",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Leibniz-Institut für Länderkunde",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Leibniz Association",
       "id": "https://ror.org/01n6r0e97"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.347249,
-      "lng": 12.471643,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 1014 1323"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.461797.a",
-      "all": "grid.461797.a"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

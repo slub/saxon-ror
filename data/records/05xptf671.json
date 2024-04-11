@@ -1,74 +1,57 @@
 {
-  "id": "https://ror.org/05xptf671",
-  "name": "Kurt-Schwabe-Institut für Mess- und Sensortechnik Meinsberg",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.ksi-meinsberg.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1945,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.0863641,
-      "lng": 13.0260025,
-      "postcode": null,
-      "primary": false,
-      "city": "Waldheim",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2814956,
-        "city": "Waldheim",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED43",
-          "name": "Mittelsachsen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2814956,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.0863641,
+        "lng": 13.0260025,
+        "name": "Waldheim"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.482493.0",
-      "all": "grid.482493.0"
+  "established": 1945,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.482493.0"
+      ],
+      "preferred": "grid.482493.0"
+    }
+  ],
+  "id": "https://ror.org/05xptf671",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ksi-meinsberg.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Kurt-Schwabe-Institut für Mess- und Sensortechnik Meinsberg",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }
