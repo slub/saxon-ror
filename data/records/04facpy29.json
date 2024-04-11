@@ -1,88 +1,77 @@
 {
-  "id": "https://ror.org/04facpy29",
-  "name": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
-  "email_address": null,
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      }
+    }
+  ],
   "established": 2008,
-  "types": [
-    "Government"
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.500242.1"
+      ],
+      "preferred": "grid.500242.1"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0000 9466 9696"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/04facpy29",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lfulg.sachsen.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "LfULG",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
   ],
   "relationships": [
     {
       "label": "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft",
-      "type": "Parent",
+      "type": "parent",
       "id": "https://ror.org/03ekpdz59"
     }
   ],
-  "addresses": [
-    {
-      "lat": 51.05089,
-      "lng": 13.73832,
-      "state": null,
-      "state_code": null,
-      "city": "Dresden",
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
-    }
-  ],
-  "links": [
-    "http://www.lfulg.sachsen.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "LfULG"
-  ],
   "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0000 9466 9696"
-      ]
+  "types": [
+    "government"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.500242.1",
-      "all": "grid.500242.1"
+    "last_modified": {
+      "date": "2024-03-28",
+      "schema_version": "2.0"
     }
   }
 }

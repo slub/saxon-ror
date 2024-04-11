@@ -1,88 +1,78 @@
 {
-  "id": "https://ror.org/020268t49",
-  "name": "Papiertechnische Stiftung",
-  "types": [
-    "Nonprofit"
-  ],
-  "links": [
-    "http://www.ptspaper.com/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "PTS"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1951,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.967636,
-      "lng": 13.884471,
-      "postcode": null,
-      "primary": false,
-      "city": "Heidenau",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2907887,
-        "city": "Heidenau",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2907887,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.967636,
+        "lng": 13.884471,
+        "name": "Heidenau"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1951,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.4831.e"
+      ],
+      "preferred": "grid.4831.e"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 0682 2580"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q2050753"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/020268t49",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ptspaper.com/"
+    }
+  ],
+  "names": [
+    {
+      "value": "PTS",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
     },
-    "GRID": {
-      "preferred": "grid.4831.e",
-      "all": "grid.4831.e"
+    {
+      "value": "Papiertechnische Stiftung",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

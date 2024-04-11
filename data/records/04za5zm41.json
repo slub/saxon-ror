@@ -1,134 +1,126 @@
 {
-  "id": "https://ror.org/04za5zm41",
-  "name": "University Hospital Carl Gustav Carus",
-  "email_address": "",
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      }
+    }
+  ],
   "established": 1999,
-  "types": [
-    "Healthcare"
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.412282.f"
+      ],
+      "preferred": "grid.412282.f"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 1091 2917"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1651640"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/04za5zm41",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uniklinikum-dresden.de/en"
+    }
+  ],
+  "names": [
+    {
+      "value": "Carl Gustav Carus Hospital",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "University Hospital Carl Gustav Carus",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Universitätsklinikum Carl Gustav Carus Dresden",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
   ],
   "relationships": [
     {
-      "label": "TU Dresden",
-      "type": "Related",
-      "id": "https://ror.org/042aqky30"
-    },
-    {
       "label": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/056gvz809"
     },
     {
       "label": "Klinik und Poliklinik für Psychotherapie und Psychosomatik",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/05medrv10"
     },
     {
       "label": "Klinik und Poliklinik für Urologie",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/00gfym921"
     },
     {
       "label": "Paul Langerhans Institute Dresden",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/05ke5hb07"
     },
     {
       "label": "Universitäts Kinder Frauenzentrum",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/015e4mc09"
     },
     {
       "label": "TransDeN Lab",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/01dj9qb53"
     },
     {
       "label": "Nationales Centrum für Tumorerkrankungen Dresden",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/01zy07c70"
-    }
-  ],
-  "addresses": [
+    },
     {
-      "lat": 51.05089,
-      "lng": 13.73832,
-      "state": null,
-      "state_code": null,
-      "city": "Dresden",
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
+      "label": "TU Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
     }
   ],
-  "links": [
-    "https://www.uniklinikum-dresden.de/en"
-  ],
-  "aliases": [
-    "Carl Gustav Carus Hospital"
-  ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "",
-  "labels": [
-    {
-      "label": "Universitätsklinikum Carl Gustav Carus Dresden",
-      "iso639": "de"
-    }
+  "types": [
+    "healthcare"
   ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 1091 2917"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q1651640"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.412282.f",
-      "all": "grid.412282.f"
+    "last_modified": {
+      "date": "2023-04-27",
+      "schema_version": "2.0"
     }
   }
 }

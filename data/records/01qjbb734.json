@@ -1,81 +1,71 @@
 {
-  "id": "https://ror.org/01qjbb734",
-  "name": "Saxon Police Force",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "https://www.polizei.sachsen.de/eng/index.htm"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "FH"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Hochschule der Sächsischen Polizei",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1994,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.354551,
-      "lng": 14.964398,
-      "postcode": null,
-      "primary": false,
-      "city": "Rothenburg",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2844062,
-        "city": "Rothenburg",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2D",
-          "name": "Görlitz"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2844062,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.354551,
+        "lng": 14.964398,
+        "name": "Rothenburg"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.466318.e",
-      "all": "grid.466318.e"
+  "established": 1994,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.466318.e"
+      ],
+      "preferred": "grid.466318.e"
+    }
+  ],
+  "id": "https://ror.org/01qjbb734",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.polizei.sachsen.de/eng/index.htm"
+    }
+  ],
+  "names": [
+    {
+      "value": "FH",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Hochschule der Sächsischen Polizei",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "Saxon Police Force",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

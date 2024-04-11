@@ -1,82 +1,71 @@
 {
-  "id": "https://ror.org/01zvnqb17",
-  "name": "Organic Electronics Saxony (Germany)",
-  "types": [
-    "Company"
-  ],
-  "links": [
-    "https://oes-net.de/en/home/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "OES"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 2008,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.031513,
-      "lng": 13.714056,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.031513,
+        "lng": 13.714056,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "Wikidata": {
-      "preferred": null,
+  "established": 2008,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.499340.3"
+      ],
+      "preferred": "grid.499340.3"
+    },
+    {
+      "type": "wikidata",
       "all": [
         "Q21040689"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/01zvnqb17",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://oes-net.de/en/home/"
+    }
+  ],
+  "names": [
+    {
+      "value": "OES",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
     },
-    "GRID": {
-      "preferred": "grid.499340.3",
-      "all": "grid.499340.3"
+    {
+      "value": "Organic Electronics Saxony (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "company"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

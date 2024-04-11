@@ -1,76 +1,64 @@
 {
-  "id": "https://ror.org/038f3wn67",
-  "name": "Freiberger Compound Materials (Germany)",
-  "types": [
-    "Company"
-  ],
-  "links": [
-    "https://freiberger.com/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "FCM"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1995,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.903611,
-      "lng": 13.356814,
-      "postcode": null,
-      "primary": false,
-      "city": "Freiberg",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2925192,
-        "city": "Freiberg",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED43",
-          "name": "Mittelsachsen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2925192,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.903611,
+        "lng": 13.356814,
+        "name": "Freiberg"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.507793.f",
-      "all": "grid.507793.f"
+  "established": 1995,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.507793.f"
+      ],
+      "preferred": "grid.507793.f"
+    }
+  ],
+  "id": "https://ror.org/038f3wn67",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://freiberger.com/"
+    }
+  ],
+  "names": [
+    {
+      "value": "FCM",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Freiberger Compound Materials (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "company"
+  ],
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

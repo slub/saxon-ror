@@ -1,86 +1,70 @@
 {
-  "id": "https://ror.org/05ktfmr66",
-  "name": "Helios Vogtland Klinikum Plauen",
-  "types": [
-    "Healthcare"
+  "locations": [
+    {
+      "geonames_id": 2853292,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.492626,
+        "lng": 12.154422,
+        "name": "Plauen"
+      }
+    }
   ],
-  "links": [
-    "https://www.helios-gesundheit.de/kliniken/plauen-vogtland-klinikum/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1255,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.491873.0"
+      ],
+      "preferred": "grid.491873.0"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0000 9466 4668"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05ktfmr66",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.helios-gesundheit.de/kliniken/plauen-vogtland-klinikum/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Helios Vogtland Klinikum Plauen",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Helios Kliniken",
       "id": "https://ror.org/04fjkxc67"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 50.492626,
-      "lng": 12.154422,
-      "postcode": null,
-      "primary": false,
-      "city": "Plauen",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2853292,
-        "city": "Plauen",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED44",
-          "name": "Vogtlandkreis"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "healthcare"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0000 9466 4668"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.491873.0",
-      "all": "grid.491873.0"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

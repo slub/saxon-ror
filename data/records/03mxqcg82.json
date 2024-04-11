@@ -1,91 +1,82 @@
 {
-  "id": "https://ror.org/03mxqcg82",
-  "name": "Leipzig/Halle Airport",
-  "types": [
-    "Other"
-  ],
-  "links": [
-    "https://www.leipzig-halle-airport.de/en/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Leipzig/Halle_Airport",
-  "labels": [
+  "locations": [
     {
-      "label": "Flughafen Leipzig/Halle",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1927,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.422084,
-      "lng": 12.220369,
-      "postcode": null,
-      "primary": false,
-      "city": "Schkeuditz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2839050,
-        "city": "Schkeuditz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED53",
-          "name": "Nordsachsen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2839050,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.422084,
+        "lng": 12.220369,
+        "name": "Schkeuditz"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1927,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.469965.1"
+      ],
+      "preferred": "grid.469965.1"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 2196 5897"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q668382"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03mxqcg82",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.leipzig-halle-airport.de/en/"
     },
-    "GRID": {
-      "preferred": "grid.469965.1",
-      "all": "grid.469965.1"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Leipzig/Halle_Airport"
+    }
+  ],
+  "names": [
+    {
+      "value": "Flughafen Leipzig/Halle",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "Leipzig/Halle Airport",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "other"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

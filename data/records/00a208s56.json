@@ -1,111 +1,102 @@
 {
-  "id": "https://ror.org/00a208s56",
-  "name": "Chemnitz University of Technology",
-  "email_address": "",
-  "ip_addresses": [],
+  "locations": [
+    {
+      "geonames_id": 2940132,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.8357,
+        "lng": 12.92922,
+        "name": "Chemnitz"
+      }
+    }
+  ],
   "established": 1836,
-  "types": [
-    "Education"
+  "external_ids": [
+    {
+      "type": "fundref",
+      "all": [
+        "100009117"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "grid",
+      "all": [
+        "grid.6810.f"
+      ],
+      "preferred": "grid.6810.f"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 2294 5505"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q159630"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/00a208s56",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tu-chemnitz.de/index.html.en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Chemnitz_University_of_Technology"
+    }
+  ],
+  "names": [
+    {
+      "value": "Chemnitz University of Technology",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "TU Chemnitz",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Technische Universität Chemnitz",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
   ],
   "relationships": [
     {
       "label": "An-Institut für Transfer und Weiterbildung",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/054kgce12"
     }
   ],
-  "addresses": [
-    {
-      "lat": 50.8357,
-      "lng": 12.92922,
-      "state": null,
-      "state_code": null,
-      "city": "Chemnitz",
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "id": 2842566,
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2921044
-    }
-  ],
-  "links": [
-    "https://www.tu-chemnitz.de/index.html.en"
-  ],
-  "aliases": [
-    "TU Chemnitz"
-  ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Chemnitz_University_of_Technology",
-  "labels": [
-    {
-      "label": "Technische Universität Chemnitz",
-      "iso639": "de"
-    }
+  "types": [
+    "education"
   ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2294 5505"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "FundRef": {
-      "preferred": null,
-      "all": [
-        "100009117"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "1985783"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q159630"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.6810.f",
-      "all": "grid.6810.f"
+    "last_modified": {
+      "date": "2023-04-12",
+      "schema_version": "2.0"
     }
   }
 }

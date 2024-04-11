@@ -1,82 +1,70 @@
 {
-  "id": "https://ror.org/054kgce12",
-  "name": "An-Institut für Transfer und Weiterbildung",
-  "types": [
-    "Education"
+  "locations": [
+    {
+      "geonames_id": 2940132,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.820645,
+        "lng": 12.929054,
+        "name": "Chemnitz"
+      }
+    }
   ],
-  "links": [
-    "https://www.tuced.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "TUCed"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 2001,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.506568.8"
+      ],
+      "preferred": "grid.506568.8"
+    }
+  ],
+  "id": "https://ror.org/054kgce12",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tuced.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "An-Institut für Transfer und Weiterbildung",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "TUCed",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Chemnitz University of Technology",
       "id": "https://ror.org/00a208s56"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 50.820645,
-      "lng": 12.929054,
-      "postcode": null,
-      "primary": false,
-      "city": "Chemnitz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED41",
-          "name": "Chemnitz, Kreisfreie Stadt"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "education"
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.506568.8",
-      "all": "grid.506568.8"
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

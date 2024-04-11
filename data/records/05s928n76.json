@@ -1,94 +1,88 @@
 {
-  "id": "https://ror.org/05s928n76",
-  "name": "Bach Archiv Leipzig",
-  "types": [
-    "Archive"
+  "locations": [
+    {
+      "geonames_id": 2879139,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.338889,
+        "lng": 12.372222,
+        "name": "Leipzig"
+      }
+    }
   ],
-  "links": [
-    "https://www.bach-leipzig.de/de/bach-archiv"
-  ],
-  "aliases": [
-    "Bach-Archiv"
-  ],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Bach_Archive",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1950,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.507520.5"
+      ],
+      "preferred": "grid.507520.5"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0004 0397 0029"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q798038"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05s928n76",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bach-leipzig.de/de/bach-archiv"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bach_Archive"
+    }
+  ],
+  "names": [
+    {
+      "value": "Bach Archiv Leipzig",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Bach-Archiv",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Leipzig University",
       "id": "https://ror.org/03s7gtk40"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.338889,
-      "lng": 12.372222,
-      "postcode": null,
-      "primary": false,
-      "city": "Leipzig",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2879139,
-        "city": "Leipzig",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED5",
-          "name": "Leipzig"
-        },
-        "nuts_level3": {
-          "code": "DED52",
-          "name": "Leipzig"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "archive"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0397 0029"
-      ]
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q798038"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.507520.5",
-      "all": "grid.507520.5"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

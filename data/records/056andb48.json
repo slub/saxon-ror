@@ -1,76 +1,64 @@
 {
-  "id": "https://ror.org/056andb48",
-  "name": "Institut für Leichte Elektrische Antriebe und Generatoren (Germany)",
-  "types": [
-    "Company"
-  ],
-  "links": [
-    "https://www.ileag.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "ILEAG"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.72939,
-      "lng": 12.46788,
-      "postcode": null,
-      "primary": false,
-      "city": "Zwickau",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2803560,
-        "city": "Zwickau",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED45",
-          "name": "Zwickau"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2803560,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.72939,
+        "lng": 12.46788,
+        "name": "Zwickau"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.506291.9",
-      "all": "grid.506291.9"
+  "established": null,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.506291.9"
+      ],
+      "preferred": "grid.506291.9"
+    }
+  ],
+  "id": "https://ror.org/056andb48",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ileag.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "ILEAG",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Institut für Leichte Elektrische Antriebe und Generatoren (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "company"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

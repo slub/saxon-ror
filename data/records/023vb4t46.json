@@ -1,82 +1,71 @@
 {
-  "id": "https://ror.org/023vb4t46",
-  "name": "Institut für Sächsische Geschichte und Volkskunde",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.isgv.de/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "ISGV"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1997,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.029412,
-      "lng": 13.739142,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.029412,
+        "lng": 13.739142,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1997,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.461669.a"
+      ],
+      "preferred": "grid.461669.a"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0004 4682 6924"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/023vb4t46",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.isgv.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "ISGV",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
     },
-    "GRID": {
-      "preferred": "grid.461669.a",
-      "all": "grid.461669.a"
+    {
+      "value": "Institut für Sächsische Geschichte und Volkskunde",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

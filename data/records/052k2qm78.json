@@ -1,76 +1,64 @@
 {
-  "id": "https://ror.org/052k2qm78",
-  "name": "Industrial Research & Engineering (Germany)",
-  "types": [
-    "Company"
-  ],
-  "links": [
-    "http://www.ire-germany.com/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "IRE"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.120803,
-      "lng": 13.842762,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.120803,
+        "lng": 13.842762,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.506306.6",
-      "all": "grid.506306.6"
+  "established": null,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.506306.6"
+      ],
+      "preferred": "grid.506306.6"
+    }
+  ],
+  "id": "https://ror.org/052k2qm78",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ire-germany.com/"
+    }
+  ],
+  "names": [
+    {
+      "value": "IRE",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Industrial Research & Engineering (Germany)",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "company"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

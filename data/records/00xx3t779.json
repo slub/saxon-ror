@@ -1,76 +1,64 @@
 {
-  "id": "https://ror.org/00xx3t779",
-  "name": "ITW",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://itw2.itw-chemnitz.de/"
-  ],
-  "aliases": [
-    "Institut für innovative Technologien, Technologietransfer, Ausbildung und berufsbegleitende Weiterbildung"
-  ],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.818852,
-      "lng": 12.886897,
-      "postcode": null,
-      "primary": false,
-      "city": "Chemnitz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2940132,
-        "city": "Chemnitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED41",
-          "name": "Chemnitz, Kreisfreie Stadt"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2940132,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.818852,
+        "lng": 12.886897,
+        "name": "Chemnitz"
       }
     }
   ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.482431.8",
-      "all": "grid.482431.8"
+  "established": null,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.482431.8"
+      ],
+      "preferred": "grid.482431.8"
+    }
+  ],
+  "id": "https://ror.org/00xx3t779",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://itw2.itw-chemnitz.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "ITW",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Institut für innovative Technologien, Technologietransfer, Ausbildung und berufsbegleitende Weiterbildung",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

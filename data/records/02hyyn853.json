@@ -1,93 +1,82 @@
 {
-  "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [],
-  "links": [
-    "https://www.freistaat.sachsen.de"
-  ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  },
-  "name": "Freistaat Sachsen",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Saxony",
-  "addresses": [
+  "locations": [
     {
-      "lat": 51.05089,
-      "lng": 13.73832,
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "city": "Dresden",
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "geonames_admin1": {
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "id": 2842566,
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": "DE.13.00"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      },
-      "primary": false,
-      "postcode": null,
-      "line": null
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      }
     }
   ],
-  "types": [
-    "Government"
-  ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": "0000 0004 0555 6964",
-      "all": [
-        "0000 0004 0555 6964"
-      ]
-    },
-    "Wikidata": {
-      "preferred": "Q1202",
-      "all": [
-        "Q1202"
-      ]
-    },
-    "FundRef": {
-      "preferred": "501100014913",
+  "established": null,
+  "external_ids": [
+    {
+      "type": "fundref",
       "all": [
         "501100014913"
-      ]
-    }
-  },
-  "established": null,
-  "relationships": [],
-  "email_address": null,
-  "id": "https://ror.org/02hyyn853",
-  "labels": [
+      ],
+      "preferred": "501100014913"
+    },
     {
-      "label": "Free State of Saxony",
-      "iso639": "en"
+      "type": "isni",
+      "all": [
+        "0000 0004 0555 6964"
+      ],
+      "preferred": "0000 0004 0555 6964"
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1202"
+      ],
+      "preferred": "Q1202"
     }
   ],
-  "status": "active"
+  "id": "https://ror.org/02hyyn853",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.freistaat.sachsen.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Saxony"
+    }
+  ],
+  "names": [
+    {
+      "value": "Free State of Saxony",
+      "types": [
+        "label"
+      ],
+      "lang": "en"
+    },
+    {
+      "value": "Freistaat Sachsen",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "government"
+  ],
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-02-13",
+      "schema_version": "2.0"
+    }
+  }
 }

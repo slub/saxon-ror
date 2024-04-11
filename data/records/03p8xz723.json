@@ -1,80 +1,64 @@
 {
-  "id": "https://ror.org/03p8xz723",
-  "name": "Lausitzer Seenland Klinikum",
-  "types": [
-    "Healthcare"
-  ],
-  "links": [
-    "https://www.seenlandklinikum.de/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1898,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 51.442363,
-      "lng": 14.272871,
-      "postcode": null,
-      "primary": false,
-      "city": "Hoyerswerda",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2898304,
-        "city": "Hoyerswerda",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2C",
-          "name": "Bautzen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2898304,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.442363,
+        "lng": 14.272871,
+        "name": "Hoyerswerda"
       }
     }
   ],
-  "external_ids": {
-    "Wikidata": {
-      "preferred": null,
+  "established": 1898,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.507539.d"
+      ],
+      "preferred": "grid.507539.d"
+    },
+    {
+      "type": "wikidata",
       "all": [
         "Q81654821"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/03p8xz723",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.seenlandklinikum.de/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Lausitzer Seenland Klinikum",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
     },
-    "GRID": {
-      "preferred": "grid.507539.d",
-      "all": "grid.507539.d"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

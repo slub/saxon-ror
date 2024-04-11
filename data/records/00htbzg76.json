@@ -1,91 +1,82 @@
 {
-  "id": "https://ror.org/00htbzg76",
-  "name": "Saxon Memorial Foundation",
-  "types": [
-    "Nonprofit"
-  ],
-  "links": [
-    "https://en.stsg.de"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Stiftung_S%C3%A4chsische_Gedenkst%C3%A4tten_zur_Erinnerung_an_die_Opfer_politischer_Gewaltherrschaft",
-  "labels": [
+  "locations": [
     {
-      "label": "Stiftung Sächsische Gedenkstätten zur Erinnerung an die Opfer politischer Gewaltherrschaft",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1994,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.026735,
-      "lng": 13.727314,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.026735,
+        "lng": 13.727314,
+        "name": "Dresden"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1994,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.500856.e"
+      ],
+      "preferred": "grid.500856.e"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0000 9411 915X"
-      ]
+      ],
+      "preferred": null
     },
-    "Wikidata": {
-      "preferred": null,
+    {
+      "type": "wikidata",
       "all": [
         "Q2349185"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/00htbzg76",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://en.stsg.de"
     },
-    "GRID": {
-      "preferred": "grid.500856.e",
-      "all": "grid.500856.e"
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Stiftung_S%C3%A4chsische_Gedenkst%C3%A4tten_zur_Erinnerung_an_die_Opfer_politischer_Gewaltherrschaft"
+    }
+  ],
+  "names": [
+    {
+      "value": "Saxon Memorial Foundation",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Stiftung Sächsische Gedenkstätten zur Erinnerung an die Opfer politischer Gewaltherrschaft",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ],
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

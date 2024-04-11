@@ -1,101 +1,98 @@
 {
-  "id": "https://ror.org/05h8wjh50",
-  "name": "Fraunhofer Institute for Material and Beam Technology",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.iws.fraunhofer.de/en.html"
-  ],
-  "aliases": [
-    "Fraunhofer IWS"
-  ],
-  "acronyms": [
-    "IWS"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Fraunhofer-Institut für Werkstoff- und Strahltechnik",
-      "iso639": "de"
+      "geonames_id": 2935022,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.030214,
+        "lng": 13.782145,
+        "name": "Dresden"
+      }
     }
   ],
-  "email_address": null,
-  "ip_addresses": [],
   "established": 1990,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.461641.0"
+      ],
+      "preferred": "grid.461641.0"
+    },
+    {
+      "type": "isni",
+      "all": [
+        "0000 0001 0273 2836"
+      ],
+      "preferred": null
+    },
+    {
+      "type": "wikidata",
+      "all": [
+        "Q1452043"
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/05h8wjh50",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iws.fraunhofer.de/en.html"
+    }
+  ],
+  "names": [
+    {
+      "value": "Fraunhofer IWS",
+      "types": [
+        "alias"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer Institute for Material and Beam Technology",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Fraunhofer-Institut für Werkstoff- und Strahltechnik",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
+    },
+    {
+      "value": "IWS",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    }
+  ],
   "relationships": [
     {
-      "type": "Parent",
+      "type": "parent",
       "label": "Fraunhofer Society",
       "id": "https://ror.org/05hkkdn48"
     }
   ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.030214,
-      "lng": 13.782145,
-      "postcode": null,
-      "primary": false,
-      "city": "Dresden",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2935022,
-        "city": "Dresden",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2F",
-          "name": "Sächsische Schweiz-Osterzgebirge"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      }
-    }
+  "status": "active",
+  "types": [
+    "facility"
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 0273 2836"
-      ]
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q1452043"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.461641.0",
-      "all": "grid.461641.0"
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

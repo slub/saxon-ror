@@ -1,85 +1,71 @@
 {
-  "id": "https://ror.org/056tzgr32",
-  "name": "Zittau/Görlitz University of Applied Sciences",
-  "types": [
-    "Education"
-  ],
-  "links": [
-    "http://www.hszg.de/en.html"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
+  "locations": [
     {
-      "label": "Hochschule Zittau/Görlitz",
-      "iso639": "de"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1992,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 51.150002,
-      "lng": 14.997544,
-      "postcode": null,
-      "primary": false,
-      "city": "Görlitz",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2918987,
-        "city": "Görlitz",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED2",
-          "name": "Dresden"
-        },
-        "nuts_level3": {
-          "code": "DED2D",
-          "name": "Görlitz"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2918987,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.150002,
+        "lng": 14.997544,
+        "name": "Görlitz"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1992,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.440523.4"
+      ],
+      "preferred": "grid.440523.4"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0001 0683 2893"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/056tzgr32",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hszg.de/en.html"
+    }
+  ],
+  "names": [
+    {
+      "value": "Hochschule Zittau/Görlitz",
+      "types": [
+        "label"
+      ],
+      "lang": "de"
     },
-    "GRID": {
-      "preferred": "grid.440523.4",
-      "all": "grid.440523.4"
+    {
+      "value": "Zittau/Görlitz University of Applied Sciences",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }

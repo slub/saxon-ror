@@ -1,84 +1,78 @@
 {
-  "id": "https://ror.org/033ynyj02",
-  "name": "Forschungsinstitut für Leder und Kunststoffbahnen",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://www.filkfreiberg.de/1/"
-  ],
-  "aliases": [
-    "Deutsche Versuchsanstalt für Lederindustrie"
-  ],
-  "acronyms": [
-    "FILK"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1889,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [],
-  "addresses": [
+  "locations": [
     {
-      "line": null,
-      "lat": 50.921497,
-      "lng": 13.348495,
-      "postcode": null,
-      "primary": false,
-      "city": "Freiberg",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2925192,
-        "city": "Freiberg",
-        "nuts_level1": {
-          "code": "DED",
-          "name": "SACHSEN"
-        },
-        "nuts_level2": {
-          "code": "DED4",
-          "name": "Chemnitz"
-        },
-        "nuts_level3": {
-          "code": "DED43",
-          "name": "Mittelsachsen"
-        },
-        "geonames_admin1": {
-          "id": 2842566,
-          "name": "Saxony",
-          "ascii_name": "Saxony",
-          "code": "DE.13"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_id": 2925192,
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.921497,
+        "lng": 13.348495,
+        "name": "Freiberg"
       }
     }
   ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
+  "established": 1889,
+  "external_ids": [
+    {
+      "type": "grid",
+      "all": [
+        "grid.425812.8"
+      ],
+      "preferred": "grid.425812.8"
+    },
+    {
+      "type": "isni",
       "all": [
         "0000 0004 0619 6112"
-      ]
+      ],
+      "preferred": null
+    }
+  ],
+  "id": "https://ror.org/033ynyj02",
+  "domains": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.filkfreiberg.de/1/"
+    }
+  ],
+  "names": [
+    {
+      "value": "Deutsche Versuchsanstalt für Lederindustrie",
+      "types": [
+        "alias"
+      ],
+      "lang": null
     },
-    "GRID": {
-      "preferred": "grid.425812.8",
-      "all": "grid.425812.8"
+    {
+      "value": "FILK",
+      "types": [
+        "acronym"
+      ],
+      "lang": null
+    },
+    {
+      "value": "Forschungsinstitut für Leder und Kunststoffbahnen",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "lang": null
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2021-03-17",
+      "schema_version": "2.0"
     }
   }
 }
