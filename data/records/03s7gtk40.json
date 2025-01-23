@@ -1,53 +1,47 @@
 {
-  "locations": [
-    {
-      "geonames_id": 2879139,
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "SN",
-        "country_subdivision_name": "Saxony",
-        "lat": 51.33962,
-        "lng": 12.37129,
-        "name": "Leipzig"
-      }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
     }
-  ],
+  },
+  "domains": [],
   "established": 1409,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100008678"
       ],
-      "preferred": "501100008678"
+      "preferred": "501100008678",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.9647.c"
       ],
-      "preferred": "grid.9647.c"
+      "preferred": "grid.9647.c",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 7669 9786"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q154804"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03s7gtk40",
-  "domains": [],
   "links": [
     {
       "type": "website",
@@ -58,21 +52,37 @@
       "value": "http://en.wikipedia.org/wiki/Leipzig_University"
     }
   ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      },
+      "geonames_id": 2879139
+    }
+  ],
   "names": [
     {
-      "value": "Leipzig University",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Leipzig University"
     },
     {
-      "value": "Universität Leipzig",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Universität Leipzig"
     }
   ],
   "relationships": [
@@ -100,21 +110,16 @@
       "label": "University Hospital Leipzig",
       "type": "related",
       "id": "https://ror.org/028hv5492"
+    },
+    {
+      "label": "German Centre for Integrative Biodiversity Research",
+      "type": "related",
+      "id": "https://ror.org/01jty7g66"
     }
   ],
   "status": "active",
   "types": [
     "education",
     "funder"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
