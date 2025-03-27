@@ -1,7 +1,54 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hfmdd.de"
+  ],
+  "established": 1856,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461657.7"
+      ],
+      "preferred": "grid.461657.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2319 9065"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q468181"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01y01jq30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hfmdd.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Musik_Carl_Maria_von_Weber"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,89 +59,72 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 1856,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.461657.7"
-      ],
-      "preferred": "grid.461657.7"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0001 2319 9065"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q468181"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/01y01jq30",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.hfmdd.de/english/welcome/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Hochschule_f%C3%BCr_Musik_Carl_Maria_von_Weber"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "Carl Maria von Weber College of Music",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "lang": "en"
-    },
-    {
-      "value": "Dresden Conservatory",
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "lang": "en"
+      "value": "Carl Maria von Weber College of Music"
     },
     {
-      "value": "Dresden Royal Conservatory",
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "lang": "en"
+      "value": "Carl Maria von Weber College of Music in Dresden"
     },
     {
-      "value": "Hochschule für Musik \"Carl Maria von Weber\"",
+      "lang": "en",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Dresden College of Music"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Conservatory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Royal Conservatory"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "acronym"
+      ],
+      "value": "HfM DD"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Hochschule für Musik \"Carl Maria von Weber\""
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hochschule für Musik Dresden"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "education"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
