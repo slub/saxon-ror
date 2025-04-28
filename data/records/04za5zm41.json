@@ -1,7 +1,48 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412282.f"
+      ],
+      "preferred": "grid.412282.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1091 2917"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1651640"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04za5zm41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uniklinikum-dresden.de/en"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,63 +53,32 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 1999,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.412282.f"
-      ],
-      "preferred": "grid.412282.f"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0001 1091 2917"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1651640"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/04za5zm41",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.uniklinikum-dresden.de/en"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "Carl Gustav Carus Hospital",
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "lang": "en"
+      "value": "Carl Gustav Carus Hospital"
     },
     {
-      "value": "University Hospital Carl Gustav Carus",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "University Hospital Carl Gustav Carus"
     },
     {
-      "value": "Universitätsklinikum Carl Gustav Carus Dresden",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Universitätsklinikum Carl Gustav Carus Dresden"
     }
   ],
   "relationships": [
@@ -108,7 +118,7 @@
       "id": "https://ror.org/01zy07c70"
     },
     {
-      "label": "TU Dresden",
+      "label": "Technische Universität Dresden",
       "type": "related",
       "id": "https://ror.org/042aqky30"
     }
@@ -116,15 +126,5 @@
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
