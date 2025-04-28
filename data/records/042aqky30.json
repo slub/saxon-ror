@@ -5,11 +5,13 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-02-26",
+      "date": "2025-04-28",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "tu-dresden.de"
+  ],
   "established": 1828,
   "external_ids": [
     {
@@ -74,8 +76,7 @@
     {
       "lang": "de",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
       ],
       "value": "TU Dresden"
     },
@@ -89,7 +90,8 @@
     {
       "lang": "de",
       "types": [
-        "label"
+        "label",
+        "ror_display"
       ],
       "value": "Technische Universität Dresden"
     }
@@ -141,6 +143,16 @@
       "id": "https://ror.org/01zy07c70"
     },
     {
+      "label": "Herzzentrum Dresden Universitaetsklinik",
+      "type": "child",
+      "id": "https://ror.org/01jx86h05"
+    },
+    {
+      "label": "Center for Scalable Data Analytics and Artificial Intelligence",
+      "type": "child",
+      "id": "https://ror.org/01t4ttr56"
+    },
+    {
       "label": "Carl-Thiem-Klinikum Cottbus",
       "type": "related",
       "id": "https://ror.org/044fhy270"
@@ -169,16 +181,6 @@
       "label": "Hannah-Arendt-Institut für Totalitarismusforschung e.V. an der TU Dresden",
       "type": "related",
       "id": "https://ror.org/042wjdg05"
-    },
-    {
-      "label": "Herzzentrum Dresden Universitaetsklinik",
-      "type": "child",
-      "id": "https://ror.org/01jx86h05"
-    },
-    {
-      "label": "Center for Scalable Data Analytics and Artificial Intelligence",
-      "type": "child",
-      "id": "https://ror.org/01t4ttr56"
     }
   ],
   "status": "active",

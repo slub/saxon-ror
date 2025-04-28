@@ -1,7 +1,26 @@
 {
+  "admin": {
+    "created": {
+      "date": "2023-03-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [],
+  "id": "https://ror.org/01dj9qb53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.transdenlab.de"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,46 +31,37 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 2013,
-  "external_ids": [],
-  "id": "https://ror.org/01dj9qb53",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.transdenlab.de"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "TransDeN Lab",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "TransDeN Lab"
     },
     {
-      "value": "Translational Developmental Neuroscience Lab",
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "lang": "en"
+      "value": "Translational Developmental Neuroscience Lab"
     },
     {
-      "value": "Translational Developmental Neuroscience Section",
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "lang": "en"
+      "value": "Translational Developmental Neuroscience Section"
     }
   ],
   "relationships": [
     {
-      "label": "TU Dresden",
+      "label": "Technische Universität Dresden",
       "type": "parent",
       "id": "https://ror.org/042aqky30"
     },
@@ -64,15 +74,5 @@
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2023-03-16",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

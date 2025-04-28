@@ -1,7 +1,41 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1849,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413263.1"
+      ],
+      "preferred": "grid.413263.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8578 5687"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/035xba693",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,63 +46,29 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 1849,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.413263.1"
-      ],
-      "preferred": "grid.413263.1"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0000 8578 5687"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/035xba693",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "Krankenhaus Dresden-Friedrichstadt",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Krankenhaus Dresden-Friedrichstadt"
     }
   ],
   "relationships": [
     {
+      "label": "Technische Universität Dresden",
       "type": "related",
-      "label": "TU Dresden",
       "id": "https://ror.org/042aqky30"
     }
   ],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

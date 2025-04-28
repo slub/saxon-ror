@@ -1236,7 +1236,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2025-04-28",
         "schema_version": "2.1"
       }
     },
@@ -1328,7 +1328,7 @@
     ],
     "relationships": [
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
       },
@@ -1344,9 +1344,50 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1952,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506541.3"
+        ],
+        "preferred": "grid.506541.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0426 6279"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q18123310"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00me29179",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ihd-dresden.com"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -1357,79 +1398,38 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1952,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506541.3"
-        ],
-        "preferred": "grid.506541.3"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 0426 6279"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q18123310"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/00me29179",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.ihd-dresden.com"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "IHD",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IHD"
       },
       {
-        "value": "Institut für Holztechnologie Dresden",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Institut für Holztechnologie Dresden"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -1775,9 +1775,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1905,
+    "external_ids": [
+      {
+        "all": [
+          "grid.470122.2"
+        ],
+        "preferred": "grid.470122.2",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/00qcpjs09",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.klinikum-goerlitz.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2918987,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -1788,58 +1815,31 @@
           "lat": 51.15518,
           "lng": 14.98853,
           "name": "Görlitz"
-        }
-      }
-    ],
-    "established": 1905,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.470122.2"
-        ],
-        "preferred": "grid.470122.2"
-      }
-    ],
-    "id": "https://ror.org/00qcpjs09",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.klinikum-goerlitz.de/"
+        },
+        "geonames_id": 2918987
       }
     ],
     "names": [
       {
-        "value": "Klinikum Görlitz",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Klinikum Görlitz"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "related",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -3428,9 +3428,28 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2023-03-16",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2013,
+    "external_ids": [],
+    "id": "https://ror.org/01dj9qb53",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.transdenlab.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -3441,46 +3460,37 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2013,
-    "external_ids": [],
-    "id": "https://ror.org/01dj9qb53",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.transdenlab.de"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "TransDeN Lab",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "TransDeN Lab"
       },
       {
-        "value": "Translational Developmental Neuroscience Lab",
+        "lang": "en",
         "types": [
           "alias"
         ],
-        "lang": "en"
+        "value": "Translational Developmental Neuroscience Lab"
       },
       {
-        "value": "Translational Developmental Neuroscience Section",
+        "lang": "en",
         "types": [
           "alias"
         ],
-        "lang": "en"
+        "value": "Translational Developmental Neuroscience Section"
       }
     ],
     "relationships": [
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
       },
@@ -3493,17 +3503,7 @@
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2023-03-16",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -3916,7 +3916,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2025-02-26",
+        "date": "2025-04-28",
         "schema_version": "2.1"
       }
     },
@@ -4000,7 +4000,7 @@
     ],
     "relationships": [
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
       }
@@ -4841,7 +4841,7 @@
         "schema_version": "2.0"
       },
       "last_modified": {
-        "date": "2025-02-26",
+        "date": "2025-04-28",
         "schema_version": "2.1"
       }
     },
@@ -4897,7 +4897,7 @@
         "id": "https://ror.org/03s7gtk40"
       },
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
       }
@@ -5655,9 +5655,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2023-04-27",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 8003 5480"
+        ],
+        "preferred": "0000 0004 8003 5480",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01zy07c70",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.nct-dresden.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -5668,49 +5695,32 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 8003 5480"
-        ],
-        "preferred": "0000 0004 8003 5480"
-      }
-    ],
-    "id": "https://ror.org/01zy07c70",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.nct-dresden.de"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "NCT Dresden",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "NCT Dresden"
       },
       {
-        "value": "National Center for Tumor Diseases Partner Site Dresden",
+        "lang": "en",
         "types": [
           "label"
         ],
-        "lang": "en"
+        "value": "National Center for Tumor Diseases Partner Site Dresden"
       },
       {
-        "value": "Nationales Centrum für Tumorerkrankungen Dresden",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Nationales Centrum für Tumorerkrankungen Dresden"
       }
     ],
     "relationships": [
@@ -5725,7 +5735,7 @@
         "id": "https://ror.org/04za5zm41"
       },
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
       },
@@ -5738,17 +5748,7 @@
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2023-04-27",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -6879,9 +6879,50 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2006,
+    "external_ids": [
+      {
+        "all": [
+          "grid.500033.5"
+        ],
+        "preferred": "grid.500033.5",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 4902 0598"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q47462771"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/028070c57",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.namlab.de/home?set_language=en&cl=en"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -6892,72 +6933,31 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2006,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.500033.5"
-        ],
-        "preferred": "grid.500033.5"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 4902 0598"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q47462771"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/028070c57",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.namlab.de/home?set_language=en&cl=en"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "NaMLab (Germany)",
+        "lang": null,
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": null
+        "value": "NaMLab (Germany)"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "company"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -9923,9 +9923,43 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1849,
+    "external_ids": [
+      {
+        "all": [
+          "grid.413263.1"
+        ],
+        "preferred": "grid.413263.1",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 8578 5687"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/035xba693",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -9936,65 +9970,31 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1849,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.413263.1"
-        ],
-        "preferred": "grid.413263.1"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0000 8578 5687"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/035xba693",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.khdf.de/cms/index.php?id=2&amp;site=www&amp;lang=de"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Krankenhaus Dresden-Friedrichstadt",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Krankenhaus Dresden-Friedrichstadt"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "related",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -13150,11 +13150,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-02-26",
+        "date": "2025-04-28",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "tu-dresden.de"
+    ],
     "established": 1828,
     "external_ids": [
       {
@@ -13219,8 +13221,7 @@
       {
         "lang": "de",
         "types": [
-          "ror_display",
-          "label"
+          "alias"
         ],
         "value": "TU Dresden"
       },
@@ -13234,7 +13235,8 @@
       {
         "lang": "de",
         "types": [
-          "label"
+          "label",
+          "ror_display"
         ],
         "value": "Technische Universität Dresden"
       }
@@ -13286,6 +13288,16 @@
         "id": "https://ror.org/01zy07c70"
       },
       {
+        "label": "Herzzentrum Dresden Universitaetsklinik",
+        "type": "child",
+        "id": "https://ror.org/01jx86h05"
+      },
+      {
+        "label": "Center for Scalable Data Analytics and Artificial Intelligence",
+        "type": "child",
+        "id": "https://ror.org/01t4ttr56"
+      },
+      {
         "label": "Carl-Thiem-Klinikum Cottbus",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -13314,16 +13326,6 @@
         "label": "Hannah-Arendt-Institut für Totalitarismusforschung e.V. an der TU Dresden",
         "type": "related",
         "id": "https://ror.org/042wjdg05"
-      },
-      {
-        "label": "Herzzentrum Dresden Universitaetsklinik",
-        "type": "child",
-        "id": "https://ror.org/01jx86h05"
-      },
-      {
-        "label": "Center for Scalable Data Analytics and Artificial Intelligence",
-        "type": "child",
-        "id": "https://ror.org/01t4ttr56"
       }
     ],
     "status": "active",
@@ -13413,7 +13415,7 @@
         "schema_version": "2.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2025-04-28",
         "schema_version": "2.1"
       }
     },
@@ -13490,7 +13492,7 @@
     ],
     "relationships": [
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "related",
         "id": "https://ror.org/042aqky30"
       }
@@ -16097,9 +16099,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506367.1"
+        ],
+        "preferred": "grid.506367.1",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/04wn6w972",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.imt-dresden.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2851077,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -16110,72 +16139,45 @@
           "lat": 51.10654,
           "lng": 13.66047,
           "name": "Radebeul"
-        }
-      }
-    ],
-    "established": 1992,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506367.1"
-        ],
-        "preferred": "grid.506367.1"
-      }
-    ],
-    "id": "https://ror.org/04wn6w972",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.imt-dresden.de/"
+        },
+        "geonames_id": 2851077
       }
     ],
     "names": [
       {
-        "value": "Förderverein Institut für Medizintechnik Dresden",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Förderverein Institut für Medizintechnik Dresden"
       },
       {
-        "value": "IMT",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IMT"
       },
       {
-        "value": "IMT-Dresden GmbH",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "IMT-Dresden GmbH"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "nonprofit"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -16474,9 +16476,50 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1999,
+    "external_ids": [
+      {
+        "all": [
+          "grid.412282.f"
+        ],
+        "preferred": "grid.412282.f",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 1091 2917"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1651640"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04za5zm41",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.uniklinikum-dresden.de/en"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -16487,63 +16530,32 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1999,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.412282.f"
-        ],
-        "preferred": "grid.412282.f"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 1091 2917"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q1651640"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/04za5zm41",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.uniklinikum-dresden.de/en"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Carl Gustav Carus Hospital",
+        "lang": "en",
         "types": [
           "alias"
         ],
-        "lang": "en"
+        "value": "Carl Gustav Carus Hospital"
       },
       {
-        "value": "University Hospital Carl Gustav Carus",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "University Hospital Carl Gustav Carus"
       },
       {
-        "value": "Universitätsklinikum Carl Gustav Carus Dresden",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Universitätsklinikum Carl Gustav Carus Dresden"
       }
     ],
     "relationships": [
@@ -16583,7 +16595,7 @@
         "id": "https://ror.org/01zy07c70"
       },
       {
-        "label": "TU Dresden",
+        "label": "Technische Universität Dresden",
         "type": "related",
         "id": "https://ror.org/042aqky30"
       }
@@ -16591,17 +16603,7 @@
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -17692,9 +17694,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506552.1"
+        ],
+        "preferred": "grid.506552.1",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/056qj1t15",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.et.tu-dresden.de/ifa/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -17705,65 +17734,38 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506552.1"
-        ],
-        "preferred": "grid.506552.1"
-      }
-    ],
-    "id": "https://ror.org/056qj1t15",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.et.tu-dresden.de/ifa/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Institut für Automatisierungstechnik",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Institut für Automatisierungstechnik"
       },
       {
-        "value": "Institute of Automation",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Institute of Automation"
       }
     ],
     "relationships": [
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -18570,9 +18572,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2010,
+    "external_ids": [
+      {
+        "all": [
+          "grid.495510.c"
+        ],
+        "preferred": "grid.495510.c",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/05hrn3e05",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.csbdresden.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -18583,75 +18612,48 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2010,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.495510.c"
-        ],
-        "preferred": "grid.495510.c"
-      }
-    ],
-    "id": "https://ror.org/05hrn3e05",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.csbdresden.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "CSBD",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "CSBD"
       },
       {
-        "value": "Center for Systems Biology Dresden",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Center for Systems Biology Dresden"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Max Planck Institute for the Physics of Complex Systems",
+        "type": "parent",
         "id": "https://ror.org/01bf9rw71"
       },
       {
-        "type": "parent",
         "label": "Max Planck Institute of Molecular Cell Biology and Genetics",
+        "type": "parent",
         "id": "https://ror.org/05b8d3w18"
       },
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -18889,9 +18891,36 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.507329.a"
+        ],
+        "preferred": "grid.507329.a",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/05ke5hb07",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/med/mf/plid"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -18902,82 +18931,55 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.507329.a"
-        ],
-        "preferred": "grid.507329.a"
-      }
-    ],
-    "id": "https://ror.org/05ke5hb07",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://tu-dresden.de/med/mf/plid"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "PLID",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "PLID"
       },
       {
-        "value": "Paul Langerhans Institut Dresden",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Paul Langerhans Institut Dresden"
       },
       {
-        "value": "Paul Langerhans Institute Dresden",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Paul Langerhans Institute Dresden"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Helmholtz Zentrum München",
+        "type": "parent",
         "id": "https://ror.org/00cfam450"
       },
       {
+        "label": "Technische Universität Dresden",
         "type": "parent",
-        "label": "TU Dresden",
         "id": "https://ror.org/042aqky30"
       },
       {
-        "type": "parent",
         "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
         "id": "https://ror.org/04za5zm41"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [

@@ -1,7 +1,34 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470122.2"
+      ],
+      "preferred": "grid.470122.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00qcpjs09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.klinikum-goerlitz.de/"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2918987,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,56 +39,29 @@
         "lat": 51.15518,
         "lng": 14.98853,
         "name": "Görlitz"
-      }
-    }
-  ],
-  "established": 1905,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.470122.2"
-      ],
-      "preferred": "grid.470122.2"
-    }
-  ],
-  "id": "https://ror.org/00qcpjs09",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.klinikum-goerlitz.de/"
+      },
+      "geonames_id": 2918987
     }
   ],
   "names": [
     {
-      "value": "Klinikum Görlitz",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Klinikum Görlitz"
     }
   ],
   "relationships": [
     {
+      "label": "Technische Universität Dresden",
       "type": "related",
-      "label": "TU Dresden",
       "id": "https://ror.org/042aqky30"
     }
   ],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

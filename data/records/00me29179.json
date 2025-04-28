@@ -1,7 +1,48 @@
 {
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "grid.506541.3"
+      ],
+      "preferred": "grid.506541.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0426 6279"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18123310"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00me29179",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ihd-dresden.com"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,77 +53,36 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 1952,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.506541.3"
-      ],
-      "preferred": "grid.506541.3"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0004 0426 6279"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q18123310"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/00me29179",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.ihd-dresden.com"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "IHD",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "IHD"
     },
     {
-      "value": "Institut für Holztechnologie Dresden",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Institut für Holztechnologie Dresden"
     }
   ],
   "relationships": [
     {
+      "label": "Technische Universität Dresden",
       "type": "parent",
-      "label": "TU Dresden",
       "id": "https://ror.org/042aqky30"
     }
   ],
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2019-11-07",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
