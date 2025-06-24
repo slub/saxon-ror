@@ -6122,6 +6122,81 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2025-06-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-06-24",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "tu-dresden.de"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/020z28a80",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/ing/elektrotechnik/ieeh"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05,
+          "lng": 13.75,
+          "name": "Dresden"
+        },
+        "geonames_id": 6551127
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "IEEH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Elektrische Energieversorgung und Hochspannungstechnik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institute of Electrical Power Systems and High Voltage Engineering"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2879139,
@@ -6505,9 +6580,45 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2021-09-23",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-06-24",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "barkhauseninstitut.org"
+    ],
+    "established": 2017,
+    "external_ids": [
+      {
+        "all": [
+          "grid.512267.5"
+        ],
+        "preferred": "grid.512267.5",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 7707 1800"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/0260qqv98",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.barkhauseninstitut.org"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -6518,66 +6629,46 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2017,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.512267.5"
-        ],
-        "preferred": "grid.512267.5"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 7707 1800"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/0260qqv98",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.barkhauseninstitut.org/ueber-uns/wer-wir-sind"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Barkhausen Institut",
+        "lang": "de",
         "types": [
-          "label"
+          "acronym"
         ],
-        "lang": "de"
+        "value": "BI"
       },
       {
-        "value": "Barkhausen Institute",
+        "lang": "de",
         "types": [
-          "ror_display",
+          "label",
+          "ror_display"
+        ],
+        "value": "Barkhausen Institut"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label"
         ],
-        "lang": "en"
+        "value": "Barkhausen Institut gGmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Barkhausen Institute"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2021-09-23",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -10065,6 +10156,80 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2025-06-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-06-24",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "bibo-dresden.de"
+    ],
+    "established": 1879,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0001 2193 5903"
+        ],
+        "preferred": "0000 0001 2193 5903",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2359904"
+        ],
+        "preferred": "Q2359904",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0371sxw13",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.bibo-dresden.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/St%C3%A4dtische_Bibliotheken_Dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Städtische Bibliotheken Dresden"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "archive"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2879139,
@@ -13151,7 +13316,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-05-20",
+        "date": "2025-06-24",
         "schema_version": "2.1"
       }
     },
@@ -13336,6 +13501,11 @@
         "label": "Hannah-Arendt-Institut für Totalitarismusforschung e.V. an der TU Dresden",
         "type": "related",
         "id": "https://ror.org/042wjdg05"
+      },
+      {
+        "label": "Institute of Electrical Power Systems and High Voltage Engineering",
+        "type": "child",
+        "id": "https://ror.org/020z28a80"
       }
     ],
     "status": "active",
