@@ -1,7 +1,55 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100010412"
+      ],
+      "preferred": "501100010412",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418008.5"
+      ],
+      "preferred": "grid.418008.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0494 3022"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1313270"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04x45f476",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.izi.fraunhofer.de/fraunhofer-izi.html?L=1"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2879139,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,82 +60,44 @@
         "lat": 51.33962,
         "lng": 12.37129,
         "name": "Leipzig"
-      }
-    }
-  ],
-  "established": 2005,
-  "external_ids": [
-    {
-      "type": "fundref",
-      "all": [
-        "501100010412"
-      ],
-      "preferred": "501100010412"
-    },
-    {
-      "type": "grid",
-      "all": [
-        "grid.418008.5"
-      ],
-      "preferred": "grid.418008.5"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0004 0494 3022"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1313270"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/04x45f476",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.izi.fraunhofer.de/fraunhofer-izi.html?L=1"
+      },
+      "geonames_id": 2879139
     }
   ],
   "names": [
     {
-      "value": "Fraunhofer IZI",
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "lang": "de"
+      "value": "Fraunhofer IZI"
     },
     {
-      "value": "Fraunhofer Institute for Cell Therapy and Immunology",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Fraunhofer Institute for Cell Therapy and Immunology"
     },
     {
-      "value": "Fraunhofer-Institut für Zelltherapie und Immunologie",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Fraunhofer-Institut für Zelltherapie und Immunologie"
     },
     {
-      "value": "IZI",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "IZI"
     }
   ],
   "relationships": [
     {
-      "label": "Fraunhofer Society",
+      "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
     }
@@ -96,15 +106,5 @@
   "types": [
     "facility",
     "funder"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
