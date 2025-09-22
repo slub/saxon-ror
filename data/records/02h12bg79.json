@@ -1,7 +1,48 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469847.0"
+      ],
+      "preferred": "grid.469847.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0131 7307"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1452000"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h12bg79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enas.fraunhofer.de"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2940132,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,75 +53,44 @@
         "lat": 50.8357,
         "lng": 12.92922,
         "name": "Chemnitz"
-      }
-    }
-  ],
-  "established": 2008,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.469847.0"
-      ],
-      "preferred": "grid.469847.0"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0001 0131 7307"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1452000"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/02h12bg79",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.enas.fraunhofer.de"
+      },
+      "geonames_id": 2940132
     }
   ],
   "names": [
     {
-      "value": "ENAS",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "ENAS"
     },
     {
-      "value": "Fraunhofer ENAS",
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "lang": "de"
+      "value": "Fraunhofer ENAS"
     },
     {
-      "value": "Fraunhofer Institute for Electronic Nano Systems",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Fraunhofer Institute for Electronic Nano Systems"
     },
     {
-      "value": "Fraunhofer-Institut für Elektronische Nanosysteme",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Fraunhofer-Institut für Elektronische Nanosysteme"
     }
   ],
   "relationships": [
     {
-      "label": "Fraunhofer Society",
+      "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
     }
@@ -88,15 +98,5 @@
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
