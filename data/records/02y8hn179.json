@@ -1,7 +1,54 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sanktgeorg.de"
+  ],
+  "established": 1212,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470221.2"
+      ],
+      "preferred": "grid.470221.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0690 7373"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1492004"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02y8hn179",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanktgeorg.de/klinikum-st-georg-krankenhaus-medizin-in-leipzig.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Klinikum_St._Georg,_Leipzig"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2879139,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,68 +59,23 @@
         "lat": 51.33962,
         "lng": 12.37129,
         "name": "Leipzig"
-      }
-    }
-  ],
-  "established": 1212,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.470221.2"
-      ],
-      "preferred": "grid.470221.2"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0001 0690 7373"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1492004"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/02y8hn179",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.sanktgeorg.de/home.html"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Klinikum_St._Georg,_Leipzig"
+      },
+      "geonames_id": 2879139
     }
   ],
   "names": [
     {
-      "value": "Klinikum St. Georg",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Klinikum St. Georg"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
