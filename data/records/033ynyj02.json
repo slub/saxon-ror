@@ -1,7 +1,43 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "filkfreiberg.de"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425812.8"
+      ],
+      "preferred": "grid.425812.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0619 6112"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/033ynyj02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.filkfreiberg.de"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2925192,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,71 +48,37 @@
         "lat": 50.91089,
         "lng": 13.33881,
         "name": "Freiberg"
-      }
-    }
-  ],
-  "established": 1889,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.425812.8"
-      ],
-      "preferred": "grid.425812.8"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0004 0619 6112"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/033ynyj02",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.filkfreiberg.de/1/"
+      },
+      "geonames_id": 2925192
     }
   ],
   "names": [
     {
-      "value": "Deutsche Versuchsanstalt für Lederindustrie",
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "lang": "de"
+      "value": "Deutsche Versuchsanstalt für Lederindustrie"
     },
     {
-      "value": "FILK",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "FILK"
     },
     {
-      "value": "Forschungsinstitut für Leder und Kunststoffbahnen",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Forschungsinstitut für Leder und Kunststoffbahnen"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
