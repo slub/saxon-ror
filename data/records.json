@@ -202,6 +202,243 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "deutscheszentrumastrophysik.de",
+      "dzastro.de"
+    ],
+    "established": 2025,
+    "external_ids": [
+      {
+        "all": [
+          "Q118643276"
+        ],
+        "preferred": "Q118643276",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/002mdge77",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.deutscheszentrumastrophysik.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Deutsches_Zentrum_f%C3%BCr_Astrophysik"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.15518,
+          "lng": 14.98853,
+          "name": "Görlitz"
+        },
+        "geonames_id": 2918987
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "DZA"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Deutsches Zentrum für Astrophysik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "German Centre for Astrophysics"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2006,
+    "external_ids": [
+      {
+        "all": [
+          "501100007491"
+        ],
+        "preferred": "501100007491",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0000 8775 5756"
+        ],
+        "preferred": "0000 0000 8775 5756",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q15456354"
+        ],
+        "preferred": "Q15456354",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00490nx58",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tud.de/crtd"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Zentrum_f%C3%BCr_Regenerative_Therapien_Dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CRTD"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center and Cluster of Excellence for Regenerative Therapies Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Regenerative Therapies Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center of Regenerative Therapies Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "DFG Center for Regenerative Therapies"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "DFG Research Center for Regenerative Therapies"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "DFG-Center for Regenerative Therapies"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für Regenerative Therapien Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "related",
+        "id": "https://ror.org/04za5zm41"
+      },
+      {
+        "label": "Max Planck Institute of Molecular Cell Biology and Genetics",
+        "type": "related",
+        "id": "https://ror.org/05b8d3w18"
+      },
+      {
+        "label": "Paul Langerhans Institute Dresden",
+        "type": "related",
+        "id": "https://ror.org/05ke5hb07"
+      },
+      {
+        "label": "Leibniz Institute of Polymer Research",
+        "type": "related",
+        "id": "https://ror.org/01tspta37"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2940132,
@@ -1006,6 +1243,98 @@
     "status": "active",
     "types": [
       "other"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "Q39052812"
+        ],
+        "preferred": "Q39052812",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00g3vrr12",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://cfaed.tu-dresden.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Center_for_Advancing_Electronics_Dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CFAED"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Advancing Electronics Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Advancing Electronics Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Center for Advancing Electronics"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
     ]
   },
   {
@@ -2332,6 +2661,103 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-05-30",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "g-wt.de"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/012d0t602",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.g-wt.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "GWT"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "GWT - Gesellschaft für Wissens- und Technologietransfer mbH"
+      },
+      {
+        "lang": null,
+        "types": [
+          "label"
+        ],
+        "value": "GWT-TUD GmbH"
+      },
+      {
+        "lang": null,
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "GWT-TUD GmbH (Germany)"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "Gesellschaft fur Wissens und Technologietransfer"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "Gesellschaft für Wissens- und Technologietransfer"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "Society for Knowledge and Technology Transfer"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "company"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -2968,55 +3394,49 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2935022,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.05089,
-          "lng": 13.73832,
-          "name": "Dresden"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": null,
     "external_ids": [
       {
-        "type": "fundref",
         "all": [
           "501100007767"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "fundref"
       },
       {
-        "type": "grid",
         "all": [
           "grid.419560.f"
         ],
-        "preferred": "grid.419560.f"
+        "preferred": "grid.419560.f",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 2154 3117"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q6795124"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/01bf9rw71",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -3027,50 +3447,61 @@
         "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_the_Physics_of_Complex_Systems"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
     "names": [
       {
-        "value": "Max Planck Institute for the Physics of Complex Systems",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Max Planck Institute for the Physics of Complex Systems"
       },
       {
-        "value": "Max-Planck-Institut für Physik Komplexer Systeme",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Max-Planck-Institut für Physik Komplexer Systeme"
       }
     ],
     "relationships": [
       {
-        "type": "child",
         "label": "Center for Systems Biology Dresden",
+        "type": "child",
         "id": "https://ror.org/05hrn3e05"
       },
       {
-        "type": "parent",
         "label": "Max Planck Society",
+        "type": "parent",
         "id": "https://ror.org/01hhn8329"
+      },
+      {
+        "label": "Physics of Life",
+        "type": "related",
+        "id": "https://ror.org/029yt9178"
       }
     ],
     "status": "active",
     "types": [
       "facility",
       "funder"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -5083,9 +5514,50 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "501100013224"
+        ],
+        "preferred": "501100013224",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.419239.4"
+        ],
+        "preferred": "grid.419239.4",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 8583 7301"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01tspta37",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.ipfdd.de/en/home/our-mission/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -5096,63 +5568,32 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1992,
-    "external_ids": [
-      {
-        "type": "fundref",
-        "all": [
-          "501100013224"
-        ],
-        "preferred": "501100013224"
-      },
-      {
-        "type": "grid",
-        "all": [
-          "grid.419239.4"
-        ],
-        "preferred": "grid.419239.4"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0000 8583 7301"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/01tspta37",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.ipfdd.de/en/home/our-mission/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "IPF",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IPF"
       },
       {
-        "value": "Leibniz Institute of Polymer Research",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Leibniz Institute of Polymer Research"
       },
       {
-        "value": "Leibniz-Institut für Polymerforschung Dresden",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Leibniz-Institut für Polymerforschung Dresden"
       }
     ],
     "relationships": [
@@ -5160,23 +5601,23 @@
         "label": "Leibniz Association",
         "type": "parent",
         "id": "https://ror.org/01n6r0e97"
+      },
+      {
+        "label": "Physics of Life",
+        "type": "related",
+        "id": "https://ror.org/029yt9178"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "related",
+        "id": "https://ror.org/00490nx58"
       }
     ],
     "status": "active",
     "types": [
       "facility",
       "funder"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -5926,55 +6367,49 @@
     ]
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2935022,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.05089,
-          "lng": 13.73832,
-          "name": "Dresden"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1992,
     "external_ids": [
       {
-        "type": "fundref",
         "all": [
           "501100014754"
         ],
-        "preferred": "501100014754"
+        "preferred": "501100014754",
+        "type": "fundref"
       },
       {
-        "type": "grid",
         "all": [
           "grid.40602.30"
         ],
-        "preferred": "grid.40602.30"
+        "preferred": "grid.40602.30",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 2158 0612"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q883545"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/01zy2cs03",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -5985,21 +6420,37 @@
         "value": "http://en.wikipedia.org/wiki/Helmholtz-Zentrum_Dresden-Rossendorf"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
     "names": [
       {
-        "value": "HZDR",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "HZDR"
       },
       {
-        "value": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Helmholtz-Zentrum Dresden-Rossendorf"
       }
     ],
     "relationships": [
@@ -6027,23 +6478,18 @@
         "label": "LEAPS",
         "type": "related",
         "id": "https://ror.org/04wcn4e27"
+      },
+      {
+        "label": "Physics of Life",
+        "type": "related",
+        "id": "https://ror.org/029yt9178"
       }
     ],
     "status": "active",
     "types": [
       "facility",
       "funder"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -6846,6 +7292,122 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0005 1682 9021"
+        ],
+        "preferred": "0000 0005 1682 9021",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/0260yv019",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.dzne.de/en/about-us/sites/dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "DZNE Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "DZNE Research Site Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "DZNE Standort Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Deutsches Zentrum für Neurodegenerative Erkrankungen Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Deutsches Zentrum für Neurodegenerative Erkrankungen Standort Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Deutsches Zentrum für neurodegenerative Erkrankungen (DZNE) Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "German Center for Neurodegenerative Diseases (DZNE) Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "German Center for Neurodegenerative Diseases Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "German Center for Neurodegenerative Diseases",
+        "type": "parent",
+        "id": "https://ror.org/043j0f473"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -6988,11 +7550,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-09-22",
+        "date": "2026-06-02",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "iwu.fraunhofer.de"
+    ],
     "established": 1991,
     "external_ids": [
       {
@@ -7021,7 +7585,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.iwu.fraunhofer.de/en.html"
+        "value": "https://www.iwu.fraunhofer.de"
       }
     ],
     "locations": [
@@ -7069,6 +7633,13 @@
           "acronym"
         ],
         "value": "IWU"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "IWU Dresden"
       }
     ],
     "relationships": [
@@ -7485,6 +8056,134 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2019,
+    "external_ids": [],
+    "id": "https://ror.org/029yt9178",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://physics-of-life.tu-dresden.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Cluster of Excellence Physics of Life"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Cluster of Excellence PoL: Physics of Life"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Exzellenzcluster Physics of Life"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "POL"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Physics of Life"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Physics of Life: The Dynamic Organization of Living Matter"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Physik des Lebens: Die dynamische Organisation lebender Materie"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "PoL: Physics of Life"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "type": "related",
+        "id": "https://ror.org/01zy2cs03"
+      },
+      {
+        "label": "Leibniz Institute of Polymer Research",
+        "type": "related",
+        "id": "https://ror.org/01tspta37"
+      },
+      {
+        "label": "Max Planck Institute for the Physics of Complex Systems",
+        "type": "related",
+        "id": "https://ror.org/01bf9rw71"
+      },
+      {
+        "label": "Max Planck Institute of Molecular Cell Biology and Genetics",
+        "type": "related",
+        "id": "https://ror.org/05b8d3w18"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
   },
   {
     "locations": [
@@ -8252,6 +8951,153 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ceti.one"
+    ],
+    "established": 2019,
+    "external_ids": [
+      {
+        "all": [
+          "Q111512704"
+        ],
+        "preferred": "Q111512704",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02kfbaj13",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://ceti.one"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CETI"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "CeTI Cluster of Excellence"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Tactile Internet"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Tactile Internet with Human-in-the-Loop"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Tactile Internet"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Centre for Tactile Internet with Human-in-the-Loop"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Cluster of Excellence CeTI"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Exzellenzcluster CeTI"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für taktiles Internet"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für taktiles Internet mit Mensch-Maschine-Interaktion"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+        "type": "related",
+        "id": "https://ror.org/04bwf3e34"
+      },
+      {
+        "label": "German Cancer Research Center",
+        "type": "related",
+        "id": "https://ror.org/04cdgtt98"
+      },
+      {
+        "label": "Technical University of Munich",
+        "type": "related",
+        "id": "https://ror.org/02kkvpp62"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
   },
   {
     "locations": [
@@ -13580,7 +14426,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-06-24",
+        "date": "2026-06-02",
         "schema_version": "2.1"
       }
     },
@@ -13592,7 +14438,6 @@
       {
         "all": [
           "501100002957",
-          "501100007491",
           "501100020132",
           "501100023321"
         ],
@@ -13737,6 +14582,11 @@
         "id": "https://ror.org/01t4ttr56"
       },
       {
+        "label": "Institute of Electrical Power Systems and High Voltage Engineering",
+        "type": "child",
+        "id": "https://ror.org/020z28a80"
+      },
+      {
         "label": "Carl-Thiem-Klinikum Cottbus",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -13767,9 +14617,24 @@
         "id": "https://ror.org/042wjdg05"
       },
       {
-        "label": "Institute of Electrical Power Systems and High Voltage Engineering",
+        "label": "Centre for Tactile Internet with Human-in-the-Loop",
         "type": "child",
-        "id": "https://ror.org/020z28a80"
+        "id": "https://ror.org/02kfbaj13"
+      },
+      {
+        "label": "Physics of Life",
+        "type": "child",
+        "id": "https://ror.org/029yt9178"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "child",
+        "id": "https://ror.org/00490nx58"
+      },
+      {
+        "label": "Center for Advancing Electronics Dresden",
+        "type": "child",
+        "id": "https://ror.org/00g3vrr12"
       }
     ],
     "status": "active",
@@ -14026,6 +14891,81 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-06-01",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "elter-ri.eu"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/0445b1867",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://elter-ri.eu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Integrated European Long-Term Ecosystem, Critical Zone And Socio-Ecological Research Infrastructure"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "eLTER"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "eLTER RI"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "LTER-Italy",
+        "type": "related",
+        "id": "https://ror.org/05ma8mw15"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "other"
+    ]
   },
   {
     "admin": {
@@ -17073,7 +18013,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-06-02",
         "schema_version": "2.1"
       }
     },
@@ -17189,6 +18129,11 @@
         "label": "Technische Universität Dresden",
         "type": "related",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "related",
+        "id": "https://ror.org/00490nx58"
       }
     ],
     "status": "active",
@@ -18586,48 +19531,42 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2935022,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.05089,
-          "lng": 13.73832,
-          "name": "Dresden"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-06-02",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1998,
     "external_ids": [
       {
-        "type": "grid",
         "all": [
           "grid.419537.d"
         ],
-        "preferred": "grid.419537.d"
+        "preferred": "grid.419537.d",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 2113 4567"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q317361"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/05b8d3w18",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -18638,56 +19577,72 @@
         "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_of_Molecular_Cell_Biology_and_Genetics"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
     "names": [
       {
-        "value": "MPI-CBG",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "MPI-CBG"
       },
       {
-        "value": "Max Planck Institute of Molecular Cell Biology and Genetics",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Max Planck Institute of Molecular Cell Biology and Genetics"
       },
       {
-        "value": "Max-Planck-Institut für Molekulare Zellbiologie und Genetik",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Max-Planck-Institut für Molekulare Zellbiologie und Genetik"
       }
     ],
     "relationships": [
       {
-        "type": "child",
         "label": "Center for Systems Biology Dresden",
+        "type": "child",
         "id": "https://ror.org/05hrn3e05"
       },
       {
-        "type": "parent",
         "label": "Max Planck Society",
+        "type": "parent",
         "id": "https://ror.org/01hhn8329"
+      },
+      {
+        "label": "Physics of Life",
+        "type": "related",
+        "id": "https://ror.org/029yt9178"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "related",
+        "id": "https://ror.org/00490nx58"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -19488,7 +20443,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-06-02",
         "schema_version": "2.1"
       }
     },
@@ -19565,6 +20520,11 @@
         "label": "University Hospital Carl Gustav Carus",
         "type": "parent",
         "id": "https://ror.org/04za5zm41"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "related",
+        "id": "https://ror.org/00490nx58"
       }
     ],
     "status": "active",
