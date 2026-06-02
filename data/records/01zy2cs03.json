@@ -1,53 +1,47 @@
 {
-  "locations": [
-    {
-      "geonames_id": 2935022,
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "SN",
-        "country_subdivision_name": "Saxony",
-        "lat": 51.05089,
-        "lng": 13.73832,
-        "name": "Dresden"
-      }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
     }
-  ],
+  },
+  "domains": [],
   "established": 1992,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100014754"
       ],
-      "preferred": "501100014754"
+      "preferred": "501100014754",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.40602.30"
       ],
-      "preferred": "grid.40602.30"
+      "preferred": "grid.40602.30",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2158 0612"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q883545"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01zy2cs03",
-  "domains": [],
   "links": [
     {
       "type": "website",
@@ -58,21 +52,37 @@
       "value": "http://en.wikipedia.org/wiki/Helmholtz-Zentrum_Dresden-Rossendorf"
     }
   ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
   "names": [
     {
-      "value": "HZDR",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "HZDR"
     },
     {
-      "value": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Helmholtz-Zentrum Dresden-Rossendorf"
     }
   ],
   "relationships": [
@@ -100,21 +110,16 @@
       "label": "LEAPS",
       "type": "related",
       "id": "https://ror.org/04wcn4e27"
+    },
+    {
+      "label": "Physics of Life",
+      "type": "related",
+      "id": "https://ror.org/029yt9178"
     }
   ],
   "status": "active",
   "types": [
     "facility",
     "funder"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

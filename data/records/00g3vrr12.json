@@ -1,8 +1,8 @@
 {
   "admin": {
     "created": {
-      "date": "2019-11-07",
-      "schema_version": "1.0"
+      "date": "2026-06-01",
+      "schema_version": "2.1"
     },
     "last_modified": {
       "date": "2026-06-02",
@@ -10,21 +10,25 @@
     }
   },
   "domains": [],
-  "established": null,
+  "established": 2012,
   "external_ids": [
     {
       "all": [
-        "grid.507329.a"
+        "Q39052812"
       ],
-      "preferred": "grid.507329.a",
-      "type": "grid"
+      "preferred": "Q39052812",
+      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/05ke5hb07",
+  "id": "https://ror.org/00g3vrr12",
   "links": [
     {
       "type": "website",
-      "value": "https://tu-dresden.de/med/mf/plid"
+      "value": "https://cfaed.tu-dresden.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Center_for_Advancing_Electronics_Dresden"
     }
   ],
   "locations": [
@@ -45,48 +49,40 @@
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "PLID"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label"
-      ],
-      "value": "Paul Langerhans Institut Dresden"
+      "value": "CFAED"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Paul Langerhans Institute Dresden"
+      "value": "Center for Advancing Electronics Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre for Advancing Electronics Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Center for Advancing Electronics"
     }
   ],
   "relationships": [
     {
-      "label": "Helmholtz Zentrum München",
-      "type": "parent",
-      "id": "https://ror.org/00cfam450"
-    },
-    {
       "label": "Technische Universität Dresden",
       "type": "parent",
       "id": "https://ror.org/042aqky30"
-    },
-    {
-      "label": "University Hospital Carl Gustav Carus",
-      "type": "parent",
-      "id": "https://ror.org/04za5zm41"
-    },
-    {
-      "label": "Center for Regenerative Therapies Dresden",
-      "type": "related",
-      "id": "https://ror.org/00490nx58"
     }
   ],
   "status": "active",

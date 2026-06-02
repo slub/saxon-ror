@@ -1,46 +1,40 @@
 {
-  "locations": [
-    {
-      "geonames_id": 2935022,
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "SN",
-        "country_subdivision_name": "Saxony",
-        "lat": 51.05089,
-        "lng": 13.73832,
-        "name": "Dresden"
-      }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
     }
-  ],
+  },
+  "domains": [],
   "established": 1998,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.419537.d"
       ],
-      "preferred": "grid.419537.d"
+      "preferred": "grid.419537.d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2113 4567"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q317361"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05b8d3w18",
-  "domains": [],
   "links": [
     {
       "type": "website",
@@ -51,54 +45,70 @@
       "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_of_Molecular_Cell_Biology_and_Genetics"
     }
   ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
   "names": [
     {
-      "value": "MPI-CBG",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "MPI-CBG"
     },
     {
-      "value": "Max Planck Institute of Molecular Cell Biology and Genetics",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Max Planck Institute of Molecular Cell Biology and Genetics"
     },
     {
-      "value": "Max-Planck-Institut für Molekulare Zellbiologie und Genetik",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Max-Planck-Institut für Molekulare Zellbiologie und Genetik"
     }
   ],
   "relationships": [
     {
-      "type": "child",
       "label": "Center for Systems Biology Dresden",
+      "type": "child",
       "id": "https://ror.org/05hrn3e05"
     },
     {
-      "type": "parent",
       "label": "Max Planck Society",
+      "type": "parent",
       "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Physics of Life",
+      "type": "related",
+      "id": "https://ror.org/029yt9178"
+    },
+    {
+      "label": "Center for Regenerative Therapies Dresden",
+      "type": "related",
+      "id": "https://ror.org/00490nx58"
     }
   ],
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
