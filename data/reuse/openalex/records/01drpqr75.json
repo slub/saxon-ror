@@ -18,10 +18,10 @@
     "Technologiezentrum Dresden (Germany)"
   ],
   "repositories": [],
-  "works_count": 58,
+  "works_count": 59,
   "cited_by_count": 2506,
   "summary_stats": {
-    "2yr_mean_citedness": 1.8125,
+    "2yr_mean_citedness": 1.7755102040816326,
     "h_index": 17,
     "i10_index": 22
   },
@@ -46,8 +46,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 3,
+      "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
@@ -127,7 +127,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210105241",
-      "works_count": 58
+      "works_count": 59
     }
   ],
   "topics": [
@@ -193,6 +193,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10567",
+      "display_name": "Vehicle Routing Optimization Methods",
+      "count": 2,
+      "score": 0.01769999973475933,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -562,31 +580,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10168",
-      "display_name": "COVID-19 and Mental Health",
-      "count": 1,
-      "score": 0.04560000076889992,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13816",
       "display_name": "Advanced Signal Processing Techniques",
-      "value": 9.7e-05,
+      "value": 9.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -618,6 +618,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T12177",
+      "display_name": "Resource-Constrained Project Scheduling",
+      "value": 6.36e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14167",
       "display_name": "Consumer behavior in food and health",
       "value": 4.58e-05,
@@ -637,7 +654,7 @@
     {
       "id": "https://openalex.org/T13983",
       "display_name": "Cybersecurity and Information Systems",
-      "value": 4.51e-05,
+      "value": 4.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -649,6 +666,23 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12401",
+      "display_name": "Scheduling and Timetabling Solutions",
+      "value": 4.26e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -739,7 +773,7 @@
     {
       "id": "https://openalex.org/T13139",
       "display_name": "Polish Legal and Social Issues",
-      "value": 2.79e-05,
+      "value": 2.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -798,6 +832,23 @@
       "field": {
         "id": "https://openalex.org/fields/26",
         "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10567",
+      "display_name": "Vehicle Routing Optimization Methods",
+      "value": 2.51e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -890,23 +941,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11225",
-      "display_name": "Geothermal Energy Systems and Applications",
-      "value": 2.05e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11211",
       "display_name": "3D Surveying and Cultural Heritage",
       "value": 2.04e-05,
@@ -917,6 +951,23 @@
       "field": {
         "id": "https://openalex.org/fields/19",
         "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11225",
+      "display_name": "Geothermal Energy Systems and Applications",
+      "value": 2.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -956,62 +1007,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13854",
-      "display_name": "Historical Geography and Cartography",
-      "value": 2.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11572",
-      "display_name": "Information Technology Governance and Strategy",
-      "value": 2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13178",
-      "display_name": "Theology and Canon Law Studies",
-      "value": 1.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210105241",
-  "updated_date": "2026-07-03T05:59:24",
+  "updated_date": "2026-07-04T05:59:22",
   "created_date": "2022-02-02T04:48:36"
 }
