@@ -1,8 +1,8 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
+      "date": "2026-06-23",
+      "schema_version": "2.1"
     },
     "last_modified": {
       "date": "2026-06-23",
@@ -10,35 +10,21 @@
     }
   },
   "domains": [],
-  "established": 2003,
+  "established": 2017,
   "external_ids": [
     {
       "all": [
-        "grid.469853.5"
+        "Q115589833"
       ],
-      "preferred": "grid.469853.5",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0001 0412 8165"
-      ],
-      "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q1391898"
-      ],
-      "preferred": "Q1391898",
+      "preferred": "Q115589833",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/020n3fw10",
+  "id": "https://ror.org/05jqmyp98",
   "links": [
     {
       "type": "website",
-      "value": "http://www.ipms.fraunhofer.de/en/"
+      "value": "https://www.dlr.de/de/sp"
     }
   ],
   "locations": [
@@ -59,45 +45,38 @@
   ],
   "names": [
     {
-      "lang": "en",
+      "lang": "de",
       "types": [
-        "alias"
+        "label",
+        "ror_display"
       ],
-      "value": "Fraunhofer IPMS"
+      "value": "Institut für Softwaremethoden zur Produkt-Virtualisierung"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Photonic Microsystems"
+      "value": "Institute of Software Methods for Product Virtualization"
     },
     {
       "lang": "de",
       "types": [
-        "label"
-      ],
-      "value": "Fraunhofer-Institut für Photonische Mikrosysteme"
-    },
-    {
-      "lang": null,
-      "types": [
         "acronym"
       ],
-      "value": "IPMS"
+      "value": "SP"
     }
   ],
   "relationships": [
     {
-      "label": "Fraunhofer-Gesellschaft",
+      "label": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
       "type": "parent",
-      "id": "https://ror.org/05hkkdn48"
+      "id": "https://ror.org/04bwf3e34"
     },
     {
-      "label": "Center Nanoelectronic Technologies",
-      "type": "child",
-      "id": "https://ror.org/035wqzf29"
+      "label": "Technische Universität Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
     }
   ],
   "status": "active",
