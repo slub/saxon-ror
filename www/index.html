@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saxon ROR — Research organizations in Saxony</title>
+    <meta
+      name="description"
+      content="A curated, unmodified subset of the Research Organization Registry (ROR) for organizations in Saxony (Sachsen), Germany, with deterministic search. Maintained by SLUB Dresden."
+    />
+    <link
+      rel="preload"
+      href="fonts/IBMPlexSans-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23337E33'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3ESN%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipToContent">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#/">
+          <span class="brand-mark" aria-hidden="true">SN</span>
+          <span class="brand-text">
+            <span class="brand-title">Saxon ROR</span>
+            <span class="brand-sub" data-i18n="brandSub"
+              >Research organizations in Saxony</span
+            >
+          </span>
+        </a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang="de">DE</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <!-- List / search view -->
+      <section id="view-list" hidden>
+        <div class="intro">
+          <h1 data-i18n="listTitle">Find research organizations in Saxony</h1>
+          <p class="lede" data-i18n="listLede">
+            Deterministic, case- and accent-insensitive search across every name
+            variant. No fuzzy matching.
+          </p>
+        </div>
+
+        <div class="search-row">
+          <label class="visually-hidden" for="q" data-i18n="searchLabel"
+            >Search organizations</label
+          >
+          <input
+            type="search"
+            id="q"
+            autocomplete="off"
+            spellcheck="false"
+            data-i18n-attr="placeholder:searchPlaceholder"
+            placeholder="Search by name, acronym or ROR ID…"
+          />
+        </div>
+
+        <div class="layout">
+          <aside class="filters" aria-label="Filters">
+            <div class="filter-group">
+              <h2 data-i18n="filterStatus">Status</h2>
+              <div id="filter-status" class="checkboxes"></div>
+            </div>
+            <div class="filter-group">
+              <h2 data-i18n="filterType">Type</h2>
+              <div id="filter-type" class="checkboxes"></div>
+            </div>
+            <div class="filter-group">
+              <h2 data-i18n="filterCity">City</h2>
+              <select id="filter-city">
+                <option value="" data-i18n="allCities">All cities</option>
+              </select>
+            </div>
+            <button type="button" id="reset-filters" class="linkish">
+              <span data-i18n="resetFilters">Reset filters</span>
+            </button>
+          </aside>
+
+          <div class="results">
+            <p id="result-count" class="result-count" aria-live="polite"></p>
+            <ul id="result-list" class="result-list"></ul>
+            <p id="no-results" class="empty" hidden data-i18n="noResults">
+              No organizations match your search.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detail view -->
+      <section id="view-detail" hidden>
+        <p class="breadcrumb">
+          <a href="#/" data-i18n="backToList">← Back to search</a>
+        </p>
+        <div id="detail-content"></div>
+      </section>
+
+      <p id="loading" class="loading" data-i18n="loading">Loading data…</p>
+      <p id="load-error" class="empty" hidden></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="footer-meta"></p>
+        <p class="disclaimer" data-i18n="disclaimer">
+          Community subset maintained by SLUB Dresden. Not an official ROR
+          product. ror.org remains the authoritative source.
+        </p>
+        <p class="footer-links">
+          <a href="https://github.com/slub/saxon-ror" data-i18n="repoLink"
+            >Source &amp; documentation</a
+          >
+          ·
+          <a href="https://ror.org" data-i18n="rorLink">ror.org</a>
+          ·
+          <span data-i18n="license">Data: CC0 1.0</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
