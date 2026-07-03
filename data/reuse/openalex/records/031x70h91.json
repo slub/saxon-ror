@@ -22,10 +22,10 @@
     "Else Kröner Fresenius Zentrum für Digitale Gesundheit"
   ],
   "repositories": [],
-  "works_count": 265,
-  "cited_by_count": 8139,
+  "works_count": 266,
+  "cited_by_count": 8175,
   "summary_stats": {
-    "2yr_mean_citedness": 7.024118738404453,
+    "2yr_mean_citedness": 7.001838235294118,
     "h_index": 42,
     "i10_index": 206
   },
@@ -67,33 +67,33 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 42,
-      "oa_works_count": 34,
-      "cited_by_count": 17
+      "works_count": 43,
+      "oa_works_count": 35,
+      "cited_by_count": 18
     },
     {
       "year": 2025,
       "works_count": 85,
       "oa_works_count": 65,
-      "cited_by_count": 414
+      "cited_by_count": 419
     },
     {
       "year": 2024,
       "works_count": 67,
       "oa_works_count": 55,
-      "cited_by_count": 981
+      "cited_by_count": 983
     },
     {
       "year": 2023,
       "works_count": 37,
       "oa_works_count": 33,
-      "cited_by_count": 855
+      "cited_by_count": 856
     },
     {
       "year": 2022,
       "works_count": 23,
       "oa_works_count": 21,
-      "cited_by_count": 394
+      "cited_by_count": 395
     },
     {
       "year": 2021,
@@ -112,7 +112,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405269091",
-      "works_count": 265
+      "works_count": 266
     }
   ],
   "topics": [
@@ -333,6 +333,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13248",
+      "display_name": "Healthcare Technology and Patient Monitoring",
+      "count": 10,
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11569",
       "display_name": "Optical Coherence Tomography Applications",
       "count": 9,
@@ -348,24 +366,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13248",
-      "display_name": "Healthcare Technology and Patient Monitoring",
-      "count": 9,
-      "score": 0.9983000159263611,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -571,7 +571,7 @@
     {
       "id": "https://openalex.org/T11636",
       "display_name": "Artificial Intelligence in Healthcare and Education",
-      "value": 0.0003756,
+      "value": 0.0003744,
       "subfield": {
         "id": "https://openalex.org/subfields/2718",
         "display_name": "Health Informatics"
@@ -588,7 +588,7 @@
     {
       "id": "https://openalex.org/T14029",
       "display_name": "Thoreau and American Literature",
-      "value": 0.0003266,
+      "value": 0.0003254,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -605,7 +605,7 @@
     {
       "id": "https://openalex.org/T13585",
       "display_name": "Technostress in Professional Settings",
-      "value": 0.0002497,
+      "value": 0.0002481,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -620,26 +620,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14447",
-      "display_name": "Trade Secret Protection Methods",
-      "value": 0.0001857,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13248",
       "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 0.0001831,
+      "value": 0.0002032,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -654,9 +637,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14447",
+      "display_name": "Trade Secret Protection Methods",
+      "value": 0.000185,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12943",
       "display_name": "COVID-19 Digital Contact Tracing",
-      "value": 0.0001579,
+      "value": 0.0001575,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -673,7 +673,7 @@
     {
       "id": "https://openalex.org/T14174",
       "display_name": "Artificial Intelligence and Decision Support Systems",
-      "value": 0.000157,
+      "value": 0.0001563,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -690,7 +690,7 @@
     {
       "id": "https://openalex.org/T11446",
       "display_name": "Mobile Health and mHealth Applications",
-      "value": 0.0001493,
+      "value": 0.0001492,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -707,7 +707,7 @@
     {
       "id": "https://openalex.org/T10350",
       "display_name": "Electronic Health Records Systems",
-      "value": 0.0001465,
+      "value": 0.0001463,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -724,7 +724,7 @@
     {
       "id": "https://openalex.org/T12574",
       "display_name": "Clinical Reasoning and Diagnostic Skills",
-      "value": 0.0001348,
+      "value": 0.0001347,
       "subfield": {
         "id": "https://openalex.org/subfields/2714",
         "display_name": "Family Practice"
@@ -741,7 +741,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 0.0001297,
+      "value": 0.0001296,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -758,7 +758,7 @@
     {
       "id": "https://openalex.org/T12874",
       "display_name": "Digital Imaging for Blood Diseases",
-      "value": 0.0001258,
+      "value": 0.0001257,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -775,7 +775,7 @@
     {
       "id": "https://openalex.org/T11996",
       "display_name": "Random lasers and scattering media",
-      "value": 0.0001251,
+      "value": 0.000125,
       "subfield": {
         "id": "https://openalex.org/subfields/3102",
         "display_name": "Acoustics and Ultrasonics"
@@ -792,7 +792,7 @@
     {
       "id": "https://openalex.org/T13702",
       "display_name": "Machine Learning in Healthcare",
-      "value": 0.0001197,
+      "value": 0.0001195,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -809,7 +809,7 @@
     {
       "id": "https://openalex.org/T13592",
       "display_name": "Advanced Scientific Techniques and Applications",
-      "value": 0.0001185,
+      "value": 0.0001177,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -826,7 +826,7 @@
     {
       "id": "https://openalex.org/T13851",
       "display_name": "Law, AI, and Intellectual Property",
-      "value": 0.0001169,
+      "value": 0.0001166,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -860,7 +860,7 @@
     {
       "id": "https://openalex.org/T11378",
       "display_name": "Gastrointestinal Bleeding Diagnosis and Treatment",
-      "value": 0.0001122,
+      "value": 0.0001121,
       "subfield": {
         "id": "https://openalex.org/subfields/2715",
         "display_name": "Gastroenterology"
@@ -911,7 +911,7 @@
     {
       "id": "https://openalex.org/T10862",
       "display_name": "AI in cancer detection",
-      "value": 0.0001044,
+      "value": 0.0001043,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -945,7 +945,7 @@
     {
       "id": "https://openalex.org/T11519",
       "display_name": "Digital Mental Health Interventions",
-      "value": 0.0001012,
+      "value": 0.0001011,
       "subfield": {
         "id": "https://openalex.org/subfields/3202",
         "display_name": "Applied Psychology"
@@ -962,7 +962,7 @@
     {
       "id": "https://openalex.org/T10912",
       "display_name": "Telemedicine and Telehealth Implementation",
-      "value": 8.15e-05,
+      "value": 8.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -997,6 +997,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405269091",
-  "updated_date": "2026-07-02T05:59:20",
+  "updated_date": "2026-07-03T05:59:24",
   "created_date": "2026-06-25T03:30:22"
 }

@@ -16,10 +16,10 @@
     "Sana Kliniken Leipziger Land"
   ],
   "repositories": [],
-  "works_count": 183,
-  "cited_by_count": 2115,
+  "works_count": 184,
+  "cited_by_count": 2116,
   "summary_stats": {
-    "2yr_mean_citedness": 1.2926829268292683,
+    "2yr_mean_citedness": 1.2619047619047619,
     "h_index": 22,
     "i10_index": 57
   },
@@ -44,8 +44,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 7,
-      "oa_works_count": 2,
+      "works_count": 8,
+      "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
@@ -82,7 +82,7 @@
       "year": 2020,
       "works_count": 22,
       "oa_works_count": 14,
-      "cited_by_count": 210
+      "cited_by_count": 211
     },
     {
       "year": 2019,
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210139451",
-      "works_count": 183
+      "works_count": 184
     }
   ],
   "topics": [
@@ -532,6 +532,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10124",
+      "display_name": "Prostate Cancer Diagnosis and Treatment",
+      "count": 4,
+      "score": 0.9765999913215637,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
       "count": 4,
@@ -584,31 +602,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11293",
-      "display_name": "Orthopedic Infections and Treatments",
-      "count": 4,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12301",
       "display_name": "Facial Nerve Paralysis Treatment and Research",
-      "value": 0.0001611,
+      "value": 0.000161,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -659,7 +659,7 @@
     {
       "id": "https://openalex.org/T12199",
       "display_name": "Vascular Anomalies and Treatments",
-      "value": 0.0001443,
+      "value": 0.0001442,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -676,7 +676,7 @@
     {
       "id": "https://openalex.org/T12744",
       "display_name": "Medical Device Sterilization and Disinfection",
-      "value": 0.000111,
+      "value": 0.0001109,
       "subfield": {
         "id": "https://openalex.org/subfields/2404",
         "display_name": "Microbiology"
@@ -693,7 +693,7 @@
     {
       "id": "https://openalex.org/T12193",
       "display_name": "Trigeminal Neuralgia and Treatments",
-      "value": 0.0001103,
+      "value": 0.0001102,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -710,7 +710,7 @@
     {
       "id": "https://openalex.org/T11035",
       "display_name": "Salivary Gland Tumors Diagnosis and Treatment",
-      "value": 8.62e-05,
+      "value": 8.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -727,7 +727,7 @@
     {
       "id": "https://openalex.org/T12830",
       "display_name": "Pectus Deformity Diagnosis and Treatment",
-      "value": 8.62e-05,
+      "value": 8.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -744,7 +744,7 @@
     {
       "id": "https://openalex.org/T11306",
       "display_name": "Nonmelanoma Skin Cancer Studies",
-      "value": 8.14e-05,
+      "value": 8.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -761,7 +761,7 @@
     {
       "id": "https://openalex.org/T14057",
       "display_name": "Hypertrophic osteoarthropathy and related conditions",
-      "value": 7.58e-05,
+      "value": 7.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -846,7 +846,7 @@
     {
       "id": "https://openalex.org/T11868",
       "display_name": "Cancer and Skin Lesions",
-      "value": 6.25e-05,
+      "value": 6.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -863,7 +863,7 @@
     {
       "id": "https://openalex.org/T10776",
       "display_name": "Spinal Fractures and Fixation Techniques",
-      "value": 5.95e-05,
+      "value": 5.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -880,7 +880,7 @@
     {
       "id": "https://openalex.org/T11812",
       "display_name": "Nasal Surgery and Airway Studies",
-      "value": 5.67e-05,
+      "value": 5.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -897,7 +897,7 @@
     {
       "id": "https://openalex.org/T13170",
       "display_name": "Discrimination and Equality Law",
-      "value": 5.5e-05,
+      "value": 5.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -965,7 +965,7 @@
     {
       "id": "https://openalex.org/T12476",
       "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 4.96e-05,
+      "value": 4.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -999,7 +999,7 @@
     {
       "id": "https://openalex.org/T11910",
       "display_name": "Foreign Body Medical Cases",
-      "value": 4.74e-05,
+      "value": 4.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -1034,6 +1034,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210139451",
-  "updated_date": "2026-07-02T05:59:20",
+  "updated_date": "2026-07-03T05:59:24",
   "created_date": "2022-02-02T04:48:36"
 }

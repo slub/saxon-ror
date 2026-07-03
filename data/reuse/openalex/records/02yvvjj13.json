@@ -16,7 +16,7 @@
     "Cornelsen (Germany)"
   ],
   "repositories": [],
-  "works_count": 36,
+  "works_count": 37,
   "cited_by_count": 101,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -42,6 +42,12 @@
   "international": {},
   "associated_institutions": [],
   "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
     {
       "year": 2025,
       "works_count": 2,
@@ -89,7 +95,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210138631",
-      "works_count": 36
+      "works_count": 37
     }
   ],
   "topics": [
@@ -195,6 +201,24 @@
       "field": {
         "id": "https://openalex.org/fields/19",
         "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11869",
+      "display_name": "Per- and polyfluoroalkyl substances research",
+      "count": 2,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -472,6 +496,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10947",
+      "display_name": "Fluorine in Organic Chemistry",
+      "count": 1,
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11197",
       "display_name": "Digital Games and Media",
       "count": 1,
@@ -506,49 +548,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11487",
-      "display_name": "Automotive and Human Injury Biomechanics",
-      "count": 1,
-      "score": 0.9354000091552734,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11524",
-      "display_name": "Advanced Aircraft Design and Technologies",
-      "count": 1,
-      "score": 0.954800009727478,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13954",
       "display_name": "Aerospace Engineering and Applications",
-      "value": 0.0001358,
+      "value": 0.0001355,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -580,6 +586,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T11869",
+      "display_name": "Per- and polyfluoroalkyl substances research",
+      "value": 5.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12606",
       "display_name": "Diptera species taxonomy and behavior",
       "value": 3.13e-05,
@@ -599,7 +622,7 @@
     {
       "id": "https://openalex.org/T12180",
       "display_name": "Polar Research and Ecology",
-      "value": 3.11e-05,
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -616,7 +639,7 @@
     {
       "id": "https://openalex.org/T11320",
       "display_name": "Atmospheric Ozone and Climate",
-      "value": 2.94e-05,
+      "value": 2.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -624,23 +647,6 @@
       "field": {
         "id": "https://openalex.org/fields/19",
         "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11869",
-      "display_name": "Per- and polyfluoroalkyl substances research",
-      "value": 2.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -665,9 +671,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11969",
+      "display_name": "Fluoride Effects and Removal",
+      "value": 2.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11487",
       "display_name": "Automotive and Human Injury Biomechanics",
-      "value": 2.3e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -803,7 +826,7 @@
     {
       "id": "https://openalex.org/T12500",
       "display_name": "Reflective Practices in Education",
-      "value": 1.48e-05,
+      "value": 1.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -952,28 +975,11 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11396",
-      "display_name": "Artificial Intelligence in Healthcare",
-      "value": 1.04e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210138631",
-  "updated_date": "2026-06-21T05:59:27",
+  "updated_date": "2026-07-03T05:59:24",
   "created_date": "2022-02-02T04:48:36"
 }
