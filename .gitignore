@@ -5,6 +5,9 @@ dev.*
 *-dev.*
 *_dev.*
 
+# GitHub Pages build output (assembled by .github/workflows/pages.yml)
+_deploy/
+
 .DS_Store
 
 .claude
