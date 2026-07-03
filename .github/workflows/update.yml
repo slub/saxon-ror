@@ -1,0 +1,102 @@
+name: Update Saxon ROR data
+
+# Refreshes the Saxon ROR subset (and the OpenAlex companion layer) from the
+# latest Zenodo dump. Runs monthly and on manual dispatch. Never pushes to the
+# default branch: if the data changed, it opens a pull request instead.
+
+on:
+  schedule:
+    # 06:00 UTC on the 5th of each month (a few days after ROR's usual release).
+    - cron: "0 6 5 * *"
+  workflow_dispatch:
+    inputs:
+      mailto:
+        description: "Contact e-mail for the OpenAlex polite pool"
+        required: false
+        default: "bibliometrie@slub-dresden.de"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update ROR subset
+        run: python scripts/update_ror.py
+
+      - name: Update OpenAlex companion data
+        run: >-
+          python scripts/update_openalex.py
+          --mailto "${{ github.event.inputs.mailto || 'bibliometrie@slub-dresden.de' }}"
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          if git diff --quiet -- data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          # Per-record file adds/removals/modifications for the PR body.
+          added=$(git diff --diff-filter=A --name-only -- data/records | wc -l | tr -d ' ')
+          removed=$(git diff --diff-filter=D --name-only -- data/records | wc -l | tr -d ' ')
+          modified=$(git diff --diff-filter=M --name-only -- data/records | wc -l | tr -d ' ')
+          version=$(python -c "import json; print(json.load(open('data/meta.json'))['ror']['dump_version'])")
+          count=$(python -c "import json; print(json.load(open('data/meta.json'))['ror']['record_count'])")
+
+          {
+            echo "version=$version"
+            echo "count=$count"
+            echo "added=$added"
+            echo "removed=$removed"
+            echo "modified=$modified"
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo "Automated refresh from ROR dump **$version** — $count Saxon records."
+            echo ""
+            echo "| Change | Records |"
+            echo "| --- | --- |"
+            echo "| Added | $added |"
+            echo "| Removed | $removed |"
+            echo "| Modified | $modified |"
+            echo ""
+            if [ "$added" -gt 0 ]; then
+              echo "**Added:**"
+              git diff --diff-filter=A --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
+              echo ""
+            fi
+            if [ "$removed" -gt 0 ]; then
+              echo "**Removed:**"
+              git diff --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
+              echo ""
+            fi
+          } > /tmp/pr-body.md
+
+      - name: Create pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: automated/data-update
+          base: main
+          commit-message: >-
+            data: update to ROR dump ${{ steps.diff.outputs.version }}
+            (${{ steps.diff.outputs.count }} Saxon records)
+          title: >-
+            data: update to ROR dump ${{ steps.diff.outputs.version }}
+          body-path: /tmp/pr-body.md
+          add-paths: data
+          delete-branch: true
+          labels: data-update

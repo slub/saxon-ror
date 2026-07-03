@@ -1,0 +1,55 @@
+name: Deploy site to GitHub Pages
+
+# Publishes the static browser in www/ together with the data files it needs.
+# The site fetches data/ relative to itself, so we assemble a deploy directory
+# where www/ becomes the root and data/ sits alongside index.html.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "www/**"
+      - "data/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; newer pushes cancel in-progress runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Assemble deploy directory
+        run: |
+          mkdir -p _deploy
+          cp -R www/. _deploy/
+          mkdir -p _deploy/data
+          # Copy the data the site reads (records + OpenAlex companion + meta).
+          cp -R data/. _deploy/data/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _deploy
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

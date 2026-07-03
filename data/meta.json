@@ -11,5 +11,21 @@
     "source": "https://ror.org/",
     "dump_source": "https://doi.org/10.5281/zenodo.6347574",
     "note": "Historical backfill commit; data as of the dump above."
+  },
+  "reuse": {
+    "openalex": {
+      "source": "https://openalex.org/",
+      "api": "https://api.openalex.org/institutions",
+      "retrieved": "2026-07-03",
+      "matched": 278,
+      "ror_total": 279,
+      "missing": 1,
+      "missing_ror_ids": [
+        "https://ror.org/01dvske68"
+      ],
+      "license": "CC0-1.0",
+      "access": "open (no authentication required)",
+      "note": "Derived companion data keyed by ROR id. Institution entities only; no works/publication metadata fetched. May lag behind or diverge from ROR."
+    }
   }
 }
