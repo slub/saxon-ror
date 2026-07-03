@@ -67,9 +67,9 @@ This is a **community subset maintained by SLUB Dresden. It is not an official R
 
 ## Reporting an error in a record
 
-Records are **not modified** in this repository — they are a verbatim copy of the official dump. To correct an organization's data, use ROR's curation process at [`ror-community/ror-updates`](https://github.com/ror-community/ror-updates), which flows back into the next dump and therefore into this subset.
+Records are **not modified** in this repository — they are a verbatim copy of the official dump. To correct an organization's data, use ROR's curation process, which flows back into the next dump and therefore into this subset.
 
-Each record's detail page links to its **ROR curation requests**: `data/curation.json` maps a record to the relevant `ror-updates` issue numbers, and `scripts/update_curation.py` enriches them with live titles/states at deploy time (`--seed` bootstraps the map by searching issue titles for the record's ROR URL).
+Each record's detail page links to its **ROR curation requests**: `data/curation.json` maps a record to the relevant curation issue numbers, and `scripts/update_curation.py` enriches them with live titles/states at deploy time (`--seed` bootstraps the map by searching issue titles for the record's ROR URL).
 
 For issues with *this repository* specifically (the website, scripts, or the filter), please open a GitHub issue.
 
@@ -151,7 +151,7 @@ The **code** (scripts and website) is licensed under the [MIT License](LICENSE).
 
 ## References
 
-External endpoints for this project's data sources, collected in one place.
+External resources for this project's data sources, collected in one place.
 
 **ROR**
 
@@ -159,6 +159,7 @@ External endpoints for this project's data sources, collected in one place.
 - REST API: <https://api.ror.org/v2/organizations>
 - Schema: <https://github.com/ror-community/ror-schema>
 - Curation request: <https://curation-request.ror.org/>
+- Curation tracker (issues): <https://github.com/ror-community/ror-updates>
 - Data dumps (Zenodo, concept DOI): <https://doi.org/10.5281/zenodo.6347574>
 
 **OpenAlex**
