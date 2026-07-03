@@ -230,7 +230,8 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 .issue-state.issue-open { color: var(--accent-dark); border-color: var(--accent); background: var(--accent-soft); }
 .issue-line.issue-closed .issue-title { color: var(--text-soft); text-decoration: line-through; }
 .issue-title { overflow-wrap: anywhere; }
-.issue-new { display: inline-block; margin-top: 0.6rem; font-size: 0.88rem; }
+.issue-new { margin-top: 0.6rem; font-size: 0.88rem; }
+.issue-new-label, .issue-new-sep { color: var(--text-soft); }
 
 /* OpenAlex panel — visually distinct (derived data) */
 .openalex-panel {

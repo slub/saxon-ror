@@ -22,8 +22,10 @@
   const ALL_STATUSES = ["active", "inactive", "withdrawn"];
 
   // ROR's curation tracker — records are corrected upstream there, and each
-  // record links to its curation requests (see data/curation.json).
+  // record links to its curation requests (see data/curation.json). Corrections
+  // can be filed via ROR's web form or directly on GitHub.
   const ROR_UPDATES_URL = "https://github.com/ror-community/ror-updates";
+  const ROR_CURATION_FORM_URL = "https://curation-request.ror.org/";
 
   // ---- i18n ---------------------------------------------------------------
   function t(key) {
@@ -430,17 +432,20 @@
       });
       items.push(el("div", { class: `issue-line issue-${it.state}` }, [badge, link]));
     }
-    // Corrections are made upstream in ROR's curation tracker.
+    // Corrections are filed upstream — via ROR's web form or on GitHub.
     items.push(
-      el("a", {
-        class: "issue-new",
-        text: t("requestCorrection"),
-        attrs: {
-          href: `${ROR_UPDATES_URL}/issues/new/choose`,
-          target: "_blank",
-          rel: "noopener",
-        },
-      })
+      el("div", { class: "issue-new" }, [
+        el("span", { class: "issue-new-label", text: `${t("requestCorrection")}: ` }),
+        el("a", {
+          text: t("curationForm"),
+          attrs: { href: ROR_CURATION_FORM_URL, target: "_blank", rel: "noopener" },
+        }),
+        el("span", { class: "issue-new-sep", text: " · " }),
+        el("a", {
+          text: t("onGithub"),
+          attrs: { href: `${ROR_UPDATES_URL}/issues/new/choose`, target: "_blank", rel: "noopener" },
+        }),
+      ])
     );
     return card(t("curationRequests"), items);
   }

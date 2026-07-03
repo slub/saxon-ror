@@ -63,7 +63,9 @@ window.I18N = {
     curationRequests: "ROR curation requests",
     issueOpen: "open",
     issueClosed: "closed",
-    requestCorrection: "Request a correction in ROR",
+    requestCorrection: "Request a correction",
+    curationForm: "ROR form",
+    onGithub: "on GitHub",
     // OpenAlex panel
     openalexTitle: "In OpenAlex",
     openalexDerived:
@@ -144,7 +146,9 @@ window.I18N = {
     curationRequests: "ROR-Kurationsanträge",
     issueOpen: "offen",
     issueClosed: "geschlossen",
-    requestCorrection: "Korrektur bei ROR beantragen",
+    requestCorrection: "Korrektur beantragen",
+    curationForm: "ROR-Formular",
+    onGithub: "auf GitHub",
     openalexTitle: "In OpenAlex",
     openalexDerived:
       "Abgeleitete Begleitdaten aus OpenAlex – nicht Teil von ROR, können abweichen oder veralten.",
