@@ -10,11 +10,25 @@ Two modes:
 
 ``--seed``
     One-time (occasional) bootstrap. Searches ``ror-community/ror-updates`` for
-    each Saxon record's ROR URL **in the issue title** (curation issues put the
-    target record's URL in their title, so this is precise) and merges the found
-    issue numbers into ``data/curation.json``:
+    each Saxon record's ROR URL and merges the found issue numbers into
+    ``data/curation.json``:
 
         { "<suffix>": [11728, ...] }
+
+    Two kinds of curation issues are captured from a single search per record:
+
+    * **update requests** put the target record's ROR URL in their *title*, so
+      a title match is trusted directly (precise by construction).
+    * **add requests** cannot carry the ROR URL in the title (the record does
+      not exist yet when the request is filed). Instead ``ror-curator-bot``
+      announces the release in a *comment*:
+
+          Assigned ROR ID https://ror.org/<suffix> in release v2.8.
+
+      So any hit whose URL is *not* in the title is treated as an add-candidate
+      and only kept if a comment contains ``Assigned ROR ID https://ror.org/<suffix>``.
+      This bot convention is recent; pre-bot add requests used ad-hoc phrasings
+      and are not auto-discovered (hand-add them to ``data/curation.json``).
 
     ``data/curation.json`` is committed and hand-maintainable afterwards.
 
@@ -90,18 +104,55 @@ def _suffixes() -> list[str]:
     return [r.get("id", "").rstrip("/").rsplit("/", 1)[-1] for r in records if r.get("id")]
 
 
+def _comment_bodies(number: int, cache: dict[int, list[str]]) -> list[str]:
+    """Return issue ``number``'s comment bodies, fetched once and cached by number."""
+    if number not in cache:
+        try:
+            comments = _get(f"{API}/repos/{CURATION_REPO}/issues/{number}/comments?per_page=100")
+            cache[number] = [c.get("body") or "" for c in comments]
+        except RuntimeError as exc:
+            print(f"  war: comments for #{number} not fetched: {exc}")
+            cache[number] = []
+    return cache[number]
+
+
+def _has_add_release_comment(number: int, sfx: str, cache: dict[int, list[str]]) -> bool:
+    """True if issue ``number`` carries the curator-bot release comment for ``sfx``.
+
+    Add requests announce the assigned ROR ID in a comment like
+    ``Assigned ROR ID https://ror.org/<sfx> in release v2.8.``; this is the only
+    reliable, machine-readable signal that the issue produced *this* record.
+
+    The needle is suffix-specific, so the check runs per ``sfx`` — only the fetched
+    comment bodies are cached (by issue number), never the boolean verdict.
+    """
+    needle = f"Assigned ROR ID https://ror.org/{sfx}"
+    return any(needle in body for body in _comment_bodies(number, cache))
+
+
 def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
-    """Search curation issues by ROR URL in the title; merge into ``existing``."""
+    """Search curation issues by ROR URL; merge update + add requests into ``existing``."""
     merged = {k: list(v) for k, v in existing.items()}
     suffixes = _suffixes()
+    comment_cache: dict[int, list[str]] = {}
     for i, sfx in enumerate(suffixes, 1):
-        q = f"repo:{CURATION_REPO} in:title ror.org/{sfx}"
+        known = set(merged.get(sfx, []))
+        # Unqualified search returns title, body and comment matches in one call.
+        q = f"repo:{CURATION_REPO} ror.org/{sfx}"
         url = f"{API}/search/issues?q={urllib.parse.quote(q)}&per_page=50"
         data = _get(url)
-        nums = sorted({it["number"] for it in data.get("items", [])}, reverse=True)
+        nums: set[int] = set()
+        for it in data.get("items", []):
+            n = it["number"]
+            if n in known:
+                continue  # already recorded — no need to re-classify/re-fetch
+            if f"ror.org/{sfx}" in (it.get("title") or ""):
+                nums.add(n)  # URL in title -> trusted update request
+            elif _has_add_release_comment(n, sfx, comment_cache):
+                nums.add(n)  # URL only in comments + release announcement -> add request
         if nums:
-            merged[sfx] = sorted(set(merged.get(sfx, [])) | set(nums), reverse=True)
-            print(f"[{i}/{len(suffixes)}] {sfx}: {nums}")
+            merged[sfx] = sorted(known | nums, reverse=True)
+            print(f"[{i}/{len(suffixes)}] {sfx}: {sorted(nums, reverse=True)}")
         # Search API allows ~30 requests/minute.
         time.sleep(2.2)
     return dict(sorted(merged.items()))
