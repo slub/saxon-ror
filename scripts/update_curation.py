@@ -15,20 +15,28 @@ Two modes:
 
         { "<suffix>": [11728, ...] }
 
-    Two kinds of curation issues are captured from a single search per record:
+    Each search hit is classified by where the ROR URL appears:
 
-    * **update requests** put the target record's ROR URL in their *title*, so
-      a title match is trusted directly (precise by construction).
-    * **add requests** cannot carry the ROR URL in the title (the record does
-      not exist yet when the request is filed). Instead ``ror-curator-bot``
-      announces the release in a *comment*:
+    * **update requests** usually put the target record's ROR URL in their
+      *title*, so a title match is trusted directly (precise by construction).
+    * **modify requests** whose title omits the URL (a newer template) still
+      name the target in the body's structured ``ROR ID:`` field:
+
+          ROR ID: https://ror.org/<suffix>
+
+      A hit whose body ``ROR ID:`` field is this record is treated as an update.
+      This is distinct from the ``Related organizations:`` URLs in the same body,
+      so a record merely *referenced* by another request is not miscaptured.
+    * **add requests** cannot carry the ROR URL in the title *or* the ROR ID
+      field (the record does not exist yet when filed). Instead
+      ``ror-curator-bot`` announces the release in a *comment*:
 
           Assigned ROR ID https://ror.org/<suffix> in release v2.8.
 
-      So any hit whose URL is *not* in the title is treated as an add-candidate
-      and only kept if a comment contains ``Assigned ROR ID https://ror.org/<suffix>``.
-      This bot convention is recent; pre-bot add requests used ad-hoc phrasings
-      and are not auto-discovered (hand-add them to ``data/curation.json``).
+      So a remaining hit is treated as an add-candidate and only kept if a
+      comment contains ``Assigned ROR ID https://ror.org/<suffix>``. This bot
+      convention is recent; pre-bot add requests used ad-hoc phrasings and are
+      not auto-discovered (hand-add them to ``data/curation.json``).
 
     ``data/curation.json`` is committed and hand-maintainable afterwards.
 
@@ -56,6 +64,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import time
 import urllib.parse
 import urllib.request
@@ -141,6 +150,10 @@ def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
         q = f"repo:{CURATION_REPO} ror.org/{sfx}"
         url = f"{API}/search/issues?q={urllib.parse.quote(q)}&per_page=50"
         data = _get(url)
+        # Modify requests name their target in the body's "ROR ID:" field, which
+        # is distinct from the "Related organizations:" URLs — so this matches the
+        # target record even when the title omits the URL (a newer template does).
+        rorid_field = re.compile(rf"ROR ID:\s*https?://ror\.org/{re.escape(sfx)}(?![\w-])")
         nums: set[int] = set()
         for it in data.get("items", []):
             n = it["number"]
@@ -148,6 +161,8 @@ def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
                 continue  # already recorded — no need to re-classify/re-fetch
             if f"ror.org/{sfx}" in (it.get("title") or ""):
                 nums.add(n)  # URL in title -> trusted update request
+            elif rorid_field.search(it.get("body") or ""):
+                nums.add(n)  # ROR ID field in body -> modify request for this record
             elif _has_add_release_comment(n, sfx, comment_cache):
                 nums.add(n)  # URL only in comments + release announcement -> add request
         if nums:
