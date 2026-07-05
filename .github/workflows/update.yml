@@ -1,19 +1,28 @@
 name: Update Saxon ROR data
 
 # Refreshes the Saxon ROR subset (and the OpenAlex companion layer) from the
-# latest Zenodo dump. Runs monthly and on manual dispatch. Never pushes to the
-# default branch: if the data changed, it opens a pull request instead.
+# latest Zenodo dump. Polls daily and on manual dispatch, but a preflight check
+# resolves the latest Zenodo DOI first: if it matches the DOI already recorded in
+# data/meta.json, the run stops before downloading anything -- no dump fetch, no
+# OpenAlex sweep, no pull request. Never pushes to the default branch: when the
+# data actually changes, it opens a pull request instead.
 
 on:
   schedule:
-    # 06:00 UTC on the 5th of each month (a few days after ROR's usual release).
-    - cron: "0 6 5 * *"
+    # 06:00 UTC daily. Most runs no-op at the preflight step; the download and
+    # OpenAlex sweep only happen on the day a new dump appears.
+    - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       mailto:
         description: "Contact e-mail for the OpenAlex polite pool"
         required: false
         default: "bibliometrie@slub-dresden.de"
+      force:
+        description: "Ignore the freshness check and re-fetch regardless"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -31,16 +40,45 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Cheap probe: resolve the latest Zenodo DOI and compare it to what we
+      # already have. On a match (and unless forced) the job stops here -- no
+      # download, no OpenAlex sweep, no PR. This is what makes daily polling free.
+      - name: Check for a new ROR release
+        id: preflight
+        env:
+          FORCE: ${{ github.event.inputs.force || 'false' }}
+        run: |
+          set -euo pipefail
+          if [ "$FORCE" = "true" ]; then
+            echo "Force requested -- skipping the freshness check."
+            echo "fresh=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          latest=$(PYTHONPATH=scripts python -c "import ror_lib as R; print(R.zenodo_latest()['doi'])")
+          current=$(python -c "import json; print(json.load(open('data/meta.json')).get('ror', {}).get('zenodo_doi', ''))")
+          echo "Latest Zenodo DOI:  ${latest:-<none>}"
+          echo "Current data DOI:   ${current:-<none>}"
+          if [ -n "$current" ] && [ "$latest" = "$current" ]; then
+            echo "Already up to date -- nothing to do."
+            echo "fresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "New release detected -- proceeding with update."
+            echo "fresh=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Update ROR subset
+        if: steps.preflight.outputs.fresh != 'true'
         run: python scripts/update_ror.py
 
       - name: Update OpenAlex companion data
+        if: steps.preflight.outputs.fresh != 'true'
         run: >-
           python scripts/update_openalex.py
           --mailto "${{ github.event.inputs.mailto || 'bibliometrie@slub-dresden.de' }}"
 
       - name: Summarize changes
         id: diff
+        if: steps.preflight.outputs.fresh != 'true'
         run: |
           if git diff --quiet -- data; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -94,7 +132,7 @@ jobs:
       # GitHub's "Rebase and merge" preserves that author date on main; the
       # committer date becomes the merge time, which is acceptable.
       - name: Open data-update pull request
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.preflight.outputs.fresh != 'true' && steps.diff.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_AUTHOR_DATE: ${{ steps.diff.outputs.created }}
