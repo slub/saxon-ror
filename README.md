@@ -6,14 +6,12 @@ A curated, regularly updated subset of the Research Organization Registry (ROR) 
 
 Maintained by the [Saxon State and University Library Dresden (SLUB)](https://www.slub-dresden.de/).
 
-## Why this exists
+## What you get
 
-The official ROR search is fuzzy — often to the point of being unhelpful when you know exactly which institution you are looking for. Common alternatives (e.g. OpenAlex) serve *remixed* rather than *original* ROR data.
+This project offers two things:
 
-This project offers two things the alternatives do not:
-
-1. **The unmodified, original ROR records** for Saxon institutions, stored verbatim (only re-indented; no field changes, additions, or deletions).
-2. **A deterministic, predictable search**: case- and accent-insensitive *substring* matching across every name variant and the ROR ID, sorted alphabetically. No fuzzy matching, no ranking magic. If a substring is in the data, you will find it; if it is not, you will not.
+1. **The data** — the unmodified, original ROR records for Saxon institutions, stored verbatim (only re-indented; no field changes, additions, or deletions).
+2. **A browser** to search and view the records — case- and accent-insensitive *substring* matching across every name variant and the ROR ID, sorted alphabetically, plus a plain detail view for each record.
 
 ## What's in `data/`
 
