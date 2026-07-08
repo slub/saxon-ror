@@ -511,6 +511,11 @@
     panel.appendChild(
       el("p", {}, [
         el("a", { class: "chip", text: t("viewOnOpenalex"), attrs: { href: e.id, target: "_blank", rel: "noopener" } }),
+        el("a", {
+          class: "chip",
+          text: t("rawJson"),
+          attrs: { href: `${state.dataBase}/reuse/openalex/records/${suffix(rec)}.json`, target: "_blank", rel: "noopener" },
+        }),
       ])
     );
 

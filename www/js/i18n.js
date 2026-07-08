@@ -56,7 +56,7 @@ window.I18N = {
     rel_predecessor: "Predecessor",
     rel_successor: "Successor",
     externalIds: "External identifiers",
-    rorRecord: "View on ror.org",
+    rorRecord: "View on ROR",
     rawJson: "Raw JSON",
     inSubset: "in this subset",
     // ROR curation requests (ror-community/ror-updates)
@@ -139,7 +139,7 @@ window.I18N = {
     rel_predecessor: "Vorgänger",
     rel_successor: "Nachfolger",
     externalIds: "Externe Identifikatoren",
-    rorRecord: "Auf ror.org ansehen",
+    rorRecord: "Auf ROR ansehen",
     rawJson: "Rohes JSON",
     inSubset: "in dieser Auswahl",
     // ROR-Kurationsanträge (ror-community/ror-updates)
