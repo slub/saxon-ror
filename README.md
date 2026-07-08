@@ -4,6 +4,8 @@ A curated, regularly updated subset of the Research Organization Registry (ROR) 
 
 **Live site:** https://slub.github.io/saxon-ror/
 
+Date created: July 3, 2026
+
 Maintained by the Saxon State and University Library (SLUB) Dresden.
 
 ## What you get
