@@ -1,0 +1,59 @@
+name: Tag release commits
+
+# Every ROR dump lands on main as a commit whose subject carries "ROR dump vX.Y":
+# the historical ones from the backfill ("data: ROR dump vX.Y (date)") and the
+# ongoing ones from the update workflow's merged pull requests ("data: update to
+# ROR dump vX.Y (N Saxon records)"). This job gives each such commit a matching
+# git tag (v1.0, v2.9, v2.10, ...).
+#
+# It is idempotent: it scans the whole history, skips commits that already carry
+# their tag, and creates only the missing ones. The first run (triggered by
+# adding this file) tags every historical release at once; later runs add one
+# tag per newly merged dump. Tags are lightweight, so each commit's own date --
+# the dump's Zenodo publication moment -- stays authoritative.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - ".github/workflows/tag-releases.yml"
+  workflow_dispatch:
+
+# One tagging run at a time; a newer push waits rather than racing the tag push.
+concurrency:
+  group: tag-releases
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history and tags
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Create any missing release tags
+        run: |
+          set -euo pipefail
+          created=()
+          while IFS=$'\t' read -r sha subject; do
+            # Version token immediately after "ROR dump " in the subject.
+            ver=$(printf '%s' "$subject" | grep -oP 'ROR dump \Kv[0-9]+\.[0-9]+(\.[0-9]+)?' || true)
+            [ -n "$ver" ] || continue
+            if git rev-parse -q --verify "refs/tags/$ver" >/dev/null; then
+              continue
+            fi
+            git tag "$ver" "$sha"
+            created+=("$ver")
+          done < <(git log --no-merges --pretty=tformat:'%H%x09%s')
+
+          if [ "${#created[@]}" -eq 0 ]; then
+            echo "All release commits already tagged."
+            exit 0
+          fi
+          echo "Created ${#created[@]} tag(s): ${created[*]}"
+          git push origin "${created[@]}"
