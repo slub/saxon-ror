@@ -161,7 +161,7 @@ External resources for this project, collected in one place.
 
 **OpenAlex**
 
-- Website: <https://openalex.org/>
+- Website: <https://openalex.org>
 - Institutions API: <https://api.openalex.org/institutions>
 
 **SLUB Dresden**
