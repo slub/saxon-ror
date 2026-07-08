@@ -54,7 +54,7 @@ plus its own block in `data/meta.json` (retrieval date, match statistics, data l
 
 OpenAlex institution entities are keyed by ROR ID, so each record here is fetched via `filter=ror:<id>` from the OpenAlex institutions API and stored unmodified under `data/reuse/openalex/`. Only the institution entities are kept — their built-in aggregates (`works_count`, `cited_by_count`, `counts_by_year`, `topics`) travel with the entity. No works/publication metadata is fetched.
 
-OpenAlex data is CC0, like ROR. It is a derived layer that may lag behind or diverge from ROR — so, for example, some ROR records have no OpenAlex counterpart. Match statistics are recorded in `data/meta.json`.
+OpenAlex data is CC0, like ROR. It is a derived layer that may lag behind or diverge from ROR — so, for example, some ROR records may have no OpenAlex counterpart. Match statistics are recorded in `data/meta.json`.
 
 ## Data provenance
 
