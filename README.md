@@ -17,7 +17,7 @@ This project offers two things:
 
 ## What's in `data/`
 
-The `data/` root holds the **authoritative ROR subset**. This repository is about ROR, so ROR is not treated as "a source" — it *is* the primary data.
+The `data/` root holds the **authoritative ROR subset**.
 
 | Path | Contents |
 | --- | --- |
