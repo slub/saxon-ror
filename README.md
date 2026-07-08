@@ -46,7 +46,7 @@ data/reuse/<source>/
 └── records.json                   # combined array
 ```
 
-plus its own block in `data/meta.json` (retrieval date, match statistics, data license, access terms — future sources may not be CC0 or openly accessible) and a matching `scripts/update_<source>.py`.
+plus its own block in `data/meta.json` (retrieval date, match statistics, data license, access terms) and a matching `scripts/update_<source>.py`.
 
 ### OpenAlex
 
