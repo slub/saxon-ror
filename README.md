@@ -4,7 +4,7 @@ A curated, regularly updated subset of the Research Organization Registry (ROR) 
 
 **Live site:** https://slub.github.io/saxon-ror/
 
-Maintained by the [Saxon State and University Library Dresden (SLUB)](https://www.slub-dresden.de/).
+Maintained by the Saxon State and University Library (SLUB) Dresden.
 
 ## What you get
 
@@ -109,10 +109,7 @@ git log --format='%ad %s' --date=short data/records/
 
 reads as a true timeline of Saxon ROR records. Note the **schema switch from v1 to v2 partway through**: records are stored in whatever schema their dump provided (v1 records are not converted to v2), so the large diff at the transition is honest and expected. Each dump's schema version is recorded in `data/meta.json`.
 
-The backfill is a one-time operation (`scripts/backfill_history.py`), run
-manually on a dedicated branch and merged via PR; it is not part of the
-scheduled workflow. OpenAlex has no equivalent public snapshot history, so its
-companion data starts at the present.
+The backfill is a one-time operation (`scripts/backfill_history.py`), run manually on a dedicated branch and merged via PR; it is not part of the scheduled workflow. OpenAlex has no equivalent public snapshot history, so its companion data starts at the present.
 
 ## Repository layout
 
@@ -149,15 +146,15 @@ The **code** (scripts and website) is licensed under the [MIT License](LICENSE).
 
 ## References
 
-External resources for this project's data sources, collected in one place.
+External resources for this project, collected in one place.
 
 **ROR**
 
-- Website: <https://ror.org/>
+- Website: <https://ror.org>
 - REST API: <https://api.ror.org/v2/organizations>
 - Schema: <https://github.com/ror-community/ror-schema>
-- Curation request: <https://curation-request.ror.org/>
-- Curation tracker (issues): <https://github.com/ror-community/ror-updates>
+- Curation request: <https://curation-request.ror.org>
+- Curation tracker: <https://github.com/ror-community/ror-updates/issues>
 - Data dumps (Zenodo, concept DOI): <https://doi.org/10.5281/zenodo.6347574>
 
 **OpenAlex**
@@ -165,6 +162,10 @@ External resources for this project's data sources, collected in one place.
 - Website: <https://openalex.org/>
 - Institutions API: <https://api.openalex.org/institutions>
 
-**Other**
+**SLUB Dresden**
 
-- Saxon Styleguide: <https://www.styleguide.sachsen.de/>
+- Website: <https://www.slub-dresden.de>
+
+**Saxony**
+
+- Styleguide: <https://www.styleguide.sachsen.de>
