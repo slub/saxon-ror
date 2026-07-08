@@ -7,7 +7,7 @@ window.I18N = {
     brandSub: "Research organizations in Saxony",
     listTitle: "Find research organizations in Saxony",
     listLede:
-      "Deterministic, case- and accent-insensitive search across every name variant. No fuzzy matching.",
+      "Deterministic, case- and accent-insensitive search across every name variant.",
     searchLabel: "Search organizations",
     searchPlaceholder: "Search by name, acronym or ROR ID…",
     filterStatus: "Status",
@@ -93,7 +93,7 @@ window.I18N = {
     brandSub: "Forschungseinrichtungen in Sachsen",
     listTitle: "Forschungseinrichtungen in Sachsen finden",
     listLede:
-      "Deterministische Suche über alle Namensvarianten – ohne Berücksichtigung von Groß-/Kleinschreibung und Diakritika. Keine unscharfe Suche.",
+      "Deterministische Suche über alle Namensvarianten – ohne Berücksichtigung von Groß-/Kleinschreibung und Diakritika.",
     searchLabel: "Einrichtungen suchen",
     searchPlaceholder: "Nach Name, Akronym oder ROR-ID suchen…",
     filterStatus: "Status",
