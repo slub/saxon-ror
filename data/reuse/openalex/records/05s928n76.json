@@ -18,8 +18,8 @@
     "Bach-Archiv"
   ],
   "repositories": [],
-  "works_count": 31,
-  "cited_by_count": 8,
+  "works_count": 32,
+  "cited_by_count": 11,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 2,
@@ -112,13 +112,19 @@
       "works_count": 2,
       "oa_works_count": 2,
       "cited_by_count": 0
+    },
+    {
+      "year": 2015,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 3
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210166100",
-      "works_count": 31
+      "works_count": 32
     }
   ],
   "topics": [
@@ -161,11 +167,29 @@
     {
       "id": "https://openalex.org/T14380",
       "display_name": "Libraries and Information Services",
-      "count": 5,
-      "score": 0.953499972820282,
+      "count": 6,
+      "score": 0.9958999752998352,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11893",
+      "display_name": "German Literature and Culture Studies",
+      "count": 3,
+      "score": 0.9840999841690063,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -228,24 +252,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11893",
-      "display_name": "German Literature and Culture Studies",
-      "count": 2,
-      "score": 0.9840999841690063,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -577,7 +583,7 @@
     {
       "id": "https://openalex.org/T14046",
       "display_name": "Bach Studies and Logistics Development",
-      "value": 0.0011765,
+      "value": 0.0011741,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -594,7 +600,7 @@
     {
       "id": "https://openalex.org/T13887",
       "display_name": "Augustinian Studies and Theology",
-      "value": 0.0001146,
+      "value": 0.0001138,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -611,7 +617,7 @@
     {
       "id": "https://openalex.org/T10941",
       "display_name": "Musicology and Musical Analysis",
-      "value": 8.63e-05,
+      "value": 8.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -628,7 +634,7 @@
     {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 7.32e-05,
+      "value": 7.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -645,7 +651,7 @@
     {
       "id": "https://openalex.org/T14380",
       "display_name": "Libraries and Information Services",
-      "value": 5.57e-05,
+      "value": 6.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
@@ -662,7 +668,7 @@
     {
       "id": "https://openalex.org/T14181",
       "display_name": "Academic Freedom and Politics",
-      "value": 5.08e-05,
+      "value": 5.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -679,7 +685,7 @@
     {
       "id": "https://openalex.org/T14167",
       "display_name": "Consumer behavior in food and health",
-      "value": 4.58e-05,
+      "value": 4.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -696,7 +702,7 @@
     {
       "id": "https://openalex.org/T13996",
       "display_name": "Diverse Musicological Studies",
-      "value": 4.39e-05,
+      "value": 4.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -713,7 +719,7 @@
     {
       "id": "https://openalex.org/T13754",
       "display_name": "Central European and Russian historical studies",
-      "value": 4.2e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -730,7 +736,7 @@
     {
       "id": "https://openalex.org/T14322",
       "display_name": "Art, Aesthetics, and Perception",
-      "value": 3.8e-05,
+      "value": 3.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -747,7 +753,7 @@
     {
       "id": "https://openalex.org/T13459",
       "display_name": "Public Administration and Political Analysis",
-      "value": 3.53e-05,
+      "value": 3.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -764,7 +770,7 @@
     {
       "id": "https://openalex.org/T13556",
       "display_name": "Historical Influence and Diplomacy",
-      "value": 3.47e-05,
+      "value": 3.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -779,9 +785,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11893",
+      "display_name": "German Literature and Culture Studies",
+      "value": 3.3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13738",
       "display_name": "Congenital Ear and Nasal Anomalies",
-      "value": 3.31e-05,
+      "value": 3.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -798,7 +821,7 @@
     {
       "id": "https://openalex.org/T13316",
       "display_name": "Crafts, Textile, and Design",
-      "value": 3.27e-05,
+      "value": 3.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
@@ -815,7 +838,7 @@
     {
       "id": "https://openalex.org/T12927",
       "display_name": "Memory, History, Trauma, Identity",
-      "value": 3.11e-05,
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -832,7 +855,7 @@
     {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "value": 3.04e-05,
+      "value": 3.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -849,7 +872,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "value": 2.95e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -866,7 +889,7 @@
     {
       "id": "https://openalex.org/T14288",
       "display_name": "Law, Rights, and Freedoms",
-      "value": 2.85e-05,
+      "value": 2.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -900,7 +923,7 @@
     {
       "id": "https://openalex.org/T14389",
       "display_name": "Innovation, Technology, and Society",
-      "value": 2.71e-05,
+      "value": 2.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -917,7 +940,7 @@
     {
       "id": "https://openalex.org/T13212",
       "display_name": "German Social Sciences and History",
-      "value": 2.69e-05,
+      "value": 2.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -934,7 +957,7 @@
     {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 2.3e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -949,26 +972,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11893",
-      "display_name": "German Literature and Culture Studies",
-      "value": 2.17e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "value": 2.12e-05,
+      "value": 2.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -1003,6 +1009,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210166100",
-  "updated_date": "2026-06-12T06:02:13",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

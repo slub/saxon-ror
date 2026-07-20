@@ -18,12 +18,12 @@
     "Park-Krankenhaus Leipzig"
   ],
   "repositories": [],
-  "works_count": 624,
-  "cited_by_count": 26095,
+  "works_count": 642,
+  "cited_by_count": 26721,
   "summary_stats": {
-    "2yr_mean_citedness": 2.1646341463414633,
-    "h_index": 88,
-    "i10_index": 398
+    "2yr_mean_citedness": 2.2196531791907512,
+    "h_index": 89,
+    "i10_index": 404
   },
   "ids": {
     "openalex": "https://openalex.org/I4210123970",
@@ -55,87 +55,87 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 17,
-      "oa_works_count": 11,
+      "works_count": 20,
+      "oa_works_count": 14,
       "cited_by_count": 0
     },
     {
       "year": 2025,
       "works_count": 43,
       "oa_works_count": 33,
-      "cited_by_count": 110
+      "cited_by_count": 123
     },
     {
       "year": 2024,
       "works_count": 36,
       "oa_works_count": 25,
-      "cited_by_count": 121
+      "cited_by_count": 129
     },
     {
       "year": 2023,
       "works_count": 18,
       "oa_works_count": 10,
-      "cited_by_count": 122
+      "cited_by_count": 127
     },
     {
       "year": 2022,
-      "works_count": 31,
-      "oa_works_count": 20,
-      "cited_by_count": 633
+      "works_count": 37,
+      "oa_works_count": 21,
+      "cited_by_count": 651
     },
     {
       "year": 2021,
-      "works_count": 37,
+      "works_count": 40,
       "oa_works_count": 19,
-      "cited_by_count": 468
+      "cited_by_count": 489
     },
     {
       "year": 2020,
-      "works_count": 29,
+      "works_count": 30,
       "oa_works_count": 17,
-      "cited_by_count": 483
+      "cited_by_count": 576
     },
     {
       "year": 2019,
-      "works_count": 24,
-      "oa_works_count": 11,
-      "cited_by_count": 532
+      "works_count": 27,
+      "oa_works_count": 12,
+      "cited_by_count": 550
     },
     {
       "year": 2018,
-      "works_count": 28,
+      "works_count": 29,
       "oa_works_count": 10,
-      "cited_by_count": 532
+      "cited_by_count": 809
     },
     {
       "year": 2017,
-      "works_count": 36,
+      "works_count": 37,
       "oa_works_count": 18,
-      "cited_by_count": 446
+      "cited_by_count": 475
     },
     {
       "year": 2016,
-      "works_count": 26,
+      "works_count": 28,
       "oa_works_count": 9,
-      "cited_by_count": 750
+      "cited_by_count": 771
     },
     {
       "year": 2015,
       "works_count": 22,
       "oa_works_count": 13,
-      "cited_by_count": 1700
+      "cited_by_count": 1705
     },
     {
       "year": 2014,
       "works_count": 28,
       "oa_works_count": 7,
-      "cited_by_count": 1118
+      "cited_by_count": 1120
     },
     {
       "year": 2013,
       "works_count": 26,
       "oa_works_count": 9,
-      "cited_by_count": 871
+      "cited_by_count": 872
     },
     {
       "year": 2012,
@@ -153,14 +153,14 @@
       "year": 2010,
       "works_count": 20,
       "oa_works_count": 5,
-      "cited_by_count": 1068
+      "cited_by_count": 1069
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210123970",
-      "works_count": 624
+      "works_count": 642
     }
   ],
   "topics": [
@@ -237,6 +237,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10983",
+      "display_name": "Aortic aneurysm repair treatments",
+      "count": 28,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10023",
       "display_name": "Schizophrenia research and treatment",
       "count": 27,
@@ -255,27 +273,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10983",
-      "display_name": "Aortic aneurysm repair treatments",
-      "count": 27,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10172",
       "display_name": "Cardiac Valve Diseases and Treatments",
-      "count": 26,
+      "count": 27,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -293,11 +293,47 @@
     {
       "id": "https://openalex.org/T10618",
       "display_name": "Aortic Disease and Treatment Approaches",
-      "count": 25,
+      "count": 26,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10065",
+      "display_name": "Atrial Fibrillation Management and Outcomes",
+      "count": 25,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11217",
+      "display_name": "Cardiac Arrhythmias and Treatments",
+      "count": 23,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -345,64 +381,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10065",
-      "display_name": "Atrial Fibrillation Management and Outcomes",
-      "count": 20,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11217",
-      "display_name": "Cardiac Arrhythmias and Treatments",
-      "count": 20,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10280",
       "display_name": "Shoulder Injury and Treatment",
-      "count": 19,
+      "count": 20,
       "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10512",
-      "display_name": "Orthopaedic implants and arthroplasty",
-      "count": 17,
-      "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -453,6 +435,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "count": 16,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10376",
+      "display_name": "Suicide and Self-Harm Studies",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10512",
+      "display_name": "Orthopaedic implants and arthroplasty",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10562",
       "display_name": "Total Knee Arthroplasty Outcomes",
       "count": 16,
@@ -471,45 +507,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10376",
-      "display_name": "Suicide and Self-Harm Studies",
-      "count": 15,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11658",
-      "display_name": "Esophageal and GI Pathology",
-      "count": 15,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12411",
       "display_name": "Shoulder and Clavicle Injuries",
-      "count": 15,
+      "count": 16,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
@@ -525,31 +525,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10217",
-      "display_name": "Cardiac electrophysiology and arrhythmias",
-      "count": 14,
-      "score": 0.9997000098228455,
+      "id": "https://openalex.org/T11658",
+      "display_name": "Esophageal and GI Pathology",
+      "count": 15,
+      "score": 0.9998999834060669,
       "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10238",
-      "display_name": "Spine and Intervertebral Disc Pathology",
-      "count": 14,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -579,6 +561,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T11930",
+      "display_name": "Cardiac, Anesthesia and Surgical Outcomes",
+      "count": 14,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10073",
+      "display_name": "Hepatocellular Carcinoma Treatment and Prognosis",
+      "count": 13,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10178",
       "display_name": "Cancer survivorship and care",
       "count": 13,
@@ -595,31 +613,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10285",
-      "display_name": "Venous Thromboembolism Diagnosis and Management",
-      "count": 13,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2724",
-        "display_name": "Internal Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10926",
       "display_name": "Peripheral Artery Disease Management",
-      "value": 0.0004534,
+      "value": 0.000452,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -636,7 +636,7 @@
     {
       "id": "https://openalex.org/T13944",
       "display_name": "Psychiatric care and mental health services",
-      "value": 0.0004401,
+      "value": 0.0004395,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -653,7 +653,7 @@
     {
       "id": "https://openalex.org/T11554",
       "display_name": "Vascular Procedures and Complications",
-      "value": 0.0003927,
+      "value": 0.0003919,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -670,7 +670,7 @@
     {
       "id": "https://openalex.org/T13755",
       "display_name": "Global socioeconomic and cultural dynamics",
-      "value": 0.0003571,
+      "value": 0.0003557,
       "subfield": {
         "id": "https://openalex.org/subfields/3305",
         "display_name": "Geography, Planning and Development"
@@ -687,7 +687,7 @@
     {
       "id": "https://openalex.org/T12453",
       "display_name": "Infectious Aortic and Vascular Conditions",
-      "value": 0.0003371,
+      "value": 0.000336,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -704,7 +704,7 @@
     {
       "id": "https://openalex.org/T11678",
       "display_name": "Healthcare Decision-Making and Restraints",
-      "value": 0.0002918,
+      "value": 0.0002903,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -721,7 +721,7 @@
     {
       "id": "https://openalex.org/T13423",
       "display_name": "Social Policies and Healthcare Reform",
-      "value": 0.0002813,
+      "value": 0.0002778,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -738,7 +738,7 @@
     {
       "id": "https://openalex.org/T13657",
       "display_name": "Aortic Thrombus and Embolism",
-      "value": 0.0002347,
+      "value": 0.0002338,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -755,7 +755,7 @@
     {
       "id": "https://openalex.org/T10983",
       "display_name": "Aortic aneurysm repair treatments",
-      "value": 0.0002236,
+      "value": 0.0002312,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -772,7 +772,7 @@
     {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "value": 0.0002153,
+      "value": 0.0002167,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -789,7 +789,7 @@
     {
       "id": "https://openalex.org/T13022",
       "display_name": "Health and Medical Studies",
-      "value": 0.0001925,
+      "value": 0.0001937,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -804,26 +804,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10618",
-      "display_name": "Aortic Disease and Treatment Approaches",
-      "value": 0.0001622,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12411",
       "display_name": "Shoulder and Clavicle Injuries",
-      "value": 0.000162,
+      "value": 0.0001725,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -838,9 +821,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10618",
+      "display_name": "Aortic Disease and Treatment Approaches",
+      "value": 0.0001681,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13809",
       "display_name": "Philosophy, Health, and Society",
-      "value": 0.0001609,
+      "value": 0.0001576,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -857,7 +857,7 @@
     {
       "id": "https://openalex.org/T11123",
       "display_name": "Obsessive-Compulsive Spectrum Disorders",
-      "value": 0.000158,
+      "value": 0.0001575,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -874,7 +874,7 @@
     {
       "id": "https://openalex.org/T10816",
       "display_name": "Cerebrovascular and Carotid Artery Diseases",
-      "value": 0.0001533,
+      "value": 0.000153,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -891,7 +891,7 @@
     {
       "id": "https://openalex.org/T10376",
       "display_name": "Suicide and Self-Harm Studies",
-      "value": 0.0001419,
+      "value": 0.0001507,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -908,7 +908,7 @@
     {
       "id": "https://openalex.org/T10023",
       "display_name": "Schizophrenia research and treatment",
-      "value": 0.0001402,
+      "value": 0.0001395,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -925,7 +925,7 @@
     {
       "id": "https://openalex.org/T14075",
       "display_name": "Psychodrama and Leishmaniasis Studies",
-      "value": 0.0001343,
+      "value": 0.0001308,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -942,7 +942,7 @@
     {
       "id": "https://openalex.org/T10193",
       "display_name": "Coronary Interventions and Diagnostics",
-      "value": 0.0001297,
+      "value": 0.0001293,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -959,7 +959,7 @@
     {
       "id": "https://openalex.org/T12067",
       "display_name": "Renal and Vascular Pathologies",
-      "value": 0.0001221,
+      "value": 0.000122,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -974,9 +974,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11055",
+      "display_name": "Cardiac and Coronary Surgery Techniques",
+      "value": 0.0001192,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 0.0001172,
+      "value": 0.000117,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -993,7 +1010,7 @@
     {
       "id": "https://openalex.org/T13697",
       "display_name": "Biliary and Gastrointestinal Fistulas",
-      "value": 0.0001138,
+      "value": 0.0001137,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -1010,27 +1027,10 @@
     {
       "id": "https://openalex.org/T11378",
       "display_name": "Gastrointestinal Bleeding Diagnosis and Treatment",
-      "value": 0.0001121,
+      "value": 0.0001117,
       "subfield": {
         "id": "https://openalex.org/subfields/2715",
         "display_name": "Gastroenterology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13834",
-      "display_name": "Whipple's Disease and Interleukins",
-      "value": 0.0001114,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1045,6 +1045,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210123970",
-  "updated_date": "2026-07-03T05:59:24",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

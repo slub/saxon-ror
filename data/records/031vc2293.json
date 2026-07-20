@@ -1,53 +1,47 @@
 {
-  "locations": [
-    {
-      "geonames_id": 2925192,
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "SN",
-        "country_subdivision_name": "Saxony",
-        "lat": 50.91089,
-        "lng": 13.33881,
-        "name": "Freiberg"
-      }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
     }
-  ],
+  },
+  "domains": [],
   "established": 1765,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100021786"
       ],
-      "preferred": "501100021786"
+      "preferred": "501100021786",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.6862.a"
       ],
-      "preferred": "grid.6862.a"
+      "preferred": "grid.6862.a",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0805 5610"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q689854"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/031vc2293",
-  "domains": [],
   "links": [
     {
       "type": "website",
@@ -58,44 +52,56 @@
       "value": "http://en.wikipedia.org/wiki/Freiberg_University_of_Mining_and_Technology"
     }
   ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 50.91089,
+        "lng": 13.33881,
+        "name": "Freiberg"
+      },
+      "geonames_id": 2925192
+    }
+  ],
   "names": [
     {
-      "value": "TU Bergakademie Freiberg",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "TU Bergakademie Freiberg"
     },
     {
-      "value": "TUBAF",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "TUBAF"
     },
     {
-      "value": "Technische Universität Bergakademie Freiberg",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Technische Universität Bergakademie Freiberg"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Responsible Electronics in the Climate Change Era",
+      "type": "related",
+      "id": "https://ror.org/03rymtb94"
+    }
+  ],
   "status": "active",
   "types": [
     "education",
     "funder"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

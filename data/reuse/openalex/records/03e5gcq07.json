@@ -18,8 +18,8 @@
     "Institut für Ausbildung Jugendlicher"
   ],
   "repositories": [],
-  "works_count": 27,
-  "cited_by_count": 503,
+  "works_count": 29,
+  "cited_by_count": 506,
   "summary_stats": {
     "2yr_mean_citedness": 2.0,
     "h_index": 7,
@@ -82,8 +82,8 @@
     },
     {
       "year": 2014,
-      "works_count": 1,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 84
     },
     {
@@ -103,7 +103,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210128456",
-      "works_count": 27
+      "works_count": 29
     }
   ],
   "topics": [
@@ -234,6 +234,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "count": 2,
+      "score": 0.9871000051498413,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10032",
       "display_name": "Marine and coastal ecosystems",
       "count": 1,
@@ -249,6 +267,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10065",
+      "display_name": "Atrial Fibrillation Management and Outcomes",
+      "count": 1,
+      "score": 0.9907000064849854,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -520,49 +556,30 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11561",
-      "display_name": "Protein Hydrolysis and Bioactive Peptides",
-      "count": 1,
-      "score": 0.9952999949455261,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11791",
-      "display_name": "Microbial Community Ecology and Physiology",
-      "count": 1,
-      "score": 0.9584000110626221,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "value": 6.05e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12731",
       "display_name": "Hidradenitis Suppurativa and Treatments",
-      "value": 4.4e-05,
+      "value": 4.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -577,9 +594,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "value": 3.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12269",
       "display_name": "Effects of Vibration on Health",
-      "value": 3.06e-05,
+      "value": 3.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2732",
         "display_name": "Orthopedics and Sports Medicine"
@@ -591,23 +625,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 3.04e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -630,7 +647,7 @@
     {
       "id": "https://openalex.org/T13365",
       "display_name": "Medical and Biological Ozone Research",
-      "value": 2.67e-05,
+      "value": 2.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -647,7 +664,7 @@
     {
       "id": "https://openalex.org/T13275",
       "display_name": "Medical and Health Sciences Research",
-      "value": 2.55e-05,
+      "value": 2.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -664,7 +681,7 @@
     {
       "id": "https://openalex.org/T13135",
       "display_name": "Communism, Protests, Social Movements",
-      "value": 2.48e-05,
+      "value": 2.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -681,7 +698,7 @@
     {
       "id": "https://openalex.org/T12005",
       "display_name": "Spaceflight effects on biology",
-      "value": 2.38e-05,
+      "value": 2.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -698,7 +715,7 @@
     {
       "id": "https://openalex.org/T14178",
       "display_name": "Environmental Science and Water Management",
-      "value": 2.22e-05,
+      "value": 2.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -732,7 +749,7 @@
     {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "value": 1.96e-05,
+      "value": 1.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -749,7 +766,7 @@
     {
       "id": "https://openalex.org/T13048",
       "display_name": "Patient Dignity and Privacy",
-      "value": 1.95e-05,
+      "value": 1.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -783,7 +800,7 @@
     {
       "id": "https://openalex.org/T10907",
       "display_name": "International Student and Expatriate Challenges",
-      "value": 1.72e-05,
+      "value": 1.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3315",
         "display_name": "Communication"
@@ -800,7 +817,7 @@
     {
       "id": "https://openalex.org/T12027",
       "display_name": "Social Media in Health Education",
-      "value": 1.72e-05,
+      "value": 1.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3306",
         "display_name": "Health"
@@ -868,7 +885,7 @@
     {
       "id": "https://openalex.org/T11865",
       "display_name": "Anorectal Disease Treatments and Outcomes",
-      "value": 1.53e-05,
+      "value": 1.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -900,9 +917,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12373",
+      "display_name": "Linguistic research and analysis",
+      "value": 1.31e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12634",
       "display_name": "Ureteral procedures and complications",
-      "value": 1.32e-05,
+      "value": 1.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2729",
         "display_name": "Obstetrics and Gynecology"
@@ -949,45 +983,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12645",
-      "display_name": "European history and politics",
-      "value": 1.22e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10546",
-      "display_name": "Higher Education Governance and Development",
-      "value": 1.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210128456",
-  "updated_date": "2026-06-24T05:59:55",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

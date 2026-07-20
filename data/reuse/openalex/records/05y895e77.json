@@ -16,12 +16,12 @@
     "Landesuntersuchungsanstalt Sachsen"
   ],
   "repositories": [],
-  "works_count": 367,
-  "cited_by_count": 7584,
+  "works_count": 369,
+  "cited_by_count": 7634,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5769230769230769,
+    "2yr_mean_citedness": 0.6153846153846154,
     "h_index": 42,
-    "i10_index": 156
+    "i10_index": 157
   },
   "ids": {
     "openalex": "https://openalex.org/I4210166275",
@@ -52,7 +52,7 @@
       "year": 2025,
       "works_count": 14,
       "oa_works_count": 11,
-      "cited_by_count": 16
+      "cited_by_count": 18
     },
     {
       "year": 2024,
@@ -82,12 +82,12 @@
       "year": 2020,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 44
+      "cited_by_count": 46
     },
     {
       "year": 2019,
-      "works_count": 2,
-      "oa_works_count": 1,
+      "works_count": 3,
+      "oa_works_count": 2,
       "cited_by_count": 36
     },
     {
@@ -100,7 +100,7 @@
       "year": 2017,
       "works_count": 6,
       "oa_works_count": 2,
-      "cited_by_count": 170
+      "cited_by_count": 171
     },
     {
       "year": 2016,
@@ -112,7 +112,7 @@
       "year": 2015,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 213
+      "cited_by_count": 214
     },
     {
       "year": 2014,
@@ -122,8 +122,8 @@
     },
     {
       "year": 2013,
-      "works_count": 6,
-      "oa_works_count": 1,
+      "works_count": 5,
+      "oa_works_count": 0,
       "cited_by_count": 15
     },
     {
@@ -134,9 +134,9 @@
     },
     {
       "year": 2011,
-      "works_count": 6,
-      "oa_works_count": 4,
-      "cited_by_count": 406
+      "works_count": 5,
+      "oa_works_count": 3,
+      "cited_by_count": 408
     },
     {
       "year": 2010,
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210166275",
-      "works_count": 367
+      "works_count": 369
     }
   ],
   "topics": [
@@ -172,6 +172,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13022",
+      "display_name": "Health and Medical Studies",
+      "count": 17,
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10908",
       "display_name": "Analytical Chemistry and Chromatography",
       "count": 16,
@@ -187,24 +205,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "count": 16,
-      "score": 0.9993000030517578,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -608,7 +608,7 @@
     {
       "id": "https://openalex.org/T13165",
       "display_name": "Agricultural safety and regulations",
-      "value": 0.0007493,
+      "value": 0.000749,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T13663",
       "display_name": "Sustainability, Environment, and Optimization Algorithms",
-      "value": 0.00042,
+      "value": 0.0004146,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -642,7 +642,7 @@
     {
       "id": "https://openalex.org/T14167",
       "display_name": "Consumer behavior in food and health",
-      "value": 0.0002291,
+      "value": 0.0002272,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -659,7 +659,7 @@
     {
       "id": "https://openalex.org/T13423",
       "display_name": "Social Policies and Healthcare Reform",
-      "value": 0.0002251,
+      "value": 0.0002222,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -676,7 +676,7 @@
     {
       "id": "https://openalex.org/T11423",
       "display_name": "Pesticide Residue Analysis and Safety",
-      "value": 0.0002137,
+      "value": 0.0002131,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -693,7 +693,7 @@
     {
       "id": "https://openalex.org/T13022",
       "display_name": "Health and Medical Studies",
-      "value": 0.0001812,
+      "value": 0.0001937,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -708,26 +708,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14106",
-      "display_name": "Environmental and Sediment Control",
-      "value": 0.0001554,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2308",
-        "display_name": "Management, Monitoring, Policy and Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12833",
       "display_name": "Bartonella species infections research",
-      "value": 0.000148,
+      "value": 0.0001471,
       "subfield": {
         "id": "https://openalex.org/subfields/2405",
         "display_name": "Parasitology"
@@ -744,7 +727,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 0.0001465,
+      "value": 0.0001463,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -761,7 +744,7 @@
     {
       "id": "https://openalex.org/T13586",
       "display_name": "HIV, TB, and STIs Epidemiology",
-      "value": 0.0001182,
+      "value": 0.0001166,
       "subfield": {
         "id": "https://openalex.org/subfields/3300",
         "display_name": "General Social Sciences"
@@ -778,7 +761,7 @@
     {
       "id": "https://openalex.org/T13592",
       "display_name": "Advanced Scientific Techniques and Applications",
-      "value": 0.0001177,
+      "value": 0.000114,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -795,7 +778,7 @@
     {
       "id": "https://openalex.org/T11780",
       "display_name": "Rabies epidemiology and control",
-      "value": 0.0001101,
+      "value": 0.0001098,
       "subfield": {
         "id": "https://openalex.org/subfields/2406",
         "display_name": "Virology"
@@ -810,26 +793,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13733",
-      "display_name": "Moravian Church and William Blake",
-      "value": 0.0001093,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14285",
       "display_name": "Biopolymer Synthesis and Applications",
-      "value": 0.0001092,
+      "value": 0.000109,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -844,9 +810,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13733",
+      "display_name": "Moravian Church and William Blake",
+      "value": 0.0001085,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13871",
       "display_name": "Melamine detection and toxicity",
-      "value": 0.0001027,
+      "value": 0.0001021,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -863,7 +846,7 @@
     {
       "id": "https://openalex.org/T13031",
       "display_name": "Civil and Structural Engineering Research",
-      "value": 9.43e-05,
+      "value": 9.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -880,7 +863,7 @@
     {
       "id": "https://openalex.org/T11426",
       "display_name": "Genetically Modified Organisms Research",
-      "value": 9.09e-05,
+      "value": 9.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -897,7 +880,7 @@
     {
       "id": "https://openalex.org/T11934",
       "display_name": "Syphilis Diagnosis and Treatment",
-      "value": 8.95e-05,
+      "value": 8.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -914,7 +897,7 @@
     {
       "id": "https://openalex.org/T11767",
       "display_name": "Poxvirus research and outbreaks",
-      "value": 8.83e-05,
+      "value": 8.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2406",
         "display_name": "Virology"
@@ -931,7 +914,7 @@
     {
       "id": "https://openalex.org/T11560",
       "display_name": "Animal Disease Management and Epidemiology",
-      "value": 8.61e-05,
+      "value": 8.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1102",
         "display_name": "Agronomy and Crop Science"
@@ -943,23 +926,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13942",
-      "display_name": "International Human Rights and Reproductive Law",
-      "value": 8.54e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -982,7 +948,7 @@
     {
       "id": "https://openalex.org/T10296",
       "display_name": "Vector-borne infectious diseases",
-      "value": 8.3e-05,
+      "value": 8.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2405",
         "display_name": "Parasitology"
@@ -999,7 +965,7 @@
     {
       "id": "https://openalex.org/T14378",
       "display_name": "Entomological Studies and Ecology",
-      "value": 8.28e-05,
+      "value": 8.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -1016,7 +982,7 @@
     {
       "id": "https://openalex.org/T14389",
       "display_name": "Innovation, Technology, and Society",
-      "value": 8.14e-05,
+      "value": 8.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -1029,11 +995,45 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11528",
+      "display_name": "Lichen and fungal ecology",
+      "value": 7.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13986",
+      "display_name": "Medical Practices and Rehabilitation",
+      "value": 7.88e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210166275",
-  "updated_date": "2026-07-03T05:59:24",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

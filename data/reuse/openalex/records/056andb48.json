@@ -18,12 +18,12 @@
     "Institut für Leichte Elektrische Antriebe und Generatoren (Germany)"
   ],
   "repositories": [],
-  "works_count": 18,
-  "cited_by_count": 38,
+  "works_count": 19,
+  "cited_by_count": 116,
   "summary_stats": {
-    "2yr_mean_citedness": 0.3333333333333333,
-    "h_index": 4,
-    "i10_index": 1
+    "2yr_mean_citedness": 0.4,
+    "h_index": 6,
+    "i10_index": 4
   },
   "ids": {
     "openalex": "https://openalex.org/I4210143243",
@@ -46,8 +46,8 @@
   "counts_by_year": [
     {
       "year": 2025,
-      "works_count": 3,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "year": 2022,
-      "works_count": 1,
+      "works_count": 2,
       "oa_works_count": 1,
       "cited_by_count": 0
     },
@@ -85,7 +85,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210143243",
-      "works_count": 18
+      "works_count": 19
     }
   ],
   "topics": [
@@ -141,6 +141,42 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "count": 2,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10816",
+      "display_name": "Cerebrovascular and Carotid Artery Diseases",
+      "count": 2,
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -252,6 +288,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10193",
+      "display_name": "Coronary Interventions and Diagnostics",
+      "count": 1,
+      "score": 0.01209999993443489,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10215",
       "display_name": "Semantic Web and Ontologies",
       "count": 1,
@@ -306,13 +360,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10378",
-      "display_name": "Advanced MRI Techniques and Applications",
+      "id": "https://openalex.org/T10394",
+      "display_name": "Lipoproteins and Cardiovascular Health",
       "count": 1,
-      "score": 1.0,
+      "score": 0.5853999853134155,
       "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -324,13 +378,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10394",
-      "display_name": "Lipoproteins and Cardiovascular Health",
+      "id": "https://openalex.org/T10416",
+      "display_name": "Traumatic Brain Injury Research",
       "count": 1,
-      "score": 0.5853999853134155,
+      "score": 0.9901000261306763,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -414,24 +468,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10816",
-      "display_name": "Cerebrovascular and Carotid Artery Diseases",
-      "count": 1,
-      "score": 0.9984999895095825,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10820",
       "display_name": "Fuzzy Logic and Control Systems",
       "count": 1,
@@ -502,49 +538,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10949",
-      "display_name": "Genetic Neurodegenerative Diseases",
-      "count": 1,
-      "score": 0.9968000054359436,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11222",
-      "display_name": "Magnetic Properties and Applications",
-      "count": 1,
-      "score": 0.9919999837875366,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12940",
       "display_name": "Structural Engineering and Materials Analysis",
-      "value": 3.98e-05,
+      "value": 3.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -561,7 +561,7 @@
     {
       "id": "https://openalex.org/T10808",
       "display_name": "Electric and Hybrid Vehicle Technologies",
-      "value": 3.49e-05,
+      "value": 3.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -578,7 +578,7 @@
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "value": 3.22e-05,
+      "value": 3.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -595,7 +595,7 @@
     {
       "id": "https://openalex.org/T12927",
       "display_name": "Memory, History, Trauma, Identity",
-      "value": 3.11e-05,
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -612,7 +612,7 @@
     {
       "id": "https://openalex.org/T14514",
       "display_name": "Medical Research and Practices",
-      "value": 3.06e-05,
+      "value": 3.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3608",
         "display_name": "Medical Terminology"
@@ -629,7 +629,7 @@
     {
       "id": "https://openalex.org/T14355",
       "display_name": "Historical Studies of British Isles",
-      "value": 2.55e-05,
+      "value": 2.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -646,7 +646,7 @@
     {
       "id": "https://openalex.org/T11524",
       "display_name": "Advanced Aircraft Design and Technologies",
-      "value": 2.29e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -680,7 +680,7 @@
     {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "value": 2.12e-05,
+      "value": 2.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -782,7 +782,7 @@
     {
       "id": "https://openalex.org/T10456",
       "display_name": "Multi-Agent Systems and Negotiation",
-      "value": 1.34e-05,
+      "value": 1.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -799,7 +799,7 @@
     {
       "id": "https://openalex.org/T10868",
       "display_name": "Soft Robotics and Applications",
-      "value": 1.16e-05,
+      "value": 1.15e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -833,7 +833,7 @@
     {
       "id": "https://openalex.org/T11602",
       "display_name": "Magnetic Bearings and Levitation Dynamics",
-      "value": 1.02e-05,
+      "value": 1.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -848,9 +848,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10816",
+      "display_name": "Cerebrovascular and Carotid Artery Diseases",
+      "value": 9.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 1e-05,
+      "value": 9.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -862,6 +879,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11388",
+      "display_name": "Grief, Bereavement, and Mental Health",
+      "value": 9.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -918,7 +952,7 @@
     {
       "id": "https://openalex.org/T11375",
       "display_name": "Geotechnical Engineering and Soil Stabilization",
-      "value": 8.9e-06,
+      "value": 8.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -931,45 +965,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10100",
-      "display_name": "Metaheuristic Optimization Algorithms Research",
-      "value": 8.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10564",
-      "display_name": "Wastewater Treatment and Nitrogen Removal",
-      "value": 8.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2310",
-        "display_name": "Pollution"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210143243",
-  "updated_date": "2026-04-30T06:00:21",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

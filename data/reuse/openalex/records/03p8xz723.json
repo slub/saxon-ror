@@ -17,11 +17,11 @@
   ],
   "repositories": [],
   "works_count": 151,
-  "cited_by_count": 2488,
+  "cited_by_count": 2515,
   "summary_stats": {
-    "2yr_mean_citedness": 4.411764705882353,
+    "2yr_mean_citedness": 5.0,
     "h_index": 29,
-    "i10_index": 52
+    "i10_index": 53
   },
   "ids": {
     "openalex": "https://openalex.org/I4210136653",
@@ -44,7 +44,7 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 3,
+      "works_count": 2,
       "oa_works_count": 2,
       "cited_by_count": 0
     },
@@ -52,13 +52,13 @@
       "year": 2025,
       "works_count": 7,
       "oa_works_count": 7,
-      "cited_by_count": 14
+      "cited_by_count": 17
     },
     {
       "year": 2024,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 44
+      "cited_by_count": 46
     },
     {
       "year": 2023,
@@ -70,7 +70,7 @@
       "year": 2022,
       "works_count": 8,
       "oa_works_count": 2,
-      "cited_by_count": 121
+      "cited_by_count": 122
     },
     {
       "year": 2021,
@@ -94,7 +94,7 @@
       "year": 2018,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 44
+      "cited_by_count": 45
     },
     {
       "year": 2017,
@@ -154,24 +154,6 @@
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T11974",
-      "display_name": "Lepidoptera: Biology and Taxonomy",
-      "count": 10,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12012",
       "display_name": "Diatoms and Algae Research",
       "count": 10,
@@ -187,6 +169,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11974",
+      "display_name": "Lepidoptera: Biology and Taxonomy",
+      "count": 9,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -532,6 +532,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "count": 3,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10418",
       "display_name": "Pelvic floor disorders treatments",
       "count": 3,
@@ -584,31 +602,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11658",
-      "display_name": "Esophageal and GI Pathology",
-      "count": 3,
-      "score": 0.9975000023841858,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11909",
       "display_name": "Histiocytic Disorders and Treatments",
-      "value": 0.0001045,
+      "value": 0.0001043,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T11974",
       "display_name": "Lepidoptera: Biology and Taxonomy",
-      "value": 9.96e-05,
+      "value": 8.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -642,7 +642,7 @@
     {
       "id": "https://openalex.org/T14520",
       "display_name": "Sustainable Urban and Rural Development",
-      "value": 7.14e-05,
+      "value": 7.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3322",
         "display_name": "Urban Studies"
@@ -659,7 +659,7 @@
     {
       "id": "https://openalex.org/T14039",
       "display_name": "Ecology and biodiversity studies",
-      "value": 6.72e-05,
+      "value": 6.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -676,7 +676,7 @@
     {
       "id": "https://openalex.org/T12012",
       "display_name": "Diatoms and Algae Research",
-      "value": 6.43e-05,
+      "value": 6.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -693,7 +693,7 @@
     {
       "id": "https://openalex.org/T14481",
       "display_name": "Renewable Energy and Sustainability",
-      "value": 6.21e-05,
+      "value": 6.15e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -710,7 +710,7 @@
     {
       "id": "https://openalex.org/T13759",
       "display_name": "Medical Imaging and Pathology Studies",
-      "value": 5.86e-05,
+      "value": 5.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -727,7 +727,7 @@
     {
       "id": "https://openalex.org/T12634",
       "display_name": "Ureteral procedures and complications",
-      "value": 5.26e-05,
+      "value": 5.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2729",
         "display_name": "Obstetrics and Gynecology"
@@ -744,7 +744,7 @@
     {
       "id": "https://openalex.org/T13849",
       "display_name": "Enterobacteriaceae and Cronobacter Research",
-      "value": 5.15e-05,
+      "value": 5.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1310",
         "display_name": "Endocrinology"
@@ -761,7 +761,7 @@
     {
       "id": "https://openalex.org/T10870",
       "display_name": "Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis",
-      "value": 4.92e-05,
+      "value": 4.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -778,7 +778,7 @@
     {
       "id": "https://openalex.org/T13092",
       "display_name": "Environmental Chemistry and Analysis",
-      "value": 4.68e-05,
+      "value": 4.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -795,7 +795,7 @@
     {
       "id": "https://openalex.org/T14178",
       "display_name": "Environmental Science and Water Management",
-      "value": 4.43e-05,
+      "value": 4.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -812,7 +812,7 @@
     {
       "id": "https://openalex.org/T12701",
       "display_name": "Biological Control of Invasive Species",
-      "value": 4.31e-05,
+      "value": 4.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1109",
         "display_name": "Insect Science"
@@ -829,7 +829,7 @@
     {
       "id": "https://openalex.org/T11311",
       "display_name": "Soil and Water Nutrient Dynamics",
-      "value": 4.28e-05,
+      "value": 4.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -846,7 +846,7 @@
     {
       "id": "https://openalex.org/T14378",
       "display_name": "Entomological Studies and Ecology",
-      "value": 4.14e-05,
+      "value": 4.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -863,7 +863,7 @@
     {
       "id": "https://openalex.org/T10236",
       "display_name": "Aquatic Ecosystems and Phytoplankton Dynamics",
-      "value": 4.13e-05,
+      "value": 4.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -880,7 +880,7 @@
     {
       "id": "https://openalex.org/T12199",
       "display_name": "Vascular Anomalies and Treatments",
-      "value": 4.12e-05,
+      "value": 4.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -912,46 +912,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12321",
-      "display_name": "Insect Pheromone Research and Control",
-      "value": 3.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1109",
-        "display_name": "Insect Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12291",
       "display_name": "Pericarditis and Cardiac Tamponade",
-      "value": 3.81e-05,
+      "value": 3.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12878",
-      "display_name": "Pharmaceutical Quality and Counterfeiting",
-      "value": 3.53e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -980,9 +946,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12878",
+      "display_name": "Pharmaceutical Quality and Counterfeiting",
+      "value": 3.5e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11260",
       "display_name": "Tracheal and airway disorders",
-      "value": 3.41e-05,
+      "value": 3.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -999,7 +982,7 @@
     {
       "id": "https://openalex.org/T13878",
       "display_name": "Case Reports on Hematomas",
-      "value": 3.38e-05,
+      "value": 3.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -1016,10 +999,27 @@
     {
       "id": "https://openalex.org/T11381",
       "display_name": "Infectious Diseases and Tuberculosis",
-      "value": 3.22e-05,
+      "value": 3.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12379",
+      "display_name": "Cancer Diagnosis and Treatment",
+      "value": 3.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1034,6 +1034,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136653",
-  "updated_date": "2026-07-03T05:59:24",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -16,12 +16,12 @@
     "Felsenweg-Institut"
   ],
   "repositories": [],
-  "works_count": 9,
-  "cited_by_count": 9,
+  "works_count": 11,
+  "cited_by_count": 79,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5,
-    "h_index": 2,
-    "i10_index": 0
+    "2yr_mean_citedness": 0.6666666666666666,
+    "h_index": 4,
+    "i10_index": 3
   },
   "ids": {
     "openalex": "https://openalex.org/I4210144822",
@@ -44,30 +44,36 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 0
+    },
+    {
+      "year": 2012,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 23
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210144822",
-      "works_count": 9
+      "works_count": 11
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T12753",
       "display_name": "Psychology, Coaching, and Therapy",
-      "count": 3,
-      "score": 0.9230999946594238,
+      "count": 4,
+      "score": 0.9621000289916992,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -75,6 +81,24 @@
       "field": {
         "id": "https://openalex.org/fields/32",
         "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13327",
+      "display_name": "Arts, Culture, and Music Studies",
+      "count": 3,
+      "score": 0.017999999225139618,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -118,21 +142,39 @@
       }
     },
     {
-      "id": "https://openalex.org/T13327",
-      "display_name": "Arts, Culture, and Music Studies",
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
       "count": 2,
-      "score": 0.017999999225139618,
+      "score": 0.015799999237060547,
       "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10254",
+      "display_name": "Innovations in Medical Education",
+      "count": 1,
+      "score": 0.9753999710083008,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -244,6 +286,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11590",
+      "display_name": "Primary Care and Health Outcomes",
+      "count": 1,
+      "score": 0.9811000227928162,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11806",
       "display_name": "Service-Learning and Community Engagement",
       "count": 1,
@@ -255,24 +315,6 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "count": 1,
-      "score": 0.015799999237060547,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -352,6 +394,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12871",
+      "display_name": "Healthcare Quality and Management",
+      "count": 1,
+      "score": 0.947700023651123,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13750",
       "display_name": "Mormonism, Religion, and History",
       "count": 1,
@@ -426,9 +486,26 @@
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T13327",
+      "display_name": "Arts, Culture, and Music Studies",
+      "value": 0.0002064,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14346",
       "display_name": "Scientific Innovation and Industrial Efficiency",
-      "value": 0.000189,
+      "value": 0.0001875,
       "subfield": {
         "id": "https://openalex.org/subfields/1800",
         "display_name": "General Decision Sciences"
@@ -445,7 +522,7 @@
     {
       "id": "https://openalex.org/T14024",
       "display_name": "Education, Philosophy, and Society",
-      "value": 0.0001544,
+      "value": 0.0001426,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -460,26 +537,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13327",
-      "display_name": "Arts, Culture, and Music Studies",
-      "value": 0.0001385,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12753",
       "display_name": "Psychology, Coaching, and Therapy",
-      "value": 5.32e-05,
+      "value": 7.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -494,9 +554,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
+      "value": 4.89e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13750",
       "display_name": "Mormonism, Religion, and History",
-      "value": 4.22e-05,
+      "value": 4.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -530,7 +607,7 @@
     {
       "id": "https://openalex.org/T13902",
       "display_name": "Indian History and Philosophy",
-      "value": 2.64e-05,
+      "value": 2.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -547,7 +624,7 @@
     {
       "id": "https://openalex.org/T11806",
       "display_name": "Service-Learning and Community Engagement",
-      "value": 2.48e-05,
+      "value": 2.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -562,26 +639,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "value": 2.47e-05,
+      "id": "https://openalex.org/T12871",
+      "display_name": "Healthcare Quality and Management",
+      "value": 2.05e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12837",
       "display_name": "American Environmental and Regional History",
-      "value": 1.33e-05,
+      "value": 1.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -598,7 +675,7 @@
     {
       "id": "https://openalex.org/T11195",
       "display_name": "Simulation Techniques and Applications",
-      "value": 1.23e-05,
+      "value": 1.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -615,7 +692,7 @@
     {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "value": 1.08e-05,
+      "value": 1.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -732,6 +809,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T11590",
+      "display_name": "Primary Care and Health Outcomes",
+      "value": 5.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10791",
       "display_name": "Advanced Control Systems Optimization",
       "value": 4.9e-06,
@@ -746,6 +840,23 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10254",
+      "display_name": "Innovations in Medical Education",
+      "value": 4.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -769,6 +880,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210144822",
-  "updated_date": "2026-03-10T06:01:07",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2022-02-02T04:48:36"
 }

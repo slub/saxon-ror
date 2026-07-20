@@ -439,6 +439,82 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-05",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2006,
+    "external_ids": [
+      {
+        "all": [
+          "501100009520"
+        ],
+        "preferred": "501100009520",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/005f1n095",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-freiberg.de/stiftungen/dr-erich-krueger-stiftung"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.91089,
+          "lng": 13.33881,
+          "name": "Freiberg"
+        },
+        "geonames_id": 2925192
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Dr. Erich Krüger Foundation"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Dr. Erich-Krüger-Stiftung"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dr.-Erich Krüger Foundation"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "funder",
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2940132,
@@ -498,6 +574,128 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "josephstift-dresden.de"
+    ],
+    "established": 2014,
+    "external_ids": [
+      {
+        "all": [
+          "Q2319667"
+        ],
+        "preferred": "Q2319667",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/007881467",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.josephstift-dresden.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/St._Joseph-Stift_%28Dresden%29"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Hospital St. Joseph-Stift Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Krankenhaus Sankt-Joseph-Stift Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Krankenhaus St. Joseph-Stift"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Krankenhaus St. Joseph-Stift Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Krankenhaus St. Joseph-Stift Dresden gGmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "St. Joseph Hospital Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "St. Joseph-Stift Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "St. Joseph-Stift Hospital Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
   },
   {
     "locations": [
@@ -645,55 +843,49 @@
     ]
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2940132,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 50.8357,
-          "lng": 12.92922,
-          "name": "Chemnitz"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1836,
     "external_ids": [
       {
-        "type": "fundref",
         "all": [
           "100009117"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "fundref"
       },
       {
-        "type": "grid",
         "all": [
           "grid.6810.f"
         ],
-        "preferred": "grid.6810.f"
+        "preferred": "grid.6810.f",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 2294 5505"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q159630"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/00a208s56",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -704,28 +896,44 @@
         "value": "http://en.wikipedia.org/wiki/Chemnitz_University_of_Technology"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.8357,
+          "lng": 12.92922,
+          "name": "Chemnitz"
+        },
+        "geonames_id": 2940132
+      }
+    ],
     "names": [
       {
-        "value": "Chemnitz University of Technology",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Chemnitz University of Technology"
       },
       {
-        "value": "TU Chemnitz",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "TU Chemnitz"
       },
       {
-        "value": "Technische Universität Chemnitz",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Technische Universität Chemnitz"
       }
     ],
     "relationships": [
@@ -733,23 +941,98 @@
         "label": "An-Institut für Transfer und Weiterbildung",
         "type": "child",
         "id": "https://ror.org/054kgce12"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
       }
     ],
     "status": "active",
     "types": [
       "education",
       "funder"
-    ],
+    ]
+  },
+  {
     "admin": {
       "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
+        "date": "2026-07-05",
+        "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
-    }
+    },
+    "domains": [],
+    "established": 2004,
+    "external_ids": [
+      {
+        "all": [
+          "501100024251"
+        ],
+        "preferred": "501100024251",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/00byv7r88",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.hzdr.de/db/Cms?pNid=580"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Dresden_High_Magnetic_Field_Laboratory"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Dresden High Magnetic Field Laboratory"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "HLD"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Hochfeld-Magnetlabor Dresden"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
   },
   {
     "locations": [
@@ -2171,6 +2454,91 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2006,
+    "external_ids": [],
+    "id": "https://ror.org/00r302z28",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/bereichsuebergreifendes/nic"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "NIC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Neuroimaging Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Neuroimaging Centre"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Neuroimaging Zentrum"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
+        "id": "https://ror.org/04za5zm41"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -2888,6 +3256,126 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [],
+    "id": "https://ror.org/013sda662",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ukdd.de/zegv"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Evidence-Based Healthcare, Medical Faculty Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Evidence-Based Healthcare, University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Evidence-Based Healthcare, University Hospital and Medical Faculty Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Evidence-Based Healthcare, Medical Faculty Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ZEGV"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Zentrum für Evidenzbasierte Gesundheitsversorgung"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Zentrum für Evidenzbasierte Gesundheitsversorgung, Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Zentrum für Evidenzbasierte Gesundheitsversorgung, Universitätsklinikum Carl Gustav Carus an der Technischen Universität Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Zentrum für Evidenzbasierte Gesundheitsversorgung, Universitätsklinikum und Medizinische Fakultät Carl Gustav Carus"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
+        "id": "https://ror.org/04za5zm41"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2026-06-23",
         "schema_version": "2.1"
       },
@@ -3550,7 +4038,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -3645,6 +4133,11 @@
         "label": "Physics of Life",
         "type": "related",
         "id": "https://ror.org/029yt9178"
+      },
+      {
+        "label": "Center for Transport and Devices of Emergent Materials",
+        "type": "related",
+        "id": "https://ror.org/02ns0w819"
       }
     ],
     "status": "active",
@@ -4537,6 +5030,149 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1954,
+    "external_ids": [],
+    "id": "https://ror.org/01jq4d775",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ukdd.de/hno"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Department of Otorhinolaryngology at the University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Otorhinolaryngology, TU Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Otorhinolaryngology, University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Otorhinolaryngology, University of Dresden Medical School"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "HNO"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "HNO-Universitätsklinik Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde am Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde, Kopf- und Halschirurgie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde, Universitätsklinikum Carl Gustav Carus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Unit of Otorhinolaryngology, University of Dresden Medical School"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitätsklinikum Dresden, Klinik und Poliklinik für HNO"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
+        "id": "https://ror.org/04za5zm41"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
@@ -4906,6 +5542,149 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "elblandkliniken.de"
+    ],
+    "established": 1863,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0000 9195 4352"
+        ],
+        "preferred": "0000 0000 9195 4352",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q30033213"
+        ],
+        "preferred": "Q30033213",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01ng6kd83",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.elblandkliniken.de/ueber-uns/kliniken/elblandklinikum-meissen"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Elblandklinikum_Mei%C3%9Fen"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.16158,
+          "lng": 13.4737,
+          "name": "Meissen"
+        },
+        "geonames_id": 2872155
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Meissen"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Meissen, Academic Teaching Hospital of University of Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Meißen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen, Academic Teaching Hospital of Dresden University of Technology"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen, Academic Teaching Hospital of Universitätsklinikum Carl Gustav Carus, Technische Universität Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen, Academic Teaching Hospital of the Technische University Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen, Academic Teaching Hospital of the Technische Universität Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Meissen, Academic Teaching Hospital of the University of Technology Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Elblandklinikum Meißen"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
@@ -5151,6 +5930,121 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "elblandkliniken.de"
+    ],
+    "established": 1848,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0000 9195 4352"
+        ],
+        "preferred": "0000 0000 9195 4352",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1787710"
+        ],
+        "preferred": "Q1787710",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01pnwhg58",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.elblandkliniken.de/ueber-uns/kliniken/elblandklinikum-radebeul"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Elblandklinikum_Radebeul"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.10654,
+          "lng": 13.66047,
+          "name": "Radebeul"
+        },
+        "geonames_id": 2851077
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Radebeul"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Stiftung & Co. KG Elblandklinikum Radebeul"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Elblandklinikum Radebeul"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Radebeul, Academic Hospital Technical University Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Radebeul, Academic Hospital of the Technische Universität Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Radebeul Hospital, Academic Hospital of the Technische Universität Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
   },
   {
     "admin": {
@@ -5670,7 +6564,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -5761,6 +6655,16 @@
         "label": "Center for Regenerative Therapies Dresden",
         "type": "related",
         "id": "https://ror.org/00490nx58"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
+      },
+      {
+        "label": "Climate-Neutral and Resource-Efficient Construction",
+        "type": "related",
+        "id": "https://ror.org/03k29yn40"
       }
     ],
     "status": "active",
@@ -6204,6 +7108,140 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "helios-gesundheit.de"
+    ],
+    "established": 1998,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0000 8515 3540"
+        ],
+        "preferred": "0000 0000 8515 3540",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q66813761"
+        ],
+        "preferred": "Q66813761",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01y99eb28",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.helios-gesundheit.de/kliniken/aue"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Helios_Klinikum_Aue"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.59034,
+          "lng": 12.70657,
+          "name": "Aue"
+        },
+        "geonames_id": 2954695
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "HELIOS Clinic Aue"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "HELIOS General Hospital Aue"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "HELIOS Klinikum Aue GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "HELIOS Klinikum Aue, Lehrkrankenhaus der TU Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Helios General Hospital Aue, Technical University Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Helios Klinikum Aue"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Helios Medical Center Aue"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Helios-Klinikum Aue"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Helios Kliniken",
+        "type": "parent",
+        "id": "https://ror.org/04fjkxc67"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2879139,
@@ -6423,6 +7461,107 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1957,
+    "external_ids": [],
+    "id": "https://ror.org/01zxatr28",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ukdd.de/der"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Clinic and Policlinic for Dermatology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Clinic and Polyclinic for Dermatology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department and Clinic for Dermatology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department and Clinic of Dermatology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department and Outpatient Clinic for Dermatology"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Klinik und Poliklinik für Dermatologie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitäts-Hautklinik Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
+        "id": "https://ror.org/04za5zm41"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2023-04-27",
         "schema_version": "1.0"
       },
@@ -6523,7 +7662,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -6638,6 +7777,11 @@
         "label": "German Cancer Consortium (DKTK) Dresden",
         "type": "related",
         "id": "https://ror.org/036e5z664"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
       }
     ],
     "status": "active",
@@ -8091,7 +9235,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -8158,6 +9302,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
       }
     ],
     "status": "active",
@@ -9808,6 +10957,82 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2013,
+    "external_ids": [],
+    "id": "https://ror.org/02ns0w819",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/mn/physik/forschung/ctd"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CTD"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Transport and Devices of Emergent Materials"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Max Planck Institute for the Physics of Complex Systems",
+        "type": "related",
+        "id": "https://ror.org/01bf9rw71"
+      },
+      {
+        "label": "Leibniz Institute for Solid State and Materials Research",
+        "type": "related",
+        "id": "https://ror.org/04zb59n70"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2885764,
@@ -11146,55 +12371,49 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2925192,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 50.91089,
-          "lng": 13.33881,
-          "name": "Freiberg"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1765,
     "external_ids": [
       {
-        "type": "fundref",
         "all": [
           "501100021786"
         ],
-        "preferred": "501100021786"
+        "preferred": "501100021786",
+        "type": "fundref"
       },
       {
-        "type": "grid",
         "all": [
           "grid.6862.a"
         ],
-        "preferred": "grid.6862.a"
+        "preferred": "grid.6862.a",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 0805 5610"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q689854"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/031vc2293",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -11205,46 +12424,194 @@
         "value": "http://en.wikipedia.org/wiki/Freiberg_University_of_Mining_and_Technology"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.91089,
+          "lng": 13.33881,
+          "name": "Freiberg"
+        },
+        "geonames_id": 2925192
+      }
+    ],
     "names": [
       {
-        "value": "TU Bergakademie Freiberg",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "TU Bergakademie Freiberg"
       },
       {
-        "value": "TUBAF",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "TUBAF"
       },
       {
-        "value": "Technische Universität Bergakademie Freiberg",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Technische Universität Bergakademie Freiberg"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
+      }
+    ],
     "status": "active",
     "types": [
       "education",
       "funder"
-    ],
+    ]
+  },
+  {
     "admin": {
       "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
+        "date": "2026-07-19",
+        "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
-    }
+    },
+    "domains": [
+      "iapp.de"
+    ],
+    "established": 1908,
+    "external_ids": [
+      {
+        "all": [
+          "Q1664797"
+        ],
+        "preferred": "Q1664797",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/031whys72",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.iapp.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Institut_f%C3%BCr_Angewandte_Photophysik_Dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "DC-IAPP"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Integrated Center for Applied Photophysics and Photonic Materials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Dresden Integrated Center for Applied Physics and Photonic Materials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Integrated Centre for Applied Physics and Photonic Materials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "IAPP"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Angewandte Photophysik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Angewandte Photophysik Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Applied Photophysics Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Applied Photophysics, Dresden University of Technology"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Wissenschaftlich Photographisches Institut"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
   },
   {
     "admin": {
@@ -12183,6 +13550,114 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "elblandkliniken.de"
+    ],
+    "established": 1861,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 0394 1164"
+        ],
+        "preferred": "0000 0004 0394 1164",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q27479421"
+        ],
+        "preferred": "Q27479421",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0389brp89",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.elblandkliniken.de/ueber-uns/kliniken/elblandklinikum-riesa"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Elblandklinikum_Riesa"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.3026,
+          "lng": 13.3097,
+          "name": "Riesa"
+        },
+        "geonames_id": 6550809
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinik Riesa"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Riesa"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Elblandklinikum Riesa"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum, Riesa"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Hospital Elblandkliniken, Riesa"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
   },
   {
     "locations": [
@@ -13686,6 +15161,129 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2026,
+    "external_ids": [],
+    "id": "https://ror.org/03k29yn40",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/care"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      },
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "NW",
+          "country_subdivision_name": "North Rhine-Westphalia",
+          "lat": 50.77664,
+          "lng": 6.08342,
+          "name": "Aachen"
+        },
+        "geonames_id": 3247449
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CARE"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "CARE Cluster of Excellence"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Climate-Neutral and Resource-Efficient Construction"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Cluster of Excellence CARE"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "EXC 3115"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Klimaneutrales und ressourceneffizientes Bauen"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "RWTH Aachen University",
+        "type": "parent",
+        "id": "https://ror.org/04xfq0f34"
+      },
+      {
+        "label": "Leibniz Institute of Polymer Research",
+        "type": "related",
+        "id": "https://ror.org/01tspta37"
+      },
+      {
+        "label": "Institute for Integrated Management of Material Fluxes and of Resources",
+        "type": "related",
+        "id": "https://ror.org/03xp99m49"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -14197,11 +15795,166 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2026,
+    "external_ids": [],
+    "id": "https://ror.org/03rymtb94",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/tu-dresden/exzellenz/exzellenzcluster/rec2"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Cluster of Excellence REC2"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "EXC 3035"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "REC2"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "REC2 Cluster of Excellence"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias",
+          "label",
+          "ror_display"
+        ],
+        "value": "Responsible Electronics in the Climate Change Era"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Verantwortungsvolle Elektronik im Zeitalter des Klimawandels"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Fraunhofer Institute for Organic Electronics, Electron Beam and Plasma Technology",
+        "type": "related",
+        "id": "https://ror.org/03vvewn46"
+      },
+      {
+        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "type": "related",
+        "id": "https://ror.org/01zy2cs03"
+      },
+      {
+        "label": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+        "type": "related",
+        "id": "https://ror.org/05q5pk319"
+      },
+      {
+        "label": "Leibniz Institute for Solid State and Materials Research",
+        "type": "related",
+        "id": "https://ror.org/04zb59n70"
+      },
+      {
+        "label": "Leibniz Institute of Polymer Research",
+        "type": "related",
+        "id": "https://ror.org/01tspta37"
+      },
+      {
+        "label": "NaMLab (Germany)",
+        "type": "related",
+        "id": "https://ror.org/028070c57"
+      },
+      {
+        "label": "Ruhr University Bochum",
+        "type": "related",
+        "id": "https://ror.org/04tsk2644"
+      },
+      {
+        "label": "TU Bergakademie Freiberg",
+        "type": "related",
+        "id": "https://ror.org/031vc2293"
+      },
+      {
+        "label": "Technische Universität Berlin",
+        "type": "related",
+        "id": "https://ror.org/03v4gjf40"
+      },
+      {
+        "label": "Chemnitz University of Technology",
+        "type": "related",
+        "id": "https://ror.org/00a208s56"
+      },
+      {
+        "label": "Technische Universität Darmstadt",
+        "type": "related",
+        "id": "https://ror.org/05n911h24"
+      },
+      {
+        "label": "Hamburg University of Technology",
+        "type": "related",
+        "id": "https://ror.org/04bs1pb34"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-03-12",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -14211,7 +15964,8 @@
       {
         "all": [
           "501100008678",
-          "501100019694"
+          "501100019694",
+          "501100013811"
         ],
         "preferred": "501100008678",
         "type": "fundref"
@@ -14337,7 +16091,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-09-22",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -14418,6 +16172,11 @@
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
       }
     ],
     "status": "active",
@@ -14790,41 +16549,35 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2935022,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.05089,
-          "lng": 13.73832,
-          "name": "Dresden"
-        }
+    "admin": {
+      "created": {
+        "date": "2020-10-19",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 2012,
     "external_ids": [
       {
-        "type": "grid",
         "all": [
           "grid.508766.a"
         ],
-        "preferred": "grid.508766.a"
+        "preferred": "grid.508766.a",
+        "type": "grid"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q23044799"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/03xp99m49",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -14835,44 +16588,55 @@
         "value": "https://en.wikipedia.org/wiki/UNU-FLORES"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
     "names": [
       {
-        "value": "Institute for Integrated Management of Material Fluxes and of Resources",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Institute for Integrated Management of Material Fluxes and of Resources"
       },
       {
-        "value": "UNU-FLORES",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "UNU-FLORES"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "United Nations University",
+        "type": "parent",
         "id": "https://ror.org/01cdrde68"
+      },
+      {
+        "label": "Climate-Neutral and Resource-Efficient Construction",
+        "type": "related",
+        "id": "https://ror.org/03k29yn40"
       }
     ],
     "status": "active",
     "types": [
       "education"
-    ],
-    "admin": {
-      "created": {
-        "date": "2020-10-19",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -15192,7 +16956,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -15373,6 +17137,16 @@
         "id": "https://ror.org/00g3vrr12"
       },
       {
+        "label": "DRESDEN-concept Genome Center",
+        "type": "child",
+        "id": "https://ror.org/025a7t810"
+      },
+      {
+        "label": "Else Kröner Fresenius Center for Digital Health",
+        "type": "child",
+        "id": "https://ror.org/031x70h91"
+      },
+      {
         "label": "Carl-Thiem-Klinikum Cottbus",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -15413,19 +17187,94 @@
         "id": "https://ror.org/036e5z664"
       },
       {
-        "label": "DRESDEN-concept Genome Center",
-        "type": "child",
-        "id": "https://ror.org/025a7t810"
-      },
-      {
-        "label": "Else Kröner Fresenius Center for Digital Health",
-        "type": "child",
-        "id": "https://ror.org/031x70h91"
-      },
-      {
         "label": "Institut für Softwaremethoden zur Produkt-Virtualisierung",
         "type": "related",
         "id": "https://ror.org/05jqmyp98"
+      },
+      {
+        "label": "Fraunhofer Institute for Process Engineering and Packaging Dresden",
+        "type": "related",
+        "id": "https://ror.org/0567ea759"
+      },
+      {
+        "label": "Dresden Center for Computational Materials Science",
+        "type": "child",
+        "id": "https://ror.org/04tnrm315"
+      },
+      {
+        "label": "Center for Transport and Devices of Emergent Materials",
+        "type": "child",
+        "id": "https://ror.org/02ns0w819"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "child",
+        "id": "https://ror.org/03rymtb94"
+      },
+      {
+        "label": "Dresden Integrated Center for Applied Physics and Photonic Materials",
+        "type": "child",
+        "id": "https://ror.org/031whys72"
+      },
+      {
+        "label": "Climate-Neutral and Resource-Efficient Construction",
+        "type": "child",
+        "id": "https://ror.org/03k29yn40"
+      },
+      {
+        "label": "Center for Interdisciplinary Digital Sciences",
+        "type": "child",
+        "id": "https://ror.org/04e72jx49"
+      },
+      {
+        "label": "Krankenhaus St. Joseph-Stift Dresden",
+        "type": "related",
+        "id": "https://ror.org/007881467"
+      },
+      {
+        "label": "Zentrum für Evidenzbasierte Gesundheitsversorgung",
+        "type": "child",
+        "id": "https://ror.org/013sda662"
+      },
+      {
+        "label": "Helios Klinikum Aue",
+        "type": "related",
+        "id": "https://ror.org/01y99eb28"
+      },
+      {
+        "label": "Neuroimaging Center",
+        "type": "child",
+        "id": "https://ror.org/00r302z28"
+      },
+      {
+        "label": "Biotechnologisches Zentrum",
+        "type": "child",
+        "id": "https://ror.org/046b28292"
+      },
+      {
+        "label": "Center for Molecular Bioengineering",
+        "type": "child",
+        "id": "https://ror.org/05aa04p38"
+      },
+      {
+        "label": "Elblandklinikum Meißen",
+        "type": "related",
+        "id": "https://ror.org/01ng6kd83"
+      },
+      {
+        "label": "Elblandklinikum Radebeul",
+        "type": "related",
+        "id": "https://ror.org/01pnwhg58"
+      },
+      {
+        "label": "Elblandklinikum Riesa",
+        "type": "related",
+        "id": "https://ror.org/0389brp89"
+      },
+      {
+        "label": "Elbland Rehabilitationsklinik Großenhain",
+        "type": "related",
+        "id": "https://ror.org/04kqdzt33"
       }
     ],
     "status": "active",
@@ -16146,6 +17995,230 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [],
+    "id": "https://ror.org/046arg368",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ifam.fraunhofer.de/en/Aboutus/Locations/Dresden.html"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IFAM Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IFAM, Branch Lab Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer Institute IFAM, Branch Lab Powder Metallurgy and Composite Materials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Fraunhofer Institute for Manufacturing Technology and Advanced Materials Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer Institute for Manufacturing Technology and Advanced Materials IFAM, Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer Institute for Manufacturing Technology and Advanced Materials, Branch Lab Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung IFAM, Institutsteil Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung, Institutsteil Pulvermetallurgie und Verbundwerkstoffe"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "IFAM"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "IFAM Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "IFAM-DD"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Fraunhofer Institute for Manufacturing Technology and Advanced Materials",
+        "type": "parent",
+        "id": "https://ror.org/03pwyy961"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2000,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0000 9601 4781"
+        ],
+        "preferred": "0000 0000 9601 4781",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q101406233"
+        ],
+        "preferred": "Q101406233",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/046b28292",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.biotec.tu-dresden.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Biotechnologisches Zentrum"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Biotechnology Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden University of Technology Biotechnology Center"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Technische Universität Dresden Biotechnologisches Zentrum"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2851079,
@@ -16310,6 +18383,75 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "felberinstitut.de"
+    ],
+    "established": 2018,
+    "external_ids": [],
+    "id": "https://ror.org/04920af33",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.felberinstitut.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Werner-Felber-Institut"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Werner-Felber-Institut für Suizidprävention und interdisziplinäre Forschung im Gesundheitswesen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Werner-Felber-Institut für Suizidprävention und interdisziplinäre Forschung im Gesundheitswesen e.V."
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -16430,6 +18572,84 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-05",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "stiftung-hochschulmedizin.de"
+    ],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "501100014159"
+        ],
+        "preferred": "501100014159",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/04ajdc372",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://stiftung-hochschulmedizin.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Foundation University Medical Center Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Stiftung Hochschulmedizin Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Stiftung zur Förderung der Hochschulmedizin in Dresden"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "funder",
+      "nonprofit"
+    ]
   },
   {
     "locations": [
@@ -16577,6 +18797,72 @@
     "status": "active",
     "types": [
       "education"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2021,
+    "external_ids": [],
+    "id": "https://ror.org/04e72jx49",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/cids"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CIDS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Interdisciplinary Digital Sciences"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
     ]
   },
   {
@@ -17407,6 +19693,139 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "elbland-reha.de",
+      "elblandkliniken.de"
+    ],
+    "established": 2013,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 0394 1076"
+        ],
+        "preferred": "0000 0004 0394 1076",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/04kqdzt33",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.elbland-reha.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.28951,
+          "lng": 13.5335,
+          "name": "Großenhain"
+        },
+        "geonames_id": 2916630
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elbland Neuro-Rehabilitation Center Grossenhain"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elbland Neurorehabilitationszentrum Großenhain"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elbland Neurorehabilitationszentrum Großenhain, Akademisches Lehrkrankenhaus der Technischen Universität Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elbland Reha Großenhain"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Elbland Reha- und Präventions-GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Elbland Rehabilitationsklinik Großenhain"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinik Grossenhain"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandkliniken Grossenhain"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Elblandklinikum Grossenhain"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Neurologische Rehabilitationsklinik Großenhain"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "healthcare"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2026-06-23",
         "schema_version": "2.1"
       },
@@ -18145,6 +20564,101 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2013,
+    "external_ids": [
+      {
+        "all": [
+          "Q55239323"
+        ],
+        "preferred": "Q55239323",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04tnrm315",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://dcms.tu-dresden.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "DCMS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Center for Computational Material Science"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Dresden Center for Computational Materials Science"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Centre for Computational Material Science"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Centre for Computational Materials Science"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
   },
   {
     "locations": [
@@ -18924,11 +21438,173 @@
   {
     "admin": {
       "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "Q97358532"
+        ],
+        "preferred": "Q97358532",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04ys3xe45",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.srh-university.de/en/our-campuses/dresden"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Dresden_School_of_Management"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden School of Management"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH Berlin University of Applied Sciences, Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH Campus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH Hochschule Berlin, Campus Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH Hochschule Berlin, Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "SRH Hochschule Campus Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH Hochschule, Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "SRH University Campus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH University of Applied Sciences Campus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH University of Applied Sciences, Campus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH University of Applied Sciences, Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH University, Campus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH University, Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "SRH-Hochschule, Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "SRH Hochschule Heidelberg",
+        "type": "parent",
+        "id": "https://ror.org/00g07sz63"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "education"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -19041,6 +21717,11 @@
         "id": "https://ror.org/01zy07c70"
       },
       {
+        "label": "Else Kröner Fresenius Center for Digital Health",
+        "type": "child",
+        "id": "https://ror.org/031x70h91"
+      },
+      {
         "label": "Technische Universität Dresden",
         "type": "related",
         "id": "https://ror.org/042aqky30"
@@ -19056,9 +21737,24 @@
         "id": "https://ror.org/036e5z664"
       },
       {
-        "label": "Else Kröner Fresenius Center for Digital Health",
+        "label": "Klinik und Poliklinik für Dermatologie",
         "type": "child",
-        "id": "https://ror.org/031x70h91"
+        "id": "https://ror.org/01zxatr28"
+      },
+      {
+        "label": "Zentrum für Evidenzbasierte Gesundheitsversorgung",
+        "type": "child",
+        "id": "https://ror.org/013sda662"
+      },
+      {
+        "label": "Neuroimaging Center",
+        "type": "child",
+        "id": "https://ror.org/00r302z28"
+      },
+      {
+        "label": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde",
+        "type": "child",
+        "id": "https://ror.org/01jq4d775"
       }
     ],
     "status": "active",
@@ -19067,48 +21763,42 @@
     ]
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2935022,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.05089,
-          "lng": 13.73832,
-          "name": "Dresden"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1992,
     "external_ids": [
       {
-        "type": "grid",
         "all": [
           "grid.14841.38"
         ],
-        "preferred": "grid.14841.38"
+        "preferred": "grid.14841.38",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0000 9972 3583"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q835883"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/04zb59n70",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -19119,58 +21809,74 @@
         "value": "http://en.wikipedia.org/wiki/Leibniz-Institut_f%C3%BCr_Festk%C3%B6rper-_und_Werkstoffforschung"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
     "names": [
       {
-        "value": "IFW",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IFW"
       },
       {
-        "value": "Leibniz IFW Dresden",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "Leibniz IFW Dresden"
       },
       {
-        "value": "Leibniz Institute for Solid State and Materials Research",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Leibniz Institute for Solid State and Materials Research"
       },
       {
-        "value": "Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Leibniz Association",
+        "type": "parent",
         "id": "https://ror.org/01n6r0e97"
+      },
+      {
+        "label": "Center for Transport and Devices of Emergent Materials",
+        "type": "related",
+        "id": "https://ror.org/02ns0w819"
+      },
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -20013,6 +22719,150 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1995,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 0374 1541"
+        ],
+        "preferred": "0000 0004 0374 1541",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q21040664"
+        ],
+        "preferred": "Q21040664",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0567ea759",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ivv.fraunhofer.de/en/dresden.html"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Fraunhofer_IVV,_Au%C3%9Fenstelle_f%C3%BCr_Verarbeitungsmaschinen_und_Verpackungstechnik"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Fraunhofer AVV Dreseden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer Application Centre for Processing Machines and Packaging Technology Dreseden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IVV Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IVV in Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Fraunhofer Institute for Process Engineering and Packaging Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer Institute for Process Engineering and Packaging IVV Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Fraunhofer-Anwendungszentrum Verarbeitungsmaschinen und Verpackungstechnik Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Fraunhofer-Institut für Verfahrenstechnik und Verpackung IVV Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institutsteil Verarbeitungstechnik, Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Fraunhofer-Gesellschaft",
+        "type": "parent",
+        "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Fraunhofer Institute for Process Engineering and Packaging",
+        "type": "related",
+        "id": "https://ror.org/02at7zv53"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2803560,
@@ -20454,6 +23304,107 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-07-19",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "bcube-dresden.de"
+    ],
+    "established": 2008,
+    "external_ids": [
+      {
+        "all": [
+          "Q109593005"
+        ],
+        "preferred": "Q109593005",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/05aa04p38",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.bcube-dresden.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/B_CUBE_%E2%80%93_Center_for_Molecular_Bioengineering"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "B CUBE"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "B CUBE - Center for Molecular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Molecular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Molecular Bioengineering (B CUBE)"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für Molekulares Bioengineering"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
   },
   {
     "admin": {
@@ -21911,7 +24862,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-07-20",
         "schema_version": "2.1"
       }
     },
@@ -22010,7 +24961,13 @@
         "value": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Responsible Electronics in the Climate Change Era",
+        "type": "related",
+        "id": "https://ror.org/03rymtb94"
+      }
+    ],
     "status": "active",
     "types": [
       "education"
