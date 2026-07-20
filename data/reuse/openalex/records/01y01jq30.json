@@ -24,10 +24,10 @@
     "Hochschule für Musik Dresden"
   ],
   "repositories": [],
-  "works_count": 125,
-  "cited_by_count": 3387,
+  "works_count": 126,
+  "cited_by_count": 3415,
   "summary_stats": {
-    "2yr_mean_citedness": 0.42105263157894735,
+    "2yr_mean_citedness": 0.5909090909090909,
     "h_index": 32,
     "i10_index": 80
   },
@@ -52,9 +52,9 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 0
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 1
     },
     {
       "year": 2025,
@@ -66,13 +66,13 @@
       "year": 2024,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 5
+      "cited_by_count": 6
     },
     {
       "year": 2023,
       "works_count": 11,
       "oa_works_count": 11,
-      "cited_by_count": 45
+      "cited_by_count": 46
     },
     {
       "year": 2022,
@@ -84,13 +84,13 @@
       "year": 2021,
       "works_count": 10,
       "oa_works_count": 7,
-      "cited_by_count": 51
+      "cited_by_count": 55
     },
     {
       "year": 2020,
       "works_count": 5,
       "oa_works_count": 4,
-      "cited_by_count": 41
+      "cited_by_count": 42
     },
     {
       "year": 2019,
@@ -120,13 +120,13 @@
       "year": 2015,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 64
+      "cited_by_count": 65
     },
     {
       "year": 2014,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 114
+      "cited_by_count": 115
     },
     {
       "year": 2013,
@@ -157,10 +157,28 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210114553",
-      "works_count": 125
+      "works_count": 126
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T14034",
+      "display_name": "Musicians’ Health and Performance",
+      "count": 30,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2742",
+        "display_name": "Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10788",
       "display_name": "Neuroscience and Music Perception",
@@ -180,27 +198,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14034",
-      "display_name": "Musicians’ Health and Performance",
-      "count": 29,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2742",
-        "display_name": "Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10982",
       "display_name": "Motor Control and Adaptation",
-      "count": 20,
+      "count": 21,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
@@ -272,7 +272,7 @@
     {
       "id": "https://openalex.org/T11349",
       "display_name": "Music Technology and Sound Studies",
-      "count": 13,
+      "count": 14,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
@@ -616,7 +616,7 @@
     {
       "id": "https://openalex.org/T14034",
       "display_name": "Musicians’ Health and Performance",
-      "value": 0.0011201,
+      "value": 0.0011538,
       "subfield": {
         "id": "https://openalex.org/subfields/2742",
         "display_name": "Rehabilitation"
@@ -633,7 +633,7 @@
     {
       "id": "https://openalex.org/T13327",
       "display_name": "Arts, Culture, and Music Studies",
-      "value": 0.0004128,
+      "value": 0.0004134,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -650,7 +650,7 @@
     {
       "id": "https://openalex.org/T11425",
       "display_name": "Diverse Music Education Insights",
-      "value": 0.000279,
+      "value": 0.0002776,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -667,7 +667,7 @@
     {
       "id": "https://openalex.org/T10788",
       "display_name": "Neuroscience and Music Perception",
-      "value": 0.0002713,
+      "value": 0.0002708,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -684,7 +684,7 @@
     {
       "id": "https://openalex.org/T14046",
       "display_name": "Bach Studies and Logistics Development",
-      "value": 0.0002348,
+      "value": 0.0002351,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -701,7 +701,7 @@
     {
       "id": "https://openalex.org/T10982",
       "display_name": "Motor Control and Adaptation",
-      "value": 0.0001975,
+      "value": 0.0002069,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -718,7 +718,7 @@
     {
       "id": "https://openalex.org/T10941",
       "display_name": "Musicology and Musical Analysis",
-      "value": 0.0001711,
+      "value": 0.0001719,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -733,9 +733,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11349",
+      "display_name": "Music Technology and Sound Studies",
+      "value": 0.0001636,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14307",
       "display_name": "Bioethics and Human Rights Issues",
-      "value": 0.0001566,
+      "value": 0.0001558,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -752,7 +769,7 @@
     {
       "id": "https://openalex.org/T10863",
       "display_name": "Voice and Speech Disorders",
-      "value": 0.0001552,
+      "value": 0.0001548,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -767,26 +784,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11349",
-      "display_name": "Music Technology and Sound Studies",
-      "value": 0.000152,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10614",
       "display_name": "Transcranial Magnetic Stimulation Studies",
-      "value": 0.0001311,
+      "value": 0.0001307,
       "subfield": {
         "id": "https://openalex.org/subfields/2808",
         "display_name": "Neurology"
@@ -803,7 +803,7 @@
     {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "value": 0.000121,
+      "value": 0.0001208,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -820,7 +820,7 @@
     {
       "id": "https://openalex.org/T13570",
       "display_name": "Historical Education Studies Worldwide",
-      "value": 0.000108,
+      "value": 0.0001073,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -837,7 +837,7 @@
     {
       "id": "https://openalex.org/T14287",
       "display_name": "Music Education and Analysis",
-      "value": 0.0001061,
+      "value": 0.000106,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -854,7 +854,7 @@
     {
       "id": "https://openalex.org/T14255",
       "display_name": "European Law and Migration",
-      "value": 9.85e-05,
+      "value": 9.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -869,26 +869,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10403",
-      "display_name": "Phonetics and Phonology Research",
-      "value": 9.11e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13329",
       "display_name": "Joseph Conrad and Literature",
-      "value": 9.09e-05,
+      "value": 9.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -903,9 +886,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10403",
+      "display_name": "Phonetics and Phonology Research",
+      "value": 9.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11309",
       "display_name": "Music and Audio Processing",
-      "value": 8.77e-05,
+      "value": 8.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
@@ -922,7 +922,7 @@
     {
       "id": "https://openalex.org/T14421",
       "display_name": "Educational Philosophies and Pedagogies",
-      "value": 7.28e-05,
+      "value": 7.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -956,7 +956,7 @@
     {
       "id": "https://openalex.org/T14480",
       "display_name": "Historical Education and Society",
-      "value": 5.86e-05,
+      "value": 5.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -973,7 +973,7 @@
     {
       "id": "https://openalex.org/T11431",
       "display_name": "Action Observation and Synchronization",
-      "value": 5.82e-05,
+      "value": 5.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -990,7 +990,7 @@
     {
       "id": "https://openalex.org/T13996",
       "display_name": "Diverse Musicological Studies",
-      "value": 5.78e-05,
+      "value": 5.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -1007,7 +1007,7 @@
     {
       "id": "https://openalex.org/T11768",
       "display_name": "Music Therapy and Health",
-      "value": 5.69e-05,
+      "value": 5.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -1024,7 +1024,7 @@
     {
       "id": "https://openalex.org/T13416",
       "display_name": "Educational Theory and Curriculum Studies",
-      "value": 5.02e-05,
+      "value": 4.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -1042,6 +1042,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210114553",
-  "updated_date": "2026-07-23T06:00:47",
+  "updated_date": "2026-07-31T05:59:10",
   "created_date": "2022-02-02T04:48:36"
 }

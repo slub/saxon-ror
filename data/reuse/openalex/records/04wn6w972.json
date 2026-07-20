@@ -20,10 +20,10 @@
     "IMT-Dresden GmbH"
   ],
   "repositories": [],
-  "works_count": 77,
-  "cited_by_count": 2716,
+  "works_count": 78,
+  "cited_by_count": 2719,
   "summary_stats": {
-    "2yr_mean_citedness": 4.846153846153846,
+    "2yr_mean_citedness": 4.923076923076923,
     "h_index": 19,
     "i10_index": 41
   },
@@ -65,7 +65,7 @@
       "year": 2025,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 16
+      "cited_by_count": 17
     },
     {
       "year": 2024,
@@ -84,6 +84,12 @@
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 2
     },
     {
       "year": 2019,
@@ -132,33 +138,15 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210156650",
-      "works_count": 77
+      "works_count": 78
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T10059",
-      "display_name": "Bone Tissue Engineering Materials",
-      "count": 3,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12930",
       "display_name": "Biomedical and Chemical Research",
-      "count": 3,
-      "score": 0.9452999830245972,
+      "count": 4,
+      "score": 0.9502000212669373,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -175,8 +163,8 @@
     {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "count": 3,
-      "score": 0.9229999780654907,
+      "count": 4,
+      "score": 0.9668999910354614,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -188,6 +176,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10059",
+      "display_name": "Bone Tissue Engineering Materials",
+      "count": 3,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -591,7 +597,7 @@
     {
       "id": "https://openalex.org/T14120",
       "display_name": "Thallium and Germanium Studies",
-      "value": 8.09e-05,
+      "value": 8.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -606,26 +612,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13327",
-      "display_name": "Arts, Culture, and Music Studies",
-      "value": 6.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "value": 5.91e-05,
+      "value": 7.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -640,9 +629,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13327",
+      "display_name": "Arts, Culture, and Music Studies",
+      "value": 6.89e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13090",
       "display_name": "Medicinal Plant Extracts Effects",
-      "value": 5.64e-05,
+      "value": 5.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2707",
         "display_name": "Complementary and alternative medicine"
@@ -659,7 +665,7 @@
     {
       "id": "https://openalex.org/T13314",
       "display_name": "Lymphadenopathy Diagnosis and Analysis",
-      "value": 5.18e-05,
+      "value": 5.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -676,7 +682,7 @@
     {
       "id": "https://openalex.org/T13600",
       "display_name": "Science Education and Perceptions",
-      "value": 4.5e-05,
+      "value": 4.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -693,7 +699,7 @@
     {
       "id": "https://openalex.org/T12962",
       "display_name": "Nephrotoxicity and Medicinal Plants",
-      "value": 4.29e-05,
+      "value": 4.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -710,7 +716,7 @@
     {
       "id": "https://openalex.org/T14275",
       "display_name": "Historical Medical Research and Treatments",
-      "value": 4.2e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -725,9 +731,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12930",
+      "display_name": "Biomedical and Chemical Research",
+      "value": 3.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13363",
       "display_name": "Soft tissue tumors and treatment",
-      "value": 3.83e-05,
+      "value": 3.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -812,7 +835,7 @@
     {
       "id": "https://openalex.org/T14126",
       "display_name": "Intramuscular injections and effects",
-      "value": 3.4e-05,
+      "value": 3.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
         "display_name": "Emergency Medicine"
@@ -829,7 +852,7 @@
     {
       "id": "https://openalex.org/T12445",
       "display_name": "Twentieth Century Scientific Developments",
-      "value": 3.37e-05,
+      "value": 3.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -846,7 +869,7 @@
     {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "value": 3.03e-05,
+      "value": 3.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -863,7 +886,7 @@
     {
       "id": "https://openalex.org/T12605",
       "display_name": "Berry genetics and cultivation research",
-      "value": 3e-05,
+      "value": 2.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -880,7 +903,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 2.95e-05,
+      "value": 2.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -897,7 +920,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 2.93e-05,
+      "value": 2.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -905,23 +928,6 @@
       "field": {
         "id": "https://openalex.org/fields/36",
         "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12930",
-      "display_name": "Biomedical and Chemical Research",
-      "value": 2.9e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -965,7 +971,7 @@
     {
       "id": "https://openalex.org/T12434",
       "display_name": "Phosphodiesterase function and regulation",
-      "value": 2.69e-05,
+      "value": 2.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -982,7 +988,7 @@
     {
       "id": "https://openalex.org/T12561",
       "display_name": "bioluminescence and chemiluminescence research",
-      "value": 2.64e-05,
+      "value": 2.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1017,6 +1023,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210156650",
-  "updated_date": "2026-07-23T06:00:47",
+  "updated_date": "2026-07-30T05:58:40",
   "created_date": "2022-02-02T04:48:36"
 }

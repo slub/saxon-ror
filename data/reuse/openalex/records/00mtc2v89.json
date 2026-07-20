@@ -16,12 +16,12 @@
     "WH Pharmawerk (Germany)"
   ],
   "repositories": [],
-  "works_count": 1,
-  "cited_by_count": 48,
+  "works_count": 3,
+  "cited_by_count": 429,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 2,
-    "i10_index": 2
+    "h_index": 6,
+    "i10_index": 6
   },
   "ids": {
     "openalex": "https://openalex.org/I4210094965",
@@ -46,17 +46,35 @@
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 24
+      "cited_by_count": 25
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210094965",
-      "works_count": 1
+      "works_count": 3
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10134",
+      "display_name": "Inflammatory Bowel Disease",
+      "count": 1,
+      "score": 0.9564999938011169,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10419",
       "display_name": "Pharmaceutical and Antibiotic Environmental Impacts",
@@ -94,6 +112,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10902",
+      "display_name": "Complementary and Alternative Medicine Studies",
+      "count": 1,
+      "score": 0.10019999742507935,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11180",
       "display_name": "Pesticide and Herbicide Environmental Studies",
       "count": 1,
@@ -110,9 +146,132 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11334",
+      "display_name": "Psychosomatic Disorders and Their Treatments",
+      "count": 1,
+      "score": 0.397599995136261,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11979",
+      "display_name": "Garlic and Onion Studies",
+      "count": 1,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12087",
+      "display_name": "Natural Compound Pharmacology Studies",
+      "count": 1,
+      "score": 0.06030000001192093,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12347",
+      "display_name": "Ginger and Zingiberaceae research",
+      "count": 1,
+      "score": 0.9606999754905701,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3004",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
+    {
+      "id": "https://openalex.org/T12087",
+      "display_name": "Natural Compound Pharmacology Studies",
+      "value": 3.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12347",
+      "display_name": "Ginger and Zingiberaceae research",
+      "value": 2.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3004",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11979",
+      "display_name": "Garlic and Onion Studies",
+      "value": 2.24e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10774",
       "display_name": "Weed Control and Herbicide Applications",
@@ -131,6 +290,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T10902",
+      "display_name": "Complementary and Alternative Medicine Studies",
+      "value": 1.09e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11180",
       "display_name": "Pesticide and Herbicide Environmental Studies",
       "value": 1.02e-05,
@@ -145,6 +321,40 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11334",
+      "display_name": "Psychosomatic Disorders and Their Treatments",
+      "value": 8.6e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10134",
+      "display_name": "Inflammatory Bowel Disease",
+      "value": 7.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -168,6 +378,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210094965",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-07-31T05:59:10",
   "created_date": "2022-02-02T04:48:36"
 }
