@@ -80,7 +80,14 @@ jobs:
         id: diff
         if: steps.preflight.outputs.fresh != 'true'
         run: |
-          if git diff --quiet -- data; then
+          # Stage everything first -- new record files are untracked at this
+          # point, and plain `git diff` is blind to untracked files entirely
+          # (they don't count as "added", they don't count as anything).
+          # Staging first and diffing --cached from here on is what makes the
+          # added/removed/modified counts below actually correct.
+          git add -A -- data
+
+          if git diff --cached --quiet -- data; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data changes."
             exit 0
@@ -88,9 +95,9 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
           # Per-record file adds/removals/modifications for the PR body.
-          added=$(git diff --diff-filter=A --name-only -- data/records | wc -l | tr -d ' ')
-          removed=$(git diff --diff-filter=D --name-only -- data/records | wc -l | tr -d ' ')
-          modified=$(git diff --diff-filter=M --name-only -- data/records | wc -l | tr -d ' ')
+          added=$(git diff --cached --diff-filter=A --name-only -- data/records | wc -l | tr -d ' ')
+          removed=$(git diff --cached --diff-filter=D --name-only -- data/records | wc -l | tr -d ' ')
+          modified=$(git diff --cached --diff-filter=M --name-only -- data/records | wc -l | tr -d ' ')
           version=$(python -c "import json; print(json.load(open('data/meta.json'))['ror']['dump_version'])")
           count=$(python -c "import json; print(json.load(open('data/meta.json'))['ror']['record_count'])")
           # Real Zenodo creation moment of this dump -- used as the commit's
@@ -117,12 +124,12 @@ jobs:
             echo ""
             if [ "$added" -gt 0 ]; then
               echo "**Added:**"
-              git diff --diff-filter=A --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
+              git diff --cached --diff-filter=A --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
               echo ""
             fi
             if [ "$removed" -gt 0 ]; then
               echo "**Removed:**"
-              git diff --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
+              git diff --cached --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
               echo ""
             fi
           } > /tmp/pr-body.md
@@ -144,7 +151,6 @@ jobs:
 
           branch="automated/data-update"
           git switch -c "$branch"
-          git add data
           git commit -m "data: update to ROR dump ${{ steps.diff.outputs.version }} (${{ steps.diff.outputs.count }} Saxon records)"
           git push --force origin "$branch"
 
