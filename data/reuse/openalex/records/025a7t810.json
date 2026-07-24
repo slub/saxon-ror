@@ -23,12 +23,12 @@
     "DRESDEN-concept Genome Centre"
   ],
   "repositories": [],
-  "works_count": 207,
-  "cited_by_count": 12682,
+  "works_count": 262,
+  "cited_by_count": 13115,
   "summary_stats": {
-    "2yr_mean_citedness": 9.246376811594203,
-    "h_index": 45,
-    "i10_index": 149
+    "2yr_mean_citedness": 9.45774647887324,
+    "h_index": 47,
+    "i10_index": 158
   },
   "ids": {
     "openalex": "https://openalex.org/I4405268811",
@@ -70,56 +70,62 @@
       "year": 2026,
       "works_count": 10,
       "oa_works_count": 10,
-      "cited_by_count": 9
+      "cited_by_count": 13
     },
     {
       "year": 2025,
-      "works_count": 34,
-      "oa_works_count": 30,
-      "cited_by_count": 282
+      "works_count": 35,
+      "oa_works_count": 31,
+      "cited_by_count": 297
     },
     {
       "year": 2024,
-      "works_count": 31,
-      "oa_works_count": 31,
-      "cited_by_count": 365
+      "works_count": 33,
+      "oa_works_count": 33,
+      "cited_by_count": 385
     },
     {
       "year": 2023,
-      "works_count": 40,
-      "oa_works_count": 38,
-      "cited_by_count": 434
+      "works_count": 58,
+      "oa_works_count": 56,
+      "cited_by_count": 461
     },
     {
       "year": 2022,
-      "works_count": 37,
-      "oa_works_count": 34,
-      "cited_by_count": 666
+      "works_count": 63,
+      "oa_works_count": 60,
+      "cited_by_count": 676
     },
     {
       "year": 2021,
-      "works_count": 24,
-      "oa_works_count": 21,
-      "cited_by_count": 4594
+      "works_count": 25,
+      "oa_works_count": 22,
+      "cited_by_count": 4651
     },
     {
       "year": 2020,
-      "works_count": 19,
-      "oa_works_count": 17,
-      "cited_by_count": 1343
+      "works_count": 21,
+      "oa_works_count": 19,
+      "cited_by_count": 1383
     },
     {
       "year": 2019,
-      "works_count": 12,
-      "oa_works_count": 11,
-      "cited_by_count": 271
+      "works_count": 16,
+      "oa_works_count": 14,
+      "cited_by_count": 301
+    },
+    {
+      "year": 2018,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 41
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405268811",
-      "works_count": 207
+      "works_count": 262
     }
   ],
   "topics": [
@@ -144,7 +150,7 @@
     {
       "id": "https://openalex.org/T10269",
       "display_name": "Epigenetics and DNA Methylation",
-      "count": 17,
+      "count": 18,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -153,6 +159,42 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10031",
+      "display_name": "T-cell and B-cell Immunology",
+      "count": 15,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10608",
+      "display_name": "Neurogenesis and neuroplasticity mechanisms",
+      "count": 15,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2806",
+        "display_name": "Developmental Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -178,9 +220,27 @@
       }
     },
     {
-      "id": "https://openalex.org/T10031",
-      "display_name": "T-cell and B-cell Immunology",
-      "count": 14,
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "count": 12,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11020",
+      "display_name": "Immune Cell Function and Interaction",
+      "count": 11,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -189,24 +249,6 @@
       "field": {
         "id": "https://openalex.org/fields/24",
         "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10608",
-      "display_name": "Neurogenesis and neuroplasticity mechanisms",
-      "count": 11,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2806",
-        "display_name": "Developmental Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -232,17 +274,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11020",
-      "display_name": "Immune Cell Function and Interaction",
+      "id": "https://openalex.org/T11266",
+      "display_name": "Neuroinflammation and Neurodegeneration Mechanisms",
       "count": 10,
-      "score": 0.9998999834060669,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -254,6 +296,42 @@
       "display_name": "Developmental Biology and Gene Regulation",
       "count": 9,
       "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10434",
+      "display_name": "Chromosomal and Genetic Variations",
+      "count": 9,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10505",
+      "display_name": "Pluripotent Stem Cells Research",
+      "count": 9,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -286,6 +364,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10222",
+      "display_name": "Genomics and Chromatin Dynamics",
+      "count": 8,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10345",
       "display_name": "Hematopoietic Stem Cell Transplantation",
       "count": 8,
@@ -301,24 +397,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10434",
-      "display_name": "Chromosomal and Genetic Variations",
-      "count": 8,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -340,17 +418,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11266",
-      "display_name": "Neuroinflammation and Neurodegeneration Mechanisms",
+      "id": "https://openalex.org/T11668",
+      "display_name": "interferon and immune responses",
       "count": 8,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2808",
-        "display_name": "Neurology"
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -358,13 +436,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10222",
-      "display_name": "Genomics and Chromatin Dynamics",
-      "count": 7,
-      "score": 0.9983000159263611,
+      "id": "https://openalex.org/T11685",
+      "display_name": "Zebrafish Biomedical Research Applications",
+      "count": 8,
+      "score": 0.9997000098228455,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
       },
       "field": {
         "id": "https://openalex.org/fields/13",
@@ -394,17 +472,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11668",
-      "display_name": "interferon and immune responses",
-      "count": 7,
+      "id": "https://openalex.org/T10062",
+      "display_name": "MicroRNA in disease regulation",
+      "count": 6,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -500,85 +578,13 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11685",
-      "display_name": "Zebrafish Biomedical Research Applications",
-      "count": 6,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1307",
-        "display_name": "Cell Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12640",
-      "display_name": "Environmental DNA in Biodiversity Studies",
-      "count": 6,
-      "score": 0.9991999864578247,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10012",
-      "display_name": "Genetic diversity and population structure",
-      "count": 5,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10062",
-      "display_name": "MicroRNA in disease regulation",
-      "count": 5,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11289",
       "display_name": "Single-cell and spatial transcriptomics",
-      "value": 0.0001545,
+      "value": 0.0001529,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -593,16 +599,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13661",
-      "display_name": "Reformed Theology and Governance",
-      "value": 0.000115,
+      "id": "https://openalex.org/T14370",
+      "display_name": "Economic, Social, and Health Studies",
+      "value": 0.0001273,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -612,7 +618,7 @@
     {
       "id": "https://openalex.org/T11685",
       "display_name": "Zebrafish Biomedical Research Applications",
-      "value": 9.38e-05,
+      "value": 0.0001244,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -627,9 +633,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13661",
+      "display_name": "Reformed Theology and Governance",
+      "value": 0.0001131,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10608",
+      "display_name": "Neurogenesis and neuroplasticity mechanisms",
+      "value": 0.0001088,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2806",
+        "display_name": "Developmental Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10268",
       "display_name": "Developmental Biology and Gene Regulation",
-      "value": 8.82e-05,
+      "value": 8.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -646,7 +686,7 @@
     {
       "id": "https://openalex.org/T13673",
       "display_name": "Library Science and Information",
-      "value": 8.77e-05,
+      "value": 8.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -663,7 +703,7 @@
     {
       "id": "https://openalex.org/T12640",
       "display_name": "Environmental DNA in Biodiversity Studies",
-      "value": 8.03e-05,
+      "value": 7.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -678,26 +718,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10608",
-      "display_name": "Neurogenesis and neuroplasticity mechanisms",
-      "value": 8.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2806",
-        "display_name": "Developmental Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11313",
       "display_name": "Immune cells in cancer",
-      "value": 7.57e-05,
+      "value": 7.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -714,7 +737,7 @@
     {
       "id": "https://openalex.org/T11899",
       "display_name": "Brucella: diagnosis, epidemiology, treatment",
-      "value": 7.35e-05,
+      "value": 7.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3404",
         "display_name": "Small Animals"
@@ -729,9 +752,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10269",
+      "display_name": "Epigenetics and DNA Methylation",
+      "value": 6.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10345",
       "display_name": "Hematopoietic Stem Cell Transplantation",
-      "value": 6.63e-05,
+      "value": 6.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
         "display_name": "Hematology"
@@ -748,7 +788,7 @@
     {
       "id": "https://openalex.org/T12672",
       "display_name": "Phagocytosis and Immune Regulation",
-      "value": 6.59e-05,
+      "value": 6.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -763,9 +803,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10269",
-      "display_name": "Epigenetics and DNA Methylation",
-      "value": 6.47e-05,
+      "id": "https://openalex.org/T10505",
+      "display_name": "Pluripotent Stem Cells Research",
+      "value": 6.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -782,7 +822,7 @@
     {
       "id": "https://openalex.org/T13803",
       "display_name": "Organizational Strategy and Culture",
-      "value": 6.38e-05,
+      "value": 6.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -799,7 +839,7 @@
     {
       "id": "https://openalex.org/T12180",
       "display_name": "Polar Research and Ecology",
-      "value": 6.21e-05,
+      "value": 6.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -816,7 +856,7 @@
     {
       "id": "https://openalex.org/T10691",
       "display_name": "Retinal Development and Disorders",
-      "value": 6.07e-05,
+      "value": 6.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -824,6 +864,23 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11668",
+      "display_name": "interferon and immune responses",
+      "value": 5.82e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -833,7 +890,7 @@
     {
       "id": "https://openalex.org/T11677",
       "display_name": "Congenital heart defects research",
-      "value": 5.65e-05,
+      "value": 5.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -848,9 +905,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11266",
+      "display_name": "Neuroinflammation and Neurodegeneration Mechanisms",
+      "value": 5.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12951",
       "display_name": "Burkholderia infections and melioidosis",
-      "value": 5.27e-05,
+      "value": 5.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -865,26 +939,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11668",
-      "display_name": "interferon and immune responses",
-      "value": 5.11e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10031",
       "display_name": "T-cell and B-cell Immunology",
-      "value": 4.89e-05,
+      "value": 5.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -896,63 +953,12 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11983",
-      "display_name": "Identity, Memory, and Therapy",
-      "value": 4.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3204",
-        "display_name": "Developmental and Educational Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13415",
-      "display_name": "Calcium signaling and nucleotide metabolism",
-      "value": 4.74e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1314",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11962",
-      "display_name": "Cardiac Fibrosis and Remodeling",
-      "value": 4.57e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10434",
       "display_name": "Chromosomal and Genetic Variations",
-      "value": 4.51e-05,
+      "value": 5.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -967,43 +973,43 @@
       }
     },
     {
-      "id": "https://openalex.org/T11765",
-      "display_name": "Circular RNAs in diseases",
-      "value": 4.44e-05,
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "value": 5.03e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13608",
-      "display_name": "Advanced Computational Techniques in Science and Engineering",
-      "value": 4.42e-05,
+      "id": "https://openalex.org/T11983",
+      "display_name": "Identity, Memory, and Therapy",
+      "value": 4.85e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405268811",
-  "updated_date": "2026-07-03T05:59:24",
+  "updated_date": "2026-07-23T06:00:47",
   "created_date": "2026-06-25T03:30:22"
 }

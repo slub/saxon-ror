@@ -16,7 +16,7 @@
     "DAS Environmental Expert (Germany)"
   ],
   "repositories": [],
-  "works_count": 3,
+  "works_count": 7,
   "cited_by_count": 2,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -44,8 +44,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 0,
+      "works_count": 5,
+      "oa_works_count": 4,
       "cited_by_count": 0
     },
     {
@@ -65,10 +65,64 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210133267",
-      "works_count": 3
+      "works_count": 7
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10257",
+      "display_name": "Oral microbiology and periodontitis research",
+      "count": 2,
+      "score": 0.03709999844431877,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3506",
+        "display_name": "Periodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11617",
+      "display_name": "Enzyme Production and Characterization",
+      "count": 2,
+      "score": 0.7631999850273132,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13725",
+      "display_name": "Pineapple and bromelain studies",
+      "count": 2,
+      "score": 0.07020000368356705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T11624",
       "display_name": "Constructed Wetlands for Wastewater Treatment",
@@ -198,9 +252,26 @@
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T13725",
+      "display_name": "Pineapple and bromelain studies",
+      "value": 7.3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13692",
       "display_name": "Italian Social Issues and Migration",
-      "value": 7.17e-05,
+      "value": 7.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -217,7 +288,7 @@
     {
       "id": "https://openalex.org/T14491",
       "display_name": "Diverse academic and cultural studies",
-      "value": 3.26e-05,
+      "value": 3.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -234,7 +305,7 @@
     {
       "id": "https://openalex.org/T12925",
       "display_name": "Educational and Social Studies",
-      "value": 3.19e-05,
+      "value": 3.15e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -251,7 +322,7 @@
     {
       "id": "https://openalex.org/T13108",
       "display_name": "Therapeutic Uses of Natural Elements",
-      "value": 2e-05,
+      "value": 1.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3603",
         "display_name": "Complementary and Manual Therapy"
@@ -285,7 +356,7 @@
     {
       "id": "https://openalex.org/T11624",
       "display_name": "Constructed Wetlands for Wastewater Treatment",
-      "value": 1.58e-05,
+      "value": 1.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -302,7 +373,7 @@
     {
       "id": "https://openalex.org/T12186",
       "display_name": "Phosphorus and nutrient management",
-      "value": 1.35e-05,
+      "value": 1.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -315,11 +386,45 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11617",
+      "display_name": "Enzyme Production and Characterization",
+      "value": 1.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10257",
+      "display_name": "Oral microbiology and periodontitis research",
+      "value": 1.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3506",
+        "display_name": "Periodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133267",
-  "updated_date": "2026-04-18T06:00:15",
+  "updated_date": "2026-07-16T05:59:17",
   "created_date": "2022-02-02T04:48:36"
 }
