@@ -1,0 +1,108 @@
+name: Reseed ROR curation links
+
+# Periodically re-runs scripts/update_curation.py --seed against
+# ror-community/ror-updates to catch newly-closed curation issues. This
+# matters most for "add new organization" requests: they only become
+# linkable once ror-curator-bot posts its "Assigned ROR ID ... in release
+# vX.Y" comment, and that comment can lag well behind the record actually
+# appearing in a published ROR dump (observed first-hand around v2.10, where
+# the milestone stayed open for weeks after release). Opens a PR only when
+# the seed actually finds something new; most runs are a no-op.
+
+on:
+  schedule:
+    # Mondays 04:30 UTC, ahead of pages.yml's 05:00 UTC weekly enrich run.
+    - cron: "30 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Snapshot current curation map
+        run: cp data/curation.json /tmp/curation-before.json
+
+      - name: Reseed curation links
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_curation.py --seed
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/curation.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new curation links found."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          python3 - <<'PY' > /tmp/pr-body.md
+          import json
+
+          before = json.load(open("/tmp/curation-before.json"))
+          after = json.load(open("data/curation.json"))
+
+          added = sorted(set(after) - set(before))
+          updated = sorted(
+              sfx for sfx in (set(after) & set(before))
+              if sorted(after[sfx]) != sorted(before[sfx])
+          )
+
+          print(
+              "Automated re-seed from `ror-community/ror-updates` -- picks up "
+              "curation issues that were closed (and got their `Assigned ROR ID` "
+              "bot comment) since the last seed run."
+          )
+          print()
+          if added:
+              print(f"**New records linked ({len(added)}):**")
+              for sfx in added:
+                  nums = ", ".join(f"#{n}" for n in after[sfx])
+                  print(f"- `{sfx}`: {nums}")
+              print()
+          if updated:
+              print(f"**Records with additional issues linked ({len(updated)}):**")
+              for sfx in updated:
+                  nums = ", ".join(f"#{n}" for n in after[sfx])
+                  print(f"- `{sfx}`: {nums}")
+          PY
+
+      - name: Open curation-update pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          branch="automated/curation-reseed"
+          git switch -c "$branch"
+          git add data/curation.json
+          git commit -m "curation: reseed ROR curation links"
+          git push --force origin "$branch"
+
+          gh label create curation-update --color 5319e7 --force >/dev/null 2>&1 || true
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            gh pr create \
+              --base main --head "$branch" \
+              --title "curation: reseed ROR curation links" \
+              --body-file /tmp/pr-body.md \
+              --label curation-update
+          else
+            gh pr edit "$branch" --body-file /tmp/pr-body.md
+          fi
