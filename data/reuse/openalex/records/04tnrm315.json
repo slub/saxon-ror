@@ -22,12 +22,12 @@
     "Dresden Centre for Computational Materials Science"
   ],
   "repositories": [],
-  "works_count": 0,
-  "cited_by_count": 0,
+  "works_count": 336,
+  "cited_by_count": 13328,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 0,
-    "i10_index": 0
+    "2yr_mean_citedness": 5.421875,
+    "h_index": 53,
+    "i10_index": 223
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272851",
@@ -56,19 +56,969 @@
       "relationship": "parent"
     }
   ],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "works_count": 33,
+      "oa_works_count": 32,
+      "cited_by_count": 140
+    },
+    {
+      "year": 2024,
+      "works_count": 17,
+      "oa_works_count": 12,
+      "cited_by_count": 173
+    },
+    {
+      "year": 2023,
+      "works_count": 35,
+      "oa_works_count": 23,
+      "cited_by_count": 651
+    },
+    {
+      "year": 2022,
+      "works_count": 25,
+      "oa_works_count": 20,
+      "cited_by_count": 402
+    },
+    {
+      "year": 2021,
+      "works_count": 34,
+      "oa_works_count": 29,
+      "cited_by_count": 421
+    },
+    {
+      "year": 2020,
+      "works_count": 26,
+      "oa_works_count": 19,
+      "cited_by_count": 832
+    },
+    {
+      "year": 2019,
+      "works_count": 35,
+      "oa_works_count": 30,
+      "cited_by_count": 1939
+    },
+    {
+      "year": 2018,
+      "works_count": 42,
+      "oa_works_count": 22,
+      "cited_by_count": 1189
+    },
+    {
+      "year": 2017,
+      "works_count": 41,
+      "oa_works_count": 16,
+      "cited_by_count": 890
+    },
+    {
+      "year": 2016,
+      "works_count": 35,
+      "oa_works_count": 13,
+      "cited_by_count": 2672
+    },
+    {
+      "year": 2015,
+      "works_count": 7,
+      "oa_works_count": 1,
+      "cited_by_count": 148
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272851",
-      "works_count": 0
+      "works_count": 336
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10083",
+      "display_name": "Graphene research and applications",
+      "count": 47,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10913",
+      "display_name": "Molecular Junctions and Nanostructures",
+      "count": 28,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11087",
+      "display_name": "Solidification and crystal growth phenomena",
+      "count": 28,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11682",
+      "display_name": "Advanced Condensed Matter Physics",
+      "count": 28,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10657",
+      "display_name": "Topological Materials and Phenomena",
+      "count": 27,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10275",
+      "display_name": "2D Materials and Applications",
+      "count": 23,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10514",
+      "display_name": "Numerical methods in engineering",
+      "count": 22,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11366",
+      "display_name": "Elasticity and Material Modeling",
+      "count": 21,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10690",
+      "display_name": "Vibration Control and Rheological Fluids",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11558",
+      "display_name": "Composite Material Mechanics",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12038",
+      "display_name": "Covalent Organic Framework Applications",
+      "count": 14,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12285",
+      "display_name": "Surface Chemistry and Catalysis",
+      "count": 14,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10247",
+      "display_name": "Perovskite Materials and Applications",
+      "count": 13,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11277",
+      "display_name": "Thermal properties of materials",
+      "count": 13,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10219",
+      "display_name": "Mechanical Behavior of Composites",
+      "count": 12,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10382",
+      "display_name": "Quantum and electron transport phenomena",
+      "count": 12,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10440",
+      "display_name": "Advanced Thermoelectric Materials and Devices",
+      "count": 12,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12141",
+      "display_name": "Fluid Dynamics and Thin Films",
+      "count": 12,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10204",
+      "display_name": "Microstructure and mechanical properties",
+      "count": 11,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10461",
+      "display_name": "Gas Sensing Nanomaterials and Sensors",
+      "count": 11,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10607",
+      "display_name": "Magnetic and transport properties of perovskites and related materials",
+      "count": 11,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10670",
+      "display_name": "Aluminum Alloy Microstructure Properties",
+      "count": 11,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11708",
+      "display_name": "Photochromic and Fluorescence Chemistry",
+      "count": 10,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12100",
+      "display_name": "Advanced Mathematical Modeling in Engineering",
+      "count": 10,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10306",
+      "display_name": "Liquid Crystal Research Advancements",
+      "count": 9,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11087",
+      "display_name": "Solidification and crystal growth phenomena",
+      "value": 0.0004276,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12285",
+      "display_name": "Surface Chemistry and Catalysis",
+      "value": 0.0003157,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10657",
+      "display_name": "Topological Materials and Phenomena",
+      "value": 0.0003014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11366",
+      "display_name": "Elasticity and Material Modeling",
+      "value": 0.0002492,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10690",
+      "display_name": "Vibration Control and Rheological Fluids",
+      "value": 0.0002227,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11558",
+      "display_name": "Composite Material Mechanics",
+      "value": 0.0001982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10275",
+      "display_name": "2D Materials and Applications",
+      "value": 0.0001788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10083",
+      "display_name": "Graphene research and applications",
+      "value": 0.0001773,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12141",
+      "display_name": "Fluid Dynamics and Thin Films",
+      "value": 0.0001772,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11682",
+      "display_name": "Advanced Condensed Matter Physics",
+      "value": 0.0001741,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11277",
+      "display_name": "Thermal properties of materials",
+      "value": 0.000153,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12038",
+      "display_name": "Covalent Organic Framework Applications",
+      "value": 0.0001497,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10514",
+      "display_name": "Numerical methods in engineering",
+      "value": 0.0001459,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10440",
+      "display_name": "Advanced Thermoelectric Materials and Devices",
+      "value": 0.0001304,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10913",
+      "display_name": "Molecular Junctions and Nanostructures",
+      "value": 0.0001296,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14327",
+      "display_name": "Advanced Energy Technologies and Civil Engineering Innovations",
+      "value": 0.0001226,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2104",
+        "display_name": "Nuclear Energy and Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10707",
+      "display_name": "Cellular and Composite Structures",
+      "value": 0.0001189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11708",
+      "display_name": "Photochromic and Fluorescence Chemistry",
+      "value": 0.000118,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12200",
+      "display_name": "Heusler alloys: electronic and magnetic properties",
+      "value": 0.0001105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13182",
+      "display_name": "Quantum-Dot Cellular Automata",
+      "value": 9.32e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11486",
+      "display_name": "Micro and Nano Robotics",
+      "value": 8.81e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11206",
+      "display_name": "Model Reduction and Neural Networks",
+      "value": 8.72e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10219",
+      "display_name": "Mechanical Behavior of Composites",
+      "value": 8.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10306",
+      "display_name": "Liquid Crystal Research Advancements",
+      "value": 7.65e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11419",
+      "display_name": "Supramolecular Self-Assembly in Materials",
+      "value": 7.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272851",
-  "updated_date": "2026-07-22T05:59:22",
+  "updated_date": "2026-07-31T05:59:10",
   "created_date": "2026-07-22T03:30:22"
 }

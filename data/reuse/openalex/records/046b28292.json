@@ -20,12 +20,12 @@
     "Technische Universität Dresden Biotechnologisches Zentrum"
   ],
   "repositories": [],
-  "works_count": 0,
-  "cited_by_count": 0,
+  "works_count": 467,
+  "cited_by_count": 61385,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 0,
-    "i10_index": 0
+    "2yr_mean_citedness": 14.883333333333333,
+    "h_index": 119,
+    "i10_index": 623
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272450",
@@ -54,19 +54,999 @@
       "relationship": "parent"
     }
   ],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 10,
+      "oa_works_count": 9,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2025,
+      "works_count": 18,
+      "oa_works_count": 17,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2024,
+      "works_count": 23,
+      "oa_works_count": 23,
+      "cited_by_count": 452
+    },
+    {
+      "year": 2023,
+      "works_count": 26,
+      "oa_works_count": 26,
+      "cited_by_count": 249
+    },
+    {
+      "year": 2022,
+      "works_count": 27,
+      "oa_works_count": 24,
+      "cited_by_count": 591
+    },
+    {
+      "year": 2021,
+      "works_count": 20,
+      "oa_works_count": 18,
+      "cited_by_count": 2173
+    },
+    {
+      "year": 2020,
+      "works_count": 31,
+      "oa_works_count": 24,
+      "cited_by_count": 886
+    },
+    {
+      "year": 2019,
+      "works_count": 23,
+      "oa_works_count": 21,
+      "cited_by_count": 874
+    },
+    {
+      "year": 2018,
+      "works_count": 24,
+      "oa_works_count": 22,
+      "cited_by_count": 1349
+    },
+    {
+      "year": 2017,
+      "works_count": 19,
+      "oa_works_count": 17,
+      "cited_by_count": 695
+    },
+    {
+      "year": 2016,
+      "works_count": 14,
+      "oa_works_count": 10,
+      "cited_by_count": 889
+    },
+    {
+      "year": 2015,
+      "works_count": 17,
+      "oa_works_count": 7,
+      "cited_by_count": 551
+    },
+    {
+      "year": 2014,
+      "works_count": 19,
+      "oa_works_count": 9,
+      "cited_by_count": 710
+    },
+    {
+      "year": 2013,
+      "works_count": 19,
+      "oa_works_count": 9,
+      "cited_by_count": 692
+    },
+    {
+      "year": 2012,
+      "works_count": 26,
+      "oa_works_count": 10,
+      "cited_by_count": 1538
+    },
+    {
+      "year": 2011,
+      "works_count": 23,
+      "oa_works_count": 17,
+      "cited_by_count": 3869
+    },
+    {
+      "year": 2010,
+      "works_count": 29,
+      "oa_works_count": 17,
+      "cited_by_count": 2184
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272450",
-      "works_count": 0
+      "works_count": 467
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10407",
+      "display_name": "Lipid Membrane Structure and Behavior",
+      "count": 65,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10044",
+      "display_name": "Protein Structure and Dynamics",
+      "count": 44,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "count": 37,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10540",
+      "display_name": "Advanced Fluorescence Microscopy Techniques",
+      "count": 31,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10379",
+      "display_name": "Cellular Mechanics and Interactions",
+      "count": 30,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "count": 26,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "count": 24,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11131",
+      "display_name": "Proteoglycans and glycosaminoglycans research",
+      "count": 23,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10725",
+      "display_name": "RNA Interference and Gene Delivery",
+      "count": 21,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11582",
+      "display_name": "Nanopore and Nanochannel Transport Studies",
+      "count": 19,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "count": 18,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10423",
+      "display_name": "Neurobiology and Insect Physiology Research",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10602",
+      "display_name": "Glycosylation and Glycoproteins Research",
+      "count": 16,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "count": 16,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11177",
+      "display_name": "Spectroscopy and Quantum Chemical Studies",
+      "count": 15,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10303",
+      "display_name": "Photosynthetic Processes and Mechanisms",
+      "count": 14,
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10923",
+      "display_name": "Force Microscopy Techniques and Applications",
+      "count": 14,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11710",
+      "display_name": "Biomedical Text Mining and Ontologies",
+      "count": 14,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10207",
+      "display_name": "Advanced biosensing and bioanalysis techniques",
+      "count": 13,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10676",
+      "display_name": "Genetics, Aging, and Longevity in Model Organisms",
+      "count": 13,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1302",
+        "display_name": "Aging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10831",
+      "display_name": "Cell Adhesion Molecules Research",
+      "count": 13,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10934",
+      "display_name": "Heat shock proteins research",
+      "count": 13,
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10617",
+      "display_name": "Cellular transport and secretion",
+      "count": 12,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12254",
+      "display_name": "Machine Learning in Bioinformatics",
+      "count": 12,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10336",
+      "display_name": "Cancer Cells and Metastasis",
+      "count": 11,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10407",
+      "display_name": "Lipid Membrane Structure and Behavior",
+      "value": 0.0003001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10540",
+      "display_name": "Advanced Fluorescence Microscopy Techniques",
+      "value": 0.0002704,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11131",
+      "display_name": "Proteoglycans and glycosaminoglycans research",
+      "value": 0.0002296,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10379",
+      "display_name": "Cellular Mechanics and Interactions",
+      "value": 0.0002289,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11582",
+      "display_name": "Nanopore and Nanochannel Transport Studies",
+      "value": 0.0002217,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10044",
+      "display_name": "Protein Structure and Dynamics",
+      "value": 0.0001806,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12065",
+      "display_name": "Hippo pathway signaling and YAP/TAZ",
+      "value": 0.0001629,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11308",
+      "display_name": "Sphingolipid Metabolism and Signaling",
+      "value": 0.0001577,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "value": 0.0001536,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10934",
+      "display_name": "Heat shock proteins research",
+      "value": 0.0001518,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "value": 0.0001429,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10676",
+      "display_name": "Genetics, Aging, and Longevity in Model Organisms",
+      "value": 0.0001285,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1302",
+        "display_name": "Aging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12793",
+      "display_name": "Caveolin-1 and cellular processes",
+      "value": 0.000113,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11710",
+      "display_name": "Biomedical Text Mining and Ontologies",
+      "value": 0.0001076,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11486",
+      "display_name": "Micro and Nano Robotics",
+      "value": 0.0001028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11872",
+      "display_name": "Barrier Structure and Function Studies",
+      "value": 8.65e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12254",
+      "display_name": "Machine Learning in Bioinformatics",
+      "value": 8.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10617",
+      "display_name": "Cellular transport and secretion",
+      "value": 7.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10725",
+      "display_name": "RNA Interference and Gene Delivery",
+      "value": 7.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12274",
+      "display_name": "Electrostatics and Colloid Interactions",
+      "value": 7.66e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11908",
+      "display_name": "Protein Interaction Studies and Fluorescence Analysis",
+      "value": 7.5e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10423",
+      "display_name": "Neurobiology and Insect Physiology Research",
+      "value": 7.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10923",
+      "display_name": "Force Microscopy Techniques and Applications",
+      "value": 7.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11412",
+      "display_name": "Genetic and Kidney Cyst Diseases",
+      "value": 7.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10492",
+      "display_name": "Microtubule and mitosis dynamics",
+      "value": 6.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272450",
-  "updated_date": "2026-07-22T05:59:22",
+  "updated_date": "2026-07-31T05:59:10",
   "created_date": "2026-07-22T03:30:22"
 }

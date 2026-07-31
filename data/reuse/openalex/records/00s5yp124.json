@@ -22,12 +22,12 @@
     "Fraunhofer-Institut für Integrierte Schaltungen IIS, Institutsteil Entwicklung Adaptiver Systeme EAS"
   ],
   "repositories": [],
-  "works_count": 364,
-  "cited_by_count": 7426,
+  "works_count": 362,
+  "cited_by_count": 7405,
   "summary_stats": {
-    "2yr_mean_citedness": 1.46,
+    "2yr_mean_citedness": 1.2244897959183674,
     "h_index": 29,
-    "i10_index": 138
+    "i10_index": 136
   },
   "ids": {
     "openalex": "https://openalex.org/I4210095661",
@@ -65,9 +65,9 @@
     },
     {
       "year": 2025,
-      "works_count": 12,
-      "oa_works_count": 4,
-      "cited_by_count": 20
+      "works_count": 11,
+      "oa_works_count": 3,
+      "cited_by_count": 7
     },
     {
       "year": 2024,
@@ -85,13 +85,13 @@
       "year": 2022,
       "works_count": 27,
       "oa_works_count": 17,
-      "cited_by_count": 124
+      "cited_by_count": 127
     },
     {
       "year": 2021,
       "works_count": 26,
       "oa_works_count": 19,
-      "cited_by_count": 101
+      "cited_by_count": 102
     },
     {
       "year": 2020,
@@ -133,7 +133,7 @@
       "year": 2014,
       "works_count": 16,
       "oa_works_count": 4,
-      "cited_by_count": 278
+      "cited_by_count": 279
     },
     {
       "year": 2013,
@@ -151,7 +151,7 @@
       "year": 2011,
       "works_count": 17,
       "oa_works_count": 9,
-      "cited_by_count": 834
+      "cited_by_count": 835
     },
     {
       "year": 2010,
@@ -164,7 +164,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210095661",
-      "works_count": 364
+      "works_count": 362
     }
   ],
   "topics": [
@@ -349,24 +349,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10369",
-      "display_name": "Advanced MEMS and NEMS Technologies",
-      "count": 19,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10472",
       "display_name": "Semiconductor materials and devices",
       "count": 19,
@@ -414,6 +396,24 @@
       "field": {
         "id": "https://openalex.org/fields/17",
         "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10369",
+      "display_name": "Advanced MEMS and NEMS Technologies",
+      "count": 18,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -623,7 +623,7 @@
     {
       "id": "https://openalex.org/T13286",
       "display_name": "Modeling and Simulation Systems",
-      "value": 0.0010356,
+      "value": 0.001034,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -640,7 +640,7 @@
     {
       "id": "https://openalex.org/T11522",
       "display_name": "VLSI and FPGA Design Techniques",
-      "value": 0.0006446,
+      "value": 0.0006439,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -657,7 +657,7 @@
     {
       "id": "https://openalex.org/T11527",
       "display_name": "3D IC and TSV technologies",
-      "value": 0.0005563,
+      "value": 0.000556,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -674,7 +674,7 @@
     {
       "id": "https://openalex.org/T11032",
       "display_name": "VLSI and Analog Circuit Testing",
-      "value": 0.0005285,
+      "value": 0.0005282,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -691,7 +691,7 @@
     {
       "id": "https://openalex.org/T10904",
       "display_name": "Embedded Systems Design Techniques",
-      "value": 0.0003261,
+      "value": 0.0003259,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -708,7 +708,7 @@
     {
       "id": "https://openalex.org/T10363",
       "display_name": "Low-power high-performance VLSI design",
-      "value": 0.0003258,
+      "value": 0.0003254,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -725,7 +725,7 @@
     {
       "id": "https://openalex.org/T12810",
       "display_name": "Real-time simulation and control systems",
-      "value": 0.0002366,
+      "value": 0.0002365,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -742,7 +742,7 @@
     {
       "id": "https://openalex.org/T10323",
       "display_name": "Analog and Mixed-Signal Circuit Design",
-      "value": 0.0001985,
+      "value": 0.0001982,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -759,7 +759,7 @@
     {
       "id": "https://openalex.org/T11195",
       "display_name": "Simulation Techniques and Applications",
-      "value": 0.0001956,
+      "value": 0.0001954,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -776,7 +776,7 @@
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 0.0001635,
+      "value": 0.0001548,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -793,7 +793,7 @@
     {
       "id": "https://openalex.org/T11417",
       "display_name": "Advancements in PLL and VCO Technologies",
-      "value": 0.0001446,
+      "value": 0.0001443,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -810,7 +810,7 @@
     {
       "id": "https://openalex.org/T11005",
       "display_name": "Radiation Effects in Electronics",
-      "value": 0.00014,
+      "value": 0.0001398,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -827,7 +827,7 @@
     {
       "id": "https://openalex.org/T11444",
       "display_name": "Electromagnetic Compatibility and Noise Suppression",
-      "value": 0.0001376,
+      "value": 0.0001375,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -861,7 +861,7 @@
     {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "value": 0.0001313,
+      "value": 0.0001312,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -878,7 +878,7 @@
     {
       "id": "https://openalex.org/T11504",
       "display_name": "Advanced Authentication Protocols Security",
-      "value": 0.0001195,
+      "value": 0.0001193,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -895,7 +895,7 @@
     {
       "id": "https://openalex.org/T12216",
       "display_name": "Network Time Synchronization Technologies",
-      "value": 0.000115,
+      "value": 0.0001148,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -912,7 +912,7 @@
     {
       "id": "https://openalex.org/T12131",
       "display_name": "Wireless Signal Modulation Classification",
-      "value": 0.0001137,
+      "value": 0.0001132,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -929,7 +929,7 @@
     {
       "id": "https://openalex.org/T13292",
       "display_name": "Embedded Systems and FPGA Applications",
-      "value": 0.0001134,
+      "value": 0.0001132,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -946,7 +946,7 @@
     {
       "id": "https://openalex.org/T13295",
       "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 0.0001118,
+      "value": 0.0001116,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -963,7 +963,7 @@
     {
       "id": "https://openalex.org/T12495",
       "display_name": "Electrostatic Discharge in Electronics",
-      "value": 0.0001087,
+      "value": 0.0001086,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -997,7 +997,7 @@
     {
       "id": "https://openalex.org/T10558",
       "display_name": "Advancements in Semiconductor Devices and Circuit Design",
-      "value": 0.0001035,
+      "value": 0.0001033,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1014,7 +1014,7 @@
     {
       "id": "https://openalex.org/T10121",
       "display_name": "Building Energy and Comfort Optimization",
-      "value": 9.96e-05,
+      "value": 9.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -1031,7 +1031,7 @@
     {
       "id": "https://openalex.org/T12772",
       "display_name": "Control and Stability of Dynamical Systems",
-      "value": 9.57e-05,
+      "value": 9.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -1049,6 +1049,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210095661",
-  "updated_date": "2026-07-17T05:59:11",
+  "updated_date": "2026-07-31T05:59:10",
   "created_date": "2022-02-02T04:48:36"
 }
