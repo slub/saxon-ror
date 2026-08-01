@@ -52,7 +52,10 @@ default (enrich)
 
 Auth is optional but recommended (``GITHUB_TOKEN``) for higher rate limits.
 Note the GitHub **search** API is limited to ~30 requests/minute, so ``--seed``
-throttles and takes a few minutes across the full record set.
+throttles and takes a few minutes across the full record set. Search results are
+also scoped to what the token can access, and an Actions ``GITHUB_TOKEN`` cannot
+reach ``ror-community/ror-updates`` -- see ``_search_mode``, which probes for
+this and falls back to unauthenticated search instead of finding nothing.
 
 Usage:
     python scripts/update_curation.py --seed          # bootstrap data/curation.json
@@ -77,23 +80,23 @@ RECORDS_JSON = REPO_ROOT / "data" / "records.json"
 CURATION_JSON = REPO_ROOT / "data" / "curation.json"
 
 
-def _request(url: str) -> urllib.request.Request:
+def _request(url: str, auth: bool = True) -> urllib.request.Request:
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "saxon-ror/1.0 (+https://github.com/slub/saxon-ror)",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if token:
+    if auth and token:
         headers["Authorization"] = f"Bearer {token}"
     return urllib.request.Request(url, headers=headers)
 
 
-def _get(url: str, retries: int = 4, backoff: float = 3.0):
+def _get(url: str, retries: int = 4, backoff: float = 3.0, auth: bool = True):
     last = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(_request(url), timeout=60) as resp:
+            with urllib.request.urlopen(_request(url, auth=auth), timeout=60) as resp:
                 return json.load(resp)
         except urllib.error.HTTPError as exc:
             last = exc
@@ -106,6 +109,49 @@ def _get(url: str, retries: int = 4, backoff: float = 3.0):
             if attempt < retries - 1:
                 time.sleep(backoff * (attempt + 1))
     raise RuntimeError(f"GET {url} failed: {last}")
+
+
+def _search(sfx: str, auth: bool) -> dict:
+    """Run the issue search for one ROR suffix in the curation repo."""
+    q = f"repo:{CURATION_REPO} ror.org/{sfx}"
+    url = f"{API}/search/issues?q={urllib.parse.quote(q)}&per_page=50"
+    return _get(url, auth=auth)
+
+
+def _search_mode(existing: dict[str, list[int]]) -> tuple[bool, float]:
+    """Decide whether searches may use the token, and how hard to throttle.
+
+    The GitHub *search* API only returns resources the caller can access. A
+    GitHub App installation token -- which is what ``GITHUB_TOKEN`` is inside
+    Actions -- can access only the repository it was minted for, so searching
+    ``ror-community/ror-updates`` with it yields **zero hits and no error**: the
+    seed appears to run fine and quietly links nothing (observed in the weekly
+    reseed workflow after v2.10).
+
+    So probe with a record that is already linked and must therefore produce a
+    hit. If the token search comes back empty, fall back to unauthenticated
+    search (which is not installation-scoped) at its lower rate limit. If both
+    come back empty, something else is broken -- fail loudly rather than write
+    an unchanged map.
+
+    Returns ``(auth, delay_seconds)``: ~30 requests/minute authenticated,
+    ~10/minute unauthenticated.
+    """
+    canary = next((sfx for sfx, nums in existing.items() if nums), None)
+    if canary is None:
+        return True, 2.2  # nothing linked yet -> nothing to probe against
+
+    if _search(canary, auth=True).get("total_count"):
+        return True, 2.2
+    if os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"):
+        print(f"  war: token search returns no hits for {canary} (scope-limited token?)")
+    if _search(canary, auth=False).get("total_count"):
+        print("  falling back to unauthenticated search (slower throttle)")
+        return False, 6.5
+    raise RuntimeError(
+        f"search for the known-linked record {canary} returns no hits, "
+        f"authenticated or not -- {CURATION_REPO} search looks broken"
+    )
 
 
 def _suffixes() -> list[str]:
@@ -144,12 +190,11 @@ def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
     merged = {k: list(v) for k, v in existing.items()}
     suffixes = _suffixes()
     comment_cache: dict[int, list[str]] = {}
+    auth, delay = _search_mode(existing)
     for i, sfx in enumerate(suffixes, 1):
         known = set(merged.get(sfx, []))
         # Unqualified search returns title, body and comment matches in one call.
-        q = f"repo:{CURATION_REPO} ror.org/{sfx}"
-        url = f"{API}/search/issues?q={urllib.parse.quote(q)}&per_page=50"
-        data = _get(url)
+        data = _search(sfx, auth=auth)
         # Modify requests name their target in the body's "ROR ID:" field, which
         # is distinct from the "Related organizations:" URLs — so this matches the
         # target record even when the title omits the URL (a newer template does).
@@ -168,8 +213,7 @@ def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
         if nums:
             merged[sfx] = sorted(known | nums, reverse=True)
             print(f"[{i}/{len(suffixes)}] {sfx}: {sorted(nums, reverse=True)}")
-        # Search API allows ~30 requests/minute.
-        time.sleep(2.2)
+        time.sleep(delay)
     return dict(sorted(merged.items()))
 
 
