@@ -34,14 +34,17 @@ jobs:
       - name: Snapshot current curation map
         run: cp data/curation.json /tmp/curation-before.json
 
-      # GITHUB_TOKEN is an installation token scoped to this repository, so the
-      # GitHub *search* API returns nothing for ror-community/ror-updates (issue
-      # reads still work). update_curation.py probes for that and falls back to
-      # unauthenticated search, which is slower -- hence the raised timeout.
+      # The built-in GITHUB_TOKEN is an installation token scoped to this
+      # repository, so the GitHub *search* API returns nothing for
+      # ror-community/ror-updates (plain issue reads still work). Hence
+      # CURATION_TOKEN: a PAT that can read public repos, holding no write
+      # permission here -- the steps below keep using GITHUB_TOKEN for that.
+      # Without the secret (forks) update_curation.py detects the empty search
+      # and falls back to unauthenticated, which is slower -- hence the timeout.
       - name: Reseed curation links
         timeout-minutes: 60
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CURATION_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/update_curation.py --seed
 
       - name: Summarize changes
