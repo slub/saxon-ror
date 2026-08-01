@@ -74,6 +74,11 @@ import urllib.request
 from pathlib import Path
 
 CURATION_REPO = "ror-community/ror-updates"
+# Saxon record whose ROR URL is certain to appear in the curation repo (TU
+# Dresden, the subject of many requests). Probed by ``_search_mode`` only when
+# data/curation.json holds no link yet, to tell "search cannot see the repo"
+# apart from "this record genuinely has no curation request".
+CANARY_SUFFIX = "042aqky30"
 API = "https://api.github.com"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RECORDS_JSON = REPO_ROOT / "data" / "records.json"
@@ -128,28 +133,29 @@ def _search_mode(existing: dict[str, list[int]]) -> tuple[bool, float]:
     seed appears to run fine and quietly links nothing (observed in the weekly
     reseed workflow after v2.10).
 
-    So probe with a record that is already linked and must therefore produce a
-    hit. If the token search comes back empty, fall back to unauthenticated
-    search (which is not installation-scoped) at its lower rate limit. If both
-    come back empty, something else is broken -- fail loudly rather than write
-    an unchanged map.
+    So probe with a record that must produce a hit -- one already linked in
+    ``existing``, or ``CANARY_SUFFIX`` when the map is still empty, so that a
+    from-scratch bootstrap is probed too. If the token search comes back empty,
+    fall back to unauthenticated search (which is not installation-scoped) at
+    its lower rate limit. If both come back empty, something else is broken --
+    fail loudly rather than write an empty or unchanged map.
 
     Returns ``(auth, delay_seconds)``: ~30 requests/minute authenticated,
-    ~10/minute unauthenticated.
+    ~10/minute unauthenticated. Unauthenticated limits are per IP, so a run
+    without any token takes the slower throttle even though its probe passed.
     """
-    canary = next((sfx for sfx, nums in existing.items() if nums), None)
-    if canary is None:
-        return True, 2.2  # nothing linked yet -> nothing to probe against
+    canary = next((sfx for sfx, nums in existing.items() if nums), CANARY_SUFFIX)
 
-    if _search(canary, auth=True).get("total_count"):
-        return True, 2.2
     if os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"):
+        if _search(canary, auth=True).get("total_count"):
+            return True, 2.2
         print(f"  war: token search returns no hits for {canary} (scope-limited token?)")
+
     if _search(canary, auth=False).get("total_count"):
-        print("  falling back to unauthenticated search (slower throttle)")
+        print("  using unauthenticated search (slower throttle)")
         return False, 6.5
     raise RuntimeError(
-        f"search for the known-linked record {canary} returns no hits, "
+        f"search for the reference record {canary} returns no hits, "
         f"authenticated or not -- {CURATION_REPO} search looks broken"
     )
 
