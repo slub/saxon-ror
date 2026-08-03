@@ -16,11 +16,11 @@
     "Sächsische Krebsgesellschaft"
   ],
   "repositories": [],
-  "works_count": 7,
-  "cited_by_count": 153,
+  "works_count": 8,
+  "cited_by_count": 162,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 5,
+    "h_index": 6,
     "i10_index": 5
   },
   "ids": {
@@ -65,24 +65,30 @@
       "works_count": 2,
       "oa_works_count": 1,
       "cited_by_count": 3
+    },
+    {
+      "year": 2011,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 9
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210160709",
-      "works_count": 7
+      "works_count": 8
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T11141",
-      "display_name": "Childhood Cancer Survivors' Quality of Life",
+      "id": "https://openalex.org/T10178",
+      "display_name": "Cancer survivorship and care",
       "count": 3,
-      "score": 1.0,
+      "score": 0.4269999861717224,
       "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -94,13 +100,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10178",
-      "display_name": "Cancer survivorship and care",
-      "count": 2,
-      "score": 0.4269999861717224,
+      "id": "https://openalex.org/T11141",
+      "display_name": "Childhood Cancer Survivors' Quality of Life",
+      "count": 3,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -123,6 +129,24 @@
       "field": {
         "id": "https://openalex.org/fields/27",
         "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13022",
+      "display_name": "Health and Medical Studies",
+      "count": 2,
+      "score": 0.9824000000953674,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -310,24 +334,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "count": 1,
-      "score": 0.9824000000953674,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13574",
       "display_name": "Family Support in Illness",
       "count": 1,
@@ -364,6 +370,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13944",
+      "display_name": "Psychiatric care and mental health services",
+      "count": 1,
+      "score": 0.09049999713897705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14437",
       "display_name": "Ethics and Legal Issues in Pediatric Healthcare",
       "count": 1,
@@ -383,6 +407,40 @@
     }
   ],
   "topic_share": [
+    {
+      "id": "https://openalex.org/T13022",
+      "display_name": "Health and Medical Studies",
+      "value": 2.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10178",
+      "display_name": "Cancer survivorship and care",
+      "value": 2.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T11141",
       "display_name": "Childhood Cancer Survivors' Quality of Life",
@@ -435,23 +493,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10178",
-      "display_name": "Cancer survivorship and care",
-      "value": 1.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10556",
       "display_name": "Global Cancer Incidence and Screening",
       "value": 1.41e-05,
@@ -486,6 +527,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T13944",
+      "display_name": "Psychiatric care and mental health services",
+      "value": 1.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12823",
       "display_name": "Adolescent and Pediatric Healthcare",
       "value": 1.24e-05,
@@ -505,7 +563,7 @@
     {
       "id": "https://openalex.org/T14437",
       "display_name": "Ethics and Legal Issues in Pediatric Healthcare",
-      "value": 1.14e-05,
+      "value": 1.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2735",
         "display_name": "Pediatrics, Perinatology and Child Health"
@@ -513,23 +571,6 @@
       "field": {
         "id": "https://openalex.org/fields/27",
         "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "value": 1.13e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -676,6 +717,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210160709",
-  "updated_date": "2026-07-23T06:00:47",
+  "updated_date": "2026-08-05T05:59:45",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -16,8 +16,8 @@
     "Arioso Systems (Germany)"
   ],
   "repositories": [],
-  "works_count": 27,
-  "cited_by_count": 1026,
+  "works_count": 28,
+  "cited_by_count": 1027,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 18,
@@ -113,7 +113,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210155834",
-      "works_count": 27
+      "works_count": 28
     }
   ],
   "topics": [
@@ -589,7 +589,7 @@
     {
       "id": "https://openalex.org/T11449",
       "display_name": "Mechanical and Optical Resonators",
-      "value": 4e-05,
+      "value": 3.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -618,6 +618,40 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13860",
+      "display_name": "Arts and Performance Studies",
+      "value": 3.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14507",
+      "display_name": "History, Culture, and Society",
+      "value": 3.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3616",
+        "display_name": "Speech and Hearing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -657,7 +691,7 @@
     {
       "id": "https://openalex.org/T13925",
       "display_name": "Offshore Engineering and Technologies",
-      "value": 2.25e-05,
+      "value": 2.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -672,9 +706,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13554",
+      "display_name": "Brazilian cultural history and politics",
+      "value": 2.19e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12392",
       "display_name": "Sharing Economy and Platforms",
-      "value": 1.83e-05,
+      "value": 1.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -827,7 +878,7 @@
     {
       "id": "https://openalex.org/T11179",
       "display_name": "Nematode management and characterization studies",
-      "value": 1.1e-05,
+      "value": 1.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -942,62 +993,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10914",
-      "display_name": "Tactile and Sensory Interactions",
-      "value": 7.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11907",
-      "display_name": "Copper-based nanomaterials and applications",
-      "value": 7.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12240",
-      "display_name": "Nanomaterials for catalytic reactions",
-      "value": 7.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210155834",
-  "updated_date": "2026-07-31T05:59:10",
+  "updated_date": "2026-08-06T05:59:15",
   "created_date": "2022-02-02T04:48:36"
 }

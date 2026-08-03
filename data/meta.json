@@ -4,7 +4,7 @@
     "zenodo_doi": "10.5281/zenodo.21773148",
     "zenodo_concept_doi": "10.5281/zenodo.6347574",
     "schema_version": "v2",
-    "retrieved": "2026-08-04",
+    "retrieved": "2026-08-06",
     "publication_date": "2026-08-03",
     "zenodo_created": "2026-08-03T11:40:01.036083+00:00",
     "record_count": 305,
@@ -16,16 +16,15 @@
     "openalex": {
       "source": "https://openalex.org/",
       "api": "https://api.openalex.org/institutions",
-      "retrieved": "2026-08-04",
-      "matched": 303,
+      "retrieved": "2026-08-06",
+      "matched": 304,
       "ror_total": 305,
-      "missing": 2,
+      "missing": 1,
       "missing_ror_ids": [
-        "https://ror.org/01dvske68",
-        "https://ror.org/0202dx760"
+        "https://ror.org/01dvske68"
       ],
       "license": "CC0-1.0",
-      "access": "open (no authentication required)",
+      "access": "open; requested with an API key (OPENALEX_API_KEY) and mailto=openalex@slub-dresden.de for polite-pool identification",
       "note": "Derived companion data keyed by ROR id. Institution entities only; no works/publication metadata fetched. May lag behind or diverge from ROR."
     }
   }
