@@ -17,10 +17,10 @@
     "Synexus (Germany)"
   ],
   "repositories": [],
-  "works_count": 13,
+  "works_count": 14,
   "cited_by_count": 42,
   "summary_stats": {
-    "2yr_mean_citedness": 1.2,
+    "2yr_mean_citedness": 1.0,
     "h_index": 3,
     "i10_index": 1
   },
@@ -54,8 +54,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
@@ -105,7 +105,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210118502",
-      "works_count": 13
+      "works_count": 14
     }
   ],
   "topics": [
@@ -700,7 +700,7 @@
     {
       "id": "https://openalex.org/T13574",
       "display_name": "Family Support in Illness",
-      "value": 1.13e-05,
+      "value": 1.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -751,7 +751,7 @@
     {
       "id": "https://openalex.org/T10366",
       "display_name": "Discourse Analysis in Language Studies",
-      "value": 1.01e-05,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -768,7 +768,7 @@
     {
       "id": "https://openalex.org/T12930",
       "display_name": "Biomedical and Chemical Research",
-      "value": 9.7e-06,
+      "value": 9.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -780,23 +780,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13083",
-      "display_name": "Advanced Text Analysis Techniques",
-      "value": 9.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -817,9 +800,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13083",
+      "display_name": "Advanced Text Analysis Techniques",
+      "value": 9.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10277",
       "display_name": "Vitamin D Research Studies",
-      "value": 9e-06,
+      "value": 8.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -836,7 +836,7 @@
     {
       "id": "https://openalex.org/T11334",
       "display_name": "Psychosomatic Disorders and Their Treatments",
-      "value": 8.6e-06,
+      "value": 8.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -853,7 +853,7 @@
     {
       "id": "https://openalex.org/T10416",
       "display_name": "Traumatic Brain Injury Research",
-      "value": 7.6e-06,
+      "value": 7.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -990,6 +990,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210118502",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-08-03T05:59:51",
   "created_date": "2022-02-02T04:48:36"
 }

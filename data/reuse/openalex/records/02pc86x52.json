@@ -18,7 +18,7 @@
     "Leipziger Institut für Angewandte Weiterbildungsforschung"
   ],
   "repositories": [],
-  "works_count": 1,
+  "works_count": 3,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -45,6 +45,12 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2022,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 0,
@@ -55,7 +61,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210117647",
-      "works_count": 1
+      "works_count": 3
     }
   ],
   "topics": [
@@ -67,6 +73,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11121",
+      "display_name": "Public Relations and Crisis Communication",
+      "count": 1,
+      "score": 0.4984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3315",
+        "display_name": "Communication"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -112,13 +136,31 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T14186",
+      "display_name": "Healthcare Systems and Practices",
+      "count": 1,
+      "score": 0.5497999787330627,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12877",
       "display_name": "Social Issues in Poland",
-      "value": 2.65e-05,
+      "value": 2.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3300",
         "display_name": "General Social Sciences"
@@ -150,6 +192,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T11121",
+      "display_name": "Public Relations and Crisis Communication",
+      "value": 1.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3315",
+        "display_name": "Communication"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
       "value": 1.07e-05,
@@ -165,11 +224,28 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T14186",
+      "display_name": "Healthcare Systems and Practices",
+      "value": 8.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210117647",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-08-02T06:01:10",
   "created_date": "2022-02-02T04:48:36"
 }

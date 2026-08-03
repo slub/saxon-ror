@@ -17,10 +17,10 @@
     "HAP"
   ],
   "repositories": [],
-  "works_count": 62,
-  "cited_by_count": 2129,
+  "works_count": 64,
+  "cited_by_count": 2140,
   "summary_stats": {
-    "2yr_mean_citedness": 0.9473684210526315,
+    "2yr_mean_citedness": 0.9024390243902439,
     "h_index": 19,
     "i10_index": 20
   },
@@ -45,21 +45,21 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 7,
+      "works_count": 8,
       "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
       "year": 2025,
       "works_count": 13,
-      "oa_works_count": 10,
+      "oa_works_count": 11,
       "cited_by_count": 2
     },
     {
       "year": 2024,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 34
+      "cited_by_count": 35
     },
     {
       "year": 2023,
@@ -99,9 +99,9 @@
     },
     {
       "year": 2017,
-      "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 126
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 128
     },
     {
       "year": 2016,
@@ -120,7 +120,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210145433",
-      "works_count": 62
+      "works_count": 64
     }
   ],
   "topics": [
@@ -316,6 +316,42 @@
       "field": {
         "id": "https://openalex.org/fields/18",
         "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11704",
+      "display_name": "Mobile Crowdsensing and Crowdsourcing",
+      "count": 2,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12027",
+      "display_name": "Social Media in Health Education",
+      "count": 2,
+      "score": 0.9887999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -537,49 +573,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10253",
-      "display_name": "Sarcoma Diagnosis and Treatment",
-      "count": 1,
-      "score": 0.9961000084877014,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10254",
-      "display_name": "Innovations in Medical Education",
-      "count": 1,
-      "score": 0.1712999939918518,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13696",
       "display_name": "Technology's Impact on Media",
-      "value": 0.0003949,
+      "value": 0.0003928,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -596,7 +596,7 @@
     {
       "id": "https://openalex.org/T14381",
       "display_name": "Psychiatry, Mental Health, Neuroscience",
-      "value": 7.43e-05,
+      "value": 7.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -628,9 +628,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11704",
+      "display_name": "Mobile Crowdsensing and Crowdsourcing",
+      "value": 4.09e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13603",
       "display_name": "Corporate Social Responsibility and Sustainability",
-      "value": 4.06e-05,
+      "value": 4.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -664,7 +681,7 @@
     {
       "id": "https://openalex.org/T10991",
       "display_name": "Game Theory and Voting Systems",
-      "value": 3.42e-05,
+      "value": 3.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -679,9 +696,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12027",
+      "display_name": "Social Media in Health Education",
+      "value": 3.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12527",
       "display_name": "Chemistry and Stereochemistry Studies",
-      "value": 3.35e-05,
+      "value": 3.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1605",
         "display_name": "Organic Chemistry"
@@ -698,7 +732,7 @@
     {
       "id": "https://openalex.org/T14394",
       "display_name": "Cognitive Science and Education Research",
-      "value": 3.27e-05,
+      "value": 3.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -715,7 +749,7 @@
     {
       "id": "https://openalex.org/T10827",
       "display_name": "Patient-Provider Communication in Healthcare",
-      "value": 3.18e-05,
+      "value": 3.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -732,7 +766,7 @@
     {
       "id": "https://openalex.org/T12372",
       "display_name": "Art Therapy and Mental Health",
-      "value": 3.08e-05,
+      "value": 3.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -749,7 +783,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 2.92e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -766,7 +800,7 @@
     {
       "id": "https://openalex.org/T10737",
       "display_name": "Health Literacy and Information Accessibility",
-      "value": 2.67e-05,
+      "value": 2.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -783,7 +817,7 @@
     {
       "id": "https://openalex.org/T12886",
       "display_name": "Historical and Cultural Studies of Poland",
-      "value": 2.63e-05,
+      "value": 2.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -800,7 +834,7 @@
     {
       "id": "https://openalex.org/T12152",
       "display_name": "Concrete Properties and Behavior",
-      "value": 2.59e-05,
+      "value": 2.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -834,7 +868,7 @@
     {
       "id": "https://openalex.org/T11944",
       "display_name": "Participatory Visual Research Methods",
-      "value": 2.53e-05,
+      "value": 2.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -851,7 +885,7 @@
     {
       "id": "https://openalex.org/T13038",
       "display_name": "Internet of Things and AI",
-      "value": 2.39e-05,
+      "value": 2.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -883,23 +917,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12656",
-      "display_name": "Climate Change, Adaptation, Migration",
-      "value": 2.31e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12782",
       "display_name": "Assembly Line Balancing Optimization",
       "value": 2.31e-05,
@@ -917,9 +934,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12656",
+      "display_name": "Climate Change, Adaptation, Migration",
+      "value": 2.3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11487",
       "display_name": "Automotive and Human Injury Biomechanics",
-      "value": 2.28e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -936,7 +970,7 @@
     {
       "id": "https://openalex.org/T11883",
       "display_name": "Embodied and Extended Cognition",
-      "value": 2.28e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -966,45 +1000,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T14178",
-      "display_name": "Environmental Science and Water Management",
-      "value": 2.21e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2312",
-        "display_name": "Water Science and Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10328",
-      "display_name": "Supply Chain and Inventory Management",
-      "value": 2.19e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210145433",
-  "updated_date": "2026-07-31T05:59:10",
+  "updated_date": "2026-08-02T06:01:10",
   "created_date": "2022-02-02T04:48:36"
 }
