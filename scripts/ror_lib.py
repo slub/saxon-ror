@@ -17,6 +17,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import re
 import time
 import unicodedata
 import urllib.parse
@@ -51,12 +52,34 @@ META_PATH = DATA_DIR / "meta.json"
 
 # --- HTTP --------------------------------------------------------------------
 
+# Parameters whose value is a credential and must never be printed. Matched
+# wherever a name starts a word -- inside a query string, but also bare in an
+# error message that quotes only the offending parameter ("rejected:
+# api_key=..."). The lookbehind keeps unrelated names (``monkey=``) out. The
+# value runs to the next parameter separator or to whatever quoting/whitespace
+# an error message wrapped it in.
+_SECRET_PARAM_RE = re.compile(
+    r"(?<![\w-])((?:api[-_]?key|key|token)=)[^&\s'\"<>]+", re.I
+)
+
 
 def _request(url: str, accept: str | None = None) -> urllib.request.Request:
     headers = {"User-Agent": USER_AGENT}
     if accept:
         headers["Accept"] = accept
     return urllib.request.Request(url, headers=headers)
+
+
+def redact(text: str) -> str:
+    """Mask credential query parameters in ``text`` (a URL or an error message).
+
+    OpenAlex takes its API key in the query string, so any URL we report has to
+    be scrubbed before it reaches a console, a log or an exception. Only the
+    value is replaced -- endpoint, ``filter``, ``cursor`` and ``mailto`` survive
+    intact, so the message stays as useful as it was. A no-op for URLs that
+    carry no credential, which is every other caller.
+    """
+    return _SECRET_PARAM_RE.sub(r"\1***", text)
 
 
 def http_json(url: str, retries: int = 4, backoff: float = 2.0) -> dict:
@@ -72,7 +95,11 @@ def http_json(url: str, retries: int = 4, backoff: float = 2.0) -> dict:
             last = exc
             if attempt < retries - 1:
                 time.sleep(backoff * (attempt + 1))
-    raise RuntimeError(f"GET {url} failed after {retries} attempts: {last}")
+    # The exception text is redacted too: a library that echoes the request URL
+    # back at us must not smuggle the key in through the tail of the message.
+    raise RuntimeError(
+        f"GET {redact(url)} failed after {retries} attempts: {redact(str(last))}"
+    )
 
 
 def download(url: str, dest: Path, retries: int = 3, backoff: float = 3.0) -> Path:

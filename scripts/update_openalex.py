@@ -4,8 +4,8 @@
 OpenAlex is a *companion* (derived) data source: ROR remains authoritative.
 OpenAlex institutions are keyed by ROR id, so this script reads the ROR subset
 (``data/records.json``), batches the ids into ``filter=ror:<id1>|<id2>|...``
-queries against the OpenAlex institutions endpoint (polite pool via ``mailto``),
-and stores each institution entity unmodified as:
+queries against the OpenAlex institutions endpoint, and stores each institution
+entity unmodified as:
 
     data/reuse/openalex/records/<ror-id-suffix>.json
     data/reuse/openalex/records.json      the combined array
@@ -16,6 +16,24 @@ counted, not treated as errors. Only institution entities are fetched; no
 works/publication metadata is retrieved (the entities' built-in aggregates such
 as ``works_count`` and ``counts_by_year`` are part of the entity and kept).
 
+Authentication:
+    Every request identifies itself to the polite pool with ``mailto`` (see
+    ``--mailto``). On top of that, an OpenAlex API key is read from the
+    ``OPENALEX_API_KEY`` environment variable and, when present, sent as the
+    ``api_key`` query parameter -- OpenAlex grants authenticated callers a
+    larger daily allowance than anonymous ones. The key is never accepted as a
+    command-line argument (process arguments are world-readable) and never
+    printed: ``ror_lib.http_json`` redacts it from error messages.
+
+    Scheduled refreshes in .github/workflows/update.yml take the key from the
+    ``OPENALEX_API_KEY`` repository secret; without it they warn and fetch
+    anonymously rather than failing the update. Locally:
+
+        export OPENALEX_API_KEY="your-key"
+        python scripts/update_openalex.py
+
+    Running without a key still works (anonymous access, lower allowance).
+
 Usage:
     python scripts/update_openalex.py [--mailto you@example.org]
 """
@@ -24,6 +42,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 import urllib.parse
@@ -32,25 +51,38 @@ from pathlib import Path
 import ror_lib as R
 
 OPENALEX_DIR = R.REUSE_DIR / "openalex"
+API_URL = "https://api.openalex.org/institutions"
 BATCH_SIZE = 50  # OpenAlex allows up to 50 OR values per filter
-DEFAULT_MAILTO = "bibliometrie@slub-dresden.de"
+DEFAULT_MAILTO = "openalex@slub-dresden.de"
+API_KEY_ENV = "OPENALEX_API_KEY"
 
 
-def fetch_batch(ror_ids: list[str], mailto: str) -> list[dict]:
+def request_url(filter_value: str, cursor: str, mailto: str, api_key: str) -> str:
+    """Build one institutions request URL.
+
+    ``mailto`` is always sent (polite-pool identification); ``api_key`` only
+    when a key is configured, so anonymous runs stay possible.
+    """
+    params = {
+        "filter": f"ror:{filter_value}",
+        "per-page": 200,
+        "cursor": cursor,
+        "mailto": mailto,
+    }
+    if api_key:
+        params["api_key"] = api_key
+    return f"{API_URL}?{urllib.parse.urlencode(params)}"
+
+
+def fetch_batch(ror_ids: list[str], mailto: str, api_key: str = "") -> list[dict]:
     """Fetch all institutions matching any of ``ror_ids`` (cursor-paged)."""
     results: list[dict] = []
     filter_value = "|".join(ror_ids)
     cursor = "*"
     while cursor:
-        params = urllib.parse.urlencode(
-            {
-                "filter": f"ror:{filter_value}",
-                "per-page": 200,
-                "cursor": cursor,
-                "mailto": mailto,
-            }
-        )
-        page = R.http_json(f"https://api.openalex.org/institutions?{params}")
+        # Both parameters are rebuilt for every page -- pagination must not
+        # silently drop the key or the polite-pool contact halfway through.
+        page = R.http_json(request_url(filter_value, cursor, mailto, api_key))
         results.extend(page.get("results", []))
         cursor = page.get("meta", {}).get("next_cursor")
         time.sleep(0.2)
@@ -65,6 +97,15 @@ def main() -> int:
         help="Contact e-mail for the OpenAlex polite pool",
     )
     args = parser.parse_args()
+
+    # Environment only, never a CLI flag: arguments show up in process listings.
+    api_key = os.environ.get(API_KEY_ENV, "").strip()
+    if not api_key:
+        print(
+            f"WARNING: {API_KEY_ENV} is not set -- requesting OpenAlex "
+            "anonymously, which has a lower daily API allowance.",
+            file=sys.stderr,
+        )
 
     records_json = R.DATA_DIR / "records.json"
     if not records_json.exists():
@@ -85,7 +126,7 @@ def main() -> int:
     for start in range(0, len(ror_ids), BATCH_SIZE):
         batch = ror_ids[start : start + BATCH_SIZE]
         print(f"  batch {start // BATCH_SIZE + 1}: {len(batch)} ids")
-        for inst in fetch_batch(batch, args.mailto):
+        for inst in fetch_batch(batch, args.mailto, api_key):
             ror = inst.get("ror")
             if ror in suffix_by_id:
                 institutions_by_ror[ror] = inst
@@ -113,14 +154,22 @@ def main() -> int:
     meta.setdefault("reuse", {})
     meta["reuse"]["openalex"] = {
         "source": "https://openalex.org/",
-        "api": "https://api.openalex.org/institutions",
+        "api": API_URL,
         "retrieved": R.today_iso(),
         "matched": len(matched),
         "ror_total": len(ror_ids),
         "missing": len(missing),
         "missing_ror_ids": missing,
         "license": "CC0-1.0",
-        "access": "open (no authentication required)",
+        # Describes how *this* run fetched the data. The key itself is never
+        # recorded -- only whether one was used.
+        "access": (
+            f"open; requested with an API key ({API_KEY_ENV}) and "
+            f"mailto={args.mailto} for polite-pool identification"
+            if api_key
+            else f"open; requested anonymously with mailto={args.mailto} "
+            "for polite-pool identification"
+        ),
         "note": (
             "Derived companion data keyed by ROR id. Institution entities only; "
             "no works/publication metadata fetched. May lag behind or diverge "

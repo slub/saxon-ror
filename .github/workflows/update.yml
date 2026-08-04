@@ -6,6 +6,11 @@ name: Update Saxon ROR data
 # data/meta.json, the run stops before downloading anything -- no dump fetch, no
 # OpenAlex sweep, no pull request. Never pushes to the default branch: when the
 # data actually changes, it opens a pull request instead.
+#
+# Secrets: the OpenAlex sweep authenticates with the OPENALEX_API_KEY repository
+# secret (configured separately by a repository administrator) and identifies
+# itself to the polite pool with the mailto address below. Without the secret it
+# warns and falls back to anonymous access rather than failing the update.
 
 on:
   schedule:
@@ -132,11 +137,48 @@ jobs:
           } > /tmp/curation-warning.md
           cat /tmp/curation-warning.md >> "$GITHUB_STEP_SUMMARY"
 
+      # The API key reaches the script through the environment only -- never
+      # through the run: source (which would put it in the workflow's own text
+      # and thus in the logs) and never through a command-line argument.
+      #
+      # A missing key warns and continues: OpenAlex permits anonymous access at
+      # a tenth of the keyed daily allowance, and this sweep needs about seven
+      # institution-list requests (305 records / 50 per filter), so anonymous
+      # access covers it comfortably. Losing the whole ROR refresh over an
+      # unconfigured secret would cost more than it protects -- but the warning
+      # and the run summary make a broken secret impossible to miss.
+      #
+      # A key that is present but rejected is *not* retried anonymously: the
+      # request fails and the step fails with it, as does a rate-limited
+      # anonymous run. Either way the script raises before it writes anything
+      # (every batch is fetched first), so the data never lands half-updated.
+      # `mailto` is sent regardless, key or not.
       - name: Update OpenAlex companion data
         if: steps.preflight.outputs.fresh != 'true'
-        run: >-
-          python scripts/update_openalex.py
-          --mailto "${{ github.event.inputs.mailto || 'openalex@slub-dresden.de' }}"
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          set -euo pipefail
+          # Whitespace is stripped before the emptiness test so that the check
+          # and the script agree: update_openalex.py strips the value too, and
+          # a secret of blanks would otherwise count as configured here while
+          # the script went anonymous anyway. Copied into a local first so that
+          # an entirely unset variable fails the test rather than `set -u`.
+          key="${OPENALEX_API_KEY:-}"
+          if [ -z "${key//[[:space:]]/}" ]; then
+            echo "::warning title=OpenAlex API key missing::Falling back to anonymous access with a lower allowance."
+            {
+              echo "### ⚠ OpenAlex API key missing"
+              echo
+              echo "The refresh used anonymous access. Configure the"
+              echo "\`OPENALEX_API_KEY\` repository secret for the larger allowance."
+            } >> "$GITHUB_STEP_SUMMARY"
+            # Blanks must not reach the script as a "configured" key.
+            unset OPENALEX_API_KEY
+          fi
+
+          python scripts/update_openalex.py \
+            --mailto "${{ github.event.inputs.mailto || 'openalex@slub-dresden.de' }}"
 
       - name: Summarize changes
         id: diff
