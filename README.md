@@ -58,7 +58,7 @@ OpenAlex data is CC0, like ROR. It is a derived layer that may lag behind or div
 
 Requests always include `mailto=openalex@slub-dresden.de`; `--mailto you@example.org` overrides it. Set `OPENALEX_API_KEY` to authenticate and receive the larger API allowance — it is read from the environment only, never a command-line option. Without a key the script warns and uses anonymous access.
 
-In CI, `update.yml` reads the repository secret of the same name, configured separately by a repository administrator. A missing secret warns and falls back anonymously; a configured but rejected key, or another API failure, fails the step. See OpenAlex's [authentication guide](https://developers.openalex.org/guides/authentication).
+In CI, `update.yml` reads the repository secret of the same name, configured separately by a repository administrator. A missing secret warns and falls back anonymously; a configured but rejected key, or another API failure, fails the step.
 
 ## Data provenance
 
