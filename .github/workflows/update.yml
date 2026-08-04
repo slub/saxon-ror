@@ -17,7 +17,7 @@ on:
       mailto:
         description: "Contact e-mail for the OpenAlex polite pool"
         required: false
-        default: "bibliometrie@slub-dresden.de"
+        default: "openalex@slub-dresden.de"
       force:
         description: "Ignore the freshness check and re-fetch regardless"
         type: boolean
@@ -136,7 +136,7 @@ jobs:
         if: steps.preflight.outputs.fresh != 'true'
         run: >-
           python scripts/update_openalex.py
-          --mailto "${{ github.event.inputs.mailto || 'bibliometrie@slub-dresden.de' }}"
+          --mailto "${{ github.event.inputs.mailto || 'openalex@slub-dresden.de' }}"
 
       - name: Summarize changes
         id: diff
