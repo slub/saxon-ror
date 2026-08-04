@@ -3,8 +3,9 @@ name: Reseed ROR curation links
 # Periodically re-runs scripts/update_curation.py --seed against
 # ror-community/ror-updates to catch newly-closed curation issues. This
 # matters most for "add new organization" requests: they only become
-# linkable once ror-curator-bot posts its "Assigned ROR ID ... in release
-# vX.Y" comment, and that comment can lag well behind the record actually
+# linkable once an "Assigned ROR ID ... in release vX.Y" comment is posted
+# (by a curator or by ror-curator-bot -- the seed matches the phrase, not the
+# author), and that comment can lag well behind the record actually
 # appearing in a published ROR dump (observed first-hand around v2.10, where
 # the milestone stayed open for weeks after release). Opens a PR only when
 # the seed actually finds something new; most runs are a no-op.
@@ -73,7 +74,7 @@ jobs:
           print(
               "Automated re-seed from `ror-community/ror-updates` -- picks up "
               "curation issues that were closed (and got their `Assigned ROR ID` "
-              "bot comment) since the last seed run."
+              "assignment comment) since the last seed run."
           )
           print()
           if added:

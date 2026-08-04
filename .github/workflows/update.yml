@@ -70,6 +70,68 @@ jobs:
         if: steps.preflight.outputs.fresh != 'true'
         run: python scripts/update_ror.py
 
+      # Only the records this dump actually touched are worth searching: an
+      # added record brings its own "add new organization" request, and a
+      # modified record is the visible result of an applied modify request
+      # (which names its target in the title or the body's "ROR ID:" field, so
+      # it links immediately). Everything else -- above all an add whose
+      # "Assigned ROR ID" comment lands weeks after the dump -- stays the job
+      # of the weekly full reseed in curation-seed.yml.
+      - name: Collect changed records
+        id: changed
+        if: steps.preflight.outputs.fresh != 'true'
+        run: |
+          set -euo pipefail
+          # Added records are still untracked at this point, so --porcelain is
+          # the only view that sees them ("??") alongside modifications (" M").
+          # Deletions are dropped -- a record ROR retired has nothing to link.
+          suffixes=$(
+            git status --porcelain -- data/records \
+              | sed -nE '/^.?D/d; s#.*data/records/([0-9a-z]+)\.json$#\1#p' \
+              | sort -u | tr '\n' ' '
+          )
+          echo "Changed records: ${suffixes:-<none>}"
+          echo "suffixes=$suffixes" >> "$GITHUB_OUTPUT"
+
+      # continue-on-error on purpose: a curation link is enrichment, and it is
+      # best-effort by construction anyway (an add request only becomes linkable
+      # once its assignment comment appears, which can trail the dump by weeks). A
+      # search outage must not cost us the data update itself -- the weekly
+      # reseed in curation-seed.yml picks up whatever this run missed. The step
+      # below makes the miss visible so a broken CURATION_TOKEN cannot rot
+      # silently until someone notices unlinked records on the site.
+      - name: Link ROR curation requests
+        id: curation
+        if: steps.preflight.outputs.fresh != 'true' && steps.changed.outputs.suffixes != ''
+        timeout-minutes: 60
+        continue-on-error: true
+        env:
+          # The built-in token cannot search ror-community/ror-updates.
+          GITHUB_TOKEN: ${{ secrets.CURATION_TOKEN || secrets.GITHUB_TOKEN }}
+          # Unquoted below on purpose -- the list has to word-split into
+          # separate arguments. Values come from the sed above, so they are
+          # [0-9a-z] suffixes and nothing else.
+          SUFFIXES: ${{ steps.changed.outputs.suffixes }}
+        run: python scripts/update_curation.py --seed --only $SUFFIXES
+
+      # Runs only when the seed above actually failed (a skipped step reports
+      # outcome "skipped", not "failure"). Writes both to the run summary and to
+      # a file the PR body picks up, so the warning reaches whoever merges.
+      - name: Flag missing curation links
+        if: steps.curation.outcome == 'failure'
+        env:
+          SUFFIXES: ${{ steps.changed.outputs.suffixes }}
+        run: |
+          set -euo pipefail
+          {
+            echo "> [!WARNING]"
+            echo "> Curation linking failed for this dump (\`$SUFFIXES\`) --"
+            echo "> check the *Link ROR curation requests* step, and whether"
+            echo "> \`CURATION_TOKEN\` is still valid. The data below is unaffected;"
+            echo "> the weekly reseed will retry."
+          } > /tmp/curation-warning.md
+          cat /tmp/curation-warning.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Update OpenAlex companion data
         if: steps.preflight.outputs.fresh != 'true'
         run: >-
@@ -131,6 +193,12 @@ jobs:
               echo "**Removed:**"
               git diff --cached --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
               echo ""
+            fi
+            # Present only when the curation seed failed. Written with `if`
+            # rather than `[ -f ] && cat` so a missing file (the normal case)
+            # cannot end this group on a non-zero status and fail the step.
+            if [ -f /tmp/curation-warning.md ]; then
+              cat /tmp/curation-warning.md
             fi
           } > /tmp/pr-body.md
 

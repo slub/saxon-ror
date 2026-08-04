@@ -28,17 +28,25 @@ Two modes:
       This is distinct from the ``Related organizations:`` URLs in the same body,
       so a record merely *referenced* by another request is not miscaptured.
     * **add requests** cannot carry the ROR URL in the title *or* the ROR ID
-      field (the record does not exist yet when filed). Instead
-      ``ror-curator-bot`` announces the release in a *comment*:
+      field (the record does not exist yet when filed). Instead an *assignment
+      comment* announces the release:
 
           Assigned ROR ID https://ror.org/<suffix> in release v2.8.
 
       So a remaining hit is treated as an add-candidate and only kept if a
-      comment contains ``Assigned ROR ID https://ror.org/<suffix>``. This bot
-      convention is recent; pre-bot add requests used ad-hoc phrasings and are
-      not auto-discovered (hand-add them to ``data/curation.json``).
+      comment contains ``Assigned ROR ID https://ror.org/<suffix>``. Only the
+      phrase is matched, never its author: the comment may be posted by either
+      a human curator or ``ror-curator-bot``. The wording convention is recent;
+      older add requests used ad-hoc phrasings and are not auto-discovered
+      (hand-add them to ``data/curation.json``).
 
     ``data/curation.json`` is committed and hand-maintainable afterwards.
+
+    ``--only <suffix> ...`` narrows the search to the named records, leaving
+    every other record's links as they are. ``update.yml`` uses this to seed
+    just the records a fresh dump added or modified, which is a handful rather
+    than the full set; ``curation-seed.yml`` runs the unnarrowed weekly sweep
+    that catches links appearing later than the dump they belong to.
 
 default (enrich)
     Reads ``data/curation.json`` and fetches each referenced issue's current
@@ -59,6 +67,7 @@ this and falls back to unauthenticated search instead of finding nothing.
 
 Usage:
     python scripts/update_curation.py --seed          # bootstrap data/curation.json
+    python scripts/update_curation.py --seed --only 0202dx760 03s7gtk40  # just these
     python scripts/update_curation.py --out _deploy/data/issues.json  # enrich
 """
 
@@ -178,11 +187,13 @@ def _comment_bodies(number: int, cache: dict[int, list[str]]) -> list[str]:
 
 
 def _has_add_release_comment(number: int, sfx: str, cache: dict[int, list[str]]) -> bool:
-    """True if issue ``number`` carries the curator-bot release comment for ``sfx``.
+    """True if issue ``number`` carries the ROR ID assignment comment for ``sfx``.
 
     Add requests announce the assigned ROR ID in a comment like
     ``Assigned ROR ID https://ror.org/<sfx> in release v2.8.``; this is the only
     reliable, machine-readable signal that the issue produced *this* record.
+    Matching is on the phrase alone -- curators and ``ror-curator-bot`` both
+    post it, and the author carries no meaning.
 
     The needle is suffix-specific, so the check runs per ``sfx`` — only the fetched
     comment bodies are cached (by issue number), never the boolean verdict.
@@ -191,10 +202,27 @@ def _has_add_release_comment(number: int, sfx: str, cache: dict[int, list[str]])
     return any(needle in body for body in _comment_bodies(number, cache))
 
 
-def seed(existing: dict[str, list[int]]) -> dict[str, list[int]]:
-    """Search curation issues by ROR URL; merge update + add requests into ``existing``."""
+def seed(existing: dict[str, list[int]], only: list[str] | None = None) -> dict[str, list[int]]:
+    """Search curation issues by ROR URL; merge update + add requests into ``existing``.
+
+    ``only`` narrows the search to the given suffixes; links already recorded for
+    every *other* record are carried over untouched, so a narrowed run still
+    writes a complete map. An empty (but not ``None``) ``only`` searches nothing
+    -- an empty selection means "no records", never "all records".
+    """
     merged = {k: list(v) for k, v in existing.items()}
     suffixes = _suffixes()
+    if only is not None:
+        wanted = set(only)
+        suffixes = [sfx for sfx in suffixes if sfx in wanted]
+        unknown = wanted - set(suffixes)
+        if unknown:
+            print(f"  war: not in records.json, skipped: {', '.join(sorted(unknown))}")
+    if not suffixes:
+        # Nothing selected -- return before _search_mode, whose probe would
+        # otherwise spend a request, and could raise, on a run with no work.
+        print("  nothing to search")
+        return dict(sorted(merged.items()))
     comment_cache: dict[int, list[str]] = {}
     auth, delay = _search_mode(existing)
     for i, sfx in enumerate(suffixes, 1):
@@ -260,14 +288,22 @@ def _write_json(path: Path, obj) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--seed", action="store_true", help="Bootstrap data/curation.json via title search")
+    parser.add_argument("--only", nargs="+", metavar="SUFFIX", help="Seed only these records (default: all)")
     parser.add_argument("--out", type=Path, default=Path("data/issues.json"), help="Enriched overlay path")
     args = parser.parse_args()
+
+    # --only narrows the seed search; the enrich path has nothing to narrow, so
+    # accepting it there would silently do a full run under a flag that reads
+    # like a restriction.
+    if args.only and not args.seed:
+        parser.error("--only requires --seed")
 
     existing = json.loads(CURATION_JSON.read_text(encoding="utf-8")) if CURATION_JSON.exists() else {}
 
     if args.seed:
-        print(f"Seeding from {CURATION_REPO} (title search) ...")
-        mapping = seed(existing)
+        scope = f"{len(args.only)} record(s)" if args.only else "all records"
+        print(f"Seeding from {CURATION_REPO} (title search, {scope}) ...")
+        mapping = seed(existing, only=args.only)
         _write_json(CURATION_JSON, mapping)
         print(f"Wrote {CURATION_JSON} ({len(mapping)} records with curation issues).")
         return 0
