@@ -60,10 +60,29 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
           python3 - <<'PY' > /tmp/pr-body.md
-          import json
+          import json, sys
+
+          # Repo name from the script, so it cannot drift out of the workflows.
+          sys.path.insert(0, "scripts")
+          from update_curation import CURATION_REPO
 
           before = json.load(open("/tmp/curation-before.json"))
           after = json.load(open("data/curation.json"))
+
+          def links(numbers):
+              """Render issue numbers as explicit, backlink-free links.
+
+              A bare "#123" resolves against *this* repo, not the curation repo.
+              owner/repo#123 and a plain github.com URL both resolve correctly
+              but generate a backlink, which would file a cross-reference on an
+              upstream issue we do not own every time this runs.
+              redirect.github.com is GitHub's documented opt-out; the cost is
+              the hover preview.
+              """
+              return ", ".join(
+                  f"[#{n}](https://redirect.github.com/{CURATION_REPO}/issues/{n})"
+                  for n in numbers
+              )
 
           added = sorted(set(after) - set(before))
           updated = sorted(
@@ -80,14 +99,12 @@ jobs:
           if added:
               print(f"**New records linked ({len(added)}):**")
               for sfx in added:
-                  nums = ", ".join(f"#{n}" for n in after[sfx])
-                  print(f"- `{sfx}`: {nums}")
+                  print(f"- `{sfx}`: {links(after[sfx])}")
               print()
           if updated:
               print(f"**Records with additional issues linked ({len(updated)}):**")
               for sfx in updated:
-                  nums = ", ".join(f"#{n}" for n in after[sfx])
-                  print(f"- `{sfx}`: {nums}")
+                  print(f"- `{sfx}`: {links(after[sfx])}")
           PY
 
       - name: Open curation-update pull request

@@ -156,6 +156,17 @@ jobs:
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+          # Curation links can change on this path too now, so the PR has to
+          # say so -- via the same curation-update label the weekly reseed
+          # uses, so that filtering on the label finds every PR that touched a
+          # link rather than only curation-seed.yml's.
+          if git diff --cached --quiet -- data/curation.json; then
+            curation=false
+          else
+            curation=true
+          fi
+          echo "curation=$curation" >> "$GITHUB_OUTPUT"
+
           # Per-record file adds/removals/modifications for the PR body.
           added=$(git diff --cached --diff-filter=A --name-only -- data/records | wc -l | tr -d ' ')
           removed=$(git diff --cached --diff-filter=D --name-only -- data/records | wc -l | tr -d ' ')
@@ -194,6 +205,42 @@ jobs:
               git diff --cached --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
               echo ""
             fi
+            # Links the seed just added, read straight out of the staged diff
+            # against main -- no before/after snapshot to keep in sync.
+            if [ "$curation" = "true" ]; then
+              echo "**Curation links:**"
+              python3 - <<'PY'
+          import json, subprocess, sys
+
+          # Repo name from the script, so it cannot drift out of the workflows.
+          sys.path.insert(0, "scripts")
+          from update_curation import CURATION_REPO
+
+          show = subprocess.run(
+              ["git", "show", "HEAD:data/curation.json"],
+              capture_output=True, text=True,
+          )
+          # No file at HEAD (first run) just means every link is new.
+          before = json.loads(show.stdout) if show.returncode == 0 else {}
+          after = json.load(open("data/curation.json"))
+          for sfx, nums in sorted(after.items()):
+              new = sorted(set(nums) - set(before.get(sfx, [])), reverse=True)
+              if new:
+                  # Not "#123", which resolves against *this* repo. Not
+                  # owner/repo#123 or a plain github.com URL either: every
+                  # reference generates a backlink, and we would be filing one
+                  # on an upstream issue we do not own on every dump.
+                  # redirect.github.com is GitHub's documented opt-out -- it
+                  # costs the hover preview, which is a fair trade for not
+                  # spamming ROR's tracker.
+                  links = ", ".join(
+                      f"[#{n}](https://redirect.github.com/{CURATION_REPO}/issues/{n})"
+                      for n in new
+                  )
+                  print(f"- `{sfx}`: {links}")
+          PY
+              echo ""
+            fi
             # Present only when the curation seed failed. Written with `if`
             # rather than `[ -f ] && cat` so a missing file (the normal case)
             # cannot end this group on a non-zero status and fail the step.
@@ -222,14 +269,24 @@ jobs:
           git commit -m "data: update to ROR dump ${{ steps.diff.outputs.version }} (${{ steps.diff.outputs.count }} Saxon records)"
           git push --force origin "$branch"
 
-          # Ensure the tracking label exists, then open the PR if none is open.
+          # Ensure the tracking labels exist, then open the PR if none is open.
+          # curation-update is added only when this run actually changed a link,
+          # and carries curation-seed.yml's colour so the two agree.
           gh label create data-update --color 0e8a16 --force >/dev/null 2>&1 || true
+          labels="data-update"
+          if [ "${{ steps.diff.outputs.curation }}" = "true" ]; then
+            gh label create curation-update --color 5319e7 --force >/dev/null 2>&1 || true
+            labels="$labels,curation-update"
+          fi
+
           if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
             gh pr create \
               --base main --head "$branch" \
               --title "data: update to ROR dump ${{ steps.diff.outputs.version }}" \
               --body-file /tmp/pr-body.md \
-              --label data-update
+              --label "$labels"
           else
-            gh pr edit "$branch" --body-file /tmp/pr-body.md
+            # --add-label, not --label: a re-run that finds a link must not
+            # strip labels a previous run (or a human) already put on the PR.
+            gh pr edit "$branch" --body-file /tmp/pr-body.md --add-label "$labels"
           fi
