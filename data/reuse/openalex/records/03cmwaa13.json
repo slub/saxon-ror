@@ -16,12 +16,12 @@
     "ABX-CRO Advanced Pharmaceutical Services (Germany)"
   ],
   "repositories": [],
-  "works_count": 211,
-  "cited_by_count": 11681,
+  "works_count": 209,
+  "cited_by_count": 11610,
   "summary_stats": {
-    "2yr_mean_citedness": 5.794117647058823,
-    "h_index": 47,
-    "i10_index": 182
+    "2yr_mean_citedness": 5.823529411764706,
+    "h_index": 46,
+    "i10_index": 180
   },
   "ids": {
     "openalex": "https://openalex.org/I4210123814",
@@ -58,12 +58,12 @@
       "year": 2024,
       "works_count": 21,
       "oa_works_count": 19,
-      "cited_by_count": 262
+      "cited_by_count": 264
     },
     {
       "year": 2023,
       "works_count": 15,
-      "oa_works_count": 11,
+      "oa_works_count": 12,
       "cited_by_count": 73
     },
     {
@@ -76,13 +76,13 @@
       "year": 2021,
       "works_count": 12,
       "oa_works_count": 10,
-      "cited_by_count": 243
+      "cited_by_count": 244
     },
     {
       "year": 2020,
       "works_count": 19,
       "oa_works_count": 13,
-      "cited_by_count": 642
+      "cited_by_count": 643
     },
     {
       "year": 2019,
@@ -94,7 +94,7 @@
       "year": 2018,
       "works_count": 12,
       "oa_works_count": 9,
-      "cited_by_count": 830
+      "cited_by_count": 831
     },
     {
       "year": 2017,
@@ -106,7 +106,7 @@
       "year": 2016,
       "works_count": 16,
       "oa_works_count": 9,
-      "cited_by_count": 1673
+      "cited_by_count": 1674
     },
     {
       "year": 2015,
@@ -122,9 +122,9 @@
     },
     {
       "year": 2013,
-      "works_count": 12,
-      "oa_works_count": 5,
-      "cited_by_count": 306
+      "works_count": 10,
+      "oa_works_count": 3,
+      "cited_by_count": 226
     },
     {
       "year": 2012,
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210123814",
-      "works_count": 211
+      "works_count": 209
     }
   ],
   "topics": [
@@ -316,24 +316,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11178",
-      "display_name": "Receptor Mechanisms and Signaling",
-      "count": 10,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10124",
       "display_name": "Prostate Cancer Diagnosis and Treatment",
       "count": 9,
@@ -367,6 +349,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11178",
+      "display_name": "Receptor Mechanisms and Signaling",
+      "count": 9,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -408,7 +408,7 @@
     {
       "id": "https://openalex.org/T10814",
       "display_name": "Neuropeptides and Animal Physiology",
-      "count": 8,
+      "count": 7,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2804",
@@ -514,24 +514,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10056",
-      "display_name": "Neurotransmitter Receptor Influence on Behavior",
-      "count": 5,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10085",
       "display_name": "Parkinson's Disease Mechanisms and Treatments",
       "count": 5,
@@ -602,13 +584,31 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 4,
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11395",
       "display_name": "Radiopharmaceutical Chemistry and Applications",
-      "value": 0.0003941,
+      "value": 0.0003936,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T10283",
       "display_name": "Hearing Loss and Rehabilitation",
-      "value": 0.0001556,
+      "value": 0.0001553,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -642,7 +642,7 @@
     {
       "id": "https://openalex.org/T13047",
       "display_name": "Pharmacological Receptor Mechanisms and Effects",
-      "value": 0.0001521,
+      "value": 0.0001519,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -659,7 +659,7 @@
     {
       "id": "https://openalex.org/T10543",
       "display_name": "Prostate Cancer Treatment and Research",
-      "value": 0.0001366,
+      "value": 0.0001358,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -676,7 +676,7 @@
     {
       "id": "https://openalex.org/T10861",
       "display_name": "Ear Surgery and Otitis Media",
-      "value": 0.0001198,
+      "value": 0.0001197,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -693,7 +693,7 @@
     {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
-      "value": 0.0001166,
+      "value": 0.0001164,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -710,7 +710,7 @@
     {
       "id": "https://openalex.org/T12640",
       "display_name": "Environmental DNA in Biodiversity Studies",
-      "value": 9.31e-05,
+      "value": 9.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -727,7 +727,7 @@
     {
       "id": "https://openalex.org/T10334",
       "display_name": "Hearing, Cochlea, Tinnitus, Genetics",
-      "value": 9.29e-05,
+      "value": 9.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -761,7 +761,7 @@
     {
       "id": "https://openalex.org/T12505",
       "display_name": "Peptidase Inhibition and Analysis",
-      "value": 6.97e-05,
+      "value": 6.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -778,7 +778,7 @@
     {
       "id": "https://openalex.org/T11818",
       "display_name": "Nicotinic Acetylcholine Receptors Study",
-      "value": 5.96e-05,
+      "value": 5.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -812,7 +812,7 @@
     {
       "id": "https://openalex.org/T10124",
       "display_name": "Prostate Cancer Diagnosis and Treatment",
-      "value": 5.66e-05,
+      "value": 5.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -829,7 +829,7 @@
     {
       "id": "https://openalex.org/T12334",
       "display_name": "Lung Cancer Research Studies",
-      "value": 5.31e-05,
+      "value": 5.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -863,7 +863,7 @@
     {
       "id": "https://openalex.org/T12476",
       "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 4.9e-05,
+      "value": 4.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -897,7 +897,7 @@
     {
       "id": "https://openalex.org/T10919",
       "display_name": "Neurological disorders and treatments",
-      "value": 4.26e-05,
+      "value": 4.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -914,7 +914,7 @@
     {
       "id": "https://openalex.org/T14160",
       "display_name": "Water management and technologies",
-      "value": 4.22e-05,
+      "value": 4.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -926,23 +926,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12153",
-      "display_name": "Advanced Optical Sensing Technologies",
-      "value": 3.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3105",
-        "display_name": "Instrumentation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -963,9 +946,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12153",
+      "display_name": "Advanced Optical Sensing Technologies",
+      "value": 3.96e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "value": 3.93e-05,
+      "value": 3.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -977,23 +977,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10814",
-      "display_name": "Neuropeptides and Animal Physiology",
-      "value": 3.81e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -1016,7 +999,7 @@
     {
       "id": "https://openalex.org/T12207",
       "display_name": "Assistive Technology in Communication and Mobility",
-      "value": 3.57e-05,
+      "value": 3.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3609",
         "display_name": "Occupational Therapy"
@@ -1029,11 +1012,28 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12255",
+      "display_name": "Biosimilars and Bioanalytical Methods",
+      "value": 3.4e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210123814",
-  "updated_date": "2026-07-31T05:59:10",
+  "updated_date": "2026-08-02T06:01:10",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -19,8 +19,8 @@
     "Universitäts Kinder Frauenzentrum"
   ],
   "repositories": [],
-  "works_count": 39,
-  "cited_by_count": 1610,
+  "works_count": 44,
+  "cited_by_count": 1613,
   "summary_stats": {
     "2yr_mean_citedness": 0.20833333333333334,
     "h_index": 15,
@@ -74,9 +74,9 @@
     },
     {
       "year": 2023,
-      "works_count": 5,
-      "oa_works_count": 1,
-      "cited_by_count": 9
+      "works_count": 6,
+      "oa_works_count": 2,
+      "cited_by_count": 10
     },
     {
       "year": 2022,
@@ -92,9 +92,9 @@
     },
     {
       "year": 2020,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 24
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 25
     },
     {
       "year": 2019,
@@ -104,9 +104,9 @@
     },
     {
       "year": 2017,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 21
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 22
     },
     {
       "year": 2016,
@@ -137,7 +137,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210101194",
-      "works_count": 39
+      "works_count": 44
     }
   ],
   "topics": [
@@ -301,6 +301,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13178",
+      "display_name": "Theology and Canon Law Studies",
+      "count": 2,
+      "score": 0.9854999780654907,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -572,31 +590,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10418",
-      "display_name": "Pelvic floor disorders treatments",
-      "count": 1,
-      "score": 0.9465000033378601,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T14439",
       "display_name": "Feminism, Gender, and Social Issues",
-      "value": 0.0001009,
+      "value": 9.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -611,9 +611,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13973",
+      "display_name": "Catholicism, Bioethics, Media, Education",
+      "value": 5.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14019",
       "display_name": "Socioeconomic and Demographic Analysis",
-      "value": 4.23e-05,
+      "value": 4.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -630,7 +647,7 @@
     {
       "id": "https://openalex.org/T13730",
       "display_name": "Martial Arts: Techniques, Psychology, and Education",
-      "value": 4.04e-05,
+      "value": 4.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3311",
         "display_name": "Safety Research"
@@ -645,9 +662,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13178",
+      "display_name": "Theology and Canon Law Studies",
+      "value": 3.83e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13207",
       "display_name": "Youth Substance Use and School Attendance",
-      "value": 3.74e-05,
+      "value": 3.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -662,9 +696,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14337",
+      "display_name": "Religious, Philosophical, and Educational Studies",
+      "value": 3.59e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13813",
       "display_name": "Oral and Craniofacial Lesions",
-      "value": 3.48e-05,
+      "value": 3.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3616",
         "display_name": "Speech and Hearing"
@@ -698,7 +749,7 @@
     {
       "id": "https://openalex.org/T14441",
       "display_name": "Religion, Theology, History, Judaism, Christianity",
-      "value": 3.35e-05,
+      "value": 3.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -713,9 +764,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13277",
+      "display_name": "Media, Religion, Digital Communication",
+      "value": 3.26e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11863",
       "display_name": "Gender, Security, and Conflict",
-      "value": 2.78e-05,
+      "value": 2.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -732,7 +800,7 @@
     {
       "id": "https://openalex.org/T13359",
       "display_name": "Sports Science and Education",
-      "value": 2.75e-05,
+      "value": 2.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -764,23 +832,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13144",
-      "display_name": "Theology and Philosophy of Evil",
-      "value": 2.71e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11679",
       "display_name": "Craniofacial Disorders and Treatments",
       "value": 2.7e-05,
@@ -795,6 +846,40 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13144",
+      "display_name": "Theology and Philosophy of Evil",
+      "value": 2.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14355",
+      "display_name": "Historical Studies of British Isles",
+      "value": 2.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -817,7 +902,7 @@
     {
       "id": "https://openalex.org/T13252",
       "display_name": "Sex and Gender in Healthcare",
-      "value": 2.4e-05,
+      "value": 2.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -834,7 +919,7 @@
     {
       "id": "https://openalex.org/T12054",
       "display_name": "Menstrual Health and Disorders",
-      "value": 2.34e-05,
+      "value": 2.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -851,7 +936,7 @@
     {
       "id": "https://openalex.org/T11599",
       "display_name": "Aviation Industry Analysis and Trends",
-      "value": 2.28e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2000",
         "display_name": "General Economics, Econometrics and Finance"
@@ -885,7 +970,7 @@
     {
       "id": "https://openalex.org/T14515",
       "display_name": "International Law and Aviation",
-      "value": 2.23e-05,
+      "value": 2.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -902,7 +987,7 @@
     {
       "id": "https://openalex.org/T12993",
       "display_name": "Psychology of Development and Education",
-      "value": 2.2e-05,
+      "value": 2.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -919,95 +1004,10 @@
     {
       "id": "https://openalex.org/T12575",
       "display_name": "Medical History and Research",
-      "value": 2.01e-05,
+      "value": 2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13248",
-      "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 2.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13986",
-      "display_name": "Medical Practices and Rehabilitation",
-      "value": 1.96e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10390",
-      "display_name": "Ovarian function and disorders",
-      "value": 1.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "value": 1.93e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13178",
-      "display_name": "Theology and Canon Law Studies",
-      "value": 1.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -1022,6 +1022,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210101194",
-  "updated_date": "2026-07-30T05:58:40",
+  "updated_date": "2026-08-02T06:01:10",
   "created_date": "2022-02-02T04:48:36"
 }
