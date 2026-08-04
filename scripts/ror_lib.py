@@ -53,11 +53,10 @@ META_PATH = DATA_DIR / "meta.json"
 # --- HTTP --------------------------------------------------------------------
 
 # Parameters whose value is a credential and must never be printed. Matched
-# wherever a name starts a word -- inside a query string, but also bare in an
-# error message that quotes only the offending parameter ("rejected:
-# api_key=..."). The lookbehind keeps unrelated names (``monkey=``) out. The
-# value runs to the next parameter separator or to whatever quoting/whitespace
-# an error message wrapped it in.
+# wherever the name starts a word -- in a query string, but also bare in an
+# error message quoting just the offending parameter ("rejected: api_key=...").
+# The lookbehind keeps unrelated names (``monkey=``) out; the value runs to the
+# next separator or to whatever quoting an error message wrapped it in.
 _SECRET_PARAM_RE = re.compile(
     r"(?<![\w-])((?:api[-_]?key|key|token)=)[^&\s'\"<>]+", re.I
 )
@@ -73,11 +72,10 @@ def _request(url: str, accept: str | None = None) -> urllib.request.Request:
 def redact(text: str) -> str:
     """Mask credential query parameters in ``text`` (a URL or an error message).
 
-    OpenAlex takes its API key in the query string, so any URL we report has to
-    be scrubbed before it reaches a console, a log or an exception. Only the
-    value is replaced -- endpoint, ``filter``, ``cursor`` and ``mailto`` survive
-    intact, so the message stays as useful as it was. A no-op for URLs that
-    carry no credential, which is every other caller.
+    OpenAlex takes its API key in the query string, so any URL we report must be
+    scrubbed before it reaches a console, a log or an exception. Only the value
+    is replaced -- endpoint, ``filter``, ``cursor`` and ``mailto`` survive, so
+    the message stays as useful. A no-op for text carrying no credential.
     """
     return _SECRET_PARAM_RE.sub(r"\1***", text)
 

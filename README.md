@@ -56,12 +56,14 @@ OpenAlex institution entities are keyed by ROR ID, so each record here is fetche
 
 OpenAlex data is CC0, like ROR. It is a derived layer that may lag behind or diverge from ROR — so, for example, some ROR records may have no OpenAlex counterpart. Match statistics are recorded in `data/meta.json`.
 
-Requests carry `mailto=openalex@slub-dresden.de` for polite-pool identification, and — where a key is configured — an OpenAlex API key, which raises the daily API allowance (see [Running the update locally](#running-the-update-locally)).
+Requests always include `mailto=openalex@slub-dresden.de`; `--mailto you@example.org` overrides it. Set `OPENALEX_API_KEY` to authenticate and receive the larger API allowance — it is read from the environment only, never a command-line option. Without a key the script warns and uses anonymous access.
+
+In CI, `update.yml` reads the repository secret of the same name, configured separately by a repository administrator. A missing secret warns and falls back anonymously; a configured but rejected key, or another API failure, fails the step. See OpenAlex's [authentication guide](https://developers.openalex.org/guides/authentication).
 
 ## Data provenance
 
 - **ROR** — original data dumps published on Zenodo under the concept DOI `10.5281/zenodo.6347574`. The scripts always resolve the concept DOI to the latest version and use the v2 schema JSON. Licensed CC0 1.0. The exact dump version, version-specific DOI, and retrieval date are recorded in `data/meta.json`.
-- **OpenAlex** — fetched from the public OpenAlex institutions API, identifying itself to the polite pool with `mailto=openalex@slub-dresden.de` and authenticating with an API key when one is configured. Licensed CC0 1.0. Derived companion data; ROR remains authoritative.
+- **OpenAlex** — fetched from the public OpenAlex institutions API. Licensed CC0 1.0. Derived companion data; ROR remains authoritative.
 
 ## Disclaimer
 
@@ -71,7 +73,9 @@ This is a community subset maintained by SLUB Dresden; it is **not an official R
 
 Records are not modified in this repository; they are a verbatim copy of the official dump. To correct an organization's data, use ROR's curation process, which flows back into the next dump and therefore into this subset.
 
-Each record's detail page links to its ROR curation requests: `data/curation.json` maps a record to the relevant curation issue numbers, and `scripts/update_curation.py` enriches them with live titles/states at deploy time (`--seed` bootstraps the map by searching issue titles for the record's ROR URL).
+Each record's detail page links to its ROR curation requests. `data/curation.json` maps a record to its curation issue numbers, and `scripts/update_curation.py` enriches them with live titles and states at deploy time.
+
+Its `--seed` mode finds those numbers by searching the tracker for a record's ROR URL, keeping the hits that name the record as their target: in the title, in the body's `ROR ID:` field, or — for the request that created the record — in an assignment comment.
 
 For issues with *this repository* specifically (the website, scripts, or the filter), please open a GitHub issue.
 
@@ -84,21 +88,11 @@ The scripts use the Python standard library only (no third-party dependencies). 
 python scripts/update_ror.py
 
 # 2. Refresh the OpenAlex companion layer (reads data/records.json).
-export OPENALEX_API_KEY="your-key"
+export OPENALEX_API_KEY="your-key"   # optional; larger API allowance
 python scripts/update_openalex.py
 ```
 
-### OpenAlex authentication
-
-`update_openalex.py` reads the API key from the `OPENALEX_API_KEY` environment variable and sends it as the `api_key` query parameter; there is deliberately no command-line option for it, so the key never lands in a process listing. Every request also carries `mailto=openalex@slub-dresden.de` for polite-pool identification — `--mailto you@example.org` overrides that address when a different contact is appropriate, and does not affect the key.
-
-Running without `OPENALEX_API_KEY` still works: the script falls back to anonymous access, which OpenAlex grants a lower daily API allowance, and prints a warning. Should a request fail, the URL in the error message is printed with the key redacted (endpoint, filter, cursor and `mailto` are kept).
-
-The scheduled refresh in `.github/workflows/update.yml` authenticates with the `OPENALEX_API_KEY` repository secret. If that secret is missing or blank the run does *not* fail: it emits a workflow warning, notes the fallback in the run summary, and fetches anonymously — roughly seven institution-list requests per refresh fit comfortably into the anonymous allowance, and a missing secret should not cost the ROR update. A key that is present but rejected, or an anonymous run that hits the rate limit, does fail the step; there is no silent retry without the key, and the script writes nothing until every batch has been fetched, so the data never lands half-updated.
-
-The secret must be configured separately by a repository administrator under *Settings → Secrets and variables → Actions*; nothing in this repository creates or rotates it.
-
-Both scripts download the raw dump to a temporary directory outside the repository and commit only the filtered Saxon subset; raw ROR dumps are never committed. `update_ror.py` fails loudly (non-zero exit) if the filtered set is empty or shrinks by more than 20% versus the previous run, guarding against an upstream schema change silently breaking the filter.
+`update_ror.py` downloads the raw dump to a temporary directory outside the repository and commits only the filtered Saxon subset; raw ROR dumps are never committed. It exits non-zero if the filtered set is empty or shrinks by more than 20% versus the previous run, guarding against an upstream schema change silently breaking the filter.
 
 ### Previewing the site
 
@@ -111,8 +105,12 @@ python -m http.server 8000
 
 ## Automation
 
-- **`.github/workflows/update.yml`** runs monthly (and on manual dispatch), executes both update scripts, and, if the data changed, opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly. The OpenAlex step uses the `OPENALEX_API_KEY` repository secret, warning and falling back to anonymous access if it is not configured.
-- **`.github/workflows/pages.yml`** deploys `www/` together with the data files it needs to GitHub Pages.
+Four workflows in `.github/workflows/`:
+
+- **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, links any curation requests for the records that changed, refreshes the OpenAlex layer, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
+- **`curation-seed.yml`** re-runs curation discovery across all records weekly, catching links that only became discoverable after the dump that introduced the record. Opens a pull request only when it finds something new.
+- **`pages.yml`** deploys `www/` and the data files it needs to GitHub Pages, on push and weekly (so curation-request states stay current).
+- **`tag-releases.yml`** tags each dump commit on `main` with its ROR version.
 
 ## Git history as a change log
 
@@ -151,8 +149,10 @@ saxon-ror/
 │   └── backfill_history.py
 ├── www/                       static website (deployed to GitHub Pages)
 └── .github/workflows/
-    ├── update.yml
-    └── pages.yml
+    ├── update.yml              daily ROR refresh → pull request
+    ├── curation-seed.yml       weekly curation-link reseed
+    ├── pages.yml               site deployment
+    └── tag-releases.yml        version tags for dump commits
 ```
 
 ## License

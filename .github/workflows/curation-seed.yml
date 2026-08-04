@@ -1,14 +1,10 @@
 name: Reseed ROR curation links
 
-# Periodically re-runs scripts/update_curation.py --seed against
-# ror-community/ror-updates to catch newly-closed curation issues. This
-# matters most for "add new organization" requests: they only become
-# linkable once an "Assigned ROR ID ... in release vX.Y" comment is posted
-# (by a curator or by ror-curator-bot -- the seed matches the phrase, not the
-# author), and that comment can lag well behind the record actually
-# appearing in a published ROR dump (observed first-hand around v2.10, where
-# the milestone stayed open for weeks after release). Opens a PR only when
-# the seed actually finds something new; most runs are a no-op.
+# Re-runs scripts/update_curation.py --seed across every record, catching links
+# that update.yml's scoped seed could not see yet: an "add new organization"
+# request only becomes linkable once its "Assigned ROR ID ... in release vX.Y"
+# comment is posted, which can lag the dump by weeks. Opens a PR only when the
+# seed finds something new; most runs are a no-op.
 
 on:
   schedule:
@@ -38,10 +34,9 @@ jobs:
       # The built-in GITHUB_TOKEN is an installation token scoped to this
       # repository, so the GitHub *search* API returns nothing for
       # ror-community/ror-updates (plain issue reads still work). Hence
-      # CURATION_TOKEN: a PAT that can read public repos, holding no write
-      # permission here -- the steps below keep using GITHUB_TOKEN for that.
-      # Without the secret (forks) update_curation.py detects the empty search
-      # and falls back to unauthenticated, which is slower -- hence the timeout.
+      # CURATION_TOKEN, a PAT that can read public repos. Without it the script
+      # falls back to unauthenticated search, which is slower -- hence the
+      # timeout. PR creation below keeps using GITHUB_TOKEN.
       - name: Reseed curation links
         timeout-minutes: 60
         env:
@@ -72,12 +67,9 @@ jobs:
           def links(numbers):
               """Render issue numbers as explicit, backlink-free links.
 
-              A bare "#123" resolves against *this* repo, not the curation repo.
-              owner/repo#123 and a plain github.com URL both resolve correctly
-              but generate a backlink, which would file a cross-reference on an
-              upstream issue we do not own every time this runs.
-              redirect.github.com is GitHub's documented opt-out; the cost is
-              the hover preview.
+              "#123" would resolve against *this* repo; owner/repo#123 or a
+              github.com URL would file a backlink on an issue we do not own.
+              redirect.github.com is GitHub's documented opt-out.
               """
               return ", ".join(
                   f"[#{n}](https://redirect.github.com/{CURATION_REPO}/issues/{n})"

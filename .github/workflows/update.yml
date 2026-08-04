@@ -7,10 +7,8 @@ name: Update Saxon ROR data
 # OpenAlex sweep, no pull request. Never pushes to the default branch: when the
 # data actually changes, it opens a pull request instead.
 #
-# Secrets: the OpenAlex sweep authenticates with the OPENALEX_API_KEY repository
-# secret (configured separately by a repository administrator) and identifies
-# itself to the polite pool with the mailto address below. Without the secret it
-# warns and falls back to anonymous access rather than failing the update.
+# Secrets used: CURATION_TOKEN (GitHub issue search) and OPENALEX_API_KEY, both
+# optional -- see the steps below and the README for what happens without them.
 
 on:
   schedule:
@@ -75,21 +73,16 @@ jobs:
         if: steps.preflight.outputs.fresh != 'true'
         run: python scripts/update_ror.py
 
-      # Only the records this dump actually touched are worth searching: an
-      # added record brings its own "add new organization" request, and a
-      # modified record is the visible result of an applied modify request
-      # (which names its target in the title or the body's "ROR ID:" field, so
-      # it links immediately). Everything else -- above all an add whose
-      # "Assigned ROR ID" comment lands weeks after the dump -- stays the job
-      # of the weekly full reseed in curation-seed.yml.
+      # Search only the records this dump touched; curation-seed.yml sweeps the
+      # rest weekly.
       - name: Collect changed records
         id: changed
         if: steps.preflight.outputs.fresh != 'true'
         run: |
           set -euo pipefail
-          # Added records are still untracked at this point, so --porcelain is
-          # the only view that sees them ("??") alongside modifications (" M").
-          # Deletions are dropped -- a record ROR retired has nothing to link.
+          # Added records are still untracked here, so --porcelain is the only
+          # view that sees them ("??") alongside modifications (" M").
+          # Deletions are dropped -- a retired record has nothing to link.
           suffixes=$(
             git status --porcelain -- data/records \
               | sed -nE '/^.?D/d; s#.*data/records/([0-9a-z]+)\.json$#\1#p' \
@@ -98,13 +91,9 @@ jobs:
           echo "Changed records: ${suffixes:-<none>}"
           echo "suffixes=$suffixes" >> "$GITHUB_OUTPUT"
 
-      # continue-on-error on purpose: a curation link is enrichment, and it is
-      # best-effort by construction anyway (an add request only becomes linkable
-      # once its assignment comment appears, which can trail the dump by weeks). A
-      # search outage must not cost us the data update itself -- the weekly
-      # reseed in curation-seed.yml picks up whatever this run missed. The step
-      # below makes the miss visible so a broken CURATION_TOKEN cannot rot
-      # silently until someone notices unlinked records on the site.
+      # continue-on-error on purpose: a link is enrichment, and a search outage
+      # must not cost us the data update. The next step makes the miss visible
+      # so a broken token cannot rot silently; the weekly reseed retries.
       - name: Link ROR curation requests
         id: curation
         if: steps.preflight.outputs.fresh != 'true' && steps.changed.outputs.suffixes != ''
@@ -114,14 +103,13 @@ jobs:
           # The built-in token cannot search ror-community/ror-updates.
           GITHUB_TOKEN: ${{ secrets.CURATION_TOKEN || secrets.GITHUB_TOKEN }}
           # Unquoted below on purpose -- the list has to word-split into
-          # separate arguments. Values come from the sed above, so they are
-          # [0-9a-z] suffixes and nothing else.
+          # separate arguments. Safe: the sed above emits [0-9a-z] suffixes only.
           SUFFIXES: ${{ steps.changed.outputs.suffixes }}
         run: python scripts/update_curation.py --seed --only $SUFFIXES
 
-      # Runs only when the seed above actually failed (a skipped step reports
-      # outcome "skipped", not "failure"). Writes both to the run summary and to
-      # a file the PR body picks up, so the warning reaches whoever merges.
+      # Only when the seed actually failed -- a skipped step reports outcome
+      # "skipped", not "failure". The file is picked up by the PR body below,
+      # so the warning reaches whoever merges, not just the run log.
       - name: Flag missing curation links
         if: steps.curation.outcome == 'failure'
         env:
@@ -137,33 +125,22 @@ jobs:
           } > /tmp/curation-warning.md
           cat /tmp/curation-warning.md >> "$GITHUB_STEP_SUMMARY"
 
-      # The API key reaches the script through the environment only -- never
-      # through the run: source (which would put it in the workflow's own text
-      # and thus in the logs) and never through a command-line argument.
-      #
-      # A missing key warns and continues: OpenAlex permits anonymous access at
-      # a tenth of the keyed daily allowance, and this sweep needs about seven
-      # institution-list requests (305 records / 50 per filter), so anonymous
-      # access covers it comfortably. Losing the whole ROR refresh over an
-      # unconfigured secret would cost more than it protects -- but the warning
-      # and the run summary make a broken secret impossible to miss.
-      #
-      # A key that is present but rejected is *not* retried anonymously: the
-      # request fails and the step fails with it, as does a rate-limited
-      # anonymous run. Either way the script raises before it writes anything
-      # (every batch is fetched first), so the data never lands half-updated.
-      # `mailto` is sent regardless, key or not.
+      # The key reaches the script through the environment only -- never through
+      # the run: source, which would put it in the workflow text and the logs.
+      # A missing key warns and continues anonymously rather than costing us the
+      # whole ROR refresh; a rejected key is not retried anonymously, so the step
+      # fails with it. See the README for the full policy.
       - name: Update OpenAlex companion data
         if: steps.preflight.outputs.fresh != 'true'
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           set -euo pipefail
-          # Whitespace is stripped before the emptiness test so that the check
-          # and the script agree: update_openalex.py strips the value too, and
-          # a secret of blanks would otherwise count as configured here while
-          # the script went anonymous anyway. Copied into a local first so that
-          # an entirely unset variable fails the test rather than `set -u`.
+          # Whitespace-stripped before the emptiness test so this check and the
+          # script agree: update_openalex.py strips too, so a secret of blanks
+          # would otherwise count as configured here and go anonymous there.
+          # Copied into a local first so an unset variable fails the test
+          # rather than `set -u`.
           key="${OPENALEX_API_KEY:-}"
           if [ -z "${key//[[:space:]]/}" ]; then
             echo "::warning title=OpenAlex API key missing::Falling back to anonymous access with a lower allowance."
@@ -184,11 +161,9 @@ jobs:
         id: diff
         if: steps.preflight.outputs.fresh != 'true'
         run: |
-          # Stage everything first -- new record files are untracked at this
-          # point, and plain `git diff` is blind to untracked files entirely
-          # (they don't count as "added", they don't count as anything).
-          # Staging first and diffing --cached from here on is what makes the
-          # added/removed/modified counts below actually correct.
+          # Stage first: new record files are untracked, and plain `git diff` is
+          # blind to untracked files entirely. Diffing --cached from here on is
+          # what makes the counts below correct.
           git add -A -- data
 
           if git diff --cached --quiet -- data; then
@@ -198,10 +173,8 @@ jobs:
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-          # Curation links can change on this path too now, so the PR has to
-          # say so -- via the same curation-update label the weekly reseed
-          # uses, so that filtering on the label finds every PR that touched a
-          # link rather than only curation-seed.yml's.
+          # Drives the curation-update label below, so that filtering on it
+          # finds every PR that touched a link, not just the reseed's.
           if git diff --cached --quiet -- data/curation.json; then
             curation=false
           else
@@ -247,8 +220,8 @@ jobs:
               git diff --cached --diff-filter=D --name-only -- data/records | sed 's#data/records/#- \`#; s#\.json#\`#'
               echo ""
             fi
-            # Links the seed just added, read straight out of the staged diff
-            # against main -- no before/after snapshot to keep in sync.
+            # Links the seed just added, read from the staged diff against
+            # HEAD -- no before/after snapshot to keep in sync.
             if [ "$curation" = "true" ]; then
               echo "**Curation links:**"
               python3 - <<'PY'
@@ -268,13 +241,9 @@ jobs:
           for sfx, nums in sorted(after.items()):
               new = sorted(set(nums) - set(before.get(sfx, [])), reverse=True)
               if new:
-                  # Not "#123", which resolves against *this* repo. Not
-                  # owner/repo#123 or a plain github.com URL either: every
-                  # reference generates a backlink, and we would be filing one
-                  # on an upstream issue we do not own on every dump.
-                  # redirect.github.com is GitHub's documented opt-out -- it
-                  # costs the hover preview, which is a fair trade for not
-                  # spamming ROR's tracker.
+                  # "#123" would resolve against *this* repo; owner/repo#123 or
+                  # a github.com URL would file a backlink on an issue we do not
+                  # own. redirect.github.com is GitHub's documented opt-out.
                   links = ", ".join(
                       f"[#{n}](https://redirect.github.com/{CURATION_REPO}/issues/{n})"
                       for n in new
@@ -283,18 +252,16 @@ jobs:
           PY
               echo ""
             fi
-            # Present only when the curation seed failed. Written with `if`
-            # rather than `[ -f ] && cat` so a missing file (the normal case)
-            # cannot end this group on a non-zero status and fail the step.
+            # `if` rather than `[ -f ] && cat`: a missing file (the normal case)
+            # would end this group on a non-zero status and fail the step.
             if [ -f /tmp/curation-warning.md ]; then
               cat /tmp/curation-warning.md
             fi
           } > /tmp/pr-body.md
 
-      # Commit ourselves (rather than an action) so the commit's author date can
-      # be set to the dump's real Zenodo creation moment. Landing the PR with
-      # GitHub's "Rebase and merge" preserves that author date on main; the
-      # committer date becomes the merge time, which is acceptable.
+      # Committed here rather than by an action so the author date can be the
+      # dump's Zenodo creation moment. Landing the PR with "Rebase and merge"
+      # preserves it on main.
       - name: Open data-update pull request
         if: steps.preflight.outputs.fresh != 'true' && steps.diff.outputs.changed == 'true'
         env:
@@ -312,8 +279,7 @@ jobs:
           git push --force origin "$branch"
 
           # Ensure the tracking labels exist, then open the PR if none is open.
-          # curation-update is added only when this run actually changed a link,
-          # and carries curation-seed.yml's colour so the two agree.
+          # curation-update carries curation-seed.yml's colour so the two agree.
           gh label create data-update --color 0e8a16 --force >/dev/null 2>&1 || true
           labels="data-update"
           if [ "${{ steps.diff.outputs.curation }}" = "true" ]; then

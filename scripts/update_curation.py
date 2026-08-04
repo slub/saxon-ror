@@ -42,11 +42,9 @@ Two modes:
 
     ``data/curation.json`` is committed and hand-maintainable afterwards.
 
-    ``--only <suffix> ...`` narrows the search to the named records, leaving
-    every other record's links as they are. ``update.yml`` uses this to seed
-    just the records a fresh dump added or modified, which is a handful rather
-    than the full set; ``curation-seed.yml`` runs the unnarrowed weekly sweep
-    that catches links appearing later than the dump they belong to.
+    ``--only <suffix> ...`` narrows the search to the named records. Every other
+    record's links are carried over untouched, so the written map is complete
+    either way.
 
 default (enrich)
     Reads ``data/curation.json`` and fetches each referenced issue's current
@@ -205,10 +203,10 @@ def _has_add_release_comment(number: int, sfx: str, cache: dict[int, list[str]])
 def seed(existing: dict[str, list[int]], only: list[str] | None = None) -> dict[str, list[int]]:
     """Search curation issues by ROR URL; merge update + add requests into ``existing``.
 
-    ``only`` narrows the search to the given suffixes; links already recorded for
-    every *other* record are carried over untouched, so a narrowed run still
-    writes a complete map. An empty (but not ``None``) ``only`` searches nothing
-    -- an empty selection means "no records", never "all records".
+    ``only`` narrows the search to the given suffixes; every other record's
+    links are carried over untouched, so a narrowed run still writes a complete
+    map. An empty (but not ``None``) ``only`` searches nothing -- an empty
+    selection means "no records", never "all records".
     """
     merged = {k: list(v) for k, v in existing.items()}
     suffixes = _suffixes()

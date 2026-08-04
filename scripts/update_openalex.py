@@ -18,23 +18,15 @@ as ``works_count`` and ``counts_by_year`` are part of the entity and kept).
 
 Authentication:
     Every request identifies itself to the polite pool with ``mailto`` (see
-    ``--mailto``). On top of that, an OpenAlex API key is read from the
-    ``OPENALEX_API_KEY`` environment variable and, when present, sent as the
-    ``api_key`` query parameter -- OpenAlex grants authenticated callers a
-    larger daily allowance than anonymous ones. The key is never accepted as a
-    command-line argument (process arguments are world-readable) and never
-    printed: ``ror_lib.http_json`` redacts it from error messages.
-
-    Scheduled refreshes in .github/workflows/update.yml take the key from the
-    ``OPENALEX_API_KEY`` repository secret; without it they warn and fetch
-    anonymously rather than failing the update. Locally:
-
-        export OPENALEX_API_KEY="your-key"
-        python scripts/update_openalex.py
-
-    Running without a key still works (anonymous access, lower allowance).
+    ``--mailto``). An OpenAlex API key is read from the ``OPENALEX_API_KEY``
+    environment variable and, when present, sent as the ``api_key`` query
+    parameter -- OpenAlex grants authenticated callers a larger daily allowance.
+    The key is never accepted as a command-line argument (process arguments are
+    world-readable) and never printed: ``ror_lib.redact`` strips it from error
+    messages. Without a key the script warns and fetches anonymously.
 
 Usage:
+    export OPENALEX_API_KEY="your-key"      # optional
     python scripts/update_openalex.py [--mailto you@example.org]
 """
 
