@@ -220,6 +220,49 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 }
 .ext-mark { color: var(--text-soft); font-size: 0.8rem; }
 
+/* ROR history card: release provenance above, curation requests below */
+.card h3.group-title {
+  margin: 1.5rem 0 0.6rem; font-size: 0.78rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-soft);
+}
+.card h3.group-title:first-of-type { margin-top: 0; }
+.empty-line { margin: 0.2rem 0 0; color: var(--text-soft); font-size: 0.9rem; }
+
+.release-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.6rem; padding: 0.22rem 0; }
+.release-event {
+  flex: none; font-size: 0.68rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.03em; border-radius: 999px; padding: 0.05rem 0.5rem;
+  border: 1px solid transparent; background: var(--accent-soft); color: var(--accent-dark);
+}
+.release-baseline .release-event, .release-modified .release-event,
+.release-registry-wide .release-event {
+  background: var(--bg-soft); color: var(--text-soft); border-color: var(--border);
+}
+/* ROR's own status vocabulary, coloured like the record status badges. */
+.release-inactive .release-event { background: #f1f1f1; color: #6e6e6e; border-color: var(--border); }
+.release-withdrawn .release-event { background: #fef3ea; color: #b0001f; border-color: #f3d9c8; }
+.release-successors { font-size: 0.8rem; color: var(--text-soft); }
+.release-successors a { font-family: var(--mono); font-size: 0.78rem; }
+/* Dashed: not an event, an absence of one. Deliberately not an error colour. */
+.release-pending .release-event, .release-unavailable .release-event,
+.release-unresolved .release-event {
+  background: transparent; color: var(--text-soft); border: 1px dashed var(--border);
+}
+/* Set apart from the timeline above: these qualify the data, they are not part
+   of it. Kept in normal flow so it is never collapsed with the older events. */
+.release-notices {
+  margin-top: 0.8rem; padding-top: 0.6rem; border-top: 1px dashed var(--border);
+}
+.release-notices-title {
+  margin: 0 0 0.35rem; font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-soft);
+}
+.release-where { display: inline-flex; align-items: baseline; gap: 0.5rem; }
+.release-version { font-family: var(--mono); font-size: 0.82rem; }
+.release-date { color: var(--text-soft); font-size: 0.8rem; }
+.release-toggle { margin-top: 0.45rem; font-size: 0.88rem; }
+.release-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
 /* Related GitHub issues */
 .issue-line { display: flex; align-items: baseline; gap: 0.5rem; padding: 0.22rem 0; }
 .issue-state {

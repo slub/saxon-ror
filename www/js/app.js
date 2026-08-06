@@ -11,6 +11,7 @@
     meta: null,
     dataBase: "data", // resolved at load time
     issues: null, // object: suffix -> [{number,title,state,url}] (best-effort)
+    history: null, // object: suffix -> [{version,event,date,url}] (best-effort)
     openalex: null, // Map: suffix -> entity (lazy, per record)
     filters: { q: "", types: new Set(), city: "", statuses: new Set(["active"]) },
   };
@@ -26,6 +27,11 @@
   // can be filed via ROR's web form or directly on GitHub.
   const ROR_UPDATES_URL = "https://github.com/ror-community/ror-updates";
   const ROR_CURATION_FORM_URL = "https://curation-request.ror.org/";
+
+  // Release events that state no event type; they stay visible whatever the
+  // collapse limit does (see releaseHistoryItems).
+  const UNRESOLVED_EVENTS = new Set(["pending", "unavailable", "unresolved"]);
+  const MAX_VISIBLE_RELEASES = 5;
 
   // ---- i18n ---------------------------------------------------------------
   function t(key) {
@@ -129,14 +135,22 @@
     );
     for (const rec of state.records) state.byId.set(suffix(rec), rec);
 
-    // Record → GitHub issues overlay. Generated at deploy time and not always
-    // present (e.g. local dev without running scripts/update_issues.py), so a
-    // miss is non-fatal: the detail page then just offers to open a new issue.
+    // Record → GitHub issues overlay (generated at deploy time) and record →
+    // ROR release history overlay (committed, see data/history.json). Both are
+    // best-effort: a miss must not cost us the record itself.
+    state.issues = await loadOverlay("issues.json");
+    state.history = await loadOverlay("history.json");
+  }
+
+  // null means "we could not read this overlay", which is a different statement
+  // from "the overlay says there is nothing here". Only a successful load may
+  // turn into an absence claim on the page; a failed one says so instead.
+  async function loadOverlay(name) {
     try {
-      const r2 = await fetch(`${state.dataBase}/issues.json`, { cache: "no-cache" });
-      state.issues = r2.ok ? await r2.json() : {};
+      const r = await fetch(`${state.dataBase}/${name}`, { cache: "no-cache" });
+      return r.ok ? await r.json() : null;
     } catch (e) {
-      state.issues = {};
+      return null;
     }
   }
 
@@ -396,8 +410,8 @@
       grid.appendChild(card(t("externalIds"), items));
     }
 
-    // ROR curation requests for this record + a link to file one. Always shown.
-    grid.appendChild(curationCard(sfx, rec));
+    // Upstream release provenance + curation requests. Always shown.
+    grid.appendChild(historyCard(sfx));
 
     container.appendChild(grid);
 
@@ -417,9 +431,111 @@
     return el("div", { class: "kv" }, [el("span", { class: "k", text: label }), box]);
   }
 
-  function curationCard(sfx, rec) {
+  // One card, two separate groups: what ROR published about this record
+  // (releases) and what was requested about it (curation issues). A release is
+  // publication provenance, not a request, so the two never share a list.
+  function historyCard(sfx) {
+    return card(t("historyTitle"), [
+      el("h3", { class: "group-title", text: t("releaseHistory") }),
+      ...releaseHistoryItems(sfx),
+      el("h3", { class: "group-title", text: t("curationRequests") }),
+      ...curationItems(sfx),
+    ]);
+  }
+
+  function releaseLine(ev) {
+    const version = ev.url
+      ? el("a", {
+          class: "release-version",
+          text: ev.version,
+          attrs: { href: ev.url, target: "_blank", rel: "noopener" },
+        })
+      : el("span", { class: "release-version", text: ev.version });
+    const parts = [
+      el("span", { class: "release-event", text: t(`release_${ev.event}`) }),
+      el("span", { class: "release-where" }, [version, el("span", { class: "release-date", text: ev.date })]),
+    ];
+    // A plain detail. ROR uses successors for continuation, closure,
+    // restructuring and duplicate corrections alike, so nothing here reads a
+    // merge into one.
+    if (ev.successors && ev.successors.length) {
+      parts.push(
+        el("span", { class: "release-successors" }, [
+          el("span", { class: "release-successors-label", text: `${t("successorLabel")}: ` }),
+          ...ev.successors.map((sfx, i) =>
+            el("span", {}, [
+              i ? el("span", { text: ", " }) : null,
+              state.byId.has(sfx)
+                ? el("a", { text: sfx, attrs: { href: `#/${sfx}` } })
+                : el("a", {
+                    text: sfx,
+                    attrs: { href: `https://ror.org/${sfx}`, target: "_blank", rel: "noopener" },
+                  }),
+            ])
+          ),
+        ])
+      );
+    }
+    return el("div", { class: `release-line release-${ev.event}` }, parts);
+  }
+
+  // Notices and events are two different kinds of statement, so they get two
+  // blocks rather than one interleaved list: the timeline stays strictly
+  // newest first even when the collapse control hides its tail, and the
+  // notices below it stay visible in full.
+  function releaseHistoryItems(sfx) {
+    if (!state.history) return [el("p", { class: "empty-line", text: t("historyUnavailable") })];
+    const all = (state.history.records && state.history.records[sfx]) || [];
+    if (!all.length) return [el("p", { class: "empty-line", text: t("noReleaseHistory") })];
+
+    const notices = all.filter((ev) => UNRESOLVED_EVENTS.has(ev.event));
+    const timeline = all.filter((ev) => !UNRESOLVED_EVENTS.has(ev.event));
     const items = [];
-    const list = (state.issues && state.issues[sfx]) || [];
+
+    // Timeline first, unlabelled, directly under the group heading it belongs
+    // to; the notices follow under a heading of their own.
+    if (timeline.length) {
+      items.push(...timeline.slice(0, MAX_VISIBLE_RELEASES).map(releaseLine));
+      const older = timeline.slice(MAX_VISIBLE_RELEASES);
+      if (older.length) items.push(...olderReleases(sfx, older));
+    } else if (!notices.length) {
+      // Notices are a statement in their own right; "no releases recorded"
+      // next to them would read as a second, contradictory one.
+      items.push(el("p", { class: "empty-line", text: t("noReleaseHistory") }));
+    }
+    if (notices.length) {
+      items.push(
+        el("div", { class: "release-notices" }, [
+          el("h4", { class: "release-notices-title", text: t("classificationNotices") }),
+          ...notices.map(releaseLine),
+        ])
+      );
+    }
+    return items;
+  }
+
+  function olderReleases(sfx, older) {
+    const id = `releases-older-${sfx}`;
+    const box = el("div", { class: "release-older", attrs: { id } }, older.map(releaseLine));
+    box.hidden = true;
+    const btn = el("button", {
+      class: "linkish release-toggle",
+      text: t("showOlderReleases"),
+      attrs: { type: "button", "aria-expanded": "false", "aria-controls": id },
+    });
+    btn.addEventListener("click", () => {
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", String(!expanded));
+      box.hidden = expanded;
+      btn.textContent = expanded ? t("showOlderReleases") : t("hideOlderReleases");
+    });
+    return [btn, box];
+  }
+
+  function curationItems(sfx) {
+    const items = [];
+    const loaded = state.issues != null;
+    const list = (loaded && state.issues[sfx]) || [];
     for (const it of list) {
       const link = el("a", {
         class: "issue-title",
@@ -431,6 +547,17 @@
         text: it.state === "closed" ? t("issueClosed") : t("issueOpen"),
       });
       items.push(el("div", { class: `issue-line issue-${it.state}` }, [badge, link]));
+    }
+    // A record can be created or corrected without a public issue (bulk work,
+    // for instance). State the absence and leave it at that -- but only when
+    // the overlay actually loaded, or a deploy hiccup would read as evidence.
+    if (!list.length) {
+      items.push(
+        el("p", {
+          class: "empty-line",
+          text: loaded ? t("noCurationRequest") : t("curationUnavailable"),
+        })
+      );
     }
     // Corrections are filed upstream — via ROR's web form or on GitHub.
     items.push(
@@ -447,7 +574,7 @@
         }),
       ])
     );
-    return card(t("curationRequests"), items);
+    return items;
   }
 
   function relLine(rel) {
