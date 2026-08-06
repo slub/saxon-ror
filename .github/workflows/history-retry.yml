@@ -1,0 +1,136 @@
+name: Retry ROR release history
+
+# Re-runs scripts/update_history.py against ROR's official publication
+# artifacts -- the release notes in ror-community/ror-updates and the deployed
+# record deltas in ror-community/ror-records -- so a release that could not be
+# classified when its dump landed gets picked up once ROR publishes usable
+# material for it. Opens a pull
+# request only when the committed overlay actually changes; most runs are a
+# no-op that still reports which versions remain unresolved.
+#
+# Deliberately its own workflow: update.yml is already large, and this one has
+# to run on days when no new dump exists at all.
+
+on:
+  schedule:
+    # 07:30 UTC daily, well clear of update.yml's 06:00 UTC data run.
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          # snapshot_transitions() reads which records changed with each dump
+          # from the full commit history, not just the tip.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # The built-in token only raises the rate limit here: reading public
+      # releases and record deltas works without it (unlike the issue *search*
+      # in curation-seed).
+      - name: Regenerate release history
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python scripts/update_history.py \
+            --report /tmp/history-report.md \
+            --warning /tmp/history-warning.md
+          cat /tmp/history-report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -f /tmp/history-warning.md ]; then
+            cat /tmp/history-warning.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/history.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Release history unchanged -- nothing to open a pull request for."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "Automated retry of ROR release-history classification against"
+            echo "\`ror-community/ror-updates\`."
+            echo ""
+            python3 - <<'PY'
+          import json, subprocess, sys
+
+          # Imported rather than re-implemented, so the split between classified
+          # events and unresolved notices cannot drift out of the generator.
+          sys.path.insert(0, "scripts")
+          from update_history import count_events
+
+          show = subprocess.run(
+              ["git", "show", "HEAD:data/history.json"], capture_output=True, text=True
+          )
+          # No file at HEAD (first run) just means every classification is new.
+          before = json.loads(show.stdout) if show.returncode == 0 else {}
+          after = json.load(open("data/history.json"))
+
+          was = {r["version"]: r["status"] for r in before.get("releases", [])}
+          now = {r["version"]: r["status"] for r in after["releases"]}
+          moved = [(v, was.get(v, "-"), s) for v, s in now.items() if was.get(v) != s]
+          if moved:
+              print("| Version | Was | Now |")
+              print("| --- | --- | --- |")
+              # Capped: a first run has no prior file and would otherwise list
+              # every release ROR has ever published.
+              for version, old, new in moved[:20]:
+                  print(f"| `{version}` | {old} | {new} |")
+              if len(moved) > 20:
+                  print(f"| … | | {len(moved) - 20} more |")
+              print()
+
+          was_events, was_notices = count_events(before)
+          now_events, now_notices = count_events(after)
+          print(f"Classified release events: {was_events} -> {now_events}.")
+          print(f"Unresolved classification notices: {was_notices} -> {now_notices}.")
+          PY
+            echo ""
+            cat /tmp/history-report.md
+            if [ -f /tmp/history-warning.md ]; then
+              cat /tmp/history-warning.md
+            fi
+          } > /tmp/pr-body.md
+
+      - name: Open history-update pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          branch="automated/history-retry"
+          git switch -c "$branch"
+          git add data/history.json
+          git commit -m "history: refresh ROR release history"
+          git push --force origin "$branch"
+
+          gh label create history-update --color 1d76db --force >/dev/null 2>&1 || true
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            gh pr create \
+              --base main --head "$branch" \
+              --title "history: refresh ROR release history" \
+              --body-file /tmp/pr-body.md \
+              --label history-update
+          else
+            gh pr edit "$branch" --body-file /tmp/pr-body.md
+          fi
