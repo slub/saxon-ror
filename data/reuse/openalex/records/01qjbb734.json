@@ -19,10 +19,10 @@
     "Saxon Police Force"
   ],
   "repositories": [],
-  "works_count": 147,
-  "cited_by_count": 1045,
+  "works_count": 149,
+  "cited_by_count": 1043,
   "summary_stats": {
-    "2yr_mean_citedness": 1.3793103448275863,
+    "2yr_mean_citedness": 1.25,
     "h_index": 15,
     "i10_index": 20
   },
@@ -47,8 +47,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 9,
-      "oa_works_count": 0,
+      "works_count": 12,
+      "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
@@ -140,14 +140,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210108608",
-      "works_count": 147
+      "works_count": 149
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T13376",
       "display_name": "Criminal Law and Policy",
-      "count": 29,
+      "count": 28,
       "score": 0.9987999796867371,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
@@ -201,8 +201,8 @@
     {
       "id": "https://openalex.org/T13459",
       "display_name": "Public Administration and Political Analysis",
-      "count": 10,
-      "score": 0.9672999978065491,
+      "count": 9,
+      "score": 0.31189998984336853,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -219,7 +219,7 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "count": 9,
+      "count": 8,
       "score": 0.9976999759674072,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
@@ -433,6 +433,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11891",
+      "display_name": "Big Data and Business Intelligence",
+      "count": 4,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11893",
       "display_name": "German Literature and Culture Studies",
       "count": 4,
@@ -575,31 +593,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11076",
-      "display_name": "Policing Practices and Perceptions",
-      "count": 3,
-      "score": 0.979200005531311,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13572",
       "display_name": "German Security and Defense Policies",
-      "value": 0.0009898,
+      "value": 0.0009885,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -616,7 +616,7 @@
     {
       "id": "https://openalex.org/T13376",
       "display_name": "Criminal Law and Policy",
-      "value": 0.0007965,
+      "value": 0.0007686,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -633,7 +633,7 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 0.0002991,
+      "value": 0.0002655,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -650,7 +650,7 @@
     {
       "id": "https://openalex.org/T13449",
       "display_name": "Organizational Management and Change",
-      "value": 0.0002029,
+      "value": 0.0002008,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -665,26 +665,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13459",
-      "display_name": "Public Administration and Political Analysis",
-      "value": 0.0001788,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13031",
       "display_name": "Civil and Structural Engineering Research",
-      "value": 0.0001717,
+      "value": 0.0001714,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -699,9 +682,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13459",
+      "display_name": "Public Administration and Political Analysis",
+      "value": 0.0001616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13360",
       "display_name": "Economic and Social Issues",
-      "value": 0.0001525,
+      "value": 0.0001531,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -718,7 +718,7 @@
     {
       "id": "https://openalex.org/T13728",
       "display_name": "Crime, Deviance, and Social Control",
-      "value": 0.0001231,
+      "value": 0.0001228,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -735,7 +735,7 @@
     {
       "id": "https://openalex.org/T12376",
       "display_name": "Corporate Management and Leadership",
-      "value": 0.0001215,
+      "value": 0.0001212,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -769,7 +769,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 0.0001194,
+      "value": 0.0001193,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -786,7 +786,7 @@
     {
       "id": "https://openalex.org/T13881",
       "display_name": "Sociology and Norbert Elias",
-      "value": 0.0001099,
+      "value": 0.0001096,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -803,7 +803,7 @@
     {
       "id": "https://openalex.org/T13212",
       "display_name": "German Social Sciences and History",
-      "value": 0.0001063,
+      "value": 0.000106,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -820,7 +820,7 @@
     {
       "id": "https://openalex.org/T14390",
       "display_name": "Real estate and construction management",
-      "value": 9.97e-05,
+      "value": 9.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -835,26 +835,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13787",
-      "display_name": "Globalization, Historical Perspectives, and International Relations",
-      "value": 9.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12034",
       "display_name": "Digital and Cyber Forensics",
-      "value": 9.84e-05,
+      "value": 9.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -871,7 +854,7 @@
     {
       "id": "https://openalex.org/T12965",
       "display_name": "Wildlife Conservation and Criminology Analyses",
-      "value": 9.83e-05,
+      "value": 9.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -886,9 +869,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13787",
+      "display_name": "Globalization, Historical Perspectives, and International Relations",
+      "value": 9.78e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12384",
+      "display_name": "Customer churn and segmentation",
+      "value": 9.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11076",
       "display_name": "Policing Practices and Perceptions",
-      "value": 8.94e-05,
+      "value": 8.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -905,7 +922,7 @@
     {
       "id": "https://openalex.org/T14501",
       "display_name": "Global Economic and Social Development",
-      "value": 8.84e-05,
+      "value": 8.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -922,7 +939,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 8.8e-05,
+      "value": 8.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -939,7 +956,7 @@
     {
       "id": "https://openalex.org/T14088",
       "display_name": "Generational Differences and Trends",
-      "value": 8.77e-05,
+      "value": 8.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3319",
         "display_name": "Life-span and Life-course Studies"
@@ -956,7 +973,7 @@
     {
       "id": "https://openalex.org/T13660",
       "display_name": "Philosophical and Historical Studies",
-      "value": 8.34e-05,
+      "value": 8.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -973,7 +990,7 @@
     {
       "id": "https://openalex.org/T12954",
       "display_name": "Law and Political Science",
-      "value": 7.88e-05,
+      "value": 7.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -990,7 +1007,7 @@
     {
       "id": "https://openalex.org/T13275",
       "display_name": "Medical and Health Sciences Research",
-      "value": 7.68e-05,
+      "value": 7.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -1003,28 +1020,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13763",
-      "display_name": "Historical Legal Studies and Society",
-      "value": 7.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210108608",
-  "updated_date": "2026-08-03T05:59:51",
+  "updated_date": "2026-08-05T05:59:45",
   "created_date": "2022-02-02T04:48:36"
 }

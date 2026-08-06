@@ -18,10 +18,10 @@
     "Technologiezentrum Dresden (Germany)"
   ],
   "repositories": [],
-  "works_count": 60,
-  "cited_by_count": 2556,
+  "works_count": 61,
+  "cited_by_count": 2557,
   "summary_stats": {
-    "2yr_mean_citedness": 1.836734693877551,
+    "2yr_mean_citedness": 1.82,
     "h_index": 18,
     "i10_index": 23
   },
@@ -58,9 +58,9 @@
     },
     {
       "year": 2024,
-      "works_count": 6,
-      "oa_works_count": 4,
-      "cited_by_count": 45
+      "works_count": 7,
+      "oa_works_count": 5,
+      "cited_by_count": 46
     },
     {
       "year": 2023,
@@ -127,7 +127,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210105241",
-      "works_count": 60
+      "works_count": 61
     }
   ],
   "topics": [
@@ -586,7 +586,7 @@
     {
       "id": "https://openalex.org/T13816",
       "display_name": "Advanced Signal Processing Techniques",
-      "value": 9.58e-05,
+      "value": 9.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -603,7 +603,7 @@
     {
       "id": "https://openalex.org/T13463",
       "display_name": "Nanoporous metals and alloys",
-      "value": 8.68e-05,
+      "value": 8.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -620,7 +620,7 @@
     {
       "id": "https://openalex.org/T12177",
       "display_name": "Resource-Constrained Project Scheduling",
-      "value": 6.23e-05,
+      "value": 6.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -637,7 +637,7 @@
     {
       "id": "https://openalex.org/T14167",
       "display_name": "Consumer behavior in food and health",
-      "value": 4.53e-05,
+      "value": 4.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -671,7 +671,7 @@
     {
       "id": "https://openalex.org/T12401",
       "display_name": "Scheduling and Timetabling Solutions",
-      "value": 4.21e-05,
+      "value": 4.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -688,7 +688,7 @@
     {
       "id": "https://openalex.org/T12295",
       "display_name": "Foucault, Power, and Ethics",
-      "value": 4.1e-05,
+      "value": 4.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -722,7 +722,7 @@
     {
       "id": "https://openalex.org/T13845",
       "display_name": "Classical Studies and Legal History",
-      "value": 3.15e-05,
+      "value": 3.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -739,7 +739,7 @@
     {
       "id": "https://openalex.org/T13439",
       "display_name": "Transport and Economic Policies",
-      "value": 2.91e-05,
+      "value": 2.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -756,7 +756,7 @@
     {
       "id": "https://openalex.org/T12216",
       "display_name": "Network Time Synchronization Technologies",
-      "value": 2.84e-05,
+      "value": 2.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -856,9 +856,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11275",
+      "display_name": "Composting and Vermicomposting Techniques",
+      "value": 2.45e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1111",
+        "display_name": "Soil Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10633",
       "display_name": "Metallic Glasses and Amorphous Alloys",
-      "value": 2.4e-05,
+      "value": 2.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -990,28 +1007,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13248",
-      "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210105241",
-  "updated_date": "2026-08-01T05:59:43",
+  "updated_date": "2026-08-05T05:59:45",
   "created_date": "2022-02-02T04:48:36"
 }

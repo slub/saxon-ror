@@ -16,10 +16,10 @@
     "ABX-CRO Advanced Pharmaceutical Services (Germany)"
   ],
   "repositories": [],
-  "works_count": 209,
-  "cited_by_count": 11610,
+  "works_count": 210,
+  "cited_by_count": 11616,
   "summary_stats": {
-    "2yr_mean_citedness": 5.823529411764706,
+    "2yr_mean_citedness": 5.852941176470588,
     "h_index": 46,
     "i10_index": 180
   },
@@ -52,13 +52,13 @@
       "year": 2025,
       "works_count": 22,
       "oa_works_count": 15,
-      "cited_by_count": 71
+      "cited_by_count": 72
     },
     {
       "year": 2024,
       "works_count": 21,
       "oa_works_count": 19,
-      "cited_by_count": 264
+      "cited_by_count": 265
     },
     {
       "year": 2023,
@@ -94,7 +94,7 @@
       "year": 2018,
       "works_count": 12,
       "oa_works_count": 9,
-      "cited_by_count": 831
+      "cited_by_count": 833
     },
     {
       "year": 2017,
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210123814",
-      "works_count": 209
+      "works_count": 210
     }
   ],
   "topics": [
@@ -174,7 +174,7 @@
     {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
-      "count": 34,
+      "count": 35,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
@@ -334,6 +334,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10129",
+      "display_name": "Glioma Diagnosis and Treatment",
+      "count": 9,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10860",
       "display_name": "Speech and Audio Processing",
       "count": 9,
@@ -385,24 +403,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10129",
-      "display_name": "Glioma Diagnosis and Treatment",
-      "count": 8,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -608,7 +608,7 @@
     {
       "id": "https://openalex.org/T11395",
       "display_name": "Radiopharmaceutical Chemistry and Applications",
-      "value": 0.0003936,
+      "value": 0.0003934,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T10283",
       "display_name": "Hearing Loss and Rehabilitation",
-      "value": 0.0001553,
+      "value": 0.0001552,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -659,7 +659,7 @@
     {
       "id": "https://openalex.org/T10543",
       "display_name": "Prostate Cancer Treatment and Research",
-      "value": 0.0001358,
+      "value": 0.0001357,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -674,26 +674,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10861",
-      "display_name": "Ear Surgery and Otitis Media",
-      "value": 0.0001197,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2733",
-        "display_name": "Otorhinolaryngology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
-      "value": 0.0001164,
+      "value": 0.0001197,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -708,9 +691,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10861",
+      "display_name": "Ear Surgery and Otitis Media",
+      "value": 0.0001196,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12640",
       "display_name": "Environmental DNA in Biodiversity Studies",
-      "value": 9.28e-05,
+      "value": 9.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -727,7 +727,7 @@
     {
       "id": "https://openalex.org/T10334",
       "display_name": "Hearing, Cochlea, Tinnitus, Genetics",
-      "value": 9.27e-05,
+      "value": 9.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -761,7 +761,7 @@
     {
       "id": "https://openalex.org/T12505",
       "display_name": "Peptidase Inhibition and Analysis",
-      "value": 6.93e-05,
+      "value": 6.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -795,7 +795,7 @@
     {
       "id": "https://openalex.org/T11754",
       "display_name": "SARS-CoV-2 detection and testing",
-      "value": 5.74e-05,
+      "value": 5.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -846,7 +846,7 @@
     {
       "id": "https://openalex.org/T12422",
       "display_name": "Radiomics and Machine Learning in Medical Imaging",
-      "value": 4.96e-05,
+      "value": 4.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -880,7 +880,7 @@
     {
       "id": "https://openalex.org/T10860",
       "display_name": "Speech and Audio Processing",
-      "value": 4.49e-05,
+      "value": 4.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
@@ -892,6 +892,23 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10129",
+      "display_name": "Glioma Diagnosis and Treatment",
+      "value": 4.25e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -914,7 +931,7 @@
     {
       "id": "https://openalex.org/T14160",
       "display_name": "Water management and technologies",
-      "value": 4.18e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -926,23 +943,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11692",
-      "display_name": "Noise Effects and Management",
-      "value": 3.96e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -963,6 +963,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T11692",
+      "display_name": "Noise Effects and Management",
+      "value": 3.95e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3616",
+        "display_name": "Speech and Hearing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
       "value": 3.92e-05,
@@ -980,26 +997,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10129",
-      "display_name": "Glioma Diagnosis and Treatment",
-      "value": 3.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12207",
       "display_name": "Assistive Technology in Communication and Mobility",
-      "value": 3.56e-05,
+      "value": 3.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3609",
         "display_name": "Occupational Therapy"
@@ -1034,6 +1034,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210123814",
-  "updated_date": "2026-08-02T06:01:10",
+  "updated_date": "2026-08-06T05:59:15",
   "created_date": "2022-02-02T04:48:36"
 }
