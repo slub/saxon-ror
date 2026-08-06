@@ -1,0 +1,6268 @@
+{
+  "schema_version": 2,
+  "source": {
+    "release_notes": "https://github.com/ror-community/ror-updates/releases",
+    "record_deltas": "https://github.com/ror-community/ror-records",
+    "dumps": "https://github.com/ror-community/ror-data",
+    "zenodo_concept_doi": "10.5281/zenodo.6347574"
+  },
+  "note": "Derived overlay. Event types come from official ROR publication artifacts only: release-note sections that state them, and the record deltas ROR deploys per release, compared against prior official state, where they do not. Releases oldest first, each record's events newest first.",
+  "releases": [
+    {
+      "version": "pre-v1.0",
+      "date": "2021-09-23",
+      "status": "classified",
+      "source": "pre-v1.0 ROR dump",
+      "reason": "GRID-era presence, before ROR's independent versioning",
+      "records": {
+        "present": 239
+      }
+    },
+    {
+      "version": "v1.0",
+      "date": "2022-03-17",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.0",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 372,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.0.1",
+      "date": "2022-04-29",
+      "status": "unavailable",
+      "reason": "record delta present (166 files) but no declared counts to confirm it is complete",
+      "delta_files": 166,
+      "delta_complete": false,
+      "records": {
+        "affected": 0
+      }
+    },
+    {
+      "version": "v1.1",
+      "date": "2022-06-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.1",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 1084,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.2",
+      "date": "2022-06-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.2",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 38,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.3",
+      "date": "2022-08-03",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.3",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 291,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.4",
+      "date": "2022-08-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.4",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 655,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.5",
+      "date": "2022-08-31",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.5",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 141,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.6",
+      "date": "2022-09-14",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.6",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 506,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.7",
+      "date": "2022-09-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.7",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 1314,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.8",
+      "date": "2022-09-29",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.8",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 168,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.9",
+      "date": "2022-10-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.9",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 807,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.10",
+      "date": "2022-10-17",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.10",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 1506,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.11",
+      "date": "2022-10-20",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 7
+      },
+      "delta_files": 1507,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.12",
+      "date": "2022-10-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.12",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 317,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.13",
+      "date": "2022-11-15",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 0,
+        "updated": 5
+      },
+      "delta_files": 2325,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 2024 listed, 2325 declared"
+      ]
+    },
+    {
+      "version": "v1.14",
+      "date": "2022-11-28",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.14",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 182,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.15",
+      "date": "2022-12-01",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.15",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 148,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.16",
+      "date": "2022-12-06",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.16",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1299,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.17",
+      "date": "2022-12-15",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.17",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 319,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.17.1",
+      "date": "2022-12-16",
+      "status": "unavailable",
+      "reason": "record delta present (4 files) but no declared counts to confirm it is complete",
+      "delta_files": 4,
+      "delta_complete": false,
+      "records": {
+        "affected": 0
+      }
+    },
+    {
+      "version": "v1.18",
+      "date": "2023-01-26",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.18",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 416,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.19",
+      "date": "2023-02-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.19",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 547,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.20",
+      "date": "2023-02-28",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.20",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 331,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.21",
+      "date": "2023-03-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.21",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 2
+      },
+      "delta_files": 369,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.22",
+      "date": "2023-03-30",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.22",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 257,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.23",
+      "date": "2023-04-12",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.23",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 668,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.24",
+      "date": "2023-04-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.24",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 3
+      },
+      "delta_files": 435,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.25",
+      "date": "2023-05-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.25",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 1
+      },
+      "delta_files": 242,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.26",
+      "date": "2023-05-25",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.26",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 434,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.27",
+      "date": "2023-06-22",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.27",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 440,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.28",
+      "date": "2023-07-06",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.28",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 357,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.29",
+      "date": "2023-07-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.29",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 1
+      },
+      "delta_files": 471,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.30",
+      "date": "2023-08-17",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.30",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1054,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.31",
+      "date": "2023-08-30",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.31",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 364,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.32",
+      "date": "2023-09-14",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.32",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 342,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.33",
+      "date": "2023-09-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.33",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 139,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.34",
+      "date": "2023-10-12",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.34",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 353,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.35",
+      "date": "2023-10-26",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.35",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 3
+      },
+      "delta_files": 1108,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.36",
+      "date": "2023-11-08",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.36",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 341,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.37",
+      "date": "2023-11-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.37",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 491,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.38",
+      "date": "2023-12-07",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.38",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1182,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.39",
+      "date": "2023-12-20",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.39",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 843,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.40",
+      "date": "2024-01-10",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.40",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 300,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.41",
+      "date": "2024-02-13",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.41",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 2,
+        "updated": 1
+      },
+      "delta_files": 1741,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.42",
+      "date": "2024-02-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.42",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 421,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.43",
+      "date": "2024-03-13",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.43",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 839,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.44",
+      "date": "2024-03-28",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.44",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 470,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.45",
+      "date": "2024-04-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.45",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 216,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.45.1",
+      "date": "2024-04-18",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.45.1",
+      "status": "aggregate-only",
+      "reason": "counts published without a per-record list",
+      "declared": {
+        "updated": 108925
+      }
+    },
+    {
+      "version": "v1.45.2",
+      "date": "2024-04-29",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.45.2",
+      "status": "aggregate-only",
+      "reason": "counts published without a per-record list",
+      "declared": {
+        "updated": 16930
+      }
+    },
+    {
+      "version": "v1.46",
+      "date": "2024-05-02",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.46",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 522,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.46.1",
+      "date": "2024-05-13",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.46.1",
+      "status": "aggregate-only",
+      "reason": "counts published without a per-record list",
+      "declared": {
+        "updated": 76908
+      }
+    },
+    {
+      "version": "v1.47",
+      "date": "2024-05-30",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.47",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 1
+      },
+      "delta_files": 570,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.48",
+      "date": "2024-06-20",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.48",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 1932,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.49",
+      "date": "2024-07-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.49",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 969,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.49.1",
+      "date": "2024-07-23",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.49.1",
+      "status": "partial",
+      "provenance": {
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2,
+        "affected": 0
+      }
+    },
+    {
+      "version": "v1.50",
+      "date": "2024-07-29",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.50",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 543,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.51",
+      "date": "2024-08-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.51",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 487,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.52",
+      "date": "2024-09-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.52",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 841,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.53",
+      "date": "2024-10-14",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.53",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 714,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.54",
+      "date": "2024-10-21",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.54",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 2366,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.55",
+      "date": "2024-10-31",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.55",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 719,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.56",
+      "date": "2024-11-19",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 9
+      },
+      "delta_files": 2151,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.57",
+      "date": "2024-12-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.57",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 724,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.58",
+      "date": "2024-12-11",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+      "status": "aggregate-only",
+      "reason": "every record in the registry updated (111808 of 111808), no per-record list",
+      "declared": {
+        "added": 0,
+        "updated": 111808
+      },
+      "scope": "universal",
+      "records": {
+        "present": 250
+      }
+    },
+    {
+      "version": "v1.59",
+      "date": "2025-01-23",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.59",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 1,
+        "updated": 3
+      },
+      "delta_files": 1549,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 136 listed, 238 declared"
+      ]
+    },
+    {
+      "version": "v1.60",
+      "date": "2025-02-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 4
+      },
+      "delta_files": 1075,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.61",
+      "date": "2025-03-18",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.61",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 2,
+        "updated": 0
+      },
+      "delta_files": 943,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.62",
+      "date": "2025-03-27",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.62",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 1
+      },
+      "delta_files": 958,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.63",
+      "date": "2025-04-03",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.63",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 392,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.64",
+      "date": "2025-04-28",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 16
+      },
+      "delta_files": 1399,
+      "delta_complete": false
+    },
+    {
+      "version": "v1.65",
+      "date": "2025-05-05",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.65",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 776,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.66",
+      "date": "2025-05-20",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.66",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 413,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.67",
+      "date": "2025-06-24",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.67",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 2,
+        "updated": 2
+      },
+      "delta_files": 1412,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.68",
+      "date": "2025-07-15",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.68",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1001,
+      "delta_complete": false
+    },
+    {
+      "version": "v1.69",
+      "date": "2025-08-07",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.69",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 2
+      },
+      "delta_files": 1765,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.70",
+      "date": "2025-08-26",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.70",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 523,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.71",
+      "date": "2025-09-22",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 9
+      },
+      "delta_files": 983,
+      "delta_complete": true
+    },
+    {
+      "version": "v1.72",
+      "date": "2025-10-06",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.72",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 662,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 536 listed, 538 declared"
+      ]
+    },
+    {
+      "version": "v1.73",
+      "date": "2025-10-28",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.73",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 2707,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 1145 listed, 1983 declared"
+      ]
+    },
+    {
+      "version": "v1.74",
+      "date": "2025-11-24",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.74",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1591,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.0",
+      "date": "2025-12-16",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.0",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 0
+      },
+      "delta_files": 477,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.1",
+      "date": "2026-01-15",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.1",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 960,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.2",
+      "date": "2026-01-29",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.2",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 0,
+        "updated": 4
+      },
+      "delta_files": 2182,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 924 listed, 1128 declared"
+      ]
+    },
+    {
+      "version": "v2.3",
+      "date": "2026-02-24",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.3",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 2,
+        "updated": 0
+      },
+      "delta_files": 1215,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.4",
+      "date": "2026-03-12",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.4",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 1
+      },
+      "delta_files": 767,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.5",
+      "date": "2026-03-31",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.5",
+      "status": "classified",
+      "provenance": {
+        "added": "delta-comparison",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 2501,
+      "delta_complete": true,
+      "note_problems": [
+        "added: 2098 listed, 2108 declared",
+        "updated: 0 listed, 393 declared"
+      ]
+    },
+    {
+      "version": "v2.6",
+      "date": "2026-04-14",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.6",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 0
+      },
+      "delta_files": 1203,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.7",
+      "date": "2026-05-12",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.7",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 0,
+        "updated": 1
+      },
+      "delta_files": 1054,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.8",
+      "date": "2026-06-02",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 8,
+        "updated": 8
+      },
+      "delta_files": 2281,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 707 listed, 991 declared"
+      ]
+    },
+    {
+      "version": "v2.9",
+      "date": "2026-06-23",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "delta-comparison"
+      },
+      "records": {
+        "added": 8,
+        "updated": 5
+      },
+      "delta_files": 2431,
+      "delta_complete": true,
+      "note_problems": [
+        "updated: 70 listed, 523 declared"
+      ]
+    },
+    {
+      "version": "v2.10",
+      "date": "2026-07-20",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 25,
+        "updated": 13
+      },
+      "delta_files": 6411,
+      "delta_complete": true
+    },
+    {
+      "version": "v2.11",
+      "date": "2026-08-03",
+      "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.11",
+      "status": "classified",
+      "provenance": {
+        "added": "release-note",
+        "updated": "release-note"
+      },
+      "records": {
+        "added": 1,
+        "updated": 3
+      },
+      "delta_files": 3482,
+      "delta_complete": true
+    }
+  ],
+  "records": {
+    "000h6jb29": [
+      {
+        "version": "v1.59",
+        "event": "modified",
+        "date": "2025-01-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.59"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.49.1",
+        "event": "modified",
+        "date": "2024-07-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.49.1"
+      },
+      {
+        "version": "v1.48",
+        "event": "modified",
+        "date": "2024-06-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.48"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "001dmmw97": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.49",
+        "event": "added",
+        "date": "2024-07-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.49"
+      }
+    ],
+    "002mdge77": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "00490nx58": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "005f1n095": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "005md5539": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "007881467": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "007gt1a87": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "008qpg558": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00a208s56": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.23",
+        "event": "modified",
+        "date": "2023-04-12",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.23"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00byv7r88": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "00d22z552": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00e8pgs50": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00esbf302": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00ez2he07": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.13",
+        "event": "modified",
+        "date": "2022-11-15",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13"
+      },
+      {
+        "version": "v1.10",
+        "event": "modified",
+        "date": "2022-10-17",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.10"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00ezjw960": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.26",
+        "event": "added",
+        "date": "2023-05-25",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.26"
+      }
+    ],
+    "00f1ezm10": [
+      {
+        "version": "v1.59",
+        "event": "added",
+        "date": "2025-01-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.59"
+      }
+    ],
+    "00g3vrr12": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "00g4wce19": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00gfym921": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00htbzg76": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00kkpv737": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.55",
+        "event": "modified",
+        "date": "2024-10-31",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.55"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00me29179": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00mtc2v89": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00nc2d154": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00njqng43": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00nk1fh63": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00pvgnv60": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00qcpjs09": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00r302z28": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "00reyxa23": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00s5yp124": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00vjd4k74": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00xx3t779": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "00ynyd598": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0108xkp59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "012d0t602": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "013ambk20": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "013e7et93": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "013sda662": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "014zt3e74": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "01545pc85": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "015706c71": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "015e4mc09": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01653xx13": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.41",
+        "event": "added",
+        "date": "2024-02-13",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.41"
+      }
+    ],
+    "016xad343": [
+      {
+        "version": "v1.69",
+        "event": "modified",
+        "date": "2025-08-07",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.69"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "018723a84": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0198kn518": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01bf9rw71": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01bxpwm10": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01c997669": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01chd1z63": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01d2xqw69": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01dj9qb53": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.21",
+        "event": "added",
+        "date": "2023-03-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.21"
+      }
+    ],
+    "01drpqr75": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01dvske68": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.53",
+        "event": "withdrawn",
+        "date": "2024-10-14",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.53",
+        "basis": "delta-comparison"
+      },
+      {
+        "version": "v1.52",
+        "event": "added",
+        "date": "2024-09-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.52"
+      }
+    ],
+    "01ec7fw73": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01f7nea92": [
+      {
+        "version": "v2.4",
+        "event": "added",
+        "date": "2026-03-12",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.4"
+      }
+    ],
+    "01gggpc14": [
+      {
+        "version": "v2.0",
+        "event": "added",
+        "date": "2025-12-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.0"
+      }
+    ],
+    "01jdjjh55": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01jq4d775": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "01jty7g66": [
+      {
+        "version": "v1.59",
+        "event": "modified",
+        "date": "2025-01-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.59"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "v1.43",
+        "event": "modified",
+        "date": "2024-03-13",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.43"
+      },
+      {
+        "version": "v1.27",
+        "event": "modified",
+        "date": "2023-06-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.27"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01jx86h05": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.60",
+        "event": "added",
+        "date": "2025-02-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60"
+      }
+    ],
+    "01k089j70": [
+      {
+        "version": "v1.63",
+        "event": "added",
+        "date": "2025-04-03",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.63"
+      }
+    ],
+    "01kf4j136": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01ng6kd83": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "01nqmht92": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01p89z653": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01pjwgv56": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01pnwhg58": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "01ptm9403": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.54",
+        "event": "modified",
+        "date": "2024-10-21",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.54"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01qjbb734": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01rhrdz17": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01s776747": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01t4pxy10": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01t4pzq33": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01t4ttr56": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.60",
+        "event": "modified",
+        "date": "2025-02-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.51",
+        "event": "added",
+        "date": "2024-08-21",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.51"
+      }
+    ],
+    "01tspta37": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.10",
+        "event": "modified",
+        "date": "2022-10-17",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.10"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01tx9js75": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01v66s741": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01vbd1435": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.29",
+        "event": "added",
+        "date": "2023-07-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.29"
+      }
+    ],
+    "01vd6wz59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01y01jq30": [
+      {
+        "version": "v1.62",
+        "event": "modified",
+        "date": "2025-03-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.62"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01y99eb28": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "01z40a451": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01zkjwb76": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01zvnqb17": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "01zxatr28": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "01zy07c70": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.24",
+        "event": "added",
+        "date": "2023-04-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.24"
+      }
+    ],
+    "01zy2cs03": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.9",
+        "event": "modified",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.43",
+        "event": "modified",
+        "date": "2024-03-13",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.43"
+      },
+      {
+        "version": "v1.24",
+        "event": "modified",
+        "date": "2023-04-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.24"
+      },
+      {
+        "version": "v1.19",
+        "event": "modified",
+        "date": "2023-02-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.19"
+      },
+      {
+        "version": "v1.18",
+        "event": "modified",
+        "date": "2023-01-26",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.18"
+      },
+      {
+        "version": "v1.7",
+        "event": "modified",
+        "date": "2022-09-21",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.7"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "020268t49": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0202dx760": [
+      {
+        "version": "v2.11",
+        "event": "added",
+        "date": "2026-08-03",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.11"
+      }
+    ],
+    "020f8h126": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "020n3fw10": [
+      {
+        "version": "v2.9",
+        "event": "modified",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      },
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.1",
+        "event": "modified",
+        "date": "2022-06-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.1"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "020z28a80": [
+      {
+        "version": "v1.72",
+        "event": "modified",
+        "date": "2025-10-06",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.72"
+      },
+      {
+        "version": "v1.67",
+        "event": "added",
+        "date": "2025-06-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.67"
+      }
+    ],
+    "023g8mz36": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "023vb4t46": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "024ga3r86": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "024sq8w11": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "0252zrf32": [
+      {
+        "version": "v1.61",
+        "event": "added",
+        "date": "2025-03-18",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.61"
+      }
+    ],
+    "025a7t810": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "025zpy585": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0260qqv98": [
+      {
+        "version": "v1.67",
+        "event": "modified",
+        "date": "2025-06-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.67"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0260yv019": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "026374683": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "026rvyt77": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "026taa863": [
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "026zv7h71": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "028070c57": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0282rt868": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "028hv5492": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "029tvtf63": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "029yt9178": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "02a33b393": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02azwm483": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02b790a63": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02bcmhv69": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02dxkcn59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02h12bg79": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.29",
+        "event": "modified",
+        "date": "2023-07-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.29"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02hcvme33": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02hyyn853": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.41",
+        "event": "added",
+        "date": "2024-02-13",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.41"
+      }
+    ],
+    "02jskg402": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02k7w8856": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02kfbaj13": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "02khpps76": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02kj91m96": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02kv9xm28": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02m0s8558": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02na67p17": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02ns0w819": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "02nxnzz65": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02pc86x52": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02pfxyr52": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02q6x7761": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02q7ym472": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02r6dcw55": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02r724415": [
+      {
+        "version": "v2.2",
+        "event": "modified",
+        "date": "2026-01-29",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.2"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02rdrw497": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02rmvby88": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02rs64x70": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02sy3xj90": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02t26g637": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.35",
+        "event": "modified",
+        "date": "2023-10-26",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.35"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02t5bjk31": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02v4gph32": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02wt6e634": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02xx9xx26": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02y8hn179": [
+      {
+        "version": "v1.73",
+        "event": "modified",
+        "date": "2025-10-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.73"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "02yvvjj13": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "031vc2293": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "031whys72": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "031x70h91": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "033ynyj02": [
+      {
+        "version": "v2.2",
+        "event": "modified",
+        "date": "2026-01-29",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.2"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0344t9m71": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.25",
+        "event": "added",
+        "date": "2023-05-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.25"
+      }
+    ],
+    "035wqzf29": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "035xba693": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0364hq403": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "036e5z664": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "0371sxw13": [
+      {
+        "version": "v1.67",
+        "event": "added",
+        "date": "2025-06-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.67"
+      }
+    ],
+    "037v07e55": [
+      {
+        "version": "v2.3",
+        "event": "added",
+        "date": "2026-02-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.3"
+      }
+    ],
+    "0387jng26": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0389brp89": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "038f3wn67": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03a5xsc56": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.57",
+        "event": "modified",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.57"
+      },
+      {
+        "version": "v1.35",
+        "event": "modified",
+        "date": "2023-10-26",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.35"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03acsgj85": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03ajfdb10": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03aysbj82": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03chegm58": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03cmwaa13": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03cr5e788": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03d8ync95": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03dyvyv84": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03e5gcq07": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03ekpdz59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.44",
+        "event": "modified",
+        "date": "2024-03-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.44"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03famzf42": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03fry2j13": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.13",
+        "event": "modified",
+        "date": "2022-11-15",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03h61ra63": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03hayrn10": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03hw0pv02": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03hx70e06": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03hzkp562": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03j1wg370": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03k29yn40": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "03m629g08": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.13",
+        "event": "modified",
+        "date": "2022-11-15",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03mxqcg82": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03na4j812": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03p8xz723": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03pqf0084": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03qm54y80": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03r41zp91": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03rymtb94": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "03s7gtk40": [
+      {
+        "version": "v2.11",
+        "event": "modified",
+        "date": "2026-08-03",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.11"
+      },
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.4",
+        "event": "modified",
+        "date": "2026-03-12",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.4"
+      },
+      {
+        "version": "v1.65",
+        "event": "modified",
+        "date": "2025-05-05",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.65"
+      },
+      {
+        "version": "v1.60",
+        "event": "modified",
+        "date": "2025-02-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60"
+      },
+      {
+        "version": "v1.59",
+        "event": "modified",
+        "date": "2025-01-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.59"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03vvewn46": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03waye253": [
+      {
+        "version": "v2.7",
+        "event": "modified",
+        "date": "2026-05-12",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.7"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03wf51b65": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "v1.41",
+        "event": "modified",
+        "date": "2024-02-13",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.41"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03xgcq477": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03xn5qf90": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03xp99m49": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "03zxjdk07": [
+      {
+        "version": "v1.60",
+        "event": "modified",
+        "date": "2025-02-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "042031a56": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0424v9690": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04279xj48": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "042aqky30": [
+      {
+        "version": "v2.11",
+        "event": "modified",
+        "date": "2026-08-03",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.11"
+      },
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.9",
+        "event": "modified",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.67",
+        "event": "modified",
+        "date": "2025-06-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.67"
+      },
+      {
+        "version": "v1.66",
+        "event": "modified",
+        "date": "2025-05-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.66"
+      },
+      {
+        "version": "v1.65",
+        "event": "modified",
+        "date": "2025-05-05",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.65"
+      },
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.60",
+        "event": "modified",
+        "date": "2025-02-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.60"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.49.1",
+        "event": "modified",
+        "date": "2024-07-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.49.1"
+      },
+      {
+        "version": "v1.47",
+        "event": "modified",
+        "date": "2024-05-30",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.47"
+      },
+      {
+        "version": "v1.27",
+        "event": "modified",
+        "date": "2023-06-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.27"
+      },
+      {
+        "version": "v1.25",
+        "event": "modified",
+        "date": "2023-05-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.25"
+      },
+      {
+        "version": "v1.24",
+        "event": "modified",
+        "date": "2023-04-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.24"
+      },
+      {
+        "version": "v1.23",
+        "event": "modified",
+        "date": "2023-04-12",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.23"
+      },
+      {
+        "version": "v1.21",
+        "event": "modified",
+        "date": "2023-03-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.21"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "042b69396": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.19",
+        "event": "modified",
+        "date": "2023-02-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.19"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "042wjdg05": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.47",
+        "event": "added",
+        "date": "2024-05-30",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.47"
+      }
+    ],
+    "0441q2c30": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0445b1867": [
+      {
+        "version": "v2.8",
+        "event": "added",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      }
+    ],
+    "0448sak71": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "044s59k57": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "045jad561": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "045jj6w47": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04690g322": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "046arg368": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "046b28292": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "046dsb945": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04904ph59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04920af33": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "049ag6g97": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "049g3g548": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04ajdc372": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "04b55a558": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04d8gk172": [
+      {
+        "version": "v1.62",
+        "event": "added",
+        "date": "2025-03-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.62"
+      }
+    ],
+    "04e72jx49": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "04ee5c022": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04ekv3k57": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04f2bnr67": [
+      {
+        "version": "v2.3",
+        "event": "added",
+        "date": "2026-02-24",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.3"
+      }
+    ],
+    "04facpy29": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.44",
+        "event": "modified",
+        "date": "2024-03-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.44"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04gpj3340": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04j7sfe76": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04jghfn91": [
+      {
+        "version": "v1.61",
+        "event": "added",
+        "date": "2025-03-18",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.61"
+      }
+    ],
+    "04jn1bv21": [
+      {
+        "version": "v1.70",
+        "event": "added",
+        "date": "2025-08-26",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.70"
+      }
+    ],
+    "04jpd4145": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04kdb0j04": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.13",
+        "event": "modified",
+        "date": "2022-11-15",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04kmayk86": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04kqdzt33": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "04m9sdk34": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "04ms51788": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04msbx814": [
+      {
+        "version": "v2.2",
+        "event": "modified",
+        "date": "2026-01-29",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.2"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.35",
+        "event": "modified",
+        "date": "2023-10-26",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.35"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04nzxdc92": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04pnnsh51": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04pphg116": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04r7vw960": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04rreza77": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04tjfqn96": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.13",
+        "event": "modified",
+        "date": "2022-11-15",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.13"
+      },
+      {
+        "version": "v1.0",
+        "event": "modified",
+        "date": "2022-03-17",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.0"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04tnrm315": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "04v3qs268": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04vbenz24": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04vx4mk32": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04w19j463": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04wkp4f46": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.36",
+        "event": "modified",
+        "date": "2023-11-08",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.36"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04wn6w972": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04wqsqf86": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04wtxqn67": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04x45f476": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.11",
+        "event": "modified",
+        "date": "2022-10-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.11"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04ys3xe45": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "04za5zm41": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v2.9",
+        "event": "modified",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.24",
+        "event": "modified",
+        "date": "2023-04-27",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.24"
+      },
+      {
+        "version": "v1.21",
+        "event": "modified",
+        "date": "2023-03-16",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.21"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04zb59n70": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04zmnq951": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04zp2d344": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04zws1j77": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "04zwys509": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05090cn78": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "050bn6e97": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0515r0e39": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0525npv05": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0527w8j59": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "052k2qm78": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "053x0fn40": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "054kgce12": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "0567ea759": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "056andb48": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "056gvz809": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "056qj1t15": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "056tzgr32": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "056wznz27": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "058rtc669": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05aa04p38": [
+      {
+        "version": "v2.10",
+        "event": "added",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      }
+    ],
+    "05b8d3w18": [
+      {
+        "version": "v2.9",
+        "event": "modified",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05bmabg32": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05ch34p88": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05dad0z78": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05ejpyv46": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05h85dx49": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05h8wjh50": [
+      {
+        "version": "v1.71",
+        "event": "modified",
+        "date": "2025-09-22",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.71"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05hrn3e05": [
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05jpsw268": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05jqmyp98": [
+      {
+        "version": "v2.9",
+        "event": "added",
+        "date": "2026-06-23",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.9"
+      }
+    ],
+    "05jv9s411": [
+      {
+        "version": "v1.69",
+        "event": "modified",
+        "date": "2025-08-07",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.69"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05k9vmz93": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05ke5hb07": [
+      {
+        "version": "v2.11",
+        "event": "modified",
+        "date": "2026-08-03",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.11"
+      },
+      {
+        "version": "v2.8",
+        "event": "modified",
+        "date": "2026-06-02",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.8"
+      },
+      {
+        "version": "v1.64",
+        "event": "modified",
+        "date": "2025-04-28",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.64"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05ktfmr66": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05medrv10": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05n0xah55": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05nm1mt28": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05nt5a548": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05q5pk319": [
+      {
+        "version": "v2.10",
+        "event": "modified",
+        "date": "2026-07-20",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.10"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "v1.56",
+        "event": "modified",
+        "date": "2024-11-19",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.56"
+      },
+      {
+        "version": "v1.42",
+        "event": "modified",
+        "date": "2024-02-21",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.42"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05rxdtg07": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05s928n76": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05sa17k06": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05smgv327": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05smvaw93": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05tvfb833": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05v0k1d18": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05wnef833": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05xptf671": [
+      {
+        "version": "v2.2",
+        "event": "modified",
+        "date": "2026-01-29",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v2.2"
+      },
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ],
+    "05y895e77": [
+      {
+        "version": "v1.58",
+        "event": "registry-wide",
+        "date": "2024-12-11",
+        "url": "https://github.com/ror-community/ror-updates/releases/tag/v1.58",
+        "basis": "release-note"
+      },
+      {
+        "version": "pre-v1.0",
+        "event": "baseline",
+        "date": "2021-09-23"
+      }
+    ]
+  }
+}

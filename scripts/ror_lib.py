@@ -17,7 +17,9 @@ from __future__ import annotations
 import csv
 import io
 import json
+import os
 import re
+import tempfile
 import time
 import unicodedata
 import urllib.parse
@@ -48,6 +50,7 @@ DATA_DIR = REPO_ROOT / "data"
 RECORDS_DIR = DATA_DIR / "records"
 REUSE_DIR = DATA_DIR / "reuse"
 META_PATH = DATA_DIR / "meta.json"
+HISTORY_PATH = DATA_DIR / "history.json"
 
 
 # --- HTTP --------------------------------------------------------------------
@@ -240,6 +243,24 @@ def load_saxon_subset(zip_path: Path) -> tuple[list[dict], str]:
 
     subset = [r for r in source if r.get("id") in saxon_ids]
     return subset, storage_schema
+
+
+def dump_record_ids(zip_path: Path) -> set[str]:
+    """Every ROR id suffix present in a dump ZIP, across all schemas it carries.
+
+    Used to answer "was this record already in release X?" for the whole
+    registry, not just the Saxon subset -- so a presence statement never has to
+    be guessed from the subset's own first appearance.
+    """
+    ids: set[str] = set()
+    with zipfile.ZipFile(zip_path) as zf:
+        for member in zf.namelist():
+            if not member.endswith(".json") or member.startswith("__MACOSX"):
+                continue
+            for rec in json.loads(zf.read(member)):
+                if rec.get("id"):
+                    ids.add(ror_suffix(rec))
+    return ids
 
 
 def detect_schema(records: list[dict]) -> str:
@@ -476,6 +497,26 @@ def dump_json(obj, path: Path) -> None:
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(obj, fh, ensure_ascii=False, indent=2, sort_keys=False)
         fh.write("\n")
+
+
+def dump_json_atomic(obj, path: Path) -> None:
+    """Write JSON via a same-directory temp file and one ``os.replace``.
+
+    Same output as :func:`dump_json`, but a crash mid-write leaves the previous
+    file intact rather than a half-written one. Same directory on purpose:
+    ``os.replace`` is only atomic within a filesystem.
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_name = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.", suffix=".tmp")
+    tmp = Path(tmp_name)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(obj, fh, ensure_ascii=False, indent=2, sort_keys=False)
+            fh.write("\n")
+        os.replace(tmp, path)
+    except BaseException:
+        tmp.unlink(missing_ok=True)
+        raise
 
 
 def write_subset(records: list[dict], schema: str, data_dir: Path = DATA_DIR) -> None:

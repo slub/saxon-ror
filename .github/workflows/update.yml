@@ -37,6 +37,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
+        with:
+          # The release-history step reads which records changed with each past
+          # dump from the commit history, so a shallow clone would silently
+          # narrow it and make the overlay disagree with history-retry.yml.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -72,6 +77,44 @@ jobs:
       - name: Update ROR subset
         if: steps.preflight.outputs.fresh != 'true'
         run: python scripts/update_ror.py
+
+      # continue-on-error on purpose: the release history is provenance about a
+      # dump we have already downloaded, so a GitHub outage -- or a release ROR
+      # has not annotated yet -- must not cost us the Zenodo data update.
+      - name: Update ROR release history
+        id: history
+        if: steps.preflight.outputs.fresh != 'true'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python scripts/update_history.py \
+            --report /tmp/history-report.md \
+            --warning /tmp/history-warning.md
+          cat /tmp/history-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      # A crashed generator leaves no warning file of its own, so write one here
+      # and let the PR body below pick it up either way.
+      - name: Flag a failed history run
+        if: steps.history.outcome == 'failure'
+        run: |
+          set -euo pipefail
+          {
+            echo "> [!WARNING]"
+            echo "> The ROR release-history generator failed for this dump --"
+            echo "> check the *Update ROR release history* step. The data below is"
+            echo "> unaffected, and \`data/history.json\` was left as it was; the"
+            echo "> daily history retry will pick the release up."
+          } > /tmp/history-warning.md
+
+      - name: Report unclassified releases
+        if: steps.preflight.outputs.fresh != 'true'
+        run: |
+          set -euo pipefail
+          if [ -f /tmp/history-warning.md ]; then
+            cat /tmp/history-warning.md >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       # Search only the records this dump touched; curation-seed.yml sweeps the
       # rest weekly.
@@ -252,10 +295,17 @@ jobs:
           PY
               echo ""
             fi
+            if ! git diff --cached --quiet -- data/history.json; then
+              echo "Release history overlay refreshed (\`data/history.json\`)."
+              echo ""
+            fi
             # `if` rather than `[ -f ] && cat`: a missing file (the normal case)
             # would end this group on a non-zero status and fail the step.
             if [ -f /tmp/curation-warning.md ]; then
               cat /tmp/curation-warning.md
+            fi
+            if [ -f /tmp/history-warning.md ]; then
+              cat /tmp/history-warning.md
             fi
           } > /tmp/pr-body.md
 
