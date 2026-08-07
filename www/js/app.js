@@ -22,6 +22,11 @@
   ];
   const ALL_STATUSES = ["active", "inactive", "withdrawn"];
 
+  // What makes a location Saxon, mirroring the selection the dataset itself is
+  // built with (see _is_saxon_v2 in scripts/ror_lib.py). A record earns its
+  // place here through one such location; its other sites ride along.
+  const SAXONY = { countryCode: "DE", subdivisionCode: "SN", subdivisionName: "Saxony" };
+
   // ROR's curation tracker — records are corrected upstream there, and each
   // record links to its curation requests (see data/curation.json). Corrections
   // can be filed via ROR's web form or directly on GitHub.
@@ -92,17 +97,48 @@
   function acronyms(rec) {
     return namesByType(rec, "acronym").map((n) => n.value);
   }
-  function city(rec) {
-    for (const loc of rec.locations || []) {
-      const g = loc.geonames_details || {};
-      if (g.name) return g.name;
-    }
-    return "";
+  // A record may carry more than one location in v2, and a record belongs to
+  // this subset because of any one of them — the Saxon site of an organization
+  // headquartered elsewhere counts. Nothing may stop at locations[0]. Source
+  // order is kept; blanks and repeats are dropped.
+  function geonamesDetails(rec) {
+    return (rec.locations || []).map((loc) => (loc && loc.geonames_details) || {});
+  }
+  function distinct(values) {
+    return Array.from(
+      new Set(values.map((v) => (v == null ? "" : String(v).trim())).filter(Boolean))
+    );
+  }
+  function cities(rec) {
+    return distinct(geonamesDetails(rec).map((g) => g.name));
+  }
+  function isSaxonLocation(g) {
+    return (
+      g.country_code === SAXONY.countryCode &&
+      (g.country_subdivision_code === SAXONY.subdivisionCode ||
+        g.country_subdivision_name === SAXONY.subdivisionName)
+    );
+  }
+  // The cities this subset is about. A record still shows and matches all of
+  // its cities, but an out-of-state site is not something to filter Saxony by.
+  function saxonCities(rec) {
+    return distinct(geonamesDetails(rec).filter(isSaxonLocation).map((g) => g.name));
+  }
+  function formattedLocations(rec) {
+    return distinct(
+      geonamesDetails(rec).map((g) =>
+        [g.name, g.country_subdivision_name, g.country_name].filter(Boolean).join(", ")
+      )
+    );
   }
   function allSearchTerms(rec) {
-    // Every name variant + the ROR id (full url and suffix).
+    // Every name variant + the ROR id (full url and suffix) + every city — a
+    // place is how people reach for a record they cannot name exactly, and it
+    // is on the row in front of them. Subdivision and country are left out:
+    // "Saxony" would match the whole subset and tell nobody anything.
     const terms = (rec.names || []).map((n) => n.value);
     terms.push(rec.id || "", suffix(rec));
+    terms.push(...cities(rec));
     return terms.map(normalize);
   }
 
@@ -182,15 +218,15 @@
       );
     });
 
-    // Cities
-    const cities = Array.from(new Set(state.records.map(city).filter(Boolean))).sort(
-      (a, b) => a.localeCompare(b)
+    // Cities — every Saxon location of every record, each city once
+    const cityNames = distinct(state.records.flatMap(saxonCities)).sort((a, b) =>
+      a.localeCompare(b)
     );
     const sel = document.getElementById("filter-city");
     const current = state.filters.city;
     sel.innerHTML = "";
     sel.appendChild(el("option", { text: t("allCities"), attrs: { value: "" } }));
-    cities.forEach((c) =>
+    cityNames.forEach((c) =>
       sel.appendChild(el("option", { text: c, attrs: { value: c } }))
     );
     sel.value = current;
@@ -213,11 +249,14 @@
     const f = state.filters;
     if (f.statuses.size && !f.statuses.has(rec.status)) return false;
     if (f.types.size && !(rec.types || []).some((x) => f.types.has(x))) return false;
-    if (f.city && city(rec) !== f.city) return false;
+    if (f.city && !cities(rec).includes(f.city)) return false;
     if (f.q) {
-      const q = normalize(f.q);
+      // Words are ANDed and may land in different terms, so "care dresden"
+      // reaches a Dresden record whose name carries only one of the two. A
+      // single word behaves exactly as it always did.
+      const words = normalize(f.q).split(/\s+/).filter(Boolean);
       if (!rec._terms) rec._terms = allSearchTerms(rec);
-      if (!rec._terms.some((term) => term.includes(q))) return false;
+      if (!words.every((w) => rec._terms.some((term) => term.includes(w)))) return false;
     }
     return true;
   }
@@ -249,6 +288,7 @@
       el("span", { class: `badge badge-${x}`, text: t(`type_${x}`) })
     );
     const acr = acronyms(rec);
+    const cityNames = cities(rec);
 
     const nameLink = el("a", {
       class: "result-name",
@@ -258,7 +298,7 @@
 
     const meta = el("div", { class: "result-meta" }, [
       acr.length ? el("span", { class: "acronym", text: acr.join(", ") }) : null,
-      city(rec) ? el("span", { class: "city", text: city(rec) }) : null,
+      cityNames.length ? el("span", { class: "city", text: cityNames.join(" · ") }) : null,
       rec.status !== "active"
         ? el("span", { class: `status status-${rec.status}`, text: t(`status_${rec.status}`) })
         : null,
@@ -370,10 +410,16 @@
     // Details
     const details = [];
     if (rec.established) details.push(kv(t("established"), String(rec.established)));
-    const loc = (rec.locations || [])[0];
-    if (loc && loc.geonames_details) {
-      const g = loc.geonames_details;
-      details.push(kv(t("location"), [g.name, g.country_subdivision_name, g.country_name].filter(Boolean).join(", ")));
+    const locs = formattedLocations(rec);
+    if (locs.length) {
+      // Same stacked-values layout the name lists use, so several locations
+      // read as separate rows rather than one run-on line.
+      const box = el(
+        "div",
+        { class: "name-values" },
+        locs.map((l) => el("span", { class: "name-value", text: l }))
+      );
+      details.push(kv(locs.length > 1 ? t("locations") : t("location"), box));
     }
     (rec.links || []).forEach((l) => {
       const label = l.type === "wikipedia" ? t("wikipedia") : t("websiteLabel");
