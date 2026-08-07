@@ -132,9 +132,13 @@
     );
   }
   function allSearchTerms(rec) {
-    // Every name variant + the ROR id (full url and suffix).
+    // Every name variant + the ROR id (full url and suffix) + every city — a
+    // place is how people reach for a record they cannot name exactly, and it
+    // is on the row in front of them. Subdivision and country are left out:
+    // "Saxony" would match the whole subset and tell nobody anything.
     const terms = (rec.names || []).map((n) => n.value);
     terms.push(rec.id || "", suffix(rec));
+    terms.push(...cities(rec));
     return terms.map(normalize);
   }
 
@@ -247,9 +251,12 @@
     if (f.types.size && !(rec.types || []).some((x) => f.types.has(x))) return false;
     if (f.city && !cities(rec).includes(f.city)) return false;
     if (f.q) {
-      const q = normalize(f.q);
+      // Words are ANDed and may land in different terms, so "care dresden"
+      // reaches a Dresden record whose name carries only one of the two. A
+      // single word behaves exactly as it always did.
+      const words = normalize(f.q).split(/\s+/).filter(Boolean);
       if (!rec._terms) rec._terms = allSearchTerms(rec);
-      if (!rec._terms.some((term) => term.includes(q))) return false;
+      if (!words.every((w) => rec._terms.some((term) => term.includes(w)))) return false;
     }
     return true;
   }
