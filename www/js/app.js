@@ -92,12 +92,27 @@
   function acronyms(rec) {
     return namesByType(rec, "acronym").map((n) => n.value);
   }
-  function city(rec) {
-    for (const loc of rec.locations || []) {
-      const g = loc.geonames_details || {};
-      if (g.name) return g.name;
-    }
-    return "";
+  // A record may carry more than one location in v2, and a record belongs to
+  // this subset because of any one of them — the Saxon site of an organization
+  // headquartered elsewhere counts. Nothing may stop at locations[0]. Source
+  // order is kept; blanks and repeats are dropped.
+  function geonamesDetails(rec) {
+    return (rec.locations || []).map((loc) => (loc && loc.geonames_details) || {});
+  }
+  function distinct(values) {
+    return Array.from(
+      new Set(values.map((v) => (v == null ? "" : String(v).trim())).filter(Boolean))
+    );
+  }
+  function cities(rec) {
+    return distinct(geonamesDetails(rec).map((g) => g.name));
+  }
+  function formattedLocations(rec) {
+    return distinct(
+      geonamesDetails(rec).map((g) =>
+        [g.name, g.country_subdivision_name, g.country_name].filter(Boolean).join(", ")
+      )
+    );
   }
   function allSearchTerms(rec) {
     // Every name variant + the ROR id (full url and suffix).
@@ -182,15 +197,15 @@
       );
     });
 
-    // Cities
-    const cities = Array.from(new Set(state.records.map(city).filter(Boolean))).sort(
-      (a, b) => a.localeCompare(b)
+    // Cities — every location of every record, each city once
+    const cityNames = distinct(state.records.flatMap(cities)).sort((a, b) =>
+      a.localeCompare(b)
     );
     const sel = document.getElementById("filter-city");
     const current = state.filters.city;
     sel.innerHTML = "";
     sel.appendChild(el("option", { text: t("allCities"), attrs: { value: "" } }));
-    cities.forEach((c) =>
+    cityNames.forEach((c) =>
       sel.appendChild(el("option", { text: c, attrs: { value: c } }))
     );
     sel.value = current;
@@ -213,7 +228,7 @@
     const f = state.filters;
     if (f.statuses.size && !f.statuses.has(rec.status)) return false;
     if (f.types.size && !(rec.types || []).some((x) => f.types.has(x))) return false;
-    if (f.city && city(rec) !== f.city) return false;
+    if (f.city && !cities(rec).includes(f.city)) return false;
     if (f.q) {
       const q = normalize(f.q);
       if (!rec._terms) rec._terms = allSearchTerms(rec);
@@ -249,6 +264,7 @@
       el("span", { class: `badge badge-${x}`, text: t(`type_${x}`) })
     );
     const acr = acronyms(rec);
+    const cityNames = cities(rec);
 
     const nameLink = el("a", {
       class: "result-name",
@@ -258,7 +274,7 @@
 
     const meta = el("div", { class: "result-meta" }, [
       acr.length ? el("span", { class: "acronym", text: acr.join(", ") }) : null,
-      city(rec) ? el("span", { class: "city", text: city(rec) }) : null,
+      cityNames.length ? el("span", { class: "city", text: cityNames.join(" · ") }) : null,
       rec.status !== "active"
         ? el("span", { class: `status status-${rec.status}`, text: t(`status_${rec.status}`) })
         : null,
@@ -370,10 +386,16 @@
     // Details
     const details = [];
     if (rec.established) details.push(kv(t("established"), String(rec.established)));
-    const loc = (rec.locations || [])[0];
-    if (loc && loc.geonames_details) {
-      const g = loc.geonames_details;
-      details.push(kv(t("location"), [g.name, g.country_subdivision_name, g.country_name].filter(Boolean).join(", ")));
+    const locs = formattedLocations(rec);
+    if (locs.length) {
+      // Same stacked-values layout the name lists use, so several locations
+      // read as separate rows rather than one run-on line.
+      const box = el(
+        "div",
+        { class: "name-values" },
+        locs.map((l) => el("span", { class: "name-value", text: l }))
+      );
+      details.push(kv(locs.length > 1 ? t("locations") : t("location"), box));
     }
     (rec.links || []).forEach((l) => {
       const label = l.type === "wikipedia" ? t("wikipedia") : t("websiteLabel");
