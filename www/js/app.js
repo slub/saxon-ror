@@ -22,6 +22,11 @@
   ];
   const ALL_STATUSES = ["active", "inactive", "withdrawn"];
 
+  // What makes a location Saxon, mirroring the selection the dataset itself is
+  // built with (see _is_saxon_v2 in scripts/ror_lib.py). A record earns its
+  // place here through one such location; its other sites ride along.
+  const SAXONY = { countryCode: "DE", subdivisionCode: "SN", subdivisionName: "Saxony" };
+
   // ROR's curation tracker — records are corrected upstream there, and each
   // record links to its curation requests (see data/curation.json). Corrections
   // can be filed via ROR's web form or directly on GitHub.
@@ -106,6 +111,18 @@
   }
   function cities(rec) {
     return distinct(geonamesDetails(rec).map((g) => g.name));
+  }
+  function isSaxonLocation(g) {
+    return (
+      g.country_code === SAXONY.countryCode &&
+      (g.country_subdivision_code === SAXONY.subdivisionCode ||
+        g.country_subdivision_name === SAXONY.subdivisionName)
+    );
+  }
+  // The cities this subset is about. A record still shows and matches all of
+  // its cities, but an out-of-state site is not something to filter Saxony by.
+  function saxonCities(rec) {
+    return distinct(geonamesDetails(rec).filter(isSaxonLocation).map((g) => g.name));
   }
   function formattedLocations(rec) {
     return distinct(
@@ -197,8 +214,8 @@
       );
     });
 
-    // Cities — every location of every record, each city once
-    const cityNames = distinct(state.records.flatMap(cities)).sort((a, b) =>
+    // Cities — every Saxon location of every record, each city once
+    const cityNames = distinct(state.records.flatMap(saxonCities)).sort((a, b) =>
       a.localeCompare(b)
     );
     const sel = document.getElementById("filter-city");
