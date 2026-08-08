@@ -53,10 +53,22 @@ its `release-note` provenance however many records elsewhere in the same release
 stayed open — a conflict over one record does not retract what the listing
 stated about the records it named and omitted.
 
-A release is reported `classified` only when every section has provenance and no
-record was left open; otherwise it is `partial`, so the remaining uncertainty
-reaches the run summary and the pull-request warning instead of being buried in
-a status.
+That judgement is only reached by a release that answered at least one section.
+Such a release is reported `classified` when every section has provenance and no
+record was left open, and `partial` where either fell short — so the remaining
+uncertainty reaches the run summary and the pull-request warning instead of
+being buried in a status. v1.49.1 is the shape: a validated `Records updated`
+listing, nothing answering for additions, and therefore `partial` without a
+single unresolved record.
+
+A release that answered no section at all is never `partial`, because there is
+no partial answer to report:
+
+| Release status | When |
+| --- | --- |
+| `aggregate-only` | A counts-only note described the release in the whole, and ROR shipped no delta |
+| `unavailable` | Nothing answered — no usable section, and no delta whose size the declared counts corroborate |
+| `pending` | The same, while that release is still the newest one |
 
 ## Membership and payload freshness
 
@@ -120,8 +132,8 @@ no record list, and ROR ships no delta for them either. Those are
 `aggregate-only`: complete statements of a different shape rather than gaps.
 Both halves of that are required. Where ROR did ship a delta, the delta is the
 per-record artifact and reading it is exactly what can leave a record
-`unresolved`, so such a release is reported as unresolved rather than as an
-established aggregate.
+`unresolved`, so such a release is reported `unavailable` (or `pending`) rather
+than as an established aggregate.
 
 What an aggregate means per record depends on the arithmetic. When the declared
 `Records updated` equals the declared `Total organizations`, the release updated
@@ -134,7 +146,10 @@ provenance.
 
 ## Non-events
 
-Anything still unanswered gets an explicit non-event rather than a guess:
+Anything still unanswered gets an explicit non-event rather than a guess. These
+sit on the record, and `pending` and `unavailable` carry the same meaning here
+as they do on the release above — a record picks them up from the release that
+could not answer for it:
 
 | Non-event | Written when |
 | --- | --- |
