@@ -5,7 +5,8 @@ A derived overlay, keyed by ROR id suffix, alongside the verbatim records --
 never inside them. Event types come from official ROR publication artifacts and
 from nothing else: release-note sections where they state the answer, the
 deployed record deltas compared against prior official state where they do not. Saxon
-ROR's own git history never classifies anything. See the README for the model.
+ROR's own git history never classifies anything. See docs/record-history.md for
+the model.
 
 Usage:
     python scripts/update_history.py                 # rescan and rewrite

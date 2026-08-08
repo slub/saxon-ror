@@ -8,7 +8,7 @@ each section against the count the note declares for it.
 It is not the only source of classification: where a section is missing or cut
 short, ``ror_records.py`` supplies the release's deployed record delta and
 ``update_history.py`` decides between them. Nothing here reads record JSON or
-git differences -- see the README for the whole model.
+git differences -- see docs/record-history.md for the whole model.
 
 Standard library only, matching the rest of ``scripts/``.
 """
