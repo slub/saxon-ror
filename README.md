@@ -2,7 +2,7 @@
 
 A curated, regularly updated subset of the Research Organization Registry (ROR) containing every organization located in Saxony (Sachsen), Germany — plus a small, deterministic browser to search it.
 
-Maintained by the Saxon State and University Library (SLUB) Dresden since July 3, 2026. This is a community subset and **not an official ROR product**: ror.org remains the authoritative source, and this filtered copy may lag behind the live registry between updates.
+Maintained by the Saxon State and University Library (SLUB) Dresden since July 3, 2026. This is a community subset and not an official ROR product. ror.org remains the authoritative source, and this filtered copy may lag behind the live registry between updates.
 
 ## Quick start
 
@@ -56,7 +56,7 @@ For issues with *this repository* specifically (the website, scripts, or the fil
 
 ## Record history
 
-A record's detail page carries a **ROR record history** card with two separate groups, because they answer different questions. *Releases* is publication provenance: which official ROR release published or changed the record. *Curation requests* are the issues that asked for a change. Some records have no linked public request, and the card then says so rather than guessing why.
+A record's detail page carries a *ROR record history* card with two separate groups, because they answer different questions. *Releases* is publication provenance: which official ROR release published or changed the record. *Curation requests* are the issues that asked for a change. Some records have no linked public request, and the card then says so rather than guessing why.
 
 `scripts/update_history.py` writes the release side to `data/history.json`, a derived overlay keyed by ROR ID suffix; the record files themselves stay verbatim. Classifications come exclusively from official ROR publication artifacts — never from Saxon ROR's own git history — and not exclusively from release-note tables. Three artifacts contribute:
 
