@@ -17,10 +17,10 @@
     "VNG – Verbundnetz Gas"
   ],
   "repositories": [],
-  "works_count": 38,
-  "cited_by_count": 422,
+  "works_count": 37,
+  "cited_by_count": 424,
   "summary_stats": {
-    "2yr_mean_citedness": 1.2857142857142858,
+    "2yr_mean_citedness": 1.5,
     "h_index": 6,
     "i10_index": 5
   },
@@ -45,14 +45,14 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 1,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
       "year": 2025,
       "works_count": 3,
-      "oa_works_count": 1,
+      "oa_works_count": 0,
       "cited_by_count": 9
     },
     {
@@ -89,7 +89,7 @@
       "year": 2013,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 97
+      "cited_by_count": 99
     },
     {
       "year": 2010,
@@ -102,7 +102,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210157698",
-      "works_count": 38
+      "works_count": 37
     }
   ],
   "topics": [
@@ -431,24 +431,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
-      "count": 1,
-      "score": 0.11680000275373459,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10282",
       "display_name": "Financial Risk and Volatility Modeling",
       "count": 1,
@@ -555,13 +537,31 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10881",
+      "display_name": "Blood Coagulation and Thrombosis Mechanisms",
+      "count": 1,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13389",
       "display_name": "German Economic Analysis & Policies",
-      "value": 0.0001766,
+      "value": 0.0001734,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -578,7 +578,7 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 0.0001659,
+      "value": 0.0001635,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -595,7 +595,7 @@
     {
       "id": "https://openalex.org/T10910",
       "display_name": "Corporate Governance and Management",
-      "value": 0.000104,
+      "value": 0.0001032,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -610,26 +610,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13287",
-      "display_name": "Robotic Process Automation Applications",
-      "value": 0.000102,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14390",
       "display_name": "Real estate and construction management",
-      "value": 9.98e-05,
+      "value": 9.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -644,9 +627,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13287",
+      "display_name": "Robotic Process Automation Applications",
+      "value": 9.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 9.46e-05,
+      "value": 9.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -663,7 +663,7 @@
     {
       "id": "https://openalex.org/T14481",
       "display_name": "Renewable Energy and Sustainability",
-      "value": 6.1e-05,
+      "value": 5.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -680,7 +680,7 @@
     {
       "id": "https://openalex.org/T13711",
       "display_name": "Environmental Science and Technology",
-      "value": 5.08e-05,
+      "value": 4.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1303",
         "display_name": "Biochemistry"
@@ -697,7 +697,7 @@
     {
       "id": "https://openalex.org/T13655",
       "display_name": "Canadian Policy and Governance",
-      "value": 5.04e-05,
+      "value": 4.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -712,26 +712,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14401",
-      "display_name": "Technology, Environment, Urban Planning",
-      "value": 4.1e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13603",
       "display_name": "Corporate Social Responsibility and Sustainability",
-      "value": 4.04e-05,
+      "value": 3.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -748,7 +731,7 @@
     {
       "id": "https://openalex.org/T14404",
       "display_name": "European Socioeconomic and Political Studies",
-      "value": 4.03e-05,
+      "value": 3.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -763,9 +746,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14401",
+      "display_name": "Technology, Environment, Urban Planning",
+      "value": 3.9e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13882",
       "display_name": "Research studies in Vietnam",
-      "value": 3.98e-05,
+      "value": 3.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -782,7 +782,7 @@
     {
       "id": "https://openalex.org/T13459",
       "display_name": "Public Administration and Political Analysis",
-      "value": 3.59e-05,
+      "value": 3.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -799,7 +799,7 @@
     {
       "id": "https://openalex.org/T14166",
       "display_name": "European Monetary and Fiscal Policies",
-      "value": 2.97e-05,
+      "value": 2.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2003",
         "display_name": "Finance"
@@ -816,7 +816,7 @@
     {
       "id": "https://openalex.org/T13901",
       "display_name": "State Capitalism and Financial Governance",
-      "value": 2.86e-05,
+      "value": 2.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -833,7 +833,7 @@
     {
       "id": "https://openalex.org/T11938",
       "display_name": "ERP Systems Implementation and Impact",
-      "value": 2.85e-05,
+      "value": 2.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -850,7 +850,7 @@
     {
       "id": "https://openalex.org/T13064",
       "display_name": "Dutch Social and Cultural Studies",
-      "value": 2.8e-05,
+      "value": 2.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -867,7 +867,7 @@
     {
       "id": "https://openalex.org/T14389",
       "display_name": "Innovation, Technology, and Society",
-      "value": 2.69e-05,
+      "value": 2.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -884,7 +884,7 @@
     {
       "id": "https://openalex.org/T14400",
       "display_name": "Medical Coding and Health Information",
-      "value": 2.47e-05,
+      "value": 2.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -901,7 +901,7 @@
     {
       "id": "https://openalex.org/T10703",
       "display_name": "Business Process Modeling and Analysis",
-      "value": 2.29e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -918,7 +918,7 @@
     {
       "id": "https://openalex.org/T11302",
       "display_name": "CO2 Sequestration and Geologic Interactions",
-      "value": 2.29e-05,
+      "value": 2.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -933,43 +933,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13131",
-      "display_name": "Collaborative Teaching and Inclusion",
-      "value": 2.14e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "value": 1.99e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11114",
       "display_name": "Service and Product Innovation",
-      "value": 1.97e-05,
+      "value": 1.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -982,11 +948,45 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "value": 1.85e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11976",
+      "display_name": "Capital Investment and Risk Analysis",
+      "value": 1.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210157698",
-  "updated_date": "2026-08-05T05:59:45",
+  "updated_date": "2026-08-24T05:58:48",
   "created_date": "2022-02-02T04:48:36"
 }

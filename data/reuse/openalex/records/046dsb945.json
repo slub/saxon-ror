@@ -17,10 +17,10 @@
     "RHe Microsystems"
   ],
   "repositories": [],
-  "works_count": 70,
-  "cited_by_count": 987,
+  "works_count": 72,
+  "cited_by_count": 999,
   "summary_stats": {
-    "2yr_mean_citedness": 2.324324324324324,
+    "2yr_mean_citedness": 2.358974358974359,
     "h_index": 15,
     "i10_index": 21
   },
@@ -45,21 +45,21 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
-      "oa_works_count": 3,
+      "works_count": 6,
+      "oa_works_count": 4,
       "cited_by_count": 0
     },
     {
       "year": 2025,
       "works_count": 8,
       "oa_works_count": 6,
-      "cited_by_count": 24
+      "cited_by_count": 27
     },
     {
       "year": 2024,
-      "works_count": 6,
-      "oa_works_count": 3,
-      "cited_by_count": 35
+      "works_count": 7,
+      "oa_works_count": 4,
+      "cited_by_count": 36
     },
     {
       "year": 2023,
@@ -71,13 +71,13 @@
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 4,
-      "cited_by_count": 96
+      "cited_by_count": 98
     },
     {
       "year": 2021,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 102
+      "cited_by_count": 103
     },
     {
       "year": 2019,
@@ -113,7 +113,7 @@
       "year": 2012,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 191
+      "cited_by_count": 192
     },
     {
       "year": 2010,
@@ -126,7 +126,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210143097",
-      "works_count": 70
+      "works_count": 72
     }
   ],
   "topics": [
@@ -383,6 +383,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10429",
+      "display_name": "EEG and Brain-Computer Interfaces",
+      "count": 2,
+      "score": 0.9929999709129333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10502",
       "display_name": "Advanced Memory and Neural Computing",
       "count": 2,
@@ -561,31 +579,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12019",
-      "display_name": "Calibration and Measurement Techniques",
-      "count": 2,
-      "score": 0.9103999733924866,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13251",
       "display_name": "Electrical and Thermal Properties of Materials",
-      "value": 0.0002831,
+      "value": 0.000279,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -602,7 +602,7 @@
     {
       "id": "https://openalex.org/T11527",
       "display_name": "3D IC and TSV technologies",
-      "value": 4.93e-05,
+      "value": 4.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -617,26 +617,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13854",
-      "display_name": "Historical Geography and Cartography",
-      "value": 3.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12940",
       "display_name": "Structural Engineering and Materials Analysis",
-      "value": 3.96e-05,
+      "value": 3.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -651,9 +634,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13854",
+      "display_name": "Historical Geography and Cartography",
+      "value": 3.89e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 3.93e-05,
+      "value": 3.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -670,7 +670,7 @@
     {
       "id": "https://openalex.org/T14184",
       "display_name": "Metallurgy and Material Science",
-      "value": 3.81e-05,
+      "value": 3.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -687,7 +687,7 @@
     {
       "id": "https://openalex.org/T12804",
       "display_name": "Thermal Analysis in Power Transmission",
-      "value": 3.47e-05,
+      "value": 3.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -704,7 +704,7 @@
     {
       "id": "https://openalex.org/T12087",
       "display_name": "Natural Compound Pharmacology Studies",
-      "value": 3.27e-05,
+      "value": 3.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -721,7 +721,7 @@
     {
       "id": "https://openalex.org/T12371",
       "display_name": "Electrical Contact Performance and Analysis",
-      "value": 3.12e-05,
+      "value": 3.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -738,7 +738,7 @@
     {
       "id": "https://openalex.org/T10460",
       "display_name": "Electronic Packaging and Soldering Technologies",
-      "value": 3.1e-05,
+      "value": 3.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -753,26 +753,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13355",
-      "display_name": "Marketing and Advertising Strategies",
-      "value": 3.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13928",
       "display_name": "Advanced Sensor Technologies Research",
-      "value": 3.05e-05,
+      "value": 3.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -787,9 +770,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13355",
+      "display_name": "Marketing and Advertising Strategies",
+      "value": 2.96e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12370",
       "display_name": "Advances in Cucurbitaceae Research",
-      "value": 2.92e-05,
+      "value": 2.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -806,7 +806,7 @@
     {
       "id": "https://openalex.org/T12744",
       "display_name": "Medical Device Sterilization and Disinfection",
-      "value": 2.74e-05,
+      "value": 2.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2404",
         "display_name": "Microbiology"
@@ -823,7 +823,7 @@
     {
       "id": "https://openalex.org/T13742",
       "display_name": "Metallurgy and Cultural Artifacts",
-      "value": 2.73e-05,
+      "value": 2.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3302",
         "display_name": "Archeology"
@@ -838,26 +838,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T13511",
-      "display_name": "Geodetic Measurements and Engineering Structures",
-      "value": 2.64e-05,
+      "id": "https://openalex.org/T14072",
+      "display_name": "Immunotoxicology and immune responses",
+      "value": 2.57e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 2.58e-05,
+      "value": 2.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -874,7 +874,7 @@
     {
       "id": "https://openalex.org/T11045",
       "display_name": "Privacy, Security, and Data Protection",
-      "value": 2.54e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -889,9 +889,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13511",
+      "display_name": "Geodetic Measurements and Engineering Structures",
+      "value": 2.5e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12564",
       "display_name": "Sensor Technology and Measurement Systems",
-      "value": 2.51e-05,
+      "value": 2.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -908,7 +925,7 @@
     {
       "id": "https://openalex.org/T12696",
       "display_name": "Icing and De-icing Technologies",
-      "value": 2.46e-05,
+      "value": 2.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -923,26 +940,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11636",
-      "display_name": "Artificial Intelligence in Healthcare and Education",
-      "value": 2.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2718",
-        "display_name": "Health Informatics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14199",
       "display_name": "Historical and Scientific Studies",
-      "value": 2.44e-05,
+      "value": 2.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -959,7 +959,7 @@
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "value": 2.4e-05,
+      "value": 2.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -974,9 +974,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11636",
+      "display_name": "Artificial Intelligence in Healthcare and Education",
+      "value": 2.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2718",
+        "display_name": "Health Informatics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12471",
       "display_name": "History of Science and Natural History",
-      "value": 2.31e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -989,28 +1006,11 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12019",
-      "display_name": "Calibration and Measurement Techniques",
-      "value": 2.21e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210143097",
-  "updated_date": "2026-08-05T05:59:45",
+  "updated_date": "2026-08-26T06:00:15",
   "created_date": "2022-02-02T04:48:36"
 }

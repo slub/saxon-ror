@@ -849,11 +849,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "tu-chemnitz.de"
+    ],
     "established": 1836,
     "external_ids": [
       {
@@ -3027,6 +3029,65 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-08-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [],
+    "id": "https://ror.org/010rfe342",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/bu/verkehr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Fakultät Verkehrswissenschaften \"Friedrich List\""
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "education"
+    ]
   },
   {
     "admin": {
@@ -5308,7 +5369,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
@@ -5329,7 +5390,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.herzzentrum-dresden.com"
+        "value": "https://www.sana.de/herzzentrum-dresden"
       },
       {
         "type": "wikipedia",
@@ -5354,6 +5415,13 @@
     ],
     "names": [
       {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Heart Center"
+      },
+      {
         "lang": "de",
         "types": [
           "acronym"
@@ -5361,7 +5429,7 @@
         "value": "HZDD"
       },
       {
-        "lang": "de",
+        "lang": "en",
         "types": [
           "alias"
         ],
@@ -5384,17 +5452,55 @@
       {
         "lang": "de",
         "types": [
+          "alias"
+        ],
+        "value": "Herzzentrum Dresden GmbH Universitätsklinik"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Herzzentrum Dresden GmbH Universitätsklinik an der Technischen Universität Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Herzzentrum Dresden Universitaetsklinik"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label",
           "ror_display"
         ],
-        "value": "Herzzentrum Dresden Universitaetsklinik"
+        "value": "Herzzentrum Dresden Universitätsklinik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University Heart Center Dresden"
       }
     ],
     "relationships": [
       {
-        "label": "Technische Universität Dresden",
+        "label": "Sana Kliniken AG",
         "type": "parent",
+        "id": "https://ror.org/01b4gqk18"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "related",
+        "id": "https://ror.org/04za5zm41"
       }
     ],
     "status": "active",
@@ -6564,11 +6670,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "ipfdd.de"
+    ],
     "established": 1992,
     "external_ids": [
       {
@@ -6597,7 +6705,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.ipfdd.de/en/home/our-mission/"
+        "value": "https://www.ipfdd.de/"
       }
     ],
     "locations": [
@@ -6976,6 +7084,89 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-08-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "lipotype.com"
+    ],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0005 2729 8799"
+        ],
+        "preferred": "0000 0005 2729 8799",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01whvgq68",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.lipotype.com"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "Lipotype"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Lipotype (Germany)"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Lipotype GmbH"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Max Planck Institute of Molecular Cell Biology and Genetics",
+        "type": "related",
+        "id": "https://ror.org/05b8d3w18"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "company"
+    ]
   },
   {
     "admin": {
@@ -7662,11 +7853,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "hzdr.de"
+    ],
     "established": 1992,
     "external_ids": [
       {
@@ -7791,9 +7984,52 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ptspaper.de"
+    ],
+    "established": 1951,
+    "external_ids": [
+      {
+        "all": [
+          "grid.4831.e"
+        ],
+        "preferred": "grid.4831.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0682 2580"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2050753"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/020268t49",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ptspaper.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2907887,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -7804,73 +8040,67 @@
           "lat": 50.97221,
           "lng": 13.86741,
           "name": "Heidenau"
-        }
-      }
-    ],
-    "established": 1951,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.4831.e"
-        ],
-        "preferred": "grid.4831.e"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 0682 2580"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q2050753"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/020268t49",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.ptspaper.com/"
+        },
+        "geonames_id": 2907887
       }
     ],
     "names": [
       {
-        "value": "PTS",
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Forschungsstiftung der Papierindustrie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Fasern & Papier"
+      },
+      {
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "PTS"
       },
       {
-        "value": "Papiertechnische Stiftung",
+        "lang": "de",
         "types": [
-          "ror_display",
-          "label"
+          "label",
+          "ror_display"
         ],
-        "lang": "de"
+        "value": "PTS - Institut für Fasern & Papier gGmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "PTS Heidenau"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Paper Technology Specialists"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Papiertechnische Stiftung"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
       "nonprofit"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -8162,13 +8392,11 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2025-10-06",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "tu-dresden.de"
-    ],
+    "domains": [],
     "established": null,
     "external_ids": [],
     "id": "https://ror.org/020z28a80",
@@ -8387,7 +8615,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
@@ -8451,6 +8679,13 @@
         "lang": "en",
         "types": [
           "label"
+        ],
+        "value": "Mittweida University of Applied Sciences"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
         ],
         "value": "University of Applied Sciences Mittweida"
       }
@@ -9172,7 +9407,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
@@ -9269,6 +9504,11 @@
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Fraunhofer Institute for Machine Tools and Forming Technology Dresden",
+        "type": "child",
+        "id": "https://ror.org/038es9179"
       }
     ],
     "status": "active",
@@ -9510,9 +9750,45 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "uniklinik-leipzig.de"
+    ],
+    "established": 1415,
+    "external_ids": [
+      {
+        "all": [
+          "grid.411339.d"
+        ],
+        "preferred": "grid.411339.d",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 8517 9062"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/028hv5492",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.uniklinikum-leipzig.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2879139,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -9523,92 +9799,58 @@
           "lat": 51.33962,
           "lng": 12.37129,
           "name": "Leipzig"
-        }
-      }
-    ],
-    "established": 1415,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.411339.d"
-        ],
-        "preferred": "grid.411339.d"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0000 8517 9062"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/028hv5492",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.uniklinikum-leipzig.de/"
+        },
+        "geonames_id": 2879139
       }
     ],
     "names": [
       {
-        "value": "University Hospital Leipzig",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "University Hospital Leipzig"
       },
       {
-        "value": "Universitätsklinikum Leipzig",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Universitätsklinikum Leipzig"
       }
     ],
     "relationships": [
       {
-        "type": "child",
         "label": "IFB Adiposity Diseases",
+        "type": "child",
         "id": "https://ror.org/02sy3xj90"
       },
       {
-        "type": "child",
         "label": "Klinik und Poliklinik für Hals-, Nasen-, Ohrenheilkunde",
+        "type": "child",
         "id": "https://ror.org/03cr5e788"
       },
       {
-        "type": "child",
         "label": "Poliklinik für Zahnerhaltung und Parodontologie",
+        "type": "child",
         "id": "https://ror.org/04gpj3340"
       },
       {
-        "type": "child",
         "label": "Poliklinik für Zahnärztliche Prothetik und Werkstoffkunde",
+        "type": "child",
         "id": "https://ror.org/020f8h126"
       },
       {
-        "type": "related",
         "label": "Leipzig University",
+        "type": "related",
         "id": "https://ror.org/03s7gtk40"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -12486,11 +12728,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "tu-freiberg.de"
+    ],
     "established": 1765,
     "external_ids": [
       {
@@ -13766,6 +14010,86 @@
     "status": "active",
     "types": [
       "healthcare"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-08-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2006,
+    "external_ids": [],
+    "id": "https://ror.org/038es9179",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.dresden.fraunhofer.de/de/institutes/fraunhofer_iwu.html"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IWU Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fraunhofer IWU, Institutsteil Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Fraunhofer Institute for Machine Tools and Forming Technology Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Fraunhofer Institute for Machine Tools and Forming Technology",
+        "type": "parent",
+        "id": "https://ror.org/026taa863"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
     ]
   },
   {
@@ -15691,9 +16015,50 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1993,
+    "external_ids": [
+      {
+        "all": [
+          "grid.466013.6"
+        ],
+        "preferred": "grid.466013.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0272 0405"
+        ],
+        "preferred": "0000 0001 0272 0405",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1667749"
+        ],
+        "preferred": "Q1667749",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/03pqf0084",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/ihi-zittau"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2804008,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -15704,73 +16069,94 @@
           "lat": 50.89772,
           "lng": 14.80764,
           "name": "Zittau"
-        }
-      }
-    ],
-    "established": 1993,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.466013.6"
-        ],
-        "preferred": "grid.466013.6"
-      }
-    ],
-    "id": "https://ror.org/03pqf0084",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.ihi-zittau.de/cms/en/803/News/"
+        },
+        "geonames_id": 2804008
       }
     ],
     "names": [
       {
-        "value": "Geschichte des Internationalen Hochschulinstituts (IHI) Zittau",
-        "types": [
-          "label"
-        ],
-        "lang": "de"
-      },
-      {
-        "value": "IHI",
-        "types": [
-          "acronym"
-        ],
-        "lang": null
-      },
-      {
-        "value": "International Graduate School (IHI) Zittau",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "en"
+        "value": "Geschichte des Internationalen Hochschulinstituts (IHI) Zittau"
       },
       {
-        "value": "International University Institute",
+        "lang": null,
         "types": [
-          "ror_display",
+          "acronym"
+        ],
+        "value": "IHI"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "IHI Zittau"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "International Graduate School (IHI) Zittau"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "International Graduate School Zittau"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "International University Institute"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "International University Institute (IHI) Zittau"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Internationales Hochschulinstitut"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label"
         ],
-        "lang": "en"
+        "value": "Internationales Hochschulinstitut (IHI) Zittau"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Internationales Hochschulinstitut Zittau"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "education"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -16063,11 +16449,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-03",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "uni-leipzig.de"
+    ],
     "established": 1409,
     "external_ids": [
       {
@@ -17072,7 +17460,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-03",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
@@ -17216,11 +17604,6 @@
         "label": "Nationales Centrum für Tumorerkrankungen Dresden",
         "type": "child",
         "id": "https://ror.org/01zy07c70"
-      },
-      {
-        "label": "Herzzentrum Dresden Universitaetsklinik",
-        "type": "child",
-        "id": "https://ror.org/01jx86h05"
       },
       {
         "label": "Center for Scalable Data Analytics and Artificial Intelligence",
@@ -17391,6 +17774,21 @@
         "label": "Elbland Rehabilitationsklinik Großenhain",
         "type": "related",
         "id": "https://ror.org/04kqdzt33"
+      },
+      {
+        "label": "Herzzentrum Dresden Universitätsklinik",
+        "type": "related",
+        "id": "https://ror.org/01jx86h05"
+      },
+      {
+        "label": "International University Institute (IHI) Zittau",
+        "type": "child",
+        "id": "https://ror.org/03pqf0084"
+      },
+      {
+        "label": "Fakultät Verkehrswissenschaften \"Friedrich List\"",
+        "type": "child",
+        "id": "https://ror.org/010rfe342"
       }
     ],
     "status": "active",
@@ -21720,11 +22118,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "ukdd.de"
+    ],
     "established": 1999,
     "external_ids": [
       {
@@ -21838,21 +22238,6 @@
         "id": "https://ror.org/031x70h91"
       },
       {
-        "label": "Technische Universität Dresden",
-        "type": "related",
-        "id": "https://ror.org/042aqky30"
-      },
-      {
-        "label": "Center for Regenerative Therapies Dresden",
-        "type": "related",
-        "id": "https://ror.org/00490nx58"
-      },
-      {
-        "label": "German Cancer Consortium (DKTK) Dresden",
-        "type": "related",
-        "id": "https://ror.org/036e5z664"
-      },
-      {
         "label": "Klinik und Poliklinik für Dermatologie",
         "type": "child",
         "id": "https://ror.org/01zxatr28"
@@ -21871,6 +22256,26 @@
         "label": "Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde",
         "type": "child",
         "id": "https://ror.org/01jq4d775"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "related",
+        "id": "https://ror.org/00490nx58"
+      },
+      {
+        "label": "German Cancer Consortium (DKTK) Dresden",
+        "type": "related",
+        "id": "https://ror.org/036e5z664"
+      },
+      {
+        "label": "Herzzentrum Dresden Universitätsklinik",
+        "type": "related",
+        "id": "https://ror.org/01jx86h05"
       }
     ],
     "status": "active",
@@ -21885,11 +22290,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "ifw-dresden.de"
+    ],
     "established": 1992,
     "external_ids": [
       {
@@ -22698,6 +23105,138 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-08-24",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "quodata.de"
+    ],
+    "established": 1996,
+    "external_ids": [],
+    "id": "https://ror.org/052xa4236",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://quodata.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Quo Data"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "QuoData"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "QuoData (Germany)"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData - Quality & Statistics"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Ges. für Qualitätsmanagement und Statistik mbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Gesellschaft für Qualitätsmanagement und Statistik"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Gesellschaft für Qualitätsmanagement und Statistik mbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData GmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Quality and Statistics GmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Statistics"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData Statistics GmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "QuoData–Quality & Statistics GmbH"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "company"
+    ]
   },
   {
     "locations": [
@@ -23529,7 +24068,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-08-25",
         "schema_version": "2.1"
       }
     },
@@ -23634,6 +24173,11 @@
         "label": "DRESDEN-concept Genome Center",
         "type": "related",
         "id": "https://ror.org/025a7t810"
+      },
+      {
+        "label": "Lipotype (Germany)",
+        "type": "related",
+        "id": "https://ror.org/01whvgq68"
       }
     ],
     "status": "active",

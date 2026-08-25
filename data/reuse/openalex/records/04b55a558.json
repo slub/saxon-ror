@@ -16,7 +16,7 @@
     "Leag (Germany)"
   ],
   "repositories": [],
-  "works_count": 0,
+  "works_count": 1,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -41,19 +41,133 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210130166",
-      "works_count": 0
+      "works_count": 1
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10842",
+      "display_name": "Railway Engineering and Dynamics",
+      "count": 1,
+      "score": 0.06939999759197235,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "count": 1,
+      "score": 0.5475999712944031,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12759",
+      "display_name": "Vehicle Noise and Vibration Control",
+      "count": 1,
+      "score": 0.05640000104904175,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T12759",
+      "display_name": "Vehicle Noise and Vibration Control",
+      "value": 2.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10842",
+      "display_name": "Railway Engineering and Dynamics",
+      "value": 1.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "value": 7.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210130166",
-  "updated_date": "2026-02-06T19:53:56",
+  "updated_date": "2026-08-07T05:59:42",
   "created_date": "2022-02-02T04:48:36"
 }

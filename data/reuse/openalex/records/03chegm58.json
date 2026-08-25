@@ -16,8 +16,8 @@
     "Cetex (Germany)"
   ],
   "repositories": [],
-  "works_count": 39,
-  "cited_by_count": 133,
+  "works_count": 40,
+  "cited_by_count": 135,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 7,
@@ -62,9 +62,9 @@
     },
     {
       "year": 2019,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 21
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 22
     },
     {
       "year": 2018,
@@ -76,7 +76,7 @@
       "year": 2017,
       "works_count": 10,
       "oa_works_count": 9,
-      "cited_by_count": 57
+      "cited_by_count": 58
     },
     {
       "year": 2016,
@@ -113,7 +113,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210130499",
-      "works_count": 39
+      "works_count": 40
     }
   ],
   "topics": [
@@ -273,6 +273,24 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10159",
+      "display_name": "Ionosphere and magnetosphere dynamics",
+      "count": 1,
+      "score": 0.14980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -442,6 +460,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10655",
+      "display_name": "GNSS positioning and interference",
+      "count": 1,
+      "score": 0.04639999940991402,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10707",
       "display_name": "Cellular and Composite Structures",
       "count": 1,
@@ -530,66 +566,13 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10892",
-      "display_name": "Drilling and Well Engineering",
-      "count": 1,
-      "score": 0.9991000294685364,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10894",
-      "display_name": "Groundwater flow and contamination studies",
-      "count": 1,
-      "score": 0.998199999332428,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11664",
       "display_name": "Fiber-reinforced polymer composites",
-      "value": 6.59e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14454",
-      "display_name": "Polymer Science and Applications",
-      "value": 4.12e-05,
+      "value": 6.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -606,7 +589,7 @@
     {
       "id": "https://openalex.org/T13129",
       "display_name": "Material Properties and Applications",
-      "value": 4.1e-05,
+      "value": 4.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -621,9 +604,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14454",
+      "display_name": "Polymer Science and Applications",
+      "value": 3.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10219",
       "display_name": "Mechanical Behavior of Composites",
-      "value": 3.4e-05,
+      "value": 3.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -640,7 +640,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 2.93e-05,
+      "value": 2.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -657,7 +657,7 @@
     {
       "id": "https://openalex.org/T13309",
       "display_name": "Reliability and Agreement in Measurement",
-      "value": 2.55e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1804",
         "display_name": "Statistics, Probability and Uncertainty"
@@ -674,7 +674,7 @@
     {
       "id": "https://openalex.org/T11870",
       "display_name": "Structural Analysis and Optimization",
-      "value": 1.85e-05,
+      "value": 1.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -691,7 +691,7 @@
     {
       "id": "https://openalex.org/T11314",
       "display_name": "Clinical Laboratory Practices and Quality Control",
-      "value": 1.74e-05,
+      "value": 1.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -708,7 +708,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 1.7e-05,
+      "value": 1.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -725,7 +725,7 @@
     {
       "id": "https://openalex.org/T10707",
       "display_name": "Cellular and Composite Structures",
-      "value": 1.69e-05,
+      "value": 1.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -742,7 +742,7 @@
     {
       "id": "https://openalex.org/T10783",
       "display_name": "Additive Manufacturing and 3D Printing Technologies",
-      "value": 1.51e-05,
+      "value": 1.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -759,7 +759,7 @@
     {
       "id": "https://openalex.org/T11407",
       "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
-      "value": 1.48e-05,
+      "value": 1.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -776,7 +776,7 @@
     {
       "id": "https://openalex.org/T11145",
       "display_name": "Epoxy Resin Curing Processes",
-      "value": 1.45e-05,
+      "value": 1.44e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -793,7 +793,7 @@
     {
       "id": "https://openalex.org/T14128",
       "display_name": "Metallurgical and Alloy Processes",
-      "value": 1.44e-05,
+      "value": 1.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -810,7 +810,7 @@
     {
       "id": "https://openalex.org/T13800",
       "display_name": "Earthquake and Disaster Impact Studies",
-      "value": 1.26e-05,
+      "value": 1.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3313",
         "display_name": "Transportation"
@@ -827,7 +827,7 @@
     {
       "id": "https://openalex.org/T10723",
       "display_name": "Advanced Welding Techniques Analysis",
-      "value": 1.16e-05,
+      "value": 1.15e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -844,7 +844,7 @@
     {
       "id": "https://openalex.org/T13113",
       "display_name": "Engineering Technology and Methodologies",
-      "value": 1.15e-05,
+      "value": 1.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -861,7 +861,7 @@
     {
       "id": "https://openalex.org/T11741",
       "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 1.07e-05,
+      "value": 1.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -876,9 +876,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10655",
+      "display_name": "GNSS positioning and interference",
+      "value": 1.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12362",
       "display_name": "Tribology and Wear Analysis",
-      "value": 1.02e-05,
+      "value": 1.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -912,7 +929,7 @@
     {
       "id": "https://openalex.org/T11135",
       "display_name": "Virology and Viral Diseases",
-      "value": 9e-06,
+      "value": 8.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -927,26 +944,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10616",
-      "display_name": "Smart Agriculture and AI",
-      "value": 8.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11681",
       "display_name": "Nosocomial Infections in ICU",
-      "value": 8.8e-06,
+      "value": 8.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2706",
         "display_name": "Critical Care and Intensive Care Medicine"
@@ -963,7 +963,7 @@
     {
       "id": "https://openalex.org/T10201",
       "display_name": "Speech Recognition and Synthesis",
-      "value": 8.7e-06,
+      "value": 8.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -978,26 +978,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11006",
-      "display_name": "BIM and Construction Integration",
-      "value": 8.6e-06,
+      "id": "https://openalex.org/T10616",
+      "display_name": "Smart Agriculture and AI",
+      "value": 8.5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210130499",
-  "updated_date": "2026-08-03T05:59:51",
+  "updated_date": "2026-08-19T05:59:14",
   "created_date": "2022-02-02T04:48:36"
 }
