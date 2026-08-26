@@ -16,10 +16,10 @@
     "Meteorologie Consult (Germany)"
   ],
   "repositories": [],
-  "works_count": 90,
-  "cited_by_count": 1261,
+  "works_count": 93,
+  "cited_by_count": 1283,
   "summary_stats": {
-    "2yr_mean_citedness": 0.15,
+    "2yr_mean_citedness": 0.13043478260869565,
     "h_index": 21,
     "i10_index": 30
   },
@@ -44,8 +44,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 8,
-      "oa_works_count": 8,
+      "works_count": 9,
+      "oa_works_count": 9,
       "cited_by_count": 0
     },
     {
@@ -70,7 +70,7 @@
       "year": 2022,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 25
+      "cited_by_count": 26
     },
     {
       "year": 2018,
@@ -106,7 +106,7 @@
       "year": 2013,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 55
+      "cited_by_count": 56
     },
     {
       "year": 2010,
@@ -119,7 +119,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210121493",
-      "works_count": 90
+      "works_count": 93
     }
   ],
   "topics": [
@@ -180,7 +180,7 @@
     {
       "id": "https://openalex.org/T11588",
       "display_name": "Atmospheric and Environmental Gas Dynamics",
-      "count": 12,
+      "count": 13,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
@@ -229,6 +229,42 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10029",
+      "display_name": "Climate variability and models",
+      "count": 3,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10466",
+      "display_name": "Meteorological Phenomena and Simulations",
+      "count": 3,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -472,7 +508,7 @@
       "score": 0.9860000014305115,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "display_name": "Waste Management and Disposal"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -536,49 +572,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10111",
-      "display_name": "Remote Sensing in Agriculture",
-      "count": 1,
-      "score": 0.034299999475479126,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10128",
-      "display_name": "Global trade and economics",
-      "count": 1,
-      "score": 0.49970000982284546,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2000",
-        "display_name": "General Economics, Econometrics and Finance"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11220",
       "display_name": "Water Systems and Optimization",
-      "value": 0.0001502,
+      "value": 0.0001484,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -595,7 +595,7 @@
     {
       "id": "https://openalex.org/T14390",
       "display_name": "Real estate and construction management",
-      "value": 9.98e-05,
+      "value": 9.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -612,7 +612,7 @@
     {
       "id": "https://openalex.org/T11320",
       "display_name": "Atmospheric Ozone and Climate",
-      "value": 9.17e-05,
+      "value": 9.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -629,7 +629,7 @@
     {
       "id": "https://openalex.org/T14353",
       "display_name": "Wireless Sensor Networks for Data Analysis",
-      "value": 7.96e-05,
+      "value": 7.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -646,7 +646,7 @@
     {
       "id": "https://openalex.org/T13821",
       "display_name": "Coaching Methods and Impact",
-      "value": 7.27e-05,
+      "value": 6.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3202",
         "display_name": "Applied Psychology"
@@ -663,7 +663,7 @@
     {
       "id": "https://openalex.org/T10075",
       "display_name": "Atmospheric chemistry and aerosols",
-      "value": 6.84e-05,
+      "value": 6.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -680,7 +680,7 @@
     {
       "id": "https://openalex.org/T14289",
       "display_name": "Anthropology: Ethics, History, Culture",
-      "value": 6.04e-05,
+      "value": 5.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -695,26 +695,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13366",
-      "display_name": "Accounting Theory and Financial Reporting",
-      "value": 5.48e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1402",
-        "display_name": "Accounting"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11588",
       "display_name": "Atmospheric and Environmental Gas Dynamics",
-      "value": 5.08e-05,
+      "value": 5.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -729,9 +712,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13366",
+      "display_name": "Accounting Theory and Financial Reporting",
+      "value": 5.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1402",
+        "display_name": "Accounting"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10347",
       "display_name": "Atmospheric aerosols and clouds",
-      "value": 4.3e-05,
+      "value": 4.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -748,7 +748,7 @@
     {
       "id": "https://openalex.org/T11493",
       "display_name": "Water Treatment and Disinfection",
-      "value": 4.1e-05,
+      "value": 4.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2307",
         "display_name": "Health, Toxicology and Mutagenesis"
@@ -765,7 +765,7 @@
     {
       "id": "https://openalex.org/T10927",
       "display_name": "Access Control and Trust",
-      "value": 4.03e-05,
+      "value": 3.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -780,26 +780,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12984",
-      "display_name": "Transport and Logistics Innovations",
-      "value": 4.02e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13999",
       "display_name": "Digital Rights Management and Security",
-      "value": 3.77e-05,
+      "value": 3.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -814,9 +797,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12984",
+      "display_name": "Transport and Logistics Innovations",
+      "value": 3.68e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 3.32e-05,
+      "value": 3.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -833,7 +833,7 @@
     {
       "id": "https://openalex.org/T12223",
       "display_name": "Leptospirosis research and findings",
-      "value": 3.23e-05,
+      "value": 3.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2405",
         "display_name": "Parasitology"
@@ -850,7 +850,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 2.78e-05,
+      "value": 2.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -867,7 +867,7 @@
     {
       "id": "https://openalex.org/T13785",
       "display_name": "Aquatic and Environmental Studies",
-      "value": 2.72e-05,
+      "value": 2.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1904",
         "display_name": "Earth-Surface Processes"
@@ -884,7 +884,7 @@
     {
       "id": "https://openalex.org/T13604",
       "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
-      "value": 2.69e-05,
+      "value": 2.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
@@ -899,26 +899,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12256",
-      "display_name": "Facilities and Workplace Management",
-      "value": 2.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12156",
       "display_name": "World Trade Organization Law",
-      "value": 2.56e-05,
+      "value": 2.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -933,9 +916,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12256",
+      "display_name": "Facilities and Workplace Management",
+      "value": 2.49e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13711",
       "display_name": "Environmental Science and Technology",
-      "value": 2.54e-05,
+      "value": 2.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1303",
         "display_name": "Biochemistry"
@@ -952,7 +952,7 @@
     {
       "id": "https://openalex.org/T11195",
       "display_name": "Simulation Techniques and Applications",
-      "value": 2.43e-05,
+      "value": 2.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -969,7 +969,7 @@
     {
       "id": "https://openalex.org/T11807",
       "display_name": "Infrastructure Resilience and Vulnerability Analysis",
-      "value": 2.37e-05,
+      "value": 2.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -986,7 +986,7 @@
     {
       "id": "https://openalex.org/T12120",
       "display_name": "Air Quality Monitoring and Forecasting",
-      "value": 2.33e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -1004,6 +1004,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210121493",
-  "updated_date": "2026-08-06T05:59:15",
+  "updated_date": "2026-08-24T05:58:48",
   "created_date": "2022-02-02T04:48:36"
 }

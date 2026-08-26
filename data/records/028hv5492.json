@@ -1,7 +1,43 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uniklinik-leipzig.de"
+  ],
+  "established": 1415,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411339.d"
+      ],
+      "preferred": "grid.411339.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8517 9062"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/028hv5492",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uniklinikum-leipzig.de/"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2879139,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,90 +48,56 @@
         "lat": 51.33962,
         "lng": 12.37129,
         "name": "Leipzig"
-      }
-    }
-  ],
-  "established": 1415,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.411339.d"
-      ],
-      "preferred": "grid.411339.d"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0000 8517 9062"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/028hv5492",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.uniklinikum-leipzig.de/"
+      },
+      "geonames_id": 2879139
     }
   ],
   "names": [
     {
-      "value": "University Hospital Leipzig",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "University Hospital Leipzig"
     },
     {
-      "value": "Universitätsklinikum Leipzig",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Universitätsklinikum Leipzig"
     }
   ],
   "relationships": [
     {
-      "type": "child",
       "label": "IFB Adiposity Diseases",
+      "type": "child",
       "id": "https://ror.org/02sy3xj90"
     },
     {
-      "type": "child",
       "label": "Klinik und Poliklinik für Hals-, Nasen-, Ohrenheilkunde",
+      "type": "child",
       "id": "https://ror.org/03cr5e788"
     },
     {
-      "type": "child",
       "label": "Poliklinik für Zahnerhaltung und Parodontologie",
+      "type": "child",
       "id": "https://ror.org/04gpj3340"
     },
     {
-      "type": "child",
       "label": "Poliklinik für Zahnärztliche Prothetik und Werkstoffkunde",
+      "type": "child",
       "id": "https://ror.org/020f8h126"
     },
     {
-      "type": "related",
       "label": "Leipzig University",
+      "type": "related",
       "id": "https://ror.org/03s7gtk40"
     }
   ],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

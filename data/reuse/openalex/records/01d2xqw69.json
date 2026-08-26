@@ -24,12 +24,12 @@
     "Technologiezentrum Halbleitermaterialien"
   ],
   "repositories": [],
-  "works_count": 166,
-  "cited_by_count": 5983,
+  "works_count": 172,
+  "cited_by_count": 6207,
   "summary_stats": {
-    "2yr_mean_citedness": 1.4074074074074074,
-    "h_index": 37,
-    "i10_index": 150
+    "2yr_mean_citedness": 1.1428571428571428,
+    "h_index": 38,
+    "i10_index": 151
   },
   "ids": {
     "openalex": "https://openalex.org/I4210102405",
@@ -69,51 +69,51 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 13,
+      "works_count": 14,
       "oa_works_count": 11,
-      "cited_by_count": 2
+      "cited_by_count": 0
     },
     {
       "year": 2025,
-      "works_count": 13,
-      "oa_works_count": 10,
-      "cited_by_count": 12
+      "works_count": 14,
+      "oa_works_count": 11,
+      "cited_by_count": 13
     },
     {
       "year": 2024,
-      "works_count": 6,
-      "oa_works_count": 6,
-      "cited_by_count": 32
+      "works_count": 8,
+      "oa_works_count": 8,
+      "cited_by_count": 35
     },
     {
       "year": 2023,
-      "works_count": 5,
-      "oa_works_count": 5,
+      "works_count": 6,
+      "oa_works_count": 6,
       "cited_by_count": 8
     },
     {
       "year": 2022,
       "works_count": 7,
       "oa_works_count": 6,
-      "cited_by_count": 133
+      "cited_by_count": 135
     },
     {
       "year": 2021,
       "works_count": 17,
       "oa_works_count": 7,
-      "cited_by_count": 427
+      "cited_by_count": 431
     },
     {
       "year": 2020,
       "works_count": 6,
       "oa_works_count": 3,
-      "cited_by_count": 51
+      "cited_by_count": 53
     },
     {
       "year": 2019,
       "works_count": 13,
       "oa_works_count": 3,
-      "cited_by_count": 104
+      "cited_by_count": 107
     },
     {
       "year": 2018,
@@ -125,7 +125,7 @@
       "year": 2017,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 678
+      "cited_by_count": 679
     },
     {
       "year": 2016,
@@ -143,13 +143,13 @@
       "year": 2014,
       "works_count": 17,
       "oa_works_count": 7,
-      "cited_by_count": 364
+      "cited_by_count": 366
     },
     {
       "year": 2013,
-      "works_count": 8,
-      "oa_works_count": 4,
-      "cited_by_count": 176
+      "works_count": 9,
+      "oa_works_count": 5,
+      "cited_by_count": 359
     },
     {
       "year": 2012,
@@ -174,7 +174,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210102405",
-      "works_count": 166
+      "works_count": 172
     }
   ],
   "topics": [
@@ -449,24 +449,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10018",
-      "display_name": "Advancements in Battery Materials",
-      "count": 4,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10188",
       "display_name": "Advanced machining processes and optimization",
       "count": 4,
@@ -514,6 +496,24 @@
       "field": {
         "id": "https://openalex.org/fields/16",
         "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11740",
+      "display_name": "Geochemistry and Elemental Analysis",
+      "count": 4,
+      "score": 0.9918000102043152,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -575,6 +575,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10018",
+      "display_name": "Advancements in Battery Materials",
+      "count": 3,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10502",
       "display_name": "Advanced Memory and Neural Computing",
       "count": 3,
@@ -609,31 +627,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11740",
-      "display_name": "Geochemistry and Elemental Analysis",
-      "count": 3,
-      "score": 0.9918000102043152,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1906",
-        "display_name": "Geochemistry and Petrology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11087",
       "display_name": "Solidification and crystal growth phenomena",
-      "value": 0.0003349,
+      "value": 0.000331,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -650,7 +650,7 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 0.0003257,
+      "value": 0.0003213,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -665,26 +665,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12984",
-      "display_name": "Transport and Logistics Innovations",
-      "value": 0.0001607,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11169",
       "display_name": "Silicon Nanostructures and Photoluminescence",
-      "value": 0.0001538,
+      "value": 0.0001529,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -699,9 +682,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12984",
+      "display_name": "Transport and Logistics Innovations",
+      "value": 0.0001473,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10623",
       "display_name": "Thin-Film Transistor Technologies",
-      "value": 0.0001474,
+      "value": 0.0001466,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -718,7 +718,7 @@
     {
       "id": "https://openalex.org/T14327",
       "display_name": "Advanced Energy Technologies and Civil Engineering Innovations",
-      "value": 0.0001221,
+      "value": 0.0001186,
       "subfield": {
         "id": "https://openalex.org/subfields/2104",
         "display_name": "Nuclear Energy and Engineering"
@@ -735,7 +735,7 @@
     {
       "id": "https://openalex.org/T13439",
       "display_name": "Transport and Economic Policies",
-      "value": 0.0001158,
+      "value": 0.0001133,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -752,7 +752,7 @@
     {
       "id": "https://openalex.org/T11301",
       "display_name": "Advanced Surface Polishing Techniques",
-      "value": 0.0001097,
+      "value": 0.0001091,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -769,7 +769,7 @@
     {
       "id": "https://openalex.org/T12725",
       "display_name": "transportation and logistics systems",
-      "value": 0.0001051,
+      "value": 0.000103,
       "subfield": {
         "id": "https://openalex.org/subfields/3313",
         "display_name": "Transportation"
@@ -784,26 +784,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11947",
-      "display_name": "Molten salt chemistry and electrochemical processes",
-      "value": 9.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1507",
-        "display_name": "Fluid Flow and Transfer Processes"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "value": 8.3e-05,
+      "value": 8.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -820,7 +803,7 @@
     {
       "id": "https://openalex.org/T14350",
       "display_name": "Innovation, Sustainability, Human-Machine Systems",
-      "value": 7.06e-05,
+      "value": 6.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -835,43 +818,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12344",
-      "display_name": "Silicon Effects in Agriculture",
-      "value": 6.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13204",
-      "display_name": "Competitive and Knowledge Intelligence",
-      "value": 6.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11091",
       "display_name": "Extraction and Separation Processes",
-      "value": 6.77e-05,
+      "value": 6.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -888,7 +837,7 @@
     {
       "id": "https://openalex.org/T11853",
       "display_name": "Semiconductor materials and interfaces",
-      "value": 6.67e-05,
+      "value": 6.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -903,9 +852,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T12344",
+      "display_name": "Silicon Effects in Agriculture",
+      "value": 6.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13204",
+      "display_name": "Competitive and Knowledge Intelligence",
+      "value": 6.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12774",
       "display_name": "Bauxite Residue and Utilization",
-      "value": 6.43e-05,
+      "value": 6.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -920,9 +903,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11947",
+      "display_name": "Molten salt chemistry and electrochemical processes",
+      "value": 6.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1507",
+        "display_name": "Fluid Flow and Transfer Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13065",
       "display_name": "Mining Techniques and Economics",
-      "value": 6.33e-05,
+      "value": 6.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -939,7 +939,7 @@
     {
       "id": "https://openalex.org/T12838",
       "display_name": "Photovoltaic Systems and Sustainability",
-      "value": 5.81e-05,
+      "value": 5.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -954,26 +954,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14330",
-      "display_name": "Library Science and Information Systems",
-      "value": 4.76e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11073",
       "display_name": "Metal Extraction and Bioleaching",
-      "value": 4.73e-05,
+      "value": 4.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -988,9 +971,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14330",
+      "display_name": "Library Science and Information Systems",
+      "value": 4.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14112",
       "display_name": "Economic, financial, and policy analysis",
-      "value": 4.48e-05,
+      "value": 4.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2000",
         "display_name": "General Economics, Econometrics and Finance"
@@ -1005,26 +1005,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11568",
-      "display_name": "Railway Systems and Energy Efficiency",
-      "value": 4.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10468",
       "display_name": "Photovoltaic System Optimization Techniques",
-      "value": 4.32e-05,
+      "value": 4.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -1039,9 +1022,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11568",
+      "display_name": "Railway Systems and Energy Efficiency",
+      "value": 4.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10132",
       "display_name": "Advanced ceramic materials synthesis",
-      "value": 4.2e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2503",
         "display_name": "Ceramics and Composites"
@@ -1059,6 +1059,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210102405",
-  "updated_date": "2026-08-06T05:59:15",
+  "updated_date": "2026-08-24T05:58:48",
   "created_date": "2022-02-02T04:48:36"
 }

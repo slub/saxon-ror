@@ -18,12 +18,12 @@
     "Organic Electronics Saxony (Germany)"
   ],
   "repositories": [],
-  "works_count": 38,
-  "cited_by_count": 241,
+  "works_count": 41,
+  "cited_by_count": 465,
   "summary_stats": {
-    "2yr_mean_citedness": 0.25,
-    "h_index": 11,
-    "i10_index": 12
+    "2yr_mean_citedness": 0.3125,
+    "h_index": 13,
+    "i10_index": 14
   },
   "ids": {
     "openalex": "https://openalex.org/I4210114603",
@@ -54,7 +54,7 @@
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 5
     },
     {
       "year": 2024,
@@ -82,9 +82,9 @@
     },
     {
       "year": 2019,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 4
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 5
     },
     {
       "year": 2018,
@@ -133,7 +133,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210114603",
-      "works_count": 38
+      "works_count": 41
     }
   ],
   "topics": [
@@ -390,6 +390,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10480",
+      "display_name": "Ionic liquids properties and applications",
+      "count": 1,
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1503",
+        "display_name": "Catalysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
       "count": 1,
@@ -405,6 +423,42 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10545",
+      "display_name": "Optimization and Variational Analysis",
+      "count": 1,
+      "score": 0.08550000190734863,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10578",
+      "display_name": "Supramolecular Chemistry and Complexes",
+      "count": 1,
+      "score": 0.9944000244140625,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -532,67 +586,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10817",
-      "display_name": "Multicomponent Synthesis of Heterocycles",
-      "count": 1,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10831",
-      "display_name": "Cell Adhesion Molecules Research",
-      "count": 1,
-      "score": 0.05119999870657921,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2723",
-        "display_name": "Immunology and Allergy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10929",
-      "display_name": "Wnt/β-catenin signaling in development and cancer",
-      "count": 1,
-      "score": 0.03310000151395798,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13709",
       "display_name": "Education in Diverse Contexts",
-      "value": 0.0001023,
+      "value": 9.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -609,7 +609,7 @@
     {
       "id": "https://openalex.org/T12268",
       "display_name": "Deception detection and forensic psychology",
-      "value": 5.45e-05,
+      "value": 5.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -626,7 +626,7 @@
     {
       "id": "https://openalex.org/T14068",
       "display_name": "Organic and Inorganic Chemical Reactions",
-      "value": 4.12e-05,
+      "value": 4.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
@@ -643,7 +643,7 @@
     {
       "id": "https://openalex.org/T12437",
       "display_name": "Balkans: History, Politics, Society",
-      "value": 3.17e-05,
+      "value": 3.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -660,7 +660,7 @@
     {
       "id": "https://openalex.org/T13164",
       "display_name": "Quality and Management Systems",
-      "value": 3.07e-05,
+      "value": 2.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -675,26 +675,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12869",
-      "display_name": "Occupational Health and Burnout",
-      "value": 3.02e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3609",
-        "display_name": "Occupational Therapy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14164",
       "display_name": "Marine and Offshore Engineering Studies",
-      "value": 3e-05,
+      "value": 2.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -709,9 +692,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12869",
+      "display_name": "Occupational Health and Burnout",
+      "value": 2.83e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3609",
+        "display_name": "Occupational Therapy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13064",
       "display_name": "Dutch Social and Cultural Studies",
-      "value": 2.8e-05,
+      "value": 2.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -728,7 +728,7 @@
     {
       "id": "https://openalex.org/T11644",
       "display_name": "Spam and Phishing Detection",
-      "value": 2.6e-05,
+      "value": 2.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -745,7 +745,7 @@
     {
       "id": "https://openalex.org/T13856",
       "display_name": "Advanced Power Generation Technologies",
-      "value": 2.59e-05,
+      "value": 2.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -762,7 +762,7 @@
     {
       "id": "https://openalex.org/T10734",
       "display_name": "Information and Cyber Security",
-      "value": 2.38e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -779,7 +779,7 @@
     {
       "id": "https://openalex.org/T11716",
       "display_name": "Random Matrices and Applications",
-      "value": 2.36e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -796,7 +796,7 @@
     {
       "id": "https://openalex.org/T12484",
       "display_name": "Retinopathy of Prematurity Studies",
-      "value": 2.27e-05,
+      "value": 2.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -813,7 +813,7 @@
     {
       "id": "https://openalex.org/T13925",
       "display_name": "Offshore Engineering and Technologies",
-      "value": 2.24e-05,
+      "value": 2.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -830,7 +830,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 2.2e-05,
+      "value": 2.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -845,12 +845,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12325",
-      "display_name": "Urban Design and Spatial Analysis",
-      "value": 2.07e-05,
+      "id": "https://openalex.org/T13855",
+      "display_name": "Aerospace Engineering and Control Systems",
+      "value": 2.14e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11517",
+      "display_name": "Advanced optical system design",
+      "value": 2.06e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -864,7 +881,7 @@
     {
       "id": "https://openalex.org/T12318",
       "display_name": "Quinazolinone synthesis and applications",
-      "value": 2.03e-05,
+      "value": 2.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1605",
         "display_name": "Organic Chemistry"
@@ -879,9 +896,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12325",
+      "display_name": "Urban Design and Spatial Analysis",
+      "value": 2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12056",
       "display_name": "Markov Chains and Monte Carlo Methods",
-      "value": 2.02e-05,
+      "value": 1.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -898,7 +932,7 @@
     {
       "id": "https://openalex.org/T10937",
       "display_name": "Telomeres, Telomerase, and Senescence",
-      "value": 1.86e-05,
+      "value": 1.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -915,7 +949,7 @@
     {
       "id": "https://openalex.org/T11378",
       "display_name": "Gastrointestinal Bleeding Diagnosis and Treatment",
-      "value": 1.85e-05,
+      "value": 1.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2715",
         "display_name": "Gastroenterology"
@@ -932,10 +966,27 @@
     {
       "id": "https://openalex.org/T12238",
       "display_name": "Green IT and Sustainability",
-      "value": 1.85e-05,
+      "value": 1.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11082",
+      "display_name": "Spacecraft Dynamics and Control",
+      "value": 1.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -949,7 +1000,7 @@
     {
       "id": "https://openalex.org/T10247",
       "display_name": "Perovskite Materials and Applications",
-      "value": 1.57e-05,
+      "value": 1.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -962,62 +1013,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11361",
-      "display_name": "Digital Radiography and Breast Imaging",
-      "value": 1.57e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10674",
-      "display_name": "School Choice and Performance",
-      "value": 1.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12842",
-      "display_name": "Youth, Drugs, and Violence",
-      "value": 1.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3317",
-        "display_name": "Demography"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210114603",
-  "updated_date": "2026-07-23T06:00:47",
+  "updated_date": "2026-08-26T06:00:15",
   "created_date": "2022-02-02T04:48:36"
 }

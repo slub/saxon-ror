@@ -16,11 +16,11 @@
     "Sunfire (Germany)"
   ],
   "repositories": [],
-  "works_count": 113,
-  "cited_by_count": 5277,
+  "works_count": 124,
+  "cited_by_count": 5343,
   "summary_stats": {
-    "2yr_mean_citedness": 25.793650793650794,
-    "h_index": 38,
+    "2yr_mean_citedness": 22.602739726027398,
+    "h_index": 39,
     "i10_index": 92
   },
   "ids": {
@@ -44,15 +44,15 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
-      "oa_works_count": 4,
+      "works_count": 8,
+      "oa_works_count": 7,
       "cited_by_count": 3
     },
     {
       "year": 2025,
-      "works_count": 12,
-      "oa_works_count": 9,
-      "cited_by_count": 261
+      "works_count": 19,
+      "oa_works_count": 14,
+      "cited_by_count": 268
     },
     {
       "year": 2024,
@@ -64,43 +64,43 @@
       "year": 2023,
       "works_count": 21,
       "oa_works_count": 14,
-      "cited_by_count": 88
+      "cited_by_count": 91
     },
     {
       "year": 2022,
       "works_count": 7,
-      "oa_works_count": 5,
+      "oa_works_count": 6,
       "cited_by_count": 69
     },
     {
       "year": 2021,
       "works_count": 17,
-      "oa_works_count": 5,
+      "oa_works_count": 8,
       "cited_by_count": 193
     },
     {
       "year": 2020,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 99
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 101
     },
     {
       "year": 2019,
       "works_count": 14,
-      "oa_works_count": 4,
-      "cited_by_count": 294
+      "oa_works_count": 7,
+      "cited_by_count": 296
     },
     {
       "year": 2018,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 370
+      "cited_by_count": 373
     },
     {
       "year": 2017,
       "works_count": 12,
-      "oa_works_count": 2,
-      "cited_by_count": 262
+      "oa_works_count": 4,
+      "cited_by_count": 263
     },
     {
       "year": 2016,
@@ -131,7 +131,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210122854",
-      "works_count": 113
+      "works_count": 124
     }
   ],
   "topics": [
@@ -174,7 +174,7 @@
     {
       "id": "https://openalex.org/T10030",
       "display_name": "Electrocatalysts for Energy Conversion",
-      "count": 13,
+      "count": 14,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
@@ -282,7 +282,7 @@
     {
       "id": "https://openalex.org/T10495",
       "display_name": "Catalysts for Methane Reforming",
-      "count": 7,
+      "count": 8,
       "score": 0.9998000264167786,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
@@ -388,10 +388,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10472",
-      "display_name": "Semiconductor materials and devices",
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
       "count": 5,
-      "score": 0.9990000128746033,
+      "score": 0.9614999890327454,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11690",
+      "display_name": "Advanced battery technologies research",
+      "count": 5,
+      "score": 0.9998000264167786,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -406,10 +424,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T11690",
-      "display_name": "Advanced battery technologies research",
+      "id": "https://openalex.org/T12026",
+      "display_name": "Explainable Artificial Intelligence (XAI)",
       "count": 5,
-      "score": 0.9998000264167786,
+      "score": 0.9905999898910522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10472",
+      "display_name": "Semiconductor materials and devices",
+      "count": 4,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -453,6 +489,24 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "count": 3,
+      "score": 0.991599977016449,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -530,67 +584,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13856",
-      "display_name": "Advanced Power Generation Technologies",
-      "count": 3,
-      "score": 0.9560999870300293,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10018",
-      "display_name": "Advancements in Battery Materials",
-      "count": 2,
-      "score": 0.9987000226974487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10223",
-      "display_name": "Microgrid Control and Optimization",
-      "count": 2,
-      "score": 0.9502999782562256,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10311",
       "display_name": "Advancements in Solid Oxide Fuel Cells",
-      "value": 0.0007159,
+      "value": 0.0007083,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -607,7 +607,7 @@
     {
       "id": "https://openalex.org/T11802",
       "display_name": "Chemical Looping and Thermochemical Processes",
-      "value": 0.0003009,
+      "value": 0.0002933,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -624,7 +624,7 @@
     {
       "id": "https://openalex.org/T11947",
       "display_name": "Molten salt chemistry and electrochemical processes",
-      "value": 0.0002203,
+      "value": 0.0002158,
       "subfield": {
         "id": "https://openalex.org/subfields/1507",
         "display_name": "Fluid Flow and Transfer Processes"
@@ -639,26 +639,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14382",
-      "display_name": "Electrophoretic Deposition in Materials Science",
-      "value": 0.0001582,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14250",
       "display_name": "Energy and Environmental Systems",
-      "value": 0.0001476,
+      "value": 0.0001342,
       "subfield": {
         "id": "https://openalex.org/subfields/3313",
         "display_name": "Transportation"
@@ -675,7 +658,7 @@
     {
       "id": "https://openalex.org/T10409",
       "display_name": "Fuel Cells and Related Materials",
-      "value": 9.98e-05,
+      "value": 9.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -692,7 +675,7 @@
     {
       "id": "https://openalex.org/T11007",
       "display_name": "Hybrid Renewable Energy Systems",
-      "value": 9.37e-05,
+      "value": 9.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2102",
         "display_name": "Energy Engineering and Power Technology"
@@ -709,58 +692,7 @@
     {
       "id": "https://openalex.org/T12588",
       "display_name": "Electronic and Structural Properties of Oxides",
-      "value": 8.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10811",
-      "display_name": "Hydrogen Storage and Materials",
-      "value": 7.91e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13856",
-      "display_name": "Advanced Power Generation Technologies",
-      "value": 7.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12875",
-      "display_name": "Thermal Expansion and Ionic Conductivity",
-      "value": 7.71e-05,
+      "value": 8.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -777,7 +709,7 @@
     {
       "id": "https://openalex.org/T10495",
       "display_name": "Catalysts for Methane Reforming",
-      "value": 7.09e-05,
+      "value": 7.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
         "display_name": "Catalysis"
@@ -792,9 +724,94 @@
       }
     },
     {
+      "id": "https://openalex.org/T10811",
+      "display_name": "Hydrogen Storage and Materials",
+      "value": 7.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14382",
+      "display_name": "Electrophoretic Deposition in Materials Science",
+      "value": 7.75e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12875",
+      "display_name": "Thermal Expansion and Ionic Conductivity",
+      "value": 7.59e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13856",
+      "display_name": "Advanced Power Generation Technologies",
+      "value": 7.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12026",
+      "display_name": "Explainable Artificial Intelligence (XAI)",
+      "value": 6.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13251",
       "display_name": "Electrical and Thermal Properties of Materials",
-      "value": 5.66e-05,
+      "value": 5.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -811,7 +828,7 @@
     {
       "id": "https://openalex.org/T11784",
       "display_name": "CO2 Reduction Techniques and Catalysts",
-      "value": 5.5e-05,
+      "value": 5.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -828,7 +845,7 @@
     {
       "id": "https://openalex.org/T10030",
       "display_name": "Electrocatalysts for Energy Conversion",
-      "value": 4.52e-05,
+      "value": 4.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -845,7 +862,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 4.4e-05,
+      "value": 4.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -862,7 +879,7 @@
     {
       "id": "https://openalex.org/T13608",
       "display_name": "Advanced Computational Techniques in Science and Engineering",
-      "value": 4.32e-05,
+      "value": 4.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -879,7 +896,7 @@
     {
       "id": "https://openalex.org/T11242",
       "display_name": "Nuclear Materials and Properties",
-      "value": 3.82e-05,
+      "value": 3.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -896,7 +913,7 @@
     {
       "id": "https://openalex.org/T10132",
       "display_name": "Advanced ceramic materials synthesis",
-      "value": 3.73e-05,
+      "value": 3.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2503",
         "display_name": "Ceramics and Composites"
@@ -913,7 +930,7 @@
     {
       "id": "https://openalex.org/T11661",
       "display_name": "Copper Interconnects and Reliability",
-      "value": 3.52e-05,
+      "value": 3.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -930,7 +947,7 @@
     {
       "id": "https://openalex.org/T11825",
       "display_name": "Catalysis and Oxidation Reactions",
-      "value": 3.41e-05,
+      "value": 3.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
         "display_name": "Catalysis"
@@ -947,7 +964,7 @@
     {
       "id": "https://openalex.org/T11690",
       "display_name": "Advanced battery technologies research",
-      "value": 2.87e-05,
+      "value": 2.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -964,7 +981,7 @@
     {
       "id": "https://openalex.org/T12506",
       "display_name": "Nuclear materials and radiation effects",
-      "value": 2.48e-05,
+      "value": 2.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -979,33 +996,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10192",
-      "display_name": "Catalytic Processes in Materials Science",
-      "value": 2.22e-05,
+      "id": "https://openalex.org/T10775",
+      "display_name": "Generative Adversarial Networks and Image Synthesis",
+      "value": 2.44e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10967",
-      "display_name": "Carbon Dioxide Capture Technologies",
-      "value": 2.22e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1016,6 +1016,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210122854",
-  "updated_date": "2026-08-06T05:59:15",
+  "updated_date": "2026-08-24T05:58:48",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -19,12 +19,12 @@
     "Center for Interdisciplinary Digital Sciences"
   ],
   "repositories": [],
-  "works_count": 92,
-  "cited_by_count": 346,
+  "works_count": 95,
+  "cited_by_count": 400,
   "summary_stats": {
-    "2yr_mean_citedness": 2.1097560975609757,
-    "h_index": 9,
-    "i10_index": 6
+    "2yr_mean_citedness": 2.366863905325444,
+    "h_index": 10,
+    "i10_index": 10
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272610",
@@ -56,21 +56,21 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 20,
-      "oa_works_count": 19,
-      "cited_by_count": 8
+      "works_count": 22,
+      "oa_works_count": 21,
+      "cited_by_count": 10
     },
     {
       "year": 2025,
-      "works_count": 40,
-      "oa_works_count": 35,
-      "cited_by_count": 65
+      "works_count": 41,
+      "oa_works_count": 36,
+      "cited_by_count": 71
     },
     {
       "year": 2024,
       "works_count": 31,
       "oa_works_count": 22,
-      "cited_by_count": 115
+      "cited_by_count": 122
     },
     {
       "year": 2023,
@@ -83,7 +83,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272610",
-      "works_count": 92
+      "works_count": 95
     }
   ],
   "topics": [
@@ -126,7 +126,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "count": 11,
+      "count": 12,
       "score": 0.9940999746322632,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
@@ -160,6 +160,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10715",
+      "display_name": "Distributed and Parallel Computing Systems",
+      "count": 8,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11839",
       "display_name": "Hormonal Regulation and Hypertension",
       "count": 8,
@@ -178,27 +196,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10715",
-      "display_name": "Distributed and Parallel Computing Systems",
-      "count": 7,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10101",
       "display_name": "Cloud Computing and Resource Management",
-      "count": 5,
+      "count": 6,
       "score": 0.9987999796867371,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
@@ -247,6 +247,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11829",
+      "display_name": "Mathematical Biology Tumor Growth",
+      "count": 4,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -337,24 +355,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11829",
-      "display_name": "Mathematical Biology Tumor Growth",
-      "count": 3,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2611",
-        "display_name": "Modeling and Simulation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -466,6 +466,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10336",
+      "display_name": "Cancer Cells and Metastasis",
+      "count": 2,
+      "score": 0.9923999905586243,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10342",
       "display_name": "Circadian rhythm and melatonin",
       "count": 2,
@@ -502,39 +520,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T10648",
-      "display_name": "Virtual Reality Applications and Impacts",
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
       "count": 2,
-      "score": 0.7854999899864197,
+      "score": 0.13950000703334808,
       "subfield": {
-        "id": "https://openalex.org/subfields/1709",
-        "display_name": "Human-Computer Interaction"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10688",
-      "display_name": "Image and Signal Denoising Methods",
-      "count": 2,
-      "score": 0.9842000007629395,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
@@ -542,7 +542,7 @@
     {
       "id": "https://openalex.org/T14431",
       "display_name": "Diverse Research and Applications",
-      "value": 0.0001632,
+      "value": 0.000157,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -557,9 +557,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11829",
+      "display_name": "Mathematical Biology Tumor Growth",
+      "value": 7.36e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "value": 7.53e-05,
+      "value": 7.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -576,7 +593,7 @@
     {
       "id": "https://openalex.org/T14201",
       "display_name": "Data Analysis and Archiving",
-      "value": 7.06e-05,
+      "value": 6.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -593,7 +610,7 @@
     {
       "id": "https://openalex.org/T14067",
       "display_name": "Cloud Computing and Remote Desktop Technologies",
-      "value": 6.36e-05,
+      "value": 6.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -610,7 +627,7 @@
     {
       "id": "https://openalex.org/T13500",
       "display_name": "Probability and Statistical Research",
-      "value": 6.07e-05,
+      "value": 5.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -627,7 +644,7 @@
     {
       "id": "https://openalex.org/T11181",
       "display_name": "Advanced Data Storage Technologies",
-      "value": 5.82e-05,
+      "value": 5.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -644,7 +661,7 @@
     {
       "id": "https://openalex.org/T12478",
       "display_name": "Wikis in Education and Collaboration",
-      "value": 5.8e-05,
+      "value": 5.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3315",
         "display_name": "Communication"
@@ -661,7 +678,7 @@
     {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "value": 5.65e-05,
+      "value": 5.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -676,26 +693,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11829",
-      "display_name": "Mathematical Biology Tumor Growth",
-      "value": 5.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2611",
-        "display_name": "Modeling and Simulation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11839",
       "display_name": "Hormonal Regulation and Hypertension",
-      "value": 5.34e-05,
+      "value": 5.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -712,7 +712,7 @@
     {
       "id": "https://openalex.org/T11001",
       "display_name": "Renin-Angiotensin System Studies",
-      "value": 5.19e-05,
+      "value": 5.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -729,7 +729,7 @@
     {
       "id": "https://openalex.org/T12421",
       "display_name": "Adrenal Hormones and Disorders",
-      "value": 4.95e-05,
+      "value": 4.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -746,7 +746,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "value": 4.01e-05,
+      "value": 4.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -763,24 +763,7 @@
     {
       "id": "https://openalex.org/T11054",
       "display_name": "Adrenal and Paraganglionic Tumors",
-      "value": 3.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13775",
-      "display_name": "Hydrogen's biological and therapeutic effects",
-      "value": 3.52e-05,
+      "value": 3.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -797,7 +780,7 @@
     {
       "id": "https://openalex.org/T10715",
       "display_name": "Distributed and Parallel Computing Systems",
-      "value": 3.15e-05,
+      "value": 3.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -812,9 +795,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13775",
+      "display_name": "Hydrogen's biological and therapeutic effects",
+      "value": 3.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10101",
+      "display_name": "Cloud Computing and Resource Management",
+      "value": 3.28e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 3.15e-05,
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -831,7 +848,7 @@
     {
       "id": "https://openalex.org/T10379",
       "display_name": "Cellular Mechanics and Interactions",
-      "value": 3.04e-05,
+      "value": 3.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -848,7 +865,7 @@
     {
       "id": "https://openalex.org/T10888",
       "display_name": "Augmented Reality Applications",
-      "value": 3.02e-05,
+      "value": 2.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -865,7 +882,7 @@
     {
       "id": "https://openalex.org/T14164",
       "display_name": "Marine and Offshore Engineering Studies",
-      "value": 3e-05,
+      "value": 2.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -882,7 +899,7 @@
     {
       "id": "https://openalex.org/T12127",
       "display_name": "Software System Performance and Reliability",
-      "value": 2.9e-05,
+      "value": 2.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -899,24 +916,7 @@
     {
       "id": "https://openalex.org/T11693",
       "display_name": "Cryptography and Residue Arithmetic",
-      "value": 2.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10101",
-      "display_name": "Cloud Computing and Resource Management",
-      "value": 2.78e-05,
+      "value": 2.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -933,7 +933,7 @@
     {
       "id": "https://openalex.org/T10933",
       "display_name": "Real-Time Systems Scheduling",
-      "value": 2.54e-05,
+      "value": 2.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -950,7 +950,7 @@
     {
       "id": "https://openalex.org/T14400",
       "display_name": "Medical Coding and Health Information",
-      "value": 2.47e-05,
+      "value": 2.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -968,6 +968,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272610",
-  "updated_date": "2026-08-06T05:59:15",
+  "updated_date": "2026-08-26T06:00:15",
   "created_date": "2026-07-22T03:30:22"
 }

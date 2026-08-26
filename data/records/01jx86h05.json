@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-28",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -26,7 +26,7 @@
   "links": [
     {
       "type": "website",
-      "value": "http://www.herzzentrum-dresden.com"
+      "value": "https://www.sana.de/herzzentrum-dresden"
     },
     {
       "type": "wikipedia",
@@ -51,6 +51,13 @@
   ],
   "names": [
     {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Heart Center"
+    },
+    {
       "lang": "de",
       "types": [
         "acronym"
@@ -58,7 +65,7 @@
       "value": "HZDD"
     },
     {
-      "lang": "de",
+      "lang": "en",
       "types": [
         "alias"
       ],
@@ -81,17 +88,55 @@
     {
       "lang": "de",
       "types": [
+        "alias"
+      ],
+      "value": "Herzzentrum Dresden GmbH Universitätsklinik"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Herzzentrum Dresden GmbH Universitätsklinik an der Technischen Universität Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Herzzentrum Dresden Universitaetsklinik"
+    },
+    {
+      "lang": "de",
+      "types": [
         "label",
         "ror_display"
       ],
-      "value": "Herzzentrum Dresden Universitaetsklinik"
+      "value": "Herzzentrum Dresden Universitätsklinik"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Heart Center Dresden"
     }
   ],
   "relationships": [
     {
-      "label": "Technische Universität Dresden",
+      "label": "Sana Kliniken AG",
       "type": "parent",
+      "id": "https://ror.org/01b4gqk18"
+    },
+    {
+      "label": "Technische Universität Dresden",
+      "type": "related",
       "id": "https://ror.org/042aqky30"
+    },
+    {
+      "label": "University Hospital Carl Gustav Carus",
+      "type": "related",
+      "id": "https://ror.org/04za5zm41"
     }
   ],
   "status": "active",

@@ -19,12 +19,12 @@
     "Institute of Air Handling and Refrigeration"
   ],
   "repositories": [],
-  "works_count": 416,
-  "cited_by_count": 8514,
+  "works_count": 430,
+  "cited_by_count": 8569,
   "summary_stats": {
-    "2yr_mean_citedness": 0.7946428571428571,
+    "2yr_mean_citedness": 0.6953125,
     "h_index": 49,
-    "i10_index": 195
+    "i10_index": 200
   },
   "ids": {
     "openalex": "https://openalex.org/I4210160536",
@@ -47,14 +47,14 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 15,
-      "oa_works_count": 12,
+      "works_count": 16,
+      "oa_works_count": 13,
       "cited_by_count": 1
     },
     {
       "year": 2025,
-      "works_count": 24,
-      "oa_works_count": 10,
+      "works_count": 31,
+      "oa_works_count": 17,
       "cited_by_count": 27
     },
     {
@@ -65,63 +65,63 @@
     },
     {
       "year": 2023,
-      "works_count": 10,
-      "oa_works_count": 5,
-      "cited_by_count": 91
+      "works_count": 11,
+      "oa_works_count": 6,
+      "cited_by_count": 95
     },
     {
       "year": 2022,
       "works_count": 26,
       "oa_works_count": 9,
-      "cited_by_count": 80
+      "cited_by_count": 81
     },
     {
       "year": 2021,
-      "works_count": 12,
-      "oa_works_count": 9,
-      "cited_by_count": 169
+      "works_count": 10,
+      "oa_works_count": 7,
+      "cited_by_count": 172
     },
     {
       "year": 2020,
       "works_count": 14,
       "oa_works_count": 8,
-      "cited_by_count": 129
+      "cited_by_count": 131
     },
     {
       "year": 2019,
       "works_count": 20,
       "oa_works_count": 14,
-      "cited_by_count": 228
+      "cited_by_count": 231
     },
     {
       "year": 2018,
       "works_count": 18,
       "oa_works_count": 5,
-      "cited_by_count": 277
+      "cited_by_count": 279
     },
     {
       "year": 2017,
-      "works_count": 11,
-      "oa_works_count": 2,
-      "cited_by_count": 223
+      "works_count": 12,
+      "oa_works_count": 3,
+      "cited_by_count": 228
     },
     {
       "year": 2016,
-      "works_count": 10,
+      "works_count": 11,
       "oa_works_count": 6,
-      "cited_by_count": 33
+      "cited_by_count": 36
     },
     {
       "year": 2015,
-      "works_count": 24,
-      "oa_works_count": 5,
-      "cited_by_count": 225
+      "works_count": 25,
+      "oa_works_count": 6,
+      "cited_by_count": 226
     },
     {
       "year": 2014,
       "works_count": 6,
       "oa_works_count": 2,
-      "cited_by_count": 61
+      "cited_by_count": 62
     },
     {
       "year": 2013,
@@ -133,7 +133,7 @@
       "year": 2012,
       "works_count": 7,
       "oa_works_count": 3,
-      "cited_by_count": 50
+      "cited_by_count": 51
     },
     {
       "year": 2011,
@@ -143,16 +143,16 @@
     },
     {
       "year": 2010,
-      "works_count": 3,
-      "oa_works_count": 1,
-      "cited_by_count": 29
+      "works_count": 4,
+      "oa_works_count": 2,
+      "cited_by_count": 40
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210160536",
-      "works_count": 416
+      "works_count": 430
     }
   ],
   "topics": [
@@ -177,6 +177,24 @@
     {
       "id": "https://openalex.org/T10998",
       "display_name": "Heat Transfer and Optimization",
+      "count": 31,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10850",
+      "display_name": "Heat Transfer and Boiling Studies",
       "count": 29,
       "score": 1.0,
       "subfield": {
@@ -211,9 +229,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10850",
-      "display_name": "Heat Transfer and Boiling Studies",
-      "count": 26,
+      "id": "https://openalex.org/T11529",
+      "display_name": "Refrigeration and Air Conditioning Technologies",
+      "count": 25,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
@@ -244,24 +262,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11529",
-      "display_name": "Refrigeration and Air Conditioning Technologies",
-      "count": 21,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -339,7 +339,7 @@
     {
       "id": "https://openalex.org/T10121",
       "display_name": "Building Energy and Comfort Optimization",
-      "count": 11,
+      "count": 12,
       "score": 0.9993000030517578,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
@@ -393,7 +393,7 @@
     {
       "id": "https://openalex.org/T12717",
       "display_name": "Space exploration and regulation",
-      "count": 9,
+      "count": 10,
       "score": 0.9977999925613403,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -411,11 +411,47 @@
     {
       "id": "https://openalex.org/T13200",
       "display_name": "Spacecraft and Cryogenic Technologies",
-      "count": 9,
+      "count": 10,
       "score": 0.9993000030517578,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12139",
+      "display_name": "Advanced Thermodynamic Systems and Engines",
+      "count": 9,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "count": 9,
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -463,24 +499,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12139",
-      "display_name": "Advanced Thermodynamic Systems and Engines",
-      "count": 8,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12350",
       "display_name": "Particle Dynamics in Fluid Flows",
       "count": 8,
@@ -517,24 +535,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "count": 8,
-      "score": 0.9973999857902527,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10037",
       "display_name": "Physics of Superconductivity and Magnetism",
       "count": 7,
@@ -553,13 +553,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11751",
-      "display_name": "Lattice Boltzmann Simulation Studies",
+      "id": "https://openalex.org/T10219",
+      "display_name": "Mechanical Behavior of Composites",
       "count": 7,
-      "score": 1.0,
+      "score": 0.9998999834060669,
       "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -571,13 +571,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10219",
-      "display_name": "Mechanical Behavior of Composites",
-      "count": 6,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T11751",
+      "display_name": "Lattice Boltzmann Simulation Studies",
+      "count": 7,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -609,9 +609,26 @@
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T10850",
+      "display_name": "Heat Transfer and Boiling Studies",
+      "value": 0.0003097,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12005",
       "display_name": "Spaceflight effects on biology",
-      "value": 0.0002952,
+      "value": 0.0002921,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -626,9 +643,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10850",
-      "display_name": "Heat Transfer and Boiling Studies",
-      "value": 0.00028,
+      "id": "https://openalex.org/T11529",
+      "display_name": "Refrigeration and Air Conditioning Technologies",
+      "value": 0.0002681,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -645,7 +662,7 @@
     {
       "id": "https://openalex.org/T10104",
       "display_name": "Nanofluid Flow and Heat Transfer",
-      "value": 0.0002309,
+      "value": 0.0002289,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -660,26 +677,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11529",
-      "display_name": "Refrigeration and Air Conditioning Technologies",
-      "value": 0.0002276,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12717",
       "display_name": "Space exploration and regulation",
-      "value": 0.0002097,
+      "value": 0.0002278,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -696,7 +696,7 @@
     {
       "id": "https://openalex.org/T12139",
       "display_name": "Advanced Thermodynamic Systems and Engines",
-      "value": 0.0001861,
+      "value": 0.0002077,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -713,7 +713,7 @@
     {
       "id": "https://openalex.org/T10998",
       "display_name": "Heat Transfer and Optimization",
-      "value": 0.0001855,
+      "value": 0.0001967,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -730,7 +730,7 @@
     {
       "id": "https://openalex.org/T11945",
       "display_name": "Heat Transfer Mechanisms",
-      "value": 0.0001553,
+      "value": 0.0001544,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -747,7 +747,7 @@
     {
       "id": "https://openalex.org/T13307",
       "display_name": "Diverse Scientific and Engineering Research",
-      "value": 0.0001354,
+      "value": 0.0001337,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -762,9 +762,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "value": 0.0001302,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10944",
       "display_name": "Turbomachinery Performance and Optimization",
-      "value": 0.0001266,
+      "value": 0.0001256,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -781,24 +798,7 @@
     {
       "id": "https://openalex.org/T13298",
       "display_name": "Solar Energy Systems and Technologies",
-      "value": 0.0001229,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "value": 0.0001171,
+      "value": 0.0001191,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -815,7 +815,7 @@
     {
       "id": "https://openalex.org/T10990",
       "display_name": "Infection Control and Ventilation",
-      "value": 0.0001153,
+      "value": 0.0001134,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -832,7 +832,7 @@
     {
       "id": "https://openalex.org/T11176",
       "display_name": "Radiation Therapy and Dosimetry",
-      "value": 0.000109,
+      "value": 0.0001064,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -849,7 +849,7 @@
     {
       "id": "https://openalex.org/T12788",
       "display_name": "Space Science and Extraterrestrial Life",
-      "value": 0.0001079,
+      "value": 0.0001059,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -866,7 +866,7 @@
     {
       "id": "https://openalex.org/T13733",
       "display_name": "Moravian Church and William Blake",
-      "value": 0.0001054,
+      "value": 0.0001036,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -883,7 +883,24 @@
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "value": 0.0001038,
+      "value": 0.0001028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10360",
+      "display_name": "Fluid Dynamics and Turbulent Flows",
+      "value": 9.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -900,7 +917,7 @@
     {
       "id": "https://openalex.org/T14014",
       "display_name": "Transportation Systems and Infrastructure",
-      "value": 9.87e-05,
+      "value": 9.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -915,26 +932,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10360",
-      "display_name": "Fluid Dynamics and Turbulent Flows",
-      "value": 9.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12759",
       "display_name": "Vehicle Noise and Vibration Control",
-      "value": 8.85e-05,
+      "value": 8.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -951,7 +951,7 @@
     {
       "id": "https://openalex.org/T13324",
       "display_name": "Scientific and Engineering Research Topics",
-      "value": 8.66e-05,
+      "value": 8.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3506",
         "display_name": "Periodontics"
@@ -968,7 +968,7 @@
     {
       "id": "https://openalex.org/T12350",
       "display_name": "Particle Dynamics in Fluid Flows",
-      "value": 8.06e-05,
+      "value": 8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -983,9 +983,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13200",
+      "display_name": "Spacecraft and Cryogenic Technologies",
+      "value": 7.83e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12405",
       "display_name": "Characterization and Applications of Magnetic Nanoparticles",
-      "value": 7.72e-05,
+      "value": 7.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -1000,12 +1017,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10938",
-      "display_name": "Phase Change Materials Research",
-      "value": 7.44e-05,
+      "id": "https://openalex.org/T13928",
+      "display_name": "Advanced Sensor Technologies Research",
+      "value": 7.57e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -1015,28 +1032,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11359",
-      "display_name": "Effects of Radiation Exposure",
-      "value": 7.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210160536",
-  "updated_date": "2026-08-06T05:59:15",
+  "updated_date": "2026-08-26T06:00:15",
   "created_date": "2022-02-02T04:48:36"
 }

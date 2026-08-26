@@ -18,7 +18,7 @@
     "Institut für Leichte Elektrische Antriebe und Generatoren (Germany)"
   ],
   "repositories": [],
-  "works_count": 19,
+  "works_count": 21,
   "cited_by_count": 116,
   "summary_stats": {
     "2yr_mean_citedness": 0.4,
@@ -75,6 +75,18 @@
       "cited_by_count": 0
     },
     {
+      "year": 2016,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2012,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
       "year": 2010,
       "works_count": 1,
       "oa_works_count": 1,
@@ -85,18 +97,36 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210143243",
-      "works_count": 19
+      "works_count": 21
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "count": 4,
+      "count": 5,
       "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10278",
+      "display_name": "Electric Motor Design and Analysis",
+      "count": 3,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -115,24 +145,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10278",
-      "display_name": "Electric Motor Design and Analysis",
-      "count": 2,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -187,6 +199,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11602",
+      "display_name": "Magnetic Bearings and Levitation Dynamics",
+      "count": 2,
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -520,31 +550,30 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10916",
-      "display_name": "Surgical Simulation and Training",
-      "count": 1,
-      "score": 0.2434999942779541,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "value": 3.95e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12940",
       "display_name": "Structural Engineering and Materials Analysis",
-      "value": 3.96e-05,
+      "value": 3.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -561,7 +590,7 @@
     {
       "id": "https://openalex.org/T10808",
       "display_name": "Electric and Hybrid Vehicle Technologies",
-      "value": 3.44e-05,
+      "value": 3.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -576,26 +605,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12565",
-      "display_name": "Physics and Engineering Research Articles",
-      "value": 3.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12927",
       "display_name": "Memory, History, Trauma, Identity",
-      "value": 3.06e-05,
+      "value": 2.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -612,7 +624,7 @@
     {
       "id": "https://openalex.org/T14514",
       "display_name": "Medical Research and Practices",
-      "value": 3.03e-05,
+      "value": 2.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3608",
         "display_name": "Medical Terminology"
@@ -629,7 +641,7 @@
     {
       "id": "https://openalex.org/T14355",
       "display_name": "Historical Studies of British Isles",
-      "value": 2.52e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -644,9 +656,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13856",
+      "display_name": "Advanced Power Generation Technologies",
+      "value": 2.36e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11524",
       "display_name": "Advanced Aircraft Design and Technologies",
-      "value": 2.24e-05,
+      "value": 2.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -663,7 +692,7 @@
     {
       "id": "https://openalex.org/T12546",
       "display_name": "Smart Parking Systems Research",
-      "value": 2.23e-05,
+      "value": 2.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -678,9 +707,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10278",
+      "display_name": "Electric Motor Design and Analysis",
+      "value": 2.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12810",
+      "display_name": "Real-time simulation and control systems",
+      "value": 2.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "value": 2.08e-05,
+      "value": 2.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -695,9 +758,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12810",
-      "display_name": "Real-time simulation and control systems",
-      "value": 2.05e-05,
+      "id": "https://openalex.org/T11602",
+      "display_name": "Magnetic Bearings and Levitation Dynamics",
+      "value": 2.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -714,7 +777,7 @@
     {
       "id": "https://openalex.org/T12954",
       "display_name": "Law and Political Science",
-      "value": 1.97e-05,
+      "value": 1.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -729,9 +792,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12300",
+      "display_name": "Advanced Electrical Measurement Techniques",
+      "value": 1.89e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13430",
       "display_name": "Lipid metabolism and disorders",
-      "value": 1.6e-05,
+      "value": 1.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -748,7 +828,7 @@
     {
       "id": "https://openalex.org/T13031",
       "display_name": "Civil and Structural Engineering Research",
-      "value": 1.56e-05,
+      "value": 1.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -763,26 +843,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10278",
-      "display_name": "Electric Motor Design and Analysis",
-      "value": 1.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10456",
       "display_name": "Multi-Agent Systems and Negotiation",
-      "value": 1.32e-05,
+      "value": 1.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -799,7 +862,7 @@
     {
       "id": "https://openalex.org/T10868",
       "display_name": "Soft Robotics and Applications",
-      "value": 1.15e-05,
+      "value": 1.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -816,7 +879,7 @@
     {
       "id": "https://openalex.org/T10820",
       "display_name": "Fuzzy Logic and Control Systems",
-      "value": 1.12e-05,
+      "value": 1.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -831,26 +894,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11602",
-      "display_name": "Magnetic Bearings and Levitation Dynamics",
-      "value": 1.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10816",
       "display_name": "Cerebrovascular and Carotid Artery Diseases",
-      "value": 9.8e-06,
+      "value": 9.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -867,7 +913,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 9.8e-06,
+      "value": 9.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -884,7 +930,7 @@
     {
       "id": "https://openalex.org/T11444",
       "display_name": "Electromagnetic Compatibility and Noise Suppression",
-      "value": 9.2e-06,
+      "value": 9.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -901,7 +947,7 @@
     {
       "id": "https://openalex.org/T11388",
       "display_name": "Grief, Bereavement, and Mental Health",
-      "value": 9.1e-06,
+      "value": 9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -913,23 +959,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10705",
-      "display_name": "Additive Manufacturing Materials and Processes",
-      "value": 8.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -948,28 +977,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11375",
-      "display_name": "Geotechnical Engineering and Soil Stabilization",
-      "value": 8.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210143243",
-  "updated_date": "2026-07-23T06:00:47",
+  "updated_date": "2026-08-22T05:59:58",
   "created_date": "2022-02-02T04:48:36"
 }
