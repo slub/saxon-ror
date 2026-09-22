@@ -17,12 +17,12 @@
     "Röber Institut"
   ],
   "repositories": [],
-  "works_count": 100,
-  "cited_by_count": 3245,
+  "works_count": 43,
+  "cited_by_count": 2889,
   "summary_stats": {
-    "2yr_mean_citedness": 0.125,
-    "h_index": 28,
-    "i10_index": 44
+    "2yr_mean_citedness": 2.0,
+    "h_index": 27,
+    "i10_index": 37
   },
   "ids": {
     "openalex": "https://openalex.org/I4210141283",
@@ -44,90 +44,24 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
       "year": 2025,
-      "works_count": 13,
-      "oa_works_count": 13,
-      "cited_by_count": 5
-    },
-    {
-      "year": 2024,
-      "works_count": 6,
-      "oa_works_count": 5,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2023,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2022,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 6
-    },
-    {
-      "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2020,
-      "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2018,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 14
-    },
-    {
-      "year": 2016,
-      "works_count": 3,
-      "oa_works_count": 3,
       "cited_by_count": 2
-    },
-    {
-      "year": 2015,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 19
-    },
-    {
-      "year": 2012,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2011,
-      "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 35
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210141283",
-      "works_count": 100
+      "works_count": 43
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10733",
       "display_name": "Wheat and Barley Genetics and Pathology",
-      "count": 26,
+      "count": 23,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
@@ -145,7 +79,7 @@
     {
       "id": "https://openalex.org/T11229",
       "display_name": "Genetics and Plant Breeding",
-      "count": 11,
+      "count": 10,
       "score": 0.9998000264167786,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
@@ -154,42 +88,6 @@
       "field": {
         "id": "https://openalex.org/fields/11",
         "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12858",
-      "display_name": "Plant Disease Resistance and Genetics",
-      "count": 11,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11468",
-      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
-      "count": 10,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -208,6 +106,42 @@
       "field": {
         "id": "https://openalex.org/fields/11",
         "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12858",
+      "display_name": "Plant Disease Resistance and Genetics",
+      "count": 9,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11468",
+      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
+      "count": 8,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -269,24 +203,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10653",
-      "display_name": "Robot Manipulation and Learning",
-      "count": 4,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12934",
       "display_name": "Plant and fungal interactions",
       "count": 4,
@@ -302,42 +218,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13810",
-      "display_name": "Legal Systems and Institutions",
-      "count": 4,
-      "score": 0.8185999989509583,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14186",
-      "display_name": "Healthcare Systems and Practices",
-      "count": 4,
-      "score": 0.9585999846458435,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -359,114 +239,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10586",
-      "display_name": "Robotic Path Planning Algorithms",
-      "count": 3,
-      "score": 0.9980999827384949,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11475",
-      "display_name": "French Urban and Social Studies",
-      "count": 3,
-      "score": 0.7702000141143799,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13099",
-      "display_name": "Health, Medicine and Society",
-      "count": 3,
-      "score": 0.975600004196167,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10153",
-      "display_name": "Education, sociology, and vocational training",
-      "count": 2,
-      "score": 0.08240000158548355,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10191",
-      "display_name": "Robotics and Sensor-Based Localization",
-      "count": 2,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10211",
-      "display_name": "Computational Drug Discovery Methods",
-      "count": 2,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10240",
       "display_name": "Plant tissue culture and regeneration",
       "count": 2,
@@ -482,78 +254,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10375",
-      "display_name": "Pharmacogenetics and Drug Metabolism",
-      "count": 2,
-      "score": 0.9961000084877014,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10462",
-      "display_name": "Reinforcement Learning in Robotics",
-      "count": 2,
-      "score": 0.9047999978065491,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11099",
-      "display_name": "Autonomous Vehicle Technology and Safety",
-      "count": 2,
-      "score": 0.9958999752998352,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11164",
-      "display_name": "Remote Sensing and LiDAR Applications",
-      "count": 2,
-      "score": 0.9972000122070312,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -573,20 +273,109 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    }
-  ],
-  "topic_share": [
+    },
     {
-      "id": "https://openalex.org/T13810",
-      "display_name": "Legal Systems and Institutions",
-      "value": 0.0003485,
+      "id": "https://openalex.org/T12003",
+      "display_name": "Bioenergy crop production and management",
+      "count": 2,
+      "score": 0.9987999796867371,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10014",
+      "display_name": "Plant Stress Responses and Tolerance",
+      "count": 1,
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "count": 1,
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10375",
+      "display_name": "Pharmacogenetics and Drug Metabolism",
+      "count": 1,
+      "score": 0.9776999950408936,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3004",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10421",
+      "display_name": "Pleistocene-Era Hominins and Archaeology",
+      "count": 1,
+      "score": 0.9943000078201294,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -594,9 +383,137 @@
       }
     },
     {
+      "id": "https://openalex.org/T10494",
+      "display_name": "Plant Virus Research Studies",
+      "count": 1,
+      "score": 0.9789999723434448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10634",
+      "display_name": "Food Allergy and Anaphylaxis Research",
+      "count": 1,
+      "score": 0.019600000232458115,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "count": 1,
+      "score": 0.9668999910354614,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11098",
+      "display_name": "Seed Germination and Physiology",
+      "count": 1,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11138",
+      "display_name": "Tribology and Lubrication Engineering",
+      "count": 1,
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11204",
+      "display_name": "Ion Channels and Receptors",
+      "count": 1,
+      "score": 0.022299999371170998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2809",
+        "display_name": "Sensory Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11470",
+      "display_name": "Legume Nitrogen Fixing Symbiosis",
+      "count": 1,
+      "score": 0.9975000023841858,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
       "id": "https://openalex.org/T10733",
       "display_name": "Wheat and Barley Genetics and Pathology",
-      "value": 0.0002201,
+      "value": 0.0002006,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -613,7 +530,7 @@
     {
       "id": "https://openalex.org/T12115",
       "display_name": "Genetic and Environmental Crop Studies",
-      "value": 0.0001585,
+      "value": 0.0001637,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -625,29 +542,12 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14300",
-      "display_name": "Legal and Social Philosophy",
-      "value": 0.0001139,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11229",
       "display_name": "Genetics and Plant Breeding",
-      "value": 0.0001136,
+      "value": 0.0001057,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -659,63 +559,12 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13581",
-      "display_name": "New Caledonia Indigenous Studies",
-      "value": 0.000109,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13125",
       "display_name": "Agricultural pest management studies",
-      "value": 8.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13088",
-      "display_name": "Legal and Labor Studies",
-      "value": 6.6e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1410",
-        "display_name": "Industrial relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12858",
-      "display_name": "Plant Disease Resistance and Genetics",
-      "value": 6.41e-05,
+      "value": 9.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -732,7 +581,7 @@
     {
       "id": "https://openalex.org/T10520",
       "display_name": "Mycotoxins in Agriculture and Food",
-      "value": 6.22e-05,
+      "value": 6.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -749,7 +598,7 @@
     {
       "id": "https://openalex.org/T12934",
       "display_name": "Plant and fungal interactions",
-      "value": 5.98e-05,
+      "value": 6.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -764,26 +613,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11468",
-      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
-      "value": 5.97e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13798",
       "display_name": "Hops Chemistry and Applications",
-      "value": 5.88e-05,
+      "value": 6.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -798,131 +630,80 @@
       }
     },
     {
-      "id": "https://openalex.org/T13875",
-      "display_name": "Legal Studies and Reforms",
-      "value": 5.83e-05,
+      "id": "https://openalex.org/T12858",
+      "display_name": "Plant Disease Resistance and Genetics",
+      "value": 5.41e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13441",
-      "display_name": "Ottoman Empire History and Society",
-      "value": 5.77e-05,
+      "id": "https://openalex.org/T11468",
+      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
+      "value": 4.82e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13851",
-      "display_name": "Law, AI, and Intellectual Property",
-      "value": 5.29e-05,
+      "id": "https://openalex.org/T13628",
+      "display_name": "Agricultural Productivity and Crop Improvement",
+      "value": 3.1e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13952",
-      "display_name": "Information Technology and Learning",
-      "value": 5.08e-05,
+      "id": "https://openalex.org/T12003",
+      "display_name": "Bioenergy crop production and management",
+      "value": 2.93e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13170",
-      "display_name": "Discrimination and Equality Law",
-      "value": 4.72e-05,
+      "id": "https://openalex.org/T12822",
+      "display_name": "Turfgrass Adaptation and Management",
+      "value": 2.5e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13271",
-      "display_name": "Ukrainian Legal and Forensic Studies",
-      "value": 4.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13210",
-      "display_name": "Historical Turkish Studies",
-      "value": 4.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13530",
-      "display_name": "Climate Change and Environmental Impact",
-      "value": 4.37e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -934,77 +715,230 @@
       }
     },
     {
-      "id": "https://openalex.org/T14012",
-      "display_name": "Comparative and International Law Studies",
-      "value": 4.29e-05,
+      "id": "https://openalex.org/T11771",
+      "display_name": "Plant Pathogens and Resistance",
+      "value": 2.16e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12572",
-      "display_name": "Intelligence, Security, War Strategy",
-      "value": 3.83e-05,
+      "id": "https://openalex.org/T12699",
+      "display_name": "Electromagnetic Launch and Propulsion Technology",
+      "value": 1.98e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13848",
-      "display_name": "Ottoman and Turkish Studies",
-      "value": 3.83e-05,
+      "id": "https://openalex.org/T11204",
+      "display_name": "Ion Channels and Receptors",
+      "value": 1.94e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/2809",
+        "display_name": "Sensory Systems"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13842",
-      "display_name": "Intellectual Property Law",
-      "value": 3.76e-05,
+      "id": "https://openalex.org/T12771",
+      "display_name": "Plant pathogens and resistance mechanisms",
+      "value": 1.94e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13220",
+      "display_name": "Plant and Fungal Interactions Research",
+      "value": 1.78e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1310",
+        "display_name": "Endocrinology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10434",
+      "display_name": "Chromosomal and Genetic Variations",
+      "value": 1.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13928",
+      "display_name": "Advanced Sensor Technologies Research",
+      "value": 1.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11098",
+      "display_name": "Seed Germination and Physiology",
+      "value": 1.31e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13506",
+      "display_name": "Botanical Research and Chemistry",
+      "value": 1.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10825",
+      "display_name": "Plant Pathogens and Fungal Diseases",
+      "value": 1.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12472",
+      "display_name": "Plant responses to water stress",
+      "value": 1.13e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12856",
+      "display_name": "Transgenic Plants and Applications",
+      "value": 1.06e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12733",
+      "display_name": "Vector-Borne Animal Diseases",
+      "value": 1.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210141283",
-  "updated_date": "2026-08-16T06:00:35",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

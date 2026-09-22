@@ -30,12 +30,12 @@
     "Universitätsklinikum Dresden, Klinik und Poliklinik für HNO"
   ],
   "repositories": [],
-  "works_count": 0,
-  "cited_by_count": 0,
+  "works_count": 826,
+  "cited_by_count": 89593,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 0,
-    "i10_index": 0
+    "2yr_mean_citedness": 2.229299363057325,
+    "h_index": 149,
+    "i10_index": 1204
   },
   "ids": {
     "openalex": "https://openalex.org/I4405270933",
@@ -64,19 +64,999 @@
       "relationship": "parent"
     }
   ],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 18,
+      "oa_works_count": 8,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "works_count": 25,
+      "oa_works_count": 20,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2024,
+      "works_count": 22,
+      "oa_works_count": 15,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2023,
+      "works_count": 44,
+      "oa_works_count": 23,
+      "cited_by_count": 552
+    },
+    {
+      "year": 2022,
+      "works_count": 60,
+      "oa_works_count": 45,
+      "cited_by_count": 552
+    },
+    {
+      "year": 2021,
+      "works_count": 62,
+      "oa_works_count": 43,
+      "cited_by_count": 833
+    },
+    {
+      "year": 2020,
+      "works_count": 67,
+      "oa_works_count": 59,
+      "cited_by_count": 3293
+    },
+    {
+      "year": 2019,
+      "works_count": 48,
+      "oa_works_count": 26,
+      "cited_by_count": 2758
+    },
+    {
+      "year": 2018,
+      "works_count": 41,
+      "oa_works_count": 23,
+      "cited_by_count": 1057
+    },
+    {
+      "year": 2017,
+      "works_count": 39,
+      "oa_works_count": 24,
+      "cited_by_count": 2536
+    },
+    {
+      "year": 2016,
+      "works_count": 42,
+      "oa_works_count": 20,
+      "cited_by_count": 1230
+    },
+    {
+      "year": 2015,
+      "works_count": 27,
+      "oa_works_count": 8,
+      "cited_by_count": 1098
+    },
+    {
+      "year": 2014,
+      "works_count": 17,
+      "oa_works_count": 6,
+      "cited_by_count": 1646
+    },
+    {
+      "year": 2013,
+      "works_count": 23,
+      "oa_works_count": 11,
+      "cited_by_count": 1046
+    },
+    {
+      "year": 2012,
+      "works_count": 28,
+      "oa_works_count": 8,
+      "cited_by_count": 1325
+    },
+    {
+      "year": 2011,
+      "works_count": 21,
+      "oa_works_count": 6,
+      "cited_by_count": 869
+    },
+    {
+      "year": 2010,
+      "works_count": 32,
+      "oa_works_count": 6,
+      "cited_by_count": 2304
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405270933",
-      "works_count": 0
+      "works_count": 826
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10971",
+      "display_name": "Olfactory and Sensory Function Studies",
+      "count": 611,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2809",
+        "display_name": "Sensory Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "count": 379,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11584",
+      "display_name": "Biochemical Analysis and Sensing Techniques",
+      "count": 269,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10423",
+      "display_name": "Neurobiology and Insect Physiology Research",
+      "count": 59,
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11812",
+      "display_name": "Nasal Surgery and Airway Studies",
+      "count": 58,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10984",
+      "display_name": "Sinusitis and nasal conditions",
+      "count": 55,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12032",
+      "display_name": "Multisensory perception and integration",
+      "count": 51,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11282",
+      "display_name": "Fibromyalgia and Chronic Fatigue Syndrome Research",
+      "count": 47,
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10877",
+      "display_name": "Allergic Rhinitis and Sensitization",
+      "count": 46,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10861",
+      "display_name": "Ear Surgery and Otitis Media",
+      "count": 28,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11368",
+      "display_name": "Long-Term Effects of COVID-19",
+      "count": 22,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10283",
+      "display_name": "Hearing Loss and Rehabilitation",
+      "count": 18,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12114",
+      "display_name": "Sensory Analysis and Statistical Methods",
+      "count": 18,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13986",
+      "display_name": "Medical Practices and Rehabilitation",
+      "count": 15,
+      "score": 0.9789999723434448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11118",
+      "display_name": "Evolutionary Psychology and Human Behavior",
+      "count": 14,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10196",
+      "display_name": "Pain Mechanisms and Treatments",
+      "count": 13,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11521",
+      "display_name": "Salivary Gland Disorders and Functions",
+      "count": 13,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12496",
+      "display_name": "Color perception and design",
+      "count": 13,
+      "score": 0.9968000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14144",
+      "display_name": "Neurological Disease Mechanisms and Treatments",
+      "count": 10,
+      "score": 0.004000000189989805,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10225",
+      "display_name": "Essential Oils and Antimicrobial Activity",
+      "count": 9,
+      "score": 0.9919999837875366,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11002",
+      "display_name": "Indoor Air Quality and Microbial Exposure",
+      "count": 9,
+      "score": 0.07660000026226044,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11866",
+      "display_name": "Reconstructive Facial Surgery Techniques",
+      "count": 9,
+      "score": 0.994700014591217,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12663",
+      "display_name": "Body Image and Dysmorphia Studies",
+      "count": 9,
+      "score": 0.007000000216066837,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10448",
+      "display_name": "Memory and Neural Mechanisms",
+      "count": 8,
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12301",
+      "display_name": "Facial Nerve Paralysis Treatment and Research",
+      "count": 8,
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10971",
+      "display_name": "Olfactory and Sensory Function Studies",
+      "value": 0.0039165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2809",
+        "display_name": "Sensory Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11584",
+      "display_name": "Biochemical Analysis and Sensing Techniques",
+      "value": 0.0016557,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "value": 0.0013958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11812",
+      "display_name": "Nasal Surgery and Airway Studies",
+      "value": 0.0008211,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12032",
+      "display_name": "Multisensory perception and integration",
+      "value": 0.0005918,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11282",
+      "display_name": "Fibromyalgia and Chronic Fatigue Syndrome Research",
+      "value": 0.0005424,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10984",
+      "display_name": "Sinusitis and nasal conditions",
+      "value": 0.0005242,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13663",
+      "display_name": "Sustainability, Environment, and Optimization Algorithms",
+      "value": 0.0004237,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10861",
+      "display_name": "Ear Surgery and Otitis Media",
+      "value": 0.0003366,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10877",
+      "display_name": "Allergic Rhinitis and Sensitization",
+      "value": 0.0003219,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13986",
+      "display_name": "Medical Practices and Rehabilitation",
+      "value": 0.000314,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12114",
+      "display_name": "Sensory Analysis and Statistical Methods",
+      "value": 0.0002767,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10423",
+      "display_name": "Neurobiology and Insect Physiology Research",
+      "value": 0.0002736,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11368",
+      "display_name": "Long-Term Effects of COVID-19",
+      "value": 0.0001682,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11521",
+      "display_name": "Salivary Gland Disorders and Functions",
+      "value": 0.0001521,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12663",
+      "display_name": "Body Image and Dysmorphia Studies",
+      "value": 0.0001501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12321",
+      "display_name": "Insect Pheromone Research and Control",
+      "value": 0.0001493,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11118",
+      "display_name": "Evolutionary Psychology and Human Behavior",
+      "value": 0.0001469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12496",
+      "display_name": "Color perception and design",
+      "value": 0.0001362,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14461",
+      "display_name": "Medicinal Plant Studies",
+      "value": 0.0001325,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14508",
+      "display_name": "Vocational Education and Training",
+      "value": 0.0001303,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12301",
+      "display_name": "Facial Nerve Paralysis Treatment and Research",
+      "value": 0.000117,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10283",
+      "display_name": "Hearing Loss and Rehabilitation",
+      "value": 0.0001161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11002",
+      "display_name": "Indoor Air Quality and Microbial Exposure",
+      "value": 0.0001076,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14326",
+      "display_name": "Ear and Head Tumors",
+      "value": 0.000107,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405270933",
-  "updated_date": "2026-07-22T05:59:22",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2026-07-22T03:30:22"
 }

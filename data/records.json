@@ -286,11 +286,125 @@
   {
     "admin": {
       "created": {
+        "date": "2026-09-21",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2005,
+    "external_ids": [
+      {
+        "all": [
+          "501100019676"
+        ],
+        "preferred": "501100019676",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0005 1089 7154"
+        ],
+        "preferred": "0000 0005 1089 7154",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q19965421"
+        ],
+        "preferred": "Q19965421",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/003kzqz52",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/zih"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Zentrum_f%C3%BCr_Informationsdienste_und_Hochleistungsrechnen"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Information Services and High Performance Computing"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center of Information Services and High Performance Computing"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Information Services and High Performance Computing"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ZIH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für Informationsdienste und Hochleistungsrechnen"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Center for Interdisciplinary Digital Sciences",
+        "type": "parent",
+        "id": "https://ror.org/04e72jx49"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2026-06-01",
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -430,6 +544,11 @@
         "label": "Leibniz Institute of Polymer Research",
         "type": "related",
         "id": "https://ror.org/01tspta37"
+      },
+      {
+        "label": "Center for Molecular and Cellular Bioengineering",
+        "type": "parent",
+        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
@@ -849,7 +968,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -6670,7 +6789,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -7301,6 +7420,142 @@
   {
     "admin": {
       "created": {
+        "date": "2026-09-21",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2016,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0005 1432 3756"
+        ],
+        "preferred": "0000 0005 1432 3756",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q141118953"
+        ],
+        "preferred": "Q141118953",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01y4jnr14",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-dresden.de/cmcb"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CMCB"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Cellular and Molecular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Molecular Cellular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Center for Molecular and Cellular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center for Molecular and Cellular Engineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Center of Molecular and Cellular Bioengineering"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Molecular and Cellular Bioengineering"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Biotechnologisches Zentrum",
+        "type": "child",
+        "id": "https://ror.org/046b28292"
+      },
+      {
+        "label": "Center for Molecular Bioengineering",
+        "type": "child",
+        "id": "https://ror.org/05aa04p38"
+      },
+      {
+        "label": "Center for Regenerative Therapies Dresden",
+        "type": "child",
+        "id": "https://ror.org/00490nx58"
+      },
+      {
+        "label": "DRESDEN-concept Genome Center",
+        "type": "child",
+        "id": "https://ror.org/025a7t810"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2026-07-19",
         "schema_version": "2.1"
       },
@@ -7853,7 +8108,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -7895,7 +8150,7 @@
     "links": [
       {
         "type": "website",
-        "value": "https://www.hzdr.de"
+        "value": "https://www.hzdr.de/"
       },
       {
         "type": "wikipedia",
@@ -8895,7 +9150,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -8982,11 +9237,100 @@
         "label": "Max Planck Institute of Molecular Cell Biology and Genetics",
         "type": "related",
         "id": "https://ror.org/05b8d3w18"
+      },
+      {
+        "label": "Center for Molecular and Cellular Bioengineering",
+        "type": "parent",
+        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
     "types": [
       "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-09-20",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "leibniz-eega.de"
+    ],
+    "established": 2016,
+    "external_ids": [
+      {
+        "all": [
+          "501100014369"
+        ],
+        "preferred": "501100014369",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/025vqd093",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://leibniz-eega.de/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "EEGA"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Leibniz ScienceCampus EEGA"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Leibniz ScienceCampus Eastern Europe – Global Area"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Leibniz Institute for Regional Geography",
+        "type": "parent",
+        "id": "https://ror.org/02wt6e634"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
     ]
   },
   {
@@ -9756,7 +10100,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -9784,7 +10128,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.uniklinikum-leipzig.de/"
+        "value": "https://www.uniklinikum-leipzig.de/"
       }
     ],
     "locations": [
@@ -9807,10 +10151,31 @@
       {
         "lang": "en",
         "types": [
+          "alias"
+        ],
+        "value": "Leipzig University Hospital"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitaetsklinikum Leipzig AoeR"
+      },
+      {
+        "lang": "en",
+        "types": [
           "ror_display",
           "label"
         ],
         "value": "University Hospital Leipzig"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University Hospital of Leipzig"
       },
       {
         "lang": "de",
@@ -9818,6 +10183,13 @@
           "label"
         ],
         "value": "Universitätsklinikum Leipzig"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitätsklinikum Leipzig AöR"
       }
     ],
     "relationships": [
@@ -11037,9 +11409,38 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "leipzig-heart.de"
+    ],
+    "established": 2015,
+    "external_ids": [
+      {
+        "all": [
+          "grid.491961.2"
+        ],
+        "preferred": "grid.491961.2",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/02kj91m96",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.leipzig-heart.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2879139,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -11050,58 +11451,31 @@
           "lat": 51.33962,
           "lng": 12.37129,
           "name": "Leipzig"
-        }
-      }
-    ],
-    "established": 2015,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.491961.2"
-        ],
-        "preferred": "grid.491961.2"
-      }
-    ],
-    "id": "https://ror.org/02kj91m96",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://leipzig-heart.de/"
+        },
+        "geonames_id": 2879139
       }
     ],
     "names": [
       {
-        "value": "Leipzig Heart Institute",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Leipzig Heart Institute"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Helios Kliniken",
+        "type": "parent",
         "id": "https://ror.org/04fjkxc67"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -12335,9 +12709,50 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506847.8"
+        ],
+        "preferred": "grid.506847.8",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 1955 4124"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1495327"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02v4gph32",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.vkta.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -12348,71 +12763,71 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1992,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506847.8"
-        ],
-        "preferred": "grid.506847.8"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 1955 4124"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q1495327"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/02v4gph32",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.vkta.de"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "VKTA",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "VKTA"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Verein für Kernverfahrenstechnik und Analytik Rossendorf e.V."
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
       "facility"
-    ],
+    ]
+  },
+  {
     "admin": {
       "created": {
-        "date": "2019-11-07",
+        "date": "2018-11-14",
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
-    }
-  },
-  {
+    },
+    "domains": [],
+    "established": 1896,
+    "external_ids": [
+      {
+        "all": [
+          "grid.461797.a"
+        ],
+        "preferred": "grid.461797.a",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 1014 1323"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/02wt6e634",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.ifl-leipzig.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2879139,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -12423,79 +12838,50 @@
           "lat": 51.33962,
           "lng": 12.37129,
           "name": "Leipzig"
-        }
-      }
-    ],
-    "established": 1896,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.461797.a"
-        ],
-        "preferred": "grid.461797.a"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 1014 1323"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/02wt6e634",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.ifl-leipzig.de/"
+        },
+        "geonames_id": 2879139
       }
     ],
     "names": [
       {
-        "value": "IfL",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IfL"
       },
       {
-        "value": "Leibniz Institute for Regional Geography",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Leibniz Institute for Regional Geography"
       },
       {
-        "value": "Leibniz-Institut für Länderkunde",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Leibniz-Institut für Länderkunde"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Leibniz Association",
+        "type": "parent",
         "id": "https://ror.org/01n6r0e97"
+      },
+      {
+        "label": "Leibniz ScienceCampus Eastern Europe – Global Area",
+        "type": "child",
+        "id": "https://ror.org/025vqd093"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -12728,7 +13114,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -14167,11 +14553,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "tropos.de"
+    ],
     "established": 1992,
     "external_ids": [
       {
@@ -15800,48 +16188,44 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2839050,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.39678,
-          "lng": 12.22141,
-          "name": "Schkeuditz"
-        }
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
       }
+    },
+    "domains": [
+      "leipzig-halle-airport.de"
     ],
     "established": 1927,
     "external_ids": [
       {
-        "type": "grid",
         "all": [
           "grid.469965.1"
         ],
-        "preferred": "grid.469965.1"
+        "preferred": "grid.469965.1",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0001 2196 5897"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q668382"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/03mxqcg82",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -15852,38 +16236,44 @@
         "value": "https://en.wikipedia.org/wiki/Leipzig/Halle_Airport"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.39678,
+          "lng": 12.22141,
+          "name": "Schkeuditz"
+        },
+        "geonames_id": 2839050
+      }
+    ],
     "names": [
       {
-        "value": "Flughafen Leipzig/Halle",
+        "lang": "de",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Flughafen Leipzig/Halle"
       },
       {
-        "value": "Leipzig/Halle Airport",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Leipzig/Halle Airport"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
       "other"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -16449,7 +16839,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -16493,7 +16883,7 @@
     "links": [
       {
         "type": "website",
-        "value": "https://www.uni-leipzig.de/en/"
+        "value": "https://www.uni-leipzig.de/"
       },
       {
         "type": "wikipedia",
@@ -16524,6 +16914,13 @@
           "label"
         ],
         "value": "Leipzig University"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitaet Leipzig"
       },
       {
         "lang": "en",
@@ -17460,7 +17857,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -17696,6 +18093,16 @@
         "id": "https://ror.org/05aa04p38"
       },
       {
+        "label": "International University Institute (IHI) Zittau",
+        "type": "child",
+        "id": "https://ror.org/03pqf0084"
+      },
+      {
+        "label": "Fakultät Verkehrswissenschaften \"Friedrich List\"",
+        "type": "child",
+        "id": "https://ror.org/010rfe342"
+      },
+      {
         "label": "Medizinische Universität Lausitz - Carl Thiem",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -17781,14 +18188,14 @@
         "id": "https://ror.org/01jx86h05"
       },
       {
-        "label": "International University Institute (IHI) Zittau",
-        "type": "child",
-        "id": "https://ror.org/03pqf0084"
+        "label": "Verein für Nationales Hochleistungsrechnen – NHR-Verein e.V.",
+        "type": "related",
+        "id": "https://ror.org/033mrbb45"
       },
       {
-        "label": "Fakultät Verkehrswissenschaften \"Friedrich List\"",
+        "label": "Center for Molecular and Cellular Bioengineering",
         "type": "child",
-        "id": "https://ror.org/010rfe342"
+        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
@@ -18366,9 +18773,38 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "itg-dresden.de"
+    ],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506732.5"
+        ],
+        "preferred": "grid.506732.5",
+        "type": "grid"
+      }
+    ],
+    "id": "https://ror.org/045jj6w47",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.itg-dresden.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -18379,59 +18815,81 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506732.5"
-        ],
-        "preferred": "grid.506732.5"
-      }
-    ],
-    "id": "https://ror.org/045jj6w47",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.itg-dresden.de"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "ITG Institute for Building Systems Engineering Dresden Research and Application",
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ITG"
+      },
+      {
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "en"
+        "value": "ITG Dresden"
       },
       {
-        "value": "Institute for Building Systems Engineering Dresden Research and Application",
+        "lang": "de",
         "types": [
-          "ror_display",
+          "alias"
+        ],
+        "value": "ITG Institut für Technische Gebäudeausrüstung Dresden Forschung und Anwendung"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "ITG Institut für Technische Gebäudeausrüstung Dresden Forschung und Anwendung GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "ITG Institute for Building Systems Engineering Dresden Research and Application"
+      },
+      {
+        "lang": "en",
+        "types": [
           "label"
         ],
-        "lang": "en"
+        "value": "ITG Institute for Building Systems Engineering Research and Application"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Technische Gebäudeausrüstung Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für Technische Gebäudeausrüstung Dresden (Germany)"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Building Systems Engineering Dresden Research and Application"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
-      "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+      "company"
+    ]
   },
   {
     "locations": [
@@ -18644,7 +19102,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -18725,6 +19183,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Center for Molecular and Cellular Bioengineering",
+        "type": "parent",
+        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
@@ -19247,7 +19710,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2025-03-26",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -19320,7 +19783,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -19372,6 +19835,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Center for Information Services and High Performance Computing",
+        "type": "child",
+        "id": "https://ror.org/003kzqz52"
       }
     ],
     "status": "active",
@@ -21956,7 +22424,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -22101,7 +22569,7 @@
     ],
     "relationships": [
       {
-        "label": "SRH Hochschule Heidelberg",
+        "label": "SRH University of Applied Sciences Heidelberg",
         "type": "parent",
         "id": "https://ror.org/00g07sz63"
       }
@@ -22118,7 +22586,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -22290,7 +22758,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -22325,7 +22793,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.ifw-dresden.de/"
+        "value": "https://www.ifw-dresden.de/"
       },
       {
         "type": "wikipedia",
@@ -22357,6 +22825,20 @@
         "value": "IFW"
       },
       {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "IFW Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Solid State and Materials Research Dresden"
+      },
+      {
         "lang": "de",
         "types": [
           "alias"
@@ -22370,6 +22852,13 @@
           "label"
         ],
         "value": "Leibniz Institute for Solid State and Materials Research"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Leibniz Institute for Solid State and Materials Research Dresden"
       },
       {
         "lang": "de",
@@ -22399,6 +22888,83 @@
     "status": "active",
     "types": [
       "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-09-20",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "dresdner-herz-kreislauf-tage.org"
+    ],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "501100009944"
+        ],
+        "preferred": "501100009944",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/04zmdhr35",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.dresdner-herz-kreislauf-tage.org/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "DHKT"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Förderkreis Dresdner Herz-Kreislauf-Tage"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Förderkreis Dresdner Herz-Kreislauf-Tage e. V."
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "funder"
     ]
   },
   {
@@ -23967,7 +24533,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
@@ -24054,6 +24620,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Center for Molecular and Cellular Bioengineering",
+        "type": "parent",
+        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
@@ -24068,11 +24639,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-09-22",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "mpi-cbg.de"
+    ],
     "established": 1998,
     "external_ids": [
       {
@@ -24101,7 +24674,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.mpi-cbg.de/"
+        "value": "https://www.mpi-cbg.de/"
       },
       {
         "type": "wikipedia",

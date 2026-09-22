@@ -20,12 +20,12 @@
     "IMT-Dresden GmbH"
   ],
   "repositories": [],
-  "works_count": 8,
-  "cited_by_count": 216,
+  "works_count": 12,
+  "cited_by_count": 509,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 2,
-    "i10_index": 2
+    "h_index": 6,
+    "i10_index": 5
   },
   "ids": {
     "openalex": "https://openalex.org/I4210156650",
@@ -66,16 +66,70 @@
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
+    },
+    {
+      "year": 2022,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2011,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2010,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 11
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210156650",
-      "works_count": 8
+      "works_count": 12
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10849",
+      "display_name": "Finite Group Theory Research",
+      "count": 2,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2607",
+        "display_name": "Discrete Mathematics and Combinatorics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11130",
+      "display_name": "Coding theory and cryptography",
+      "count": 2,
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10059",
       "display_name": "Bone Tissue Engineering Materials",
@@ -128,6 +182,24 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "count": 1,
+      "score": 0.9383999705314636,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -185,6 +257,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10744",
+      "display_name": "Astrophysical Phenomena and Observations",
+      "count": 1,
+      "score": 0.9527999758720398,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10885",
       "display_name": "Gene expression and cancer classification",
       "count": 1,
@@ -218,6 +308,24 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10948",
+      "display_name": "Advanced Combinatorial Mathematics",
+      "count": 1,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2607",
+        "display_name": "Discrete Mathematics and Combinatorics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -286,6 +394,42 @@
       "field": {
         "id": "https://openalex.org/fields/21",
         "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "count": 1,
+      "score": 0.9923999905586243,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11323",
+      "display_name": "Gamma-ray bursts and supernovae",
+      "count": 1,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -365,6 +509,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11797",
+      "display_name": "graph theory and CDMA systems",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11828",
       "display_name": "Corneal Surgery and Treatments",
       "count": 1,
@@ -381,121 +543,30 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11882",
-      "display_name": "Plant biochemistry and biosynthesis",
-      "count": 1,
-      "score": 0.8393999934196472,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12561",
-      "display_name": "bioluminescence and chemiluminescence research",
-      "count": 1,
-      "score": 0.9976999759674072,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13370",
-      "display_name": "Diverse Scientific and Economic Studies",
-      "count": 1,
-      "score": 0.007799999788403511,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13539",
-      "display_name": "thermodynamics and calorimetric analyses",
-      "count": 1,
-      "score": 0.9790999889373779,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1606",
-        "display_name": "Physical and Theoretical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13638",
-      "display_name": "Human auditory perception and evaluation",
-      "count": 1,
-      "score": 0.010099999606609344,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13970",
-      "display_name": "Pharmacy and Medical Practices",
-      "count": 1,
-      "score": 0.025699999183416367,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T10849",
+      "display_name": "Finite Group Theory Research",
+      "value": 2.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2607",
+        "display_name": "Discrete Mathematics and Combinatorics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13970",
       "display_name": "Pharmacy and Medical Practices",
-      "value": 2.03e-05,
+      "value": 2.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -512,7 +583,7 @@
     {
       "id": "https://openalex.org/T11225",
       "display_name": "Geothermal Energy Systems and Applications",
-      "value": 1.91e-05,
+      "value": 1.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -527,9 +598,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11130",
+      "display_name": "Coding theory and cryptography",
+      "value": 1.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10948",
+      "display_name": "Advanced Combinatorial Mathematics",
+      "value": 1.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2607",
+        "display_name": "Discrete Mathematics and Combinatorics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12561",
       "display_name": "bioluminescence and chemiluminescence research",
-      "value": 1.3e-05,
+      "value": 1.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -544,9 +649,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12947",
+      "display_name": "Health, psychology, and well-being",
+      "value": 1.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11562",
       "display_name": "Facial Trauma and Fracture Management",
-      "value": 1.29e-05,
+      "value": 1.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -563,7 +685,7 @@
     {
       "id": "https://openalex.org/T13539",
       "display_name": "thermodynamics and calorimetric analyses",
-      "value": 1.26e-05,
+      "value": 1.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1606",
         "display_name": "Physical and Theoretical Chemistry"
@@ -580,7 +702,7 @@
     {
       "id": "https://openalex.org/T10966",
       "display_name": "Liver physiology and pathology",
-      "value": 1.09e-05,
+      "value": 1.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2721",
         "display_name": "Hepatology"
@@ -597,7 +719,7 @@
     {
       "id": "https://openalex.org/T11538",
       "display_name": "Ophthalmology and Eye Disorders",
-      "value": 1.05e-05,
+      "value": 1.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -614,7 +736,7 @@
     {
       "id": "https://openalex.org/T11828",
       "display_name": "Corneal Surgery and Treatments",
-      "value": 9.6e-06,
+      "value": 9.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -626,6 +748,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11124",
+      "display_name": "Protein purification and stability",
+      "value": 9.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -646,20 +785,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T11124",
-      "display_name": "Protein purification and stability",
-      "value": 9.5e-06,
+      "id": "https://openalex.org/T11797",
+      "display_name": "graph theory and CDMA systems",
+      "value": 9.3e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -682,7 +821,7 @@
     {
       "id": "https://openalex.org/T11882",
       "display_name": "Plant biochemistry and biosynthesis",
-      "value": 7.8e-06,
+      "value": 7.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -699,7 +838,7 @@
     {
       "id": "https://openalex.org/T13638",
       "display_name": "Human auditory perception and evaluation",
-      "value": 7.5e-06,
+      "value": 7.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -714,9 +853,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11323",
+      "display_name": "Gamma-ray bursts and supernovae",
+      "value": 7.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "value": 7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11663",
       "display_name": "Viral Infectious Diseases and Gene Expression in Insects",
-      "value": 6.9e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -731,9 +904,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10744",
+      "display_name": "Astrophysical Phenomena and Observations",
+      "value": 6.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11190",
       "display_name": "3D Printing in Biomedical Research",
-      "value": 6.1e-06,
+      "value": 6.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -765,118 +955,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10059",
-      "display_name": "Bone Tissue Engineering Materials",
-      "value": 4.8e-06,
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "value": 5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10932",
-      "display_name": "Microbial Metabolic Engineering and Bioproduction",
-      "value": 4.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10212",
-      "display_name": "Electrochemical sensors and biosensors",
-      "value": 4.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10399",
-      "display_name": "Hydrocarbon exploration and reservoir analysis",
-      "value": 3.6e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10885",
-      "display_name": "Gene expression and cancer classification",
-      "value": 3.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11434",
-      "display_name": "Electrochemical Analysis and Applications",
-      "value": 2.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1603",
-        "display_name": "Electrochemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13370",
-      "display_name": "Diverse Scientific and Economic Studies",
-      "value": 1.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -887,6 +975,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210156650",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

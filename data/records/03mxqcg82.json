@@ -1,46 +1,42 @@
 {
-  "locations": [
-    {
-      "geonames_id": 2839050,
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "SN",
-        "country_subdivision_name": "Saxony",
-        "lat": 51.39678,
-        "lng": 12.22141,
-        "name": "Schkeuditz"
-      }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [
+    "leipzig-halle-airport.de"
   ],
   "established": 1927,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.469965.1"
       ],
-      "preferred": "grid.469965.1"
+      "preferred": "grid.469965.1",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2196 5897"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q668382"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03mxqcg82",
-  "domains": [],
   "links": [
     {
       "type": "website",
@@ -51,36 +47,42 @@
       "value": "https://en.wikipedia.org/wiki/Leipzig/Halle_Airport"
     }
   ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.39678,
+        "lng": 12.22141,
+        "name": "Schkeuditz"
+      },
+      "geonames_id": 2839050
+    }
+  ],
   "names": [
     {
-      "value": "Flughafen Leipzig/Halle",
+      "lang": "de",
       "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Flughafen Leipzig/Halle"
     },
     {
-      "value": "Leipzig/Halle Airport",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Leipzig/Halle Airport"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "other"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

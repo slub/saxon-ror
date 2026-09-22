@@ -1,7 +1,48 @@
 {
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "grid.506847.8"
+      ],
+      "preferred": "grid.506847.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1955 4124"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1495327"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02v4gph32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vkta.de"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,64 +53,30 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 1992,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.506847.8"
-      ],
-      "preferred": "grid.506847.8"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0001 1955 4124"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1495327"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/02v4gph32",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.vkta.de"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "VKTA",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "VKTA"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Verein für Kernverfahrenstechnik und Analytik Rossendorf e.V."
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2019-11-07",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

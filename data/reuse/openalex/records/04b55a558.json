@@ -16,11 +16,11 @@
     "Leag (Germany)"
   ],
   "repositories": [],
-  "works_count": 1,
-  "cited_by_count": 0,
+  "works_count": 3,
+  "cited_by_count": 16,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 0,
+    "2yr_mean_citedness": 1.3333333333333333,
+    "h_index": 2,
     "i10_index": 0
   },
   "ids": {
@@ -47,16 +47,100 @@
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
+    },
+    {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 6
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210130166",
-      "works_count": 1
+      "works_count": 3
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10716",
+      "display_name": "Soil and Unsaturated Flow",
+      "count": 2,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10535",
+      "display_name": "Landslides and related hazards",
+      "count": 1,
+      "score": 0.8956999778747559,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "count": 1,
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10644",
+      "display_name": "Cryospheric studies and observations",
+      "count": 1,
+      "score": 0.7628999948501587,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10842",
       "display_name": "Railway Engineering and Dynamics",
@@ -69,6 +153,24 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10894",
+      "display_name": "Groundwater flow and contamination studies",
+      "count": 1,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -116,7 +218,7 @@
     {
       "id": "https://openalex.org/T12759",
       "display_name": "Vehicle Noise and Vibration Control",
-      "value": 2.18e-05,
+      "value": 2.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -131,9 +233,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10716",
+      "display_name": "Soil and Unsaturated Flow",
+      "value": 1.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10842",
       "display_name": "Railway Engineering and Dynamics",
-      "value": 1.21e-05,
+      "value": 1.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -148,12 +267,80 @@
       }
     },
     {
+      "id": "https://openalex.org/T10894",
+      "display_name": "Groundwater flow and contamination studies",
+      "value": 7.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11606",
       "display_name": "Infrastructure Maintenance and Monitoring",
-      "value": 7.2e-06,
+      "value": 7.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10535",
+      "display_name": "Landslides and related hazards",
+      "value": 5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10644",
+      "display_name": "Cryospheric studies and observations",
+      "value": 4.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "value": 4.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -168,6 +355,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210130166",
-  "updated_date": "2026-08-07T05:59:42",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -17,7 +17,7 @@
   ],
   "repositories": [],
   "works_count": 4,
-  "cited_by_count": 80,
+  "cited_by_count": 82,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 3,
@@ -52,7 +52,7 @@
       "year": 2014,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 58
+      "cited_by_count": 60
     },
     {
       "year": 2012,
@@ -258,26 +258,9 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T11802",
-      "display_name": "Chemical Looping and Thermochemical Processes",
-      "value": 2.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11128",
       "display_name": "Transition Metal Oxide Nanomaterials",
-      "value": 2.42e-05,
+      "value": 2.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2507",
         "display_name": "Polymers and Plastics"
@@ -285,6 +268,23 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11802",
+      "display_name": "Chemical Looping and Thermochemical Processes",
+      "value": 2.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -311,7 +311,7 @@
     {
       "id": "https://openalex.org/T13217",
       "display_name": "Pigment Synthesis and Properties",
-      "value": 1.59e-05,
+      "value": 1.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1604",
         "display_name": "Inorganic Chemistry"
@@ -328,7 +328,7 @@
     {
       "id": "https://openalex.org/T11963",
       "display_name": "Impact of Light on Environment and Health",
-      "value": 1.36e-05,
+      "value": 1.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -379,7 +379,7 @@
     {
       "id": "https://openalex.org/T12358",
       "display_name": "Thermal and Kinetic Analysis",
-      "value": 7.7e-06,
+      "value": 7.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -431,6 +431,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210124614",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-09-19T05:59:33",
   "created_date": "2022-02-02T04:48:36"
 }

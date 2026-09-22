@@ -56,7 +56,7 @@
     {
       "role": "funder",
       "id": "https://openalex.org/F4320323752",
-      "works_count": 1002
+      "works_count": 1025
     },
     {
       "role": "institution",
@@ -178,7 +178,7 @@
     {
       "id": "https://openalex.org/T12958",
       "display_name": "Digital Economy and Transformation",
-      "value": 7.12e-05,
+      "value": 7.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -195,7 +195,24 @@
     {
       "id": "https://openalex.org/T13181",
       "display_name": "Economic and Technological Systems Analysis",
-      "value": 2.12e-05,
+      "value": 2.14e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12885",
+      "display_name": "Digital Innovation in Industries",
+      "value": 1.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -227,26 +244,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "value": 1.55e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10910",
       "display_name": "Corporate Governance and Management",
-      "value": 1.29e-05,
+      "value": 1.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -263,7 +263,7 @@
     {
       "id": "https://openalex.org/T11891",
       "display_name": "Big Data and Business Intelligence",
-      "value": 6.6e-06,
+      "value": 6.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -281,6 +281,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136162",
-  "updated_date": "2026-08-25T05:59:34",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

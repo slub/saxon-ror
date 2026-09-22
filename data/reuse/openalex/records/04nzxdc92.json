@@ -16,12 +16,12 @@
     "Arioso Systems (Germany)"
   ],
   "repositories": [],
-  "works_count": 27,
-  "cited_by_count": 1039,
+  "works_count": 24,
+  "cited_by_count": 893,
   "summary_stats": {
-    "2yr_mean_citedness": 1.0,
+    "2yr_mean_citedness": 0.0,
     "h_index": 18,
-    "i10_index": 25
+    "i10_index": 24
   },
   "ids": {
     "openalex": "https://openalex.org/I4210155834",
@@ -43,12 +43,6 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2025,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 1
-    },
-    {
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 4,
@@ -64,13 +58,13 @@
       "year": 2020,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 37
+      "cited_by_count": 38
     },
     {
       "year": 2019,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 43
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 35
     },
     {
       "year": 2018,
@@ -85,12 +79,6 @@
       "cited_by_count": 5
     },
     {
-      "year": 2013,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 124
-    },
-    {
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 1,
@@ -100,14 +88,14 @@
       "year": 2010,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 52
+      "cited_by_count": 51
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210155834",
-      "works_count": 27
+      "works_count": 24
     }
   ],
   "topics": [
@@ -150,7 +138,7 @@
     {
       "id": "https://openalex.org/T10683",
       "display_name": "Mass Spectrometry Techniques and Applications",
-      "count": 4,
+      "count": 5,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
@@ -364,6 +352,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10519",
+      "display_name": "Advanced Proteomics Techniques and Applications",
+      "count": 1,
+      "score": 0.000699999975040555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10642",
       "display_name": "Plasma Applications and Diagnostics",
       "count": 1,
@@ -397,6 +403,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "count": 1,
+      "score": 0.0008999999845400453,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -454,24 +478,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10978",
-      "display_name": "Prenatal Screening and Diagnostics",
-      "count": 1,
-      "score": 0.995199978351593,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11179",
       "display_name": "Nematode management and characterization studies",
       "count": 1,
@@ -508,42 +514,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11213",
-      "display_name": "Genomic variations and chromosomal abnormalities",
-      "count": 1,
-      "score": 0.00019999999494757503,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11338",
-      "display_name": "Advancements in Photolithography Techniques",
-      "count": 1,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11429",
       "display_name": "Semiconductor Lasers and Optical Devices",
       "count": 1,
@@ -560,13 +530,31 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11472",
+      "display_name": "Analytical Chemistry and Sensors",
+      "count": 1,
+      "score": 0.9926999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1502",
+        "display_name": "Bioengineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 7.69e-05,
+      "value": 7.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -583,7 +571,7 @@
     {
       "id": "https://openalex.org/T11449",
       "display_name": "Mechanical and Optical Resonators",
-      "value": 3.94e-05,
+      "value": 3.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -600,7 +588,7 @@
     {
       "id": "https://openalex.org/T12874",
       "display_name": "Digital Imaging for Blood Diseases",
-      "value": 3.5e-05,
+      "value": 3.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -615,77 +603,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13860",
-      "display_name": "Arts and Performance Studies",
-      "value": 3.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1213",
-        "display_name": "Visual Arts and Performing Arts"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14507",
-      "display_name": "History, Culture, and Society",
-      "value": 3.04e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13749",
-      "display_name": "Hungarian Social, Economic and Educational Studies",
-      "value": 2.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11160",
-      "display_name": "Acoustic Wave Resonator Technologies",
-      "value": 2.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13925",
       "display_name": "Offshore Engineering and Technologies",
-      "value": 2.22e-05,
+      "value": 2.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -700,43 +620,43 @@
       }
     },
     {
-      "id": "https://openalex.org/T13554",
-      "display_name": "Brazilian cultural history and politics",
-      "value": 2.15e-05,
+      "id": "https://openalex.org/T11160",
+      "display_name": "Acoustic Wave Resonator Technologies",
+      "value": 2.35e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12392",
-      "display_name": "Sharing Economy and Platforms",
-      "value": 1.78e-05,
+      "id": "https://openalex.org/T10683",
+      "display_name": "Mass Spectrometry Techniques and Applications",
+      "value": 1.8e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10412",
       "display_name": "Microfluidic and Capillary Electrophoresis Applications",
-      "value": 1.77e-05,
+      "value": 1.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -753,7 +673,7 @@
     {
       "id": "https://openalex.org/T10923",
       "display_name": "Force Microscopy Techniques and Applications",
-      "value": 1.53e-05,
+      "value": 1.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -768,43 +688,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11338",
-      "display_name": "Advancements in Photolithography Techniques",
-      "value": 1.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10683",
-      "display_name": "Mass Spectrometry Techniques and Applications",
-      "value": 1.42e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10642",
       "display_name": "Plasma Applications and Diagnostics",
-      "value": 1.39e-05,
+      "value": 1.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -821,7 +707,7 @@
     {
       "id": "https://openalex.org/T11195",
       "display_name": "Simulation Techniques and Applications",
-      "value": 1.2e-05,
+      "value": 1.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -855,7 +741,7 @@
     {
       "id": "https://openalex.org/T11179",
       "display_name": "Nematode management and characterization studies",
-      "value": 1.08e-05,
+      "value": 1.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -872,7 +758,7 @@
     {
       "id": "https://openalex.org/T10478",
       "display_name": "Diamond and Carbon-based Materials Research",
-      "value": 1.03e-05,
+      "value": 1.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -889,7 +775,7 @@
     {
       "id": "https://openalex.org/T11721",
       "display_name": "Blood properties and coagulation",
-      "value": 9.1e-06,
+      "value": 9.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -901,6 +787,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10519",
+      "display_name": "Advanced Proteomics Techniques and Applications",
+      "value": 9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -923,7 +826,7 @@
     {
       "id": "https://openalex.org/T13114",
       "display_name": "Image Processing Techniques and Applications",
-      "value": 8.3e-06,
+      "value": 8.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2214",
         "display_name": "Media Technology"
@@ -938,26 +841,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11213",
-      "display_name": "Genomic variations and chromosomal abnormalities",
-      "value": 7.7e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11667",
       "display_name": "Advanced Chemical Sensor Technologies",
-      "value": 7.3e-06,
+      "value": 7.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -974,7 +860,7 @@
     {
       "id": "https://openalex.org/T10914",
       "display_name": "Tactile and Sensory Interactions",
-      "value": 7.1e-06,
+      "value": 7.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -987,11 +873,113 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12240",
+      "display_name": "Nanomaterials for catalytic reactions",
+      "value": 7.1e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11907",
+      "display_name": "Copper-based nanomaterials and applications",
+      "value": 7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10377",
+      "display_name": "Metal and Thin Film Mechanics",
+      "value": 6.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12286",
+      "display_name": "Erythrocyte Function and Pathophysiology",
+      "value": 6.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "value": 5.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12233",
+      "display_name": "Geotechnical Engineering and Underground Structures",
+      "value": 5.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210155834",
-  "updated_date": "2026-08-22T05:59:58",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

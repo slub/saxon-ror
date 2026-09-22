@@ -1,7 +1,36 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "leipzig-heart.de"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.491961.2"
+      ],
+      "preferred": "grid.491961.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/02kj91m96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.leipzig-heart.de/"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2879139,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,56 +41,29 @@
         "lat": 51.33962,
         "lng": 12.37129,
         "name": "Leipzig"
-      }
-    }
-  ],
-  "established": 2015,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.491961.2"
-      ],
-      "preferred": "grid.491961.2"
-    }
-  ],
-  "id": "https://ror.org/02kj91m96",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://leipzig-heart.de/"
+      },
+      "geonames_id": 2879139
     }
   ],
   "names": [
     {
-      "value": "Leipzig Heart Institute",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Leipzig Heart Institute"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Helios Kliniken",
+      "type": "parent",
       "id": "https://ror.org/04fjkxc67"
     }
   ],
   "status": "active",
   "types": [
     "facility"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }
