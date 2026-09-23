@@ -1,40 +1,45 @@
 {
   "id": "https://openalex.org/I4405254239",
   "ror": "https://ror.org/01jx86h05",
-  "display_name": "Herzzentrum Dresden Universitaetsklinik",
+  "display_name": "Herzzentrum Dresden Universitätsklinik",
   "country_code": "DE",
   "type": "healthcare",
   "type_id": "https://openalex.org/institution-types/healthcare",
   "lineage": [
-    "https://openalex.org/I4405254239",
-    "https://openalex.org/I78650965"
+    "https://openalex.org/I4210103243",
+    "https://openalex.org/I4405254239"
   ],
-  "homepage_url": "http://www.herzzentrum-dresden.com",
+  "homepage_url": "https://www.sana.de/herzzentrum-dresden",
   "image_url": null,
   "image_thumbnail_url": null,
   "display_name_acronyms": [
     "HZDD"
   ],
   "display_name_alternatives": [
+    "Dresden Heart Center",
     "Heart Center Dresden",
     "Heart Center Dresden, University Hospital",
     "Herzzentrum Dresden",
-    "Herzzentrum Dresden Universitaetsklinik"
+    "Herzzentrum Dresden GmbH Universitätsklinik",
+    "Herzzentrum Dresden GmbH Universitätsklinik an der Technischen Universität Dresden",
+    "Herzzentrum Dresden Universitaetsklinik",
+    "Herzzentrum Dresden Universitätsklinik",
+    "University Heart Center Dresden"
   ],
   "repositories": [],
-  "works_count": 1466,
-  "cited_by_count": 137337,
+  "works_count": 1796,
+  "cited_by_count": 186912,
   "summary_stats": {
-    "2yr_mean_citedness": 33.72908745247148,
-    "h_index": 174,
-    "i10_index": 1782
+    "2yr_mean_citedness": 34.12897366030881,
+    "h_index": 187,
+    "i10_index": 2490
   },
   "ids": {
     "openalex": "https://openalex.org/I4405254239",
     "ror": "https://ror.org/01jx86h05",
     "grid": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Herzzentrum_Dresden",
-    "wikidata": "https://www.wikidata.org/wiki/Q21032368"
+    "wikidata": "Q21032368"
   },
   "geo": {
     "city": "Dresden",
@@ -48,130 +53,146 @@
   "international": {},
   "associated_institutions": [
     {
+      "id": "https://openalex.org/I4210103243",
+      "ror": "https://ror.org/01b4gqk18",
+      "display_name": "Sana Kliniken AG",
+      "country_code": "DE",
+      "type": "healthcare",
+      "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I4210162051",
+      "ror": "https://ror.org/04za5zm41",
+      "display_name": "University Hospital Carl Gustav Carus",
+      "country_code": "DE",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
       "id": "https://openalex.org/I78650965",
       "ror": "https://ror.org/042aqky30",
       "display_name": "Technische Universität Dresden",
       "country_code": "DE",
       "type": "education",
-      "relationship": "parent"
+      "relationship": "related"
     }
   ],
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 90,
-      "oa_works_count": 58,
-      "cited_by_count": 63
+      "works_count": 102,
+      "oa_works_count": 68,
+      "cited_by_count": 96
     },
     {
       "year": 2025,
-      "works_count": 141,
-      "oa_works_count": 94,
-      "cited_by_count": 498
+      "works_count": 147,
+      "oa_works_count": 99,
+      "cited_by_count": 569
     },
     {
       "year": 2024,
-      "works_count": 106,
-      "oa_works_count": 76,
-      "cited_by_count": 1658
+      "works_count": 110,
+      "oa_works_count": 84,
+      "cited_by_count": 1791
     },
     {
       "year": 2023,
-      "works_count": 109,
-      "oa_works_count": 84,
-      "cited_by_count": 2246
+      "works_count": 113,
+      "oa_works_count": 92,
+      "cited_by_count": 2340
     },
     {
       "year": 2022,
-      "works_count": 104,
-      "oa_works_count": 74,
-      "cited_by_count": 2150
+      "works_count": 110,
+      "oa_works_count": 83,
+      "cited_by_count": 2331
     },
     {
       "year": 2021,
-      "works_count": 87,
-      "oa_works_count": 56,
-      "cited_by_count": 2921
+      "works_count": 89,
+      "oa_works_count": 65,
+      "cited_by_count": 3021
     },
     {
       "year": 2020,
-      "works_count": 78,
-      "oa_works_count": 43,
-      "cited_by_count": 2132
+      "works_count": 82,
+      "oa_works_count": 44,
+      "cited_by_count": 2216
     },
     {
       "year": 2019,
-      "works_count": 70,
-      "oa_works_count": 36,
-      "cited_by_count": 2256
+      "works_count": 81,
+      "oa_works_count": 48,
+      "cited_by_count": 2378
     },
     {
       "year": 2018,
-      "works_count": 93,
-      "oa_works_count": 51,
-      "cited_by_count": 3231
+      "works_count": 97,
+      "oa_works_count": 55,
+      "cited_by_count": 3314
     },
     {
       "year": 2017,
-      "works_count": 60,
-      "oa_works_count": 21,
-      "cited_by_count": 915
+      "works_count": 67,
+      "oa_works_count": 26,
+      "cited_by_count": 1103
     },
     {
       "year": 2016,
-      "works_count": 44,
-      "oa_works_count": 15,
-      "cited_by_count": 897
+      "works_count": 46,
+      "oa_works_count": 17,
+      "cited_by_count": 951
     },
     {
       "year": 2015,
-      "works_count": 53,
+      "works_count": 57,
       "oa_works_count": 22,
-      "cited_by_count": 1086
+      "cited_by_count": 1214
     },
     {
       "year": 2014,
-      "works_count": 68,
-      "oa_works_count": 28,
-      "cited_by_count": 3380
+      "works_count": 80,
+      "oa_works_count": 34,
+      "cited_by_count": 3508
     },
     {
       "year": 2013,
-      "works_count": 79,
-      "oa_works_count": 26,
-      "cited_by_count": 1397
+      "works_count": 89,
+      "oa_works_count": 31,
+      "cited_by_count": 1651
     },
     {
       "year": 2012,
-      "works_count": 53,
-      "oa_works_count": 9,
-      "cited_by_count": 1658
+      "works_count": 59,
+      "oa_works_count": 14,
+      "cited_by_count": 1813
     },
     {
       "year": 2011,
-      "works_count": 31,
-      "oa_works_count": 10,
-      "cited_by_count": 659
+      "works_count": 36,
+      "oa_works_count": 12,
+      "cited_by_count": 814
     },
     {
       "year": 2010,
-      "works_count": 25,
-      "oa_works_count": 4,
-      "cited_by_count": 584
+      "works_count": 32,
+      "oa_works_count": 7,
+      "cited_by_count": 837
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405254239",
-      "works_count": 1466
+      "works_count": 1796
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10172",
       "display_name": "Cardiac Valve Diseases and Treatments",
-      "count": 392,
+      "count": 428,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -187,13 +208,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11551",
-      "display_name": "Infective Endocarditis Diagnosis and Management",
-      "count": 168,
+      "id": "https://openalex.org/T11055",
+      "display_name": "Cardiac and Coronary Surgery Techniques",
+      "count": 200,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -207,7 +228,7 @@
     {
       "id": "https://openalex.org/T10821",
       "display_name": "Cardiovascular Function and Risk Factors",
-      "count": 166,
+      "count": 191,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -225,7 +246,7 @@
     {
       "id": "https://openalex.org/T10065",
       "display_name": "Atrial Fibrillation Management and Outcomes",
-      "count": 159,
+      "count": 188,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -243,7 +264,7 @@
     {
       "id": "https://openalex.org/T10618",
       "display_name": "Aortic Disease and Treatment Approaches",
-      "count": 157,
+      "count": 182,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
@@ -259,9 +280,45 @@
       }
     },
     {
+      "id": "https://openalex.org/T11551",
+      "display_name": "Infective Endocarditis Diagnosis and Management",
+      "count": 180,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11217",
       "display_name": "Cardiac Arrhythmias and Treatments",
-      "count": 153,
+      "count": 178,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10598",
+      "display_name": "Cardiac pacing and defibrillation studies",
+      "count": 168,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -279,7 +336,7 @@
     {
       "id": "https://openalex.org/T10675",
       "display_name": "Mechanical Circulatory Support Devices",
-      "count": 152,
+      "count": 165,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
@@ -295,27 +352,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11055",
-      "display_name": "Cardiac and Coronary Surgery Techniques",
-      "count": 148,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10598",
-      "display_name": "Cardiac pacing and defibrillation studies",
-      "count": 135,
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "count": 111,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -333,6 +372,42 @@
     {
       "id": "https://openalex.org/T12598",
       "display_name": "Cardiac Structural Anomalies and Repair",
+      "count": 105,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10372",
+      "display_name": "Cardiac Imaging and Diagnostics",
+      "count": 100,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10193",
+      "display_name": "Coronary Interventions and Diagnostics",
       "count": 93,
       "score": 1.0,
       "subfield": {
@@ -349,9 +424,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10217",
-      "display_name": "Cardiac electrophysiology and arrhythmias",
-      "count": 88,
+      "id": "https://openalex.org/T10292",
+      "display_name": "Acute Myocardial Infarction Research",
+      "count": 76,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -367,46 +442,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10372",
-      "display_name": "Cardiac Imaging and Diagnostics",
-      "count": 85,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10193",
-      "display_name": "Coronary Interventions and Diagnostics",
-      "count": 77,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10292",
-      "display_name": "Acute Myocardial Infarction Research",
-      "count": 62,
-      "score": 1.0,
+      "id": "https://openalex.org/T10198",
+      "display_name": "Heart Failure Treatment and Management",
+      "count": 71,
+      "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -423,7 +462,7 @@
     {
       "id": "https://openalex.org/T10645",
       "display_name": "Cardiac Arrest and Resuscitation",
-      "count": 59,
+      "count": 68,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
@@ -439,82 +478,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10198",
-      "display_name": "Heart Failure Treatment and Management",
-      "count": 57,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11930",
       "display_name": "Cardiac, Anesthesia and Surgical Outcomes",
-      "count": 54,
+      "count": 68,
       "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10300",
-      "display_name": "Congenital Heart Disease Studies",
-      "count": 45,
-      "score": 0.9991999864578247,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11209",
-      "display_name": "Cardiovascular and exercise physiology",
-      "count": 45,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2707",
-        "display_name": "Complementary and alternative medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10882",
-      "display_name": "Cardiomyopathy and Myosin Studies",
-      "count": 38,
-      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -531,7 +498,7 @@
     {
       "id": "https://openalex.org/T11057",
       "display_name": "Cardiac Ischemia and Reperfusion",
-      "count": 37,
+      "count": 53,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
@@ -549,7 +516,7 @@
     {
       "id": "https://openalex.org/T10728",
       "display_name": "Pulmonary Hypertension Research and Treatments",
-      "count": 35,
+      "count": 50,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
@@ -565,13 +532,49 @@
       }
     },
     {
-      "id": "https://openalex.org/T12453",
-      "display_name": "Infectious Aortic and Vascular Conditions",
-      "count": 30,
-      "score": 0.9997000098228455,
+      "id": "https://openalex.org/T10882",
+      "display_name": "Cardiomyopathy and Myosin Studies",
+      "count": 49,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11209",
+      "display_name": "Cardiovascular and exercise physiology",
+      "count": 49,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10300",
+      "display_name": "Congenital Heart Disease Studies",
+      "count": 47,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -585,7 +588,7 @@
     {
       "id": "https://openalex.org/T11962",
       "display_name": "Cardiac Fibrosis and Remodeling",
-      "count": 29,
+      "count": 43,
       "score": 0.9988999962806702,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
@@ -601,46 +604,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11083",
-      "display_name": "Cardiac Health and Mental Health",
-      "count": 27,
-      "score": 0.9993000030517578,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T10172",
-      "display_name": "Cardiac Valve Diseases and Treatments",
-      "value": 0.0015579,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11055",
-      "display_name": "Cardiac and Coronary Surgery Techniques",
-      "value": 0.0014462,
+      "id": "https://openalex.org/T11189",
+      "display_name": "Transplantation: Methods and Outcomes",
+      "count": 34,
+      "score": 0.9998000264167786,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -655,9 +622,63 @@
       }
     },
     {
+      "id": "https://openalex.org/T10155",
+      "display_name": "Nitric Oxide and Endothelin Effects",
+      "count": 33,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11055",
+      "display_name": "Cardiac and Coronary Surgery Techniques",
+      "value": 0.0019699,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10172",
+      "display_name": "Cardiac Valve Diseases and Treatments",
+      "value": 0.0017156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11551",
       "display_name": "Infective Endocarditis Diagnosis and Management",
-      "value": 0.0011394,
+      "value": 0.0012345,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -674,7 +695,7 @@
     {
       "id": "https://openalex.org/T10618",
       "display_name": "Aortic Disease and Treatment Approaches",
-      "value": 0.0009995,
+      "value": 0.0011644,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -689,26 +710,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10675",
-      "display_name": "Mechanical Circulatory Support Devices",
-      "value": 0.0009331,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10598",
       "display_name": "Cardiac pacing and defibrillation studies",
-      "value": 0.0008575,
+      "value": 0.0010803,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -723,9 +727,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10675",
+      "display_name": "Mechanical Circulatory Support Devices",
+      "value": 0.0010197,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11217",
       "display_name": "Cardiac Arrhythmias and Treatments",
-      "value": 0.0007184,
+      "value": 0.0008459,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -742,7 +763,7 @@
     {
       "id": "https://openalex.org/T10065",
       "display_name": "Atrial Fibrillation Management and Outcomes",
-      "value": 0.0006818,
+      "value": 0.0008147,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -759,24 +780,7 @@
     {
       "id": "https://openalex.org/T12598",
       "display_name": "Cardiac Structural Anomalies and Repair",
-      "value": 0.0006018,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12453",
-      "display_name": "Infectious Aortic and Vascular Conditions",
-      "value": 0.0005836,
+      "value": 0.000686,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -793,7 +797,7 @@
     {
       "id": "https://openalex.org/T10821",
       "display_name": "Cardiovascular Function and Risk Factors",
-      "value": 0.0005784,
+      "value": 0.0006706,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -808,9 +812,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10193",
-      "display_name": "Coronary Interventions and Diagnostics",
-      "value": 0.000445,
+      "id": "https://openalex.org/T11962",
+      "display_name": "Cardiac Fibrosis and Remodeling",
+      "value": 0.0006402,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12453",
+      "display_name": "Infectious Aortic and Vascular Conditions",
+      "value": 0.000608,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -825,12 +846,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11962",
-      "display_name": "Cardiac Fibrosis and Remodeling",
-      "value": 0.0004295,
+      "id": "https://openalex.org/T10193",
+      "display_name": "Coronary Interventions and Diagnostics",
+      "value": 0.0005423,
       "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -844,24 +865,7 @@
     {
       "id": "https://openalex.org/T10292",
       "display_name": "Acute Myocardial Infarction Research",
-      "value": 0.0004036,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10198",
-      "display_name": "Heart Failure Treatment and Management",
-      "value": 0.0003449,
+      "value": 0.0005009,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -878,7 +882,7 @@
     {
       "id": "https://openalex.org/T11057",
       "display_name": "Cardiac Ischemia and Reperfusion",
-      "value": 0.0003449,
+      "value": 0.0005004,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -893,26 +897,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11080",
-      "display_name": "Surgical site infection prevention",
-      "value": 0.0003425,
+      "id": "https://openalex.org/T12793",
+      "display_name": "Caveolin-1 and cellular processes",
+      "value": 0.0004735,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12291",
-      "display_name": "Pericarditis and Cardiac Tamponade",
-      "value": 0.0003336,
+      "id": "https://openalex.org/T10198",
+      "display_name": "Heart Failure Treatment and Management",
+      "value": 0.0004341,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -927,9 +931,94 @@
       }
     },
     {
+      "id": "https://openalex.org/T11080",
+      "display_name": "Surgical site infection prevention",
+      "value": 0.0004315,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10217",
       "display_name": "Cardiac electrophysiology and arrhythmias",
-      "value": 0.0003298,
+      "value": 0.0004211,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12291",
+      "display_name": "Pericarditis and Cardiac Tamponade",
+      "value": 0.0003957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10728",
+      "display_name": "Pulmonary Hypertension Research and Treatments",
+      "value": 0.0003899,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12548",
+      "display_name": "Hemostasis and retained surgical items",
+      "value": 0.0003781,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10882",
+      "display_name": "Cardiomyopathy and Myosin Studies",
+      "value": 0.0003703,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -946,7 +1035,7 @@
     {
       "id": "https://openalex.org/T10372",
       "display_name": "Cardiac Imaging and Diagnostics",
-      "value": 0.0002921,
+      "value": 0.0003488,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -961,94 +1050,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11840",
-      "display_name": "Pain Management and Treatment",
-      "value": 0.0002907,
+      "id": "https://openalex.org/T12434",
+      "display_name": "Phosphodiesterase function and regulation",
+      "value": 0.0003469,
       "subfield": {
-        "id": "https://openalex.org/subfields/2703",
-        "display_name": "Anesthesiology and Pain Medicine"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10882",
-      "display_name": "Cardiomyopathy and Myosin Studies",
-      "value": 0.0002852,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13657",
-      "display_name": "Aortic Thrombus and Embolism",
-      "value": 0.0002744,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11950",
-      "display_name": "Cardiovascular Syncope and Autonomic Disorders",
-      "value": 0.000274,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10728",
-      "display_name": "Pulmonary Hypertension Research and Treatments",
-      "value": 0.0002701,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405254239",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2025-07-08T02:42:24"
 }

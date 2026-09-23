@@ -17,12 +17,12 @@
     "Meyer Burger Technology (Germany)"
   ],
   "repositories": [],
-  "works_count": 102,
-  "cited_by_count": 1908,
+  "works_count": 84,
+  "cited_by_count": 1798,
   "summary_stats": {
-    "2yr_mean_citedness": 2.0,
-    "h_index": 23,
-    "i10_index": 36
+    "2yr_mean_citedness": 3.15,
+    "h_index": 21,
+    "i10_index": 34
   },
   "ids": {
     "openalex": "https://openalex.org/I4210133223",
@@ -53,22 +53,16 @@
   ],
   "counts_by_year": [
     {
-      "year": 2026,
-      "works_count": 4,
-      "oa_works_count": 4,
-      "cited_by_count": 0
-    },
-    {
       "year": 2025,
-      "works_count": 11,
-      "oa_works_count": 8,
-      "cited_by_count": 26
+      "works_count": 7,
+      "oa_works_count": 5,
+      "cited_by_count": 28
     },
     {
       "year": 2024,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 20
+      "cited_by_count": 21
     },
     {
       "year": 2023,
@@ -78,13 +72,13 @@
     },
     {
       "year": 2022,
-      "works_count": 7,
+      "works_count": 6,
       "oa_works_count": 5,
-      "cited_by_count": 4
+      "cited_by_count": 3
     },
     {
       "year": 2021,
-      "works_count": 7,
+      "works_count": 6,
       "oa_works_count": 2,
       "cited_by_count": 46
     },
@@ -102,21 +96,21 @@
     },
     {
       "year": 2018,
-      "works_count": 8,
-      "oa_works_count": 1,
-      "cited_by_count": 205
+      "works_count": 7,
+      "oa_works_count": 0,
+      "cited_by_count": 170
     },
     {
       "year": 2017,
-      "works_count": 5,
-      "oa_works_count": 3,
-      "cited_by_count": 34
+      "works_count": 4,
+      "oa_works_count": 2,
+      "cited_by_count": 31
     },
     {
       "year": 2016,
-      "works_count": 4,
-      "oa_works_count": 2,
-      "cited_by_count": 7
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 1
     },
     {
       "year": 2014,
@@ -147,7 +141,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210133223",
-      "works_count": 102
+      "works_count": 84
     }
   ],
   "topics": [
@@ -386,6 +380,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12753",
+      "display_name": "Psychology, Coaching, and Therapy",
+      "count": 3,
+      "score": 0.9606000185012817,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
       "count": 3,
@@ -397,24 +409,6 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10095",
-      "display_name": "Cosmology and Gravitation Theories",
-      "count": 2,
-      "score": 0.13600000739097595,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -437,42 +431,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10377",
-      "display_name": "Metal and Thin Film Mechanics",
-      "count": 2,
-      "score": 0.9811000227928162,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10478",
-      "display_name": "Diamond and Carbon-based Materials Research",
-      "count": 2,
-      "score": 0.9850999712944031,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -530,24 +488,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11159",
-      "display_name": "Manufacturing Process and Optimization",
-      "count": 2,
-      "score": 0.3073999881744385,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11445",
       "display_name": "Origins and Evolution of Life",
       "count": 2,
@@ -566,35 +506,89 @@
       }
     },
     {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
+      "id": "https://openalex.org/T12246",
+      "display_name": "Chronic Disease Management Strategies",
       "count": 2,
-      "score": 0.8019000291824341,
+      "score": 0.9994000196456909,
       "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T11960",
-      "display_name": "Relativity and Gravitational Theory",
+      "id": "https://openalex.org/T12645",
+      "display_name": "European history and politics",
       "count": 2,
-      "score": 0.05990000069141388,
+      "score": 0.9761999845504761,
       "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "count": 2,
+      "score": 0.03849999979138374,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12972",
+      "display_name": "German Colonialism and Identity Studies",
+      "count": 2,
+      "score": 0.8989999890327454,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10005",
+      "display_name": "Ecology and Vegetation Dynamics Studies",
+      "count": 1,
+      "score": 0.9609000086784363,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -606,24 +600,7 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 0.0001397,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10623",
-      "display_name": "Thin-Film Transistor Technologies",
-      "value": 9.99e-05,
+      "value": 0.0001414,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -640,7 +617,7 @@
     {
       "id": "https://openalex.org/T12376",
       "display_name": "Corporate Management and Leadership",
-      "value": 9.49e-05,
+      "value": 0.0001017,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -655,9 +632,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10623",
+      "display_name": "Thin-Film Transistor Technologies",
+      "value": 0.0001007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12972",
       "display_name": "German Colonialism and Identity Studies",
-      "value": 8.45e-05,
+      "value": 8.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -674,7 +668,7 @@
     {
       "id": "https://openalex.org/T12309",
       "display_name": "solar cell performance optimization",
-      "value": 7.85e-05,
+      "value": 7.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -691,7 +685,7 @@
     {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 6.68e-05,
+      "value": 7.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -708,7 +702,7 @@
     {
       "id": "https://openalex.org/T12927",
       "display_name": "Memory, History, Trauma, Identity",
-      "value": 5.98e-05,
+      "value": 6.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -723,179 +717,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13389",
-      "display_name": "German Economic Analysis & Policies",
-      "value": 5.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14118",
-      "display_name": "Social and Demographic Issues in Germany",
-      "value": 5.73e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13251",
-      "display_name": "Electrical and Thermal Properties of Materials",
-      "value": 5.58e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11169",
-      "display_name": "Silicon Nanostructures and Photoluminescence",
-      "value": 5.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13423",
-      "display_name": "Social Policies and Healthcare Reform",
-      "value": 5.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13450",
-      "display_name": "Turkish Literature and Culture",
-      "value": 4.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14050",
-      "display_name": "Forest Ecology and Conservation",
-      "value": 4.47e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1107",
-        "display_name": "Forestry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12516",
-      "display_name": "Advanced Mathematical Theories and Applications",
-      "value": 4.13e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3109",
-        "display_name": "Statistical and Nonlinear Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14193",
-      "display_name": "Literature and Cultural Memory",
-      "value": 3.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13367",
-      "display_name": "Cultural and Sociopolitical Studies",
-      "value": 3.79e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1209",
-        "display_name": "Museology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12753",
       "display_name": "Psychology, Coaching, and Therapy",
-      "value": 3.47e-05,
+      "value": 5.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -910,9 +734,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T11169",
+      "display_name": "Silicon Nanostructures and Photoluminescence",
+      "value": 5.43e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14050",
+      "display_name": "Forest Ecology and Conservation",
+      "value": 4.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1107",
+        "display_name": "Forestry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14193",
+      "display_name": "Literature and Cultural Memory",
+      "value": 4.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14486",
       "display_name": "Cardiovascular, Neuropeptides, and Oxidative Stress Research",
-      "value": 3.44e-05,
+      "value": 3.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -927,26 +802,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10468",
-      "display_name": "Photovoltaic System Optimization Techniques",
-      "value": 3.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11445",
       "display_name": "Origins and Evolution of Life",
-      "value": 3.32e-05,
+      "value": 3.44e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -961,9 +819,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10468",
+      "display_name": "Photovoltaic System Optimization Techniques",
+      "value": 3.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "value": 3.17e-05,
+      "value": 3.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -978,9 +853,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "value": 3.13e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14118",
+      "display_name": "Social and Demographic Issues in Germany",
+      "value": 3.06e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13505",
       "display_name": "Apelin-related biomedical research",
-      "value": 2.95e-05,
+      "value": 2.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -995,9 +904,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 2.95e-05,
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "value": 2.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -1012,12 +921,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T11869",
-      "display_name": "Per- and polyfluoroalkyl substances research",
-      "value": 2.81e-05,
+      "id": "https://openalex.org/T13484",
+      "display_name": "German History and Society",
+      "value": 2.88e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12462",
+      "display_name": "Elder Abuse and Neglect",
+      "value": 2.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12838",
+      "display_name": "Photovoltaic Systems and Sustainability",
+      "value": 2.83e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -1027,11 +970,62 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11853",
+      "display_name": "Semiconductor materials and interfaces",
+      "value": 2.79e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13359",
+      "display_name": "Sports Science and Education",
+      "value": 2.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10910",
+      "display_name": "Corporate Governance and Management",
+      "value": 2.68e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133223",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

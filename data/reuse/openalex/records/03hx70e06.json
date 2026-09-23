@@ -17,10 +17,10 @@
     "IFU Privates Institut für Analytik (Germany)"
   ],
   "repositories": [],
-  "works_count": 10,
-  "cited_by_count": 51,
+  "works_count": 8,
+  "cited_by_count": 48,
   "summary_stats": {
-    "2yr_mean_citedness": 1.3333333333333333,
+    "2yr_mean_citedness": 0.3333333333333333,
     "h_index": 4,
     "i10_index": 1
   },
@@ -44,10 +44,16 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
       "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 4
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 1
     },
     {
       "year": 2024,
@@ -75,29 +81,23 @@
     },
     {
       "year": 2014,
-      "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 9
-    },
-    {
-      "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 9
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210125080",
-      "works_count": 10
+      "works_count": 8
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11667",
       "display_name": "Advanced Chemical Sensor Technologies",
-      "count": 7,
+      "count": 5,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
@@ -113,24 +113,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12321",
-      "display_name": "Insect Pheromone Research and Control",
-      "count": 3,
-      "score": 0.9979000091552734,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1109",
-        "display_name": "Insect Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10476",
       "display_name": "Algal biology and biofuel production",
       "count": 2,
@@ -142,24 +124,6 @@
       "field": {
         "id": "https://openalex.org/fields/21",
         "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10683",
-      "display_name": "Mass Spectrometry Techniques and Applications",
-      "count": 2,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -185,6 +149,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12321",
+      "display_name": "Insect Pheromone Research and Control",
+      "count": 2,
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14249",
       "display_name": "Water Quality Monitoring and Analysis",
       "count": 2,
@@ -196,42 +178,6 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10122",
-      "display_name": "Toxic Organic Pollutants Impact",
-      "count": 1,
-      "score": 0.9962000250816345,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2307",
-        "display_name": "Health, Toxicology and Mutagenesis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10180",
-      "display_name": "Analytical chemistry methods development",
-      "count": 1,
-      "score": 0.9948999881744385,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1602",
-        "display_name": "Analytical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -293,6 +239,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10683",
+      "display_name": "Mass Spectrometry Techniques and Applications",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10971",
       "display_name": "Olfactory and Sensory Function Studies",
       "count": 1,
@@ -322,24 +286,6 @@
       "field": {
         "id": "https://openalex.org/fields/15",
         "display_name": "Chemical Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11869",
-      "display_name": "Per- and polyfluoroalkyl substances research",
-      "count": 1,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -387,7 +333,7 @@
     {
       "id": "https://openalex.org/T12321",
       "display_name": "Insect Pheromone Research and Control",
-      "value": 5.53e-05,
+      "value": 3.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1109",
         "display_name": "Insect Science"
@@ -402,43 +348,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11869",
-      "display_name": "Per- and polyfluoroalkyl substances research",
-      "value": 2.81e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11667",
-      "display_name": "Advanced Chemical Sensor Technologies",
-      "value": 2.54e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11821",
       "display_name": "Odor and Emission Control Technologies",
-      "value": 2.28e-05,
+      "value": 2.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1508",
         "display_name": "Process Chemistry and Technology"
@@ -453,9 +365,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "value": 1.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10476",
       "display_name": "Algal biology and biofuel production",
-      "value": 1.32e-05,
+      "value": 1.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -472,7 +401,7 @@
     {
       "id": "https://openalex.org/T14249",
       "display_name": "Water Quality Monitoring and Analysis",
-      "value": 1.18e-05,
+      "value": 1.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -489,7 +418,7 @@
     {
       "id": "https://openalex.org/T12120",
       "display_name": "Air Quality Monitoring and Forecasting",
-      "value": 7.6e-06,
+      "value": 7.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -497,23 +426,6 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10683",
-      "display_name": "Mass Spectrometry Techniques and Applications",
-      "value": 7.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -538,23 +450,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10122",
-      "display_name": "Toxic Organic Pollutants Impact",
-      "value": 6.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2307",
-        "display_name": "Health, Toxicology and Mutagenesis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12073",
       "display_name": "Isotope Analysis in Ecology",
       "value": 5.9e-06,
@@ -574,7 +469,7 @@
     {
       "id": "https://openalex.org/T10236",
       "display_name": "Aquatic Ecosystems and Phytoplankton Dynamics",
-      "value": 5.7e-06,
+      "value": 5.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -591,27 +486,10 @@
     {
       "id": "https://openalex.org/T10908",
       "display_name": "Analytical Chemistry and Chromatography",
-      "value": 5e-06,
+      "value": 5.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10180",
-      "display_name": "Analytical chemistry methods development",
-      "value": 4.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1602",
-        "display_name": "Analytical Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/16",
@@ -655,11 +533,28 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10683",
+      "display_name": "Mass Spectrometry Techniques and Applications",
+      "value": 3.6e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210125080",
-  "updated_date": "2026-08-19T05:59:14",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -18,12 +18,12 @@
     "Institut für Korrosionsschutz Dresden"
   ],
   "repositories": [],
-  "works_count": 211,
-  "cited_by_count": 1916,
+  "works_count": 193,
+  "cited_by_count": 1903,
   "summary_stats": {
-    "2yr_mean_citedness": 0.4,
+    "2yr_mean_citedness": 1.6,
     "h_index": 18,
-    "i10_index": 35
+    "i10_index": 34
   },
   "ids": {
     "openalex": "https://openalex.org/I4210165319",
@@ -48,7 +48,7 @@
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 1
+      "cited_by_count": 4
     },
     {
       "year": 2023,
@@ -72,7 +72,7 @@
       "year": 2020,
       "works_count": 8,
       "oa_works_count": 4,
-      "cited_by_count": 349
+      "cited_by_count": 350
     },
     {
       "year": 2019,
@@ -90,13 +90,7 @@
       "year": 2017,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 16
-    },
-    {
-      "year": 2016,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 17
     },
     {
       "year": 2015,
@@ -112,8 +106,8 @@
     },
     {
       "year": 2012,
-      "works_count": 3,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 0,
       "cited_by_count": 0
     },
     {
@@ -133,14 +127,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210165319",
-      "works_count": 211
+      "works_count": 193
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10310",
       "display_name": "Corrosion Behavior and Inhibition",
-      "count": 89,
+      "count": 86,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -158,7 +152,7 @@
     {
       "id": "https://openalex.org/T11850",
       "display_name": "Concrete Corrosion and Durability",
-      "count": 42,
+      "count": 39,
       "score": 0.9997000098228455,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
@@ -176,7 +170,7 @@
     {
       "id": "https://openalex.org/T10736",
       "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
-      "count": 32,
+      "count": 31,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2506",
@@ -194,7 +188,7 @@
     {
       "id": "https://openalex.org/T13031",
       "display_name": "Civil and Structural Engineering Research",
-      "count": 23,
+      "count": 19,
       "score": 0.9993000030517578,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
@@ -480,24 +474,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10382",
-      "display_name": "Quantum and electron transport phenomena",
-      "count": 4,
-      "score": 0.8938000202178955,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10559",
       "display_name": "Particle Accelerators and Free-Electron Lasers",
       "count": 4,
@@ -586,13 +562,48 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10530",
+      "display_name": "Magnesium Alloys: Properties and Applications",
+      "count": 3,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10310",
       "display_name": "Corrosion Behavior and Inhibition",
-      "value": 0.0004751,
+      "value": 0.0004657,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14184",
+      "display_name": "Metallurgy and Material Science",
+      "value": 0.0003165,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -609,7 +620,7 @@
     {
       "id": "https://openalex.org/T13031",
       "display_name": "Civil and Structural Engineering Research",
-      "value": 0.0003526,
+      "value": 0.0003059,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -626,7 +637,7 @@
     {
       "id": "https://openalex.org/T11850",
       "display_name": "Concrete Corrosion and Durability",
-      "value": 0.0003033,
+      "value": 0.0002861,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -641,26 +652,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14184",
-      "display_name": "Metallurgy and Material Science",
-      "value": 0.0002966,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 0.0002605,
+      "value": 0.0002689,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -677,7 +671,7 @@
     {
       "id": "https://openalex.org/T10736",
       "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
-      "value": 0.0002486,
+      "value": 0.0002432,
       "subfield": {
         "id": "https://openalex.org/subfields/2506",
         "display_name": "Metals and Alloys"
@@ -694,7 +688,7 @@
     {
       "id": "https://openalex.org/T13129",
       "display_name": "Material Properties and Applications",
-      "value": 0.000113,
+      "value": 0.0001158,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -711,7 +705,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 0.0001012,
+      "value": 0.0001039,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -728,7 +722,7 @@
     {
       "id": "https://openalex.org/T10834",
       "display_name": "Welding Techniques and Residual Stresses",
-      "value": 9.86e-05,
+      "value": 0.0001005,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -745,7 +739,7 @@
     {
       "id": "https://openalex.org/T12940",
       "display_name": "Structural Engineering and Materials Analysis",
-      "value": 7.83e-05,
+      "value": 8.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -760,26 +754,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10626",
-      "display_name": "High-Temperature Coating Behaviors",
-      "value": 7.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14321",
       "display_name": "Religion, Theology, and Education",
-      "value": 6.86e-05,
+      "value": 7.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -794,9 +771,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10670",
-      "display_name": "Aluminum Alloy Microstructure Properties",
-      "value": 6.16e-05,
+      "id": "https://openalex.org/T10626",
+      "display_name": "High-Temperature Coating Behaviors",
+      "value": 7.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -811,16 +788,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12340",
-      "display_name": "Anodic Oxide Films and Nanostructures",
-      "value": 6.06e-05,
+      "id": "https://openalex.org/T10670",
+      "display_name": "Aluminum Alloy Microstructure Properties",
+      "value": 6.24e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -830,7 +807,7 @@
     {
       "id": "https://openalex.org/T14481",
       "display_name": "Renewable Energy and Sustainability",
-      "value": 5.91e-05,
+      "value": 6.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -847,7 +824,7 @@
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "value": 5.53e-05,
+      "value": 5.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -864,7 +841,7 @@
     {
       "id": "https://openalex.org/T14096",
       "display_name": "Advancements in Materials Engineering",
-      "value": 4.57e-05,
+      "value": 5.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -879,26 +856,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13463",
-      "display_name": "Nanoporous metals and alloys",
-      "value": 4.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13517",
       "display_name": "Environmental and Industrial Safety",
-      "value": 4.13e-05,
+      "value": 4.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -913,9 +873,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12340",
+      "display_name": "Anodic Oxide Films and Nanostructures",
+      "value": 4.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10530",
       "display_name": "Magnesium Alloys: Properties and Applications",
-      "value": 4.02e-05,
+      "value": 4.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -932,7 +909,7 @@
     {
       "id": "https://openalex.org/T13552",
       "display_name": "Advanced Materials Characterization Techniques",
-      "value": 3.9e-05,
+      "value": 3.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -949,7 +926,7 @@
     {
       "id": "https://openalex.org/T13470",
       "display_name": "Surface Treatment and Coatings",
-      "value": 3.85e-05,
+      "value": 3.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -966,7 +943,7 @@
     {
       "id": "https://openalex.org/T12427",
       "display_name": "Metal Alloys Wear and Properties",
-      "value": 3.75e-05,
+      "value": 3.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -983,7 +960,7 @@
     {
       "id": "https://openalex.org/T12682",
       "display_name": "Smart Materials for Construction",
-      "value": 3.59e-05,
+      "value": 3.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -998,16 +975,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T12044",
-      "display_name": "Advanced Physical and Chemical Molecular Interactions",
-      "value": 3.49e-05,
+      "id": "https://openalex.org/T12774",
+      "display_name": "Bauxite Residue and Utilization",
+      "value": 3.23e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1606",
-        "display_name": "Physical and Theoretical Chemistry"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12092",
+      "display_name": "Erosion and Abrasive Machining",
+      "value": 3.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1018,6 +1012,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210165319",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

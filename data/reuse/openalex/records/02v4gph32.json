@@ -16,12 +16,12 @@
     "VKTA"
   ],
   "repositories": [],
-  "works_count": 14,
-  "cited_by_count": 3396,
+  "works_count": 13,
+  "cited_by_count": 150,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 15,
-    "i10_index": 16
+    "2yr_mean_citedness": 0.6666666666666666,
+    "h_index": 6,
+    "i10_index": 4
   },
   "ids": {
     "openalex": "https://openalex.org/I4210125910",
@@ -49,16 +49,22 @@
       "cited_by_count": 0
     },
     {
+      "year": 2024,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
       "year": 2021,
-      "works_count": 3,
-      "oa_works_count": 2,
-      "cited_by_count": 322
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 3
     },
     {
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 73
+      "cited_by_count": 74
     },
     {
       "year": 2014,
@@ -83,7 +89,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210125910",
-      "works_count": 14
+      "works_count": 13
     }
   ],
   "topics": [
@@ -106,6 +112,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10946",
+      "display_name": "Radioactivity and Radon Measurements",
+      "count": 3,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3614",
+        "display_name": "Radiological and Ultrasound Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11089",
       "display_name": "Radioactive contamination and transfer",
       "count": 3,
@@ -117,6 +141,24 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12157",
+      "display_name": "Geochemistry and Geologic Mapping",
+      "count": 3,
+      "score": 0.9954000115394592,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -139,24 +181,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10946",
-      "display_name": "Radioactivity and Radon Measurements",
-      "count": 2,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3614",
-        "display_name": "Radiological and Ultrasound Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -189,24 +213,6 @@
       "field": {
         "id": "https://openalex.org/fields/31",
         "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12157",
-      "display_name": "Geochemistry and Geologic Mapping",
-      "count": 2,
-      "score": 0.6410999894142151,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -268,6 +274,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "count": 1,
+      "score": 0.9944999814033508,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10017",
       "display_name": "Geology and Paleoclimatology Research",
       "count": 1,
@@ -304,24 +328,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10231",
-      "display_name": "Pancreatic and Hepatic Oncology Research",
-      "count": 1,
-      "score": 0.9898999929428101,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10660",
       "display_name": "Conducting polymers and applications",
       "count": 1,
@@ -355,24 +361,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11287",
-      "display_name": "Cancer Genomics and Diagnostics",
-      "count": 1,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -430,24 +418,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11868",
-      "display_name": "Cancer and Skin Lesions",
-      "count": 1,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11940",
       "display_name": "Layered Double Hydroxides Synthesis and Applications",
       "count": 1,
@@ -484,24 +454,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12523",
-      "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "count": 1,
-      "score": 0.0005000000237487257,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12524",
       "display_name": "Chemical Synthesis and Characterization",
       "count": 1,
@@ -520,63 +472,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12625",
-      "display_name": "Sympathectomy and Hyperhidrosis Treatments",
+      "id": "https://openalex.org/T13561",
+      "display_name": "Chemical Reactions and Isotopes",
       "count": 1,
-      "score": 0.0003000000142492354,
+      "score": 0.9995999932289124,
       "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T12523",
-      "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "value": 4.74e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12820",
-      "display_name": "Chromatin Remodeling and Cancer",
-      "value": 2.79e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    },
+    }
+  ],
+  "topic_share": [
     {
       "id": "https://openalex.org/T11089",
       "display_name": "Radioactive contamination and transfer",
-      "value": 2.61e-05,
+      "value": 2.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -591,9 +509,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10946",
+      "display_name": "Radioactivity and Radon Measurements",
+      "value": 2.62e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3614",
+        "display_name": "Radiological and Ultrasound Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13923",
       "display_name": "Nuclear and radioactivity studies",
-      "value": 2.51e-05,
+      "value": 2.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -605,23 +540,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12625",
-      "display_name": "Sympathectomy and Hyperhidrosis Treatments",
-      "value": 2.18e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -644,7 +562,7 @@
     {
       "id": "https://openalex.org/T13465",
       "display_name": "Graphite, nuclear technology, radiation studies",
-      "value": 1.79e-05,
+      "value": 1.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -659,26 +577,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10946",
-      "display_name": "Radioactivity and Radon Measurements",
-      "value": 1.73e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3614",
-        "display_name": "Radiological and Ultrasound Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11624",
       "display_name": "Constructed Wetlands for Wastewater Treatment",
-      "value": 1.53e-05,
+      "value": 1.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -695,7 +596,7 @@
     {
       "id": "https://openalex.org/T10597",
       "display_name": "Nuclear reactor physics and engineering",
-      "value": 1.47e-05,
+      "value": 1.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -712,7 +613,7 @@
     {
       "id": "https://openalex.org/T12186",
       "display_name": "Phosphorus and nutrient management",
-      "value": 1.3e-05,
+      "value": 1.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -729,7 +630,7 @@
     {
       "id": "https://openalex.org/T13561",
       "display_name": "Chemical Reactions and Isotopes",
-      "value": 1.2e-05,
+      "value": 1.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3003",
         "display_name": "Pharmaceutical Science"
@@ -746,7 +647,7 @@
     {
       "id": "https://openalex.org/T11242",
       "display_name": "Nuclear Materials and Properties",
-      "value": 1.08e-05,
+      "value": 1.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -761,26 +662,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11868",
-      "display_name": "Cancer and Skin Lesions",
-      "value": 1.03e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12524",
       "display_name": "Chemical Synthesis and Characterization",
-      "value": 8.5e-06,
+      "value": 8.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -797,7 +681,7 @@
     {
       "id": "https://openalex.org/T11395",
       "display_name": "Radiopharmaceutical Chemistry and Applications",
-      "value": 6.9e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -814,7 +698,7 @@
     {
       "id": "https://openalex.org/T11949",
       "display_name": "Nuclear Physics and Applications",
-      "value": 6.9e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3108",
         "display_name": "Radiation"
@@ -831,7 +715,7 @@
     {
       "id": "https://openalex.org/T10045",
       "display_name": "Organic Electronics and Photovoltaics",
-      "value": 6.7e-06,
+      "value": 6.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -848,44 +732,10 @@
     {
       "id": "https://openalex.org/T10844",
       "display_name": "Radiation Dose and Imaging",
-      "value": 6.5e-06,
+      "value": 6.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11287",
-      "display_name": "Cancer Genomics and Diagnostics",
-      "value": 4.6e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10231",
-      "display_name": "Pancreatic and Hepatic Oncology Research",
-      "value": 4.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -931,9 +781,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "value": 2.6e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10017",
       "display_name": "Geology and Paleoclimatology Research",
-      "value": 2.1e-06,
+      "value": 2.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -963,11 +830,45 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12157",
+      "display_name": "Geochemistry and Geologic Mapping",
+      "value": 1.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "value": 1.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210125910",
-  "updated_date": "2026-08-19T05:59:14",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

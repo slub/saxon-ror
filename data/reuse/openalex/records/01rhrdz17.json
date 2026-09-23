@@ -16,12 +16,12 @@
     "InfraTec (Germany)"
   ],
   "repositories": [],
-  "works_count": 114,
-  "cited_by_count": 1894,
+  "works_count": 111,
+  "cited_by_count": 1884,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 24,
-    "i10_index": 46
+    "i10_index": 45
   },
   "ids": {
     "openalex": "https://openalex.org/I4210107399",
@@ -50,8 +50,8 @@
     },
     {
       "year": 2025,
-      "works_count": 5,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 0,
       "cited_by_count": 0
     },
     {
@@ -62,9 +62,9 @@
     },
     {
       "year": 2023,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 10
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 2
     },
     {
       "year": 2022,
@@ -106,7 +106,7 @@
       "year": 2016,
       "works_count": 9,
       "oa_works_count": 2,
-      "cited_by_count": 136
+      "cited_by_count": 138
     },
     {
       "year": 2015,
@@ -122,20 +122,20 @@
     },
     {
       "year": 2013,
-      "works_count": 8,
-      "oa_works_count": 6,
-      "cited_by_count": 154
+      "works_count": 9,
+      "oa_works_count": 7,
+      "cited_by_count": 156
     },
     {
       "year": 2012,
       "works_count": 9,
       "oa_works_count": 2,
-      "cited_by_count": 129
+      "cited_by_count": 130
     },
     {
       "year": 2011,
-      "works_count": 7,
-      "oa_works_count": 2,
+      "works_count": 8,
+      "oa_works_count": 3,
       "cited_by_count": 83
     },
     {
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210107399",
-      "works_count": 114
+      "works_count": 111
     }
   ],
   "topics": [
@@ -192,7 +192,7 @@
     {
       "id": "https://openalex.org/T10461",
       "display_name": "Gas Sensing Nanomaterials and Sensors",
-      "count": 20,
+      "count": 21,
       "score": 0.9997000098228455,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -608,7 +608,7 @@
     {
       "id": "https://openalex.org/T11856",
       "display_name": "Thermography and Photoacoustic Techniques",
-      "value": 0.0003011,
+      "value": 0.000304,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T13251",
       "display_name": "Electrical and Thermal Properties of Materials",
-      "value": 0.0001116,
+      "value": 0.0001126,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -642,7 +642,7 @@
     {
       "id": "https://openalex.org/T11723",
       "display_name": "Optical Coatings and Gratings",
-      "value": 0.0001077,
+      "value": 0.0001085,
       "subfield": {
         "id": "https://openalex.org/subfields/2508",
         "display_name": "Surfaces, Coatings and Films"
@@ -657,26 +657,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11160",
-      "display_name": "Acoustic Wave Resonator Technologies",
-      "value": 9.93e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12389",
       "display_name": "Infrared Target Detection Methodologies",
-      "value": 9.92e-05,
+      "value": 0.000102,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -691,9 +674,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13889",
+      "display_name": "Advanced Materials and Semiconductor Technologies",
+      "value": 0.0001005,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11160",
+      "display_name": "Acoustic Wave Resonator Technologies",
+      "value": 0.0001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12155",
       "display_name": "Microwave Dielectric Ceramics Synthesis",
-      "value": 9.89e-05,
+      "value": 9.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -708,9 +725,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13572",
+      "display_name": "German Security and Defense Policies",
+      "value": 8.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 8.55e-05,
+      "value": 8.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -727,7 +761,7 @@
     {
       "id": "https://openalex.org/T10638",
       "display_name": "Optical measurement and interference techniques",
-      "value": 8.48e-05,
+      "value": 8.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -742,33 +776,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13572",
-      "display_name": "German Security and Defense Policies",
-      "value": 8.01e-05,
+      "id": "https://openalex.org/T13263",
+      "display_name": "Building energy efficiency and sustainability",
+      "value": 8.36e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11897",
-      "display_name": "Digital Holography and Microscopy",
-      "value": 7.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -778,7 +795,7 @@
     {
       "id": "https://openalex.org/T10461",
       "display_name": "Gas Sensing Nanomaterials and Sensors",
-      "value": 7.51e-05,
+      "value": 7.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -793,16 +810,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13263",
-      "display_name": "Building energy efficiency and sustainability",
-      "value": 7.22e-05,
+      "id": "https://openalex.org/T11897",
+      "display_name": "Digital Holography and Microscopy",
+      "value": 7.79e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -829,7 +846,7 @@
     {
       "id": "https://openalex.org/T12019",
       "display_name": "Calibration and Measurement Techniques",
-      "value": 6.44e-05,
+      "value": 6.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -846,7 +863,7 @@
     {
       "id": "https://openalex.org/T13928",
       "display_name": "Advanced Sensor Technologies Research",
-      "value": 6.06e-05,
+      "value": 6.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -863,10 +880,27 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 5.59e-05,
+      "value": 5.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12597",
+      "display_name": "Fire Detection and Safety Systems",
+      "value": 4.19e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -880,7 +914,7 @@
     {
       "id": "https://openalex.org/T12808",
       "display_name": "Ferroelectric and Negative Capacitance Devices",
-      "value": 4.17e-05,
+      "value": 4.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -888,57 +922,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10299",
-      "display_name": "Photonic and Optical Devices",
-      "value": 3.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14353",
-      "display_name": "Wireless Sensor Networks for Data Analysis",
-      "value": 3.8e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11111",
-      "display_name": "Spectroscopy and Laser Applications",
-      "value": 3.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -948,7 +931,7 @@
     {
       "id": "https://openalex.org/T13990",
       "display_name": "Engine and Fuel Emissions",
-      "value": 3.53e-05,
+      "value": 4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -963,16 +946,50 @@
       }
     },
     {
-      "id": "https://openalex.org/T10468",
-      "display_name": "Photovoltaic System Optimization Techniques",
-      "value": 3.4e-05,
+      "id": "https://openalex.org/T14353",
+      "display_name": "Wireless Sensor Networks for Data Analysis",
+      "value": 3.99e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10299",
+      "display_name": "Photonic and Optical Devices",
+      "value": 3.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11111",
+      "display_name": "Spectroscopy and Laser Applications",
+      "value": 3.65e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -982,7 +999,7 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 3.27e-05,
+      "value": 3.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -997,33 +1014,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12738",
-      "display_name": "Corporate Identity and Reputation",
-      "value": 3.19e-05,
+      "id": "https://openalex.org/T10468",
+      "display_name": "Photovoltaic System Optimization Techniques",
+      "value": 3.42e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13689",
-      "display_name": "Underground infrastructure and sustainability",
-      "value": 3.16e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1034,6 +1034,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210107399",
-  "updated_date": "2026-08-19T05:59:14",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -20,12 +20,12 @@
     "Zeichnungs-, Mahlerey und Architectur-Akademie"
   ],
   "repositories": [],
-  "works_count": 185,
-  "cited_by_count": 429,
+  "works_count": 107,
+  "cited_by_count": 244,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5581395348837209,
-    "h_index": 9,
-    "i10_index": 9
+    "2yr_mean_citedness": 0.35294117647058826,
+    "h_index": 7,
+    "i10_index": 5
   },
   "ids": {
     "openalex": "https://openalex.org/I3131710501",
@@ -48,27 +48,27 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 0,
       "cited_by_count": 0
     },
     {
       "year": 2025,
-      "works_count": 11,
-      "oa_works_count": 7,
-      "cited_by_count": 9
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 1
     },
     {
       "year": 2024,
-      "works_count": 14,
-      "oa_works_count": 11,
-      "cited_by_count": 4
+      "works_count": 9,
+      "oa_works_count": 6,
+      "cited_by_count": 3
     },
     {
       "year": 2023,
-      "works_count": 21,
+      "works_count": 22,
       "oa_works_count": 21,
-      "cited_by_count": 54
+      "cited_by_count": 56
     },
     {
       "year": 2022,
@@ -79,7 +79,7 @@
     {
       "year": 2021,
       "works_count": 4,
-      "oa_works_count": 1,
+      "oa_works_count": 3,
       "cited_by_count": 2
     },
     {
@@ -108,9 +108,9 @@
     },
     {
       "year": 2016,
-      "works_count": 6,
+      "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 10
+      "cited_by_count": 1
     },
     {
       "year": 2015,
@@ -120,12 +120,6 @@
     },
     {
       "year": 2014,
-      "works_count": 3,
-      "oa_works_count": 3,
-      "cited_by_count": 12
-    },
-    {
-      "year": 2013,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
@@ -153,14 +147,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I3131710501",
-      "works_count": 185
+      "works_count": 107
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T14380",
       "display_name": "Libraries and Information Services",
-      "count": 15,
+      "count": 14,
       "score": 0.9947999715805054,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
@@ -212,53 +206,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10895",
-      "display_name": "Species Distribution and Climate Change",
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
       "count": 5,
-      "score": 0.996399998664856,
+      "score": 0.9926000237464905,
       "subfield": {
-        "id": "https://openalex.org/subfields/2302",
-        "display_name": "Ecological Modeling"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11893",
-      "display_name": "German Literature and Culture Studies",
-      "count": 5,
-      "score": 0.6446999907493591,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
+        "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12373",
-      "display_name": "Linguistic research and analysis",
-      "count": 5,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -302,6 +260,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "count": 4,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11462",
       "display_name": "Museums and Cultural Heritage",
       "count": 4,
@@ -320,10 +296,46 @@
       }
     },
     {
+      "id": "https://openalex.org/T11893",
+      "display_name": "German Literature and Culture Studies",
+      "count": 4,
+      "score": 0.6446999907493591,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12373",
+      "display_name": "Linguistic research and analysis",
+      "count": 4,
+      "score": 0.9909999966621399,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12645",
       "display_name": "European history and politics",
       "count": 4,
-      "score": 0.9764999747276306,
+      "score": 0.9915000200271606,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -331,42 +343,6 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "count": 4,
-      "score": 0.9918000102043152,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "count": 3,
-      "score": 0.9790999889373779,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -392,24 +368,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "count": 3,
-      "score": 0.9585999846458435,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12397",
       "display_name": "Critical Theory and Philosophy",
       "count": 3,
@@ -421,24 +379,6 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12753",
-      "display_name": "Psychology, Coaching, and Therapy",
-      "count": 3,
-      "score": 0.9876000285148621,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -482,24 +422,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13459",
-      "display_name": "Public Administration and Political Analysis",
-      "count": 3,
-      "score": 0.9617000222206116,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13767",
       "display_name": "Leech Biology and Applications",
       "count": 3,
@@ -515,24 +437,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "count": 3,
-      "score": 0.9829000234603882,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -606,13 +510,103 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10346",
+      "display_name": "Magnetic confinement fusion research",
+      "count": 2,
+      "score": 0.8858000040054321,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10692",
+      "display_name": "Urban Green Space and Health",
+      "count": 2,
+      "score": 0.04100000113248825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10758",
+      "display_name": "Cinema and Media Studies",
+      "count": 2,
+      "score": 0.9948999881744385,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "count": 2,
+      "score": 0.9643999934196472,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11717",
+      "display_name": "Postcolonial and Cultural Literary Studies",
+      "count": 2,
+      "score": 0.9072999954223633,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13327",
       "display_name": "Arts, Culture, and Music Studies",
-      "value": 0.0004001,
+      "value": 0.0004274,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -629,7 +623,7 @@
     {
       "id": "https://openalex.org/T14366",
       "display_name": "Schopenhauer and Stefan Zweig",
-      "value": 0.0003478,
+      "value": 0.0003583,
       "subfield": {
         "id": "https://openalex.org/subfields/1200",
         "display_name": "General Arts and Humanities"
@@ -646,7 +640,7 @@
     {
       "id": "https://openalex.org/T12972",
       "display_name": "German Colonialism and Identity Studies",
-      "value": 0.0002535,
+      "value": 0.0002657,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -663,7 +657,7 @@
     {
       "id": "https://openalex.org/T14148",
       "display_name": "Kierkegaardian Philosophy and Influence",
-      "value": 0.0002412,
+      "value": 0.0002638,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -680,7 +674,7 @@
     {
       "id": "https://openalex.org/T13351",
       "display_name": "Critical Theory and Political Philosophy",
-      "value": 0.0002233,
+      "value": 0.0002305,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -697,7 +691,7 @@
     {
       "id": "https://openalex.org/T14322",
       "display_name": "Art, Aesthetics, and Perception",
-      "value": 0.0001843,
+      "value": 0.0001967,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -714,7 +708,7 @@
     {
       "id": "https://openalex.org/T14196",
       "display_name": "Multidisciplinary Warburg-centric Studies",
-      "value": 0.0001727,
+      "value": 0.0001888,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -729,26 +723,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14380",
-      "display_name": "Libraries and Information Services",
-      "value": 0.0001607,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1209",
-        "display_name": "Museology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13767",
       "display_name": "Leech Biology and Applications",
-      "value": 0.000152,
+      "value": 0.0001572,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -763,9 +740,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "value": 0.0001567,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "value": 0.0001552,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13724",
       "display_name": "Humanities and Social Sciences",
-      "value": 0.0001311,
+      "value": 0.0001389,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -782,7 +793,7 @@
     {
       "id": "https://openalex.org/T14193",
       "display_name": "Literature and Cultural Memory",
-      "value": 0.0001194,
+      "value": 0.0001253,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -797,43 +808,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13197",
-      "display_name": "Spreadsheets and End-User Computing",
-      "value": 0.0001184,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1712",
-        "display_name": "Software"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 0.0001181,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14059",
       "display_name": "Nietzsche, Schopenhauer, and Hegel",
-      "value": 0.0001134,
+      "value": 0.0001196,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -850,7 +827,7 @@
     {
       "id": "https://openalex.org/T12864",
       "display_name": "Psychoanalysis and Social Critique",
-      "value": 0.0001041,
+      "value": 0.0001126,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -867,7 +844,7 @@
     {
       "id": "https://openalex.org/T13660",
       "display_name": "Philosophical and Historical Studies",
-      "value": 8.11e-05,
+      "value": 8.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -884,7 +861,7 @@
     {
       "id": "https://openalex.org/T12397",
       "display_name": "Critical Theory and Philosophy",
-      "value": 7.9e-05,
+      "value": 8.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -901,7 +878,7 @@
     {
       "id": "https://openalex.org/T11462",
       "display_name": "Museums and Cultural Heritage",
-      "value": 7.44e-05,
+      "value": 7.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
@@ -918,7 +895,7 @@
     {
       "id": "https://openalex.org/T13308",
       "display_name": "Cybernetics and Technology in Society",
-      "value": 7.33e-05,
+      "value": 7.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -933,77 +910,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "value": 7.12e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13931",
-      "display_name": "Philosophy and Historical Thought",
-      "value": 6.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14129",
-      "display_name": "Economic and Business Studies",
-      "value": 6.76e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14418",
-      "display_name": "Development, Ethics, and Society",
-      "value": 6.72e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3303",
-        "display_name": "Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 6.68e-05,
+      "value": 7.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -1018,16 +927,101 @@
       }
     },
     {
-      "id": "https://openalex.org/T12373",
-      "display_name": "Linguistic research and analysis",
-      "value": 6.38e-05,
+      "id": "https://openalex.org/T13931",
+      "display_name": "Philosophy and Historical Thought",
+      "value": 7.05e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
         "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14418",
+      "display_name": "Development, Ethics, and Society",
+      "value": 6.87e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3303",
+        "display_name": "Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13369",
+      "display_name": "European and Russian Geopolitical Military Strategies",
+      "value": 6.4e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "value": 6.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13545",
+      "display_name": "Philosophical and Theoretical Analysis",
+      "value": 6.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11397",
+      "display_name": "Populism, Right-Wing Movements",
+      "value": 6.01e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -1038,6 +1032,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I3131710501",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2021-03-01T00:00:00"
 }

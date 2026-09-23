@@ -16,12 +16,12 @@
     "St. Elisabeth-Krankenhaus Leipzig"
   ],
   "repositories": [],
-  "works_count": 280,
-  "cited_by_count": 2828,
+  "works_count": 255,
+  "cited_by_count": 2708,
   "summary_stats": {
-    "2yr_mean_citedness": 0.6463414634146342,
+    "2yr_mean_citedness": 0.6962025316455697,
     "h_index": 28,
-    "i10_index": 65
+    "i10_index": 60
   },
   "ids": {
     "openalex": "https://openalex.org/I4210097254",
@@ -44,15 +44,15 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 13,
+      "works_count": 11,
       "oa_works_count": 10,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2025,
-      "works_count": 25,
-      "oa_works_count": 14,
-      "cited_by_count": 33
+      "works_count": 24,
+      "oa_works_count": 13,
+      "cited_by_count": 34
     },
     {
       "year": 2024,
@@ -64,41 +64,41 @@
       "year": 2023,
       "works_count": 15,
       "oa_works_count": 8,
-      "cited_by_count": 71
+      "cited_by_count": 74
     },
     {
       "year": 2022,
       "works_count": 13,
       "oa_works_count": 7,
-      "cited_by_count": 117
+      "cited_by_count": 120
     },
     {
       "year": 2021,
-      "works_count": 11,
-      "oa_works_count": 4,
-      "cited_by_count": 87
+      "works_count": 10,
+      "oa_works_count": 5,
+      "cited_by_count": 85
     },
     {
       "year": 2020,
-      "works_count": 9,
+      "works_count": 8,
       "oa_works_count": 0,
       "cited_by_count": 5
     },
     {
       "year": 2019,
-      "works_count": 12,
+      "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 438
+      "cited_by_count": 436
     },
     {
       "year": 2018,
-      "works_count": 13,
-      "oa_works_count": 5,
-      "cited_by_count": 125
+      "works_count": 10,
+      "oa_works_count": 3,
+      "cited_by_count": 121
     },
     {
       "year": 2017,
-      "works_count": 16,
+      "works_count": 14,
       "oa_works_count": 4,
       "cited_by_count": 70
     },
@@ -116,15 +116,15 @@
     },
     {
       "year": 2014,
-      "works_count": 11,
+      "works_count": 10,
       "oa_works_count": 4,
-      "cited_by_count": 87
+      "cited_by_count": 69
     },
     {
       "year": 2013,
-      "works_count": 8,
+      "works_count": 7,
       "oa_works_count": 1,
-      "cited_by_count": 171
+      "cited_by_count": 161
     },
     {
       "year": 2012,
@@ -149,7 +149,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210097254",
-      "works_count": 280
+      "works_count": 255
     }
   ],
   "topics": [
@@ -197,24 +197,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10512",
-      "display_name": "Orthopaedic implants and arthroplasty",
-      "count": 9,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -298,10 +280,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10599",
-      "display_name": "Reconstructive Surgery and Microvascular Techniques",
+      "id": "https://openalex.org/T10512",
+      "display_name": "Orthopaedic implants and arthroplasty",
       "count": 7,
-      "score": 0.9998999834060669,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -424,24 +406,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11260",
-      "display_name": "Tracheal and airway disorders",
-      "count": 6,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12089",
       "display_name": "Intestinal and Peritoneal Adhesions",
       "count": 6,
@@ -467,6 +431,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10599",
+      "display_name": "Reconstructive Surgery and Microvascular Techniques",
+      "count": 5,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -514,13 +496,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11218",
-      "display_name": "Hip disorders and treatments",
+      "id": "https://openalex.org/T11260",
+      "display_name": "Tracheal and airway disorders",
       "count": 5,
-      "score": 1.0,
+      "score": 0.9995999932289124,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -602,16 +584,34 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "count": 4,
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T14344",
-      "display_name": "Pathogenesis and Treatment of Hiccups",
-      "value": 0.0001204,
+      "id": "https://openalex.org/T11258",
+      "display_name": "Breast Implant and Reconstruction",
+      "value": 0.0001196,
       "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -625,7 +625,7 @@
     {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "value": 0.0001178,
+      "value": 0.0001185,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -640,26 +640,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11258",
-      "display_name": "Breast Implant and Reconstruction",
-      "value": 0.0001172,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10183",
       "display_name": "Breast Cancer Treatment Studies",
-      "value": 9.3e-05,
+      "value": 9.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -674,26 +657,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12089",
-      "display_name": "Intestinal and Peritoneal Adhesions",
-      "value": 8.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12914",
       "display_name": "Infectious Disease Case Reports and Treatments",
-      "value": 8.33e-05,
+      "value": 8.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -708,9 +674,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12089",
+      "display_name": "Intestinal and Peritoneal Adhesions",
+      "value": 8.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10961",
       "display_name": "Hernia repair and management",
-      "value": 7.4e-05,
+      "value": 7.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -727,7 +710,7 @@
     {
       "id": "https://openalex.org/T13962",
       "display_name": "Omental and Epiploic Conditions",
-      "value": 7.28e-05,
+      "value": 7.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -742,9 +725,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13449",
+      "display_name": "Organizational Management and Change",
+      "value": 7.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12108",
       "display_name": "Management of metastatic bone disease",
-      "value": 6.9e-05,
+      "value": 6.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -761,7 +761,7 @@
     {
       "id": "https://openalex.org/T11834",
       "display_name": "Liver Diseases and Immunity",
-      "value": 6.8e-05,
+      "value": 6.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2721",
         "display_name": "Hepatology"
@@ -778,7 +778,7 @@
     {
       "id": "https://openalex.org/T12634",
       "display_name": "Ureteral procedures and complications",
-      "value": 6.45e-05,
+      "value": 6.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2729",
         "display_name": "Obstetrics and Gynecology"
@@ -793,26 +793,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T13449",
-      "display_name": "Organizational Management and Change",
-      "value": 6.33e-05,
+      "id": "https://openalex.org/T12333",
+      "display_name": "Abdominal Surgery and Complications",
+      "value": 6.42e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10417",
       "display_name": "Lung Cancer Treatments and Mutations",
-      "value": 6.31e-05,
+      "value": 6.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -827,63 +827,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12333",
-      "display_name": "Abdominal Surgery and Complications",
-      "value": 6.29e-05,
+      "id": "https://openalex.org/T14344",
+      "display_name": "Pathogenesis and Treatment of Hiccups",
+      "value": 6.18e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 5.9e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12769",
-      "display_name": "Stoma care and complications",
-      "value": 5.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14015",
-      "display_name": "Otitis Media and Relapsing Polychondritis",
-      "value": 5.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -897,7 +846,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 5.73e-05,
+      "value": 6.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -912,9 +861,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12154",
-      "display_name": "Pelvic and Acetabular Injuries",
-      "value": 5.4e-05,
+      "id": "https://openalex.org/T12769",
+      "display_name": "Stoma care and complications",
+      "value": 6.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -929,16 +878,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13423",
-      "display_name": "Social Policies and Healthcare Reform",
-      "value": 5.4e-05,
+      "id": "https://openalex.org/T12154",
+      "display_name": "Pelvic and Acetabular Injuries",
+      "value": 5.54e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -946,26 +895,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13376",
-      "display_name": "Criminal Law and Policy",
-      "value": 5.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10418",
       "display_name": "Pelvic floor disorders treatments",
-      "value": 5.26e-05,
+      "value": 5.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -982,7 +914,7 @@
     {
       "id": "https://openalex.org/T11134",
       "display_name": "Breast Lesions and Carcinomas",
-      "value": 5.12e-05,
+      "value": 5.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -997,29 +929,97 @@
       }
     },
     {
-      "id": "https://openalex.org/T13000",
-      "display_name": "World Systems and Global Transformations",
-      "value": 5.07e-05,
+      "id": "https://openalex.org/T12518",
+      "display_name": "Diverticular Disease and Complications",
+      "value": 5.09e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13275",
-      "display_name": "Medical and Health Sciences Research",
-      "value": 5.07e-05,
+      "id": "https://openalex.org/T10755",
+      "display_name": "HER2/EGFR in Cancer Research",
+      "value": 5.06e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13097",
+      "display_name": "Male Breast Health Studies",
+      "value": 4.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12900",
+      "display_name": "Organ and Tissue Transplantation Research",
+      "value": 4.49e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2747",
+        "display_name": "Transplantation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11658",
+      "display_name": "Esophageal and GI Pathology",
+      "value": 4.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10178",
+      "display_name": "Cancer survivorship and care",
+      "value": 4.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1034,6 +1034,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210097254",
-  "updated_date": "2026-08-26T06:00:15",
+  "updated_date": "2026-09-23T06:00:35",
   "created_date": "2022-02-02T04:48:36"
 }
