@@ -38,10 +38,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
-        with:
-          # Rebuild the PR from current main, including on manual dispatch;
-          # HEAD is also the baseline for the metadata comparison below.
-          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v6
