@@ -82,7 +82,10 @@ def main() -> int:
     }
     R.write_meta(meta)
 
-    problems = R.validate_pairing()
+    # Reuse orphans are a legitimate intermediate state after ROR withdrawals.
+    # The OpenAlex run rebuilds its records/ from the current records.json and
+    # then checks the full pairing, so only validate the ROR subset here.
+    problems = R.validate_pairing(include_reuse=False)
     if problems:
         print("ERROR: data consistency problems:", file=sys.stderr)
         for p in problems:
