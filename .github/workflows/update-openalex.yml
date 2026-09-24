@@ -1,0 +1,167 @@
+name: Update OpenAlex companion data
+
+# Refreshes the OpenAlex layer independently of Zenodo releases: bibliometric
+# counters keep moving between dumps and would otherwise dominate ROR PRs.
+# Monthly polling limits counter churn; changes to the authoritative ID list
+# or record contents on main also trigger a follow-up against fresh ROR data.
+#
+# Both this workflow and update.yml write neighboring blocks of data/meta.json.
+# Concurrent PRs can still conflict there; the push trigger after a ROR merge
+# usually resolves this by rebuilding the companion PR from fresh main.
+# Optional secret: OPENALEX_API_KEY -- see the refresh step for fallback policy.
+
+on:
+  schedule:
+    # First day of each month, 10:15 UTC: clear of the daily 06:00/07:30 ROR
+    # jobs and Monday's 04:30 curation seed and 05:00 Pages enrichment.
+    - cron: "15 10 1 * *"
+  push:
+    branches: [main]
+    paths:
+      # This is the script's only ROR input; companion-only merges do not
+      # trigger another sweep, even though they also update data/meta.json.
+      - data/records.json
+  workflow_dispatch:
+    inputs:
+      mailto:
+        description: "Contact e-mail for the OpenAlex polite pool"
+        required: false
+        default: "openalex@slub-dresden.de"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          # Rebuild the PR from current main, including on manual dispatch;
+          # HEAD is also the baseline for the metadata comparison below.
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # The key reaches the script through the environment only -- never through
+      # the run: source, which would put it in the workflow text and the logs.
+      # A missing key warns and continues anonymously rather than costing us the
+      # companion refresh; a rejected key is not retried anonymously, so the step
+      # fails with it. See the README for the full policy.
+      - name: Update OpenAlex companion data
+        env:
+          MAILTO: ${{ github.event.inputs.mailto || 'openalex@slub-dresden.de' }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          set -euo pipefail
+          # Whitespace-stripped before the emptiness test so this check and the
+          # script agree: update_openalex.py strips too, so a secret of blanks
+          # would otherwise count as configured here and go anonymous there.
+          # Copied into a local first so an unset variable fails the test
+          # rather than `set -u`.
+          key="${OPENALEX_API_KEY:-}"
+          if [ -z "${key//[[:space:]]/}" ]; then
+            echo "::warning title=OpenAlex API key missing::Falling back to anonymous access with a lower allowance."
+            {
+              echo "### ⚠ OpenAlex API key missing"
+              echo
+              echo "The refresh used anonymous access. Configure the"
+              echo "\`OPENALEX_API_KEY\` repository secret for the larger allowance."
+            } >> "$GITHUB_STEP_SUMMARY"
+            # Blanks must not reach the script as a "configured" key.
+            unset OPENALEX_API_KEY
+          fi
+
+          python scripts/update_openalex.py \
+            --mailto "$MAILTO"
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          set -euo pipefail
+          # The script rebuilds records/: stage first so new, deleted and
+          # modified files all participate, including previously untracked IDs.
+          git add -A -- data
+          if git diff --cached --quiet -- data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No OpenAlex changes."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          # A new retrieved date is a valid metadata change even when all
+          # institution payloads agree. Do not suppress that refresh evidence.
+          python3 - <<'PY' > /tmp/pr-body.md
+          import json
+          import subprocess
+          from pathlib import Path
+
+          show = subprocess.run(
+              ["git", "show", "HEAD:data/meta.json"],
+              capture_output=True, text=True, check=True,
+          )
+          # An absent companion block means this is the first OpenAlex run;
+          # the ROR metadata file itself must already exist.
+          before = json.loads(show.stdout).get("reuse", {}).get("openalex", {})
+          after = json.loads(Path("data/meta.json").read_text())["reuse"]["openalex"]
+
+          print("Automated refresh of the OpenAlex companion layer.")
+          print()
+          print("| Counter | Before | After | Delta |")
+          print("| --- | ---: | ---: | ---: |")
+          for key in ("matched", "ror_total", "missing"):
+              old, new = before.get(key, 0), after[key]
+              print(f"| `{key}` | {old} | {new} | {new - old:+d} |")
+          print()
+
+          # Inspect additions and deletions separately: rename detection could
+          # hide a lost match and a new match as a single renamed file. Suffixes
+          # come from the existing filenames, without another metadata index.
+          for kind, title in (("A", "Added matches"), ("D", "Removed matches")):
+              diff = subprocess.run(
+                  ["git", "diff", "--cached", "--no-renames",
+                   f"--diff-filter={kind}", "--name-only", "--",
+                   "data/reuse/openalex/records/"],
+                  capture_output=True, text=True, check=True,
+              )
+              suffixes = sorted(Path(name).stem for name in diff.stdout.splitlines())
+              print(f"**{title} ({len(suffixes)}):**")
+              for suffix in suffixes:
+                  print(f"- `{suffix}`")
+              if not suffixes:
+                  print("None.")
+              print()
+          PY
+
+      - name: Open openalex-update pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Reuse one branch so later refreshes replace an outstanding proposal
+          # instead of accumulating a new PR for every run.
+          branch="automated/openalex-update"
+          git switch -c "$branch"
+          git commit -m "reuse: refresh OpenAlex companion layer"
+          git push --force origin "$branch"
+
+          # Distinct from the ROR, curation and history labels for filtering.
+          gh label create openalex-update --color d876e3 --force >/dev/null 2>&1 || true
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            gh pr create \
+              --base main --head "$branch" \
+              --title "reuse: refresh OpenAlex companion layer" \
+              --body-file /tmp/pr-body.md \
+              --label openalex-update
+          else
+            gh pr edit "$branch" --body-file /tmp/pr-body.md --add-label openalex-update
+          fi

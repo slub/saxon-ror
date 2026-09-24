@@ -101,7 +101,7 @@ export GITHUB_TOKEN="your-token"     # optional; higher GitHub rate limit
 python scripts/update_history.py
 ```
 
-`OPENALEX_API_KEY` is read from the environment only, never as a command-line option; without it the script warns and uses anonymous access. Requests always include `mailto=openalex@slub-dresden.de`, which `--mailto you@example.org` overrides. In CI, `update.yml` reads the repository secret of the same name, configured separately by a repository administrator: a missing secret warns and falls back anonymously, while a configured but rejected key, or another API failure, fails the step.
+`OPENALEX_API_KEY` is read from the environment only, never as a command-line option; without it the script warns and uses anonymous access. Requests always include `mailto=openalex@slub-dresden.de`, which `--mailto you@example.org` overrides. In CI, `update-openalex.yml` reads the repository secret of the same name, configured separately by a repository administrator: a missing secret warns and falls back anonymously, while a configured but rejected key, or another API failure, fails the step.
 
 Both refresh scripts fail loudly rather than write partial data. `update_ror.py` downloads the raw dump to a temporary directory outside the repository, commits only the filtered Saxon subset, and exits non-zero if that subset is empty or shrinks by more than 20% versus the previous run — a guard against an upstream schema change silently breaking the filter. `update_history.py` rebuilds the whole overlay every run, so the result depends only on upstream and not on what the file already said, and refuses to write at all if the release catalog comes back missing releases the overlay already records. Their module docstrings give the details.
 
@@ -124,13 +124,14 @@ python -m http.server 8000
 
 The workflows in `.github/workflows/`:
 
-- **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, updates the release history, links any curation requests for the records that changed, refreshes the OpenAlex layer, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
+- **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, updates the release history, links any curation requests for the records that changed, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
+- **`update-openalex.yml`** refreshes the OpenAlex companion layer monthly (first day, 10:15 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. Its separate `openalex-update` PR reports matching counters and added/removed matches; a changed retrieval date alone also counts as a refresh.
 - **`curation-seed.yml`** re-runs curation discovery across all records weekly, catching links that only became discoverable after the dump that introduced the record.
 - **`history-retry.yml`** re-runs release-history classification daily, so a release ROR had not annotated when its dump landed gets picked up later.
 - **`pages.yml`** deploys `www/` and the data files it needs to GitHub Pages, on push and weekly (so curation-request states stay current).
 - **`tag-releases.yml`** tags each dump commit on `main` with its ROR version.
 
-The three data workflows open a pull request only when they actually find a change; most runs are a no-op.
+The four data workflows open a pull request only when they actually find a change; most runs are a no-op.
 
 ## Git history as a change log
 
@@ -172,6 +173,12 @@ saxon-ror/
 ├── tests/                      network-free unittest suite
 ├── www/                        static website (deployed to GitHub Pages)
 └── .github/workflows/
+    ├── update.yml
+    ├── update-openalex.yml
+    ├── curation-seed.yml
+    ├── history-retry.yml
+    ├── pages.yml
+    └── tag-releases.yml
 ```
 
 ## References
