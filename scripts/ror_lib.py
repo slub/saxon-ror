@@ -634,8 +634,8 @@ def normalize(text: str) -> str:
     return stripped.casefold()
 
 
-def validate_pairing(data_dir: Path = DATA_DIR) -> list[str]:
-    """Check records/ <-> records.json and reuse/*/records/ pairing.
+def validate_pairing(data_dir: Path = DATA_DIR, *, include_reuse: bool = True) -> list[str]:
+    """Check records/ <-> records.json and, optionally, reuse/*/records/ pairing.
 
     Returns a list of human-readable problems (empty when consistent).
     """
@@ -655,7 +655,7 @@ def validate_pairing(data_dir: Path = DATA_DIR) -> list[str]:
         problems.append(f"records/{orphan}.json has no records.json entry")
 
     reuse = data_dir / "reuse"
-    if reuse.exists():
+    if include_reuse and reuse.exists():
         for source_dir in sorted(reuse.iterdir()):
             recs = source_dir / "records"
             if not recs.is_dir():
