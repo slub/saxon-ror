@@ -7,6 +7,7 @@
   "type_id": "https://openalex.org/institution-types/facility",
   "lineage": [
     "https://openalex.org/I4405272450",
+    "https://openalex.org/I4405279746",
     "https://openalex.org/I78650965"
   ],
   "homepage_url": "https://www.biotec.tu-dresden.de",
@@ -21,9 +22,9 @@
   ],
   "repositories": [],
   "works_count": 2037,
-  "cited_by_count": 506533,
+  "cited_by_count": 506806,
   "summary_stats": {
-    "2yr_mean_citedness": 14.004694835680752,
+    "2yr_mean_citedness": 14.018779342723004,
     "h_index": 275,
     "i10_index": 3433
   },
@@ -45,6 +46,14 @@
   },
   "international": {},
   "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4405279746",
+      "ror": "https://ror.org/01y4jnr14",
+      "display_name": "Center for Molecular and Cellular Bioengineering",
+      "country_code": "DE",
+      "type": "facility",
+      "relationship": "parent"
+    },
     {
       "id": "https://openalex.org/I78650965",
       "ror": "https://ror.org/042aqky30",
@@ -71,7 +80,7 @@
       "year": 2024,
       "works_count": 65,
       "oa_works_count": 60,
-      "cited_by_count": 1007
+      "cited_by_count": 1008
     },
     {
       "year": 2023,
@@ -89,73 +98,73 @@
       "year": 2021,
       "works_count": 100,
       "oa_works_count": 91,
-      "cited_by_count": 10378
+      "cited_by_count": 10379
     },
     {
       "year": 2020,
       "works_count": 106,
       "oa_works_count": 90,
-      "cited_by_count": 5370
+      "cited_by_count": 5372
     },
     {
       "year": 2019,
       "works_count": 119,
       "oa_works_count": 91,
-      "cited_by_count": 7585
+      "cited_by_count": 7593
     },
     {
       "year": 2018,
       "works_count": 126,
       "oa_works_count": 109,
-      "cited_by_count": 9866
+      "cited_by_count": 9871
     },
     {
       "year": 2017,
       "works_count": 109,
       "oa_works_count": 90,
-      "cited_by_count": 6127
+      "cited_by_count": 6138
     },
     {
       "year": 2016,
       "works_count": 91,
       "oa_works_count": 66,
-      "cited_by_count": 5984
+      "cited_by_count": 5987
     },
     {
       "year": 2015,
       "works_count": 91,
       "oa_works_count": 67,
-      "cited_by_count": 8464
+      "cited_by_count": 8472
     },
     {
       "year": 2014,
       "works_count": 93,
       "oa_works_count": 56,
-      "cited_by_count": 16815
+      "cited_by_count": 16820
     },
     {
       "year": 2013,
       "works_count": 95,
       "oa_works_count": 60,
-      "cited_by_count": 6375
+      "cited_by_count": 6377
     },
     {
       "year": 2012,
       "works_count": 102,
       "oa_works_count": 57,
-      "cited_by_count": 11306
+      "cited_by_count": 11310
     },
     {
       "year": 2011,
       "works_count": 98,
       "oa_works_count": 59,
-      "cited_by_count": 11107
+      "cited_by_count": 11113
     },
     {
       "year": 2010,
       "works_count": 102,
       "oa_works_count": 59,
-      "cited_by_count": 17823
+      "cited_by_count": 17835
     }
   ],
   "roles": [
@@ -638,7 +647,7 @@
     {
       "id": "https://openalex.org/T11685",
       "display_name": "Zebrafish Biomedical Research Applications",
-      "value": 0.0008573,
+      "value": 0.0008572,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -723,7 +732,7 @@
     {
       "id": "https://openalex.org/T10887",
       "display_name": "Bioinformatics and Genomic Networks",
-      "value": 0.0006029,
+      "value": 0.0006028,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1029,7 +1038,7 @@
     {
       "id": "https://openalex.org/T10934",
       "display_name": "Heat shock proteins research",
-      "value": 0.0003379,
+      "value": 0.0003378,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1047,6 +1056,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272450",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2026-07-22T03:30:22"
 }

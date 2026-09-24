@@ -7,6 +7,7 @@
   "type_id": "https://openalex.org/institution-types/facility",
   "lineage": [
     "https://openalex.org/I4405273119",
+    "https://openalex.org/I4405279746",
     "https://openalex.org/I78650965"
   ],
   "homepage_url": "https://www.bcube-dresden.de",
@@ -22,9 +23,9 @@
   ],
   "repositories": [],
   "works_count": 689,
-  "cited_by_count": 41394,
+  "cited_by_count": 41430,
   "summary_stats": {
-    "2yr_mean_citedness": 4.308510638297872,
+    "2yr_mean_citedness": 4.321808510638298,
     "h_index": 94,
     "i10_index": 762
   },
@@ -47,6 +48,14 @@
   "international": {},
   "associated_institutions": [
     {
+      "id": "https://openalex.org/I4405279746",
+      "ror": "https://ror.org/01y4jnr14",
+      "display_name": "Center for Molecular and Cellular Bioengineering",
+      "country_code": "DE",
+      "type": "facility",
+      "relationship": "parent"
+    },
+    {
       "id": "https://openalex.org/I78650965",
       "ror": "https://ror.org/042aqky30",
       "display_name": "Technische Universität Dresden",
@@ -66,13 +75,13 @@
       "year": 2025,
       "works_count": 65,
       "oa_works_count": 58,
-      "cited_by_count": 240
+      "cited_by_count": 241
     },
     {
       "year": 2024,
       "works_count": 76,
       "oa_works_count": 68,
-      "cited_by_count": 661
+      "cited_by_count": 662
     },
     {
       "year": 2023,
@@ -96,13 +105,13 @@
       "year": 2020,
       "works_count": 58,
       "oa_works_count": 50,
-      "cited_by_count": 1547
+      "cited_by_count": 1553
     },
     {
       "year": 2019,
       "works_count": 56,
       "oa_works_count": 42,
-      "cited_by_count": 1580
+      "cited_by_count": 1582
     },
     {
       "year": 2018,
@@ -114,19 +123,19 @@
       "year": 2017,
       "works_count": 36,
       "oa_works_count": 25,
-      "cited_by_count": 1504
+      "cited_by_count": 1505
     },
     {
       "year": 2016,
       "works_count": 34,
       "oa_works_count": 23,
-      "cited_by_count": 1587
+      "cited_by_count": 1588
     },
     {
       "year": 2015,
       "works_count": 26,
       "oa_works_count": 15,
-      "cited_by_count": 1655
+      "cited_by_count": 1657
     },
     {
       "year": 2014,
@@ -144,7 +153,7 @@
       "year": 2012,
       "works_count": 15,
       "oa_works_count": 11,
-      "cited_by_count": 860
+      "cited_by_count": 861
     },
     {
       "year": 2011,
@@ -622,7 +631,7 @@
     {
       "id": "https://openalex.org/T11486",
       "display_name": "Micro and Nano Robotics",
-      "value": 0.000919,
+      "value": 0.0009189,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -656,7 +665,7 @@
     {
       "id": "https://openalex.org/T11278",
       "display_name": "Calcium Carbonate Crystallization and Inhibition",
-      "value": 0.0005597,
+      "value": 0.0005596,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -707,7 +716,7 @@
     {
       "id": "https://openalex.org/T11879",
       "display_name": "Protist diversity and phylogeny",
-      "value": 0.000312,
+      "value": 0.0003119,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -928,7 +937,7 @@
     {
       "id": "https://openalex.org/T14382",
       "display_name": "Electrophoretic Deposition in Materials Science",
-      "value": 0.0001564,
+      "value": 0.0001563,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1048,6 +1057,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405273119",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2026-07-22T03:30:22"
 }

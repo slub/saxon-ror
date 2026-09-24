@@ -7,6 +7,7 @@
   "type_id": "https://openalex.org/institution-types/facility",
   "lineage": [
     "https://openalex.org/I4405268811",
+    "https://openalex.org/I4405279746",
     "https://openalex.org/I78650965"
   ],
   "homepage_url": "https://genomecenter.tu-dresden.de",
@@ -55,6 +56,14 @@
       "country_code": "DE",
       "type": "facility",
       "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405279746",
+      "ror": "https://ror.org/01y4jnr14",
+      "display_name": "Center for Molecular and Cellular Bioengineering",
+      "country_code": "DE",
+      "type": "facility",
+      "relationship": "parent"
     },
     {
       "id": "https://openalex.org/I78650965",
@@ -1010,6 +1019,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405268811",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2026-06-25T03:30:22"
 }

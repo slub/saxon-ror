@@ -30,10 +30,10 @@
     "German Cancer Consortium, Dresden"
   ],
   "repositories": [],
-  "works_count": 1246,
-  "cited_by_count": 366622,
+  "works_count": 1247,
+  "cited_by_count": 366666,
   "summary_stats": {
-    "2yr_mean_citedness": 5.32425068119891,
+    "2yr_mean_citedness": 5.296346414073072,
     "h_index": 167,
     "i10_index": 1716
   },
@@ -91,15 +91,15 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 120,
-      "oa_works_count": 100,
-      "cited_by_count": 83
+      "works_count": 121,
+      "oa_works_count": 101,
+      "cited_by_count": 84
     },
     {
       "year": 2025,
       "works_count": 102,
       "oa_works_count": 93,
-      "cited_by_count": 437
+      "cited_by_count": 439
     },
     {
       "year": 2024,
@@ -111,7 +111,7 @@
       "year": 2023,
       "works_count": 103,
       "oa_works_count": 92,
-      "cited_by_count": 2491
+      "cited_by_count": 2493
     },
     {
       "year": 2022,
@@ -135,19 +135,19 @@
       "year": 2019,
       "works_count": 111,
       "oa_works_count": 74,
-      "cited_by_count": 5537
+      "cited_by_count": 5542
     },
     {
       "year": 2018,
       "works_count": 106,
       "oa_works_count": 64,
-      "cited_by_count": 4442
+      "cited_by_count": 4447
     },
     {
       "year": 2017,
       "works_count": 110,
       "oa_works_count": 69,
-      "cited_by_count": 7469
+      "cited_by_count": 7473
     },
     {
       "year": 2016,
@@ -159,7 +159,7 @@
       "year": 2015,
       "works_count": 48,
       "oa_works_count": 23,
-      "cited_by_count": 3452
+      "cited_by_count": 3455
     },
     {
       "year": 2014,
@@ -178,7 +178,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405269127",
-      "works_count": 1246
+      "works_count": 1247
     }
   ],
   "topics": [
@@ -239,7 +239,7 @@
     {
       "id": "https://openalex.org/T10129",
       "display_name": "Glioma Diagnosis and Treatment",
-      "count": 84,
+      "count": 85,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
@@ -473,7 +473,7 @@
     {
       "id": "https://openalex.org/T11020",
       "display_name": "Immune Cell Function and Interaction",
-      "count": 50,
+      "count": 51,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -754,6 +754,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T10129",
+      "display_name": "Glioma Diagnosis and Treatment",
+      "value": 0.0004003,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10769",
       "display_name": "BRCA gene mutations in cancer",
       "value": 0.0003971,
@@ -768,23 +785,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10129",
-      "display_name": "Glioma Diagnosis and Treatment",
-      "value": 0.0003956,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -994,7 +994,7 @@
     {
       "id": "https://openalex.org/T10124",
       "display_name": "Prostate Cancer Diagnosis and Treatment",
-      "value": 0.0002698,
+      "value": 0.0002697,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -1063,6 +1063,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405269127",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2026-06-25T03:30:22"
 }
