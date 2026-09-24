@@ -1,26 +1,22 @@
 name: Update Saxon ROR data
 
-# Refreshes the Saxon ROR subset (and the OpenAlex companion layer) from the
-# latest Zenodo dump. Polls daily and on manual dispatch, but a preflight check
+# Refreshes the Saxon ROR subset from the latest Zenodo dump. Polls daily and on
+# manual dispatch, but a preflight check
 # resolves the latest Zenodo DOI first: if it matches the DOI already recorded in
-# data/meta.json, the run stops before downloading anything -- no dump fetch, no
-# OpenAlex sweep, no pull request. Never pushes to the default branch: when the
-# data actually changes, it opens a pull request instead.
+# data/meta.json, the run stops before downloading anything -- no dump fetch,
+# no pull request. Never pushes to the default branch: when the data actually
+# changes, it opens a pull request instead.
 #
-# Secrets used: CURATION_TOKEN (GitHub issue search) and OPENALEX_API_KEY, both
-# optional -- see the steps below and the README for what happens without them.
+# Optional secret: CURATION_TOKEN (GitHub issue search) -- see the steps below
+# and the README for what happens without it.
 
 on:
   schedule:
-    # 06:00 UTC daily. Most runs no-op at the preflight step; the download and
-    # OpenAlex sweep only happen on the day a new dump appears.
+    # 06:00 UTC daily. Most runs no-op at the preflight step; the download
+    # only happens on the day a new dump appears.
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
-      mailto:
-        description: "Contact e-mail for the OpenAlex polite pool"
-        required: false
-        default: "openalex@slub-dresden.de"
       force:
         description: "Ignore the freshness check and re-fetch regardless"
         type: boolean
@@ -50,7 +46,7 @@ jobs:
 
       # Cheap probe: resolve the latest Zenodo DOI and compare it to what we
       # already have. On a match (and unless forced) the job stops here -- no
-      # download, no OpenAlex sweep, no PR. This is what makes daily polling free.
+      # download, no PR. This is what makes daily polling free.
       - name: Check for a new ROR release
         id: preflight
         env:
@@ -167,38 +163,6 @@ jobs:
             echo "> the weekly reseed will retry."
           } > /tmp/curation-warning.md
           cat /tmp/curation-warning.md >> "$GITHUB_STEP_SUMMARY"
-
-      # The key reaches the script through the environment only -- never through
-      # the run: source, which would put it in the workflow text and the logs.
-      # A missing key warns and continues anonymously rather than costing us the
-      # whole ROR refresh; a rejected key is not retried anonymously, so the step
-      # fails with it. See the README for the full policy.
-      - name: Update OpenAlex companion data
-        if: steps.preflight.outputs.fresh != 'true'
-        env:
-          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: |
-          set -euo pipefail
-          # Whitespace-stripped before the emptiness test so this check and the
-          # script agree: update_openalex.py strips too, so a secret of blanks
-          # would otherwise count as configured here and go anonymous there.
-          # Copied into a local first so an unset variable fails the test
-          # rather than `set -u`.
-          key="${OPENALEX_API_KEY:-}"
-          if [ -z "${key//[[:space:]]/}" ]; then
-            echo "::warning title=OpenAlex API key missing::Falling back to anonymous access with a lower allowance."
-            {
-              echo "### ⚠ OpenAlex API key missing"
-              echo
-              echo "The refresh used anonymous access. Configure the"
-              echo "\`OPENALEX_API_KEY\` repository secret for the larger allowance."
-            } >> "$GITHUB_STEP_SUMMARY"
-            # Blanks must not reach the script as a "configured" key.
-            unset OPENALEX_API_KEY
-          fi
-
-          python scripts/update_openalex.py \
-            --mailto "${{ github.event.inputs.mailto || 'openalex@slub-dresden.de' }}"
 
       - name: Summarize changes
         id: diff
