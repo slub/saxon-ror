@@ -21,9 +21,9 @@
   ],
   "repositories": [],
   "works_count": 779,
-  "cited_by_count": 16138,
+  "cited_by_count": 16147,
   "summary_stats": {
-    "2yr_mean_citedness": 2.3175074183976263,
+    "2yr_mean_citedness": 2.3323442136498516,
     "h_index": 60,
     "i10_index": 326
   },
@@ -31,17 +31,17 @@
     "openalex": "https://openalex.org/I4210136838",
     "ror": "https://ror.org/02wt6e634",
     "grid": "grid.461797.a",
-    "wikipedia": "",
+    "wikipedia": null,
     "wikidata": null
   },
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 51.34724807739258,
-    "longitude": 12.471643447875977
+    "latitude": 51.33962,
+    "longitude": 12.37129
   },
   "international": {},
   "associated_institutions": [
@@ -52,6 +52,14 @@
       "country_code": "DE",
       "type": "government",
       "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I4405279915",
+      "ror": "https://ror.org/025vqd093",
+      "display_name": "Leibniz ScienceCampus Eastern Europe – Global Area",
+      "country_code": "DE",
+      "type": "facility",
+      "relationship": "child"
     }
   ],
   "counts_by_year": [
@@ -71,13 +79,13 @@
       "year": 2024,
       "works_count": 77,
       "oa_works_count": 45,
-      "cited_by_count": 348
+      "cited_by_count": 351
     },
     {
       "year": 2023,
       "works_count": 61,
       "oa_works_count": 55,
-      "cited_by_count": 474
+      "cited_by_count": 475
     },
     {
       "year": 2022,
@@ -621,7 +629,7 @@
     {
       "id": "https://openalex.org/T12853",
       "display_name": "Historical Geography and Geographical Thought",
-      "value": 0.0023426,
+      "value": 0.0023421,
       "subfield": {
         "id": "https://openalex.org/subfields/3305",
         "display_name": "Geography, Planning and Development"
@@ -638,7 +646,7 @@
     {
       "id": "https://openalex.org/T12502",
       "display_name": "Urbanization and City Planning",
-      "value": 0.0018217,
+      "value": 0.0018215,
       "subfield": {
         "id": "https://openalex.org/subfields/3322",
         "display_name": "Urban Studies"
@@ -655,7 +663,7 @@
     {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 0.001575,
+      "value": 0.0015749,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -706,7 +714,7 @@
     {
       "id": "https://openalex.org/T12343",
       "display_name": "Geography Education and Pedagogy",
-      "value": 0.0006904,
+      "value": 0.0006903,
       "subfield": {
         "id": "https://openalex.org/subfields/3305",
         "display_name": "Geography, Planning and Development"
@@ -723,7 +731,7 @@
     {
       "id": "https://openalex.org/T13588",
       "display_name": "Regional resilience and development",
-      "value": 0.0006888,
+      "value": 0.0006887,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -740,7 +748,7 @@
     {
       "id": "https://openalex.org/T10757",
       "display_name": "Geographic Information Systems Studies",
-      "value": 0.0006613,
+      "value": 0.0006612,
       "subfield": {
         "id": "https://openalex.org/subfields/3305",
         "display_name": "Geography, Planning and Development"
@@ -859,7 +867,7 @@
     {
       "id": "https://openalex.org/T13654",
       "display_name": "Urban Planning and Landscape Design",
-      "value": 0.0003369,
+      "value": 0.0003368,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -876,7 +884,7 @@
     {
       "id": "https://openalex.org/T13669",
       "display_name": "China's Global Influence and Migration",
-      "value": 0.000321,
+      "value": 0.0003209,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -961,7 +969,7 @@
     {
       "id": "https://openalex.org/T13327",
       "display_name": "Arts, Culture, and Music Studies",
-      "value": 0.0002849,
+      "value": 0.000285,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -1012,7 +1020,7 @@
     {
       "id": "https://openalex.org/T13618",
       "display_name": "Regional Socio-Economic Development Trends",
-      "value": 0.0002619,
+      "value": 0.0002618,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -1047,6 +1055,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136838",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2022-02-02T04:48:36"
 }

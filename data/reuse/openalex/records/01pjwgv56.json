@@ -16,10 +16,10 @@
     "Smart Material (Germany)"
   ],
   "repositories": [],
-  "works_count": 25,
+  "works_count": 26,
   "cited_by_count": 278,
   "summary_stats": {
-    "2yr_mean_citedness": 2.2142857142857144,
+    "2yr_mean_citedness": 2.066666666666667,
     "h_index": 8,
     "i10_index": 8
   },
@@ -44,7 +44,7 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 4,
+      "works_count": 5,
       "oa_works_count": 1,
       "cited_by_count": 0
     },
@@ -125,7 +125,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210107311",
-      "works_count": 25
+      "works_count": 26
     }
   ],
   "topics": [
@@ -184,6 +184,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10249",
+      "display_name": "Distributed Control Multi-Agent Systems",
+      "count": 2,
+      "score": 0.08529999852180481,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10338",
       "display_name": "Advanced Sensor and Energy Harvesting Materials",
       "count": 2,
@@ -224,6 +242,24 @@
       "display_name": "Aeroelasticity and Vibration Control",
       "count": 2,
       "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11133",
+      "display_name": "UAV Applications and Optimization",
+      "count": 2,
+      "score": 0.9488999843597412,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -418,24 +454,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10249",
-      "display_name": "Distributed Control Multi-Agent Systems",
-      "count": 1,
-      "score": 0.008299999870359898,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10281",
       "display_name": "Advanced Battery Materials and Technologies",
       "count": 1,
@@ -560,24 +578,6 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10663",
-      "display_name": "Advanced Battery Technologies Research",
-      "count": 1,
-      "score": 0.9955999851226807,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
@@ -647,6 +647,23 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11133",
+      "display_name": "UAV Applications and Optimization",
+      "value": 3.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -752,16 +769,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11870",
-      "display_name": "Structural Analysis and Optimization",
-      "value": 1.86e-05,
+      "id": "https://openalex.org/T10249",
+      "display_name": "Distributed Control Multi-Agent Systems",
+      "value": 2.03e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -769,12 +786,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11133",
-      "display_name": "UAV Applications and Optimization",
-      "value": 1.59e-05,
+      "id": "https://openalex.org/T11870",
+      "display_name": "Structural Analysis and Optimization",
+      "value": 1.86e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -988,28 +1005,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 1.08e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210107311",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-24T05:59:41",
   "created_date": "2022-02-02T04:48:36"
 }
