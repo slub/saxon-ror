@@ -24,10 +24,10 @@
     "Klimaneutrales und ressourceneffizientes Bauen"
   ],
   "repositories": [],
-  "works_count": 40,
-  "cited_by_count": 80,
+  "works_count": 54,
+  "cited_by_count": 99,
   "summary_stats": {
-    "2yr_mean_citedness": 0.7547169811320755,
+    "2yr_mean_citedness": 0.7279411764705882,
     "h_index": 5,
     "i10_index": 3
   },
@@ -85,30 +85,30 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 37,
-      "oa_works_count": 26,
-      "cited_by_count": 17
+      "works_count": 51,
+      "oa_works_count": 41,
+      "cited_by_count": 21
     },
     {
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 17
+      "cited_by_count": 20
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272110",
-      "works_count": 40
+      "works_count": 54
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T12190",
       "display_name": "Innovations in Concrete and Construction Materials",
-      "count": 9,
-      "score": 0.9912999868392944,
+      "count": 13,
+      "score": 0.9940000176429749,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -125,7 +125,7 @@
     {
       "id": "https://openalex.org/T10687",
       "display_name": "Innovative concrete reinforcement materials",
-      "count": 7,
+      "count": 11,
       "score": 0.7160999774932861,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
@@ -143,7 +143,7 @@
     {
       "id": "https://openalex.org/T10033",
       "display_name": "Concrete and Cement Materials Research",
-      "count": 5,
+      "count": 8,
       "score": 0.989300012588501,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
@@ -159,9 +159,45 @@
       }
     },
     {
+      "id": "https://openalex.org/T10479",
+      "display_name": "Structural Behavior of Reinforced Concrete",
+      "count": 5,
+      "score": 0.9765999913215637,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 5,
+      "score": 0.9937000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11006",
       "display_name": "BIM and Construction Integration",
-      "count": 4,
+      "count": 5,
       "score": 0.3763999938964844,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
@@ -179,8 +215,8 @@
     {
       "id": "https://openalex.org/T11352",
       "display_name": "Masonry and Concrete Structural Analysis",
-      "count": 4,
-      "score": 0.4462999999523163,
+      "count": 5,
+      "score": 0.819100022315979,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -195,13 +231,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T10479",
-      "display_name": "Structural Behavior of Reinforced Concrete",
-      "count": 3,
-      "score": 0.2069000005722046,
+      "id": "https://openalex.org/T12682",
+      "display_name": "Smart Materials for Construction",
+      "count": 5,
+      "score": 0.9979000091552734,
       "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "count": 4,
+      "score": 0.4733000099658966,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -213,10 +267,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T11606",
-      "display_name": "Infrastructure Maintenance and Monitoring",
+      "id": "https://openalex.org/T11664",
+      "display_name": "Fiber-reinforced polymer composites",
+      "count": 4,
+      "score": 0.8134999871253967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11850",
+      "display_name": "Concrete Corrosion and Durability",
       "count": 3,
-      "score": 0.2624000012874603,
+      "score": 0.13199999928474426,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12152",
+      "display_name": "Concrete Properties and Behavior",
+      "count": 3,
+      "score": 0.05909999832510948,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -303,35 +393,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10783",
-      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "id": "https://openalex.org/T10513",
+      "display_name": "Natural Fiber Reinforced Composites",
       "count": 2,
-      "score": 0.003700000001117587,
+      "score": 0.06539999693632126,
       "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11664",
-      "display_name": "Fiber-reinforced polymer composites",
-      "count": 2,
-      "score": 0.48910000920295715,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -375,13 +447,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12152",
-      "display_name": "Concrete Properties and Behavior",
+      "id": "https://openalex.org/T13518",
+      "display_name": "Architecture and Computational Design",
       "count": 2,
-      "score": 0.0575999990105629,
+      "score": 0.0027000000700354576,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -481,85 +553,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10090",
-      "display_name": "ZnO doping and properties",
-      "count": 1,
-      "score": 0.0215000007301569,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10096",
-      "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
-      "count": 1,
-      "score": 0.8169000148773193,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10126",
-      "display_name": "Logic, programming, and type systems",
-      "count": 1,
-      "score": 0.04390000179409981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10212",
-      "display_name": "Electrochemical sensors and biosensors",
-      "count": 1,
-      "score": 0.2662000060081482,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12190",
       "display_name": "Innovations in Concrete and Construction Materials",
-      "value": 8.68e-05,
+      "value": 0.0001249,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -576,7 +576,24 @@
     {
       "id": "https://openalex.org/T11352",
       "display_name": "Masonry and Concrete Structural Analysis",
-      "value": 8.47e-05,
+      "value": 0.0001061,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12152",
+      "display_name": "Concrete Properties and Behavior",
+      "value": 7.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -593,7 +610,7 @@
     {
       "id": "https://openalex.org/T12926",
       "display_name": "Business Strategies and Management Research",
-      "value": 7.34e-05,
+      "value": 7.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -608,9 +625,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10687",
+      "display_name": "Innovative concrete reinforcement materials",
+      "value": 7.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12682",
+      "display_name": "Smart Materials for Construction",
+      "value": 6.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13031",
+      "display_name": "Civil and Structural Engineering Research",
+      "value": 5.46e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14031",
       "display_name": "Global and Cross-Cultural Management",
-      "value": 5.17e-05,
+      "value": 5.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -625,46 +693,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12152",
-      "display_name": "Concrete Properties and Behavior",
-      "value": 5e-05,
+      "id": "https://openalex.org/T11664",
+      "display_name": "Fiber-reinforced polymer composites",
+      "value": 4.35e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "value": 4.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10687",
-      "display_name": "Innovative concrete reinforcement materials",
-      "value": 4.53e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -678,7 +712,75 @@
     {
       "id": "https://openalex.org/T11006",
       "display_name": "BIM and Construction Integration",
-      "value": 3.41e-05,
+      "value": 4.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10033",
+      "display_name": "Concrete and Cement Materials Research",
+      "value": 4.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13518",
+      "display_name": "Architecture and Computational Design",
+      "value": 3.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12983",
+      "display_name": "Satellite Image Processing and Photogrammetry",
+      "value": 3.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10479",
+      "display_name": "Structural Behavior of Reinforced Concrete",
+      "value": 3.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -695,7 +797,7 @@
     {
       "id": "https://openalex.org/T12247",
       "display_name": "Microbial Applications in Construction Materials",
-      "value": 3.04e-05,
+      "value": 3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -710,12 +812,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12983",
-      "display_name": "Satellite Image Processing and Photogrammetry",
-      "value": 3.04e-05,
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "value": 2.91e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -727,12 +829,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10033",
-      "display_name": "Concrete and Cement Materials Research",
-      "value": 2.64e-05,
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "value": 2.52e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -746,7 +848,7 @@
     {
       "id": "https://openalex.org/T12784",
       "display_name": "Modular Robots and Swarm Intelligence",
-      "value": 2.53e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -761,9 +863,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11606",
-      "display_name": "Infrastructure Maintenance and Monitoring",
-      "value": 2.19e-05,
+      "id": "https://openalex.org/T12696",
+      "display_name": "Icing and De-icing Technologies",
+      "value": 2.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11850",
+      "display_name": "Concrete Corrosion and Durability",
+      "value": 2.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -778,26 +897,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11664",
-      "display_name": "Fiber-reinforced polymer composites",
-      "value": 2.18e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12038",
       "display_name": "Covalent Organic Framework Applications",
-      "value": 2.1e-05,
+      "value": 2.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -814,7 +916,7 @@
     {
       "id": "https://openalex.org/T11523",
       "display_name": "Nanomaterials and Printing Technologies",
-      "value": 1.97e-05,
+      "value": 1.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -829,26 +931,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10479",
-      "display_name": "Structural Behavior of Reinforced Concrete",
-      "value": 1.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11687",
       "display_name": "Teleoperation and Haptic Systems",
-      "value": 1.77e-05,
+      "value": 1.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -865,7 +950,7 @@
     {
       "id": "https://openalex.org/T11847",
       "display_name": "Recycled Aggregate Concrete Performance",
-      "value": 1.74e-05,
+      "value": 1.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -880,97 +965,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10707",
-      "display_name": "Cellular and Composite Structures",
-      "value": 1.65e-05,
+      "id": "https://openalex.org/T10513",
+      "display_name": "Natural Fiber Reinforced Composites",
+      "value": 1.7e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13039",
-      "display_name": "Magnesium Oxide Properties and Applications",
-      "value": 1.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13518",
-      "display_name": "Architecture and Computational Design",
-      "value": 1.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2216",
-        "display_name": "Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10275",
-      "display_name": "2D Materials and Applications",
-      "value": 1.51e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10797",
-      "display_name": "Accounting and Organizational Management",
-      "value": 1.48e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11966",
-      "display_name": "Silk-based biomaterials and applications",
-      "value": 1.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2502",
-        "display_name": "Biomaterials"
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
       },
       "field": {
         "id": "https://openalex.org/fields/25",
@@ -985,6 +985,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272110",
-  "updated_date": "2026-09-19T05:59:33",
+  "updated_date": "2026-10-01T06:00:02",
   "created_date": "2026-07-22T03:30:22"
 }

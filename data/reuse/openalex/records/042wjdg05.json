@@ -19,12 +19,12 @@
     "Hannah-Arendt-Institut für Totalitarismusforschung e.V. an der TU Dresden"
   ],
   "repositories": [],
-  "works_count": 36,
-  "cited_by_count": 34,
+  "works_count": 186,
+  "cited_by_count": 823,
   "summary_stats": {
-    "2yr_mean_citedness": 0.029411764705882353,
-    "h_index": 4,
-    "i10_index": 0
+    "2yr_mean_citedness": 1.0434782608695652,
+    "h_index": 9,
+    "i10_index": 9
   },
   "ids": {
     "openalex": "https://openalex.org/I4399657932",
@@ -56,57 +56,87 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 7,
-      "oa_works_count": 7,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2025,
-      "works_count": 12,
-      "oa_works_count": 11,
-      "cited_by_count": 1
-    },
-    {
-      "year": 2024,
-      "works_count": 5,
-      "oa_works_count": 5,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2023,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 1
-    },
-    {
-      "year": 2022,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 5
-    },
-    {
-      "year": 2019,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 9
-    },
-    {
-      "year": 2018,
-      "works_count": 1,
-      "oa_works_count": 0,
+      "works_count": 16,
+      "oa_works_count": 14,
       "cited_by_count": 8
     },
     {
+      "year": 2025,
+      "works_count": 22,
+      "oa_works_count": 17,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2024,
+      "works_count": 18,
+      "oa_works_count": 16,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2023,
+      "works_count": 12,
+      "oa_works_count": 5,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2022,
+      "works_count": 12,
+      "oa_works_count": 8,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2021,
+      "works_count": 10,
+      "oa_works_count": 7,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "works_count": 17,
+      "oa_works_count": 7,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2019,
+      "works_count": 6,
+      "oa_works_count": 4,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "works_count": 9,
+      "oa_works_count": 5,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2017,
+      "works_count": 21,
+      "oa_works_count": 5,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2016,
+      "works_count": 6,
+      "oa_works_count": 1,
+      "cited_by_count": 9
+    },
+    {
       "year": 2015,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 0
+      "works_count": 6,
+      "oa_works_count": 3,
+      "cited_by_count": 160
+    },
+    {
+      "year": 2014,
+      "works_count": 7,
+      "oa_works_count": 6,
+      "cited_by_count": 1
     },
     {
       "year": 2013,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 3
+      "works_count": 5,
+      "oa_works_count": 3,
+      "cited_by_count": 360
     },
     {
       "year": 2012,
@@ -119,21 +149,45 @@
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
+    },
+    {
+      "year": 2010,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 38
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4399657932",
-      "works_count": 36
+      "works_count": 186
     }
   ],
   "topics": [
     {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "count": 53,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12645",
       "display_name": "European history and politics",
-      "count": 8,
-      "score": 0.9951000213623047,
+      "count": 36,
+      "score": 0.9976000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -148,17 +202,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T12377",
-      "display_name": "Digital Humanities and Scholarship",
-      "count": 6,
-      "score": 0.47690001130104065,
+      "id": "https://openalex.org/T11397",
+      "display_name": "Populism, Right-Wing Movements",
+      "count": 24,
+      "score": 0.9998999834060669,
       "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -168,8 +222,8 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "count": 6,
-      "score": 0.9929999709129333,
+      "count": 23,
+      "score": 0.9957000017166138,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -184,9 +238,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T13135",
+      "display_name": "Communism, Protests, Social Movements",
+      "count": 17,
+      "score": 0.9837999939918518,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14005",
       "display_name": "Eastern European Communism and Reforms",
-      "count": 6,
+      "count": 17,
       "score": 0.9948999881744385,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
@@ -202,298 +274,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T14380",
-      "display_name": "Libraries and Information Services",
-      "count": 6,
-      "score": 0.4404999911785126,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1209",
-        "display_name": "Museology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12686",
-      "display_name": "Central European national history",
-      "count": 5,
-      "score": 0.9919999837875366,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "count": 5,
-      "score": 0.9866999983787537,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12927",
-      "display_name": "Memory, History, Trauma, Identity",
-      "count": 4,
-      "score": 0.05920000001788139,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13085",
-      "display_name": "Education, Psychology, and Social Research",
-      "count": 4,
-      "score": 0.7803000211715698,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13910",
-      "display_name": "Computational and Text Analysis Methods",
-      "count": 4,
-      "score": 0.10360000282526016,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3300",
-        "display_name": "General Social Sciences"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10883",
-      "display_name": "Ethics and Social Impacts of AI",
-      "count": 3,
-      "score": 0.1550000011920929,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14330",
-      "display_name": "Library Science and Information Systems",
-      "count": 3,
-      "score": 0.12520000338554382,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "count": 2,
-      "score": 0.5295000076293945,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11507",
-      "display_name": "Religion and Society Interactions",
-      "count": 2,
-      "score": 0.9972000122070312,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13977",
-      "display_name": "Geography and Environmental Studies in Latin America",
-      "count": 2,
-      "score": 0.022099999710917473,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14132",
-      "display_name": "Medical Research and Islamic Perspectives",
-      "count": 2,
-      "score": 0.057500001043081284,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14201",
-      "display_name": "Data Analysis and Archiving",
-      "count": 2,
-      "score": 0.03200000151991844,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14255",
-      "display_name": "European Law and Migration",
-      "count": 2,
-      "score": 0.03189999982714653,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14511",
-      "display_name": "Medicine, History, and Philosophy",
-      "count": 2,
-      "score": 0.025800000876188278,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10070",
-      "display_name": "Political Conflict and Governance",
-      "count": 1,
-      "score": 0.9876999855041504,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10289",
-      "display_name": "European Union Policy and Governance",
-      "count": 1,
-      "score": 0.9836000204086304,
+      "id": "https://openalex.org/T14441",
+      "display_name": "Religion, Theology, History, Judaism, Christianity",
+      "count": 13,
+      "score": 0.9406999945640564,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -508,10 +292,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T10443",
-      "display_name": "Social Policy and Reform Studies",
-      "count": 1,
-      "score": 0.994700014591217,
+      "id": "https://openalex.org/T12686",
+      "display_name": "Central European national history",
+      "count": 12,
+      "score": 0.993399977684021,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10070",
+      "display_name": "Political Conflict and Governance",
+      "count": 10,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10108",
+      "display_name": "Electoral Systems and Political Participation",
+      "count": 9,
+      "score": 0.9994000196456909,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -528,233 +348,8 @@
     {
       "id": "https://openalex.org/T10994",
       "display_name": "Terrorism, Counterterrorism, and Political Violence",
-      "count": 1,
-      "score": 0.3555000126361847,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11397",
-      "display_name": "Populism, Right-Wing Movements",
-      "count": 1,
-      "score": 0.9878000020980835,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "count": 1,
-      "score": 0.939300000667572,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T14511",
-      "display_name": "Medicine, History, and Philosophy",
-      "value": 0.0002404,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12686",
-      "display_name": "Central European national history",
-      "value": 0.0002139,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13484",
-      "display_name": "German History and Society",
-      "value": 0.0001726,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 0.0001567,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12927",
-      "display_name": "Memory, History, Trauma, Identity",
-      "value": 0.0001278,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12645",
-      "display_name": "European history and politics",
-      "value": 0.0001004,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14255",
-      "display_name": "European Law and Migration",
-      "value": 0.0001002,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13977",
-      "display_name": "Geography and Environmental Studies in Latin America",
-      "value": 9.09e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14132",
-      "display_name": "Medical Research and Islamic Perspectives",
-      "value": 9e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13910",
-      "display_name": "Computational and Text Analysis Methods",
-      "value": 8.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3300",
-        "display_name": "General Social Sciences"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14005",
-      "display_name": "Eastern European Communism and Reforms",
-      "value": 8.89e-05,
+      "count": 9,
+      "score": 0.9929999709129333,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -771,7 +366,8 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "value": 8.59e-05,
+      "count": 9,
+      "score": 0.47690001130104065,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -786,12 +382,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T13085",
-      "display_name": "Education, Psychology, and Social Research",
-      "value": 7.99e-05,
+      "id": "https://openalex.org/T13360",
+      "display_name": "Economic and Social Issues",
+      "count": 9,
+      "score": 0.9534000158309937,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -803,26 +400,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T14330",
-      "display_name": "Library Science and Information Systems",
-      "value": 7.12e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12730",
-      "display_name": "Weber, Simmel, Sociological Theory",
-      "value": 7.1e-05,
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "count": 9,
+      "score": 0.9833999872207642,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -839,7 +420,8 @@
     {
       "id": "https://openalex.org/T14380",
       "display_name": "Libraries and Information Services",
-      "value": 6.65e-05,
+      "count": 9,
+      "score": 0.4404999911785126,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
@@ -854,9 +436,548 @@
       }
     },
     {
-      "id": "https://openalex.org/T14201",
-      "display_name": "Data Analysis and Archiving",
-      "value": 6.06e-05,
+      "id": "https://openalex.org/T10259",
+      "display_name": "Sociology and Education Studies",
+      "count": 8,
+      "score": 0.986299991607666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "count": 8,
+      "score": 0.9976999759674072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13459",
+      "display_name": "Public Administration and Political Analysis",
+      "count": 7,
+      "score": 0.9873999953269958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13910",
+      "display_name": "Computational and Text Analysis Methods",
+      "count": 7,
+      "score": 0.1665000021457672,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14321",
+      "display_name": "Religion, Theology, and Education",
+      "count": 7,
+      "score": 0.9782000184059143,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10443",
+      "display_name": "Social Policy and Reform Studies",
+      "count": 6,
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13938",
+      "display_name": "Historical and Contemporary Political Dynamics",
+      "count": 6,
+      "score": 0.8641999959945679,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "count": 5,
+      "score": 0.6769999861717224,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13359",
+      "display_name": "Sports Science and Education",
+      "count": 5,
+      "score": 0.6588000059127808,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14255",
+      "display_name": "European Law and Migration",
+      "count": 5,
+      "score": 0.09019999951124191,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "value": 0.0018227,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13484",
+      "display_name": "German History and Society",
+      "value": 0.0007029,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12686",
+      "display_name": "Central European national history",
+      "value": 0.0005147,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11397",
+      "display_name": "Populism, Right-Wing Movements",
+      "value": 0.0004789,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12645",
+      "display_name": "European history and politics",
+      "value": 0.0004668,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14441",
+      "display_name": "Religion, Theology, History, Judaism, Christianity",
+      "value": 0.0004613,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13881",
+      "display_name": "Sociology and Norbert Elias",
+      "value": 0.000436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13135",
+      "display_name": "Communism, Protests, Social Movements",
+      "value": 0.0004246,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13572",
+      "display_name": "German Security and Defense Policies",
+      "value": 0.0003925,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14511",
+      "display_name": "Medicine, History, and Philosophy",
+      "value": 0.0003688,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "value": 0.0002945,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14321",
+      "display_name": "Religion, Theology, and Education",
+      "value": 0.0002835,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13360",
+      "display_name": "Economic and Social Issues",
+      "value": 0.0002741,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "value": 0.0002717,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14255",
+      "display_name": "European Law and Migration",
+      "value": 0.000253,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14005",
+      "display_name": "Eastern European Communism and Reforms",
+      "value": 0.0002453,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13698",
+      "display_name": "Education, Politics, and Culture Studies",
+      "value": 0.0002182,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13774",
+      "display_name": "Citizenship Education and Democracy",
+      "value": 0.0001925,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13359",
+      "display_name": "Sports Science and Education",
+      "value": 0.0001579,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13459",
+      "display_name": "Public Administration and Political Analysis",
+      "value": 0.000152,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13910",
+      "display_name": "Computational and Text Analysis Methods",
+      "value": 0.0001491,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10070",
+      "display_name": "Political Conflict and Governance",
+      "value": 0.000147,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -873,7 +994,7 @@
     {
       "id": "https://openalex.org/T11104",
       "display_name": "Memory, Trauma, and Commemoration",
-      "value": 5.74e-05,
+      "value": 0.0001416,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -888,9 +1009,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13787",
-      "display_name": "Globalization, Historical Perspectives, and International Relations",
-      "value": 4.9e-05,
+      "id": "https://openalex.org/T10994",
+      "display_name": "Terrorism, Counterterrorism, and Political Violence",
+      "value": 0.0001386,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -905,97 +1026,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12572",
-      "display_name": "Intelligence, Security, War Strategy",
-      "value": 4.07e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14118",
-      "display_name": "Social and Demographic Issues in Germany",
-      "value": 3.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13632",
-      "display_name": "Marriage and Sexual Relationships",
-      "value": 2.93e-05,
+      "id": "https://openalex.org/T13724",
+      "display_name": "Humanities and Social Sciences",
+      "value": 0.0001348,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12397",
-      "display_name": "Critical Theory and Philosophy",
-      "value": 2.7e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13360",
-      "display_name": "Economic and Social Issues",
-      "value": 2.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10883",
-      "display_name": "Ethics and Social Impacts of AI",
-      "value": 2.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -1010,6 +1046,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4399657932",
-  "updated_date": "2026-09-15T05:59:27",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2024-06-15T00:11:20"
 }

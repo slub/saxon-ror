@@ -17,12 +17,12 @@
     "Leipziger Institut für Energie"
   ],
   "repositories": [],
-  "works_count": 13,
-  "cited_by_count": 260,
+  "works_count": 77,
+  "cited_by_count": 611,
   "summary_stats": {
-    "2yr_mean_citedness": 1.0,
-    "h_index": 8,
-    "i10_index": 6
+    "2yr_mean_citedness": 0.0,
+    "h_index": 11,
+    "i10_index": 11
   },
   "ids": {
     "openalex": "https://openalex.org/I4210099942",
@@ -53,12 +53,6 @@
   ],
   "counts_by_year": [
     {
-      "year": 2025,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 1
-    },
-    {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 1,
@@ -84,27 +78,261 @@
     },
     {
       "year": 2010,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 5
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 217
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210099942",
-      "works_count": 13
+      "works_count": 77
     }
   ],
   "topics": [
     {
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "count": 21,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14481",
+      "display_name": "Renewable Energy and Sustainability",
+      "count": 14,
+      "score": 0.9894999861717224,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13360",
+      "display_name": "Economic and Social Issues",
+      "count": 8,
+      "score": 0.914900004863739,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "count": 8,
+      "score": 0.9793999791145325,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "count": 5,
+      "score": 0.9930999875068665,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10132",
+      "display_name": "Advanced ceramic materials synthesis",
+      "count": 4,
+      "score": 0.992900013923645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2503",
+        "display_name": "Ceramics and Composites"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10507",
       "display_name": "Biodiesel Production and Applications",
-      "count": 3,
+      "count": 4,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11185",
+      "display_name": "Integrated Energy Systems Optimization",
+      "count": 4,
+      "score": 0.9671000242233276,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11225",
+      "display_name": "Geothermal Energy Systems and Applications",
+      "count": 4,
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10075",
+      "display_name": "Atmospheric chemistry and aerosols",
+      "count": 3,
+      "score": 0.9966999888420105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11940",
+      "display_name": "Layered Double Hydroxides Synthesis and Applications",
+      "count": 3,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12774",
+      "display_name": "Bauxite Residue and Utilization",
+      "count": 3,
+      "score": 0.977400004863739,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10310",
+      "display_name": "Corrosion Behavior and Inhibition",
+      "count": 2,
+      "score": 0.9731000065803528,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10603",
+      "display_name": "Smart Grid Energy Management",
+      "count": 2,
+      "score": 0.9797000288963318,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -134,6 +362,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T12129",
+      "display_name": "Global Energy Security and Policy",
+      "count": 2,
+      "score": 0.9854999780654907,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2100",
+        "display_name": "General Energy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12202",
+      "display_name": "nanoparticles nucleation surface interactions",
+      "count": 2,
+      "score": 0.9958000183105469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12271",
       "display_name": "Renewable energy and sustainable power systems",
       "count": 2,
@@ -152,6 +416,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12524",
+      "display_name": "Chemical Synthesis and Characterization",
+      "count": 2,
+      "score": 0.9021999835968018,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12639",
       "display_name": "Global Energy and Sustainability Research",
       "count": 2,
@@ -163,6 +445,60 @@
       "field": {
         "id": "https://openalex.org/fields/21",
         "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12930",
+      "display_name": "Biomedical and Chemical Research",
+      "count": 2,
+      "score": 0.9765999913215637,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13031",
+      "display_name": "Civil and Structural Engineering Research",
+      "count": 2,
+      "score": 0.9682999849319458,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13200",
+      "display_name": "Spacecraft and Cryogenic Technologies",
+      "count": 2,
+      "score": 0.967199981212616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -204,84 +540,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
+    }
+  ],
+  "topic_share": [
     {
-      "id": "https://openalex.org/T10197",
-      "display_name": "Membrane Separation Technologies",
-      "count": 1,
-      "score": 0.9836999773979187,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2312",
-        "display_name": "Water Science and Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10228",
-      "display_name": "Multilevel Inverters and Converters",
-      "count": 1,
-      "score": 0.9976999759674072,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10251",
-      "display_name": "Solar and Space Plasma Dynamics",
-      "count": 1,
-      "score": 0.6040999889373779,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10361",
-      "display_name": "Silicon Carbide Semiconductor Technologies",
-      "count": 1,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10468",
-      "display_name": "Photovoltaic System Optimization Techniques",
-      "count": 1,
-      "score": 0.9998000264167786,
+      "id": "https://openalex.org/T14481",
+      "display_name": "Renewable Energy and Sustainability",
+      "value": 0.0009197,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -296,154 +561,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10603",
-      "display_name": "Smart Grid Energy Management",
-      "count": 1,
-      "score": 0.9797000288963318,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
-      "count": 1,
-      "score": 0.9667999744415283,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11328",
-      "display_name": "Ocular Oncology and Treatments",
-      "count": 1,
-      "score": 0.26109999418258667,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11976",
-      "display_name": "Capital Investment and Risk Analysis",
-      "count": 1,
-      "score": 0.972100019454956,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12129",
-      "display_name": "Global Energy Security and Policy",
-      "count": 1,
-      "score": 0.9854999780654907,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2100",
-        "display_name": "General Energy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12202",
-      "display_name": "nanoparticles nucleation surface interactions",
-      "count": 1,
-      "score": 0.9932000041007996,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12350",
-      "display_name": "Particle Dynamics in Fluid Flows",
-      "count": 1,
-      "score": 0.9362000226974487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12394",
-      "display_name": "Insurance and Financial Risk Management",
-      "count": 1,
-      "score": 0.9574999809265137,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12503",
-      "display_name": "Social Acceptance of Renewable Energy",
-      "count": 1,
-      "score": 0.9994999766349792,
+      "id": "https://openalex.org/T13360",
+      "display_name": "Economic and Social Issues",
+      "value": 0.0002436,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -458,31 +578,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12527",
-      "display_name": "Chemistry and Stereochemistry Studies",
-      "count": 1,
-      "score": 0.762499988079071,
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "value": 0.0002345,
       "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12899",
-      "display_name": "Engineering and Technology Innovations",
-      "count": 1,
-      "score": 0.9710999727249146,
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "value": 0.000195,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -494,49 +612,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12994",
-      "display_name": "Infrared Thermography in Medicine",
-      "count": 1,
-      "score": 0.47429999709129333,
+      "id": "https://openalex.org/T13724",
+      "display_name": "Humanities and Social Sciences",
+      "value": 0.0001348,
       "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13297",
-      "display_name": "History and advancements in chemistry",
-      "count": 1,
-      "score": 0.7559000253677368,
+      "id": "https://openalex.org/T12774",
+      "display_name": "Bauxite Residue and Utilization",
+      "value": 9.64e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1606",
-        "display_name": "Physical and Theoretical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13820",
-      "display_name": "SAS software applications and methods",
-      "count": 1,
-      "score": 0.8258000016212463,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -546,13 +644,79 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    }
-  ],
-  "topic_share": [
+    },
+    {
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "value": 8.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14129",
+      "display_name": "Economic and Business Studies",
+      "value": 7.81e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11225",
+      "display_name": "Geothermal Energy Systems and Applications",
+      "value": 7.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14106",
+      "display_name": "Environmental and Sediment Control",
+      "value": 7.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T12271",
       "display_name": "Renewable energy and sustainable power systems",
-      "value": 7.04e-05,
+      "value": 6.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -567,16 +731,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T14481",
-      "display_name": "Renewable Energy and Sustainability",
-      "value": 6.22e-05,
+      "id": "https://openalex.org/T13389",
+      "display_name": "German Economic Analysis & Policies",
+      "value": 6.49e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11940",
+      "display_name": "Layered Double Hydroxides Synthesis and Applications",
+      "value": 5.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -586,7 +767,7 @@
     {
       "id": "https://openalex.org/T14224",
       "display_name": "Oil, Gas, and Environmental Issues",
-      "value": 4.7e-05,
+      "value": 4.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -601,26 +782,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13820",
-      "display_name": "SAS software applications and methods",
-      "value": 4.65e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14112",
       "display_name": "Economic, financial, and policy analysis",
-      "value": 4.58e-05,
+      "value": 4.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2000",
         "display_name": "General Economics, Econometrics and Finance"
@@ -635,9 +799,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T13820",
+      "display_name": "SAS software applications and methods",
+      "value": 4.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11185",
+      "display_name": "Integrated Energy Systems Optimization",
+      "value": 4.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14321",
+      "display_name": "Religion, Theology, and Education",
+      "value": 4.05e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13990",
       "display_name": "Engine and Fuel Emissions",
-      "value": 4e-05,
+      "value": 3.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -652,77 +867,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10507",
-      "display_name": "Biodiesel Production and Applications",
-      "value": 2.65e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12503",
-      "display_name": "Social Acceptance of Renewable Energy",
-      "value": 2.55e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12639",
-      "display_name": "Global Energy and Sustainability Research",
-      "value": 2.14e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11976",
-      "display_name": "Capital Investment and Risk Analysis",
-      "value": 1.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12129",
       "display_name": "Global Energy Security and Policy",
-      "value": 1.86e-05,
+      "value": 3.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2100",
         "display_name": "General Energy"
@@ -737,12 +884,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12899",
-      "display_name": "Engineering and Technology Innovations",
-      "value": 1.72e-05,
+      "id": "https://openalex.org/T13031",
+      "display_name": "Civil and Structural Engineering Research",
+      "value": 3.64e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -754,196 +901,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12527",
-      "display_name": "Chemistry and Stereochemistry Studies",
-      "value": 1.7e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11007",
-      "display_name": "Hybrid Renewable Energy Systems",
-      "value": 1.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2102",
-        "display_name": "Energy Engineering and Power Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13869",
-      "display_name": "Ocular and Laser Science Research",
-      "value": 1.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11328",
-      "display_name": "Ocular Oncology and Treatments",
-      "value": 1.57e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10119",
-      "display_name": "Sustainability and Climate Change Governance",
-      "value": 1.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12994",
-      "display_name": "Infrared Thermography in Medicine",
-      "value": 1.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12394",
-      "display_name": "Insurance and Financial Risk Management",
-      "value": 1.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
-      "value": 1.04e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12350",
-      "display_name": "Particle Dynamics in Fluid Flows",
-      "value": 1.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13297",
-      "display_name": "History and advancements in chemistry",
-      "value": 9.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1606",
-        "display_name": "Physical and Theoretical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10468",
-      "display_name": "Photovoltaic System Optimization Techniques",
-      "value": 8.5e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10088",
-      "display_name": "Thermochemical Biomass Conversion Processes",
-      "value": 8e-06,
+      "id": "https://openalex.org/T10507",
+      "display_name": "Biodiesel Production and Applications",
+      "value": 3.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -958,9 +918,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12202",
-      "display_name": "nanoparticles nucleation surface interactions",
-      "value": 7.7e-06,
+      "id": "https://openalex.org/T14118",
+      "display_name": "Social and Demographic Issues in Germany",
+      "value": 3.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13811",
+      "display_name": "Earth Systems and Cosmic Evolution",
+      "value": 3.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -973,11 +950,28 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
+      "value": 3.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210099942",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

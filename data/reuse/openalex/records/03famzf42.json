@@ -16,12 +16,12 @@
     "Acqua Klinik"
   ],
   "repositories": [],
-  "works_count": 32,
-  "cited_by_count": 292,
+  "works_count": 22,
+  "cited_by_count": 382,
   "summary_stats": {
-    "2yr_mean_citedness": 4.75,
-    "h_index": 7,
-    "i10_index": 7
+    "2yr_mean_citedness": 19.0,
+    "h_index": 10,
+    "i10_index": 10
   },
   "ids": {
     "openalex": "https://openalex.org/I4210131672",
@@ -44,15 +44,9 @@
   "counts_by_year": [
     {
       "year": 2025,
-      "works_count": 3,
-      "oa_works_count": 3,
-      "cited_by_count": 19
-    },
-    {
-      "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 19
     },
     {
       "year": 2022,
@@ -62,9 +56,15 @@
     },
     {
       "year": 2021,
-      "works_count": 2,
-      "oa_works_count": 1,
+      "works_count": 1,
+      "oa_works_count": 0,
       "cited_by_count": 91
+    },
+    {
+      "year": 2020,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 18
     },
     {
       "year": 2017,
@@ -74,9 +74,9 @@
     },
     {
       "year": 2016,
-      "works_count": 2,
+      "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 13
+      "cited_by_count": 22
     },
     {
       "year": 2015,
@@ -98,57 +98,27 @@
     },
     {
       "year": 2012,
-      "works_count": 2,
+      "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 9
-    },
-    {
-      "year": 2011,
-      "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 1
-    },
-    {
-      "year": 2010,
-      "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 33
+      "cited_by_count": 7
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210131672",
-      "works_count": 32
+      "works_count": 22
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10189",
       "display_name": "Anesthesia and Pain Management",
-      "count": 6,
+      "count": 7,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10238",
-      "display_name": "Spine and Intervertebral Disc Pathology",
-      "count": 6,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -167,24 +137,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10084",
-      "display_name": "Musculoskeletal pain and rehabilitation",
-      "count": 3,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -232,10 +184,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11518",
-      "display_name": "Cervical and Thoracic Myelopathy",
+      "id": "https://openalex.org/T11669",
+      "display_name": "Head and Neck Surgical Oncology",
       "count": 3,
-      "score": 0.07400000095367432,
+      "score": 0.9968000054359436,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -250,10 +202,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11669",
-      "display_name": "Head and Neck Surgical Oncology",
+      "id": "https://openalex.org/T11785",
+      "display_name": "Nausea and vomiting management",
       "count": 3,
-      "score": 0.9968000054359436,
+      "score": 0.9954000115394592,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -275,6 +227,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10238",
+      "display_name": "Spine and Intervertebral Disc Pathology",
+      "count": 2,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -340,6 +310,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11700",
+      "display_name": "Hemodynamic Monitoring and Therapy",
+      "count": 2,
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11773",
       "display_name": "Healthcare Operations and Scheduling Optimization",
       "count": 2,
@@ -351,24 +339,6 @@
       "field": {
         "id": "https://openalex.org/fields/36",
         "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11785",
-      "display_name": "Nausea and vomiting management",
-      "count": 2,
-      "score": 0.9954000115394592,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -409,24 +379,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13986",
-      "display_name": "Medical Practices and Rehabilitation",
-      "count": 2,
-      "score": 0.944100022315979,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -520,13 +472,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10837",
-      "display_name": "Dermatology and Skin Diseases",
+      "id": "https://openalex.org/T10867",
+      "display_name": "Intensive Care Unit Cognitive Disorders",
       "count": 1,
-      "score": 0.8519999980926514,
+      "score": 0.9962000250816345,
       "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
+        "id": "https://openalex.org/subfields/2706",
+        "display_name": "Critical Care and Intensive Care Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -556,21 +508,57 @@
       }
     },
     {
-      "id": "https://openalex.org/T10971",
-      "display_name": "Olfactory and Sensory Function Studies",
+      "id": "https://openalex.org/T11035",
+      "display_name": "Salivary Gland Tumors Diagnosis and Treatment",
       "count": 1,
-      "score": 0.8525000214576721,
+      "score": 0.6104000210762024,
       "subfield": {
-        "id": "https://openalex.org/subfields/2809",
-        "display_name": "Sensory Systems"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11238",
+      "display_name": "Simulation-Based Education in Healthcare",
+      "count": 1,
+      "score": 0.6172000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11260",
+      "display_name": "Tracheal and airway disorders",
+      "count": 1,
+      "score": 0.9883999824523926,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
@@ -578,7 +566,7 @@
     {
       "id": "https://openalex.org/T13248",
       "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 6.02e-05,
+      "value": 6.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -595,7 +583,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 5.83e-05,
+      "value": 5.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -612,7 +600,7 @@
     {
       "id": "https://openalex.org/T12744",
       "display_name": "Medical Device Sterilization and Disinfection",
-      "value": 5.58e-05,
+      "value": 5.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2404",
         "display_name": "Microbiology"
@@ -627,26 +615,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12476",
-      "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 4.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12523",
       "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "value": 4.83e-05,
+      "value": 5.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -661,9 +632,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12476",
+      "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
+      "value": 4.97e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11773",
       "display_name": "Healthcare Operations and Scheduling Optimization",
-      "value": 4.81e-05,
+      "value": 4.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -678,128 +666,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13245",
-      "display_name": "Samuel Beckett and Modernism",
-      "value": 4.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13986",
-      "display_name": "Medical Practices and Rehabilitation",
-      "value": 4.19e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13633",
-      "display_name": "Public Health and Social Inequalities",
-      "value": 3.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3306",
-        "display_name": "Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12275",
-      "display_name": "Gender and Feminist Studies",
-      "value": 3.57e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3318",
-        "display_name": "Gender Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11518",
-      "display_name": "Cervical and Thoracic Myelopathy",
-      "value": 3.31e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10984",
-      "display_name": "Sinusitis and nasal conditions",
-      "value": 2.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2733",
-        "display_name": "Otorhinolaryngology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11785",
       "display_name": "Nausea and vomiting management",
-      "value": 2.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13323",
-      "display_name": "Spinal Hematomas and Complications",
-      "value": 2.8e-05,
+      "value": 4.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -816,7 +685,41 @@
     {
       "id": "https://openalex.org/T10189",
       "display_name": "Anesthesia and Pain Management",
-      "value": 2.78e-05,
+      "value": 3.35e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10984",
+      "display_name": "Sinusitis and nasal conditions",
+      "value": 2.95e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13323",
+      "display_name": "Spinal Hematomas and Complications",
+      "value": 2.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -833,7 +736,7 @@
     {
       "id": "https://openalex.org/T13953",
       "display_name": "Digital Imaging in Medicine",
-      "value": 2.56e-05,
+      "value": 2.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -848,26 +751,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10238",
-      "display_name": "Spine and Intervertebral Disc Pathology",
-      "value": 2.53e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11669",
       "display_name": "Head and Neck Surgical Oncology",
-      "value": 2.04e-05,
+      "value": 2.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -882,26 +768,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10888",
-      "display_name": "Augmented Reality Applications",
-      "value": 1.99e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10830",
       "display_name": "Airway Management and Intubation Techniques",
-      "value": 1.97e-05,
+      "value": 2.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2703",
         "display_name": "Anesthesiology and Pain Medicine"
@@ -916,26 +785,43 @@
       }
     },
     {
-      "id": "https://openalex.org/T13147",
-      "display_name": "Ethics and bioethics in healthcare",
-      "value": 1.89e-05,
+      "id": "https://openalex.org/T10888",
+      "display_name": "Augmented Reality Applications",
+      "value": 1.97e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11778",
+      "display_name": "Electrical and Bioimpedance Tomography",
+      "value": 1.88e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12622",
       "display_name": "Neurosurgical Procedures and Complications",
-      "value": 1.62e-05,
+      "value": 1.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -950,9 +836,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11700",
+      "display_name": "Hemodynamic Monitoring and Therapy",
+      "value": 1.4e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11728",
       "display_name": "Thyroid and Parathyroid Surgery",
-      "value": 1.34e-05,
+      "value": 1.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -969,7 +872,7 @@
     {
       "id": "https://openalex.org/T10954",
       "display_name": "Peripheral Nerve Disorders",
-      "value": 1.22e-05,
+      "value": 1.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -984,12 +887,97 @@
       }
     },
     {
-      "id": "https://openalex.org/T10084",
-      "display_name": "Musculoskeletal pain and rehabilitation",
-      "value": 1.2e-05,
+      "id": "https://openalex.org/T10508",
+      "display_name": "Patient Safety and Medication Errors",
+      "value": 1.19e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
+        "id": "https://openalex.org/subfields/3604",
+        "display_name": "Emergency Medical Services"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11238",
+      "display_name": "Simulation-Based Education in Healthcare",
+      "value": 1.19e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12339",
+      "display_name": "Medical Malpractice and Liability Issues",
+      "value": 1.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3611",
+        "display_name": "Pharmacy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10562",
+      "display_name": "Total Knee Arthroplasty Outcomes",
+      "value": 9.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11035",
+      "display_name": "Salivary Gland Tumors Diagnosis and Treatment",
+      "value": 9.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10512",
+      "display_name": "Orthopaedic implants and arthroplasty",
+      "value": 9.1e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1004,6 +992,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210131672",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

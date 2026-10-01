@@ -18,12 +18,12 @@
     "Dresdner Grundwasserforschungszentrum"
   ],
   "repositories": [],
-  "works_count": 95,
-  "cited_by_count": 1501,
+  "works_count": 55,
+  "cited_by_count": 1687,
   "summary_stats": {
-    "2yr_mean_citedness": 1.75,
-    "h_index": 20,
-    "i10_index": 42
+    "2yr_mean_citedness": 0.0,
+    "h_index": 22,
+    "i10_index": 38
   },
   "ids": {
     "openalex": "https://openalex.org/I4210126790",
@@ -45,82 +45,46 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 2
-    },
-    {
-      "year": 2025,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2024,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 5
-    },
-    {
-      "year": 2023,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 49
-    },
-    {
-      "year": 2022,
-      "works_count": 3,
-      "oa_works_count": 2,
-      "cited_by_count": 17
-    },
-    {
       "year": 2020,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 21
+      "cited_by_count": 10
     },
     {
       "year": 2019,
-      "works_count": 4,
-      "oa_works_count": 1,
-      "cited_by_count": 11
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     },
     {
-      "year": 2018,
-      "works_count": 2,
+      "year": 2015,
+      "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
-    },
-    {
-      "year": 2017,
-      "works_count": 8,
-      "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 0
     },
     {
       "year": 2014,
-      "works_count": 5,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 22
+      "cited_by_count": 87
     },
     {
       "year": 2013,
-      "works_count": 3,
+      "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 45
+      "cited_by_count": 35
     },
     {
       "year": 2012,
-      "works_count": 3,
+      "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 48
+      "cited_by_count": 73
     },
     {
       "year": 2011,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 17
     },
     {
       "year": 2010,
@@ -133,14 +97,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210126790",
-      "works_count": 95
+      "works_count": 55
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10894",
       "display_name": "Groundwater flow and contamination studies",
-      "count": 9,
+      "count": 15,
       "score": 0.9997000098228455,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
@@ -156,31 +120,67 @@
       }
     },
     {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "count": 7,
-      "score": 0.9966999888420105,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10572",
       "display_name": "Geophysical and Geoelectrical Methods",
-      "count": 5,
+      "count": 9,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/1908",
         "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11923",
+      "display_name": "Mine drainage and remediation techniques",
+      "count": 9,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "count": 6,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10398",
+      "display_name": "Groundwater and Isotope Geochemistry",
+      "count": 5,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
       },
       "field": {
         "id": "https://openalex.org/fields/19",
@@ -228,6 +228,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "count": 4,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10716",
       "display_name": "Soil and Unsaturated Flow",
       "count": 4,
@@ -243,24 +261,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10795",
-      "display_name": "Healthcare professionals’ stress and burnout",
-      "count": 4,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -282,49 +282,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T12954",
-      "display_name": "Law and Political Science",
-      "count": 4,
-      "score": 0.9909999966621399,
+      "id": "https://openalex.org/T10889",
+      "display_name": "Soil erosion and sediment transport",
+      "count": 3,
+      "score": 0.9965999722480774,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/1111",
+        "display_name": "Soil Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10285",
-      "display_name": "Venous Thromboembolism Diagnosis and Management",
+      "id": "https://openalex.org/T10995",
+      "display_name": "Methane Hydrates and Related Phenomena",
       "count": 3,
-      "score": 0.9991999864578247,
+      "score": 0.9995999932289124,
       "subfield": {
-        "id": "https://openalex.org/subfields/2724",
-        "display_name": "Internal Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10564",
-      "display_name": "Wastewater Treatment and Nitrogen Removal",
-      "count": 3,
-      "score": 0.9851999878883362,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2310",
-        "display_name": "Pollution"
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -336,13 +318,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10635",
-      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "id": "https://openalex.org/T11073",
+      "display_name": "Metal Extraction and Bioleaching",
       "count": 3,
-      "score": 0.9987999796867371,
+      "score": 0.9973999857902527,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -351,60 +333,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10746",
-      "display_name": "Platelet Disorders and Treatments",
-      "count": 3,
-      "score": 0.9868999719619751,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2720",
-        "display_name": "Hematology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11084",
-      "display_name": "Workplace Health and Well-being",
-      "count": 3,
-      "score": 0.9904999732971191,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11721",
-      "display_name": "Blood properties and coagulation",
-      "count": 3,
-      "score": 0.9812999963760376,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -423,42 +351,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12174",
-      "display_name": "Hospital Admissions and Outcomes",
-      "count": 3,
-      "score": 0.9945999979972839,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2711",
-        "display_name": "Emergency Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14102",
-      "display_name": "Corporate Governance and Law",
-      "count": 3,
-      "score": 0.9340999722480774,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -480,78 +372,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10013",
-      "display_name": "Asymmetric Synthesis and Catalysis",
-      "count": 2,
-      "score": 0.9884999990463257,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10065",
-      "display_name": "Atrial Fibrillation Management and Outcomes",
-      "count": 2,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10217",
-      "display_name": "Cardiac electrophysiology and arrhythmias",
-      "count": 2,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10292",
-      "display_name": "Acute Myocardial Infarction Research",
-      "count": 2,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10324",
       "display_name": "Microbial bioremediation and biosurfactants",
       "count": 2,
@@ -570,151 +390,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10372",
-      "display_name": "Cardiac Imaging and Diagnostics",
+      "id": "https://openalex.org/T10330",
+      "display_name": "Hydrology and Watershed Management Studies",
       "count": 2,
-      "score": 0.9991000294685364,
+      "score": 0.9873999953269958,
       "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T14046",
-      "display_name": "Bach Studies and Logistics Development",
-      "value": 0.0001256,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14390",
-      "display_name": "Real estate and construction management",
-      "value": 0.000103,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2216",
-        "display_name": "Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "value": 9.37e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13572",
-      "display_name": "German Security and Defense Policies",
-      "value": 8.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13603",
-      "display_name": "Corporate Social Responsibility and Sustainability",
-      "value": 8.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12954",
-      "display_name": "Law and Political Science",
-      "value": 8.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13327",
-      "display_name": "Arts, Culture, and Music Studies",
-      "value": 7.12e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10894",
-      "display_name": "Groundwater flow and contamination studies",
-      "value": 6.65e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -726,29 +408,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12174",
-      "display_name": "Hospital Admissions and Outcomes",
-      "value": 6.3e-05,
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "count": 2,
+      "score": 0.9994000196456909,
       "subfield": {
-        "id": "https://openalex.org/subfields/2711",
-        "display_name": "Emergency Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12078",
-      "display_name": "Environmental remediation with nanomaterials",
-      "value": 6.26e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -760,9 +426,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13916",
-      "display_name": "Environmental Policies and Emissions",
-      "value": 6.13e-05,
+      "id": "https://openalex.org/T10564",
+      "display_name": "Wastewater Treatment and Nitrogen Removal",
+      "count": 2,
+      "score": 0.9851999878883362,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -777,9 +444,204 @@
       }
     },
     {
+      "id": "https://openalex.org/T10930",
+      "display_name": "Flood Risk Assessment and Management",
+      "count": 2,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11225",
+      "display_name": "Geothermal Energy Systems and Applications",
+      "count": 2,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11311",
+      "display_name": "Soil and Water Nutrient Dynamics",
+      "count": 2,
+      "score": 0.9836999773979187,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "count": 2,
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12274",
+      "display_name": "Electrostatics and Colloid Interactions",
+      "count": 2,
+      "score": 0.9865999817848206,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "count": 2,
+      "score": 0.9958999752998352,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11923",
+      "display_name": "Mine drainage and remediation techniques",
+      "value": 0.0001447,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14390",
+      "display_name": "Real estate and construction management",
+      "value": 0.0001146,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10894",
+      "display_name": "Groundwater flow and contamination studies",
+      "value": 0.0001117,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12078",
+      "display_name": "Environmental remediation with nanomaterials",
+      "value": 6.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13021",
+      "display_name": "Geology and Environmental Impact Studies",
+      "value": 6.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11778",
       "display_name": "Electrical and Bioimpedance Tomography",
-      "value": 5.62e-05,
+      "value": 5.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -794,105 +656,54 @@
       }
     },
     {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "value": 5.23e-05,
+      "id": "https://openalex.org/T12821",
+      "display_name": "Geological Formations and Processes Exploration",
+      "value": 5.42e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12249",
-      "display_name": "Veterinary Orthopedics and Neurology",
-      "value": 5.14e-05,
+      "id": "https://openalex.org/T10398",
+      "display_name": "Groundwater and Isotope Geochemistry",
+      "value": 4.59e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3404",
-        "display_name": "Small Animals"
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
       },
       "field": {
-        "id": "https://openalex.org/fields/34",
-        "display_name": "Veterinary"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "value": 5.09e-05,
+      "id": "https://openalex.org/T12865",
+      "display_name": "Tailings Management and Properties",
+      "value": 4.52e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12311",
-      "display_name": "Political Theology and Sovereignty",
-      "value": 5.04e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12572",
-      "display_name": "Intelligence, Security, War Strategy",
-      "value": 4.07e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14102",
-      "display_name": "Corporate Governance and Law",
-      "value": 3.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -913,88 +724,37 @@
       }
     },
     {
-      "id": "https://openalex.org/T11084",
-      "display_name": "Workplace Health and Well-being",
-      "value": 3.35e-05,
+      "id": "https://openalex.org/T10572",
+      "display_name": "Geophysical and Geoelectrical Methods",
+      "value": 3.54e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10795",
-      "display_name": "Healthcare professionals’ stress and burnout",
-      "value": 3.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12569",
-      "display_name": "Restless Legs Syndrome Research",
-      "value": 3.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "value": 3.27e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11923",
-      "display_name": "Mine drainage and remediation techniques",
-      "value": 3.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "value": 2.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -1013,11 +773,215 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11073",
+      "display_name": "Metal Extraction and Bioleaching",
+      "value": 2.85e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10324",
+      "display_name": "Microbial bioremediation and biosurfactants",
+      "value": 2.68e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "value": 2.66e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10122",
+      "display_name": "Toxic Organic Pollutants Impact",
+      "value": 2.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12274",
+      "display_name": "Electrostatics and Colloid Interactions",
+      "value": 2.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13394",
+      "display_name": "Ecology, Conservation, and Geographical Studies",
+      "value": 2.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12954",
+      "display_name": "Law and Political Science",
+      "value": 2.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12083",
+      "display_name": "Karst Systems and Hydrogeology",
+      "value": 2.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1904",
+        "display_name": "Earth-Surface Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13092",
+      "display_name": "Environmental Chemistry and Analysis",
+      "value": 2.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10889",
+      "display_name": "Soil erosion and sediment transport",
+      "value": 2.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1111",
+        "display_name": "Soil Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14178",
+      "display_name": "Environmental Science and Water Management",
+      "value": 2.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11952",
+      "display_name": "Landfill Environmental Impact Studies",
+      "value": 2.14e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210126790",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

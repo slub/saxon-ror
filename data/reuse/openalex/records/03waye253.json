@@ -20,12 +20,12 @@
     "Hochschule Meißen (FH) und Fortbildungszentrum"
   ],
   "repositories": [],
-  "works_count": 8,
-  "cited_by_count": 9,
+  "works_count": 30,
+  "cited_by_count": 45,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5,
-    "h_index": 2,
-    "i10_index": 0
+    "2yr_mean_citedness": 0.08695652173913043,
+    "h_index": 4,
+    "i10_index": 1
   },
   "ids": {
     "openalex": "https://openalex.org/I4210141393",
@@ -48,27 +48,51 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 1
+      "works_count": 7,
+      "oa_works_count": 7,
+      "cited_by_count": 2
     },
     {
       "year": 2025,
-      "works_count": 1,
-      "oa_works_count": 0,
+      "works_count": 5,
+      "oa_works_count": 4,
       "cited_by_count": 0
+    },
+    {
+      "year": 2024,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2023,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 7
     },
     {
       "year": 2022,
-      "works_count": 1,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 12
     },
     {
       "year": 2019,
-      "works_count": 1,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 5
+      "cited_by_count": 9
     },
     {
       "year": 2015,
@@ -81,15 +105,15 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210141393",
-      "works_count": 8
+      "works_count": 30
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T13459",
       "display_name": "Public Administration and Political Analysis",
-      "count": 4,
-      "score": 0.9473999738693237,
+      "count": 8,
+      "score": 0.9994000196456909,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -106,11 +130,119 @@
     {
       "id": "https://openalex.org/T10953",
       "display_name": "E-Government and Public Services",
-      "count": 2,
+      "count": 5,
       "score": 0.9534000158309937,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
+      "count": 5,
+      "score": 0.9937000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10703",
+      "display_name": "Business Process Modeling and Analysis",
+      "count": 3,
+      "score": 0.993399977684021,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10910",
+      "display_name": "Corporate Governance and Management",
+      "count": 3,
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11891",
+      "display_name": "Big Data and Business Intelligence",
+      "count": 3,
+      "score": 0.9934999942779541,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10206",
+      "display_name": "Meta-analysis and systematic reviews",
+      "count": 2,
+      "score": 0.2468000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1804",
+        "display_name": "Statistics, Probability and Uncertainty"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10883",
+      "display_name": "Ethics and Social Impacts of AI",
+      "count": 2,
+      "score": 0.10930000245571136,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -140,10 +272,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10703",
-      "display_name": "Business Process Modeling and Analysis",
-      "count": 1,
-      "score": 0.993399977684021,
+      "id": "https://openalex.org/T11572",
+      "display_name": "Information Technology Governance and Strategy",
+      "count": 2,
+      "score": 0.9822999835014343,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -155,6 +287,186 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11636",
+      "display_name": "Artificial Intelligence in Healthcare and Education",
+      "count": 2,
+      "score": 0.0746999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2718",
+        "display_name": "Health Informatics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12954",
+      "display_name": "Law and Political Science",
+      "count": 2,
+      "score": 0.15929999947547913,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13274",
+      "display_name": "Expert finding and Q&A systems",
+      "count": 2,
+      "score": 0.11299999803304672,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "count": 2,
+      "score": 0.954200029373169,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14390",
+      "display_name": "Real estate and construction management",
+      "count": 2,
+      "score": 0.11190000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14508",
+      "display_name": "Vocational Education and Training",
+      "count": 2,
+      "score": 0.4106000065803528,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10003",
+      "display_name": "Innovation and Knowledge Management",
+      "count": 1,
+      "score": 0.9776999950408936,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10214",
+      "display_name": "Psychotherapy Techniques and Applications",
+      "count": 1,
+      "score": 0.9204000234603882,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10395",
+      "display_name": "Construction Project Management and Performance",
+      "count": 1,
+      "score": 0.9846000075340271,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10763",
+      "display_name": "Digital Transformation in Industry",
+      "count": 1,
+      "score": 0.9689000248908997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -176,21 +488,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T10883",
-      "display_name": "Ethics and Social Impacts of AI",
+      "id": "https://openalex.org/T11479",
+      "display_name": "Smart Cities and Technologies",
       "count": 1,
-      "score": 0.10930000245571136,
+      "score": 0.04089999943971634,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/2214",
+        "display_name": "Media Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -212,13 +524,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T11572",
-      "display_name": "Information Technology Governance and Strategy",
+      "id": "https://openalex.org/T11719",
+      "display_name": "Data Quality and Management",
       "count": 1,
-      "score": 0.9822999835014343,
+      "score": 0.9945999979972839,
       "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11729",
+      "display_name": "Product Development and Customization",
+      "count": 1,
+      "score": 0.9883000254631042,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -227,204 +557,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "count": 1,
-      "score": 0.993399977684021,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11770",
-      "display_name": "Fiscal Policy and Economic Growth",
-      "count": 1,
-      "score": 0.9677000045776367,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12423",
-      "display_name": "Software Reliability and Analysis Research",
-      "count": 1,
-      "score": 0.9932000041007996,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1712",
-        "display_name": "Software"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12886",
-      "display_name": "Historical and Cultural Studies of Poland",
-      "count": 1,
-      "score": 0.996999979019165,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12954",
-      "display_name": "Law and Political Science",
-      "count": 1,
-      "score": 0.09390000253915787,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13389",
-      "display_name": "German Economic Analysis & Policies",
-      "count": 1,
-      "score": 0.9491999745368958,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13593",
-      "display_name": "Historical and Archaeological Studies",
-      "count": 1,
-      "score": 0.993399977684021,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13603",
-      "display_name": "Corporate Social Responsibility and Sustainability",
-      "count": 1,
-      "score": 0.051600001752376556,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13659",
-      "display_name": "Ombudsman and Human Rights",
-      "count": 1,
-      "score": 0.1257999986410141,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14388",
-      "display_name": "Medieval European History and Architecture",
-      "count": 1,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14390",
-      "display_name": "Real estate and construction management",
-      "count": 1,
-      "score": 0.11190000176429749,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2216",
-        "display_name": "Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     }
   ],
@@ -432,7 +564,7 @@
     {
       "id": "https://openalex.org/T14390",
       "display_name": "Real estate and construction management",
-      "value": 0.000103,
+      "value": 0.0002292,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -449,7 +581,7 @@
     {
       "id": "https://openalex.org/T13459",
       "display_name": "Public Administration and Political Analysis",
-      "value": 7.46e-05,
+      "value": 0.0001737,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -464,26 +596,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13389",
-      "display_name": "German Economic Analysis & Policies",
-      "value": 5.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13603",
-      "display_name": "Corporate Social Responsibility and Sustainability",
-      "value": 4.2e-05,
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
+      "value": 0.0001634,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -498,9 +613,60 @@
       }
     },
     {
-      "id": "https://openalex.org/T13659",
-      "display_name": "Ombudsman and Human Rights",
-      "value": 4.01e-05,
+      "id": "https://openalex.org/T14508",
+      "display_name": "Vocational Education and Training",
+      "value": 0.0001378,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10953",
+      "display_name": "E-Government and Public Services",
+      "value": 8.94e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13274",
+      "display_name": "Expert finding and Q&A systems",
+      "value": 8.66e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "value": 6.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -515,12 +681,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T10953",
-      "display_name": "E-Government and Public Services",
-      "value": 3.58e-05,
+      "id": "https://openalex.org/T13389",
+      "display_name": "German Economic Analysis & Policies",
+      "value": 6.49e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14167",
+      "display_name": "Consumer behavior in food and health",
+      "value": 5.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -532,12 +715,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T11461",
-      "display_name": "Local Government Finance and Decentralization",
-      "value": 3.06e-05,
+      "id": "https://openalex.org/T10910",
+      "display_name": "Corporate Governance and Management",
+      "value": 5.07e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12978",
+      "display_name": "Innovative Teaching Methodologies in Social Sciences",
+      "value": 4.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -549,33 +749,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12886",
-      "display_name": "Historical and Cultural Studies of Poland",
-      "value": 2.72e-05,
+      "id": "https://openalex.org/T13603",
+      "display_name": "Corporate Social Responsibility and Sustainability",
+      "value": 4.86e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14388",
-      "display_name": "Medieval European History and Architecture",
-      "value": 2.19e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -585,7 +768,7 @@
     {
       "id": "https://openalex.org/T12954",
       "display_name": "Law and Political Science",
-      "value": 2.08e-05,
+      "value": 4.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -602,7 +785,7 @@
     {
       "id": "https://openalex.org/T11572",
       "display_name": "Information Technology Governance and Strategy",
-      "value": 1.96e-05,
+      "value": 3.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -617,97 +800,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13593",
-      "display_name": "Historical and Archaeological Studies",
-      "value": 1.4e-05,
+      "id": "https://openalex.org/T13659",
+      "display_name": "Ombudsman and Human Rights",
+      "value": 3.94e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10780",
-      "display_name": "Reliability and Maintenance Optimization",
-      "value": 1.31e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2213",
-        "display_name": "Safety, Risk, Reliability and Quality"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11508",
-      "display_name": "Corporate Taxation and Avoidance",
-      "value": 1.11e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1402",
-        "display_name": "Accounting"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 1.08e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12423",
-      "display_name": "Software Reliability and Analysis Research",
-      "value": 9.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1712",
-        "display_name": "Software"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10883",
-      "display_name": "Ethics and Social Impacts of AI",
-      "value": 8.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -719,12 +817,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10703",
-      "display_name": "Business Process Modeling and Analysis",
-      "value": 7.7e-06,
+      "id": "https://openalex.org/T14362",
+      "display_name": "Diverse Legal and Medical Studies",
+      "value": 3.93e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -736,9 +834,94 @@
       }
     },
     {
-      "id": "https://openalex.org/T11770",
-      "display_name": "Fiscal Policy and Economic Growth",
-      "value": 4.7e-06,
+      "id": "https://openalex.org/T14166",
+      "display_name": "European Monetary and Fiscal Policies",
+      "value": 3.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "value": 3.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11461",
+      "display_name": "Local Government Finance and Decentralization",
+      "value": 3.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13360",
+      "display_name": "Economic and Social Issues",
+      "value": 3.05e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13212",
+      "display_name": "German Social Sciences and History",
+      "value": 2.91e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13042",
+      "display_name": "Economic and Fiscal Studies",
+      "value": 2.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -751,11 +934,62 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12607",
+      "display_name": "Personal Information Management and User Behavior",
+      "value": 2.59e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12753",
+      "display_name": "Psychology, Coaching, and Therapy",
+      "value": 2.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10703",
+      "display_name": "Business Process Modeling and Analysis",
+      "value": 2.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210141393",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }
