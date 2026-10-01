@@ -17,12 +17,12 @@
     "Institute Chemnitzer Maschinen - und Anlagenbau"
   ],
   "repositories": [],
-  "works_count": 50,
-  "cited_by_count": 123,
+  "works_count": 69,
+  "cited_by_count": 167,
   "summary_stats": {
-    "2yr_mean_citedness": 0.3448275862068966,
-    "h_index": 6,
-    "i10_index": 1
+    "2yr_mean_citedness": 0.5192307692307693,
+    "h_index": 7,
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4210159512",
@@ -45,27 +45,27 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 1
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 4
     },
     {
       "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 1
+      "works_count": 12,
+      "oa_works_count": 12,
+      "cited_by_count": 4
     },
     {
       "year": 2024,
-      "works_count": 7,
-      "oa_works_count": 4,
-      "cited_by_count": 6
+      "works_count": 9,
+      "oa_works_count": 6,
+      "cited_by_count": 9
     },
     {
       "year": 2023,
-      "works_count": 18,
-      "oa_works_count": 17,
-      "cited_by_count": 4
+      "works_count": 21,
+      "oa_works_count": 19,
+      "cited_by_count": 25
     },
     {
       "year": 2022,
@@ -80,16 +80,22 @@
       "cited_by_count": 12
     },
     {
-      "year": 2019,
+      "year": 2020,
       "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 4
     },
     {
       "year": 2018,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 6
+      "cited_by_count": 7
     },
     {
       "year": 2017,
@@ -102,13 +108,19 @@
       "works_count": 2,
       "oa_works_count": 0,
       "cited_by_count": 1
+    },
+    {
+      "year": 2010,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210159512",
-      "works_count": 50
+      "works_count": 69
     }
   ],
   "topics": [
@@ -174,24 +186,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10700",
-      "display_name": "Metal Forming Simulation Techniques",
-      "count": 5,
-      "score": 0.9993000030517578,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -275,6 +269,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "count": 4,
+      "score": 0.9872999787330627,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10805",
       "display_name": "Vehicle Dynamics and Control Systems",
       "count": 4,
@@ -311,6 +323,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10114",
+      "display_name": "Balance, Gait, and Falls Prevention",
+      "count": 3,
+      "score": 0.9786999821662903,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10157",
+      "display_name": "Sports Performance and Training",
+      "count": 3,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2732",
+        "display_name": "Orthopedics and Sports Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10244",
+      "display_name": "Chaos control and synchronization",
+      "count": 3,
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10442",
       "display_name": "Knee injuries and reconstruction techniques",
       "count": 3,
@@ -329,6 +395,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10534",
+      "display_name": "Structural Health Monitoring Techniques",
+      "count": 3,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11187",
+      "display_name": "Nonlinear Dynamics and Pattern Formation",
+      "count": 3,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11371",
+      "display_name": "Wind and Air Flow Studies",
+      "count": 3,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10663",
       "display_name": "Advanced Battery Technologies Research",
       "count": 2,
@@ -336,6 +456,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "count": 2,
+      "score": 0.9552000164985657,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -419,13 +557,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11978",
-      "display_name": "Soil Mechanics and Vehicle Dynamics",
+      "id": "https://openalex.org/T11201",
+      "display_name": "Metallurgy and Material Forming",
       "count": 2,
-      "score": 0.9290000200271606,
+      "score": 0.9986000061035156,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -434,132 +572,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12006",
-      "display_name": "Ergonomics and Musculoskeletal Disorders",
-      "count": 2,
-      "score": 0.9979000091552734,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13113",
-      "display_name": "Engineering Technology and Methodologies",
-      "count": 2,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13176",
-      "display_name": "Winter Sports Injuries and Performance",
-      "count": 2,
-      "score": 0.9902999997138977,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13722",
-      "display_name": "Ergonomics and Human Factors",
-      "count": 2,
-      "score": 0.968999981880188,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10084",
-      "display_name": "Musculoskeletal pain and rehabilitation",
-      "count": 1,
-      "score": 0.9918000102043152,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10114",
-      "display_name": "Balance, Gait, and Falls Prevention",
-      "count": 1,
-      "score": 0.9445000290870667,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10157",
-      "display_name": "Sports Performance and Training",
-      "count": 1,
-      "score": 0.9779000282287598,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2732",
-        "display_name": "Orthopedics and Sports Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     }
   ],
@@ -567,7 +579,7 @@
     {
       "id": "https://openalex.org/T12249",
       "display_name": "Veterinary Orthopedics and Neurology",
-      "value": 0.0001286,
+      "value": 0.0001344,
       "subfield": {
         "id": "https://openalex.org/subfields/3404",
         "display_name": "Small Animals"
@@ -582,26 +594,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13722",
-      "display_name": "Ergonomics and Human Factors",
-      "value": 9.76e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11741",
       "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 9.7e-05,
+      "value": 0.0001028,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -616,9 +611,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13722",
+      "display_name": "Ergonomics and Human Factors",
+      "value": 9.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10872",
       "display_name": "Veterinary Equine Medical Research",
-      "value": 8.9e-05,
+      "value": 9.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3402",
         "display_name": "Equine"
@@ -635,7 +647,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 7.47e-05,
+      "value": 8.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -652,7 +664,7 @@
     {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
-      "value": 4.88e-05,
+      "value": 5.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -667,9 +679,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10805",
+      "display_name": "Vehicle Dynamics and Control Systems",
+      "value": 4.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13437",
+      "display_name": "Mechanisms of cancer metastasis",
+      "value": 4.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13746",
       "display_name": "Mechanical Systems and Engineering",
-      "value": 4.87e-05,
+      "value": 4.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -684,9 +730,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10805",
-      "display_name": "Vehicle Dynamics and Control Systems",
-      "value": 4.71e-05,
+      "id": "https://openalex.org/T12759",
+      "display_name": "Vehicle Noise and Vibration Control",
+      "value": 4.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -703,7 +749,7 @@
     {
       "id": "https://openalex.org/T11062",
       "display_name": "Gear and Bearing Dynamics Analysis",
-      "value": 4.09e-05,
+      "value": 4.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -720,7 +766,7 @@
     {
       "id": "https://openalex.org/T11149",
       "display_name": "Veterinary Oncology Research",
-      "value": 3.88e-05,
+      "value": 4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -735,26 +781,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10700",
-      "display_name": "Metal Forming Simulation Techniques",
-      "value": 3.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13286",
       "display_name": "Modeling and Simulation Systems",
-      "value": 3.78e-05,
+      "value": 3.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -769,9 +798,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10244",
+      "display_name": "Chaos control and synchronization",
+      "value": 3.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13176",
       "display_name": "Winter Sports Injuries and Performance",
-      "value": 3.16e-05,
+      "value": 3.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -788,7 +834,7 @@
     {
       "id": "https://openalex.org/T14056",
       "display_name": "Safety Warnings and Signage",
-      "value": 3.16e-05,
+      "value": 3.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -803,9 +849,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "value": 3.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "value": 3.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11978",
       "display_name": "Soil Mechanics and Vehicle Dynamics",
-      "value": 3.02e-05,
+      "value": 3.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -837,26 +917,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T14389",
-      "display_name": "Innovation, Technology, and Society",
-      "value": 2.77e-05,
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "value": 2.71e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12006",
       "display_name": "Ergonomics and Musculoskeletal Disorders",
-      "value": 2.61e-05,
+      "value": 2.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -871,9 +951,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13656",
+      "display_name": "Science, Research, and Medicine",
+      "value": 2.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10105",
       "display_name": "Osteoarthritis Treatment and Mechanisms",
-      "value": 2.43e-05,
+      "value": 2.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -890,95 +987,10 @@
     {
       "id": "https://openalex.org/T11159",
       "display_name": "Manufacturing Process and Optimization",
-      "value": 2.4e-05,
+      "value": 2.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12484",
-      "display_name": "Retinopathy of Prematurity Studies",
-      "value": 2.31e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13113",
-      "display_name": "Engineering Technology and Methodologies",
-      "value": 2.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10442",
-      "display_name": "Knee injuries and reconstruction techniques",
-      "value": 2.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13656",
-      "display_name": "Science, Research, and Medicine",
-      "value": 2.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12740",
-      "display_name": "Gait Recognition and Analysis",
-      "value": 2.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -993,6 +1005,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210159512",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

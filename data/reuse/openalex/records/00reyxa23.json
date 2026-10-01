@@ -17,11 +17,11 @@
   ],
   "repositories": [],
   "works_count": 48,
-  "cited_by_count": 28680,
+  "cited_by_count": 28616,
   "summary_stats": {
-    "2yr_mean_citedness": 5.0,
+    "2yr_mean_citedness": 1.0,
     "h_index": 59,
-    "i10_index": 95
+    "i10_index": 93
   },
   "ids": {
     "openalex": "https://openalex.org/I4210096241",
@@ -43,10 +43,10 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2026,
+      "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 5
+      "cited_by_count": 1
     },
     {
       "year": 2022,
@@ -56,8 +56,8 @@
     },
     {
       "year": 2020,
-      "works_count": 1,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 1
     },
     {
@@ -88,7 +88,7 @@
       "year": 2014,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 113
+      "cited_by_count": 112
     },
     {
       "year": 2013,
@@ -106,7 +106,7 @@
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 8
+      "cited_by_count": 7
     }
   ],
   "roles": [
@@ -262,6 +262,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "count": 3,
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11970",
       "display_name": "Molecular Biology Techniques and Applications",
       "count": 3,
@@ -280,24 +298,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10023",
-      "display_name": "Schizophrenia research and treatment",
-      "count": 2,
-      "score": 0.9828000068664551,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10211",
       "display_name": "Computational Drug Discovery Methods",
       "count": 2,
@@ -313,24 +313,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10301",
-      "display_name": "Mitochondrial Function and Pathology",
-      "count": 2,
-      "score": 0.9972000122070312,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -363,24 +345,6 @@
       "field": {
         "id": "https://openalex.org/fields/24",
         "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10375",
-      "display_name": "Pharmacogenetics and Drug Metabolism",
-      "count": 2,
-      "score": 0.9993000030517578,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -457,6 +421,24 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10649",
+      "display_name": "Multiple Myeloma Research and Treatments",
+      "count": 2,
+      "score": 0.9977999925613403,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -550,13 +532,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T11839",
-      "display_name": "Hormonal Regulation and Hypertension",
-      "count": 2,
-      "score": 0.9854000210762024,
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 1,
+      "score": 0.9998999834060669,
       "subfield": {
-        "id": "https://openalex.org/subfields/2712",
-        "display_name": "Endocrinology, Diabetes and Metabolism"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10023",
+      "display_name": "Schizophrenia research and treatment",
+      "count": 1,
+      "score": 0.18780000507831573,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -570,26 +570,9 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T12771",
-      "display_name": "Plant pathogens and resistance mechanisms",
-      "value": 3.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10725",
       "display_name": "RNA Interference and Gene Delivery",
-      "value": 3.68e-05,
+      "value": 3.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -606,7 +589,7 @@
     {
       "id": "https://openalex.org/T11314",
       "display_name": "Clinical Laboratory Practices and Quality Control",
-      "value": 3.52e-05,
+      "value": 3.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -621,9 +604,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13439",
+      "display_name": "Transport and Economic Policies",
+      "value": 3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12566",
       "display_name": "Nitrogen and Sulfur Effects on Brassica",
-      "value": 2.95e-05,
+      "value": 2.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -640,7 +640,7 @@
     {
       "id": "https://openalex.org/T10062",
       "display_name": "MicroRNA in disease regulation",
-      "value": 2.9e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -657,7 +657,7 @@
     {
       "id": "https://openalex.org/T10268",
       "display_name": "Developmental Biology and Gene Regulation",
-      "value": 2.9e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -674,7 +674,7 @@
     {
       "id": "https://openalex.org/T10617",
       "display_name": "Cellular transport and secretion",
-      "value": 2.65e-05,
+      "value": 2.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -691,7 +691,7 @@
     {
       "id": "https://openalex.org/T10878",
       "display_name": "CRISPR and Genetic Engineering",
-      "value": 2.61e-05,
+      "value": 2.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -708,7 +708,7 @@
     {
       "id": "https://openalex.org/T13415",
       "display_name": "Calcium signaling and nucleotide metabolism",
-      "value": 2.35e-05,
+      "value": 2.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1314",
         "display_name": "Physiology"
@@ -725,7 +725,7 @@
     {
       "id": "https://openalex.org/T10091",
       "display_name": "Malaria Research and Control",
-      "value": 2.26e-05,
+      "value": 2.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -742,7 +742,7 @@
     {
       "id": "https://openalex.org/T12793",
       "display_name": "Caveolin-1 and cellular processes",
-      "value": 2.25e-05,
+      "value": 2.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -759,7 +759,7 @@
     {
       "id": "https://openalex.org/T10676",
       "display_name": "Genetics, Aging, and Longevity in Model Organisms",
-      "value": 1.96e-05,
+      "value": 1.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1302",
         "display_name": "Aging"
@@ -774,9 +774,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T12771",
+      "display_name": "Plant pathogens and resistance mechanisms",
+      "value": 1.96e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10649",
+      "display_name": "Multiple Myeloma Research and Treatments",
+      "value": 1.9e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13158",
       "display_name": "Political and Economic history of UK and US",
-      "value": 1.84e-05,
+      "value": 1.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -793,7 +827,7 @@
     {
       "id": "https://openalex.org/T11765",
       "display_name": "Circular RNAs in diseases",
-      "value": 1.77e-05,
+      "value": 1.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -810,7 +844,7 @@
     {
       "id": "https://openalex.org/T11970",
       "display_name": "Molecular Biology Techniques and Applications",
-      "value": 1.77e-05,
+      "value": 1.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -818,6 +852,23 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13892",
+      "display_name": "Aquatic life and conservation",
+      "value": 1.7e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1104",
+        "display_name": "Aquatic Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -835,23 +886,6 @@
       "field": {
         "id": "https://openalex.org/fields/24",
         "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13892",
-      "display_name": "Aquatic life and conservation",
-      "value": 1.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1104",
-        "display_name": "Aquatic Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -895,7 +929,7 @@
     {
       "id": "https://openalex.org/T11966",
       "display_name": "Silk-based biomaterials and applications",
-      "value": 1.46e-05,
+      "value": 1.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -910,9 +944,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "value": 1.41e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11173",
       "display_name": "Neurofibromatosis and Schwannoma Cases",
-      "value": 1.37e-05,
+      "value": 1.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -927,63 +978,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10375",
-      "display_name": "Pharmacogenetics and Drug Metabolism",
-      "value": 1.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11839",
-      "display_name": "Hormonal Regulation and Hypertension",
-      "value": 1.35e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2712",
-        "display_name": "Endocrinology, Diabetes and Metabolism"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10492",
       "display_name": "Microtubule and mitosis dynamics",
-      "value": 1.26e-05,
+      "value": 1.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10952",
-      "display_name": "PI3K/AKT/mTOR signaling in cancer",
-      "value": 1.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
       },
       "field": {
         "id": "https://openalex.org/fields/13",
@@ -998,6 +998,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210096241",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

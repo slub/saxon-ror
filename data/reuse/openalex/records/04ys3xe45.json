@@ -30,12 +30,12 @@
     "SRH-Hochschule, Dresden"
   ],
   "repositories": [],
-  "works_count": 20,
-  "cited_by_count": 79,
+  "works_count": 25,
+  "cited_by_count": 112,
   "summary_stats": {
-    "2yr_mean_citedness": 0.4166666666666667,
-    "h_index": 3,
-    "i10_index": 2
+    "2yr_mean_citedness": 0.35714285714285715,
+    "h_index": 4,
+    "i10_index": 3
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272906",
@@ -73,13 +73,13 @@
     },
     {
       "year": 2025,
-      "works_count": 4,
+      "works_count": 5,
       "oa_works_count": 2,
       "cited_by_count": 4
     },
     {
       "year": 2024,
-      "works_count": 5,
+      "works_count": 6,
       "oa_works_count": 2,
       "cited_by_count": 0
     },
@@ -102,17 +102,23 @@
       "cited_by_count": 4
     },
     {
-      "year": 2015,
-      "works_count": 1,
+      "year": 2016,
+      "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 29
+    },
+    {
+      "year": 2015,
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 7
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272906",
-      "works_count": 20
+      "works_count": 25
     }
   ],
   "topics": [
@@ -153,6 +159,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T12885",
+      "display_name": "Digital Innovation in Industries",
+      "count": 3,
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13402",
+      "display_name": "Business Strategy and Innovation",
+      "count": 3,
+      "score": 0.9976999759674072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "count": 3,
+      "score": 0.9912999868392944,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10055",
       "display_name": "Diverse Aspects of Tourism Research",
       "count": 2,
@@ -164,6 +224,24 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10058",
+      "display_name": "Entrepreneurship Studies and Influences",
+      "count": 2,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -225,13 +303,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
+      "id": "https://openalex.org/T11925",
+      "display_name": "Culinary Culture and Tourism",
       "count": 2,
-      "score": 0.998199999332428,
+      "score": 0.9993000030517578,
       "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12392",
+      "display_name": "Sharing Economy and Platforms",
+      "count": 2,
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -243,17 +339,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T14389",
-      "display_name": "Innovation, Technology, and Society",
+      "id": "https://openalex.org/T12399",
+      "display_name": "Wine Industry and Tourism",
       "count": 2,
-      "score": 0.9912999868392944,
+      "score": 0.995199978351593,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1409",
+        "display_name": "Tourism, Leisure and Hospitality Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -286,24 +382,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10058",
-      "display_name": "Entrepreneurship Studies and Influences",
-      "count": 1,
-      "score": 0.9918000102043152,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -384,6 +462,24 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10750",
+      "display_name": "Fermentation and Sensory Analysis",
+      "count": 1,
+      "score": 0.9225000143051147,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -475,48 +571,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
+    }
+  ],
+  "topic_share": [
     {
-      "id": "https://openalex.org/T11411",
-      "display_name": "Tea Polyphenols and Effects",
-      "count": 1,
-      "score": 0.92330002784729,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11421",
-      "display_name": "Labor Movements and Unions",
-      "count": 1,
-      "score": 0.974399983882904,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3321",
-        "display_name": "Public Administration"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11895",
-      "display_name": "Social and Cultural Dynamics",
-      "count": 1,
-      "score": 0.9606000185012817,
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "value": 9.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -531,64 +592,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11925",
-      "display_name": "Culinary Culture and Tourism",
-      "count": 1,
-      "score": 0.9993000030517578,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1106",
-        "display_name": "Food Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12128",
-      "display_name": "AI in Service Interactions",
-      "count": 1,
-      "score": 0.5866000056266785,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T13810",
-      "display_name": "Legal Systems and Institutions",
-      "value": 8.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14404",
       "display_name": "European Socioeconomic and Political Studies",
-      "value": 8.54e-05,
+      "value": 8.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -603,12 +609,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11114",
-      "display_name": "Service and Product Innovation",
-      "value": 5.83e-05,
+      "id": "https://openalex.org/T13810",
+      "display_name": "Legal Systems and Institutions",
+      "value": 6.63e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -620,43 +626,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14389",
-      "display_name": "Innovation, Technology, and Society",
-      "value": 5.53e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12972",
-      "display_name": "German Colonialism and Identity Studies",
-      "value": 4.43e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 3.27e-05,
+      "value": 5.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -671,26 +643,94 @@
       }
     },
     {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "value": 2.62e-05,
+      "id": "https://openalex.org/T11114",
+      "display_name": "Service and Product Innovation",
+      "value": 5.87e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12972",
+      "display_name": "German Colonialism and Identity Studies",
+      "value": 4.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12399",
+      "display_name": "Wine Industry and Tourism",
+      "value": 3.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1409",
+        "display_name": "Tourism, Leisure and Hospitality Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12392",
+      "display_name": "Sharing Economy and Platforms",
+      "value": 3.6e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13402",
+      "display_name": "Business Strategy and Innovation",
+      "value": 3.31e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12376",
       "display_name": "Corporate Management and Leadership",
-      "value": 2.54e-05,
+      "value": 3.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -705,9 +745,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "value": 2.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11925",
+      "display_name": "Culinary Culture and Tourism",
+      "value": 2.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13394",
       "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 2.35e-05,
+      "value": 2.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -724,7 +798,7 @@
     {
       "id": "https://openalex.org/T11113",
       "display_name": "Music History and Culture",
-      "value": 2.04e-05,
+      "value": 2.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -739,16 +813,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11895",
-      "display_name": "Social and Cultural Dynamics",
-      "value": 1.98e-05,
+      "id": "https://openalex.org/T12843",
+      "display_name": "Human Resource and Talent Management",
+      "value": 1.99e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -773,16 +847,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12399",
-      "display_name": "Wine Industry and Tourism",
-      "value": 1.82e-05,
+      "id": "https://openalex.org/T11895",
+      "display_name": "Social and Cultural Dynamics",
+      "value": 1.96e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1409",
-        "display_name": "Tourism, Leisure and Hospitality Management"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -790,16 +864,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12392",
-      "display_name": "Sharing Economy and Platforms",
-      "value": 1.8e-05,
+      "id": "https://openalex.org/T12714",
+      "display_name": "Youth Education and Societal Dynamics",
+      "value": 1.78e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -841,26 +915,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12714",
-      "display_name": "Youth Education and Societal Dynamics",
-      "value": 1.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11411",
       "display_name": "Tea Polyphenols and Effects",
-      "value": 1.74e-05,
+      "value": 1.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -892,43 +949,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12501",
-      "display_name": "Digital Economy and Work Transformation",
-      "value": 1.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13070",
-      "display_name": "Cultural Identity and Heritage",
-      "value": 1.47e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10910",
       "display_name": "Corporate Governance and Management",
-      "value": 1.34e-05,
+      "value": 1.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -943,26 +966,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13867",
-      "display_name": "Economic Growth and Development",
-      "value": 1.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10609",
-      "display_name": "Digital Marketing and Social Media",
-      "value": 1.31e-05,
+      "id": "https://openalex.org/T12501",
+      "display_name": "Digital Economy and Work Transformation",
+      "value": 1.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -977,26 +983,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11925",
-      "display_name": "Culinary Culture and Tourism",
-      "value": 1.31e-05,
+      "id": "https://openalex.org/T11903",
+      "display_name": "Private Equity and Venture Capital",
+      "value": 1.5e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1106",
-        "display_name": "Food Science"
+        "id": "https://openalex.org/subfields/1402",
+        "display_name": "Accounting"
       },
       "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272906",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2026-07-22T03:30:22"
 }

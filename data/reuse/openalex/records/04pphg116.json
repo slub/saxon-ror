@@ -16,12 +16,12 @@
     "c-LEcta (Germany)"
   ],
   "repositories": [],
-  "works_count": 82,
-  "cited_by_count": 2240,
+  "works_count": 66,
+  "cited_by_count": 2215,
   "summary_stats": {
-    "2yr_mean_citedness": 1.1428571428571428,
+    "2yr_mean_citedness": 0.0,
     "h_index": 26,
-    "i10_index": 55
+    "i10_index": 56
   },
   "ids": {
     "openalex": "https://openalex.org/I4210151487",
@@ -44,8 +44,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 4,
-      "oa_works_count": 3,
+      "works_count": 3,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
@@ -55,21 +55,9 @@
       "cited_by_count": 0
     },
     {
-      "year": 2024,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 8
-    },
-    {
-      "year": 2023,
-      "works_count": 3,
-      "oa_works_count": 0,
-      "cited_by_count": 1
-    },
-    {
       "year": 2022,
-      "works_count": 2,
-      "oa_works_count": 1,
+      "works_count": 1,
+      "oa_works_count": 0,
       "cited_by_count": 11
     },
     {
@@ -80,15 +68,15 @@
     },
     {
       "year": 2020,
-      "works_count": 9,
-      "oa_works_count": 7,
-      "cited_by_count": 127
+      "works_count": 5,
+      "oa_works_count": 3,
+      "cited_by_count": 125
     },
     {
       "year": 2019,
-      "works_count": 11,
-      "oa_works_count": 7,
-      "cited_by_count": 81
+      "works_count": 6,
+      "oa_works_count": 2,
+      "cited_by_count": 57
     },
     {
       "year": 2018,
@@ -98,15 +86,15 @@
     },
     {
       "year": 2017,
-      "works_count": 10,
+      "works_count": 6,
       "oa_works_count": 5,
-      "cited_by_count": 109
+      "cited_by_count": 108
     },
     {
       "year": 2016,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 165
+      "cited_by_count": 166
     },
     {
       "year": 2015,
@@ -118,7 +106,7 @@
       "year": 2014,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 124
+      "cited_by_count": 126
     },
     {
       "year": 2013,
@@ -130,7 +118,7 @@
       "year": 2012,
       "works_count": 5,
       "oa_works_count": 1,
-      "cited_by_count": 113
+      "cited_by_count": 114
     },
     {
       "year": 2011,
@@ -142,14 +130,14 @@
       "year": 2010,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 62
+      "cited_by_count": 63
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210151487",
-      "works_count": 82
+      "works_count": 66
     }
   ],
   "topics": [
@@ -262,31 +250,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12489",
-      "display_name": "Microbial Metabolites in Food Biotechnology",
+      "id": "https://openalex.org/T10911",
+      "display_name": "Chemical Synthesis and Analysis",
       "count": 5,
-      "score": 1.0,
+      "score": 0.9987999796867371,
       "subfield": {
-        "id": "https://openalex.org/subfields/2916",
-        "display_name": "Nutrition and Dietetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/29",
-        "display_name": "Nursing"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12770",
-      "display_name": "Amino Acid Enzymes and Metabolism",
-      "count": 5,
-      "score": 0.9991000294685364,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
       },
       "field": {
         "id": "https://openalex.org/fields/13",
@@ -298,13 +268,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10911",
-      "display_name": "Chemical Synthesis and Analysis",
-      "count": 4,
-      "score": 0.9987999796867371,
+      "id": "https://openalex.org/T12770",
+      "display_name": "Amino Acid Enzymes and Metabolism",
+      "count": 5,
+      "score": 0.9991000294685364,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/13",
@@ -331,6 +301,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12489",
+      "display_name": "Microbial Metabolites in Food Biotechnology",
+      "count": 4,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -421,24 +409,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13199",
-      "display_name": "Digestive system and related health",
-      "count": 3,
-      "score": 0.9991999864578247,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -602,13 +572,31 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10947",
+      "display_name": "Fluorine in Organic Chemistry",
+      "count": 2,
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10404",
       "display_name": "Enzyme Catalysis and Immobilization",
-      "value": 0.0001989,
+      "value": 0.0002008,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -623,60 +611,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13788",
-      "display_name": "Cultural Identity and Representation",
-      "value": 0.0001216,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14031",
-      "display_name": "Global and Cross-Cultural Management",
-      "value": 0.0001034,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14501",
-      "display_name": "Global Economic and Social Development",
-      "value": 8.9e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13736",
       "display_name": "Steroid Chemistry and Biochemistry",
-      "value": 8.73e-05,
+      "value": 8.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -693,7 +630,7 @@
     {
       "id": "https://openalex.org/T10932",
       "display_name": "Microbial Metabolic Engineering and Bioproduction",
-      "value": 7.15e-05,
+      "value": 7.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -708,111 +645,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13449",
-      "display_name": "Organizational Management and Change",
-      "value": 7.07e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13701",
-      "display_name": "Psycholinguistics and Behavioral Studies",
-      "value": 6.87e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13557",
-      "display_name": "Environmental and sustainability education",
-      "value": 6.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2308",
-        "display_name": "Management, Monitoring, Policy and Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13503",
-      "display_name": "Gender, Health, and Social Inequality",
-      "value": 5.73e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13273",
-      "display_name": "Knowledge Management in Higher Education",
-      "value": 5.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13189",
-      "display_name": "Physical Education and Training Studies",
-      "value": 4.56e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11617",
       "display_name": "Enzyme Production and Characterization",
-      "value": 4.3e-05,
+      "value": 4.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1305",
         "display_name": "Biotechnology"
@@ -829,7 +664,7 @@
     {
       "id": "https://openalex.org/T12688",
       "display_name": "Microbial metabolism and enzyme function",
-      "value": 4.18e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -844,94 +679,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14448",
-      "display_name": "EU Law and Policy Analysis",
-      "value": 4.02e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14265",
-      "display_name": "Social and Behavioral Studies",
-      "value": 3.8e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3306",
-        "display_name": "Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12489",
-      "display_name": "Microbial Metabolites in Food Biotechnology",
-      "value": 3.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2916",
-        "display_name": "Nutrition and Dietetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/29",
-        "display_name": "Nursing"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12635",
-      "display_name": "African studies and sociopolitical issues",
-      "value": 3.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13199",
-      "display_name": "Digestive system and related health",
-      "value": 3.58e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11445",
       "display_name": "Origins and Evolution of Life",
-      "value": 3.44e-05,
+      "value": 3.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -948,7 +698,7 @@
     {
       "id": "https://openalex.org/T10375",
       "display_name": "Pharmacogenetics and Drug Metabolism",
-      "value": 3.41e-05,
+      "value": 3.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -965,7 +715,7 @@
     {
       "id": "https://openalex.org/T12770",
       "display_name": "Amino Acid Enzymes and Metabolism",
-      "value": 3.38e-05,
+      "value": 3.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1303",
         "display_name": "Biochemistry"
@@ -980,26 +730,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13946",
-      "display_name": "Musculoskeletal Disorders and Rehabilitation",
-      "value": 3.22e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2742",
-        "display_name": "Rehabilitation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11626",
       "display_name": "Metalloenzymes and iron-sulfur proteins",
-      "value": 3.21e-05,
+      "value": 3.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -1014,16 +747,271 @@
       }
     },
     {
-      "id": "https://openalex.org/T11731",
-      "display_name": "Global Health and Surgery",
-      "value": 3.2e-05,
+      "id": "https://openalex.org/T12827",
+      "display_name": "Biochemical and Molecular Research",
+      "value": 3.04e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12489",
+      "display_name": "Microbial Metabolites in Food Biotechnology",
+      "value": 2.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10324",
+      "display_name": "Microbial bioremediation and biosurfactants",
+      "value": 2.68e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12673",
+      "display_name": "Microbial Metabolism and Applications",
+      "value": 2.64e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14479",
+      "display_name": "Freezing and Crystallization Processes",
+      "value": 2.52e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13326",
+      "display_name": "Biochemical and Structural Characterization",
+      "value": 2.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13199",
+      "display_name": "Digestive system and related health",
+      "value": 2.41e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11747",
+      "display_name": "Metal-Catalyzed Oxygenation Mechanisms",
+      "value": 2.32e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10171",
+      "display_name": "Biofuel production and bioconversion",
+      "value": 2.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12285",
+      "display_name": "Surface Chemistry and Catalysis",
+      "value": 2.25e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10432",
+      "display_name": "DNA and Nucleic Acid Chemistry",
+      "value": 2.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11124",
+      "display_name": "Protein purification and stability",
+      "value": 1.97e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10871",
+      "display_name": "Catalytic Alkyne Reactions",
+      "value": 1.9e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10490",
+      "display_name": "Orbital Angular Momentum in Optics",
+      "value": 1.77e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10911",
+      "display_name": "Chemical Synthesis and Analysis",
+      "value": 1.77e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11294",
+      "display_name": "Infant Nutrition and Health",
+      "value": 1.77e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -1034,6 +1022,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210151487",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

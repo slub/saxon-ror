@@ -19,12 +19,12 @@
     "Sächsisches Institut für die Druckindustrie"
   ],
   "repositories": [],
-  "works_count": 0,
-  "cited_by_count": 0,
+  "works_count": 7,
+  "cited_by_count": 90,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 0,
-    "i10_index": 0
+    "h_index": 7,
+    "i10_index": 7
   },
   "ids": {
     "openalex": "https://openalex.org/I4210157604",
@@ -44,19 +44,320 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2014,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2013,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "works_count": 3,
+      "oa_works_count": 0,
+      "cited_by_count": 37
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210157604",
-      "works_count": 0
+      "works_count": 7
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "count": 6,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14249",
+      "display_name": "Water Quality Monitoring and Analysis",
+      "count": 4,
+      "score": 0.9975000023841858,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12111",
+      "display_name": "Industrial Vision Systems and Defect Detection",
+      "count": 3,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11212",
+      "display_name": "Cultural Heritage Materials Analysis",
+      "count": 2,
+      "score": 0.9952999949455261,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11324",
+      "display_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "count": 1,
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "count": 1,
+      "score": 0.9954000115394592,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13049",
+      "display_name": "Surface Roughness and Optical Measurements",
+      "count": 1,
+      "score": 0.9983999729156494,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13867",
+      "display_name": "Economic Growth and Development",
+      "count": 1,
+      "score": 0.7666000127792358,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "value": 2.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14249",
+      "display_name": "Water Quality Monitoring and Analysis",
+      "value": 2.52e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12111",
+      "display_name": "Industrial Vision Systems and Defect Detection",
+      "value": 2.25e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11212",
+      "display_name": "Cultural Heritage Materials Analysis",
+      "value": 2.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13867",
+      "display_name": "Economic Growth and Development",
+      "value": 1.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13049",
+      "display_name": "Surface Roughness and Optical Measurements",
+      "value": 9.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11324",
+      "display_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "value": 8.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "value": 3.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210157604",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

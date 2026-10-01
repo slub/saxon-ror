@@ -18,12 +18,12 @@
     "Stiftung zur Förderung der Hochschulmedizin in Dresden"
   ],
   "repositories": [],
-  "works_count": 7,
-  "cited_by_count": 34,
+  "works_count": 17,
+  "cited_by_count": 406,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 3,
-    "i10_index": 2
+    "2yr_mean_citedness": 3.0,
+    "h_index": 10,
+    "i10_index": 10
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272536",
@@ -45,6 +45,18 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 58
+    },
+    {
       "year": 2018,
       "works_count": 2,
       "oa_works_count": 1,
@@ -52,29 +64,41 @@
     },
     {
       "year": 2017,
-      "works_count": 3,
+      "works_count": 4,
       "oa_works_count": 1,
       "cited_by_count": 20
     },
     {
       "year": 2016,
-      "works_count": 2,
+      "works_count": 3,
       "oa_works_count": 0,
       "cited_by_count": 14
+    },
+    {
+      "year": 2015,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 47
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272536",
-      "works_count": 7
+      "works_count": 17
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11144",
       "display_name": "melanin and skin pigmentation",
-      "count": 5,
+      "count": 6,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
@@ -92,7 +116,7 @@
     {
       "id": "https://openalex.org/T11013",
       "display_name": "Skin Protection and Aging",
-      "count": 2,
+      "count": 3,
       "score": 0.9843999743461609,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
@@ -110,8 +134,8 @@
     {
       "id": "https://openalex.org/T11346",
       "display_name": "Mast cells and histamine",
-      "count": 2,
-      "score": 0.963699996471405,
+      "count": 3,
+      "score": 0.972000002861023,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -123,6 +147,42 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12328",
+      "display_name": "Autoimmune and Inflammatory Disorders",
+      "count": 2,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12433",
+      "display_name": "Skin Diseases and Diabetes",
+      "count": 2,
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -144,6 +204,96 @@
       }
     },
     {
+      "id": "https://openalex.org/T12937",
+      "display_name": "Chemotherapy-related skin toxicity",
+      "count": 2,
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10043",
+      "display_name": "Substance Abuse Treatment and Outcomes",
+      "count": 1,
+      "score": 0.2386000007390976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 1,
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10137",
+      "display_name": "Multiple Sclerosis Research Studies",
+      "count": 1,
+      "score": 0.9559000134468079,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10200",
+      "display_name": "Rheumatoid Arthritis Research and Therapies",
+      "count": 1,
+      "score": 0.003700000001117587,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10308",
       "display_name": "Systemic Lupus Erythematosus Research",
       "count": 1,
@@ -162,6 +312,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10448",
+      "display_name": "Memory and Neural Mechanisms",
+      "count": 1,
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10487",
+      "display_name": "Plant and animal studies",
+      "count": 1,
+      "score": 0.9765999913215637,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "count": 1,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10971",
       "display_name": "Olfactory and Sensory Function Studies",
       "count": 1,
@@ -177,6 +381,78 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11000",
+      "display_name": "Infection Control in Healthcare",
+      "count": 1,
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11207",
+      "display_name": "Alcohol Consumption and Health Effects",
+      "count": 1,
+      "score": 0.29330000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11219",
+      "display_name": "Bone Metabolism and Diseases",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11221",
+      "display_name": "Bone health and treatments",
+      "count": 1,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -216,6 +492,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T11635",
+      "display_name": "Poisoning and overdose treatments",
+      "count": 1,
+      "score": 0.15309999883174896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2711",
+        "display_name": "Emergency Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11647",
+      "display_name": "Workplace Violence and Bullying",
+      "count": 1,
+      "score": 0.9569000005722046,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11730",
       "display_name": "Autoimmune Bullous Skin Diseases",
       "count": 1,
@@ -232,103 +544,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11811",
-      "display_name": "Cutaneous lymphoproliferative disorders research",
-      "count": 1,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12355",
-      "display_name": "Genetic and rare skin diseases.",
-      "count": 1,
-      "score": 0.9527000188827515,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12547",
-      "display_name": "Pharmaceutical studies and practices",
-      "count": 1,
-      "score": 0.9280999898910522,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12575",
-      "display_name": "Medical History and Research",
-      "count": 1,
-      "score": 0.9455999732017517,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13275",
-      "display_name": "Medical and Health Sciences Research",
-      "count": 1,
-      "score": 0.9753999710083008,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11144",
       "display_name": "melanin and skin pigmentation",
-      "value": 5.17e-05,
+      "value": 6.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -343,9 +565,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T12937",
+      "display_name": "Chemotherapy-related skin toxicity",
+      "value": 4.77e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12433",
+      "display_name": "Skin Diseases and Diabetes",
+      "value": 4.65e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13866",
+      "display_name": "Occupational health in dentistry",
+      "value": 3.95e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3607",
+        "display_name": "Medical Laboratory Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11346",
       "display_name": "Mast cells and histamine",
-      "value": 2.32e-05,
+      "value": 3.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -360,9 +633,77 @@
       }
     },
     {
+      "id": "https://openalex.org/T13453",
+      "display_name": "Alkaline Phosphatase Research Studies",
+      "value": 3.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12328",
+      "display_name": "Autoimmune and Inflammatory Disorders",
+      "value": 3.36e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11013",
+      "display_name": "Skin Protection and Aging",
+      "value": 3.13e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12580",
+      "display_name": "Vagus Nerve Stimulation Research",
+      "value": 2.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12575",
       "display_name": "Medical History and Research",
-      "value": 2.1e-05,
+      "value": 2.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -377,26 +718,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11013",
-      "display_name": "Skin Protection and Aging",
-      "value": 2.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12355",
       "display_name": "Genetic and rare skin diseases.",
-      "value": 2.03e-05,
+      "value": 2.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -411,9 +735,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11647",
+      "display_name": "Workplace Violence and Bullying",
+      "value": 2.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11553",
+      "display_name": "Acne and Rosacea Treatments and Effects",
+      "value": 1.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12610",
       "display_name": "RNA regulation and disease",
-      "value": 1.89e-05,
+      "value": 1.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -428,12 +786,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11553",
-      "display_name": "Acne and Rosacea Treatments and Effects",
-      "value": 1.88e-05,
+      "id": "https://openalex.org/T11000",
+      "display_name": "Infection Control in Healthcare",
+      "value": 1.83e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -445,26 +803,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11811",
-      "display_name": "Cutaneous lymphoproliferative disorders research",
-      "value": 1.39e-05,
+      "id": "https://openalex.org/T12001",
+      "display_name": "Fossil Insects in Amber",
+      "value": 1.7e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13275",
       "display_name": "Medical and Health Sciences Research",
-      "value": 1.37e-05,
+      "value": 1.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -479,9 +837,94 @@
       }
     },
     {
+      "id": "https://openalex.org/T13690",
+      "display_name": "Quality and Safety in Healthcare",
+      "value": 1.66e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3607",
+        "display_name": "Medical Laboratory Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11811",
+      "display_name": "Cutaneous lymphoproliferative disorders research",
+      "value": 1.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11533",
       "display_name": "Melanoma and MAPK Pathways",
-      "value": 1.36e-05,
+      "value": 1.37e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11635",
+      "display_name": "Poisoning and overdose treatments",
+      "value": 1.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2711",
+        "display_name": "Emergency Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11836",
+      "display_name": "Bryophyte Studies and Records",
+      "value": 1.28e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11219",
+      "display_name": "Bone Metabolism and Diseases",
+      "value": 1.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -498,7 +941,7 @@
     {
       "id": "https://openalex.org/T11730",
       "display_name": "Autoimmune Bullous Skin Diseases",
-      "value": 9.7e-06,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -513,46 +956,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12547",
-      "display_name": "Pharmaceutical studies and practices",
-      "value": 8.1e-06,
+      "id": "https://openalex.org/T10137",
+      "display_name": "Multiple Sclerosis Research Studies",
+      "value": 8.7e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10971",
-      "display_name": "Olfactory and Sensory Function Studies",
-      "value": 6.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2809",
-        "display_name": "Sensory Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10308",
-      "display_name": "Systemic Lupus Erythematosus Research",
-      "value": 5.5e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -567,6 +976,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272536",
-  "updated_date": "2026-09-22T19:14:20",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2026-07-22T03:30:22"
 }

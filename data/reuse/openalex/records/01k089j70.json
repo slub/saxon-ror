@@ -20,12 +20,12 @@
     "Topas GmbH (Germany)"
   ],
   "repositories": [],
-  "works_count": 31,
-  "cited_by_count": 291,
+  "works_count": 52,
+  "cited_by_count": 921,
   "summary_stats": {
-    "2yr_mean_citedness": 1.6666666666666667,
-    "h_index": 9,
-    "i10_index": 8
+    "2yr_mean_citedness": 5.515151515151516,
+    "h_index": 14,
+    "i10_index": 40
   },
   "ids": {
     "openalex": "https://openalex.org/I4405254240",
@@ -48,33 +48,33 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
-      "oa_works_count": 1,
+      "works_count": 3,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
       "year": 2025,
-      "works_count": 3,
-      "oa_works_count": 3,
-      "cited_by_count": 1
+      "works_count": 8,
+      "oa_works_count": 5,
+      "cited_by_count": 26
     },
     {
       "year": 2024,
-      "works_count": 4,
-      "oa_works_count": 3,
-      "cited_by_count": 14
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 16
     },
     {
       "year": 2023,
-      "works_count": 6,
-      "oa_works_count": 5,
+      "works_count": 8,
+      "oa_works_count": 7,
       "cited_by_count": 14
     },
     {
       "year": 2022,
-      "works_count": 3,
+      "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 46
+      "cited_by_count": 60
     },
     {
       "year": 2021,
@@ -84,15 +84,33 @@
     },
     {
       "year": 2020,
-      "works_count": 3,
-      "oa_works_count": 3,
-      "cited_by_count": 33
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2019,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2018,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 23
     },
     {
       "year": 2017,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 36
+    },
+    {
+      "year": 2014,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 18
     },
     {
       "year": 2013,
@@ -102,16 +120,22 @@
     },
     {
       "year": 2012,
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 25
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405254240",
-      "works_count": 31
+      "works_count": 52
     }
   ],
   "topics": [
@@ -131,6 +155,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10063",
+      "display_name": "Nanoparticle-Based Drug Delivery",
+      "count": 5,
+      "score": 0.9855999946594238,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -206,6 +248,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11730",
+      "display_name": "Autoimmune Bullous Skin Diseases",
+      "count": 4,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12333",
       "display_name": "Abdominal Surgery and Complications",
       "count": 4,
@@ -221,6 +281,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10092",
+      "display_name": "Organometallic Complex Synthesis and Catalysis",
+      "count": 3,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -242,17 +320,89 @@
       }
     },
     {
-      "id": "https://openalex.org/T10063",
-      "display_name": "Nanoparticle-Based Drug Delivery",
-      "count": 2,
-      "score": 0.9559000134468079,
+      "id": "https://openalex.org/T11834",
+      "display_name": "Liver Diseases and Immunity",
+      "count": 3,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2502",
-        "display_name": "Biomaterials"
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10524",
+      "display_name": "Traffic control and management",
+      "count": 2,
+      "score": 0.9936000108718872,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10580",
+      "display_name": "Immunotherapy and Immune Responses",
+      "count": 2,
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10586",
+      "display_name": "Robotic Path Planning Algorithms",
+      "count": 2,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10782",
+      "display_name": "Nanoplatforms for cancer theranostics",
+      "count": 2,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -278,6 +428,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T10966",
+      "display_name": "Liver physiology and pathology",
+      "count": 2,
+      "score": 0.32499998807907104,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11016",
+      "display_name": "Monoclonal and Polyclonal Antibodies Research",
+      "count": 2,
+      "score": 0.9879999756813049,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11188",
       "display_name": "Coagulation and Flocculation Studies",
       "count": 2,
@@ -289,6 +475,24 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11190",
+      "display_name": "3D Printing in Biomedical Research",
+      "count": 2,
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -332,6 +536,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11549",
+      "display_name": "Synthetic Organic Chemistry Methods",
+      "count": 2,
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12019",
       "display_name": "Calibration and Measurement Techniques",
       "count": 2,
@@ -366,214 +588,33 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12163",
-      "display_name": "Aerosol Filtration and Electrostatic Precipitation",
-      "count": 2,
-      "score": 0.995199978351593,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12173",
-      "display_name": "Body Contouring and Surgery",
-      "count": 2,
-      "score": 0.9986000061035156,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13067",
-      "display_name": "Geological Modeling and Analysis",
-      "count": 2,
-      "score": 0.03610000014305115,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1906",
-        "display_name": "Geochemistry and Petrology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14311",
-      "display_name": "Electrical and Electromagnetic Research",
-      "count": 2,
-      "score": 0.022600000724196434,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10190",
-      "display_name": "Air Quality and Health Impacts",
-      "count": 1,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2307",
-        "display_name": "Health, Toxicology and Mutagenesis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10313",
-      "display_name": "Surface Modification and Superhydrophobicity",
-      "count": 1,
-      "score": 0.9901999831199646,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2508",
-        "display_name": "Surfaces, Coatings and Films"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10389",
-      "display_name": "Polymer crystallization and properties",
-      "count": 1,
-      "score": 0.977400004863739,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2507",
-        "display_name": "Polymers and Plastics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10550",
-      "display_name": "Ovarian cancer diagnosis and treatment",
-      "count": 1,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10569",
-      "display_name": "Bariatric Surgery and Outcomes",
-      "count": 1,
-      "score": 0.9369000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10640",
-      "display_name": "Spectroscopy and Chemometric Analyses",
-      "count": 1,
-      "score": 0.9800000190734863,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1602",
-        "display_name": "Analytical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10753",
-      "display_name": "Microplastics and Plastic Pollution",
-      "count": 1,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2310",
-        "display_name": "Pollution"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12064",
       "display_name": "Intraperitoneal and Appendiceal Malignancies",
-      "value": 0.000107,
+      "value": 0.0001101,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12333",
+      "display_name": "Abdominal Surgery and Complications",
+      "value": 6.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -587,7 +628,7 @@
     {
       "id": "https://openalex.org/T11188",
       "display_name": "Coagulation and Flocculation Studies",
-      "value": 6.49e-05,
+      "value": 6.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -602,26 +643,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12333",
-      "display_name": "Abdominal Surgery and Complications",
-      "value": 6.42e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14351",
       "display_name": "Statistical and Computational Modeling",
-      "value": 4.95e-05,
+      "value": 4.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -636,9 +660,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11834",
+      "display_name": "Liver Diseases and Immunity",
+      "value": 4.12e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11730",
+      "display_name": "Autoimmune Bullous Skin Diseases",
+      "value": 3.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11651",
       "display_name": "Inhalation and Respiratory Drug Delivery",
-      "value": 3.88e-05,
+      "value": 3.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -653,26 +711,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12120",
-      "display_name": "Air Quality Monitoring and Forecasting",
-      "value": 3.87e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11422",
       "display_name": "Burn Injury Management and Outcomes",
-      "value": 3.85e-05,
+      "value": 3.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -687,9 +728,77 @@
       }
     },
     {
+      "id": "https://openalex.org/T12120",
+      "display_name": "Air Quality Monitoring and Forecasting",
+      "value": 3.88e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12173",
       "display_name": "Body Contouring and Surgery",
-      "value": 3.48e-05,
+      "value": 3.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13254",
+      "display_name": "Macrophage Migration Inhibitory Factor",
+      "value": 3.36e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10063",
+      "display_name": "Nanoparticle-Based Drug Delivery",
+      "value": 3.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12654",
+      "display_name": "Xenotransplantation and immune response",
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -706,7 +815,7 @@
     {
       "id": "https://openalex.org/T10347",
       "display_name": "Atmospheric aerosols and clouds",
-      "value": 3.03e-05,
+      "value": 3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -723,7 +832,7 @@
     {
       "id": "https://openalex.org/T11296",
       "display_name": "COVID-19 and healthcare impacts",
-      "value": 2.86e-05,
+      "value": 2.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -740,7 +849,7 @@
     {
       "id": "https://openalex.org/T13604",
       "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
-      "value": 2.69e-05,
+      "value": 2.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
@@ -757,7 +866,7 @@
     {
       "id": "https://openalex.org/T12163",
       "display_name": "Aerosol Filtration and Electrostatic Precipitation",
-      "value": 2.63e-05,
+      "value": 2.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -774,7 +883,7 @@
     {
       "id": "https://openalex.org/T13312",
       "display_name": "Mechanical and Thermal Properties Analysis",
-      "value": 2.56e-05,
+      "value": 2.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -789,9 +898,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T12772",
+      "display_name": "Control and Stability of Dynamical Systems",
+      "value": 2.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10966",
+      "display_name": "Liver physiology and pathology",
+      "value": 2.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11604",
+      "display_name": "Ship Hydrodynamics and Maneuverability",
+      "value": 2.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12019",
       "display_name": "Calibration and Measurement Techniques",
-      "value": 2.21e-05,
+      "value": 2.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -806,16 +966,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T12220",
-      "display_name": "Quantum Electrodynamics and Casimir Effect",
-      "value": 1.91e-05,
+      "id": "https://openalex.org/T13003",
+      "display_name": "Regional Development and Environment",
+      "value": 2.07e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10524",
+      "display_name": "Traffic control and management",
+      "value": 1.9e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -825,7 +1002,7 @@
     {
       "id": "https://openalex.org/T12080",
       "display_name": "Injection Molding Process and Properties",
-      "value": 1.87e-05,
+      "value": 1.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -838,164 +1015,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11469",
-      "display_name": "Lymphatic System and Diseases",
-      "value": 1.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12540",
-      "display_name": "Cyclone Separators and Fluid Dynamics",
-      "value": 1.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10075",
-      "display_name": "Atmospheric chemistry and aerosols",
-      "value": 1.43e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10990",
-      "display_name": "Infection Control and Ventilation",
-      "value": 1.43e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12442",
-      "display_name": "Thermal Radiation and Cooling Technologies",
-      "value": 1.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11244",
-      "display_name": "Climate Change and Health Impacts",
-      "value": 1.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2307",
-        "display_name": "Health, Toxicology and Mutagenesis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11728",
-      "display_name": "Thyroid and Parathyroid Surgery",
-      "value": 1.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12316",
-      "display_name": "Oil Spill Detection and Mitigation",
-      "value": 1.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2310",
-        "display_name": "Pollution"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10063",
-      "display_name": "Nanoparticle-Based Drug Delivery",
-      "value": 1.27e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2502",
-        "display_name": "Biomaterials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405254240",
-  "updated_date": "2026-09-22T19:14:20",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2025-07-08T02:42:24"
 }

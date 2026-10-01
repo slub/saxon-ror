@@ -16,12 +16,12 @@
     "Apogepha Arzneimittel (Germany)"
   ],
   "repositories": [],
-  "works_count": 145,
-  "cited_by_count": 5656,
+  "works_count": 85,
+  "cited_by_count": 3642,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 47,
-    "i10_index": 112
+    "2yr_mean_citedness": 2.933333333333333,
+    "h_index": 39,
+    "i10_index": 74
   },
   "ids": {
     "openalex": "https://openalex.org/I4210101799",
@@ -49,10 +49,16 @@
       "cited_by_count": 0
     },
     {
+      "year": 2025,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 21
+    },
+    {
       "year": 2024,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 5
     },
     {
       "year": 2023,
@@ -68,9 +74,9 @@
     },
     {
       "year": 2021,
-      "works_count": 3,
-      "oa_works_count": 2,
-      "cited_by_count": 9
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 47
     },
     {
       "year": 2020,
@@ -104,29 +110,29 @@
     },
     {
       "year": 2011,
-      "works_count": 8,
-      "oa_works_count": 2,
-      "cited_by_count": 79
+      "works_count": 7,
+      "oa_works_count": 3,
+      "cited_by_count": 138
     },
     {
       "year": 2010,
-      "works_count": 4,
+      "works_count": 5,
       "oa_works_count": 0,
-      "cited_by_count": 50
+      "cited_by_count": 52
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210101799",
-      "works_count": 145
+      "works_count": 85
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10279",
       "display_name": "Urinary Bladder and Prostate Research",
-      "count": 47,
+      "count": 46,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
@@ -144,7 +150,7 @@
     {
       "id": "https://openalex.org/T10418",
       "display_name": "Pelvic floor disorders treatments",
-      "count": 27,
+      "count": 26,
       "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
@@ -178,60 +184,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11036",
-      "display_name": "Antibiotics Pharmacokinetics and Efficacy",
-      "count": 10,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11460",
-      "display_name": "Analytical Methods in Pharmaceuticals",
-      "count": 10,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1602",
-        "display_name": "Analytical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14099",
-      "display_name": "Synthesis and Characterization of Heterocyclic Compounds",
-      "count": 10,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10458",
       "display_name": "Bladder and Urothelial Cancer Treatments",
       "count": 9,
@@ -247,42 +199,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10077",
-      "display_name": "Neuroscience and Neuropharmacology Research",
-      "count": 7,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10375",
-      "display_name": "Pharmacogenetics and Drug Metabolism",
-      "count": 7,
-      "score": 0.9970999956130981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -306,83 +222,11 @@
     {
       "id": "https://openalex.org/T11815",
       "display_name": "Urological Disorders and Treatments",
-      "count": 7,
+      "count": 6,
       "score": 0.11710000038146973,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10274",
-      "display_name": "Synthesis and biological activity",
-      "count": 6,
-      "score": 0.9987000226974487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10570",
-      "display_name": "Drug Transport and Resistance Mechanisms",
-      "count": 6,
-      "score": 0.9983999729156494,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10196",
-      "display_name": "Pain Mechanisms and Treatments",
-      "count": 5,
-      "score": 0.9973999857902527,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10217",
-      "display_name": "Cardiac electrophysiology and arrhythmias",
-      "count": 5,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -412,60 +256,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10493",
-      "display_name": "Ion channel regulation and function",
-      "count": 5,
-      "score": 0.9987000226974487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11146",
-      "display_name": "Hormonal and reproductive studies",
-      "count": 5,
-      "score": 0.9980999827384949,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2712",
-        "display_name": "Endocrinology, Diabetes and Metabolism"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11178",
-      "display_name": "Receptor Mechanisms and Signaling",
-      "count": 5,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11204",
       "display_name": "Ion Channels and Receptors",
       "count": 5,
@@ -484,31 +274,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12229",
-      "display_name": "Pharmacological Effects and Toxicity Studies",
+      "id": "https://openalex.org/T11460",
+      "display_name": "Analytical Methods in Pharmaceuticals",
       "count": 5,
-      "score": 0.9998999834060669,
+      "score": 0.9991000294685364,
       "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13160",
-      "display_name": "Synthesis and Biological Evaluation",
-      "count": 5,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/16",
@@ -517,6 +289,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 4,
+      "score": 0.9900000095367432,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -538,28 +328,244 @@
       }
     },
     {
-      "id": "https://openalex.org/T12410",
-      "display_name": "Structural and Chemical Analysis of Organic and Inorganic Compounds",
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
       "count": 4,
-      "score": 0.9911999702453613,
+      "score": 0.9998000264167786,
       "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12756",
-      "display_name": "Plant Toxicity and Pharmacological Properties",
+      "id": "https://openalex.org/T11036",
+      "display_name": "Antibiotics Pharmacokinetics and Efficacy",
       "count": 4,
-      "score": 0.9965999722480774,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11146",
+      "display_name": "Hormonal and reproductive studies",
+      "count": 4,
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10256",
+      "display_name": "Drug Solubulity and Delivery Systems",
+      "count": 3,
+      "score": 0.9966999888420105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10375",
+      "display_name": "Pharmacogenetics and Drug Metabolism",
+      "count": 3,
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3004",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10543",
+      "display_name": "Prostate Cancer Treatment and Research",
+      "count": 3,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10196",
+      "display_name": "Pain Mechanisms and Treatments",
+      "count": 2,
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10365",
+      "display_name": "Gastrointestinal motility and disorders",
+      "count": 2,
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2715",
+        "display_name": "Gastroenterology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10493",
+      "display_name": "Ion channel regulation and function",
+      "count": 2,
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "count": 2,
+      "score": 0.9927999973297119,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10837",
+      "display_name": "Dermatology and Skin Diseases",
+      "count": 2,
+      "score": 0.9532999992370605,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10997",
+      "display_name": "Ocular Surface and Contact Lens",
+      "count": 2,
+      "score": 0.17270000278949738,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11174",
+      "display_name": "Pediatric Urology and Nephrology Studies",
+      "count": 2,
+      "score": 0.05119999870657921,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11178",
+      "display_name": "Receptor Mechanisms and Signaling",
+      "count": 2,
+      "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -578,7 +584,7 @@
     {
       "id": "https://openalex.org/T10279",
       "display_name": "Urinary Bladder and Prostate Research",
-      "value": 0.0003279,
+      "value": 0.0003316,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
@@ -595,7 +601,7 @@
     {
       "id": "https://openalex.org/T10418",
       "display_name": "Pelvic floor disorders treatments",
-      "value": 0.0001602,
+      "value": 0.0001588,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -612,7 +618,7 @@
     {
       "id": "https://openalex.org/T11232",
       "display_name": "Urinary Tract Infections Management",
-      "value": 0.0001479,
+      "value": 0.0001521,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -627,26 +633,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11460",
-      "display_name": "Analytical Methods in Pharmaceuticals",
-      "value": 0.0001018,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1602",
-        "display_name": "Analytical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11204",
       "display_name": "Ion Channels and Receptors",
-      "value": 9.71e-05,
+      "value": 9.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -661,60 +650,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12756",
-      "display_name": "Plant Toxicity and Pharmacological Properties",
-      "value": 9.24e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12410",
-      "display_name": "Structural and Chemical Analysis of Organic and Inorganic Compounds",
-      "value": 8.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14099",
-      "display_name": "Synthesis and Characterization of Heterocyclic Compounds",
-      "value": 7.49e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10459",
       "display_name": "Sexual function and dysfunction studies",
-      "value": 6.84e-05,
+      "value": 7.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -731,7 +669,7 @@
     {
       "id": "https://openalex.org/T10458",
       "display_name": "Bladder and Urothelial Cancer Treatments",
-      "value": 6.56e-05,
+      "value": 6.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -763,43 +701,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11036",
-      "display_name": "Antibiotics Pharmacokinetics and Efficacy",
-      "value": 6.17e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13840",
-      "display_name": "Chemical Safety and Risk Management",
-      "value": 5.75e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1504",
-        "display_name": "Chemical Health and Safety"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13206",
       "display_name": "Neonatal skin health care",
-      "value": 5.65e-05,
+      "value": 5.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3616",
         "display_name": "Speech and Hearing"
@@ -814,12 +718,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T13026",
-      "display_name": "Natural Compounds in Disease Treatment",
-      "value": 5.62e-05,
+      "id": "https://openalex.org/T11460",
+      "display_name": "Analytical Methods in Pharmaceuticals",
+      "value": 5.37e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2707",
-        "display_name": "Complementary and alternative medicine"
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13489",
+      "display_name": "Synthesis of β-Lactam Compounds",
+      "value": 4.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14275",
+      "display_name": "Historical Medical Research and Treatments",
+      "value": 4.59e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -831,77 +769,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13047",
-      "display_name": "Pharmacological Receptor Mechanisms and Effects",
-      "value": 5.11e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13454",
-      "display_name": "Phenothiazines and Benzothiazines Synthesis and Activities",
-      "value": 5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12347",
-      "display_name": "Ginger and Zingiberaceae research",
-      "value": 4.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10375",
-      "display_name": "Pharmacogenetics and Drug Metabolism",
-      "value": 4.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13105",
       "display_name": "Synthesis and pharmacology of benzodiazepine derivatives",
-      "value": 4.54e-05,
+      "value": 4.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1605",
         "display_name": "Organic Chemistry"
@@ -918,7 +788,7 @@
     {
       "id": "https://openalex.org/T12914",
       "display_name": "Infectious Disease Case Reports and Treatments",
-      "value": 4.3e-05,
+      "value": 4.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -933,43 +803,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14275",
-      "display_name": "Historical Medical Research and Treatments",
-      "value": 4.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11815",
-      "display_name": "Urological Disorders and Treatments",
-      "value": 4.16e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2748",
-        "display_name": "Urology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10449",
       "display_name": "Renal cell carcinoma treatment",
-      "value": 4.14e-05,
+      "value": 4.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -984,26 +820,196 @@
       }
     },
     {
-      "id": "https://openalex.org/T12318",
-      "display_name": "Quinazolinone synthesis and applications",
-      "value": 4.09e-05,
+      "id": "https://openalex.org/T10256",
+      "display_name": "Drug Solubulity and Delivery Systems",
+      "value": 3.85e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11815",
+      "display_name": "Urological Disorders and Treatments",
+      "value": 3.75e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2748",
+        "display_name": "Urology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12666",
+      "display_name": "Historical Psychiatry and Medical Practices",
+      "value": 3.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12708",
+      "display_name": "Economic and Financial Impacts of Cancer",
+      "value": 3.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11146",
+      "display_name": "Hormonal and reproductive studies",
+      "value": 2.87e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12049",
+      "display_name": "Tuberous Sclerosis Complex Research",
+      "value": 2.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10124",
+      "display_name": "Prostate Cancer Diagnosis and Treatment",
+      "value": 2.58e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12059",
+      "display_name": "Berberine and alkaloids research",
+      "value": 2.58e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12580",
+      "display_name": "Vagus Nerve Stimulation Research",
+      "value": 2.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11036",
+      "display_name": "Antibiotics Pharmacokinetics and Efficacy",
+      "value": 2.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12625",
+      "display_name": "Sympathectomy and Hyperhidrosis Treatments",
+      "value": 2.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210101799",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-10-01T06:00:02",
   "created_date": "2022-02-02T04:48:36"
 }

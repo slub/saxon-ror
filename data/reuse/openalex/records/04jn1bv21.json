@@ -21,11 +21,11 @@
   ],
   "repositories": [],
   "works_count": 17,
-  "cited_by_count": 100,
+  "cited_by_count": 86,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 6,
-    "i10_index": 3
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4405260981",
@@ -48,7 +48,7 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
+      "works_count": 3,
       "oa_works_count": 2,
       "cited_by_count": 0
     },
@@ -60,7 +60,7 @@
     },
     {
       "year": 2024,
-      "works_count": 2,
+      "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
     },
@@ -338,17 +338,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10653",
-      "display_name": "Robot Manipulation and Learning",
+      "id": "https://openalex.org/T10812",
+      "display_name": "Human Pose and Action Recognition",
       "count": 1,
-      "score": 0.9761999845504761,
+      "score": 0.8179000020027161,
       "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -392,17 +392,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11159",
-      "display_name": "Manufacturing Process and Optimization",
+      "id": "https://openalex.org/T11398",
+      "display_name": "Hand Gesture Recognition Systems",
       "count": 1,
-      "score": 0.9686999917030334,
+      "score": 0.01640000008046627,
       "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -464,24 +464,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11814",
-      "display_name": "Advanced Manufacturing and Logistics Optimization",
-      "count": 1,
-      "score": 0.9983000159263611,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12028",
       "display_name": "Knowledge Management and Sharing",
       "count": 1,
@@ -497,6 +479,24 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12290",
+      "display_name": "Human Motion and Animation",
+      "count": 1,
+      "score": 0.11739999800920486,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -558,7 +558,7 @@
     {
       "id": "https://openalex.org/T13423",
       "display_name": "Social Policies and Healthcare Reform",
-      "value": 0.0001711,
+      "value": 0.0001929,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -575,7 +575,7 @@
     {
       "id": "https://openalex.org/T14389",
       "display_name": "Innovation, Technology, and Society",
-      "value": 0.0001383,
+      "value": 0.0001549,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -590,26 +590,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14401",
-      "display_name": "Technology, Environment, Urban Planning",
-      "value": 8.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 8.17e-05,
+      "value": 9.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -624,9 +607,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14401",
+      "display_name": "Technology, Environment, Urban Planning",
+      "value": 8.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11114",
       "display_name": "Service and Product Innovation",
-      "value": 7.77e-05,
+      "value": 7.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -643,7 +643,7 @@
     {
       "id": "https://openalex.org/T13648",
       "display_name": "Cerebrovascular and genetic disorders",
-      "value": 3.87e-05,
+      "value": 3.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -660,7 +660,7 @@
     {
       "id": "https://openalex.org/T13546",
       "display_name": "Census and Population Estimation",
-      "value": 3.68e-05,
+      "value": 3.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -677,7 +677,7 @@
     {
       "id": "https://openalex.org/T14147",
       "display_name": "Innovative Approaches in Technology and Social Development",
-      "value": 3.4e-05,
+      "value": 3.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -694,7 +694,7 @@
     {
       "id": "https://openalex.org/T14201",
       "display_name": "Data Analysis and Archiving",
-      "value": 3.03e-05,
+      "value": 3.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -709,9 +709,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13986",
+      "display_name": "Medical Practices and Rehabilitation",
+      "value": 2.46e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12016",
       "display_name": "Web Data Mining and Analysis",
-      "value": 2.28e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -726,20 +743,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T13986",
-      "display_name": "Medical Practices and Rehabilitation",
-      "value": 2.09e-05,
+      "id": "https://openalex.org/T12290",
+      "display_name": "Human Motion and Animation",
+      "value": 2.12e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3612",
-        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -760,29 +777,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11550",
-      "display_name": "Text and Document Classification Technologies",
-      "value": 1.32e-05,
+      "id": "https://openalex.org/T11398",
+      "display_name": "Hand Gesture Recognition Systems",
+      "value": 1.31e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11644",
-      "display_name": "Spam and Phishing Detection",
-      "value": 1.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -796,7 +796,7 @@
     {
       "id": "https://openalex.org/T12720",
       "display_name": "Multimedia Communication and Technology",
-      "value": 1.28e-05,
+      "value": 1.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -825,6 +825,40 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11550",
+      "display_name": "Text and Document Classification Technologies",
+      "value": 1.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11644",
+      "display_name": "Spam and Phishing Detection",
+      "value": 1.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -879,29 +913,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10653",
-      "display_name": "Robot Manipulation and Learning",
-      "value": 9.3e-06,
+      "id": "https://openalex.org/T10812",
+      "display_name": "Human Pose and Action Recognition",
+      "value": 9.1e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13083",
-      "display_name": "Advanced Text Analysis Techniques",
-      "value": 9.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -930,6 +947,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T13083",
+      "display_name": "Advanced Text Analysis Techniques",
+      "value": 8.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10609",
       "display_name": "Digital Marketing and Social Media",
       "value": 8.7e-06,
@@ -945,45 +979,11 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11814",
-      "display_name": "Advanced Manufacturing and Logistics Optimization",
-      "value": 7.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10154",
-      "display_name": "Customer Service Quality and Loyalty",
-      "value": 6.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405260981",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2026-01-21T21:21:40"
 }

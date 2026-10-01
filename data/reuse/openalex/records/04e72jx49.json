@@ -19,12 +19,12 @@
     "Center for Interdisciplinary Digital Sciences"
   ],
   "repositories": [],
-  "works_count": 103,
-  "cited_by_count": 416,
+  "works_count": 105,
+  "cited_by_count": 654,
   "summary_stats": {
-    "2yr_mean_citedness": 2.311111111111111,
-    "h_index": 10,
-    "i10_index": 10
+    "2yr_mean_citedness": 2.3,
+    "h_index": 12,
+    "i10_index": 12
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272610",
@@ -64,34 +64,40 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 24,
+      "works_count": 25,
       "oa_works_count": 23,
       "cited_by_count": 11
     },
     {
       "year": 2025,
-      "works_count": 43,
-      "oa_works_count": 38,
-      "cited_by_count": 75
+      "works_count": 44,
+      "oa_works_count": 40,
+      "cited_by_count": 76
     },
     {
       "year": 2024,
-      "works_count": 35,
+      "works_count": 34,
       "oa_works_count": 26,
-      "cited_by_count": 125
+      "cited_by_count": 124
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
+    },
+    {
+      "year": 2013,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 120
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272610",
-      "works_count": 103
+      "works_count": 105
     }
   ],
   "topics": [
@@ -135,7 +141,7 @@
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
       "count": 13,
-      "score": 0.9940999746322632,
+      "score": 0.9925000071525574,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -366,6 +372,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11710",
+      "display_name": "Biomedical Text Mining and Ontologies",
+      "count": 3,
+      "score": 0.1014999970793724,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12859",
       "display_name": "Cell Image Analysis Techniques",
       "count": 3,
@@ -526,31 +550,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10621",
-      "display_name": "Gene Regulatory Network Analysis",
-      "count": 2,
-      "score": 0.13950000703334808,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T14431",
       "display_name": "Diverse Research and Applications",
-      "value": 0.0001752,
+      "value": 0.0001918,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -567,7 +573,7 @@
     {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "value": 7.95e-05,
+      "value": 8.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -584,7 +590,7 @@
     {
       "id": "https://openalex.org/T11829",
       "display_name": "Mathematical Biology Tumor Growth",
-      "value": 7.38e-05,
+      "value": 7.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2611",
         "display_name": "Modeling and Simulation"
@@ -599,26 +605,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14067",
-      "display_name": "Cloud Computing and Remote Desktop Technologies",
-      "value": 6.58e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14508",
       "display_name": "Vocational Education and Training",
-      "value": 6.51e-05,
+      "value": 6.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -633,9 +622,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14067",
+      "display_name": "Cloud Computing and Remote Desktop Technologies",
+      "value": 6.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13500",
       "display_name": "Probability and Statistical Research",
-      "value": 6.12e-05,
+      "value": 6.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -652,7 +658,7 @@
     {
       "id": "https://openalex.org/T14201",
       "display_name": "Data Analysis and Archiving",
-      "value": 6.06e-05,
+      "value": 6.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -669,7 +675,7 @@
     {
       "id": "https://openalex.org/T11181",
       "display_name": "Advanced Data Storage Technologies",
-      "value": 5.83e-05,
+      "value": 5.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -686,7 +692,7 @@
     {
       "id": "https://openalex.org/T12478",
       "display_name": "Wikis in Education and Collaboration",
-      "value": 5.76e-05,
+      "value": 5.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3315",
         "display_name": "Communication"
@@ -703,7 +709,7 @@
     {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "value": 5.63e-05,
+      "value": 5.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -720,7 +726,7 @@
     {
       "id": "https://openalex.org/T11839",
       "display_name": "Hormonal Regulation and Hypertension",
-      "value": 5.38e-05,
+      "value": 5.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -737,7 +743,7 @@
     {
       "id": "https://openalex.org/T11001",
       "display_name": "Renin-Angiotensin System Studies",
-      "value": 5.2e-05,
+      "value": 5.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -754,7 +760,7 @@
     {
       "id": "https://openalex.org/T12421",
       "display_name": "Adrenal Hormones and Disorders",
-      "value": 4.98e-05,
+      "value": 5.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -771,7 +777,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "value": 4.79e-05,
+      "value": 4.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -786,26 +792,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14320",
-      "display_name": "Optics and Image Analysis",
-      "value": 3.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11054",
       "display_name": "Adrenal and Paraganglionic Tumors",
-      "value": 3.93e-05,
+      "value": 4.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -817,6 +806,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12885",
+      "display_name": "Digital Innovation in Industries",
+      "value": 3.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -839,7 +845,7 @@
     {
       "id": "https://openalex.org/T13775",
       "display_name": "Hydrogen's biological and therapeutic effects",
-      "value": 3.56e-05,
+      "value": 3.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -851,6 +857,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12813",
+      "display_name": "Plant and Biological Electrophysiology Studies",
+      "value": 3.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -871,20 +894,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "value": 3.27e-05,
+      "id": "https://openalex.org/T14164",
+      "display_name": "Marine and Offshore Engineering Studies",
+      "value": 3.28e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -905,26 +928,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14164",
-      "display_name": "Marine and Offshore Engineering Studies",
-      "value": 3.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10888",
       "display_name": "Augmented Reality Applications",
-      "value": 2.98e-05,
+      "value": 2.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -941,7 +947,7 @@
     {
       "id": "https://openalex.org/T12127",
       "display_name": "Software System Performance and Reliability",
-      "value": 2.89e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -958,7 +964,7 @@
     {
       "id": "https://openalex.org/T11693",
       "display_name": "Cryptography and Residue Arithmetic",
-      "value": 2.8e-05,
+      "value": 2.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -976,6 +982,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272610",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-10-01T06:00:02",
   "created_date": "2026-07-22T03:30:22"
 }

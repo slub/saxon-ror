@@ -18,11 +18,11 @@
     "Landesamt für Denkmalpflege Sachsen"
   ],
   "repositories": [],
-  "works_count": 18,
-  "cited_by_count": 18,
+  "works_count": 16,
+  "cited_by_count": 20,
   "summary_stats": {
-    "2yr_mean_citedness": 0.42857142857142855,
-    "h_index": 1,
+    "2yr_mean_citedness": 0.0,
+    "h_index": 3,
     "i10_index": 1
   },
   "ids": {
@@ -53,13 +53,13 @@
     {
       "year": 2025,
       "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 1
+      "oa_works_count": 2,
+      "cited_by_count": 0
     },
     {
       "year": 2024,
-      "works_count": 1,
-      "oa_works_count": 0,
+      "works_count": 2,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
@@ -88,24 +88,12 @@
     },
     {
       "year": 2019,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2017,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 0
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 3
     },
     {
       "year": 2016,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2012,
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 0
@@ -115,32 +103,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210156048",
-      "works_count": 18
+      "works_count": 16
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "count": 4,
-      "score": 0.9984999895095825,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "count": 3,
+      "count": 5,
       "score": 0.988099992275238,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
@@ -153,6 +123,42 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "count": 4,
+      "score": 0.9014999866485596,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13394",
+      "display_name": "Ecology, Conservation, and Geographical Studies",
+      "count": 3,
+      "score": 0.9593999981880188,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -210,6 +216,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "count": 2,
+      "score": 0.0674000009894371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12981",
       "display_name": "Conservation Techniques and Studies",
       "count": 2,
@@ -225,24 +249,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "count": 2,
-      "score": 0.9014999866485596,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -282,78 +288,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
-      "count": 1,
-      "score": 0.1876000016927719,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10368",
-      "display_name": "Dental Health and Care Utilization",
-      "count": 1,
-      "score": 0.9430999755859375,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3506",
-        "display_name": "Periodontics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10979",
-      "display_name": "Breastfeeding Practices and Influences",
-      "count": 1,
-      "score": 0.8840000033378601,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11141",
-      "display_name": "Childhood Cancer Survivors' Quality of Life",
-      "count": 1,
-      "score": 0.9871000051498413,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11643",
       "display_name": "Building materials and conservation",
       "count": 1,
@@ -390,6 +324,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12364",
+      "display_name": "Archaeological Research and Protection",
+      "count": 1,
+      "score": 0.027499999850988388,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1912",
+        "display_name": "Space and Planetary Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12565",
       "display_name": "Physics and Engineering Research Articles",
       "count": 1,
@@ -405,42 +357,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12575",
-      "display_name": "Medical History and Research",
-      "count": 1,
-      "score": 0.9574999809265137,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12927",
-      "display_name": "Memory, History, Trauma, Identity",
-      "count": 1,
-      "score": 0.0674000009894371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -480,6 +396,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
+      "count": 1,
+      "score": 0.9107000231742859,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13212",
       "display_name": "German Social Sciences and History",
       "count": 1,
@@ -498,117 +432,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13275",
-      "display_name": "Medical and Health Sciences Research",
+      "id": "https://openalex.org/T13339",
+      "display_name": "Landscape and Cultural Studies",
       "count": 1,
-      "score": 0.9768999814987183,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13360",
-      "display_name": "Economic and Social Issues",
-      "count": 1,
-      "score": 0.026100000366568565,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13393",
-      "display_name": "Child Nutrition and Feeding Issues",
-      "count": 1,
-      "score": 0.7921000123023987,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13394",
-      "display_name": "Ecology, Conservation, and Geographical Studies",
-      "count": 1,
-      "score": 0.9593999981880188,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2309",
-        "display_name": "Nature and Landscape Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T14481",
-      "display_name": "Renewable Energy and Sustainability",
-      "value": 0.0001244,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14193",
-      "display_name": "Literature and Cultural Memory",
-      "value": 8.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14388",
-      "display_name": "Medieval European History and Architecture",
-      "value": 6.56e-05,
+      "score": 0.04190000146627426,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -623,26 +450,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "value": 5.23e-05,
+      "id": "https://openalex.org/T14059",
+      "display_name": "Nietzsche, Schopenhauer, and Hegel",
+      "count": 1,
+      "score": 0.016100000590085983,
       "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12632",
-      "display_name": "Visual Culture and Art Theory",
-      "value": 5.11e-05,
+      "id": "https://openalex.org/T14322",
+      "display_name": "Art, Aesthetics, and Perception",
+      "count": 1,
+      "score": 0.9697999954223633,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -657,26 +486,183 @@
       }
     },
     {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "value": 4.83e-05,
+      "id": "https://openalex.org/T14339",
+      "display_name": "Image Processing and 3D Reconstruction",
+      "count": 1,
+      "score": 0.9140999913215637,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "count": 1,
+      "score": 0.19529999792575836,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T14481",
+      "display_name": "Renewable Energy and Sustainability",
+      "value": 0.0001314,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13711",
+      "display_name": "Environmental Science and Technology",
+      "value": 0.0001172,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14388",
+      "display_name": "Medieval European History and Architecture",
+      "value": 0.000111,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14193",
+      "display_name": "Literature and Cultural Memory",
+      "value": 9.43e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13394",
+      "display_name": "Ecology, Conservation, and Geographical Studies",
+      "value": 7.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "value": 6.79e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13339",
+      "display_name": "Landscape and Cultural Studies",
+      "value": 5.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12632",
+      "display_name": "Visual Culture and Art Theory",
+      "value": 5.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T14322",
       "display_name": "Art, Aesthetics, and Perception",
-      "value": 3.93e-05,
+      "value": 4.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -693,7 +679,7 @@
     {
       "id": "https://openalex.org/T12981",
       "display_name": "Conservation Techniques and Studies",
-      "value": 3.26e-05,
+      "value": 3.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -708,26 +694,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12927",
-      "display_name": "Memory, History, Trauma, Identity",
-      "value": 3.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 3.13e-05,
+      "id": "https://openalex.org/T13212",
+      "display_name": "German Social Sciences and History",
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -744,7 +713,7 @@
     {
       "id": "https://openalex.org/T13133",
       "display_name": "Architecture and Art History Studies",
-      "value": 2.89e-05,
+      "value": 2.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -759,77 +728,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13212",
-      "display_name": "German Social Sciences and History",
-      "value": 2.72e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13360",
-      "display_name": "Economic and Social Issues",
-      "value": 2.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14059",
-      "display_name": "Nietzsche, Schopenhauer, and Hegel",
-      "value": 2.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13394",
-      "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 2.35e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2309",
-        "display_name": "Nature and Landscape Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11893",
       "display_name": "German Literature and Culture Studies",
-      "value": 2.28e-05,
+      "value": 2.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -844,12 +745,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12575",
-      "display_name": "Medical History and Research",
-      "value": 2.1e-05,
+      "id": "https://openalex.org/T14059",
+      "display_name": "Nietzsche, Schopenhauer, and Hegel",
+      "value": 2.6e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -863,7 +764,7 @@
     {
       "id": "https://openalex.org/T11212",
       "display_name": "Cultural Heritage Materials Analysis",
-      "value": 2.08e-05,
+      "value": 2.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -875,6 +776,40 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
+      "value": 2.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13031",
+      "display_name": "Civil and Structural Engineering Research",
+      "value": 1.82e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -895,16 +830,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "value": 1.61e-05,
+      "id": "https://openalex.org/T12364",
+      "display_name": "Archaeological Research and Protection",
+      "value": 1.15e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/1912",
+        "display_name": "Space and Planetary Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -912,26 +847,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T13275",
-      "display_name": "Medical and Health Sciences Research",
-      "value": 1.37e-05,
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "value": 1.15e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11643",
       "display_name": "Building materials and conservation",
-      "value": 1.13e-05,
+      "value": 1.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1904",
         "display_name": "Earth-Surface Processes"
@@ -946,60 +881,43 @@
       }
     },
     {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
-      "value": 1.11e-05,
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "value": 9.3e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10979",
-      "display_name": "Breastfeeding Practices and Influences",
-      "value": 9.6e-06,
+      "id": "https://openalex.org/T14339",
+      "display_name": "Image Processing and 3D Reconstruction",
+      "value": 7.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13393",
-      "display_name": "Child Nutrition and Feeding Issues",
-      "value": 8.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210156048",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

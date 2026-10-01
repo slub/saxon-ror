@@ -16,12 +16,12 @@
     "Sächsisches Staatsarchiv"
   ],
   "repositories": [],
-  "works_count": 24,
-  "cited_by_count": 73,
+  "works_count": 23,
+  "cited_by_count": 4,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 2,
-    "i10_index": 1
+    "h_index": 1,
+    "i10_index": 0
   },
   "ids": {
     "openalex": "https://openalex.org/I4210108185",
@@ -43,9 +43,9 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2025,
+      "year": 2026,
       "works_count": 1,
-      "oa_works_count": 0,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
@@ -56,21 +56,21 @@
     },
     {
       "year": 2022,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 3,
+      "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
       "year": 2021,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 4,
+      "oa_works_count": 4,
       "cited_by_count": 1
     },
     {
       "year": 2020,
       "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 7
+      "oa_works_count": 2,
+      "cited_by_count": 0
     },
     {
       "year": 2019,
@@ -92,15 +92,9 @@
     },
     {
       "year": 2016,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2015,
       "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 61
+      "oa_works_count": 2,
+      "cited_by_count": 0
     },
     {
       "year": 2013,
@@ -113,14 +107,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210108185",
-      "works_count": 24
+      "works_count": 23
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T13556",
       "display_name": "Historical Influence and Diplomacy",
-      "count": 6,
+      "count": 8,
       "score": 0.9994000196456909,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
@@ -129,6 +123,24 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14388",
+      "display_name": "Medieval European History and Architecture",
+      "count": 4,
+      "score": 0.9574999809265137,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -172,31 +184,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T13459",
-      "display_name": "Public Administration and Political Analysis",
-      "count": 3,
-      "score": 0.9986000061035156,
+      "id": "https://openalex.org/T11657",
+      "display_name": "Digital and Traditional Archives Management",
+      "count": 2,
+      "score": 0.995199978351593,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14388",
-      "display_name": "Medieval European History and Architecture",
-      "count": 3,
-      "score": 0.9139999747276306,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "id": "https://openalex.org/subfields/1206",
+        "display_name": "Conservation"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -244,17 +238,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T13389",
-      "display_name": "German Economic Analysis & Policies",
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
       "count": 2,
-      "score": 0.9853000044822693,
+      "score": 0.9700999855995178,
       "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -280,35 +274,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
       "count": 2,
-      "score": 0.1103999987244606,
+      "score": 0.9886000156402588,
       "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14404",
-      "display_name": "European Socioeconomic and Political Studies",
-      "count": 2,
-      "score": 0.9769999980926514,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -316,10 +292,64 @@
       }
     },
     {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
+      "id": "https://openalex.org/T11462",
+      "display_name": "Museums and Cultural Heritage",
       "count": 1,
-      "score": 0.9570000171661377,
+      "score": 0.04619999974966049,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12364",
+      "display_name": "Archaeological Research and Protection",
+      "count": 1,
+      "score": 0.9779000282287598,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1912",
+        "display_name": "Space and Planetary Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12454",
+      "display_name": "European Political History Analysis",
+      "count": 1,
+      "score": 0.7103000283241272,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12686",
+      "display_name": "Central European national history",
+      "count": 1,
+      "score": 0.055399999022483826,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -334,154 +364,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10289",
-      "display_name": "European Union Policy and Governance",
+      "id": "https://openalex.org/T12797",
+      "display_name": "History of Computing Technologies",
       "count": 1,
-      "score": 0.033900000154972076,
+      "score": 0.13410000503063202,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10391",
-      "display_name": "Healthcare Policy and Management",
-      "count": 1,
-      "score": 0.9991999864578247,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10804",
-      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
-      "count": 1,
-      "score": 0.9923999905586243,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11421",
-      "display_name": "Labor Movements and Unions",
-      "count": 1,
-      "score": 0.7738000154495239,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3321",
-        "display_name": "Public Administration"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11657",
-      "display_name": "Digital and Traditional Archives Management",
-      "count": 1,
-      "score": 0.995199978351593,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1206",
-        "display_name": "Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12502",
-      "display_name": "Urbanization and City Planning",
-      "count": 1,
-      "score": 0.037300001829862595,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3322",
-        "display_name": "Urban Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12781",
-      "display_name": "Global Health Care Issues",
-      "count": 1,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "count": 1,
-      "score": 0.9692000150680542,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12954",
       "display_name": "Law and Political Science",
       "count": 1,
-      "score": 0.9569000005722046,
+      "score": 0.8130000233650208,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -496,21 +400,39 @@
       }
     },
     {
-      "id": "https://openalex.org/T13167",
-      "display_name": "Historical, Literary, and Cultural Studies",
+      "id": "https://openalex.org/T13099",
+      "display_name": "Health, Medicine and Society",
       "count": 1,
-      "score": 0.9124000072479248,
+      "score": 0.95660001039505,
       "subfield": {
-        "id": "https://openalex.org/subfields/1205",
-        "display_name": "Classics"
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13175",
+      "display_name": "Historical Astronomy and Related Studies",
+      "count": 1,
+      "score": 0.289900004863739,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -532,81 +454,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13360",
-      "display_name": "Economic and Social Issues",
+      "id": "https://openalex.org/T13459",
+      "display_name": "Public Administration and Political Analysis",
       "count": 1,
-      "score": 0.03819999843835831,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13364",
-      "display_name": "Digitalization, Law, and Regulation",
-      "count": 1,
-      "score": 0.9776999950408936,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T13389",
-      "display_name": "German Economic Analysis & Policies",
-      "value": 0.0001189,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13661",
-      "display_name": "Reformed Theology and Governance",
-      "value": 0.0001126,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13556",
-      "display_name": "Historical Influence and Diplomacy",
-      "value": 0.0001069,
+      "score": 0.6710000038146973,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -621,16 +472,125 @@
       }
     },
     {
-      "id": "https://openalex.org/T14404",
-      "display_name": "European Socioeconomic and Political Studies",
-      "value": 8.54e-05,
+      "id": "https://openalex.org/T13497",
+      "display_name": "Hermeneutics and Narrative Identity",
+      "count": 1,
+      "score": 0.9879000186920166,
       "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13695",
+      "display_name": "Aging, Elder Care, and Social Issues",
+      "count": 1,
+      "score": 0.9749000072479248,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13754",
+      "display_name": "Central European and Russian historical studies",
+      "count": 1,
+      "score": 0.28060001134872437,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13763",
+      "display_name": "Historical Legal Studies and Society",
+      "count": 1,
+      "score": 0.5903000235557556,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13854",
+      "display_name": "Historical Geography and Cartography",
+      "count": 1,
+      "score": 0.9570000171661377,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T14307",
+      "display_name": "Bioethics and Human Rights Issues",
+      "value": 0.0001535,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13556",
+      "display_name": "Historical Influence and Diplomacy",
+      "value": 0.0001472,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -640,7 +600,7 @@
     {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "value": 6.56e-05,
+      "value": 8.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -657,7 +617,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 5.75e-05,
+      "value": 6.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -665,40 +625,6 @@
       "field": {
         "id": "https://openalex.org/fields/12",
         "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13423",
-      "display_name": "Social Policies and Healthcare Reform",
-      "value": 5.7e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13459",
-      "display_name": "Public Administration and Political Analysis",
-      "value": 5.59e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -708,7 +634,7 @@
     {
       "id": "https://openalex.org/T12886",
       "display_name": "Historical and Cultural Studies of Poland",
-      "value": 5.43e-05,
+      "value": 5.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -723,26 +649,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "value": 5.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13787",
-      "display_name": "Globalization, Historical Perspectives, and International Relations",
-      "value": 4.9e-05,
+      "id": "https://openalex.org/T14167",
+      "display_name": "Consumer behavior in food and health",
+      "value": 5.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -757,12 +666,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12645",
-      "display_name": "European history and politics",
-      "value": 3.77e-05,
+      "id": "https://openalex.org/T11657",
+      "display_name": "Digital and Traditional Archives Management",
+      "value": 4.39e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1206",
+        "display_name": "Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12686",
+      "display_name": "Central European national history",
+      "value": 4.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -774,9 +700,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
+      "value": 4.14e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14321",
       "display_name": "Religion, Theology, and Education",
-      "value": 3.73e-05,
+      "value": 4.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -791,63 +734,46 @@
       }
     },
     {
+      "id": "https://openalex.org/T13754",
+      "display_name": "Central European and Russian historical studies",
+      "value": 3.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12645",
+      "display_name": "European history and politics",
+      "value": 3.89e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13763",
       "display_name": "Historical Legal Studies and Society",
-      "value": 3.65e-05,
+      "value": 3.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13364",
-      "display_name": "Digitalization, Law, and Regulation",
-      "value": 3.48e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13369",
-      "display_name": "European and Russian Geopolitical Military Strategies",
-      "value": 3.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13537",
-      "display_name": "German legal, social, and political studies",
-      "value": 3.13e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -861,7 +787,7 @@
     {
       "id": "https://openalex.org/T13212",
       "display_name": "German Social Sciences and History",
-      "value": 2.72e-05,
+      "value": 2.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -878,7 +804,7 @@
     {
       "id": "https://openalex.org/T12409",
       "display_name": "Reformation and Early Modern Christianity",
-      "value": 2.71e-05,
+      "value": 2.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -893,77 +819,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13360",
-      "display_name": "Economic and Social Issues",
-      "value": 2.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14330",
-      "display_name": "Library Science and Information Systems",
-      "value": 2.37e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13394",
-      "display_name": "Ecology, Conservation, and Geographical Studies",
-      "value": 2.35e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2309",
-        "display_name": "Nature and Landscape Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11657",
-      "display_name": "Digital and Traditional Archives Management",
-      "value": 2.19e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1206",
-        "display_name": "Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12954",
       "display_name": "Law and Political Science",
-      "value": 2.08e-05,
+      "value": 2.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -978,12 +836,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "value": 2.02e-05,
+      "id": "https://openalex.org/T14330",
+      "display_name": "Library Science and Information Systems",
+      "value": 2.36e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "value": 2.3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13459",
+      "display_name": "Public Administration and Political Analysis",
+      "value": 2.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -993,11 +885,113 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T13854",
+      "display_name": "Historical Geography and Cartography",
+      "value": 2.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11462",
+      "display_name": "Museums and Cultural Heritage",
+      "value": 1.94e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13175",
+      "display_name": "Historical Astronomy and Related Studies",
+      "value": 1.8e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12797",
+      "display_name": "History of Computing Technologies",
+      "value": 1.37e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12454",
+      "display_name": "European Political History Analysis",
+      "value": 1.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12364",
+      "display_name": "Archaeological Research and Protection",
+      "value": 1.15e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1912",
+        "display_name": "Space and Planetary Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210108185",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

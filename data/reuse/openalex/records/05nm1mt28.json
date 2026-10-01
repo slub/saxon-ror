@@ -18,12 +18,12 @@
     "DBI - Gastechnologisches Institut"
   ],
   "repositories": [],
-  "works_count": 18,
-  "cited_by_count": 562,
+  "works_count": 17,
+  "cited_by_count": 361,
   "summary_stats": {
-    "2yr_mean_citedness": 8.571428571428571,
-    "h_index": 14,
-    "i10_index": 16
+    "2yr_mean_citedness": 8.857142857142858,
+    "h_index": 11,
+    "i10_index": 11
   },
   "ids": {
     "openalex": "https://openalex.org/I4210153763",
@@ -60,19 +60,25 @@
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 24
+      "cited_by_count": 25
     },
     {
       "year": 2023,
-      "works_count": 2,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2022,
+      "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 4
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 35
+      "cited_by_count": 36
     },
     {
       "year": 2019,
@@ -83,20 +89,14 @@
     {
       "year": 2018,
       "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 18
+      "oa_works_count": 0,
+      "cited_by_count": 12
     },
     {
       "year": 2017,
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 3
-    },
-    {
-      "year": 2014,
-      "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 39
     },
     {
       "year": 2013,
@@ -121,7 +121,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210153763",
-      "works_count": 18
+      "works_count": 17
     }
   ],
   "topics": [
@@ -198,17 +198,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10001",
-      "display_name": "Geological and Geochemical Analysis",
-      "count": 2,
-      "score": 0.9060999751091003,
+      "id": "https://openalex.org/T11185",
+      "display_name": "Integrated Energy Systems Optimization",
+      "count": 3,
+      "score": 0.9941999912261963,
       "subfield": {
-        "id": "https://openalex.org/subfields/1908",
-        "display_name": "Geophysics"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -252,17 +252,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
+      "id": "https://openalex.org/T11007",
+      "display_name": "Hybrid Renewable Energy Systems",
       "count": 2,
-      "score": 0.9941999912261963,
+      "score": 0.9976000189781189,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2102",
+        "display_name": "Energy Engineering and Power Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -324,6 +324,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "count": 1,
+      "score": 0.0989999994635582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10030",
       "display_name": "Electrocatalysts for Energy Conversion",
       "count": 1,
@@ -349,24 +367,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10188",
-      "display_name": "Advanced machining processes and optimization",
-      "count": 1,
-      "score": 0.9883999824523926,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -450,78 +450,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10615",
-      "display_name": "Granular flow and fluidized beds",
-      "count": 1,
-      "score": 0.9781000018119812,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11007",
-      "display_name": "Hybrid Renewable Energy Systems",
-      "count": 1,
-      "score": 0.9976000189781189,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2102",
-        "display_name": "Energy Engineering and Power Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11073",
-      "display_name": "Metal Extraction and Bioleaching",
-      "count": 1,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11091",
-      "display_name": "Extraction and Separation Processes",
-      "count": 1,
-      "score": 0.9968000054359436,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11225",
       "display_name": "Geothermal Energy Systems and Applications",
       "count": 1,
@@ -533,24 +461,6 @@
       "field": {
         "id": "https://openalex.org/fields/21",
         "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11401",
-      "display_name": "Minerals Flotation and Separation Techniques",
-      "count": 1,
-      "score": 0.996399998664856,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2312",
-        "display_name": "Water Science and Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -574,13 +484,103 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11825",
+      "display_name": "Catalysis and Oxidation Reactions",
+      "count": 1,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1503",
+        "display_name": "Catalysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11854",
+      "display_name": "Laser-induced spectroscopy and plasma",
+      "count": 1,
+      "score": 0.9873999953269958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12129",
+      "display_name": "Global Energy Security and Policy",
+      "count": 1,
+      "score": 0.9919999837875366,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2100",
+        "display_name": "General Energy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12540",
+      "display_name": "Cyclone Separators and Fluid Dynamics",
+      "count": 1,
+      "score": 0.9753000140190125,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12579",
+      "display_name": "Muon and positron interactions and applications",
+      "count": 1,
+      "score": 0.9958000183105469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T14224",
       "display_name": "Oil, Gas, and Environmental Issues",
-      "value": 4.7e-05,
+      "value": 4.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -597,7 +597,7 @@
     {
       "id": "https://openalex.org/T11302",
       "display_name": "CO2 Sequestration and Geologic Interactions",
-      "value": 4.5e-05,
+      "value": 4.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -614,10 +614,27 @@
     {
       "id": "https://openalex.org/T12425",
       "display_name": "Industrial Gas Emission Control",
-      "value": 3.85e-05,
+      "value": 3.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11185",
+      "display_name": "Integrated Energy Systems Optimization",
+      "value": 3.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -648,7 +665,7 @@
     {
       "id": "https://openalex.org/T11362",
       "display_name": "Membrane Separation and Gas Transport",
-      "value": 2.64e-05,
+      "value": 2.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -665,7 +682,7 @@
     {
       "id": "https://openalex.org/T11802",
       "display_name": "Chemical Looping and Thermochemical Processes",
-      "value": 2.42e-05,
+      "value": 2.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -714,26 +731,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
-      "value": 2.07e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11225",
       "display_name": "Geothermal Energy Systems and Applications",
-      "value": 1.91e-05,
+      "value": 1.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -748,9 +748,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12129",
+      "display_name": "Global Energy Security and Policy",
+      "value": 1.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2100",
+        "display_name": "General Energy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10892",
       "display_name": "Drilling and Well Engineering",
-      "value": 1.71e-05,
+      "value": 1.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -767,7 +784,7 @@
     {
       "id": "https://openalex.org/T12540",
       "display_name": "Cyclone Separators and Fluid Dynamics",
-      "value": 1.67e-05,
+      "value": 1.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -782,9 +799,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11007",
+      "display_name": "Hybrid Renewable Energy Systems",
+      "value": 1.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2102",
+        "display_name": "Energy Engineering and Power Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11351",
       "display_name": "Catalysis and Hydrodesulfurization Studies",
-      "value": 1.53e-05,
+      "value": 1.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -801,7 +835,7 @@
     {
       "id": "https://openalex.org/T13443",
       "display_name": "Mineralogy and Gemology Studies",
-      "value": 1.48e-05,
+      "value": 1.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1906",
         "display_name": "Geochemistry and Petrology"
@@ -816,26 +850,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12482",
-      "display_name": "Tunneling and Rock Mechanics",
-      "value": 1.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10284",
       "display_name": "Anaerobic Digestion and Biogas Production",
-      "value": 1.3e-05,
+      "value": 1.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -850,26 +867,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10615",
-      "display_name": "Granular flow and fluidized beds",
-      "value": 1.07e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10635",
       "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-      "value": 9.5e-06,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -884,26 +884,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11073",
-      "display_name": "Metal Extraction and Bioleaching",
-      "value": 9.5e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13465",
       "display_name": "Graphite, nuclear technology, radiation studies",
-      "value": 9.3e-06,
+      "value": 9.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -911,23 +894,6 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11401",
-      "display_name": "Minerals Flotation and Separation Techniques",
-      "value": 9.1e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2312",
-        "display_name": "Water Science and Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -954,7 +920,7 @@
     {
       "id": "https://openalex.org/T12579",
       "display_name": "Muon and positron interactions and applications",
-      "value": 8.5e-06,
+      "value": 8.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -969,16 +935,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11007",
-      "display_name": "Hybrid Renewable Energy Systems",
-      "value": 8.4e-06,
+      "id": "https://openalex.org/T14257",
+      "display_name": "Advanced Measurement and Detection Methods",
+      "value": 8.3e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2102",
-        "display_name": "Energy Engineering and Power Technology"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -986,12 +952,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T14257",
-      "display_name": "Advanced Measurement and Detection Methods",
-      "value": 8.2e-06,
+      "id": "https://openalex.org/T10192",
+      "display_name": "Catalytic Processes in Materials Science",
+      "value": 7.5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13193",
+      "display_name": "Geological Studies and Exploration",
+      "value": 7.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11854",
+      "display_name": "Laser-induced spectroscopy and plasma",
+      "value": 6.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -1006,6 +1006,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210153763",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -17,7 +17,7 @@
     "Stiftung Datenschutz"
   ],
   "repositories": [],
-  "works_count": 1,
+  "works_count": 3,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -44,6 +44,18 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2020,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 0,
@@ -54,15 +66,51 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4387153374",
-      "works_count": 1
+      "works_count": 3
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11045",
       "display_name": "Privacy, Security, and Data Protection",
-      "count": 1,
-      "score": 0.09390000253915787,
+      "count": 2,
+      "score": 0.9559000134468079,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13364",
+      "display_name": "Digitalization, Law, and Regulation",
+      "count": 2,
+      "score": 0.9944999814033508,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "count": 2,
+      "score": 0.9307000041007996,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -95,10 +143,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T13364",
-      "display_name": "Digitalization, Law, and Regulation",
+      "id": "https://openalex.org/T12921",
+      "display_name": "European Criminal Justice and Data Protection",
       "count": 1,
-      "score": 0.4311999976634979,
+      "score": 0.04879999905824661,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14493",
+      "display_name": "Criminal Law and Evidence",
+      "count": 1,
+      "score": 0.1559000015258789,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -117,7 +183,58 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 3.48e-05,
+      "value": 7.99e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13376",
+      "display_name": "Criminal Law and Policy",
+      "value": 6.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11045",
+      "display_name": "Privacy, Security, and Data Protection",
+      "value": 2.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14493",
+      "display_name": "Criminal Law and Evidence",
+      "value": 2.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -134,7 +251,7 @@
     {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 1.63e-05,
+      "value": 1.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -149,12 +266,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11045",
-      "display_name": "Privacy, Security, and Data Protection",
-      "value": 1.27e-05,
+      "id": "https://openalex.org/T12921",
+      "display_name": "European Criminal Justice and Data Protection",
+      "value": 1.88e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -169,6 +286,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4387153374",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2023-09-29T19:15:43"
 }

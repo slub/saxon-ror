@@ -16,12 +16,12 @@
     "Hoppecke (Germany)"
   ],
   "repositories": [],
-  "works_count": 58,
-  "cited_by_count": 843,
+  "works_count": 60,
+  "cited_by_count": 875,
   "summary_stats": {
-    "2yr_mean_citedness": 1.4680851063829787,
+    "2yr_mean_citedness": 1.2285714285714286,
     "h_index": 17,
-    "i10_index": 24
+    "i10_index": 25
   },
   "ids": {
     "openalex": "https://openalex.org/I4210109096",
@@ -44,13 +44,13 @@
   "counts_by_year": [
     {
       "year": 2025,
-      "works_count": 13,
-      "oa_works_count": 1,
-      "cited_by_count": 8
+      "works_count": 11,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     },
     {
       "year": 2024,
-      "works_count": 7,
+      "works_count": 6,
       "oa_works_count": 2,
       "cited_by_count": 39
     },
@@ -113,14 +113,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210109096",
-      "works_count": 58
+      "works_count": 60
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10663",
       "display_name": "Advanced Battery Technologies Research",
-      "count": 39,
+      "count": 41,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
@@ -154,24 +154,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11091",
-      "display_name": "Extraction and Separation Processes",
-      "count": 11,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10281",
       "display_name": "Advanced Battery Materials and Technologies",
       "count": 10,
@@ -190,9 +172,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
+      "count": 9,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10768",
       "display_name": "Electric Vehicles and Infrastructure",
-      "count": 7,
+      "count": 6,
       "score": 0.9994000196456909,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -255,6 +255,24 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10811",
+      "display_name": "Hydrogen Storage and Materials",
+      "count": 3,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -370,24 +388,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10811",
-      "display_name": "Hydrogen Storage and Materials",
-      "count": 2,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12376",
       "display_name": "Corporate Management and Leadership",
       "count": 2,
@@ -478,24 +478,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10416",
-      "display_name": "Traumatic Brain Injury Research",
-      "count": 1,
-      "score": 0.8223999738693237,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10443",
       "display_name": "Social Policy and Reform Studies",
       "count": 1,
@@ -566,13 +548,31 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10511",
+      "display_name": "High voltage insulation and dielectric phenomena",
+      "count": 1,
+      "score": 0.9580000042915344,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10663",
       "display_name": "Advanced Battery Technologies Research",
-      "value": 0.0001403,
+      "value": 0.0001477,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -587,43 +587,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11091",
-      "display_name": "Extraction and Separation Processes",
-      "value": 5.72e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10768",
-      "display_name": "Electric Vehicles and Infrastructure",
-      "value": 5.69e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12376",
       "display_name": "Corporate Management and Leadership",
-      "value": 5.09e-05,
+      "value": 6.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -640,10 +606,44 @@
     {
       "id": "https://openalex.org/T10018",
       "display_name": "Advancements in Battery Materials",
-      "value": 4.93e-05,
+      "value": 4.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10768",
+      "display_name": "Electric Vehicles and Infrastructure",
+      "value": 4.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
+      "value": 4.7e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -657,7 +657,7 @@
     {
       "id": "https://openalex.org/T10281",
       "display_name": "Advanced Battery Materials and Technologies",
-      "value": 4.17e-05,
+      "value": 4.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -672,26 +672,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10808",
-      "display_name": "Electric and Hybrid Vehicle Technologies",
-      "value": 3.42e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 3.27e-05,
+      "value": 3.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -706,9 +689,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T10808",
+      "display_name": "Electric and Hybrid Vehicle Technologies",
+      "value": 3.46e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10811",
+      "display_name": "Hydrogen Storage and Materials",
+      "value": 3.37e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "value": 3.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11690",
       "display_name": "Advanced battery technologies research",
-      "value": 2.83e-05,
+      "value": 2.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -723,20 +757,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T14389",
-      "display_name": "Innovation, Technology, and Society",
-      "value": 2.77e-05,
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "value": 2.79e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -757,23 +791,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12565",
-      "display_name": "Physics and Engineering Research Articles",
-      "value": 2.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10409",
       "display_name": "Fuel Cells and Related Materials",
       "value": 2.27e-05,
@@ -784,23 +801,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10811",
-      "display_name": "Hydrogen Storage and Materials",
-      "value": 2.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -827,7 +827,7 @@
     {
       "id": "https://openalex.org/T12017",
       "display_name": "Recycling and Waste Management Techniques",
-      "value": 1.97e-05,
+      "value": 1.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -844,7 +844,7 @@
     {
       "id": "https://openalex.org/T13344",
       "display_name": "Industrial Automation and Control Systems",
-      "value": 1.93e-05,
+      "value": 1.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -856,6 +856,23 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10910",
+      "display_name": "Corporate Governance and Management",
+      "value": 1.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -878,7 +895,7 @@
     {
       "id": "https://openalex.org/T13023",
       "display_name": "Synthesis of Organic Compounds",
-      "value": 1.36e-05,
+      "value": 1.35e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -893,26 +910,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "value": 1.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11343",
       "display_name": "Power Transformer Diagnostics and Insulation",
-      "value": 1.31e-05,
+      "value": 1.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -927,9 +927,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10780",
+      "display_name": "Reliability and Maintenance Optimization",
+      "value": 1.32e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11499",
       "display_name": "ICT Impact and Policies",
-      "value": 1.22e-05,
+      "value": 1.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2214",
         "display_name": "Media Technology"
@@ -946,7 +963,7 @@
     {
       "id": "https://openalex.org/T10402",
       "display_name": "Phase Equilibria and Thermodynamics",
-      "value": 1.18e-05,
+      "value": 1.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -976,28 +993,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11664",
-      "display_name": "Fiber-reinforced polymer composites",
-      "value": 1.09e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210109096",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

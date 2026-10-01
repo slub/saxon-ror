@@ -17,12 +17,12 @@
     "Institut für innovative Technologien, Technologietransfer, Ausbildung und berufsbegleitende Weiterbildung"
   ],
   "repositories": [],
-  "works_count": 1,
-  "cited_by_count": 0,
+  "works_count": 10,
+  "cited_by_count": 118,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 0,
-    "i10_index": 0
+    "h_index": 5,
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4210098435",
@@ -48,21 +48,33 @@
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 0
+    },
+    {
+      "year": 2017,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2015,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210098435",
-      "works_count": 1
+      "works_count": 10
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "count": 1,
-      "score": 0.5533000230789185,
+      "count": 3,
+      "score": 0.9907000064849854,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -75,16 +87,646 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11138",
+      "display_name": "Tribology and Lubrication Engineering",
+      "count": 2,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11602",
+      "display_name": "Magnetic Bearings and Levitation Dynamics",
+      "count": 2,
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11749",
+      "display_name": "Iterative Learning Control Systems",
+      "count": 2,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "count": 2,
+      "score": 0.06260000169277191,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "count": 1,
+      "score": 0.9951000213623047,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10732",
+      "display_name": "Laser Material Processing Techniques",
+      "count": 1,
+      "score": 0.9966999888420105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 1,
+      "score": 0.9887999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11301",
+      "display_name": "Advanced Surface Polishing Techniques",
+      "count": 1,
+      "score": 0.9675999879837036,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11444",
+      "display_name": "Electromagnetic Compatibility and Noise Suppression",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11738",
+      "display_name": "Ultrasound in Clinical Applications",
+      "count": 1,
+      "score": 0.9851999878883362,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2706",
+        "display_name": "Critical Care and Intensive Care Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11854",
+      "display_name": "Laser-induced spectroscopy and plasma",
+      "count": 1,
+      "score": 0.9886000156402588,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12495",
+      "display_name": "Electrostatic Discharge in Electronics",
+      "count": 1,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
+      "count": 1,
+      "score": 0.05139999836683273,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13593",
+      "display_name": "Historical and Archaeological Studies",
+      "count": 1,
+      "score": 0.043800000101327896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14117",
+      "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
+      "count": 1,
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14296",
+      "display_name": "Climate Change and Sustainable Development",
+      "count": 1,
+      "score": 0.09399999678134918,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14335",
+      "display_name": "Educational Robotics and Engineering",
+      "count": 1,
+      "score": 0.042500000447034836,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14481",
+      "display_name": "Renewable Energy and Sustainability",
+      "count": 1,
+      "score": 0.30469998717308044,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T14481",
+      "display_name": "Renewable Energy and Sustainability",
+      "value": 6.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14296",
+      "display_name": "Climate Change and Sustainable Development",
+      "value": 5.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 1.49e-05,
+      "value": 5.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11749",
+      "display_name": "Iterative Learning Control Systems",
+      "value": 2.12e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13167",
+      "display_name": "Historical, Literary, and Cultural Studies",
+      "value": 2.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11602",
+      "display_name": "Magnetic Bearings and Levitation Dynamics",
+      "value": 2.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "value": 1.86e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11138",
+      "display_name": "Tribology and Lubrication Engineering",
+      "value": 1.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13593",
+      "display_name": "Historical and Archaeological Studies",
+      "value": 1.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12495",
+      "display_name": "Electrostatic Discharge in Electronics",
+      "value": 1.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11738",
+      "display_name": "Ultrasound in Clinical Applications",
+      "value": 1.28e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2706",
+        "display_name": "Critical Care and Intensive Care Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14335",
+      "display_name": "Educational Robotics and Engineering",
+      "value": 1.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10732",
+      "display_name": "Laser Material Processing Techniques",
+      "value": 9.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11444",
+      "display_name": "Electromagnetic Compatibility and Noise Suppression",
+      "value": 9.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "value": 7.6e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11854",
+      "display_name": "Laser-induced spectroscopy and plasma",
+      "value": 6.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14117",
+      "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
+      "value": 5.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "value": 5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11301",
+      "display_name": "Advanced Surface Polishing Techniques",
+      "value": 5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -99,6 +741,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210098435",
-  "updated_date": "2026-07-16T05:59:17",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }

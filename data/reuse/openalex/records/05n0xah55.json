@@ -16,12 +16,12 @@
     "Ev. Diakonissenkrankenhaus Leipzig"
   ],
   "repositories": [],
-  "works_count": 136,
-  "cited_by_count": 659,
+  "works_count": 130,
+  "cited_by_count": 1055,
   "summary_stats": {
-    "2yr_mean_citedness": 1.2608695652173914,
-    "h_index": 14,
-    "i10_index": 20
+    "2yr_mean_citedness": 2.5,
+    "h_index": 17,
+    "i10_index": 35
   },
   "ids": {
     "openalex": "https://openalex.org/I4210164556",
@@ -44,57 +44,63 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
+      "works_count": 4,
       "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
       "year": 2025,
-      "works_count": 9,
-      "oa_works_count": 8,
-      "cited_by_count": 17
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 15
     },
     {
       "year": 2024,
       "works_count": 3,
-      "oa_works_count": 1,
-      "cited_by_count": 6
+      "oa_works_count": 2,
+      "cited_by_count": 15
     },
     {
       "year": 2023,
-      "works_count": 6,
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2022,
+      "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 33
+      "cited_by_count": 20
     },
     {
       "year": 2021,
-      "works_count": 4,
-      "oa_works_count": 2,
-      "cited_by_count": 91
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 98
     },
     {
       "year": 2020,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 8
     },
     {
       "year": 2019,
-      "works_count": 8,
+      "works_count": 4,
       "oa_works_count": 1,
       "cited_by_count": 4
     },
     {
       "year": 2018,
-      "works_count": 16,
-      "oa_works_count": 0,
-      "cited_by_count": 13
+      "works_count": 14,
+      "oa_works_count": 1,
+      "cited_by_count": 64
     },
     {
       "year": 2017,
-      "works_count": 8,
-      "oa_works_count": 4,
-      "cited_by_count": 38
+      "works_count": 9,
+      "oa_works_count": 5,
+      "cited_by_count": 42
     },
     {
       "year": 2016,
@@ -104,49 +110,67 @@
     },
     {
       "year": 2015,
-      "works_count": 7,
-      "oa_works_count": 2,
-      "cited_by_count": 84
+      "works_count": 8,
+      "oa_works_count": 3,
+      "cited_by_count": 94
     },
     {
       "year": 2014,
       "works_count": 7,
-      "oa_works_count": 1,
-      "cited_by_count": 31
+      "oa_works_count": 2,
+      "cited_by_count": 60
     },
     {
       "year": 2013,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 34
+      "cited_by_count": 33
     },
     {
       "year": 2012,
-      "works_count": 1,
+      "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 38
+      "cited_by_count": 77
     },
     {
       "year": 2011,
-      "works_count": 2,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 13
     },
     {
       "year": 2010,
-      "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 50
+      "works_count": 5,
+      "oa_works_count": 1,
+      "cited_by_count": 71
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210164556",
-      "works_count": 136
+      "works_count": 130
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10417",
+      "display_name": "Lung Cancer Treatments and Mutations",
+      "count": 14,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
@@ -184,13 +208,49 @@
       }
     },
     {
-      "id": "https://openalex.org/T10417",
-      "display_name": "Lung Cancer Treatments and Mutations",
-      "count": 11,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T11067",
+      "display_name": "Colorectal Cancer Treatments and Studies",
+      "count": 9,
+      "score": 0.9998000264167786,
       "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12930",
+      "display_name": "Biomedical and Chemical Research",
+      "count": 9,
+      "score": 0.9657999873161316,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10335",
+      "display_name": "Colorectal Cancer Surgical Treatments",
+      "count": 8,
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -220,13 +280,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12930",
-      "display_name": "Biomedical and Chemical Research",
-      "count": 8,
-      "score": 0.968500018119812,
+      "id": "https://openalex.org/T10158",
+      "display_name": "Cancer Immunotherapy and Biomarkers",
+      "count": 7,
+      "score": 0.9984999895095825,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -235,24 +295,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10362",
-      "display_name": "Biblical Studies and Interpretation",
-      "count": 7,
-      "score": 0.9843000173568726,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -292,24 +334,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10158",
-      "display_name": "Cancer Immunotherapy and Biomarkers",
-      "count": 6,
-      "score": 0.9984999895095825,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11930",
       "display_name": "Cardiac, Anesthesia and Surgical Outcomes",
       "count": 6,
@@ -325,6 +349,42 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10150",
+      "display_name": "Antifungal resistance and susceptibility",
+      "count": 5,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "count": 5,
+      "score": 0.9740999937057495,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -364,13 +424,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T10816",
-      "display_name": "Cerebrovascular and Carotid Artery Diseases",
-      "count": 4,
-      "score": 0.9979000091552734,
+      "id": "https://openalex.org/T13022",
+      "display_name": "Health and Medical Studies",
+      "count": 5,
+      "score": 0.9732000231742859,
       "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "count": 4,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -418,13 +496,67 @@
       }
     },
     {
-      "id": "https://openalex.org/T10150",
-      "display_name": "Antifungal resistance and susceptibility",
-      "count": 3,
-      "score": 0.9959999918937683,
+      "id": "https://openalex.org/T12418",
+      "display_name": "Respiratory and Cough-Related Research",
+      "count": 4,
+      "score": 0.9883000254631042,
       "subfield": {
-        "id": "https://openalex.org/subfields/2725",
-        "display_name": "Infectious Diseases"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10031",
+      "display_name": "T-cell and B-cell Immunology",
+      "count": 3,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10580",
+      "display_name": "Immunotherapy and Immune Responses",
+      "count": 3,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10696",
+      "display_name": "Gastric Cancer Management and Outcomes",
+      "count": 3,
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -470,139 +602,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11260",
-      "display_name": "Tracheal and airway disorders",
-      "count": 3,
-      "score": 0.9955999851226807,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12418",
-      "display_name": "Respiratory and Cough-Related Research",
-      "count": 3,
-      "score": 0.9800000190734863,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12796",
-      "display_name": "Dermatological and COVID-19 studies",
-      "count": 3,
-      "score": 0.9970999956130981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "count": 3,
-      "score": 0.9732000231742859,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13370",
-      "display_name": "Diverse Scientific and Economic Studies",
-      "count": 3,
-      "score": 0.05130000039935112,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10134",
-      "display_name": "Inflammatory Bowel Disease",
-      "count": 2,
-      "score": 0.9936000108718872,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10177",
-      "display_name": "Palliative Care and End-of-Life Issues",
-      "count": 2,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13986",
       "display_name": "Medical Practices and Rehabilitation",
-      "value": 0.0002512,
+      "value": 0.0002955,
       "subfield": {
         "id": "https://openalex.org/subfields/3612",
         "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
@@ -619,61 +625,10 @@
     {
       "id": "https://openalex.org/T13275",
       "display_name": "Medical and Health Sciences Research",
-      "value": 9.62e-05,
+      "value": 0.000118,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12664",
-      "display_name": "Clinical practice guidelines implementation",
-      "value": 8.65e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14275",
-      "display_name": "Historical Medical Research and Treatments",
-      "value": 8.56e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12731",
-      "display_name": "Hidradenitis Suppurativa and Treatments",
-      "value": 8.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -687,7 +642,7 @@
     {
       "id": "https://openalex.org/T12930",
       "display_name": "Biomedical and Chemical Research",
-      "value": 7.95e-05,
+      "value": 0.0001016,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -702,9 +657,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T14275",
+      "display_name": "Historical Medical Research and Treatments",
+      "value": 9.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12664",
+      "display_name": "Clinical practice guidelines implementation",
+      "value": 9.08e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13962",
       "display_name": "Omental and Epiploic Conditions",
-      "value": 7.47e-05,
+      "value": 7.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -719,12 +708,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T12796",
-      "display_name": "Dermatological and COVID-19 studies",
-      "value": 6.78e-05,
+      "id": "https://openalex.org/T11067",
+      "display_name": "Colorectal Cancer Treatments and Studies",
+      "value": 7.32e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13022",
+      "display_name": "Health and Medical Studies",
+      "value": 6.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10417",
+      "display_name": "Lung Cancer Treatments and Mutations",
+      "value": 6.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -738,10 +761,44 @@
     {
       "id": "https://openalex.org/T12992",
       "display_name": "Metastasis and carcinoma case studies",
-      "value": 6.64e-05,
+      "value": 6.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13389",
+      "display_name": "German Economic Analysis & Policies",
+      "value": 6.49e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10335",
+      "display_name": "Colorectal Cancer Surgical Treatments",
+      "value": 6.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -755,58 +812,7 @@
     {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
-      "value": 5.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10362",
-      "display_name": "Biblical Studies and Interpretation",
-      "value": 5.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13887",
-      "display_name": "Augustinian Studies and Theology",
-      "value": 5.76e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10417",
-      "display_name": "Lung Cancer Treatments and Mutations",
-      "value": 5.41e-05,
+      "value": 5.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -823,7 +829,7 @@
     {
       "id": "https://openalex.org/T13314",
       "display_name": "Lymphadenopathy Diagnosis and Analysis",
-      "value": 5.14e-05,
+      "value": 5.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -838,43 +844,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13005",
-      "display_name": "Religious Studies and Spiritual Practices",
-      "value": 4.63e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10915",
-      "display_name": "Trace Elements in Health",
-      "value": 4.57e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2916",
-        "display_name": "Nutrition and Dietetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/29",
-        "display_name": "Nursing"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11356",
       "display_name": "Pleural and Pulmonary Diseases",
-      "value": 4.48e-05,
+      "value": 4.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -889,33 +861,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13178",
-      "display_name": "Theology and Canon Law Studies",
-      "value": 4.03e-05,
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "value": 4.61e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12453",
-      "display_name": "Infectious Aortic and Vascular Conditions",
-      "value": 3.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -923,26 +878,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13313",
-      "display_name": "Dupuytren's Contracture and Treatments",
-      "value": 3.85e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11553",
-      "display_name": "Acne and Rosacea Treatments and Effects",
-      "value": 3.75e-05,
+      "id": "https://openalex.org/T12731",
+      "display_name": "Hidradenitis Suppurativa and Treatments",
+      "value": 4.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -957,33 +895,67 @@
       }
     },
     {
-      "id": "https://openalex.org/T14321",
-      "display_name": "Religion, Theology, and Education",
-      "value": 3.73e-05,
+      "id": "https://openalex.org/T12453",
+      "display_name": "Infectious Aortic and Vascular Conditions",
+      "value": 3.99e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13022",
-      "display_name": "Health and Medical Studies",
-      "value": 3.62e-05,
+      "id": "https://openalex.org/T12291",
+      "display_name": "Pericarditis and Cardiac Tamponade",
+      "value": 3.89e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13328",
+      "display_name": "Osteomyelitis and Bone Disorders Research",
+      "value": 3.81e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10150",
+      "display_name": "Antifungal resistance and susceptibility",
+      "value": 3.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -993,7 +965,7 @@
     {
       "id": "https://openalex.org/T12211",
       "display_name": "Aluminum toxicity and tolerance in plants and animals",
-      "value": 3.54e-05,
+      "value": 3.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -1008,26 +980,60 @@
       }
     },
     {
-      "id": "https://openalex.org/T13277",
-      "display_name": "Media, Religion, Digital Communication",
-      "value": 3.29e-05,
+      "id": "https://openalex.org/T12418",
+      "display_name": "Respiratory and Cough-Related Research",
+      "value": 3.56e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "value": 3.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12064",
+      "display_name": "Intraperitoneal and Appendiceal Malignancies",
+      "value": 3.14e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210164556",
-  "updated_date": "2026-09-24T05:59:41",
+  "updated_date": "2026-09-30T05:58:29",
   "created_date": "2022-02-02T04:48:36"
 }

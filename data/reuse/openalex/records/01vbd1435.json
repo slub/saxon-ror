@@ -16,10 +16,10 @@
     "Fachhochschule Dresden"
   ],
   "repositories": [],
-  "works_count": 53,
-  "cited_by_count": 224,
+  "works_count": 66,
+  "cited_by_count": 253,
   "summary_stats": {
-    "2yr_mean_citedness": 3.1666666666666665,
+    "2yr_mean_citedness": 1.9333333333333333,
     "h_index": 7,
     "i10_index": 5
   },
@@ -44,39 +44,45 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 4,
+      "oa_works_count": 3,
       "cited_by_count": 0
     },
     {
+      "year": 2025,
+      "works_count": 3,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
       "year": 2024,
-      "works_count": 4,
+      "works_count": 5,
       "oa_works_count": 3,
       "cited_by_count": 19
     },
     {
       "year": 2023,
-      "works_count": 12,
-      "oa_works_count": 3,
-      "cited_by_count": 27
+      "works_count": 15,
+      "oa_works_count": 5,
+      "cited_by_count": 34
     },
     {
       "year": 2022,
-      "works_count": 18,
-      "oa_works_count": 5,
+      "works_count": 20,
+      "oa_works_count": 6,
       "cited_by_count": 135
     },
     {
       "year": 2021,
-      "works_count": 7,
-      "oa_works_count": 6,
-      "cited_by_count": 2
+      "works_count": 8,
+      "oa_works_count": 7,
+      "cited_by_count": 4
     },
     {
       "year": 2020,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 3
     },
     {
       "year": 2019,
@@ -101,14 +107,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4387152174",
-      "works_count": 53
+      "works_count": 66
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "count": 9,
+      "count": 10,
       "score": 0.9976000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
@@ -160,6 +166,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T12826",
+      "display_name": "Education Methods and Technologies",
+      "count": 5,
+      "score": 0.992900013923645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10731",
+      "display_name": "Educational Games and Gamification",
+      "count": 4,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11497",
       "display_name": "Interprofessional Education and Collaboration",
       "count": 4,
@@ -196,24 +238,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "count": 4,
-      "score": 0.992900013923645,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13423",
       "display_name": "Social Policies and Healthcare Reform",
       "count": 4,
@@ -229,6 +253,42 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14081",
+      "display_name": "Linguistic Education and Pedagogy",
+      "count": 4,
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10479",
+      "display_name": "Structural Behavior of Reinforced Concrete",
+      "count": 3,
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -268,6 +328,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T13149",
+      "display_name": "Organizational Change and Leadership",
+      "count": 3,
+      "score": 0.9930999875068665,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13276",
+      "display_name": "University-Industry-Government Innovation Models",
+      "count": 3,
+      "score": 0.9887999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13395",
       "display_name": "Education, Leadership, and Health Research",
       "count": 3,
@@ -279,24 +375,6 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "count": 3,
-      "score": 0.998199999332428,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -329,6 +407,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10344",
+      "display_name": "Management and Organizational Studies",
+      "count": 2,
+      "score": 0.9968000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -376,21 +472,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T10731",
-      "display_name": "Educational Games and Gamification",
+      "id": "https://openalex.org/T10687",
+      "display_name": "Innovative concrete reinforcement materials",
       "count": 2,
-      "score": 0.9998999834060669,
+      "score": 0.9962999820709229,
       "subfield": {
-        "id": "https://openalex.org/subfields/3204",
-        "display_name": "Developmental and Educational Psychology"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -405,6 +501,24 @@
       "field": {
         "id": "https://openalex.org/fields/32",
         "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11197",
+      "display_name": "Digital Games and Media",
+      "count": 2,
+      "score": 0.9908000230789185,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -446,121 +560,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12500",
-      "display_name": "Reflective Practices in Education",
-      "count": 2,
-      "score": 0.9898999929428101,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12930",
-      "display_name": "Biomedical and Chemical Research",
-      "count": 2,
-      "score": 0.019500000402331352,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13149",
-      "display_name": "Organizational Change and Leadership",
-      "count": 2,
-      "score": 0.9930999875068665,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13276",
-      "display_name": "University-Industry-Government Innovation Models",
-      "count": 2,
-      "score": 0.9887999892234802,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13347",
-      "display_name": "Christian Theology and Mission",
-      "count": 2,
-      "score": 0.991100013256073,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1212",
-        "display_name": "Religious studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13359",
-      "display_name": "Sports Science and Education",
-      "count": 2,
-      "score": 0.02419999986886978,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13423",
       "display_name": "Social Policies and Healthcare Reform",
-      "value": 0.0002282,
+      "value": 0.0002571,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -575,16 +581,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13395",
-      "display_name": "Education, Leadership, and Health Research",
-      "value": 0.0001976,
+      "id": "https://openalex.org/T13149",
+      "display_name": "Organizational Change and Leadership",
+      "value": 0.0002415,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -594,7 +600,7 @@
     {
       "id": "https://openalex.org/T14389",
       "display_name": "Innovation, Technology, and Society",
-      "value": 0.0001936,
+      "value": 0.0002169,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -609,9 +615,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13395",
+      "display_name": "Education, Leadership, and Health Research",
+      "value": 0.0001814,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11028",
       "display_name": "Social Work Education and Practice",
-      "value": 0.0001562,
+      "value": 0.0001585,
       "subfield": {
         "id": "https://openalex.org/subfields/3321",
         "display_name": "Public Administration"
@@ -626,26 +649,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13149",
-      "display_name": "Organizational Change and Leadership",
-      "value": 0.0001545,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "value": 0.0001,
+      "value": 0.0001259,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -660,9 +666,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12826",
+      "display_name": "Education Methods and Technologies",
+      "value": 0.0001071,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 9.18e-05,
+      "value": 0.000106,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -677,43 +700,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "value": 8.08e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "value": 7.63e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12753",
       "display_name": "Psychology, Coaching, and Therapy",
-      "value": 7.49e-05,
+      "value": 0.0001023,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -728,26 +717,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11806",
-      "display_name": "Service-Learning and Community Engagement",
-      "value": 7.19e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13803",
-      "display_name": "Organizational Strategy and Culture",
-      "value": 6.28e-05,
+      "id": "https://openalex.org/T12376",
+      "display_name": "Corporate Management and Leadership",
+      "value": 9.8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -764,7 +736,7 @@
     {
       "id": "https://openalex.org/T14081",
       "display_name": "Linguistic Education and Pedagogy",
-      "value": 6e-05,
+      "value": 8.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -779,9 +751,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T11806",
+      "display_name": "Service-Learning and Community Engagement",
+      "value": 7.22e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13406",
+      "display_name": "Human Resources and Workforce",
+      "value": 7.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13276",
+      "display_name": "University-Industry-Government Innovation Models",
+      "value": 6.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13376",
       "display_name": "Criminal Law and Policy",
-      "value": 5.77e-05,
+      "value": 6.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -796,9 +819,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13874",
+      "display_name": "Information Architecture and Usability",
+      "value": 6.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13803",
+      "display_name": "Organizational Strategy and Culture",
+      "value": 6.41e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13359",
       "display_name": "Sports Science and Education",
-      "value": 5.48e-05,
+      "value": 6.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -815,7 +872,7 @@
     {
       "id": "https://openalex.org/T14207",
       "display_name": "Higher Education Practises and Engagement",
-      "value": 5.46e-05,
+      "value": 5.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -832,7 +889,7 @@
     {
       "id": "https://openalex.org/T14031",
       "display_name": "Global and Cross-Cultural Management",
-      "value": 5.17e-05,
+      "value": 5.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -847,26 +904,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13276",
-      "display_name": "University-Industry-Government Innovation Models",
-      "value": 4.6e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11497",
       "display_name": "Interprofessional Education and Collaboration",
-      "value": 4.5e-05,
+      "value": 4.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -915,26 +955,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11696",
-      "display_name": "Conflict Management and Negotiation",
-      "value": 3.69e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13347",
       "display_name": "Christian Theology and Mission",
-      "value": 3.54e-05,
+      "value": 3.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -949,33 +972,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11040",
-      "display_name": "Personality Traits and Psychology",
-      "value": 3.43e-05,
+      "id": "https://openalex.org/T11696",
+      "display_name": "Conflict Management and Negotiation",
+      "value": 3.68e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
+        "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14464",
-      "display_name": "Community Development and Social Impact",
-      "value": 2.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -986,6 +992,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4387152174",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2023-09-29T19:15:43"
 }

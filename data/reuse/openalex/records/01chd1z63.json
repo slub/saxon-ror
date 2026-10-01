@@ -21,12 +21,12 @@
     "Key Safety Systems"
   ],
   "repositories": [],
-  "works_count": 24,
-  "cited_by_count": 298,
+  "works_count": 17,
+  "cited_by_count": 168,
   "summary_stats": {
-    "2yr_mean_citedness": 3.7777777777777777,
-    "h_index": 10,
-    "i10_index": 14
+    "2yr_mean_citedness": 3.090909090909091,
+    "h_index": 6,
+    "i10_index": 5
   },
   "ids": {
     "openalex": "https://openalex.org/I4210103260",
@@ -58,27 +58,21 @@
   "counts_by_year": [
     {
       "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 0,
-      "cited_by_count": 20
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 22
     },
     {
       "year": 2024,
-      "works_count": 3,
-      "oa_works_count": 1,
-      "cited_by_count": 14
-    },
-    {
-      "year": 2023,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 12
     },
     {
       "year": 2022,
-      "works_count": 4,
-      "oa_works_count": 3,
-      "cited_by_count": 27
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 7
     },
     {
       "year": 2021,
@@ -99,28 +93,46 @@
       "cited_by_count": 45
     },
     {
-      "year": 2011,
+      "year": 2016,
       "works_count": 1,
-      "oa_works_count": 0,
-      "cited_by_count": 10
+      "oa_works_count": 1,
+      "cited_by_count": 1
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210103260",
-      "works_count": 24
+      "works_count": 17
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T10370",
-      "display_name": "Traffic and Road Safety",
-      "count": 5,
-      "score": 0.9993000030517578,
+      "id": "https://openalex.org/T10860",
+      "display_name": "Speech and Audio Processing",
+      "count": 4,
+      "score": 0.9995999932289124,
       "subfield": {
-        "id": "https://openalex.org/subfields/2213",
-        "display_name": "Safety, Risk, Reliability and Quality"
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11099",
+      "display_name": "Autonomous Vehicle Technology and Safety",
+      "count": 4,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -132,13 +144,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11099",
-      "display_name": "Autonomous Vehicle Technology and Safety",
-      "count": 5,
-      "score": 0.9998000264167786,
+      "id": "https://openalex.org/T10370",
+      "display_name": "Traffic and Road Safety",
+      "count": 3,
+      "score": 0.9993000030517578,
       "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -168,13 +180,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T10860",
-      "display_name": "Speech and Audio Processing",
+      "id": "https://openalex.org/T11309",
+      "display_name": "Music and Audio Processing",
       "count": 3,
-      "score": 0.9995999932289124,
+      "score": 0.9998999834060669,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10201",
+      "display_name": "Speech Recognition and Synthesis",
+      "count": 2,
+      "score": 0.0364999994635582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -204,42 +234,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11242",
-      "display_name": "Nuclear Materials and Properties",
-      "count": 2,
-      "score": 0.9980999827384949,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11309",
-      "display_name": "Music and Audio Processing",
-      "count": 2,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1711",
-        "display_name": "Signal Processing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11487",
       "display_name": "Automotive and Human Injury Biomechanics",
       "count": 2,
@@ -255,60 +249,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12537",
-      "display_name": "Flow Measurement and Analysis",
-      "count": 2,
-      "score": 0.9975000023841858,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10047",
-      "display_name": "Financial Markets and Investment Strategies",
-      "count": 1,
-      "score": 0.9787999987602234,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10081",
-      "display_name": "Auditing, Earnings Management, Governance",
-      "count": 1,
-      "score": 0.9970999956130981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1402",
-        "display_name": "Accounting"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -348,17 +288,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10201",
-      "display_name": "Speech Recognition and Synthesis",
+      "id": "https://openalex.org/T10175",
+      "display_name": "Advanced DC-DC Converters",
       "count": 1,
-      "score": 0.0364999994635582,
+      "score": 0.9879999756813049,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -384,24 +324,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10298",
-      "display_name": "Urban Transport and Accessibility",
-      "count": 1,
-      "score": 0.9226999878883362,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10386",
       "display_name": "Microstructure and Mechanical Properties of Steels",
       "count": 1,
@@ -413,96 +335,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10396",
-      "display_name": "Fatigue and fracture mechanics",
-      "count": 1,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10661",
-      "display_name": "biodegradable polymer synthesis and properties",
-      "count": 1,
-      "score": 0.9639999866485596,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2502",
-        "display_name": "Biomaterials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10686",
-      "display_name": "Effects and risks of endocrine disrupting chemicals",
-      "count": 1,
-      "score": 0.9869999885559082,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2307",
-        "display_name": "Health, Toxicology and Mutagenesis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10698",
-      "display_name": "Transportation Planning and Optimization",
-      "count": 1,
-      "score": 0.41769999265670776,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10753",
-      "display_name": "Microplastics and Plastic Pollution",
-      "count": 1,
-      "score": 0.98089998960495,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2310",
-        "display_name": "Pollution"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -528,10 +360,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10840",
-      "display_name": "High Temperature Alloys and Creep",
+      "id": "https://openalex.org/T11196",
+      "display_name": "Non-Invasive Vital Sign Monitoring",
       "count": 1,
-      "score": 0.9959999918937683,
+      "score": 0.9843999743461609,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11230",
+      "display_name": "Innovative Energy Harvesting Technologies",
+      "count": 1,
+      "score": 0.9611999988555908,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -546,13 +396,157 @@
       }
     },
     {
-      "id": "https://openalex.org/T10917",
-      "display_name": "Smart Grid Security and Resilience",
+      "id": "https://openalex.org/T11242",
+      "display_name": "Nuclear Materials and Properties",
       "count": 1,
-      "score": 0.940500020980835,
+      "score": 0.9980999827384949,
       "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11349",
+      "display_name": "Music Technology and Sound Studies",
+      "count": 1,
+      "score": 0.9930999875068665,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11373",
+      "display_name": "Sleep and Work-Related Fatigue",
+      "count": 1,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11429",
+      "display_name": "Semiconductor Lasers and Optical Devices",
+      "count": 1,
+      "score": 0.9861000180244446,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11619",
+      "display_name": "Combustion and Detonation Processes",
+      "count": 1,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11945",
+      "display_name": "Heat Transfer Mechanisms",
+      "count": 1,
+      "score": 0.9944999814033508,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12099",
+      "display_name": "Advanced materials and composites",
+      "count": 1,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12427",
+      "display_name": "Metal Alloys Wear and Properties",
+      "count": 1,
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12537",
+      "display_name": "Flow Measurement and Analysis",
+      "count": 1,
+      "score": 0.8428999781608582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -566,26 +560,9 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T11099",
-      "display_name": "Autonomous Vehicle Technology and Safety",
-      "value": 4.95e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11487",
       "display_name": "Automotive and Human Injury Biomechanics",
-      "value": 4.54e-05,
+      "value": 4.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -600,12 +577,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10370",
-      "display_name": "Traffic and Road Safety",
-      "value": 4.29e-05,
+      "id": "https://openalex.org/T11099",
+      "display_name": "Autonomous Vehicle Technology and Safety",
+      "value": 3.88e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2213",
-        "display_name": "Safety, Risk, Reliability and Quality"
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -619,7 +596,7 @@
     {
       "id": "https://openalex.org/T13295",
       "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 3.74e-05,
+      "value": 3.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -636,7 +613,7 @@
     {
       "id": "https://openalex.org/T10805",
       "display_name": "Vehicle Dynamics and Control Systems",
-      "value": 3.54e-05,
+      "value": 3.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -653,7 +630,7 @@
     {
       "id": "https://openalex.org/T14056",
       "display_name": "Safety Warnings and Signage",
-      "value": 3.16e-05,
+      "value": 3.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -668,12 +645,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12537",
-      "display_name": "Flow Measurement and Analysis",
-      "value": 2.93e-05,
+      "id": "https://openalex.org/T10370",
+      "display_name": "Traffic and Road Safety",
+      "value": 2.59e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -685,9 +662,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11309",
+      "display_name": "Music and Audio Processing",
+      "value": 2.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12699",
       "display_name": "Electromagnetic Launch and Propulsion Technology",
-      "value": 1.98e-05,
+      "value": 2.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -702,9 +696,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10860",
+      "display_name": "Speech and Audio Processing",
+      "value": 1.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12567",
       "display_name": "Heat transfer and supercritical fluids",
-      "value": 1.91e-05,
+      "value": 1.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -736,145 +747,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11778",
-      "display_name": "Electrical and Bioimpedance Tomography",
-      "value": 1.87e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11309",
-      "display_name": "Music and Audio Processing",
-      "value": 1.58e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1711",
-        "display_name": "Signal Processing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10860",
-      "display_name": "Speech and Audio Processing",
-      "value": 1.49e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1711",
-        "display_name": "Signal Processing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12306",
-      "display_name": "Urban and Freight Transport Logistics",
-      "value": 1.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11500",
-      "display_name": "Evacuation and Crowd Dynamics",
-      "value": 1.42e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2212",
-        "display_name": "Ocean Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11373",
-      "display_name": "Sleep and Work-Related Fatigue",
-      "value": 1.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12146",
-      "display_name": "Power Line Communications and Noise",
-      "value": 1.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11349",
-      "display_name": "Music Technology and Sound Studies",
-      "value": 1.17e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10840",
-      "display_name": "High Temperature Alloys and Creep",
-      "value": 1.12e-05,
+      "id": "https://openalex.org/T11230",
+      "display_name": "Innovative Energy Harvesting Technologies",
+      "value": 1.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -889,16 +764,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11242",
-      "display_name": "Nuclear Materials and Properties",
-      "value": 1.09e-05,
+      "id": "https://openalex.org/T10201",
+      "display_name": "Speech Recognition and Synthesis",
+      "value": 1.6e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -906,9 +781,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10806",
-      "display_name": "Energetic Materials and Combustion",
-      "value": 1.08e-05,
+      "id": "https://openalex.org/T12537",
+      "display_name": "Flow Measurement and Analysis",
+      "value": 1.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -923,16 +798,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12675",
-      "display_name": "Financial Reporting and Valuation Research",
-      "value": 1.05e-05,
+      "id": "https://openalex.org/T11373",
+      "display_name": "Sleep and Work-Related Fatigue",
+      "value": 1.31e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -940,9 +815,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11349",
+      "display_name": "Music Technology and Sound Studies",
+      "value": 1.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10806",
+      "display_name": "Energetic Materials and Combustion",
+      "value": 1.09e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12810",
       "display_name": "Real-time simulation and control systems",
-      "value": 1.04e-05,
+      "value": 1.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -959,7 +868,7 @@
     {
       "id": "https://openalex.org/T11619",
       "display_name": "Combustion and Detonation Processes",
-      "value": 9.9e-06,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -974,12 +883,97 @@
       }
     },
     {
-      "id": "https://openalex.org/T10917",
-      "display_name": "Smart Grid Security and Resilience",
-      "value": 9.8e-06,
+      "id": "https://openalex.org/T11196",
+      "display_name": "Non-Invasive Vital Sign Monitoring",
+      "value": 8.2e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11945",
+      "display_name": "Heat Transfer Mechanisms",
+      "value": 8.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12427",
+      "display_name": "Metal Alloys Wear and Properties",
+      "value": 7.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10204",
+      "display_name": "Microstructure and mechanical properties",
+      "value": 6.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10175",
+      "display_name": "Advanced DC-DC Converters",
+      "value": 6.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10386",
+      "display_name": "Microstructure and Mechanical Properties of Steels",
+      "value": 6.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -994,6 +988,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210103260",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-10-01T06:00:02",
   "created_date": "2022-02-02T04:48:36"
 }

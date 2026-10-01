@@ -18,12 +18,12 @@
     "Beckmann-Institut für Technologieentwicklung"
   ],
   "repositories": [],
-  "works_count": 16,
-  "cited_by_count": 2060,
+  "works_count": 23,
+  "cited_by_count": 2277,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
-    "h_index": 23,
-    "i10_index": 29
+    "2yr_mean_citedness": 3.0,
+    "h_index": 25,
+    "i10_index": 33
   },
   "ids": {
     "openalex": "https://openalex.org/I4210086052",
@@ -45,10 +45,22 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2022,
-      "works_count": 3,
+      "year": 2024,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 63
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "works_count": 6,
+      "oa_works_count": 4,
+      "cited_by_count": 101
     },
     {
       "year": 2021,
@@ -61,6 +73,12 @@
       "works_count": 2,
       "oa_works_count": 2,
       "cited_by_count": 24
+    },
+    {
+      "year": 2019,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 3
     },
     {
       "year": 2018,
@@ -79,14 +97,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210086052",
-      "works_count": 16
+      "works_count": 23
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10310",
       "display_name": "Corrosion Behavior and Inhibition",
-      "count": 5,
+      "count": 6,
       "score": 0.9948999881744385,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -104,7 +122,7 @@
     {
       "id": "https://openalex.org/T10377",
       "display_name": "Metal and Thin Film Mechanics",
-      "count": 5,
+      "count": 6,
       "score": 0.9983000159263611,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
@@ -122,11 +140,65 @@
     {
       "id": "https://openalex.org/T10530",
       "display_name": "Magnesium Alloys: Properties and Applications",
-      "count": 4,
+      "count": 6,
       "score": 0.9997000098228455,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10705",
+      "display_name": "Additive Manufacturing Materials and Processes",
+      "count": 4,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 4,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10865",
+      "display_name": "Shape Memory Alloy Transformations",
+      "count": 4,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/25",
@@ -156,10 +228,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10865",
-      "display_name": "Shape Memory Alloy Transformations",
+      "id": "https://openalex.org/T10626",
+      "display_name": "High-Temperature Coating Behaviors",
       "count": 3,
-      "score": 0.9998000264167786,
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11442",
+      "display_name": "Titanium Alloys Microstructure and Properties",
+      "count": 3,
+      "score": 0.9983999729156494,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -174,17 +264,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10626",
-      "display_name": "High-Temperature Coating Behaviors",
+      "id": "https://openalex.org/T10478",
+      "display_name": "Diamond and Carbon-based Materials Research",
       "count": 2,
-      "score": 0.9983000159263611,
+      "score": 0.9900000095367432,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -210,13 +300,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T10783",
-      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "id": "https://openalex.org/T10834",
+      "display_name": "Welding Techniques and Residual Stresses",
       "count": 2,
-      "score": 0.9997000098228455,
+      "score": 0.9925000071525574,
       "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "count": 2,
+      "score": 0.9966999888420105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -239,24 +347,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11442",
-      "display_name": "Titanium Alloys Microstructure and Properties",
-      "count": 2,
-      "score": 0.9983999729156494,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -354,31 +444,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10478",
-      "display_name": "Diamond and Carbon-based Materials Research",
+      "id": "https://openalex.org/T10502",
+      "display_name": "Advanced Memory and Neural Computing",
       "count": 1,
-      "score": 0.9900000095367432,
+      "score": 0.9729999899864197,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10672",
-      "display_name": "Design Education and Practice",
-      "count": 1,
-      "score": 0.9538000226020813,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -390,10 +462,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10705",
-      "display_name": "Additive Manufacturing Materials and Processes",
+      "id": "https://openalex.org/T10672",
+      "display_name": "Design Education and Practice",
       "count": 1,
-      "score": 0.9879999756813049,
+      "score": 0.9538000226020813,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -444,24 +516,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11143",
-      "display_name": "High Entropy Alloys Studies",
-      "count": 1,
-      "score": 0.9948999881744385,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11190",
       "display_name": "3D Printing in Biomedical Research",
       "count": 1,
@@ -480,49 +534,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11945",
-      "display_name": "Heat Transfer Mechanisms",
+      "id": "https://openalex.org/T11200",
+      "display_name": "Electrodeposition and Electroless Coatings",
       "count": 1,
-      "score": 0.9987999796867371,
+      "score": 0.9976000189781189,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12190",
-      "display_name": "Innovations in Concrete and Construction Materials",
-      "count": 1,
-      "score": 0.9832000136375427,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13965",
-      "display_name": "Laser and Thermal Forming Techniques",
-      "count": 1,
-      "score": 0.9506000280380249,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -536,26 +554,9 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T10865",
-      "display_name": "Shape Memory Alloy Transformations",
-      "value": 5.55e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10530",
       "display_name": "Magnesium Alloys: Properties and Applications",
-      "value": 5.37e-05,
+      "value": 8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -570,9 +571,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11442",
-      "display_name": "Titanium Alloys Microstructure and Properties",
-      "value": 3e-05,
+      "id": "https://openalex.org/T10865",
+      "display_name": "Shape Memory Alloy Transformations",
+      "value": 7.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -587,12 +588,63 @@
       }
     },
     {
-      "id": "https://openalex.org/T11451",
-      "display_name": "Advanced Machining and Optimization Techniques",
-      "value": 2.75e-05,
+      "id": "https://openalex.org/T11442",
+      "display_name": "Titanium Alloys Microstructure and Properties",
+      "value": 4.48e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13463",
+      "display_name": "Nanoporous metals and alloys",
+      "value": 4.25e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13470",
+      "display_name": "Surface Treatment and Coatings",
+      "value": 3.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10705",
+      "display_name": "Additive Manufacturing Materials and Processes",
+      "value": 3.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -606,7 +658,7 @@
     {
       "id": "https://openalex.org/T10310",
       "display_name": "Corrosion Behavior and Inhibition",
-      "value": 2.71e-05,
+      "value": 3.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -621,26 +673,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13965",
-      "display_name": "Laser and Thermal Forming Techniques",
-      "value": 2.27e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10626",
       "display_name": "High-Temperature Coating Behaviors",
-      "value": 1.82e-05,
+      "value": 2.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -655,12 +690,114 @@
       }
     },
     {
+      "id": "https://openalex.org/T11451",
+      "display_name": "Advanced Machining and Optimization Techniques",
+      "value": 2.72e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "value": 2.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13965",
+      "display_name": "Laser and Thermal Forming Techniques",
+      "value": 2.25e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10377",
       "display_name": "Metal and Thin Film Mechanics",
-      "value": 1.71e-05,
+      "value": 2.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10783",
+      "display_name": "Additive Manufacturing and 3D Printing Technologies",
+      "value": 2.01e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11200",
+      "display_name": "Electrodeposition and Electroless Coatings",
+      "value": 1.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10834",
+      "display_name": "Welding Techniques and Residual Stresses",
+      "value": 1.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -689,9 +826,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11143",
-      "display_name": "High Entropy Alloys Studies",
-      "value": 1.24e-05,
+      "id": "https://openalex.org/T10672",
+      "display_name": "Design Education and Practice",
+      "value": 1.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -706,16 +843,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10672",
-      "display_name": "Design Education and Practice",
-      "value": 1.16e-05,
+      "id": "https://openalex.org/T10478",
+      "display_name": "Diamond and Carbon-based Materials Research",
+      "value": 1.03e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -725,27 +862,10 @@
     {
       "id": "https://openalex.org/T11301",
       "display_name": "Advanced Surface Polishing Techniques",
-      "value": 1.01e-05,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10783",
-      "display_name": "Additive Manufacturing and 3D Printing Technologies",
-      "value": 1e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -791,26 +911,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10705",
-      "display_name": "Additive Manufacturing Materials and Processes",
-      "value": 8.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "value": 8.4e-06,
+      "value": 8.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -874,96 +977,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10998",
-      "display_name": "Heat Transfer and Optimization",
-      "value": 6.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11190",
-      "display_name": "3D Printing in Biomedical Research",
-      "value": 6.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10113",
-      "display_name": "Dental materials and restorations",
-      "value": 5.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3505",
-        "display_name": "Orthodontics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10478",
-      "display_name": "Diamond and Carbon-based Materials Research",
-      "value": 5.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10338",
-      "display_name": "Advanced Sensor and Energy Harvesting Materials",
-      "value": 3.5e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210086052",
-  "updated_date": "2026-09-23T06:00:35",
+  "updated_date": "2026-09-28T08:40:17",
   "created_date": "2022-02-02T04:48:36"
 }
