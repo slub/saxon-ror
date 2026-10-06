@@ -49,7 +49,7 @@
     {
       "role": "funder",
       "id": "https://openalex.org/F4320323752",
-      "works_count": 1020
+      "works_count": 1021
     },
     {
       "role": "institution",
@@ -59,28 +59,10 @@
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T10158",
-      "display_name": "Cancer Immunotherapy and Biomarkers",
-      "count": 1,
-      "score": 0.9979000091552734,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10231",
       "display_name": "Pancreatic and Hepatic Oncology Research",
       "count": 1,
-      "score": 0.9988999962806702,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -95,32 +77,67 @@
       }
     },
     {
-      "id": "https://openalex.org/T10580",
-      "display_name": "Immunotherapy and Immune Responses",
+      "id": "https://openalex.org/T10458",
+      "display_name": "Bladder and Urothelial Cancer Treatments",
       "count": 1,
-      "score": 0.9955000281333923,
+      "score": 9.999999747378752e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10760",
+      "display_name": "Pancreatitis Pathology and Treatment",
+      "count": 1,
+      "score": 0.0007999999797903001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T10158",
-      "display_name": "Cancer Immunotherapy and Biomarkers",
-      "value": 4.4e-06,
+      "id": "https://openalex.org/T10458",
+      "display_name": "Bladder and Urothelial Cancer Treatments",
+      "value": 6.9e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10760",
+      "display_name": "Pancreatitis Pathology and Treatment",
+      "value": 6.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -134,7 +151,7 @@
     {
       "id": "https://openalex.org/T10231",
       "display_name": "Pancreatic and Hepatic Oncology Research",
-      "value": 4.4e-06,
+      "value": 4.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -146,29 +163,12 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10580",
-      "display_name": "Immunotherapy and Immune Responses",
-      "value": 3.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136162",
-  "updated_date": "2026-09-30T05:58:29",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

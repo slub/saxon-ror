@@ -19,8 +19,8 @@
     "Duale Hochschule Sachsen"
   ],
   "repositories": [],
-  "works_count": 191,
-  "cited_by_count": 768,
+  "works_count": 192,
+  "cited_by_count": 778,
   "summary_stats": {
     "2yr_mean_citedness": 0.7727272727272727,
     "h_index": 14,
@@ -67,13 +67,13 @@
       "year": 2023,
       "works_count": 38,
       "oa_works_count": 3,
-      "cited_by_count": 6
+      "cited_by_count": 7
     },
     {
       "year": 2022,
-      "works_count": 10,
-      "oa_works_count": 4,
-      "cited_by_count": 65
+      "works_count": 11,
+      "oa_works_count": 5,
+      "cited_by_count": 68
     },
     {
       "year": 2021,
@@ -85,7 +85,7 @@
       "year": 2020,
       "works_count": 35,
       "oa_works_count": 2,
-      "cited_by_count": 122
+      "cited_by_count": 123
     },
     {
       "year": 2019,
@@ -140,69 +140,15 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405256648",
-      "works_count": 191
+      "works_count": 192
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T14390",
-      "display_name": "Real estate and construction management",
-      "count": 18,
-      "score": 0.9375,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2216",
-        "display_name": "Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "count": 17,
-      "score": 0.9722999930381775,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "count": 17,
-      "score": 0.955299973487854,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12203",
-      "display_name": "Mobile Agent-Based Network Management",
-      "count": 16,
-      "score": 0.9779999852180481,
+      "id": "https://openalex.org/T14455",
+      "display_name": "Technology and Education Systems",
+      "count": 54,
+      "score": 0.9984999895095825,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -217,17 +163,71 @@
       }
     },
     {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "count": 9,
-      "score": 0.9878000020980835,
+      "id": "https://openalex.org/T10138",
+      "display_name": "Network Traffic and Congestion Control",
+      "count": 35,
+      "score": 0.9872999787330627,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11158",
+      "display_name": "Wireless Networks and Protocols",
+      "count": 19,
+      "score": 0.8281000256538391,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10714",
+      "display_name": "Software-Defined Networks and 5G",
+      "count": 17,
+      "score": 0.8852999806404114,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10632",
+      "display_name": "Housing Market and Economics",
+      "count": 14,
+      "score": 0.8823000192642212,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -235,28 +235,64 @@
       }
     },
     {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
-      "count": 8,
-      "score": 0.9847999811172485,
+      "id": "https://openalex.org/T14390",
+      "display_name": "Real estate and construction management",
+      "count": 13,
+      "score": 0.9843999743461609,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10679",
-      "display_name": "Service-Oriented Architecture and Web Services",
-      "count": 8,
-      "score": 0.9764999747276306,
+      "id": "https://openalex.org/T10715",
+      "display_name": "Distributed and Parallel Computing Systems",
+      "count": 12,
+      "score": 0.7728999853134155,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13920",
+      "display_name": "Urban Planning and Valuation",
+      "count": 12,
+      "score": 0.20649999380111694,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10101",
+      "display_name": "Cloud Computing and Resource Management",
+      "count": 6,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -271,53 +307,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "count": 8,
-      "score": 0.901199996471405,
+      "id": "https://openalex.org/T10772",
+      "display_name": "Distributed systems and fault tolerance",
+      "count": 6,
+      "score": 0.46950000524520874,
       "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "count": 8,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "count": 7,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -328,7 +328,7 @@
       "id": "https://openalex.org/T10783",
       "display_name": "Additive Manufacturing and 3D Printing Technologies",
       "count": 6,
-      "score": 1.0,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -343,28 +343,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10917",
-      "display_name": "Smart Grid Security and Resilience",
+      "id": "https://openalex.org/T13816",
+      "display_name": "Advanced Signal Processing Techniques",
       "count": 6,
-      "score": 0.9642999768257141,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10651",
-      "display_name": "IPv6, Mobility, Handover, Networks, Security",
-      "count": 5,
-      "score": 0.9732000231742859,
+      "score": 0.3352000117301941,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -379,82 +361,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12565",
-      "display_name": "Physics and Engineering Research Articles",
-      "count": 5,
-      "score": 0.9587000012397766,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "count": 5,
-      "score": 0.02979999966919422,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10059",
-      "display_name": "Bone Tissue Engineering Materials",
-      "count": 4,
-      "score": 0.9980999827384949,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10484",
-      "display_name": "Wood Treatment and Properties",
-      "count": 4,
-      "score": 0.9103999733924866,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10705",
       "display_name": "Additive Manufacturing Materials and Processes",
-      "count": 4,
-      "score": 0.9962999820709229,
+      "count": 5,
+      "score": 0.0017000000225380063,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -469,35 +379,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10715",
-      "display_name": "Distributed and Parallel Computing Systems",
-      "count": 4,
-      "score": 0.9997000098228455,
+      "id": "https://openalex.org/T11682",
+      "display_name": "Advanced Condensed Matter Physics",
+      "count": 5,
+      "score": 0.31520000100135803,
       "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10772",
-      "display_name": "Distributed systems and fault tolerance",
-      "count": 4,
-      "score": 0.9986000061035156,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -507,8 +399,8 @@
     {
       "id": "https://openalex.org/T12085",
       "display_name": "Collagen: Extraction and Characterization",
-      "count": 4,
-      "score": 0.9998000264167786,
+      "count": 5,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -523,64 +415,100 @@
       }
     },
     {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "count": 4,
-      "score": 0.9667999744415283,
+      "id": "https://openalex.org/T12264",
+      "display_name": "Tissue Engineering and Regenerative Medicine",
+      "count": 5,
+      "score": 0.7846999764442444,
       "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T14380",
-      "display_name": "Libraries and Information Services",
-      "count": 4,
-      "score": 0.6435999870300293,
+      "id": "https://openalex.org/T12581",
+      "display_name": "Engineering Structural Analysis Methods",
+      "count": 5,
+      "score": 0.9848999977111816,
       "subfield": {
-        "id": "https://openalex.org/subfields/1209",
-        "display_name": "Museology"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T14508",
-      "display_name": "Vocational Education and Training",
-      "count": 4,
-      "score": 0.9724000096321106,
+      "id": "https://openalex.org/T12797",
+      "display_name": "History of Computing Technologies",
+      "count": 5,
+      "score": 0.9932000041007996,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10138",
-      "display_name": "Network Traffic and Congestion Control",
-      "count": 3,
-      "score": 0.9531000256538391,
+      "id": "https://openalex.org/T12875",
+      "display_name": "Thermal Expansion and Ionic Conductivity",
+      "count": 5,
+      "score": 0.17599999904632568,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13905",
+      "display_name": "Telecommunications and Broadcasting Technologies",
+      "count": 5,
+      "score": 0.31450000405311584,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2214",
+        "display_name": "Media Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13983",
+      "display_name": "Cybersecurity and Information Systems",
+      "count": 5,
+      "score": 0.1720000058412552,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -593,30 +521,30 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    }
-  ],
-  "topic_share": [
+    },
     {
-      "id": "https://openalex.org/T14390",
-      "display_name": "Real estate and construction management",
-      "value": 0.0020628,
+      "id": "https://openalex.org/T14147",
+      "display_name": "Innovative Approaches in Technology and Social Development",
+      "count": 5,
+      "score": 0.9901999831199646,
       "subfield": {
-        "id": "https://openalex.org/subfields/2216",
-        "display_name": "Architecture"
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T13017",
-      "display_name": "Zygmunt Bauman's Sociology",
-      "value": 0.0005414,
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "count": 5,
+      "score": 0.4424000084400177,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -631,9 +559,336 @@
       }
     },
     {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "value": 0.0003391,
+      "id": "https://openalex.org/T10343",
+      "display_name": "Hydrogels: synthesis, properties, applications",
+      "count": 4,
+      "score": 0.005100000184029341,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1313",
+        "display_name": "Molecular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10395",
+      "display_name": "Construction Project Management and Performance",
+      "count": 4,
+      "score": 0.9326000213623047,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T14455",
+      "display_name": "Technology and Education Systems",
+      "value": 0.0018225,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14390",
+      "display_name": "Real estate and construction management",
+      "value": 0.0003586,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "value": 0.0001938,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13920",
+      "display_name": "Urban Planning and Valuation",
+      "value": 0.0001878,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11158",
+      "display_name": "Wireless Networks and Protocols",
+      "value": 0.0001784,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10138",
+      "display_name": "Network Traffic and Congestion Control",
+      "value": 0.000155,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12797",
+      "display_name": "History of Computing Technologies",
+      "value": 0.0001541,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12581",
+      "display_name": "Engineering Structural Analysis Methods",
+      "value": 0.0001468,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13816",
+      "display_name": "Advanced Signal Processing Techniques",
+      "value": 0.0001427,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14147",
+      "display_name": "Innovative Approaches in Technology and Social Development",
+      "value": 0.0001376,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10632",
+      "display_name": "Housing Market and Economics",
+      "value": 0.00013,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10714",
+      "display_name": "Software-Defined Networks and 5G",
+      "value": 0.0001282,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14067",
+      "display_name": "Cloud Computing and Remote Desktop Technologies",
+      "value": 0.0001219,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14138",
+      "display_name": "Life Cycle Costing Analysis",
+      "value": 0.0001167,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1402",
+        "display_name": "Accounting"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12085",
+      "display_name": "Collagen: Extraction and Characterization",
+      "value": 0.000103,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13983",
+      "display_name": "Cybersecurity and Information Systems",
+      "value": 9.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12875",
+      "display_name": "Thermal Expansion and Ionic Conductivity",
+      "value": 7.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13276",
+      "display_name": "University-Industry-Government Innovation Models",
+      "value": 7.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -650,7 +905,7 @@
     {
       "id": "https://openalex.org/T10910",
       "display_name": "Corporate Governance and Management",
-      "value": 0.0002872,
+      "value": 7.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -665,80 +920,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T14508",
-      "display_name": "Vocational Education and Training",
-      "value": 0.0002755,
+      "id": "https://openalex.org/T13905",
+      "display_name": "Telecommunications and Broadcasting Technologies",
+      "value": 7.47e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12826",
-      "display_name": "Education Methods and Technologies",
-      "value": 0.0001928,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12203",
-      "display_name": "Mobile Agent-Based Network Management",
-      "value": 0.0001551,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13711",
-      "display_name": "Environmental Science and Technology",
-      "value": 0.0001465,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1303",
-        "display_name": "Biochemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "value": 0.0001381,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2214",
+        "display_name": "Media Technology"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -750,60 +937,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "value": 0.0001274,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10259",
-      "display_name": "Sociology and Education Studies",
-      "value": 0.0001007,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12376",
-      "display_name": "Corporate Management and Leadership",
-      "value": 9.8e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10651",
-      "display_name": "IPv6, Mobility, Handover, Networks, Security",
-      "value": 9.52e-05,
+      "id": "https://openalex.org/T13918",
+      "display_name": "Advanced Data and IoT Technologies",
+      "value": 6.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -818,43 +954,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11741",
-      "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 9.14e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12085",
-      "display_name": "Collagen: Extraction and Characterization",
-      "value": 8.97e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2502",
-        "display_name": "Biomaterials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12216",
-      "display_name": "Network Time Synchronization Technologies",
-      "value": 8.78e-05,
+      "id": "https://openalex.org/T10715",
+      "display_name": "Distributed and Parallel Computing Systems",
+      "value": 5.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -869,33 +971,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12940",
-      "display_name": "Structural Engineering and Materials Analysis",
-      "value": 8.66e-05,
+      "id": "https://openalex.org/T12594",
+      "display_name": "Collaboration in agile enterprises",
+      "value": 5.54e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "value": 8.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -903,97 +988,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13364",
-      "display_name": "Digitalization, Law, and Regulation",
-      "value": 7.99e-05,
+      "id": "https://openalex.org/T13690",
+      "display_name": "Quality and Safety in Healthcare",
+      "value": 5.06e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14079",
-      "display_name": "Mathematics Education and Programs",
-      "value": 7.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2611",
-        "display_name": "Modeling and Simulation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10484",
-      "display_name": "Wood Treatment and Properties",
-      "value": 6.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13459",
-      "display_name": "Public Administration and Political Analysis",
-      "value": 6.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13419",
-      "display_name": "Ego Development and Educational Practices",
-      "value": 6.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13423",
-      "display_name": "Social Policies and Healthcare Reform",
-      "value": 6.43e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/3607",
+        "display_name": "Medical Laboratory Technology"
       },
       "field": {
         "id": "https://openalex.org/fields/36",
@@ -1005,26 +1005,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T13359",
-      "display_name": "Sports Science and Education",
-      "value": 6.31e-05,
+      "id": "https://openalex.org/T12336",
+      "display_name": "Insect Utilization and Effects",
+      "value": 4.93e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405256648",
-  "updated_date": "2026-10-01T06:00:02",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2025-07-08T02:42:24"
 }

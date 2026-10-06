@@ -61,7 +61,7 @@
       "id": "https://openalex.org/T10783",
       "display_name": "Additive Manufacturing and 3D Printing Technologies",
       "count": 1,
-      "score": 0.9174000024795532,
+      "score": 0.15080000460147858,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -76,10 +76,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
+      "id": "https://openalex.org/T11664",
+      "display_name": "Fiber-reinforced polymer composites",
       "count": 1,
-      "score": 0.9668999910354614,
+      "score": 0.5259000062942505,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -94,17 +94,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T13129",
-      "display_name": "Material Properties and Applications",
+      "id": "https://openalex.org/T11954",
+      "display_name": "Energy Efficiency and Management",
       "count": 1,
-      "score": 0.9460999965667725,
+      "score": 0.14640000462532043,
       "subfield": {
-        "id": "https://openalex.org/subfields/2500",
-        "display_name": "General Materials Science"
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -114,9 +114,26 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "value": 1.73e-05,
+      "id": "https://openalex.org/T11954",
+      "display_name": "Energy Efficiency and Management",
+      "value": 1.88e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11664",
+      "display_name": "Fiber-reinforced polymer composites",
+      "value": 8.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -131,26 +148,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13129",
-      "display_name": "Material Properties and Applications",
-      "value": 8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2500",
-        "display_name": "General Materials Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10783",
       "display_name": "Additive Manufacturing and 3D Printing Technologies",
-      "value": 5e-06,
+      "value": 6.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -168,6 +168,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210104131",
-  "updated_date": "2026-09-28T08:40:17",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

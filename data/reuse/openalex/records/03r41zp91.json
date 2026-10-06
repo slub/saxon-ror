@@ -58,10 +58,28 @@
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T11624",
-      "display_name": "Constructed Wetlands for Wastewater Treatment",
+      "id": "https://openalex.org/T10564",
+      "display_name": "Wastewater Treatment and Nitrogen Removal",
       "count": 1,
-      "score": 0.29319998621940613,
+      "score": 0.9839000105857849,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11781",
+      "display_name": "Wastewater Treatment and Reuse",
+      "count": 1,
+      "score": 0.009100000374019146,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -76,35 +94,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11923",
-      "display_name": "Mine drainage and remediation techniques",
+      "id": "https://openalex.org/T14252",
+      "display_name": "Water and Wastewater Treatment",
       "count": 1,
-      "score": 0.05490000173449516,
+      "score": 0.001500000013038516,
       "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12186",
-      "display_name": "Phosphorus and nutrient management",
-      "count": 1,
-      "score": 0.2160000056028366,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2311",
-        "display_name": "Waste Management and Disposal"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -114,12 +114,29 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T11923",
-      "display_name": "Mine drainage and remediation techniques",
-      "value": 1.61e-05,
+      "id": "https://openalex.org/T14252",
+      "display_name": "Water and Wastewater Treatment",
+      "value": 2.77e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10564",
+      "display_name": "Wastewater Treatment and Nitrogen Removal",
+      "value": 7.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -131,26 +148,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11624",
-      "display_name": "Constructed Wetlands for Wastewater Treatment",
-      "value": 1.55e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2311",
-        "display_name": "Waste Management and Disposal"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12186",
-      "display_name": "Phosphorus and nutrient management",
-      "value": 1.31e-05,
+      "id": "https://openalex.org/T11781",
+      "display_name": "Wastewater Treatment and Reuse",
+      "value": 5.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -168,6 +168,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133267",
-  "updated_date": "2026-09-28T08:40:17",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

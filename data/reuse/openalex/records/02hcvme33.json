@@ -18,12 +18,12 @@
     "Institut für Nichtklassische Chemie"
   ],
   "repositories": [],
-  "works_count": 259,
-  "cited_by_count": 13467,
+  "works_count": 260,
+  "cited_by_count": 13494,
   "summary_stats": {
-    "2yr_mean_citedness": 3.94,
+    "2yr_mean_citedness": 3.8627450980392157,
     "h_index": 61,
-    "i10_index": 232
+    "i10_index": 236
   },
   "ids": {
     "openalex": "https://openalex.org/I4210118144",
@@ -55,8 +55,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 15,
-      "oa_works_count": 12,
+      "works_count": 16,
+      "oa_works_count": 13,
       "cited_by_count": 4
     },
     {
@@ -75,7 +75,7 @@
       "year": 2023,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 55
+      "cited_by_count": 56
     },
     {
       "year": 2022,
@@ -87,7 +87,7 @@
       "year": 2021,
       "works_count": 19,
       "oa_works_count": 14,
-      "cited_by_count": 423
+      "cited_by_count": 427
     },
     {
       "year": 2020,
@@ -105,7 +105,7 @@
       "year": 2018,
       "works_count": 10,
       "oa_works_count": 5,
-      "cited_by_count": 202
+      "cited_by_count": 203
     },
     {
       "year": 2017,
@@ -117,7 +117,7 @@
       "year": 2016,
       "works_count": 17,
       "oa_works_count": 5,
-      "cited_by_count": 449
+      "cited_by_count": 450
     },
     {
       "year": 2015,
@@ -129,7 +129,7 @@
       "year": 2014,
       "works_count": 10,
       "oa_works_count": 3,
-      "cited_by_count": 275
+      "cited_by_count": 276
     },
     {
       "year": 2013,
@@ -147,27 +147,45 @@
       "year": 2011,
       "works_count": 9,
       "oa_works_count": 0,
-      "cited_by_count": 602
+      "cited_by_count": 603
     },
     {
       "year": 2010,
       "works_count": 10,
       "oa_works_count": 3,
-      "cited_by_count": 423
+      "cited_by_count": 424
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210118144",
-      "works_count": 259
+      "works_count": 260
     }
   ],
   "topics": [
     {
+      "id": "https://openalex.org/T13604",
+      "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
+      "count": 53,
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10096",
       "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
-      "count": 46,
+      "count": 47,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1604",
@@ -183,17 +201,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10402",
-      "display_name": "Phase Equilibria and Thermodynamics",
-      "count": 44,
-      "score": 1.0,
+      "id": "https://openalex.org/T10353",
+      "display_name": "Zeolite Catalysis and Synthesis",
+      "count": 40,
+      "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -203,7 +221,7 @@
     {
       "id": "https://openalex.org/T10967",
       "display_name": "Carbon Dioxide Capture Technologies",
-      "count": 36,
+      "count": 40,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
@@ -219,13 +237,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T10353",
-      "display_name": "Zeolite Catalysis and Synthesis",
-      "count": 25,
-      "score": 1.0,
+      "id": "https://openalex.org/T10402",
+      "display_name": "Phase Equilibria and Thermodynamics",
+      "count": 38,
+      "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12274",
+      "display_name": "Electrostatics and Colloid Interactions",
+      "count": 28,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
       },
       "field": {
         "id": "https://openalex.org/fields/16",
@@ -237,10 +273,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T12274",
-      "display_name": "Electrostatics and Colloid Interactions",
-      "count": 23,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T11362",
+      "display_name": "Membrane Separation and Gas Transport",
+      "count": 24,
+      "score": 0.975600004196167,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12044",
+      "display_name": "Advanced Physical and Chemical Molecular Interactions",
+      "count": 24,
+      "score": 0.7134000062942505,
       "subfield": {
         "id": "https://openalex.org/subfields/1606",
         "display_name": "Physical and Theoretical Chemistry"
@@ -257,62 +311,8 @@
     {
       "id": "https://openalex.org/T10735",
       "display_name": "Mesoporous Materials and Catalysis",
-      "count": 21,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10192",
-      "display_name": "Catalytic Processes in Materials Science",
-      "count": 20,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11362",
-      "display_name": "Membrane Separation and Gas Transport",
-      "count": 19,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10474",
-      "display_name": "Material Dynamics and Properties",
-      "count": 18,
-      "score": 0.9997000098228455,
+      "count": 22,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -329,8 +329,8 @@
     {
       "id": "https://openalex.org/T12038",
       "display_name": "Covalent Organic Framework Applications",
-      "count": 15,
-      "score": 1.0,
+      "count": 20,
+      "score": 0.9883000254631042,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -345,46 +345,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10612",
-      "display_name": "Magnetism in coordination complexes",
-      "count": 12,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10908",
-      "display_name": "Analytical Chemistry and Chromatography",
-      "count": 12,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10480",
       "display_name": "Ionic liquids properties and applications",
-      "count": 11,
-      "score": 0.9998999834060669,
+      "count": 15,
+      "score": 0.9829000234603882,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
         "display_name": "Catalysis"
@@ -399,17 +363,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11434",
-      "display_name": "Electrochemical Analysis and Applications",
-      "count": 10,
-      "score": 0.9991999864578247,
+      "id": "https://openalex.org/T10591",
+      "display_name": "Theoretical and Computational Physics",
+      "count": 14,
+      "score": 0.4058000147342682,
       "subfield": {
-        "id": "https://openalex.org/subfields/1603",
-        "display_name": "Electrochemistry"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -417,17 +381,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11593",
-      "display_name": "Carbon dioxide utilization in catalysis",
-      "count": 10,
-      "score": 0.9993000030517578,
+      "id": "https://openalex.org/T10210",
+      "display_name": "Advanced oxidation water treatment",
+      "count": 13,
+      "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/1508",
-        "display_name": "Process Chemistry and Technology"
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -435,9 +399,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10090",
-      "display_name": "ZnO doping and properties",
-      "count": 9,
+      "id": "https://openalex.org/T11842",
+      "display_name": "Ultrasound and Cavitation Phenomena",
+      "count": 12,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -453,13 +417,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10399",
-      "display_name": "Hydrocarbon exploration and reservoir analysis",
-      "count": 9,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T12425",
+      "display_name": "Industrial Gas Emission Control",
+      "count": 10,
+      "score": 0.8076000213623047,
       "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -471,17 +435,53 @@
       }
     },
     {
-      "id": "https://openalex.org/T11825",
-      "display_name": "Catalysis and Oxidation Reactions",
+      "id": "https://openalex.org/T10016",
+      "display_name": "Adsorption and biosorption for pollutant removal",
       "count": 9,
-      "score": 1.0,
+      "score": 0.986299991607666,
       "subfield": {
-        "id": "https://openalex.org/subfields/1503",
-        "display_name": "Catalysis"
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10578",
+      "display_name": "Supramolecular Chemistry and Complexes",
+      "count": 9,
+      "score": 0.9634000062942505,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12063",
+      "display_name": "Heat and Mass Transfer in Porous Media",
+      "count": 9,
+      "score": 0.6406000256538391,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -507,17 +507,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10461",
-      "display_name": "Gas Sensing Nanomaterials and Sensors",
-      "count": 7,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T10908",
+      "display_name": "Analytical Chemistry and Chromatography",
+      "count": 8,
+      "score": 0.9976000189781189,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -525,28 +525,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11279",
-      "display_name": "Lanthanide and Transition Metal Complexes",
-      "count": 7,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11582",
-      "display_name": "Nanopore and Nanochannel Transport Studies",
-      "count": 7,
-      "score": 0.9980000257492065,
+      "id": "https://openalex.org/T12074",
+      "display_name": "Membrane-based Ion Separation Techniques",
+      "count": 8,
+      "score": 0.03579999879002571,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -561,35 +543,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10163",
-      "display_name": "Metal complexes synthesis and properties",
-      "count": 6,
-      "score": 0.9998000264167786,
+      "id": "https://openalex.org/T10192",
+      "display_name": "Catalytic Processes in Materials Science",
+      "count": 7,
+      "score": 0.9380000233650208,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10030",
-      "display_name": "Electrocatalysts for Energy Conversion",
-      "count": 5,
-      "score": 0.9975000023841858,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -599,8 +563,8 @@
     {
       "id": "https://openalex.org/T10404",
       "display_name": "Enzyme Catalysis and Immobilization",
-      "count": 5,
-      "score": 0.9940000176429749,
+      "count": 7,
+      "score": 0.9326000213623047,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -613,13 +577,66 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10736",
+      "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
+      "count": 7,
+      "score": 0.1111999973654747,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2506",
+        "display_name": "Metals and Alloys"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12270",
+      "display_name": "Microwave-Assisted Synthesis and Applications",
+      "count": 7,
+      "score": 0.8314999938011169,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
+      "id": "https://openalex.org/T13604",
+      "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
+      "value": 0.0003994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10967",
       "display_name": "Carbon Dioxide Capture Technologies",
-      "value": 0.0003935,
+      "value": 0.0003737,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -634,9 +651,77 @@
       }
     },
     {
+      "id": "https://openalex.org/T12038",
+      "display_name": "Covalent Organic Framework Applications",
+      "value": 0.000359,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10096",
+      "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
+      "value": 0.00026,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12706",
+      "display_name": "Subcritical and Supercritical Water Processes",
+      "value": 0.0002465,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10353",
+      "display_name": "Zeolite Catalysis and Synthesis",
+      "value": 0.0002457,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12274",
       "display_name": "Electrostatics and Colloid Interactions",
-      "value": 0.0002938,
+      "value": 0.0002363,
       "subfield": {
         "id": "https://openalex.org/subfields/1606",
         "display_name": "Physical and Theoretical Chemistry"
@@ -651,366 +736,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10402",
-      "display_name": "Phase Equilibria and Thermodynamics",
-      "value": 0.0002582,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11362",
-      "display_name": "Membrane Separation and Gas Transport",
-      "value": 0.0002524,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10353",
-      "display_name": "Zeolite Catalysis and Synthesis",
-      "value": 0.0002222,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10096",
-      "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
-      "value": 0.0002179,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10735",
-      "display_name": "Mesoporous Materials and Catalysis",
-      "value": 0.0001691,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12038",
-      "display_name": "Covalent Organic Framework Applications",
-      "value": 0.0001568,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11842",
-      "display_name": "Ultrasound and Cavitation Phenomena",
-      "value": 0.0001282,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10474",
-      "display_name": "Material Dynamics and Properties",
-      "value": 0.0001175,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12195",
-      "display_name": "Aerogels and thermal insulation",
-      "value": 9.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10480",
-      "display_name": "Ionic liquids properties and applications",
-      "value": 9.6e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1503",
-        "display_name": "Catalysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11593",
-      "display_name": "Carbon dioxide utilization in catalysis",
-      "value": 9.47e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1508",
-        "display_name": "Process Chemistry and Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/15",
-        "display_name": "Chemical Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10811",
-      "display_name": "Hydrogen Storage and Materials",
-      "value": 8.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11582",
-      "display_name": "Nanopore and Nanochannel Transport Studies",
-      "value": 7.99e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13604",
-      "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
-      "value": 7.96e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1607",
-        "display_name": "Spectroscopy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12628",
-      "display_name": "Polymer Foaming and Composites",
-      "value": 7.91e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2507",
-        "display_name": "Polymers and Plastics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12653",
-      "display_name": "Cyclization and Aryne Chemistry",
-      "value": 7.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1605",
-        "display_name": "Organic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10612",
-      "display_name": "Magnetism in coordination complexes",
-      "value": 6.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12425",
-      "display_name": "Industrial Gas Emission Control",
-      "value": 5.79e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14327",
-      "display_name": "Advanced Energy Technologies and Civil Engineering Innovations",
-      "value": 5.71e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2104",
-        "display_name": "Nuclear Energy and Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12074",
-      "display_name": "Membrane-based Ion Separation Techniques",
-      "value": 5.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11869",
-      "display_name": "Per- and polyfluoroalkyl substances research",
-      "value": 5.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12452",
-      "display_name": "Electrowetting and Microfluidic Technologies",
-      "value": 5.46e-05,
+      "id": "https://openalex.org/T13046",
+      "display_name": "Electrokinetic Soil Remediation Techniques",
+      "value": 0.0002305,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1025,9 +753,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10192",
-      "display_name": "Catalytic Processes in Materials Science",
-      "value": 4.97e-05,
+      "id": "https://openalex.org/T11842",
+      "display_name": "Ultrasound and Cavitation Phenomena",
+      "value": 0.0002126,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -1040,11 +768,283 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11362",
+      "display_name": "Membrane Separation and Gas Transport",
+      "value": 0.0002012,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10402",
+      "display_name": "Phase Equilibria and Thermodynamics",
+      "value": 0.0001881,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10735",
+      "display_name": "Mesoporous Materials and Catalysis",
+      "value": 0.0001603,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10480",
+      "display_name": "Ionic liquids properties and applications",
+      "value": 0.0001471,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1503",
+        "display_name": "Catalysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12270",
+      "display_name": "Microwave-Assisted Synthesis and Applications",
+      "value": 0.0001151,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "value": 0.0001057,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14488",
+      "display_name": "Chemical and Physical Studies",
+      "value": 0.0001049,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12074",
+      "display_name": "Membrane-based Ion Separation Techniques",
+      "value": 0.0001027,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12425",
+      "display_name": "Industrial Gas Emission Control",
+      "value": 9.9e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12044",
+      "display_name": "Advanced Physical and Chemical Molecular Interactions",
+      "value": 9.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11582",
+      "display_name": "Nanopore and Nanochannel Transport Studies",
+      "value": 8.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14150",
+      "display_name": "Biochemical and biochemical processes",
+      "value": 7.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12195",
+      "display_name": "Aerogels and thermal insulation",
+      "value": 7.28e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10811",
+      "display_name": "Hydrogen Storage and Materials",
+      "value": 7.14e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12628",
+      "display_name": "Polymer Foaming and Composites",
+      "value": 6.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10210",
+      "display_name": "Advanced oxidation water treatment",
+      "value": 5.91e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210118144",
-  "updated_date": "2026-10-01T06:00:02",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

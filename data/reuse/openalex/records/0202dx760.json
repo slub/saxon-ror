@@ -60,7 +60,7 @@
       "id": "https://openalex.org/T10217",
       "display_name": "Cardiac electrophysiology and arrhythmias",
       "count": 1,
-      "score": 0.9972000122070312,
+      "score": 0.005200000014156103,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -75,28 +75,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10429",
-      "display_name": "EEG and Brain-Computer Interfaces",
+      "id": "https://openalex.org/T10745",
+      "display_name": "Heart Rate Variability and Autonomic Control",
       "count": 1,
-      "score": 0.9919999837875366,
+      "score": 0.0005000000237487257,
       "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
       "count": 1,
-      "score": 0.9998999834060669,
+      "score": 0.9937000274658203,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -115,7 +115,24 @@
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
-      "value": 1e-05,
+      "value": 7.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10745",
+      "display_name": "Heart Rate Variability and Autonomic Control",
+      "value": 4.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -132,7 +149,7 @@
     {
       "id": "https://openalex.org/T10217",
       "display_name": "Cardiac electrophysiology and arrhythmias",
-      "value": 3.8e-06,
+      "value": 2.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -145,28 +162,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10429",
-      "display_name": "EEG and Brain-Computer Interfaces",
-      "value": 3.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405274593",
-  "updated_date": "2026-09-28T08:40:17",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2026-08-05T03:30:19"
 }
