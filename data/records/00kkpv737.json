@@ -5,11 +5,13 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-04-28",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "ctdqmat.de"
+  ],
   "established": 2019,
   "external_ids": [
     {
@@ -18,13 +20,20 @@
       ],
       "preferred": "grid.511479.f",
       "type": "grid"
+    },
+    {
+      "all": [
+        "Q107518824"
+      ],
+      "preferred": "Q107518824",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00kkpv737",
   "links": [
     {
       "type": "website",
-      "value": "https://www.ctqmat.de/"
+      "value": "https://www.ctdqmat.de/"
     }
   ],
   "locations": [
@@ -59,6 +68,13 @@
   ],
   "names": [
     {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CTDQMAT"
+    },
+    {
       "lang": null,
       "types": [
         "acronym"
@@ -75,10 +91,24 @@
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
+      ],
+      "value": "Cluster of Excellence ctd.qmat – Complexity, Topology and Dynamics in Quantum Matter"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
       ],
       "value": "Complexity and Topology in Quantum Matter"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Complexity, Topology and Dynamics in Quantum Matter"
     },
     {
       "lang": "de",
@@ -88,11 +118,32 @@
       "value": "Exzellenzcluster ct.qmat - Komplexität und Topologie in Quantenmaterialien"
     },
     {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Exzellenzcluster ctd.qmat - Komplexität, Topologie und Dynamik in Quantenmaterialien"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Komplexität, Topologie und Dynamik in Quantenmaterialien"
+    },
+    {
       "lang": "en",
       "types": [
         "alias"
       ],
       "value": "ct.qmat"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "ctd.qmat"
     }
   ],
   "relationships": [

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-06-02",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -89,8 +89,14 @@
       "value": "Society for Knowledge and Technology Transfer"
     }
   ],
-  "relationships": [],
-  "status": "active",
+  "relationships": [
+    {
+      "label": "GWT-TUD GmbH (Germany)",
+      "type": "successor",
+      "id": "https://ror.org/049ag6g97"
+    }
+  ],
+  "status": "withdrawn",
   "types": [
     "company"
   ]

@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2026-06-01",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     },
     "last_modified": {
@@ -11,24 +11,12 @@
   },
   "domains": [],
   "established": 2012,
-  "external_ids": [
-    {
-      "all": [
-        "Q39052812"
-      ],
-      "preferred": "Q39052812",
-      "type": "wikidata"
-    }
-  ],
-  "id": "https://ror.org/00g3vrr12",
+  "external_ids": [],
+  "id": "https://ror.org/01qxdbm71",
   "links": [
     {
       "type": "website",
-      "value": "https://cfaed.tu-dresden.de"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Center_for_Advancing_Electronics_Dresden"
+      "value": "https://cfaed.tu-dresden.de/dcn"
     }
   ],
   "locations": [
@@ -53,7 +41,7 @@
       "types": [
         "acronym"
       ],
-      "value": "CFAED"
+      "value": "DCN"
     },
     {
       "lang": "en",
@@ -61,33 +49,35 @@
         "label",
         "ror_display"
       ],
-      "value": "Center for Advancing Electronics Dresden"
+      "value": "Dresden Center for Nanoanalysis"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Centre for Advancing Electronics Dresden"
+      "value": "Dresden Center for Nanoanalytics"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Dresden Center for Advancing Electronics"
+      "value": "Dresden Center of Nanoanalysis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Centre for Nanoanalysis"
     }
   ],
   "relationships": [
     {
-      "label": "Technische Universität Dresden",
+      "label": "Center for Advancing Electronics Dresden",
       "type": "parent",
-      "id": "https://ror.org/042aqky30"
-    },
-    {
-      "label": "Dresden Center for Nanoanalysis",
-      "type": "child",
-      "id": "https://ror.org/01qxdbm71"
+      "id": "https://ror.org/00g3vrr12"
     }
   ],
   "status": "active",
