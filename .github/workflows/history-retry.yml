@@ -13,7 +13,7 @@ name: Retry ROR release history
 
 on:
   schedule:
-    # 07:30 UTC daily, well clear of update.yml's 06:00 UTC data run.
+    # Daily retries pick up publication artifacts that arrive after the dump.
     - cron: "30 7 * * *"
   workflow_dispatch:
 
@@ -21,11 +21,39 @@ permissions:
   contents: write
   pull-requests: write
 
+# Shared with update.yml: a retry must wait while a data update is still
+# preparing its PR. The preflight guard then covers that PR's review window.
+# Let the active writer finish; this does not enforce which workflow runs first.
+concurrency:
+  group: ror-data-write
+  cancel-in-progress: false
+
 jobs:
   retry:
     runs-on: ubuntu-latest
     steps:
+      # An open data PR contains records missing from main, so classifying
+      # against main would trim the overlay to a stale record set. Wait for
+      # its merge: one branch, one writer avoids PR-body collisions, merge
+      # races, and a potentially stale base from retrying on the data branch.
+      # Probe before checkout so blocked runs cost no clone or artifact fetches.
+      - name: Check for an open data-update pull request
+        id: preflight
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          prs=$(gh pr list --head automated/data-update --state open -R "${{ github.repository }}" \
+            --json number --jq 'map("#" + (.number | tostring)) | join(", ")')
+          if [ -n "$prs" ]; then
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+            echo "History retry skipped: data-update PR $prs is open. Waiting for its merge so classification uses the updated records on main." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "blocked=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Check out repository
+        if: steps.preflight.outputs.blocked != 'true'
         uses: actions/checkout@v5
         with:
           # snapshot_transitions() reads which records changed with each dump
@@ -33,6 +61,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
+        if: steps.preflight.outputs.blocked != 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -41,6 +70,7 @@ jobs:
       # releases and record deltas works without it (unlike the issue *search*
       # in curation-seed).
       - name: Regenerate release history
+        if: steps.preflight.outputs.blocked != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -55,6 +85,7 @@ jobs:
 
       - name: Summarize changes
         id: diff
+        if: steps.preflight.outputs.blocked != 'true'
         run: |
           set -euo pipefail
           if git diff --quiet -- data/history.json; then
@@ -110,7 +141,7 @@ jobs:
           } > /tmp/pr-body.md
 
       - name: Open history-update pull request
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.preflight.outputs.blocked != 'true' && steps.diff.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

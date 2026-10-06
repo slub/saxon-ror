@@ -27,6 +27,13 @@ permissions:
   contents: write
   pull-requests: write
 
+# Shared with history-retry.yml: a retry must wait while a data update is still
+# preparing its PR. The retry's preflight guard then covers the review window.
+# Let the active writer finish; this does not enforce which workflow runs first.
+concurrency:
+  group: ror-data-write
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -101,7 +108,7 @@ jobs:
             echo "> The ROR release-history generator failed for this dump --"
             echo "> check the *Update ROR release history* step. The data below is"
             echo "> unaffected, and \`data/history.json\` was left as it was; the"
-            echo "> daily history retry will pick the release up."
+            echo "> daily history retry will pick the release up after this PR is merged."
           } > /tmp/history-warning.md
 
       - name: Report unclassified releases

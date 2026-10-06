@@ -127,7 +127,7 @@ The workflows in `.github/workflows/`:
 - **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, updates the release history, links any curation requests for the records that changed, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
 - **`update-openalex.yml`** refreshes the OpenAlex companion layer monthly (first day, 10:15 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. Its separate `openalex-update` PR reports matching counters and added/removed matches; a changed retrieval date alone also counts as a refresh.
 - **`curation-seed.yml`** re-runs curation discovery across all records weekly, catching links that only became discoverable after the dump that introduced the record.
-- **`history-retry.yml`** re-runs release-history classification daily, so a release ROR had not annotated when its dump landed gets picked up later.
+- **`history-retry.yml`** re-runs release-history classification daily, so a release ROR had not annotated when its dump landed gets picked up later. While a data-update PR is open, it skips before checkout; after that PR is merged, retries classify against the updated records on `main`.
 - **`pages.yml`** deploys `www/` and the data files it needs to GitHub Pages, on push and weekly (so curation-request states stay current).
 - **`tag-releases.yml`** tags each dump commit on `main` with its ROR version.
 
