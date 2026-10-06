@@ -17,9 +17,9 @@
   ],
   "repositories": [],
   "works_count": 148,
-  "cited_by_count": 1658,
+  "cited_by_count": 1663,
   "summary_stats": {
-    "2yr_mean_citedness": 2.193548387096774,
+    "2yr_mean_citedness": 2.2903225806451615,
     "h_index": 20,
     "i10_index": 44
   },
@@ -52,7 +52,7 @@
       "year": 2025,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 12
+      "cited_by_count": 13
     },
     {
       "year": 2024,
@@ -64,7 +64,7 @@
       "year": 2023,
       "works_count": 18,
       "oa_works_count": 12,
-      "cited_by_count": 126
+      "cited_by_count": 127
     },
     {
       "year": 2022,
@@ -100,7 +100,7 @@
       "year": 2017,
       "works_count": 10,
       "oa_works_count": 5,
-      "cited_by_count": 234
+      "cited_by_count": 235
     },
     {
       "year": 2016,
@@ -148,9 +148,27 @@
   ],
   "topics": [
     {
+      "id": "https://openalex.org/T10183",
+      "display_name": "Breast Cancer Treatment Studies",
+      "count": 31,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11067",
       "display_name": "Colorectal Cancer Treatments and Studies",
-      "count": 28,
+      "count": 29,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
@@ -166,63 +184,207 @@
       }
     },
     {
+      "id": "https://openalex.org/T10335",
+      "display_name": "Colorectal Cancer Surgical Treatments",
+      "count": 23,
+      "score": 0.000699999975040555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11157",
+      "display_name": "Chronic Lymphocytic Leukemia Research",
+      "count": 20,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "count": 24,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10417",
-      "display_name": "Lung Cancer Treatments and Mutations",
-      "count": 21,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10183",
-      "display_name": "Breast Cancer Treatment Studies",
       "count": 20,
-      "score": 0.9977999925613403,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10178",
+      "display_name": "Cancer survivorship and care",
+      "count": 19,
+      "score": 0.9887999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10185",
+      "display_name": "Lymphoma Diagnosis and Treatment",
+      "count": 17,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11914",
+      "display_name": "PARP inhibition in cancer therapy",
+      "count": 16,
+      "score": 0.3970000147819519,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10696",
+      "display_name": "Gastric Cancer Management and Outcomes",
+      "count": 15,
+      "score": 0.9887999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12064",
+      "display_name": "Intraperitoneal and Appendiceal Malignancies",
+      "count": 15,
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11752",
+      "display_name": "Cancer Treatment and Pharmacology",
+      "count": 13,
+      "score": 0.08100000023841858,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10755",
       "display_name": "HER2/EGFR in Cancer Research",
-      "count": 19,
+      "count": 12,
+      "score": 0.9951000213623047,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10479",
+      "display_name": "Structural Behavior of Reinforced Concrete",
+      "count": 11,
+      "score": 0.9843999743461609,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10231",
+      "display_name": "Pancreatic and Hepatic Oncology Research",
+      "count": 10,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
@@ -238,31 +400,31 @@
       }
     },
     {
-      "id": "https://openalex.org/T11752",
-      "display_name": "Cancer Treatment and Pharmacology",
-      "count": 19,
-      "score": 0.9991000294685364,
+      "id": "https://openalex.org/T10687",
+      "display_name": "Innovative concrete reinforcement materials",
+      "count": 10,
+      "score": 0.5644999742507935,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T11157",
-      "display_name": "Chronic Lymphocytic Leukemia Research",
-      "count": 18,
-      "score": 1.0,
+      "id": "https://openalex.org/T10950",
+      "display_name": "Acute Lymphoblastic Leukemia research",
+      "count": 10,
+      "score": 0.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -276,101 +438,11 @@
     {
       "id": "https://openalex.org/T10158",
       "display_name": "Cancer Immunotherapy and Biomarkers",
-      "count": 12,
-      "score": 0.9980000257492065,
+      "count": 9,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10185",
-      "display_name": "Lymphoma Diagnosis and Treatment",
-      "count": 11,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10231",
-      "display_name": "Pancreatic and Hepatic Oncology Research",
-      "count": 10,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10479",
-      "display_name": "Structural Behavior of Reinforced Concrete",
-      "count": 9,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11287",
-      "display_name": "Cancer Genomics and Diagnostics",
-      "count": 9,
-      "score": 0.9966999888420105,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10073",
-      "display_name": "Hepatocellular Carcinoma Treatment and Prognosis",
-      "count": 8,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2721",
-        "display_name": "Hepatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -384,8 +456,8 @@
     {
       "id": "https://openalex.org/T10307",
       "display_name": "Head and Neck Cancer Studies",
-      "count": 7,
-      "score": 1.0,
+      "count": 9,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -400,10 +472,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10696",
-      "display_name": "Gastric Cancer Management and Outcomes",
+      "id": "https://openalex.org/T10760",
+      "display_name": "Pancreatitis Pathology and Treatment",
       "count": 7,
-      "score": 0.9976999759674072,
+      "score": 0.0017000000225380063,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10417",
+      "display_name": "Lung Cancer Treatments and Mutations",
+      "count": 6,
+      "score": 0.05000000074505806,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -418,175 +508,85 @@
       }
     },
     {
-      "id": "https://openalex.org/T11134",
-      "display_name": "Breast Lesions and Carcinomas",
-      "count": 7,
-      "score": 0.0340999998152256,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11215",
-      "display_name": "Chronic Myeloid Leukemia Treatments",
-      "count": 7,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2720",
-        "display_name": "Hematology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11369",
-      "display_name": "Genetic factors in colorectal cancer",
-      "count": 7,
-      "score": 0.9987999796867371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11850",
-      "display_name": "Concrete Corrosion and Durability",
-      "count": 7,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12708",
-      "display_name": "Economic and Financial Impacts of Cancer",
-      "count": 7,
-      "score": 0.9887999892234802,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10687",
-      "display_name": "Innovative concrete reinforcement materials",
-      "count": 6,
-      "score": 0.9991000294685364,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "count": 6,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11725",
-      "display_name": "Immunodeficiency and Autoimmune Disorders",
-      "count": 5,
-      "score": 0.9776999950408936,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12334",
-      "display_name": "Lung Cancer Research Studies",
-      "count": 5,
-      "score": 0.9973999857902527,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10649",
-      "display_name": "Multiple Myeloma Research and Treatments",
+      "id": "https://openalex.org/T10202",
+      "display_name": "Lung Cancer Diagnosis and Treatment",
       "count": 4,
-      "score": 1.0,
+      "score": 0.9071999788284302,
       "subfield": {
-        "id": "https://openalex.org/subfields/2720",
-        "display_name": "Hematology"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10668",
+      "display_name": "Endometrial and Cervical Cancer Treatments",
+      "count": 4,
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2729",
+        "display_name": "Obstetrics and Gynecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11446",
+      "display_name": "Mobile Health and mHealth Applications",
+      "count": 4,
+      "score": 0.2985999882221222,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12198",
+      "display_name": "Oral health in cancer treatment",
+      "count": 4,
+      "score": 0.00039999998989515007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12937",
+      "display_name": "Chemotherapy-related skin toxicity",
+      "count": 4,
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -602,7 +602,7 @@
     {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "value": 0.0004087,
+      "value": 0.0006133,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -617,9 +617,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11067",
-      "display_name": "Colorectal Cancer Treatments and Studies",
-      "value": 0.0002279,
+      "id": "https://openalex.org/T11914",
+      "display_name": "PARP inhibition in cancer therapy",
+      "value": 0.0003692,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -634,9 +634,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10755",
-      "display_name": "HER2/EGFR in Cancer Research",
-      "value": 0.0001612,
+      "id": "https://openalex.org/T11067",
+      "display_name": "Colorectal Cancer Treatments and Studies",
+      "value": 0.0001704,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -653,7 +653,7 @@
     {
       "id": "https://openalex.org/T11752",
       "display_name": "Cancer Treatment and Pharmacology",
-      "value": 0.0001133,
+      "value": 0.0001653,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -668,60 +668,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10183",
-      "display_name": "Breast Cancer Treatment Studies",
-      "value": 0.0001126,
+      "id": "https://openalex.org/T12064",
+      "display_name": "Intraperitoneal and Appendiceal Malignancies",
+      "value": 0.0001561,
       "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13031",
-      "display_name": "Civil and Structural Engineering Research",
-      "value": 0.0001092,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12708",
-      "display_name": "Economic and Financial Impacts of Cancer",
-      "value": 0.0001074,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11157",
       "display_name": "Chronic Lymphocytic Leukemia Research",
-      "value": 0.0001053,
+      "value": 0.0001429,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -736,77 +702,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10417",
-      "display_name": "Lung Cancer Treatments and Mutations",
-      "value": 0.0001039,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11134",
-      "display_name": "Breast Lesions and Carcinomas",
-      "value": 7.51e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11215",
-      "display_name": "Chronic Myeloid Leukemia Treatments",
-      "value": 6.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2720",
-        "display_name": "Hematology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10479",
-      "display_name": "Structural Behavior of Reinforced Concrete",
-      "value": 5.43e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10158",
-      "display_name": "Cancer Immunotherapy and Biomarkers",
-      "value": 5.27e-05,
+      "id": "https://openalex.org/T10755",
+      "display_name": "HER2/EGFR in Cancer Research",
+      "value": 0.0001334,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -821,12 +719,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10185",
-      "display_name": "Lymphoma Diagnosis and Treatment",
-      "value": 5.23e-05,
+      "id": "https://openalex.org/T10335",
+      "display_name": "Colorectal Cancer Surgical Treatments",
+      "value": 0.0001102,
       "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -835,46 +733,12 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11369",
-      "display_name": "Genetic factors in colorectal cancer",
-      "value": 5.22e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11850",
-      "display_name": "Concrete Corrosion and Durability",
-      "value": 5.17e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12937",
       "display_name": "Chemotherapy-related skin toxicity",
-      "value": 4.77e-05,
+      "value": 0.0001046,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -889,12 +753,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12172",
-      "display_name": "Neutropenia and Cancer Infections",
-      "value": 4.55e-05,
+      "id": "https://openalex.org/T12198",
+      "display_name": "Oral health in cancer treatment",
+      "value": 9.74e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -906,60 +770,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11914",
-      "display_name": "PARP inhibition in cancer therapy",
-      "value": 4.54e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10231",
-      "display_name": "Pancreatic and Hepatic Oncology Research",
-      "value": 4.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10073",
-      "display_name": "Hepatocellular Carcinoma Treatment and Prognosis",
-      "value": 4.26e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2721",
-        "display_name": "Hepatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11287",
-      "display_name": "Cancer Genomics and Diagnostics",
-      "value": 4.22e-05,
+      "id": "https://openalex.org/T10183",
+      "display_name": "Breast Cancer Treatment Studies",
+      "value": 8.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -974,12 +787,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13313",
-      "display_name": "Dupuytren's Contracture and Treatments",
-      "value": 4.12e-05,
+      "id": "https://openalex.org/T10178",
+      "display_name": "Cancer survivorship and care",
+      "value": 8.65e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -991,12 +804,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10307",
-      "display_name": "Head and Neck Cancer Studies",
-      "value": 4.08e-05,
+      "id": "https://openalex.org/T10950",
+      "display_name": "Acute Lymphoblastic Leukemia research",
+      "value": 7.86e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2733",
-        "display_name": "Otorhinolaryngology"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1010,7 +823,7 @@
     {
       "id": "https://openalex.org/T10687",
       "display_name": "Innovative concrete reinforcement materials",
-      "value": 3.87e-05,
+      "value": 7.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -1023,11 +836,198 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10185",
+      "display_name": "Lymphoma Diagnosis and Treatment",
+      "value": 6.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10479",
+      "display_name": "Structural Behavior of Reinforced Concrete",
+      "value": 5.87e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10696",
+      "display_name": "Gastric Cancer Management and Outcomes",
+      "value": 5.64e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11865",
+      "display_name": "Anorectal Disease Treatments and Outcomes",
+      "value": 5.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10760",
+      "display_name": "Pancreatitis Pathology and Treatment",
+      "value": 4.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10231",
+      "display_name": "Pancreatic and Hepatic Oncology Research",
+      "value": 4.6e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12682",
+      "display_name": "Smart Materials for Construction",
+      "value": 4.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12352",
+      "display_name": "Heparin-Induced Thrombocytopenia and Thrombosis",
+      "value": 4.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12830",
+      "display_name": "Pectus Deformity Diagnosis and Treatment",
+      "value": 4.19e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10417",
+      "display_name": "Lung Cancer Treatments and Mutations",
+      "value": 3.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11215",
+      "display_name": "Chronic Myeloid Leukemia Treatments",
+      "value": 3.61e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210154157",
-  "updated_date": "2026-10-01T06:00:02",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

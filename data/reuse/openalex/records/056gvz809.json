@@ -17,10 +17,10 @@
     "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus"
   ],
   "repositories": [],
-  "works_count": 255,
-  "cited_by_count": 6875,
+  "works_count": 256,
+  "cited_by_count": 6880,
   "summary_stats": {
-    "2yr_mean_citedness": 0.9230769230769231,
+    "2yr_mean_citedness": 0.9117647058823529,
     "h_index": 46,
     "i10_index": 108
   },
@@ -54,7 +54,7 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 10,
+      "works_count": 11,
       "oa_works_count": 9,
       "cited_by_count": 1
     },
@@ -68,7 +68,7 @@
       "year": 2024,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 47
+      "cited_by_count": 49
     },
     {
       "year": 2023,
@@ -80,7 +80,7 @@
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 80
+      "cited_by_count": 81
     },
     {
       "year": 2021,
@@ -128,7 +128,7 @@
       "year": 2014,
       "works_count": 5,
       "oa_works_count": 0,
-      "cited_by_count": 31
+      "cited_by_count": 32
     },
     {
       "year": 2013,
@@ -159,32 +159,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210162590",
-      "works_count": 255
+      "works_count": 256
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T10250",
-      "display_name": "Glaucoma and retinal disorders",
-      "count": 77,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10563",
       "display_name": "Corneal surgery and disorders",
-      "count": 69,
+      "count": 94,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
@@ -200,13 +182,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10997",
-      "display_name": "Ocular Surface and Contact Lens",
-      "count": 40,
-      "score": 0.9995999932289124,
+      "id": "https://openalex.org/T10170",
+      "display_name": "Retinal Diseases and Treatments",
+      "count": 69,
+      "score": 0.9980000257492065,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -218,9 +200,27 @@
       }
     },
     {
-      "id": "https://openalex.org/T10170",
-      "display_name": "Retinal Diseases and Treatments",
-      "count": 33,
+      "id": "https://openalex.org/T10250",
+      "display_name": "Glaucoma and retinal disorders",
+      "count": 62,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11826",
+      "display_name": "Ocular Infections and Treatments",
+      "count": 48,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
@@ -236,13 +236,49 @@
       }
     },
     {
-      "id": "https://openalex.org/T10381",
-      "display_name": "Ophthalmology and Visual Impairment Studies",
-      "count": 33,
-      "score": 0.9991999864578247,
+      "id": "https://openalex.org/T11377",
+      "display_name": "Retinal and Macular Surgery",
+      "count": 40,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11194",
+      "display_name": "Ocular Diseases and Behçet’s Syndrome",
+      "count": 39,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11291",
+      "display_name": "Intraocular Surgery and Lenses",
+      "count": 36,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -257,419 +293,7 @@
       "id": "https://openalex.org/T11828",
       "display_name": "Corneal Surgery and Treatments",
       "count": 29,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11377",
-      "display_name": "Retinal and Macular Surgery",
-      "count": 21,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11194",
-      "display_name": "Ocular Diseases and Behçet’s Syndrome",
-      "count": 17,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11291",
-      "display_name": "Intraocular Surgery and Lenses",
-      "count": 16,
-      "score": 0.9994000196456909,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11438",
-      "display_name": "Retinal Imaging and Analysis",
-      "count": 15,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12599",
-      "display_name": "Retinal and Optic Conditions",
-      "count": 15,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11826",
-      "display_name": "Ocular Infections and Treatments",
-      "count": 14,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10691",
-      "display_name": "Retinal Development and Disorders",
-      "count": 12,
-      "score": 0.9998000264167786,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11328",
-      "display_name": "Ocular Oncology and Treatments",
-      "count": 12,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11538",
-      "display_name": "Ophthalmology and Eye Disorders",
-      "count": 11,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11867",
-      "display_name": "Traumatic Ocular and Foreign Body Injuries",
-      "count": 11,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12989",
-      "display_name": "Ocular Disorders and Treatments",
-      "count": 8,
-      "score": 0.9991000294685364,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11929",
-      "display_name": "Cerebral Venous Sinus Thrombosis",
-      "count": 7,
-      "score": 0.9948999881744385,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2728",
-        "display_name": "Neurology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11322",
-      "display_name": "Facial Rejuvenation and Surgery Techniques",
-      "count": 6,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13869",
-      "display_name": "Ocular and Laser Science Research",
-      "count": 6,
-      "score": 0.9987000226974487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10816",
-      "display_name": "Cerebrovascular and Carotid Artery Diseases",
-      "count": 5,
-      "score": 0.992900013923645,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11172",
-      "display_name": "Dermatologic Treatments and Research",
-      "count": 5,
-      "score": 0.9955000281333923,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11562",
-      "display_name": "Facial Trauma and Fracture Management",
-      "count": 4,
-      "score": 0.9763000011444092,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12476",
-      "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "count": 4,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12523",
-      "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "count": 4,
-      "score": 0.9965999722480774,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T10563",
-      "display_name": "Corneal surgery and disorders",
-      "value": 0.0005313,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10250",
-      "display_name": "Glaucoma and retinal disorders",
-      "value": 0.0003539,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10997",
-      "display_name": "Ocular Surface and Contact Lens",
-      "value": 0.0003382,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11828",
-      "display_name": "Corneal Surgery and Treatments",
-      "value": 0.0002919,
+      "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -686,7 +310,8 @@
     {
       "id": "https://openalex.org/T10381",
       "display_name": "Ophthalmology and Visual Impairment Studies",
-      "value": 0.0002423,
+      "count": 26,
+      "score": 0.9868000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -701,196 +326,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11377",
-      "display_name": "Retinal and Macular Surgery",
-      "value": 0.0002317,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11826",
-      "display_name": "Ocular Infections and Treatments",
-      "value": 0.0002086,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12523",
-      "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "value": 0.0002003,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11328",
-      "display_name": "Ocular Oncology and Treatments",
-      "value": 0.0001934,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10170",
-      "display_name": "Retinal Diseases and Treatments",
-      "value": 0.0001781,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12599",
-      "display_name": "Retinal and Optic Conditions",
-      "value": 0.0001692,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11194",
-      "display_name": "Ocular Diseases and Behçet’s Syndrome",
-      "value": 0.0001676,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12989",
-      "display_name": "Ocular Disorders and Treatments",
-      "value": 0.0001631,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11867",
-      "display_name": "Traumatic Ocular and Foreign Body Injuries",
-      "value": 0.0001471,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11291",
-      "display_name": "Intraocular Surgery and Lenses",
-      "value": 0.0001377,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2731",
-        "display_name": "Ophthalmology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11438",
-      "display_name": "Retinal Imaging and Analysis",
-      "value": 0.0001344,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11538",
       "display_name": "Ophthalmology and Eye Disorders",
-      "value": 0.0001216,
+      "count": 22,
+      "score": 0.9965999722480774,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -907,7 +346,170 @@
     {
       "id": "https://openalex.org/T13467",
       "display_name": "Drug-Induced Ocular Toxicity",
-      "value": 0.0001164,
+      "count": 21,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11328",
+      "display_name": "Ocular Oncology and Treatments",
+      "count": 20,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11438",
+      "display_name": "Retinal Imaging and Analysis",
+      "count": 19,
+      "score": 0.6664999723434448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10997",
+      "display_name": "Ocular Surface and Contact Lens",
+      "count": 18,
+      "score": 0.9556000232696533,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12989",
+      "display_name": "Ocular Disorders and Treatments",
+      "count": 16,
+      "score": 0.9945999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10427",
+      "display_name": "Visual perception and processing mechanisms",
+      "count": 14,
+      "score": 0.9721999764442444,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10691",
+      "display_name": "Retinal Development and Disorders",
+      "count": 14,
+      "score": 0.9945999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11867",
+      "display_name": "Traumatic Ocular and Foreign Body Injuries",
+      "count": 14,
+      "score": 0.9897000193595886,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11866",
+      "display_name": "Reconstructive Facial Surgery Techniques",
+      "count": 11,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12599",
+      "display_name": "Retinal and Optic Conditions",
+      "count": 9,
+      "score": 0.7993000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -924,7 +526,8 @@
     {
       "id": "https://openalex.org/T13869",
       "display_name": "Ocular and Laser Science Research",
-      "value": 0.0001007,
+      "count": 7,
+      "score": 0.5015000104904175,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -939,9 +542,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T12476",
-      "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 9.95e-05,
+      "id": "https://openalex.org/T10422",
+      "display_name": "Angiogenesis and VEGF in Cancer",
+      "count": 5,
+      "score": 0.3781999945640564,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10562",
+      "display_name": "Total Knee Arthroplasty Outcomes",
+      "count": 5,
+      "score": 9.999999747378752e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -956,12 +578,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11322",
-      "display_name": "Facial Rejuvenation and Surgery Techniques",
-      "value": 9.59e-05,
+      "id": "https://openalex.org/T10144",
+      "display_name": "Blood Pressure and Hypertension Studies",
+      "count": 4,
+      "score": 0.006800000090152025,
       "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -973,12 +596,32 @@
       }
     },
     {
-      "id": "https://openalex.org/T12625",
-      "display_name": "Sympathectomy and Hyperhidrosis Treatments",
-      "value": 9.36e-05,
+      "id": "https://openalex.org/T11484",
+      "display_name": "Adaptive optics and wavefront sensing",
+      "count": 4,
+      "score": 0.012400000356137753,
       "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10563",
+      "display_name": "Corneal surgery and disorders",
+      "value": 0.0006102,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -990,12 +633,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11929",
-      "display_name": "Cerebral Venous Sinus Thrombosis",
-      "value": 9.35e-05,
+      "id": "https://openalex.org/T11828",
+      "display_name": "Corneal Surgery and Treatments",
+      "value": 0.0005225,
       "subfield": {
-        "id": "https://openalex.org/subfields/2728",
-        "display_name": "Neurology"
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1007,12 +650,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T14015",
-      "display_name": "Otitis Media and Relapsing Polychondritis",
-      "value": 9.28e-05,
+      "id": "https://openalex.org/T11377",
+      "display_name": "Retinal and Macular Surgery",
+      "value": 0.0003806,
       "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1024,12 +667,369 @@
       }
     },
     {
-      "id": "https://openalex.org/T13919",
-      "display_name": "Medicinal plant effects and applications",
-      "value": 9.2e-05,
+      "id": "https://openalex.org/T11826",
+      "display_name": "Ocular Infections and Treatments",
+      "value": 0.0003636,
       "subfield": {
-        "id": "https://openalex.org/subfields/2707",
-        "display_name": "Complementary and alternative medicine"
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13467",
+      "display_name": "Drug-Induced Ocular Toxicity",
+      "value": 0.0003636,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10250",
+      "display_name": "Glaucoma and retinal disorders",
+      "value": 0.0003496,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11867",
+      "display_name": "Traumatic Ocular and Foreign Body Injuries",
+      "value": 0.0003473,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11291",
+      "display_name": "Intraocular Surgery and Lenses",
+      "value": 0.0003091,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12599",
+      "display_name": "Retinal and Optic Conditions",
+      "value": 0.0002973,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11328",
+      "display_name": "Ocular Oncology and Treatments",
+      "value": 0.0002616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11538",
+      "display_name": "Ophthalmology and Eye Disorders",
+      "value": 0.0002612,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10170",
+      "display_name": "Retinal Diseases and Treatments",
+      "value": 0.0002501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13869",
+      "display_name": "Ocular and Laser Science Research",
+      "value": 0.0002007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11194",
+      "display_name": "Ocular Diseases and Behçet’s Syndrome",
+      "value": 0.0001958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10381",
+      "display_name": "Ophthalmology and Visual Impairment Studies",
+      "value": 0.0001855,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12989",
+      "display_name": "Ocular Disorders and Treatments",
+      "value": 0.0001676,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10997",
+      "display_name": "Ocular Surface and Contact Lens",
+      "value": 0.0001591,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11438",
+      "display_name": "Retinal Imaging and Analysis",
+      "value": 0.0001583,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12523",
+      "display_name": "Nasolacrimal Duct Obstruction Treatments",
+      "value": 0.0001496,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12484",
+      "display_name": "Retinopathy of Prematurity Studies",
+      "value": 0.0001051,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10691",
+      "display_name": "Retinal Development and Disorders",
+      "value": 9.23e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11866",
+      "display_name": "Reconstructive Facial Surgery Techniques",
+      "value": 8.15e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11827",
+      "display_name": "Polyomavirus and related diseases",
+      "value": 5.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12369",
+      "display_name": "Pneumocystis jirovecii pneumonia detection and treatment",
+      "value": 5.46e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14384",
+      "display_name": "Ophthalmology and Visual Health Research",
+      "value": 5.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1044,6 +1044,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210162590",
-  "updated_date": "2026-10-01T06:00:02",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }

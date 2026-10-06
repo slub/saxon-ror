@@ -18,10 +18,10 @@
     "Freiberger Compound Materials (Germany)"
   ],
   "repositories": [],
-  "works_count": 175,
-  "cited_by_count": 3223,
+  "works_count": 134,
+  "cited_by_count": 3180,
   "summary_stats": {
-    "2yr_mean_citedness": 2.473684210526316,
+    "2yr_mean_citedness": 3.066666666666667,
     "h_index": 23,
     "i10_index": 122
   },
@@ -46,8 +46,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 3,
-      "oa_works_count": 2,
+      "works_count": 4,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
@@ -58,15 +58,15 @@
     },
     {
       "year": 2024,
-      "works_count": 10,
-      "oa_works_count": 10,
-      "cited_by_count": 7
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 6
     },
     {
       "year": 2023,
-      "works_count": 4,
-      "oa_works_count": 2,
-      "cited_by_count": 3
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 1
     },
     {
       "year": 2022,
@@ -78,12 +78,12 @@
       "year": 2021,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 18
+      "cited_by_count": 14
     },
     {
       "year": 2020,
-      "works_count": 3,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 0,
       "cited_by_count": 19
     },
     {
@@ -100,66 +100,120 @@
     },
     {
       "year": 2017,
-      "works_count": 5,
-      "oa_works_count": 3,
-      "cited_by_count": 10
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 9
     },
     {
       "year": 2016,
-      "works_count": 7,
+      "works_count": 3,
       "oa_works_count": 1,
       "cited_by_count": 60
     },
     {
       "year": 2015,
-      "works_count": 5,
-      "oa_works_count": 1,
+      "works_count": 1,
+      "oa_works_count": 0,
       "cited_by_count": 3
     },
     {
       "year": 2014,
-      "works_count": 9,
+      "works_count": 3,
       "oa_works_count": 0,
       "cited_by_count": 17
     },
     {
       "year": 2013,
-      "works_count": 2,
+      "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 34
+      "cited_by_count": 33
     },
     {
       "year": 2012,
-      "works_count": 7,
-      "oa_works_count": 2,
-      "cited_by_count": 18
+      "works_count": 4,
+      "oa_works_count": 1,
+      "cited_by_count": 16
     },
     {
       "year": 2011,
-      "works_count": 7,
+      "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 58
+      "cited_by_count": 57
     },
     {
       "year": 2010,
-      "works_count": 8,
+      "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 20
+      "cited_by_count": 15
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210130450",
-      "works_count": 175
+      "works_count": 134
     }
   ],
   "topics": [
     {
-      "id": "https://openalex.org/T10472",
-      "display_name": "Semiconductor materials and devices",
-      "count": 33,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T11853",
+      "display_name": "Semiconductor materials and interfaces",
+      "count": 60,
+      "score": 0.9804999828338623,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10624",
+      "display_name": "Silicon and Solar Cell Technologies",
+      "count": 28,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11087",
+      "display_name": "Solidification and crystal growth phenomena",
+      "count": 28,
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11637",
+      "display_name": "Advanced Semiconductor Detectors and Materials",
+      "count": 27,
+      "score": 0.5,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -192,28 +246,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10022",
-      "display_name": "Semiconductor Quantum Structures and Devices",
-      "count": 22,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10624",
-      "display_name": "Silicon and Solar Cell Technologies",
-      "count": 21,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T10472",
+      "display_name": "Semiconductor materials and devices",
+      "count": 20,
+      "score": 0.1289999932050705,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -228,46 +264,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11853",
-      "display_name": "Semiconductor materials and interfaces",
-      "count": 20,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11087",
-      "display_name": "Solidification and crystal growth phenomena",
-      "count": 16,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14117",
-      "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "count": 14,
-      "score": 1.0,
+      "id": "https://openalex.org/T10361",
+      "display_name": "Silicon Carbide Semiconductor Technologies",
+      "count": 12,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -284,8 +284,8 @@
     {
       "id": "https://openalex.org/T10377",
       "display_name": "Metal and Thin Film Mechanics",
-      "count": 10,
-      "score": 1.0,
+      "count": 12,
+      "score": 0.8862000107765198,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -300,17 +300,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10090",
-      "display_name": "ZnO doping and properties",
-      "count": 9,
-      "score": 0.9998999834060669,
+      "id": "https://openalex.org/T11301",
+      "display_name": "Advanced Surface Polishing Techniques",
+      "count": 10,
+      "score": 0.7275000214576721,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -318,10 +318,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10623",
-      "display_name": "Thin-Film Transistor Technologies",
-      "count": 8,
-      "score": 0.9995999932289124,
+      "id": "https://openalex.org/T11160",
+      "display_name": "Acoustic Wave Resonator Technologies",
+      "count": 9,
+      "score": 0.1160999983549118,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12309",
+      "display_name": "solar cell performance optimization",
+      "count": 9,
+      "score": 0.6528000235557556,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -336,28 +354,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10312",
-      "display_name": "Health, Nursing, Elderly Care",
-      "count": 7,
-      "score": 0.9954000115394592,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "count": 6,
-      "score": 0.9994000196456909,
+      "count": 8,
+      "score": 0.9667999744415283,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -372,17 +372,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11169",
-      "display_name": "Silicon Nanostructures and Photoluminescence",
+      "id": "https://openalex.org/T10022",
+      "display_name": "Semiconductor Quantum Structures and Devices",
       "count": 6,
-      "score": 0.9988999962806702,
+      "score": 0.25119999051094055,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -390,13 +390,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11301",
-      "display_name": "Advanced Surface Polishing Techniques",
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
       "count": 6,
-      "score": 1.0,
+      "score": 0.9585000276565552,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -408,28 +408,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12202",
-      "display_name": "nanoparticles nucleation surface interactions",
+      "id": "https://openalex.org/T14117",
+      "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
       "count": 6,
-      "score": 0.9937999844551086,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10590",
-      "display_name": "Chalcogenide Semiconductor Thin Films",
-      "count": 5,
-      "score": 0.9993000030517578,
+      "score": 0.5224999785423279,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -437,60 +419,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11160",
-      "display_name": "Acoustic Wave Resonator Technologies",
-      "count": 5,
-      "score": 0.9995999932289124,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11661",
-      "display_name": "Copper Interconnects and Reliability",
-      "count": 5,
-      "score": 0.9922999739646912,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12529",
-      "display_name": "Ga2O3 and related materials",
-      "count": 5,
-      "score": 0.9997000098228455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -516,28 +444,207 @@
       }
     },
     {
-      "id": "https://openalex.org/T14396",
-      "display_name": "Healthcare Regulation",
-      "count": 5,
-      "score": 0.982200026512146,
+      "id": "https://openalex.org/T10732",
+      "display_name": "Laser Material Processing Techniques",
+      "count": 4,
+      "score": 0.10440000146627426,
       "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10002",
-      "display_name": "Advanced Chemical Physics Studies",
+      "id": "https://openalex.org/T14128",
+      "display_name": "Metallurgical and Alloy Processes",
       "count": 4,
-      "score": 0.9998000264167786,
+      "score": 0.06310000270605087,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2500",
+        "display_name": "General Materials Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10132",
+      "display_name": "Advanced ceramic materials synthesis",
+      "count": 3,
+      "score": 0.0649000033736229,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2503",
+        "display_name": "Ceramics and Composites"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10204",
+      "display_name": "Microstructure and mechanical properties",
+      "count": 3,
+      "score": 0.010200000368058681,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10973",
+      "display_name": "Radioactive element chemistry and processing",
+      "count": 3,
+      "score": 0.801800012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11212",
+      "display_name": "Cultural Heritage Materials Analysis",
+      "count": 3,
+      "score": 0.9932000041007996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11881",
+      "display_name": "Crystallization and Solubility Studies",
+      "count": 3,
+      "score": 0.1858000010251999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12166",
+      "display_name": "Ion-surface interactions and analysis",
+      "count": 3,
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12762",
+      "display_name": "Crystallography and Radiation Phenomena",
+      "count": 3,
+      "score": 0.027300000190734863,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11087",
+      "display_name": "Solidification and crystal growth phenomena",
+      "value": 0.0002201,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10624",
+      "display_name": "Silicon and Solar Cell Technologies",
+      "value": 0.0001782,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11853",
+      "display_name": "Semiconductor materials and interfaces",
+      "value": 0.0001763,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -552,28 +659,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10083",
-      "display_name": "Graphene research and applications",
-      "count": 4,
-      "score": 0.9970999956130981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10361",
-      "display_name": "Silicon Carbide Semiconductor Technologies",
-      "count": 4,
-      "score": 0.9991000294685364,
+      "id": "https://openalex.org/T11637",
+      "display_name": "Advanced Semiconductor Detectors and Materials",
+      "value": 0.0001691,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -588,36 +676,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10558",
-      "display_name": "Advancements in Semiconductor Devices and Circuit Design",
-      "count": 4,
-      "score": 0.9998000264167786,
+      "id": "https://openalex.org/T12579",
+      "display_name": "Muon and positron interactions and applications",
+      "value": 0.0001462,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T11087",
-      "display_name": "Solidification and crystal growth phenomena",
-      "value": 0.0002399,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -627,7 +695,7 @@
     {
       "id": "https://openalex.org/T10099",
       "display_name": "GaN-based semiconductor devices and materials",
-      "value": 0.0001531,
+      "value": 0.0001374,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -642,94 +710,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10624",
-      "display_name": "Silicon and Solar Cell Technologies",
-      "value": 0.0001497,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13544",
-      "display_name": "Women's cancer prevention and management",
-      "value": 0.0001138,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11853",
-      "display_name": "Semiconductor materials and interfaces",
-      "value": 0.0001112,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14396",
-      "display_name": "Healthcare Regulation",
-      "value": 0.0001078,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13242",
-      "display_name": "Male Reproductive Health Studies",
-      "value": 8.14e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "value": 8.12e-05,
+      "value": 0.0001283,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -744,247 +727,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13866",
-      "display_name": "Occupational health in dentistry",
-      "value": 7.9e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3607",
-        "display_name": "Medical Laboratory Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10472",
-      "display_name": "Semiconductor materials and devices",
-      "value": 7.34e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13915",
-      "display_name": "Public Health in Brazil",
-      "value": 6.79e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10312",
-      "display_name": "Health, Nursing, Elderly Care",
-      "value": 6.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13315",
-      "display_name": "Occupational Health and Safety in Workplaces",
-      "value": 5.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3609",
-        "display_name": "Occupational Therapy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13974",
-      "display_name": "Health, Education, and Aging",
-      "value": 5.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3306",
-        "display_name": "Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11661",
-      "display_name": "Copper Interconnects and Reliability",
-      "value": 5.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2504",
-        "display_name": "Electronic, Optical and Magnetic Materials"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12869",
-      "display_name": "Occupational Health and Burnout",
-      "value": 5.91e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3609",
-        "display_name": "Occupational Therapy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12741",
-      "display_name": "Maternal and Neonatal Healthcare",
-      "value": 5.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12734",
-      "display_name": "Information Systems and Technology Applications",
-      "value": 5.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1404",
-        "display_name": "Management Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11169",
-      "display_name": "Silicon Nanostructures and Photoluminescence",
-      "value": 5.44e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10623",
-      "display_name": "Thin-Film Transistor Technologies",
-      "value": 5.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13340",
-      "display_name": "Palliative and Oncologic Care",
-      "value": 5.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13936",
-      "display_name": "Physical Education and Gymnastics",
-      "value": 5.32e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12466",
-      "display_name": "Near-Field Optical Microscopy",
-      "value": 5.23e-05,
+      "id": "https://openalex.org/T11301",
+      "display_name": "Advanced Surface Polishing Techniques",
+      "value": 0.0001274,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -999,16 +744,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10022",
-      "display_name": "Semiconductor Quantum Structures and Devices",
-      "value": 5.16e-05,
+      "id": "https://openalex.org/T12309",
+      "display_name": "solar cell performance optimization",
+      "value": 0.0001137,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1016,9 +761,128 @@
       }
     },
     {
+      "id": "https://openalex.org/T11160",
+      "display_name": "Acoustic Wave Resonator Technologies",
+      "value": 9.05e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10377",
+      "display_name": "Metal and Thin Film Mechanics",
+      "value": 8.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13097",
+      "display_name": "Male Breast Health Studies",
+      "value": 7.85e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10361",
+      "display_name": "Silicon Carbide Semiconductor Technologies",
+      "value": 7.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10472",
+      "display_name": "Semiconductor materials and devices",
+      "value": 6.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12981",
+      "display_name": "Conservation Techniques and Studies",
+      "value": 6e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1206",
+        "display_name": "Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12614",
+      "display_name": "Indigenous Studies and Ecology",
+      "value": 4.67e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "value": 5.11e-05,
+      "value": 4.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -1031,11 +895,147 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "value": 4.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
+      "value": 3.76e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12762",
+      "display_name": "Crystallography and Radiation Phenomena",
+      "value": 3.74e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11420",
+      "display_name": "Geographies of human-animal interactions",
+      "value": 3.66e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12017",
+      "display_name": "Recycling and Waste Management Techniques",
+      "value": 3.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12932",
+      "display_name": "Powder Metallurgy Techniques and Materials",
+      "value": 3.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13840",
+      "display_name": "Chemical Safety and Risk Management",
+      "value": 2.75e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1504",
+        "display_name": "Chemical Health and Safety"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14128",
+      "display_name": "Metallurgical and Alloy Processes",
+      "value": 2.73e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2500",
+        "display_name": "General Materials Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210130450",
-  "updated_date": "2026-10-01T06:00:02",
+  "updated_date": "2026-10-06T05:59:16",
   "created_date": "2022-02-02T04:48:36"
 }
