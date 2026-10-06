@@ -1656,7 +1656,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
@@ -1734,6 +1734,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Dresden Center for Nanoanalysis",
+        "type": "child",
+        "id": "https://ror.org/01qxdbm71"
       }
     ],
     "status": "active",
@@ -1969,11 +1974,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "ctdqmat.de"
+    ],
     "established": 2019,
     "external_ids": [
       {
@@ -1982,13 +1989,20 @@
         ],
         "preferred": "grid.511479.f",
         "type": "grid"
+      },
+      {
+        "all": [
+          "Q107518824"
+        ],
+        "preferred": "Q107518824",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/00kkpv737",
     "links": [
       {
         "type": "website",
-        "value": "https://www.ctqmat.de/"
+        "value": "https://www.ctdqmat.de/"
       }
     ],
     "locations": [
@@ -2023,6 +2037,13 @@
     ],
     "names": [
       {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CTDQMAT"
+      },
+      {
         "lang": null,
         "types": [
           "acronym"
@@ -2039,10 +2060,24 @@
       {
         "lang": "en",
         "types": [
-          "ror_display",
-          "label"
+          "alias"
+        ],
+        "value": "Cluster of Excellence ctd.qmat – Complexity, Topology and Dynamics in Quantum Matter"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
         ],
         "value": "Complexity and Topology in Quantum Matter"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Complexity, Topology and Dynamics in Quantum Matter"
       },
       {
         "lang": "de",
@@ -2052,11 +2087,32 @@
         "value": "Exzellenzcluster ct.qmat - Komplexität und Topologie in Quantenmaterialien"
       },
       {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Exzellenzcluster ctd.qmat - Komplexität, Topologie und Dynamik in Quantenmaterialien"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Komplexität, Topologie und Dynamik in Quantenmaterialien"
+      },
+      {
         "lang": "en",
         "types": [
           "alias"
         ],
         "value": "ct.qmat"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "ctd.qmat"
       }
     ],
     "relationships": [
@@ -3215,7 +3271,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-06-02",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
@@ -3299,8 +3355,14 @@
         "value": "Society for Knowledge and Technology Transfer"
       }
     ],
-    "relationships": [],
-    "status": "active",
+    "relationships": [
+      {
+        "label": "GWT-TUD GmbH (Germany)",
+        "type": "successor",
+        "id": "https://ror.org/049ag6g97"
+      }
+    ],
+    "status": "withdrawn",
     "types": [
       "company"
     ]
@@ -6417,6 +6479,93 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [],
+    "id": "https://ror.org/01qxdbm71",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://cfaed.tu-dresden.de/dcn"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "DCN"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Dresden Center for Nanoanalysis"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Center for Nanoanalytics"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Center of Nanoanalysis"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Centre for Nanoanalysis"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Center for Advancing Electronics Dresden",
+        "type": "parent",
+        "id": "https://ror.org/00g3vrr12"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -8108,7 +8257,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
@@ -8180,6 +8329,13 @@
           "acronym"
         ],
         "value": "HZDR"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Helmholtz Center Dresden-Rossendorf"
       },
       {
         "lang": "de",
@@ -16839,7 +16995,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
@@ -16977,6 +17133,11 @@
         "label": "Institut für Angewandte Informatik (InfAI) e. V.",
         "type": "related",
         "id": "https://ror.org/01f7nea92"
+      },
+      {
+        "label": "Bach Archiv Leipzig",
+        "type": "related",
+        "id": "https://ror.org/05s928n76"
       }
     ],
     "status": "active",
@@ -17542,6 +17703,94 @@
   {
     "admin": {
       "created": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "wilderness-international.org"
+    ],
+    "established": 2008,
+    "external_ids": [
+      {
+        "all": [
+          "Q8001145"
+        ],
+        "preferred": "Q8001145",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/03ytbvs23",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://wilderness-international.org"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Wilderness_International"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Stiftung Wilderness International"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "WI"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Wilderness International"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Wilderness International Deutschland"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
@@ -17857,7 +18106,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-10-06",
         "schema_version": "2.1"
       }
     },
@@ -17963,7 +18212,7 @@
         "id": "https://ror.org/05hrn3e05"
       },
       {
-        "label": "Complexity and Topology in Quantum Matter",
+        "label": "Complexity, Topology and Dynamics in Quantum Matter",
         "type": "child",
         "id": "https://ror.org/00kkpv737"
       },
@@ -18103,6 +18352,11 @@
         "id": "https://ror.org/010rfe342"
       },
       {
+        "label": "Center for Molecular and Cellular Bioengineering",
+        "type": "child",
+        "id": "https://ror.org/01y4jnr14"
+      },
+      {
         "label": "Medizinische Universität Lausitz - Carl Thiem",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -18191,11 +18445,6 @@
         "label": "Verein für Nationales Hochleistungsrechnen – NHR-Verein e.V.",
         "type": "related",
         "id": "https://ror.org/033mrbb45"
-      },
-      {
-        "label": "Center for Molecular and Cellular Bioengineering",
-        "type": "child",
-        "id": "https://ror.org/01y4jnr14"
       }
     ],
     "status": "active",
@@ -19429,9 +19678,45 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "g-wt.de"
+    ],
+    "established": 1996,
+    "external_ids": [
+      {
+        "all": [
+          "grid.476295.b"
+        ],
+        "preferred": "grid.476295.b",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q30268944"
+        ],
+        "preferred": "Q30268944",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/049ag6g97",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.g-wt.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -19442,52 +19727,80 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1996,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.476295.b"
-        ],
-        "preferred": "grid.476295.b"
-      }
-    ],
-    "id": "https://ror.org/049ag6g97",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://gwtonline.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "GWT-TUD (Germany)",
+        "lang": "de",
         "types": [
-          "ror_display",
+          "acronym"
+        ],
+        "value": "GWT"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "GWT - Gesellschaft für Wissens- und Technologietransfer mbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "GWT-TUD (Germany)"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label"
         ],
-        "lang": null
+        "value": "GWT-TUD GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "GWT-TUD GmbH (Germany)"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Gesellschaft fur Wissens und Technologietransfer"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Gesellschaft für Wissens- und Technologietransfer"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Society for Knowledge and Technology Transfer"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "GWT-TUD GmbH (Germany)",
+        "type": "predecessor",
+        "id": "https://ror.org/012d0t602"
+      }
+    ],
     "status": "active",
     "types": [
       "company"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -26282,48 +26595,42 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2879139,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 51.33962,
-          "lng": 12.37129,
-          "name": "Leipzig"
-        }
+    "admin": {
+      "created": {
+        "date": "2019-12-18",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-06",
+        "schema_version": "2.1"
       }
-    ],
+    },
+    "domains": [],
     "established": 1950,
     "external_ids": [
       {
-        "type": "grid",
         "all": [
           "grid.507520.5"
         ],
-        "preferred": "grid.507520.5"
+        "preferred": "grid.507520.5",
+        "type": "grid"
       },
       {
-        "type": "isni",
         "all": [
           "0000 0004 0397 0029"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "isni"
       },
       {
-        "type": "wikidata",
         "all": [
           "Q798038"
         ],
-        "preferred": null
+        "preferred": null,
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/05s928n76",
-    "domains": [],
     "links": [
       {
         "type": "website",
@@ -26334,44 +26641,55 @@
         "value": "https://en.wikipedia.org/wiki/Bach_Archive"
       }
     ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
     "names": [
       {
-        "value": "Bach Archiv Leipzig",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Bach Archiv Leipzig"
       },
       {
-        "value": "Bach-Archiv",
+        "lang": "de",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "Bach-Archiv"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "Leipzig University",
+        "type": "parent",
+        "id": "https://ror.org/03s7gtk40"
+      },
+      {
+        "label": "Leipzig University",
+        "type": "related",
         "id": "https://ror.org/03s7gtk40"
       }
     ],
     "status": "active",
     "types": [
       "archive"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-12-18",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
