@@ -6,6 +6,7 @@
   "type": "company",
   "type_id": "https://openalex.org/institution-types/company",
   "lineage": [
+    "https://openalex.org/I4210136887",
     "https://openalex.org/I4405267066"
   ],
   "homepage_url": "https://www.g-wt.de",
@@ -23,12 +24,12 @@
     "Society for Knowledge and Technology Transfer"
   ],
   "repositories": [],
-  "works_count": 279,
-  "cited_by_count": 22435,
+  "works_count": 275,
+  "cited_by_count": 21400,
   "summary_stats": {
-    "2yr_mean_citedness": 3.450980392156863,
+    "2yr_mean_citedness": 3.9574468085106385,
     "h_index": 60,
-    "i10_index": 219
+    "i10_index": 214
   },
   "ids": {
     "openalex": "https://openalex.org/I4405267066",
@@ -47,7 +48,16 @@
     "longitude": 13.73832
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210136887",
+      "ror": "https://ror.org/049ag6g97",
+      "display_name": "GWT-TUD GmbH (Germany)",
+      "country_code": "DE",
+      "type": "company",
+      "relationship": "successor"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
@@ -59,79 +69,79 @@
       "year": 2025,
       "works_count": 11,
       "oa_works_count": 9,
-      "cited_by_count": 43
+      "cited_by_count": 46
     },
     {
       "year": 2024,
-      "works_count": 9,
-      "oa_works_count": 7,
-      "cited_by_count": 51
+      "works_count": 8,
+      "oa_works_count": 6,
+      "cited_by_count": 53
     },
     {
       "year": 2023,
-      "works_count": 22,
-      "oa_works_count": 18,
-      "cited_by_count": 257
+      "works_count": 21,
+      "oa_works_count": 17,
+      "cited_by_count": 255
     },
     {
       "year": 2022,
       "works_count": 7,
       "oa_works_count": 6,
-      "cited_by_count": 175
+      "cited_by_count": 174
     },
     {
       "year": 2021,
       "works_count": 6,
       "oa_works_count": 5,
-      "cited_by_count": 674
+      "cited_by_count": 657
     },
     {
       "year": 2020,
-      "works_count": 11,
-      "oa_works_count": 8,
-      "cited_by_count": 606
+      "works_count": 9,
+      "oa_works_count": 6,
+      "cited_by_count": 596
     },
     {
       "year": 2019,
       "works_count": 10,
       "oa_works_count": 4,
-      "cited_by_count": 456
+      "cited_by_count": 453
     },
     {
       "year": 2018,
       "works_count": 10,
       "oa_works_count": 6,
-      "cited_by_count": 201
+      "cited_by_count": 197
     },
     {
       "year": 2017,
       "works_count": 9,
       "oa_works_count": 4,
-      "cited_by_count": 245
+      "cited_by_count": 242
     },
     {
       "year": 2016,
       "works_count": 15,
       "oa_works_count": 5,
-      "cited_by_count": 647
+      "cited_by_count": 637
     },
     {
       "year": 2015,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 150
+      "cited_by_count": 152
     },
     {
       "year": 2014,
       "works_count": 17,
       "oa_works_count": 7,
-      "cited_by_count": 422
+      "cited_by_count": 420
     },
     {
       "year": 2013,
       "works_count": 16,
       "oa_works_count": 7,
-      "cited_by_count": 10232
+      "cited_by_count": 9321
     },
     {
       "year": 2012,
@@ -143,20 +153,20 @@
       "year": 2011,
       "works_count": 12,
       "oa_works_count": 2,
-      "cited_by_count": 111
+      "cited_by_count": 109
     },
     {
       "year": 2010,
       "works_count": 16,
       "oa_works_count": 5,
-      "cited_by_count": 559
+      "cited_by_count": 556
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405267066",
-      "works_count": 279
+      "works_count": 275
     }
   ],
   "topics": [
@@ -431,24 +441,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10054",
-      "display_name": "Parallel Computing and Optimization Techniques",
-      "count": 8,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11661",
       "display_name": "Copper Interconnects and Reliability",
       "count": 8,
@@ -518,6 +510,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10054",
+      "display_name": "Parallel Computing and Optimization Techniques",
+      "count": 6,
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -615,7 +625,7 @@
     {
       "id": "https://openalex.org/T10401",
       "display_name": "Diabetes Treatment and Management",
-      "value": 0.000443,
+      "value": 0.0004529,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -632,7 +642,7 @@
     {
       "id": "https://openalex.org/T10027",
       "display_name": "Diabetes, Cardiovascular Risks, and Lipoproteins",
-      "value": 0.0003075,
+      "value": 0.0003175,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -649,7 +659,7 @@
     {
       "id": "https://openalex.org/T12199",
       "display_name": "Vascular Anomalies and Treatments",
-      "value": 0.0002807,
+      "value": 0.0002852,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -666,7 +676,7 @@
     {
       "id": "https://openalex.org/T10560",
       "display_name": "Diabetes Management and Research",
-      "value": 0.000244,
+      "value": 0.0002486,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -683,7 +693,7 @@
     {
       "id": "https://openalex.org/T10728",
       "display_name": "Pulmonary Hypertension Research and Treatments",
-      "value": 0.0001668,
+      "value": 0.0001701,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -700,7 +710,7 @@
     {
       "id": "https://openalex.org/T12539",
       "display_name": "Pharmacology and Obesity Treatment",
-      "value": 0.0001641,
+      "value": 0.0001665,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
         "display_name": "Pharmacology"
@@ -717,7 +727,7 @@
     {
       "id": "https://openalex.org/T10528",
       "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
-      "value": 0.0001495,
+      "value": 0.000154,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -734,7 +744,7 @@
     {
       "id": "https://openalex.org/T12979",
       "display_name": "Cardiovascular Disease and Adiposity",
-      "value": 0.0001466,
+      "value": 0.0001509,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -751,7 +761,7 @@
     {
       "id": "https://openalex.org/T12964",
       "display_name": "Diet, Metabolism, and Disease",
-      "value": 0.0001387,
+      "value": 0.0001431,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -768,7 +778,7 @@
     {
       "id": "https://openalex.org/T12024",
       "display_name": "Ultra-Wideband Communications Technology",
-      "value": 0.0001233,
+      "value": 0.0001243,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -785,7 +795,7 @@
     {
       "id": "https://openalex.org/T13430",
       "display_name": "Lipid metabolism and disorders",
-      "value": 0.0001113,
+      "value": 0.0001134,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -802,7 +812,7 @@
     {
       "id": "https://openalex.org/T10394",
       "display_name": "Lipoproteins and Cardiovascular Health",
-      "value": 0.0001079,
+      "value": 0.0001104,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -819,7 +829,7 @@
     {
       "id": "https://openalex.org/T11661",
       "display_name": "Copper Interconnects and Reliability",
-      "value": 0.0001055,
+      "value": 0.0001063,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -836,7 +846,7 @@
     {
       "id": "https://openalex.org/T10870",
       "display_name": "Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis",
-      "value": 9.56e-05,
+      "value": 9.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -853,7 +863,7 @@
     {
       "id": "https://openalex.org/T12801",
       "display_name": "Bluetooth and Wireless Communication Technologies",
-      "value": 8.99e-05,
+      "value": 9.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -870,7 +880,7 @@
     {
       "id": "https://openalex.org/T11330",
       "display_name": "Systemic Sclerosis and Related Diseases",
-      "value": 7.9e-05,
+      "value": 8.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -887,7 +897,7 @@
     {
       "id": "https://openalex.org/T11453",
       "display_name": "Diagnosis and Treatment of Venous Diseases",
-      "value": 7.36e-05,
+      "value": 7.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -904,7 +914,7 @@
     {
       "id": "https://openalex.org/T12919",
       "display_name": "Blood disorders and treatments",
-      "value": 5.73e-05,
+      "value": 5.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -921,7 +931,7 @@
     {
       "id": "https://openalex.org/T12172",
       "display_name": "Neutropenia and Cancer Infections",
-      "value": 5.53e-05,
+      "value": 5.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -938,7 +948,7 @@
     {
       "id": "https://openalex.org/T10285",
       "display_name": "Venous Thromboembolism Diagnosis and Management",
-      "value": 5.47e-05,
+      "value": 5.55e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2724",
         "display_name": "Internal Medicine"
@@ -953,26 +963,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12845",
-      "display_name": "Methemoglobinemia and Tumor Lysis Syndrome",
-      "value": 5.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11215",
       "display_name": "Chronic Myeloid Leukemia Treatments",
-      "value": 5.42e-05,
+      "value": 5.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
         "display_name": "Hematology"
@@ -987,9 +980,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12845",
+      "display_name": "Methemoglobinemia and Tumor Lysis Syndrome",
+      "value": 5.54e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10309",
       "display_name": "Acute Myeloid Leukemia Research",
-      "value": 5.2e-05,
+      "value": 5.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
         "display_name": "Hematology"
@@ -1006,7 +1016,7 @@
     {
       "id": "https://openalex.org/T11280",
       "display_name": "Hemophilia Treatment and Research",
-      "value": 4.76e-05,
+      "value": 4.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
         "display_name": "Hematology"
@@ -1023,7 +1033,7 @@
     {
       "id": "https://openalex.org/T11072",
       "display_name": "Peroxisome Proliferator-Activated Receptors",
-      "value": 4.69e-05,
+      "value": 4.8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1039,8 +1049,8 @@
     }
   ],
   "is_super_system": false,
-  "status": "active",
+  "status": "withdrawn",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405267066",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-17T18:22:22",
   "created_date": "2026-06-04T03:30:29"
 }

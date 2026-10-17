@@ -18,11 +18,11 @@
     "eLTER RI"
   ],
   "repositories": [],
-  "works_count": 11,
+  "works_count": 10,
   "cited_by_count": 51,
   "summary_stats": {
     "2yr_mean_citedness": 7.285714285714286,
-    "h_index": 4,
+    "h_index": 3,
     "i10_index": 2
   },
   "ids": {
@@ -63,7 +63,7 @@
       "year": 2024,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 45
+      "cited_by_count": 46
     },
     {
       "year": 2023,
@@ -73,8 +73,8 @@
     },
     {
       "year": 2019,
-      "works_count": 3,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 0
     }
   ],
@@ -82,14 +82,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405267741",
-      "works_count": 11
+      "works_count": 10
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T14472",
       "display_name": "Environmental and Cultural Studies in Latin America and Beyond",
-      "count": 8,
+      "count": 7,
       "score": 0.9961000084877014,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
@@ -107,7 +107,7 @@
     {
       "id": "https://openalex.org/T10226",
       "display_name": "Land Use and Ecosystem Services",
-      "count": 6,
+      "count": 5,
       "score": 0.423799991607666,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
@@ -125,7 +125,7 @@
     {
       "id": "https://openalex.org/T10005",
       "display_name": "Ecology and Vegetation Dynamics Studies",
-      "count": 5,
+      "count": 4,
       "score": 0.01850000023841858,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
@@ -325,7 +325,7 @@
     {
       "id": "https://openalex.org/T14472",
       "display_name": "Environmental and Cultural Studies in Latin America and Beyond",
-      "value": 0.0004096,
+      "value": 0.0003765,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -342,7 +342,7 @@
     {
       "id": "https://openalex.org/T12774",
       "display_name": "Bauxite Residue and Utilization",
-      "value": 6.44e-05,
+      "value": 6.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -357,43 +357,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10226",
-      "display_name": "Land Use and Ecosystem Services",
-      "value": 2.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11704",
-      "display_name": "Mobile Crowdsensing and Crowdsourcing",
-      "value": 2.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1706",
-        "display_name": "Computer Science Applications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14427",
       "display_name": "Environmental Monitoring and Data Management",
-      "value": 2.54e-05,
+      "value": 3.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1907",
         "display_name": "Geology"
@@ -408,9 +374,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11675",
-      "display_name": "Open Source Software Innovations",
-      "value": 2.34e-05,
+      "id": "https://openalex.org/T11704",
+      "display_name": "Mobile Crowdsensing and Crowdsourcing",
+      "value": 2.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1706",
         "display_name": "Computer Science Applications"
@@ -425,9 +391,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11675",
+      "display_name": "Open Source Software Innovations",
+      "value": 2.72e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10226",
+      "display_name": "Land Use and Ecosystem Services",
+      "value": 2.59e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11947",
       "display_name": "Molten salt chemistry and electrochemical processes",
-      "value": 1.77e-05,
+      "value": 1.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1507",
         "display_name": "Fluid Flow and Transfer Processes"
@@ -444,7 +444,7 @@
     {
       "id": "https://openalex.org/T12492",
       "display_name": "Zoonotic diseases and public health",
-      "value": 1.51e-05,
+      "value": 1.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -461,7 +461,7 @@
     {
       "id": "https://openalex.org/T10005",
       "display_name": "Ecology and Vegetation Dynamics Studies",
-      "value": 1.41e-05,
+      "value": 1.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
         "display_name": "Nature and Landscape Conservation"
@@ -478,7 +478,7 @@
     {
       "id": "https://openalex.org/T12766",
       "display_name": "Interdisciplinary Research and Collaboration",
-      "value": 1.11e-05,
+      "value": 1.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -495,7 +495,7 @@
     {
       "id": "https://openalex.org/T10330",
       "display_name": "Hydrology and Watershed Management Studies",
-      "value": 7.7e-06,
+      "value": 8.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -529,7 +529,7 @@
     {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "value": 3.1e-06,
+      "value": 4.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -547,6 +547,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405267741",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T18:21:27",
   "created_date": "2026-06-04T03:30:29"
 }

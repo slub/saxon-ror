@@ -19,12 +19,12 @@
     "German Centre for Astrophysics"
   ],
   "repositories": [],
-  "works_count": 119,
-  "cited_by_count": 200,
+  "works_count": 92,
+  "cited_by_count": 220,
   "summary_stats": {
-    "2yr_mean_citedness": 1.3445945945945945,
-    "h_index": 7,
-    "i10_index": 6
+    "2yr_mean_citedness": 1.8559322033898304,
+    "h_index": 8,
+    "i10_index": 7
   },
   "ids": {
     "openalex": "https://openalex.org/I4405266855",
@@ -47,21 +47,27 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 77,
-      "oa_works_count": 73,
-      "cited_by_count": 17
+      "works_count": 57,
+      "oa_works_count": 53,
+      "cited_by_count": 18
     },
     {
       "year": 2025,
-      "works_count": 35,
-      "oa_works_count": 34,
-      "cited_by_count": 109
+      "works_count": 27,
+      "oa_works_count": 26,
+      "cited_by_count": 125
     },
     {
       "year": 2024,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 42
+      "cited_by_count": 43
+    },
+    {
+      "year": 2023,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
     },
     {
       "year": 2022,
@@ -74,14 +80,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405266855",
-      "works_count": 119
+      "works_count": 92
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10039",
       "display_name": "Stellar, planetary, and galactic studies",
-      "count": 33,
+      "count": 30,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -115,17 +121,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T13650",
-      "display_name": "Computational Physics and Python Applications",
-      "count": 23,
-      "score": 0.948199987411499,
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "count": 17,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -135,7 +141,7 @@
     {
       "id": "https://openalex.org/T10463",
       "display_name": "Pulsars and Gravitational Waves Research",
-      "count": 21,
+      "count": 16,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -153,7 +159,7 @@
     {
       "id": "https://openalex.org/T10744",
       "display_name": "Astrophysical Phenomena and Observations",
-      "count": 18,
+      "count": 16,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -169,9 +175,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10477",
-      "display_name": "Astrophysics and Star Formation Studies",
-      "count": 16,
+      "id": "https://openalex.org/T12450",
+      "display_name": "Radio Astronomy Observations and Technology",
+      "count": 13,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -187,28 +193,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13286",
-      "display_name": "Modeling and Simulation Systems",
-      "count": 14,
-      "score": 0.1151999980211258,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10095",
       "display_name": "Cosmology and Gravitation Theories",
-      "count": 12,
-      "score": 0.9955999851226807,
+      "count": 11,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -225,7 +213,7 @@
     {
       "id": "https://openalex.org/T11090",
       "display_name": "Dark Matter and Cosmic Phenomena",
-      "count": 12,
+      "count": 11,
       "score": 0.9779999852180481,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -241,27 +229,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11416",
-      "display_name": "Numerical methods for differential equations",
-      "count": 12,
-      "score": 0.03970000147819519,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2612",
-        "display_name": "Numerical Analysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12917",
       "display_name": "Astronomy and Astrophysical Research",
-      "count": 12,
+      "count": 11,
       "score": 0.9595000147819519,
       "subfield": {
         "id": "https://openalex.org/subfields/3105",
@@ -277,46 +247,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12450",
-      "display_name": "Radio Astronomy Observations and Technology",
-      "count": 11,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11323",
-      "display_name": "Gamma-ray bursts and supernovae",
-      "count": 9,
-      "score": 0.9872999787330627,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10818",
       "display_name": "Astrophysics and Cosmic Phenomena",
-      "count": 8,
-      "score": 0.9437999725341797,
+      "count": 9,
+      "score": 0.9926999807357788,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -331,17 +265,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11367",
-      "display_name": "Particle accelerators and beam dynamics",
+      "id": "https://openalex.org/T11323",
+      "display_name": "Gamma-ray bursts and supernovae",
       "count": 8,
-      "score": 0.8935999870300293,
+      "score": 0.9854000210762024,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -385,42 +319,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10559",
-      "display_name": "Particle Accelerators and Free-Electron Lasers",
-      "count": 7,
-      "score": 0.056299999356269836,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10093",
-      "display_name": "Nuclear physics research studies",
-      "count": 6,
-      "score": 0.12290000170469284,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3106",
-        "display_name": "Nuclear and High Energy Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11701",
       "display_name": "Space Satellite Systems and Control",
       "count": 6,
@@ -439,17 +337,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10611",
-      "display_name": "Organic Light-Emitting Diodes Research",
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
       "count": 5,
-      "score": 0.015799999237060547,
+      "score": 0.12290000170469284,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -457,13 +355,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11082",
-      "display_name": "Spacecraft Dynamics and Control",
+      "id": "https://openalex.org/T10611",
+      "display_name": "Organic Light-Emitting Diodes Research",
       "count": 5,
-      "score": 0.05939999967813492,
+      "score": 0.015799999237060547,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -527,13 +425,102 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    }
-  ],
-  "topic_share": [
+    },
     {
-      "id": "https://openalex.org/T13650",
-      "display_name": "Computational Physics and Python Applications",
-      "value": 0.0003207,
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 3,
+      "score": 0.01489999983459711,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10275",
+      "display_name": "2D Materials and Applications",
+      "count": 3,
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "count": 3,
+      "score": 0.18289999663829803,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "count": 3,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10299",
+      "display_name": "Photonic and Optical Devices",
+      "count": 2,
+      "score": 0.13269999623298645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "count": 2,
+      "score": 0.9682999849319458,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -546,28 +533,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13286",
-      "display_name": "Modeling and Simulation Systems",
-      "value": 0.0002388,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
+    }
+  ],
+  "topic_share": [
     {
       "id": "https://openalex.org/T12450",
       "display_name": "Radio Astronomy Observations and Technology",
-      "value": 0.000206,
+      "value": 0.0002622,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -584,7 +556,7 @@
     {
       "id": "https://openalex.org/T14163",
       "display_name": "Astronomical Observations and Instrumentation",
-      "value": 0.0001815,
+      "value": 0.0002,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -601,7 +573,7 @@
     {
       "id": "https://openalex.org/T10463",
       "display_name": "Pulsars and Gravitational Waves Research",
-      "value": 0.000163,
+      "value": 0.000136,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -618,7 +590,7 @@
     {
       "id": "https://openalex.org/T13898",
       "display_name": "Diverse Interdisciplinary Research Studies",
-      "value": 0.0001257,
+      "value": 0.0001359,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -635,7 +607,7 @@
     {
       "id": "https://openalex.org/T11090",
       "display_name": "Dark Matter and Cosmic Phenomena",
-      "value": 0.0001135,
+      "value": 0.000112,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -650,60 +622,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11416",
-      "display_name": "Numerical methods for differential equations",
-      "value": 0.0001128,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2612",
-        "display_name": "Numerical Analysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10026",
       "display_name": "Galaxies: Formation, Evolution, Phenomena",
-      "value": 7.64e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11323",
-      "display_name": "Gamma-ray bursts and supernovae",
-      "value": 6.91e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10744",
-      "display_name": "Astrophysical Phenomena and Observations",
-      "value": 6.86e-05,
+      "value": 7.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -720,7 +641,7 @@
     {
       "id": "https://openalex.org/T10477",
       "display_name": "Astrophysics and Star Formation Studies",
-      "value": 6.76e-05,
+      "value": 7.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -735,33 +656,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T13021",
-      "display_name": "Geology and Environmental Impact Studies",
-      "value": 6.72e-05,
+      "id": "https://openalex.org/T11323",
+      "display_name": "Gamma-ray bursts and supernovae",
+      "value": 6.59e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10559",
-      "display_name": "Particle Accelerators and Free-Electron Lasers",
-      "value": 6.33e-05,
+      "id": "https://openalex.org/T10744",
+      "display_name": "Astrophysical Phenomena and Observations",
+      "value": 6.53e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -771,7 +692,7 @@
     {
       "id": "https://openalex.org/T10039",
       "display_name": "Stellar, planetary, and galactic studies",
-      "value": 6.28e-05,
+      "value": 5.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -788,58 +709,7 @@
     {
       "id": "https://openalex.org/T11701",
       "display_name": "Space Satellite Systems and Control",
-      "value": 5.18e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10095",
-      "display_name": "Cosmology and Gravitation Theories",
-      "value": 5.05e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12917",
-      "display_name": "Astronomy and Astrophysical Research",
-      "value": 4.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3105",
-        "display_name": "Instrumentation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11082",
-      "display_name": "Spacecraft Dynamics and Control",
-      "value": 4.55e-05,
+      "value": 5.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -856,7 +726,7 @@
     {
       "id": "https://openalex.org/T10818",
       "display_name": "Astrophysics and Cosmic Phenomena",
-      "value": 4.41e-05,
+      "value": 5.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -871,9 +741,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10095",
+      "display_name": "Cosmology and Gravitation Theories",
+      "value": 4.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11963",
+      "display_name": "Impact of Light on Environment and Health",
+      "value": 4.58e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11992",
       "display_name": "CCD and CMOS Imaging Sensors",
-      "value": 4.4e-05,
+      "value": 4.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -890,7 +794,7 @@
     {
       "id": "https://openalex.org/T13885",
       "display_name": "Geophysics and Sensor Technology",
-      "value": 4.28e-05,
+      "value": 4.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -905,16 +809,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11963",
-      "display_name": "Impact of Light on Environment and Health",
-      "value": 4.24e-05,
+      "id": "https://openalex.org/T12917",
+      "display_name": "Astronomy and Astrophysical Research",
+      "value": 4.32e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -924,7 +828,7 @@
     {
       "id": "https://openalex.org/T13062",
       "display_name": "Cognitive Computing and Networks",
-      "value": 3.87e-05,
+      "value": 4.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -941,7 +845,7 @@
     {
       "id": "https://openalex.org/T10611",
       "display_name": "Organic Light-Emitting Diodes Research",
-      "value": 3.72e-05,
+      "value": 3.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -954,11 +858,113 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T13650",
+      "display_name": "Computational Physics and Python Applications",
+      "value": 3.76e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13021",
+      "display_name": "Geology and Environmental Impact Studies",
+      "value": 3.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10045",
+      "display_name": "Organic Electronics and Photovoltaics",
+      "value": 3.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14214",
+      "display_name": "Space Exploration and Technology",
+      "value": 3.06e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "value": 2.97e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12836",
+      "display_name": "History and Developments in Astronomy",
+      "value": 2.63e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405266855",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T18:21:27",
   "created_date": "2026-06-04T03:30:29"
 }

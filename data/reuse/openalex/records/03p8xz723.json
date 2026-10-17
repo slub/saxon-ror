@@ -16,12 +16,12 @@
     "Lausitzer Seenland Klinikum"
   ],
   "repositories": [],
-  "works_count": 86,
+  "works_count": 88,
   "cited_by_count": 1606,
   "summary_stats": {
-    "2yr_mean_citedness": 5.583333333333333,
+    "2yr_mean_citedness": 5.666666666666667,
     "h_index": 18,
-    "i10_index": 21
+    "i10_index": 22
   },
   "ids": {
     "openalex": "https://openalex.org/I4210136653",
@@ -43,15 +43,21 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
       "year": 2025,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 19
+      "cited_by_count": 20
     },
     {
       "year": 2024,
-      "works_count": 4,
-      "oa_works_count": 4,
+      "works_count": 3,
+      "oa_works_count": 3,
       "cited_by_count": 31
     },
     {
@@ -74,9 +80,9 @@
     },
     {
       "year": 2020,
-      "works_count": 5,
-      "oa_works_count": 3,
-      "cited_by_count": 91
+      "works_count": 7,
+      "oa_works_count": 5,
+      "cited_by_count": 90
     },
     {
       "year": 2019,
@@ -106,13 +112,13 @@
       "year": 2015,
       "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 336
+      "cited_by_count": 337
     },
     {
       "year": 2014,
       "works_count": 9,
       "oa_works_count": 1,
-      "cited_by_count": 53
+      "cited_by_count": 52
     },
     {
       "year": 2013,
@@ -137,7 +143,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210136653",
-      "works_count": 86
+      "works_count": 88
     }
   ],
   "topics": [
@@ -232,6 +238,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10073",
+      "display_name": "Hepatocellular Carcinoma Treatment and Prognosis",
+      "count": 5,
+      "score": 0.9883000254631042,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
       "count": 5,
@@ -254,6 +278,24 @@
       "display_name": "Cardiac Imaging and Diagnostics",
       "count": 5,
       "score": 0.9603999853134155,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10727",
+      "display_name": "Ultrasound Imaging and Elastography",
+      "count": 5,
+      "score": 0.019300000742077827,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -304,13 +346,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10073",
-      "display_name": "Hepatocellular Carcinoma Treatment and Prognosis",
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
       "count": 4,
-      "score": 0.9883000254631042,
+      "score": 0.9965999722480774,
       "subfield": {
-        "id": "https://openalex.org/subfields/2721",
-        "display_name": "Hepatology"
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -329,24 +371,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10727",
-      "display_name": "Ultrasound Imaging and Elastography",
-      "count": 4,
-      "score": 0.019300000742077827,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -466,42 +490,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10351",
-      "display_name": "Liver Disease Diagnosis and Treatment",
-      "count": 3,
-      "score": 0.002899999963119626,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10449",
-      "display_name": "Renal cell carcinoma treatment",
-      "count": 3,
-      "score": 0.00860000029206276,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10685",
       "display_name": "Viral-associated cancers and disorders",
       "count": 3,
@@ -590,13 +578,31 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12355",
+      "display_name": "Genetic and rare skin diseases.",
+      "count": 3,
+      "score": 0.09889999777078629,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13759",
       "display_name": "Medical Imaging and Pathology Studies",
-      "value": 0.000153,
+      "value": 0.0001546,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -613,7 +619,7 @@
     {
       "id": "https://openalex.org/T11571",
       "display_name": "Sarcoidosis and Beryllium Toxicity Research",
-      "value": 9.04e-05,
+      "value": 9.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -630,7 +636,7 @@
     {
       "id": "https://openalex.org/T11356",
       "display_name": "Pleural and Pulmonary Diseases",
-      "value": 7.76e-05,
+      "value": 7.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -647,7 +653,7 @@
     {
       "id": "https://openalex.org/T13314",
       "display_name": "Lymphadenopathy Diagnosis and Analysis",
-      "value": 6.83e-05,
+      "value": 6.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -664,7 +670,7 @@
     {
       "id": "https://openalex.org/T11260",
       "display_name": "Tracheal and airway disorders",
-      "value": 5.33e-05,
+      "value": 5.41e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -681,7 +687,7 @@
     {
       "id": "https://openalex.org/T12818",
       "display_name": "Pneumothorax, Barotrauma, Emphysema",
-      "value": 5.13e-05,
+      "value": 5.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -696,9 +702,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10727",
+      "display_name": "Ultrasound Imaging and Elastography",
+      "value": 4.96e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12317",
       "display_name": "Actinomycetales infections and treatment",
-      "value": 4.67e-05,
+      "value": 4.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2726",
         "display_name": "Microbiology"
@@ -715,7 +738,7 @@
     {
       "id": "https://openalex.org/T11271",
       "display_name": "Myasthenia Gravis and Thymoma",
-      "value": 4.63e-05,
+      "value": 4.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -732,7 +755,7 @@
     {
       "id": "https://openalex.org/T13849",
       "display_name": "Enterobacteriaceae and Cronobacter Research",
-      "value": 4.29e-05,
+      "value": 4.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1310",
         "display_name": "Endocrinology"
@@ -749,7 +772,7 @@
     {
       "id": "https://openalex.org/T12578",
       "display_name": "Diagnosis and treatment of tuberculosis",
-      "value": 4.2e-05,
+      "value": 4.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -766,7 +789,7 @@
     {
       "id": "https://openalex.org/T12355",
       "display_name": "Genetic and rare skin diseases.",
-      "value": 4.15e-05,
+      "value": 4.2e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -783,7 +806,7 @@
     {
       "id": "https://openalex.org/T11447",
       "display_name": "Blind Source Separation Techniques",
-      "value": 4.09e-05,
+      "value": 4.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
@@ -800,7 +823,7 @@
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
-      "value": 3.96e-05,
+      "value": 4.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -815,26 +838,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10727",
-      "display_name": "Ultrasound Imaging and Elastography",
-      "value": 3.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11316",
       "display_name": "Mycobacterium research and diagnosis",
-      "value": 3.67e-05,
+      "value": 3.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -851,7 +857,7 @@
     {
       "id": "https://openalex.org/T11991",
       "display_name": "Soft tissue tumor case studies",
-      "value": 3.4e-05,
+      "value": 3.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -868,7 +874,7 @@
     {
       "id": "https://openalex.org/T12992",
       "display_name": "Metastasis and carcinoma case studies",
-      "value": 3.32e-05,
+      "value": 3.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -885,7 +891,7 @@
     {
       "id": "https://openalex.org/T11730",
       "display_name": "Autoimmune Bullous Skin Diseases",
-      "value": 3.27e-05,
+      "value": 3.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -902,7 +908,7 @@
     {
       "id": "https://openalex.org/T11638",
       "display_name": "Cardiac tumors and thrombi",
-      "value": 3.13e-05,
+      "value": 3.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -919,7 +925,7 @@
     {
       "id": "https://openalex.org/T12291",
       "display_name": "Pericarditis and Cardiac Tamponade",
-      "value": 3.09e-05,
+      "value": 3.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -934,26 +940,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11909",
-      "display_name": "Histiocytic Disorders and Treatments",
-      "value": 2.97e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10870",
       "display_name": "Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis",
-      "value": 2.94e-05,
+      "value": 3.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -968,9 +957,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11909",
+      "display_name": "Histiocytic Disorders and Treatments",
+      "value": 3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10392",
       "display_name": "Cutaneous Melanoma Detection and Management",
-      "value": 2.89e-05,
+      "value": 2.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -987,7 +993,7 @@
     {
       "id": "https://openalex.org/T11827",
       "display_name": "Polyomavirus and related diseases",
-      "value": 2.74e-05,
+      "value": 2.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -1002,26 +1008,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12150",
-      "display_name": "Intestinal Malrotation and Obstruction Disorders",
-      "value": 2.45e-05,
+      "id": "https://openalex.org/T14299",
+      "display_name": "Complex Systems and Dynamics",
+      "value": 2.54e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136653",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-17T18:22:22",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -17,10 +17,10 @@
   ],
   "repositories": [],
   "works_count": 6,
-  "cited_by_count": 232,
+  "cited_by_count": 235,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 8,
+    "h_index": 9,
     "i10_index": 5
   },
   "ids": {
@@ -46,7 +46,7 @@
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 26
+      "cited_by_count": 29
     },
     {
       "year": 2017,
@@ -58,13 +58,13 @@
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 8
+      "cited_by_count": 9
     },
     {
       "year": 2012,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 67
+      "cited_by_count": 66
     }
   ],
   "roles": [
@@ -242,7 +242,7 @@
     {
       "id": "https://openalex.org/T12676",
       "display_name": "Machine Learning and ELM",
-      "value": 5.66e-05,
+      "value": 5.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -259,7 +259,24 @@
     {
       "id": "https://openalex.org/T12072",
       "display_name": "Machine Learning and Algorithms",
-      "value": 3.35e-05,
+      "value": 3.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11612",
+      "display_name": "Stochastic Gradient Optimization Techniques",
+      "value": 3.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -276,7 +293,7 @@
     {
       "id": "https://openalex.org/T10913",
       "display_name": "Molecular Junctions and Nanostructures",
-      "value": 3.07e-05,
+      "value": 3.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -291,9 +308,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11612",
-      "display_name": "Stochastic Gradient Optimization Techniques",
-      "value": 2.89e-05,
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "value": 2.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -310,7 +327,7 @@
     {
       "id": "https://openalex.org/T10057",
       "display_name": "Face and Expression Recognition",
-      "value": 1.85e-05,
+      "value": 1.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -325,26 +342,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12535",
-      "display_name": "Machine Learning and Data Classification",
-      "value": 1.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10049",
       "display_name": "Magnetic properties of thin films",
-      "value": 9.1e-06,
+      "value": 9.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -361,7 +361,7 @@
     {
       "id": "https://openalex.org/T10382",
       "display_name": "Quantum and electron transport phenomena",
-      "value": 9.1e-06,
+      "value": 9.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -378,7 +378,7 @@
     {
       "id": "https://openalex.org/T11448",
       "display_name": "Face recognition and analysis",
-      "value": 7.7e-06,
+      "value": 8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -396,6 +396,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210147219",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T18:21:27",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -18,7 +18,7 @@
     "Ingenieurgesellschaft für Zuverlässigkeit und Prozessmodellierung (Germany)"
   ],
   "repositories": [],
-  "works_count": 0,
+  "works_count": 1,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -43,19 +43,133 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2017,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210126989",
-      "works_count": 0
+      "works_count": 1
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T12531",
+      "display_name": "Values and Moral Education",
+      "count": 1,
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13161",
+      "display_name": "Ideological and Political Education",
+      "count": 1,
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14449",
+      "display_name": "Education and Character Development",
+      "count": 1,
+      "score": 0.0027000000700354576,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T13161",
+      "display_name": "Ideological and Political Education",
+      "value": 2.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12531",
+      "display_name": "Values and Moral Education",
+      "value": 7.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14449",
+      "display_name": "Education and Character Development",
+      "value": 5.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210126989",
-  "updated_date": "2026-09-28T08:40:17",
+  "updated_date": "2026-10-07T06:00:19",
   "created_date": "2022-02-02T04:48:36"
 }

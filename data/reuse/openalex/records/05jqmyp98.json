@@ -21,10 +21,10 @@
     "Institute of Software Methods for Product Virtualization"
   ],
   "repositories": [],
-  "works_count": 64,
-  "cited_by_count": 359,
+  "works_count": 62,
+  "cited_by_count": 367,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5060240963855421,
+    "2yr_mean_citedness": 0.5432098765432098,
     "h_index": 10,
     "i10_index": 15
   },
@@ -66,27 +66,27 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 13,
-      "oa_works_count": 8,
+      "works_count": 14,
+      "oa_works_count": 9,
       "cited_by_count": 2
     },
     {
       "year": 2025,
-      "works_count": 10,
-      "oa_works_count": 8,
+      "works_count": 7,
+      "oa_works_count": 5,
       "cited_by_count": 4
     },
     {
       "year": 2024,
       "works_count": 14,
       "oa_works_count": 13,
-      "cited_by_count": 11
+      "cited_by_count": 12
     },
     {
       "year": 2023,
       "works_count": 14,
       "oa_works_count": 10,
-      "cited_by_count": 36
+      "cited_by_count": 37
     },
     {
       "year": 2022,
@@ -98,7 +98,7 @@
       "year": 2021,
       "works_count": 8,
       "oa_works_count": 4,
-      "cited_by_count": 50
+      "cited_by_count": 51
     },
     {
       "year": 2020,
@@ -117,7 +117,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405269899",
-      "works_count": 64
+      "works_count": 62
     }
   ],
   "topics": [
@@ -212,24 +212,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10682",
-      "display_name": "Quantum Computing Algorithms and Architecture",
-      "count": 6,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11751",
       "display_name": "Lattice Boltzmann Simulation Studies",
       "count": 6,
@@ -284,42 +266,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11416",
-      "display_name": "Numerical methods for differential equations",
-      "count": 5,
-      "score": 0.000699999975040555,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2612",
-        "display_name": "Numerical Analysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11804",
-      "display_name": "Quantum many-body systems",
-      "count": 5,
-      "score": 0.007899999618530273,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10481",
       "display_name": "Computer Graphics and Visualization Techniques",
       "count": 4,
@@ -349,6 +295,24 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "count": 4,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -428,6 +392,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11416",
+      "display_name": "Numerical methods for differential equations",
+      "count": 3,
+      "score": 0.000699999975040555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2612",
+        "display_name": "Numerical Analysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11524",
       "display_name": "Advanced Aircraft Design and Technologies",
       "count": 3,
@@ -439,6 +421,24 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "count": 3,
+      "score": 0.007899999618530273,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -576,7 +576,7 @@
     {
       "id": "https://openalex.org/T11751",
       "display_name": "Lattice Boltzmann Simulation Studies",
-      "value": 0.0001911,
+      "value": 0.000198,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -593,7 +593,7 @@
     {
       "id": "https://openalex.org/T10173",
       "display_name": "Computational Fluid Dynamics and Aerodynamics",
-      "value": 8.38e-05,
+      "value": 8.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -610,7 +610,7 @@
     {
       "id": "https://openalex.org/T10792",
       "display_name": "Matrix Theory and Algorithms",
-      "value": 6.18e-05,
+      "value": 6.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -627,7 +627,7 @@
     {
       "id": "https://openalex.org/T10339",
       "display_name": "Advanced Numerical Methods in Computational Mathematics",
-      "value": 5.69e-05,
+      "value": 5.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -644,7 +644,7 @@
     {
       "id": "https://openalex.org/T11524",
       "display_name": "Advanced Aircraft Design and Technologies",
-      "value": 5.03e-05,
+      "value": 5.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -659,43 +659,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11008",
-      "display_name": "Aerodynamics and Acoustics in Jet Flows",
-      "value": 4.86e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11416",
-      "display_name": "Numerical methods for differential equations",
-      "value": 4.7e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2612",
-        "display_name": "Numerical Analysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11206",
       "display_name": "Model Reduction and Neural Networks",
-      "value": 4.62e-05,
+      "value": 5.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3109",
         "display_name": "Statistical and Nonlinear Physics"
@@ -710,9 +676,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11008",
+      "display_name": "Aerodynamics and Acoustics in Jet Flows",
+      "value": 4.91e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "value": 4.53e-05,
+      "value": 4.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -729,7 +712,7 @@
     {
       "id": "https://openalex.org/T12007",
       "display_name": "Plasma and Flow Control in Aerodynamics",
-      "value": 4.47e-05,
+      "value": 4.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -744,26 +727,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10682",
-      "display_name": "Quantum Computing Algorithms and Architecture",
-      "value": 4.37e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10680",
       "display_name": "Wind Energy Research and Development",
-      "value": 3.71e-05,
+      "value": 3.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -780,7 +746,7 @@
     {
       "id": "https://openalex.org/T11096",
       "display_name": "Aeroelasticity and Vibration Control",
-      "value": 3.31e-05,
+      "value": 3.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -795,16 +761,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T11804",
-      "display_name": "Quantum many-body systems",
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
       "value": 3.19e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11416",
+      "display_name": "Numerical methods for differential equations",
+      "value": 3.01e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2612",
+        "display_name": "Numerical Analysis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -814,7 +797,7 @@
     {
       "id": "https://openalex.org/T11159",
       "display_name": "Manufacturing Process and Optimization",
-      "value": 2.96e-05,
+      "value": 2.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -831,7 +814,7 @@
     {
       "id": "https://openalex.org/T12000",
       "display_name": "Systems Engineering Methodologies and Applications",
-      "value": 2.89e-05,
+      "value": 2.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -848,7 +831,7 @@
     {
       "id": "https://openalex.org/T11729",
       "display_name": "Product Development and Customization",
-      "value": 2.84e-05,
+      "value": 2.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -865,7 +848,7 @@
     {
       "id": "https://openalex.org/T11245",
       "display_name": "Advanced Numerical Analysis Techniques",
-      "value": 2.63e-05,
+      "value": 2.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -882,7 +865,7 @@
     {
       "id": "https://openalex.org/T10944",
       "display_name": "Turbomachinery Performance and Optimization",
-      "value": 2.46e-05,
+      "value": 2.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -897,9 +880,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11986",
+      "display_name": "Scientific Computing and Data Management",
+      "value": 2.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10740",
       "display_name": "Wind Turbine Control Systems",
-      "value": 2.11e-05,
+      "value": 2.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -916,7 +916,7 @@
     {
       "id": "https://openalex.org/T11697",
       "display_name": "Numerical Methods and Algorithms",
-      "value": 2.03e-05,
+      "value": 2.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -933,7 +933,7 @@
     {
       "id": "https://openalex.org/T10848",
       "display_name": "Advanced Multi-Objective Optimization Algorithms",
-      "value": 1.99e-05,
+      "value": 2.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -948,9 +948,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "value": 2.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13293",
       "display_name": "Engineering and Test Systems",
-      "value": 1.99e-05,
+      "value": 2.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -965,26 +982,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10481",
-      "display_name": "Computer Graphics and Visualization Techniques",
-      "value": 1.77e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1704",
-        "display_name": "Computer Graphics and Computer-Aided Design"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13286",
       "display_name": "Modeling and Simulation Systems",
-      "value": 1.71e-05,
+      "value": 1.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -1002,6 +1002,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405269899",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T18:21:27",
   "created_date": "2026-06-25T03:30:22"
 }

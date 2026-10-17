@@ -16,7 +16,7 @@
     "Städtische Bibliotheken Dresden"
   ],
   "repositories": [],
-  "works_count": 10,
+  "works_count": 9,
   "cited_by_count": 2,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -44,8 +44,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 3,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
@@ -83,14 +83,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405255605",
-      "works_count": 10
+      "works_count": 9
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T13673",
       "display_name": "Library Science and Information",
-      "count": 8,
+      "count": 7,
       "score": 0.7842000126838684,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
@@ -126,7 +126,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "count": 3,
+      "count": 2,
       "score": 0.014700000174343586,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
@@ -139,24 +139,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14330",
-      "display_name": "Library Science and Information Systems",
-      "count": 3,
-      "score": 0.9854000210762024,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -182,6 +164,24 @@
       "display_name": "Information Science and Libraries",
       "count": 2,
       "score": 0.030400000512599945,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14330",
+      "display_name": "Library Science and Information Systems",
+      "count": 2,
+      "score": 0.9854000210762024,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -254,7 +254,7 @@
     {
       "id": "https://openalex.org/T12289",
       "display_name": "Library Science and Administration",
-      "value": 8.82e-05,
+      "value": 8.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3309",
         "display_name": "Library and Information Sciences"
@@ -271,7 +271,7 @@
     {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 3.52e-05,
+      "value": 2.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -288,7 +288,7 @@
     {
       "id": "https://openalex.org/T13673",
       "display_name": "Library Science and Information",
-      "value": 2.84e-05,
+      "value": 2.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -303,26 +303,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12377",
-      "display_name": "Digital Humanities and Scholarship",
-      "value": 2.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12863",
       "display_name": "Web and Library Services",
-      "value": 2.26e-05,
+      "value": 2.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -339,7 +322,7 @@
     {
       "id": "https://openalex.org/T13166",
       "display_name": "Information Science and Libraries",
-      "value": 2.08e-05,
+      "value": 2.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -354,9 +337,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12377",
+      "display_name": "Digital Humanities and Scholarship",
+      "value": 1.97e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11120",
       "display_name": "Nonprofit Sector and Volunteering",
-      "value": 1.11e-05,
+      "value": 1.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -373,7 +373,7 @@
     {
       "id": "https://openalex.org/T11846",
       "display_name": "Cultural Heritage Management and Preservation",
-      "value": 6.1e-06,
+      "value": 6.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -390,7 +390,7 @@
     {
       "id": "https://openalex.org/T12188",
       "display_name": "Architecture, Modernity, and Design",
-      "value": 5.9e-06,
+      "value": 6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -408,6 +408,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405255605",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-09T06:00:36",
   "created_date": "2025-07-08T02:42:24"
 }

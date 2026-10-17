@@ -20,12 +20,12 @@
     "Center for Advanced Systems Understanding"
   ],
   "repositories": [],
-  "works_count": 1280,
-  "cited_by_count": 18202,
+  "works_count": 951,
+  "cited_by_count": 18759,
   "summary_stats": {
-    "2yr_mean_citedness": 3.4459644322845415,
-    "h_index": 62,
-    "i10_index": 417
+    "2yr_mean_citedness": 5.047169811320755,
+    "h_index": 64,
+    "i10_index": 433
   },
   "ids": {
     "openalex": "https://openalex.org/I4210133756",
@@ -56,66 +56,90 @@
   ],
   "counts_by_year": [
     {
+      "year": 2027,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
       "year": 2026,
-      "works_count": 256,
-      "oa_works_count": 251,
-      "cited_by_count": 121
+      "works_count": 212,
+      "oa_works_count": 207,
+      "cited_by_count": 183
     },
     {
       "year": 2025,
-      "works_count": 270,
-      "oa_works_count": 247,
-      "cited_by_count": 857
+      "works_count": 194,
+      "oa_works_count": 176,
+      "cited_by_count": 929
     },
     {
       "year": 2024,
-      "works_count": 207,
-      "oa_works_count": 188,
-      "cited_by_count": 1259
+      "works_count": 148,
+      "oa_works_count": 131,
+      "cited_by_count": 1249
     },
     {
       "year": 2023,
-      "works_count": 242,
-      "oa_works_count": 227,
-      "cited_by_count": 2186
+      "works_count": 163,
+      "oa_works_count": 151,
+      "cited_by_count": 2152
     },
     {
       "year": 2022,
-      "works_count": 141,
-      "oa_works_count": 133,
-      "cited_by_count": 1741
+      "works_count": 110,
+      "oa_works_count": 103,
+      "cited_by_count": 1681
     },
     {
       "year": 2021,
-      "works_count": 126,
-      "oa_works_count": 121,
-      "cited_by_count": 2840
+      "works_count": 87,
+      "oa_works_count": 84,
+      "cited_by_count": 2965
     },
     {
       "year": 2020,
-      "works_count": 33,
-      "oa_works_count": 32,
-      "cited_by_count": 1113
+      "works_count": 27,
+      "oa_works_count": 26,
+      "cited_by_count": 1208
     },
     {
       "year": 2019,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 381
+      "cited_by_count": 383
+    },
+    {
+      "year": 2018,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2014,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 9
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210133756",
-      "works_count": 1280
+      "works_count": 951
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10002",
       "display_name": "Advanced Chemical Physics Studies",
-      "count": 303,
+      "count": 216,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -133,7 +157,7 @@
     {
       "id": "https://openalex.org/T10384",
       "display_name": "Laser-Plasma Interactions and Diagnostics",
-      "count": 159,
+      "count": 131,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -149,45 +173,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11948",
-      "display_name": "Machine Learning in Materials Science",
-      "count": 137,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10054",
-      "display_name": "Parallel Computing and Optimization Techniques",
-      "count": 111,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11603",
       "display_name": "Dust and Plasma Wave Phenomena",
-      "count": 107,
+      "count": 91,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -203,10 +191,190 @@
       }
     },
     {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "count": 90,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10199",
       "display_name": "Wildlife Ecology and Conservation",
-      "count": 89,
+      "count": 63,
       "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10523",
+      "display_name": "Atomic and Molecular Physics",
+      "count": 54,
+      "score": 0.8705999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10054",
+      "display_name": "Parallel Computing and Optimization Techniques",
+      "count": 52,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "count": 52,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13645",
+      "display_name": "Thermodynamic and Structural Properties of Metals and Alloys",
+      "count": 50,
+      "score": 0.9359999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "count": 49,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10275",
+      "display_name": "2D Materials and Applications",
+      "count": 45,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10482",
+      "display_name": "Mathematical and Theoretical Epidemiology and Ecology Models",
+      "count": 44,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11206",
+      "display_name": "Model Reduction and Neural Networks",
+      "count": 37,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11913",
+      "display_name": "Animal Ecology and Behavior Studies",
+      "count": 35,
+      "score": 0.07450000196695328,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -223,7 +391,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "count": 82,
+      "count": 35,
       "score": 0.9833999872207642,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
@@ -239,225 +407,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13650",
-      "display_name": "Computational Physics and Python Applications",
-      "count": 71,
-      "score": 0.8759999871253967,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10523",
-      "display_name": "Atomic and Molecular Physics",
-      "count": 67,
-      "score": 0.8705999851226807,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13645",
-      "display_name": "Thermodynamic and Structural Properties of Metals and Alloys",
-      "count": 65,
-      "score": 0.9359999895095825,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10482",
-      "display_name": "Mathematical and Theoretical Epidemiology and Ecology Models",
-      "count": 61,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10413",
-      "display_name": "High-pressure geophysics and materials",
-      "count": 60,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1908",
-        "display_name": "Geophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11804",
-      "display_name": "Quantum many-body systems",
-      "count": 56,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12859",
-      "display_name": "Cell Image Analysis Techniques",
-      "count": 54,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1304",
-        "display_name": "Biophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11913",
-      "display_name": "Animal Ecology and Behavior Studies",
-      "count": 52,
-      "score": 0.2272000014781952,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10275",
-      "display_name": "2D Materials and Applications",
-      "count": 51,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10410",
-      "display_name": "COVID-19 epidemiological studies",
-      "count": 50,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2611",
-        "display_name": "Modeling and Simulation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11206",
-      "display_name": "Model Reduction and Neural Networks",
-      "count": 49,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3109",
-        "display_name": "Statistical and Nonlinear Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12044",
-      "display_name": "Advanced Physical and Chemical Molecular Interactions",
-      "count": 49,
-      "score": 0.3337000012397766,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1606",
-        "display_name": "Physical and Theoretical Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10346",
       "display_name": "Magnetic confinement fusion research",
-      "count": 44,
+      "count": 34,
       "score": 0.32670000195503235,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -473,17 +425,35 @@
       }
     },
     {
-      "id": "https://openalex.org/T10037",
-      "display_name": "Physics of Superconductivity and Magnetism",
-      "count": 38,
-      "score": 0.7935000061988831,
+      "id": "https://openalex.org/T10410",
+      "display_name": "COVID-19 epidemiological studies",
+      "count": 34,
+      "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/3104",
-        "display_name": "Condensed Matter Physics"
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12044",
+      "display_name": "Advanced Physical and Chemical Molecular Interactions",
+      "count": 32,
+      "score": 0.3012999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -493,7 +463,7 @@
     {
       "id": "https://openalex.org/T11965",
       "display_name": "Quantum, superfluid, helium dynamics",
-      "count": 38,
+      "count": 31,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -509,17 +479,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11367",
-      "display_name": "Particle accelerators and beam dynamics",
-      "count": 35,
-      "score": 0.9911999702453613,
+      "id": "https://openalex.org/T10037",
+      "display_name": "Physics of Superconductivity and Magnetism",
+      "count": 30,
+      "score": 0.7935000061988831,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -527,9 +497,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T12859",
+      "display_name": "Cell Image Analysis Techniques",
+      "count": 29,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10005",
       "display_name": "Ecology and Vegetation Dynamics Studies",
-      "count": 34,
+      "count": 27,
       "score": 0.9014000296592712,
       "subfield": {
         "id": "https://openalex.org/subfields/2309",
@@ -545,17 +533,53 @@
       }
     },
     {
-      "id": "https://openalex.org/T10895",
-      "display_name": "Species Distribution and Climate Change",
-      "count": 34,
-      "score": 0.9833999872207642,
+      "id": "https://openalex.org/T10083",
+      "display_name": "Graphene research and applications",
+      "count": 27,
+      "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/2302",
-        "display_name": "Ecological Modeling"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "count": 26,
+      "score": 0.46309998631477356,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10566",
+      "display_name": "Laser-Matter Interactions and Applications",
+      "count": 26,
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -567,7 +591,7 @@
     {
       "id": "https://openalex.org/T10384",
       "display_name": "Laser-Plasma Interactions and Diagnostics",
-      "value": 0.0014462,
+      "value": 0.0012099,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -584,7 +608,7 @@
     {
       "id": "https://openalex.org/T11603",
       "display_name": "Dust and Plasma Wave Phenomena",
-      "value": 0.0010952,
+      "value": 0.0009523,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -601,7 +625,7 @@
     {
       "id": "https://openalex.org/T13650",
       "display_name": "Computational Physics and Python Applications",
-      "value": 0.00099,
+      "value": 0.0008267,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -618,7 +642,7 @@
     {
       "id": "https://openalex.org/T11965",
       "display_name": "Quantum, superfluid, helium dynamics",
-      "value": 0.000818,
+      "value": 0.000682,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -635,7 +659,7 @@
     {
       "id": "https://openalex.org/T12644",
       "display_name": "Wildlife-Road Interactions and Conservation",
-      "value": 0.00073,
+      "value": 0.000608,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -650,43 +674,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11948",
-      "display_name": "Machine Learning in Materials Science",
-      "value": 0.0006371,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10002",
-      "display_name": "Advanced Chemical Physics Studies",
-      "value": 0.0006356,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13377",
       "display_name": "Ecosystem dynamics and resilience",
-      "value": 0.0004965,
+      "value": 0.0004889,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -701,9 +691,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10002",
+      "display_name": "Advanced Chemical Physics Studies",
+      "value": 0.0004753,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "value": 0.0004657,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13645",
       "display_name": "Thermodynamic and Structural Properties of Metals and Alloys",
-      "value": 0.0004812,
+      "value": 0.0003751,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -720,7 +744,7 @@
     {
       "id": "https://openalex.org/T11206",
       "display_name": "Model Reduction and Neural Networks",
-      "value": 0.0004532,
+      "value": 0.0003749,
       "subfield": {
         "id": "https://openalex.org/subfields/3109",
         "display_name": "Statistical and Nonlinear Physics"
@@ -735,60 +759,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12404",
-      "display_name": "Mathematical Approximation and Integration",
-      "value": 0.0004132,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2612",
-        "display_name": "Numerical Analysis"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12859",
-      "display_name": "Cell Image Analysis Techniques",
-      "value": 0.0004104,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1304",
-        "display_name": "Biophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10413",
-      "display_name": "High-pressure geophysics and materials",
-      "value": 0.0003637,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1908",
-        "display_name": "Geophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11804",
       "display_name": "Quantum many-body systems",
-      "value": 0.0003571,
+      "value": 0.0003305,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -803,67 +776,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T12814",
-      "display_name": "Gaussian Processes and Bayesian Inference",
-      "value": 0.0003509,
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "value": 0.0003267,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11986",
-      "display_name": "Scientific Computing and Data Management",
-      "value": 0.0003425,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1802",
-        "display_name": "Information Systems and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13114",
-      "display_name": "Image Processing Techniques and Applications",
-      "value": 0.0003408,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2214",
-        "display_name": "Media Technology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11913",
-      "display_name": "Animal Ecology and Behavior Studies",
-      "value": 0.0003309,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -873,7 +795,7 @@
     {
       "id": "https://openalex.org/T12038",
       "display_name": "Covalent Organic Framework Applications",
-      "value": 0.0003231,
+      "value": 0.0003142,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -888,43 +810,43 @@
       }
     },
     {
-      "id": "https://openalex.org/T10054",
-      "display_name": "Parallel Computing and Optimization Techniques",
-      "value": 0.0003141,
+      "id": "https://openalex.org/T12859",
+      "display_name": "Cell Image Analysis Techniques",
+      "value": 0.0002733,
       "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T11819",
-      "display_name": "Data-Driven Disease Surveillance",
-      "value": 0.0003035,
+      "id": "https://openalex.org/T11986",
+      "display_name": "Scientific Computing and Data Management",
+      "value": 0.0002549,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10199",
-      "display_name": "Wildlife Ecology and Conservation",
-      "value": 0.0003008,
+      "id": "https://openalex.org/T11913",
+      "display_name": "Animal Ecology and Behavior Studies",
+      "value": 0.0002349,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -939,16 +861,50 @@
       }
     },
     {
-      "id": "https://openalex.org/T12874",
-      "display_name": "Digital Imaging for Blood Diseases",
-      "value": 0.0002974,
+      "id": "https://openalex.org/T12404",
+      "display_name": "Mathematical Approximation and Integration",
+      "value": 0.0002294,
       "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
+        "id": "https://openalex.org/subfields/2612",
+        "display_name": "Numerical Analysis"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13114",
+      "display_name": "Image Processing Techniques and Applications",
+      "value": 0.000229,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2214",
+        "display_name": "Media Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "value": 0.0002266,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -958,7 +914,7 @@
     {
       "id": "https://openalex.org/T10410",
       "display_name": "COVID-19 epidemiological studies",
-      "value": 0.0002876,
+      "value": 0.0002242,
       "subfield": {
         "id": "https://openalex.org/subfields/2611",
         "display_name": "Modeling and Simulation"
@@ -975,7 +931,7 @@
     {
       "id": "https://openalex.org/T10482",
       "display_name": "Mathematical and Theoretical Epidemiology and Ecology Models",
-      "value": 0.0002794,
+      "value": 0.000221,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -988,11 +944,79 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11819",
+      "display_name": "Data-Driven Disease Surveillance",
+      "value": 0.0002191,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10275",
+      "display_name": "2D Materials and Applications",
+      "value": 0.0002078,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12220",
+      "display_name": "Quantum Electrodynamics and Casimir Effect",
+      "value": 0.0001802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12874",
+      "display_name": "Digital Imaging for Blood Diseases",
+      "value": 0.0001774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133756",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-17T18:22:22",
   "created_date": "2022-02-02T04:48:36"
 }

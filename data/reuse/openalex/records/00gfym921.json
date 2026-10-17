@@ -17,12 +17,12 @@
     "Klinik und Poliklinik für Urologie"
   ],
   "repositories": [],
-  "works_count": 380,
-  "cited_by_count": 5377,
+  "works_count": 386,
+  "cited_by_count": 5374,
   "summary_stats": {
-    "2yr_mean_citedness": 0.7254901960784313,
-    "h_index": 37,
-    "i10_index": 116
+    "2yr_mean_citedness": 0.6837606837606838,
+    "h_index": 38,
+    "i10_index": 113
   },
   "ids": {
     "openalex": "https://openalex.org/I4210086080",
@@ -54,15 +54,15 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 16,
-      "oa_works_count": 10,
-      "cited_by_count": 1
+      "works_count": 22,
+      "oa_works_count": 9,
+      "cited_by_count": 3
     },
     {
       "year": 2025,
-      "works_count": 16,
-      "oa_works_count": 9,
-      "cited_by_count": 15
+      "works_count": 15,
+      "oa_works_count": 8,
+      "cited_by_count": 18
     },
     {
       "year": 2024,
@@ -72,27 +72,27 @@
     },
     {
       "year": 2023,
-      "works_count": 33,
-      "oa_works_count": 12,
+      "works_count": 32,
+      "oa_works_count": 11,
       "cited_by_count": 9
     },
     {
       "year": 2022,
-      "works_count": 24,
-      "oa_works_count": 11,
+      "works_count": 25,
+      "oa_works_count": 12,
       "cited_by_count": 37
     },
     {
       "year": 2021,
       "works_count": 18,
       "oa_works_count": 13,
-      "cited_by_count": 24
+      "cited_by_count": 23
     },
     {
       "year": 2020,
-      "works_count": 16,
-      "oa_works_count": 4,
-      "cited_by_count": 61
+      "works_count": 17,
+      "oa_works_count": 5,
+      "cited_by_count": 58
     },
     {
       "year": 2019,
@@ -116,7 +116,7 @@
       "year": 2016,
       "works_count": 20,
       "oa_works_count": 2,
-      "cited_by_count": 48
+      "cited_by_count": 47
     },
     {
       "year": 2015,
@@ -128,7 +128,7 @@
       "year": 2014,
       "works_count": 12,
       "oa_works_count": 2,
-      "cited_by_count": 669
+      "cited_by_count": 643
     },
     {
       "year": 2013,
@@ -159,14 +159,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210086080",
-      "works_count": 380
+      "works_count": 386
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10124",
       "display_name": "Prostate Cancer Diagnosis and Treatment",
-      "count": 138,
+      "count": 137,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
@@ -220,11 +220,29 @@
     {
       "id": "https://openalex.org/T10458",
       "display_name": "Bladder and Urothelial Cancer Treatments",
-      "count": 59,
+      "count": 60,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10449",
+      "display_name": "Renal cell carcinoma treatment",
+      "count": 35,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -254,24 +272,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10449",
-      "display_name": "Renal cell carcinoma treatment",
-      "count": 34,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12695",
       "display_name": "Urinary and Genital Oncology Studies",
       "count": 32,
@@ -292,11 +292,29 @@
     {
       "id": "https://openalex.org/T11815",
       "display_name": "Urological Disorders and Treatments",
-      "count": 28,
+      "count": 29,
       "score": 0.9854000210762024,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11069",
+      "display_name": "Testicular diseases and treatments",
+      "count": 18,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -315,24 +333,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2747",
         "display_name": "Transplantation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11069",
-      "display_name": "Testicular diseases and treatments",
-      "count": 17,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -382,11 +382,29 @@
     {
       "id": "https://openalex.org/T10418",
       "display_name": "Pelvic floor disorders treatments",
-      "count": 14,
+      "count": 15,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10158",
+      "display_name": "Cancer Immunotherapy and Biomarkers",
+      "count": 14,
+      "score": 0.46389999985694885,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -405,24 +423,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10158",
-      "display_name": "Cancer Immunotherapy and Biomarkers",
-      "count": 13,
-      "score": 0.46389999985694885,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -524,13 +524,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11232",
-      "display_name": "Urinary Tract Infections Management",
+      "id": "https://openalex.org/T12379",
+      "display_name": "Cancer Diagnosis and Treatment",
       "count": 11,
-      "score": 0.9970999956130981,
+      "score": 0.1177000030875206,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -542,13 +542,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T12379",
-      "display_name": "Cancer Diagnosis and Treatment",
-      "count": 11,
-      "score": 0.1177000030875206,
+      "id": "https://openalex.org/T11232",
+      "display_name": "Urinary Tract Infections Management",
+      "count": 10,
+      "score": 0.9970999956130981,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -618,7 +618,7 @@
     {
       "id": "https://openalex.org/T10124",
       "display_name": "Prostate Cancer Diagnosis and Treatment",
-      "value": 0.0007042,
+      "value": 0.0007124,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -635,7 +635,7 @@
     {
       "id": "https://openalex.org/T10543",
       "display_name": "Prostate Cancer Treatment and Research",
-      "value": 0.0006296,
+      "value": 0.0006482,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -652,24 +652,7 @@
     {
       "id": "https://openalex.org/T10458",
       "display_name": "Bladder and Urothelial Cancer Treatments",
-      "value": 0.0004084,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12695",
-      "display_name": "Urinary and Genital Oncology Studies",
-      "value": 0.0003739,
+      "value": 0.0004266,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -686,7 +669,7 @@
     {
       "id": "https://openalex.org/T12655",
       "display_name": "Female Genital Mutilation/Cutting Issues",
-      "value": 0.0003709,
+      "value": 0.0003859,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -701,9 +684,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12695",
+      "display_name": "Urinary and Genital Oncology Studies",
+      "value": 0.0003789,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10449",
       "display_name": "Renal cell carcinoma treatment",
-      "value": 0.0002518,
+      "value": 0.000267,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -720,7 +720,7 @@
     {
       "id": "https://openalex.org/T10279",
       "display_name": "Urinary Bladder and Prostate Research",
-      "value": 0.0002481,
+      "value": 0.0002512,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
@@ -737,7 +737,7 @@
     {
       "id": "https://openalex.org/T12379",
       "display_name": "Cancer Diagnosis and Treatment",
-      "value": 0.0002263,
+      "value": 0.0002297,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -754,7 +754,7 @@
     {
       "id": "https://openalex.org/T11069",
       "display_name": "Testicular diseases and treatments",
-      "value": 0.0001916,
+      "value": 0.0002059,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -771,7 +771,7 @@
     {
       "id": "https://openalex.org/T12866",
       "display_name": "Urologic and reproductive health conditions",
-      "value": 0.000171,
+      "value": 0.0001729,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -788,7 +788,7 @@
     {
       "id": "https://openalex.org/T11815",
       "display_name": "Urological Disorders and Treatments",
-      "value": 0.0001642,
+      "value": 0.0001717,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
@@ -805,7 +805,7 @@
     {
       "id": "https://openalex.org/T12634",
       "display_name": "Ureteral procedures and complications",
-      "value": 0.0001611,
+      "value": 0.000163,
       "subfield": {
         "id": "https://openalex.org/subfields/2729",
         "display_name": "Obstetrics and Gynecology"
@@ -822,7 +822,7 @@
     {
       "id": "https://openalex.org/T10606",
       "display_name": "Kidney Stones and Urolithiasis Treatments",
-      "value": 0.0001469,
+      "value": 0.0001489,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -839,7 +839,7 @@
     {
       "id": "https://openalex.org/T13123",
       "display_name": "Advances in Oncology and Radiotherapy",
-      "value": 0.0001394,
+      "value": 0.0001422,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -856,7 +856,7 @@
     {
       "id": "https://openalex.org/T11221",
       "display_name": "Bone health and treatments",
-      "value": 0.0001349,
+      "value": 0.0001371,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -873,7 +873,7 @@
     {
       "id": "https://openalex.org/T11163",
       "display_name": "Organ Donation and Transplantation",
-      "value": 0.0001207,
+      "value": 0.0001224,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -890,7 +890,7 @@
     {
       "id": "https://openalex.org/T14514",
       "display_name": "Medical Research and Practices",
-      "value": 0.000115,
+      "value": 0.0001161,
       "subfield": {
         "id": "https://openalex.org/subfields/3608",
         "display_name": "Medical Terminology"
@@ -907,7 +907,7 @@
     {
       "id": "https://openalex.org/T12769",
       "display_name": "Stoma care and complications",
-      "value": 0.0001102,
+      "value": 0.0001114,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -922,9 +922,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10418",
+      "display_name": "Pelvic floor disorders treatments",
+      "value": 0.000108,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11713",
       "display_name": "Genital Health and Disease",
-      "value": 0.0001056,
+      "value": 0.0001078,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -941,7 +958,7 @@
     {
       "id": "https://openalex.org/T13383",
       "display_name": "Tumors and Oncological Cases",
-      "value": 0.0001032,
+      "value": 0.0001044,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -958,7 +975,7 @@
     {
       "id": "https://openalex.org/T14512",
       "display_name": "Technology and Human Factors in Education and Health",
-      "value": 9.96e-05,
+      "value": 0.0001017,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -973,26 +990,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10418",
-      "display_name": "Pelvic floor disorders treatments",
-      "value": 9.95e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2745",
-        "display_name": "Rheumatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10737",
       "display_name": "Health Literacy and Information Accessibility",
-      "value": 9.8e-05,
+      "value": 0.0001012,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -1009,7 +1009,7 @@
     {
       "id": "https://openalex.org/T10183",
       "display_name": "Breast Cancer Treatment Studies",
-      "value": 9.49e-05,
+      "value": 9.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -1024,12 +1024,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11232",
-      "display_name": "Urinary Tract Infections Management",
-      "value": 9.11e-05,
+      "id": "https://openalex.org/T10373",
+      "display_name": "Renal Transplantation Outcomes and Treatments",
+      "value": 8.5e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2747",
+        "display_name": "Transplantation"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1044,6 +1044,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210086080",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-17T18:22:22",
   "created_date": "2022-02-02T04:48:36"
 }

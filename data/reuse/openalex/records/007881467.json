@@ -23,11 +23,11 @@
     "St. Joseph-Stift Hospital Dresden"
   ],
   "repositories": [],
-  "works_count": 143,
-  "cited_by_count": 11118,
+  "works_count": 142,
+  "cited_by_count": 11035,
   "summary_stats": {
-    "2yr_mean_citedness": 0.4492753623188406,
-    "h_index": 29,
+    "2yr_mean_citedness": 0.4782608695652174,
+    "h_index": 28,
     "i10_index": 41
   },
   "ids": {
@@ -62,7 +62,7 @@
       "year": 2026,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 2
+      "cited_by_count": 4
     },
     {
       "year": 2025,
@@ -90,15 +90,15 @@
     },
     {
       "year": 2021,
-      "works_count": 3,
-      "oa_works_count": 2,
-      "cited_by_count": 48
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 43
     },
     {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 17
+      "cited_by_count": 18
     },
     {
       "year": 2019,
@@ -110,7 +110,7 @@
       "year": 2018,
       "works_count": 7,
       "oa_works_count": 2,
-      "cited_by_count": 99
+      "cited_by_count": 91
     },
     {
       "year": 2017,
@@ -128,7 +128,7 @@
       "year": 2015,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 230
+      "cited_by_count": 213
     },
     {
       "year": 2014,
@@ -159,7 +159,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405270190",
-      "works_count": 143
+      "works_count": 142
     }
   ],
   "topics": [
@@ -470,24 +470,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10041",
-      "display_name": "COVID-19 Clinical Research Studies",
-      "count": 4,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2725",
-        "display_name": "Infectious Diseases"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10279",
       "display_name": "Urinary Bladder and Prostate Research",
       "count": 4,
@@ -596,10 +578,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10198",
-      "display_name": "Heart Failure Treatment and Management",
+      "id": "https://openalex.org/T10041",
+      "display_name": "COVID-19 Clinical Research Studies",
       "count": 3,
-      "score": 0.48730000853538513,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "count": 3,
+      "score": 0.43459999561309814,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -618,7 +618,7 @@
     {
       "id": "https://openalex.org/T12523",
       "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "value": 0.0001496,
+      "value": 0.0001513,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -635,7 +635,7 @@
     {
       "id": "https://openalex.org/T12476",
       "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 0.0001412,
+      "value": 0.0001433,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -652,7 +652,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 0.0001273,
+      "value": 0.0001293,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -669,7 +669,7 @@
     {
       "id": "https://openalex.org/T10436",
       "display_name": "Anesthesia and Sedative Agents",
-      "value": 0.0001064,
+      "value": 0.0001086,
       "subfield": {
         "id": "https://openalex.org/subfields/2703",
         "display_name": "Anesthesiology and Pain Medicine"
@@ -686,7 +686,7 @@
     {
       "id": "https://openalex.org/T10830",
       "display_name": "Airway Management and Intubation Techniques",
-      "value": 8.43e-05,
+      "value": 8.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2703",
         "display_name": "Anesthesiology and Pain Medicine"
@@ -703,7 +703,7 @@
     {
       "id": "https://openalex.org/T11930",
       "display_name": "Cardiac, Anesthesia and Surgical Outcomes",
-      "value": 7.77e-05,
+      "value": 7.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -720,7 +720,7 @@
     {
       "id": "https://openalex.org/T10755",
       "display_name": "HER2/EGFR in Cancer Research",
-      "value": 6.67e-05,
+      "value": 6.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -737,7 +737,7 @@
     {
       "id": "https://openalex.org/T10189",
       "display_name": "Anesthesia and Pain Management",
-      "value": 6.64e-05,
+      "value": 6.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -754,7 +754,7 @@
     {
       "id": "https://openalex.org/T13533",
       "display_name": "Medical Case Reports and Studies",
-      "value": 6.57e-05,
+      "value": 6.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -771,7 +771,7 @@
     {
       "id": "https://openalex.org/T13585",
       "display_name": "Technostress in Professional Settings",
-      "value": 5.83e-05,
+      "value": 5.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -788,7 +788,7 @@
     {
       "id": "https://openalex.org/T11473",
       "display_name": "Appendicitis Diagnosis and Management",
-      "value": 5.79e-05,
+      "value": 5.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
         "display_name": "Emergency Medicine"
@@ -805,7 +805,7 @@
     {
       "id": "https://openalex.org/T11999",
       "display_name": "Empathy and Medical Education",
-      "value": 5.23e-05,
+      "value": 5.35e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -822,7 +822,7 @@
     {
       "id": "https://openalex.org/T13248",
       "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 5.14e-05,
+      "value": 5.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -839,7 +839,7 @@
     {
       "id": "https://openalex.org/T13340",
       "display_name": "Palliative and Oncologic Care",
-      "value": 5.12e-05,
+      "value": 5.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -856,7 +856,7 @@
     {
       "id": "https://openalex.org/T10508",
       "display_name": "Patient Safety and Medication Errors",
-      "value": 5.02e-05,
+      "value": 5.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -873,7 +873,7 @@
     {
       "id": "https://openalex.org/T14354",
       "display_name": "Emergency Medicine Education and Research",
-      "value": 4.64e-05,
+      "value": 4.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
         "display_name": "Emergency Medicine"
@@ -890,24 +890,7 @@
     {
       "id": "https://openalex.org/T11728",
       "display_name": "Thyroid and Parathyroid Surgery",
-      "value": 4.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10916",
-      "display_name": "Surgical Simulation and Training",
-      "value": 4.34e-05,
+      "value": 4.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -924,7 +907,7 @@
     {
       "id": "https://openalex.org/T10177",
       "display_name": "Palliative Care and End-of-Life Issues",
-      "value": 4.33e-05,
+      "value": 4.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -939,43 +922,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10916",
+      "display_name": "Surgical Simulation and Training",
+      "value": 4.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11700",
       "display_name": "Hemodynamic Monitoring and Therapy",
-      "value": 3.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11218",
-      "display_name": "Hip disorders and treatments",
-      "value": 3.87e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12154",
-      "display_name": "Pelvic and Acetabular Injuries",
-      "value": 3.84e-05,
+      "value": 4.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -992,7 +958,7 @@
     {
       "id": "https://openalex.org/T12448",
       "display_name": "Paranormal Experiences and Beliefs",
-      "value": 3.83e-05,
+      "value": 3.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -1007,9 +973,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11218",
+      "display_name": "Hip disorders and treatments",
+      "value": 3.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12154",
+      "display_name": "Pelvic and Acetabular Injuries",
+      "value": 3.91e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11134",
       "display_name": "Breast Lesions and Carcinomas",
-      "value": 3.74e-05,
+      "value": 3.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -1026,7 +1026,7 @@
     {
       "id": "https://openalex.org/T10183",
       "display_name": "Breast Cancer Treatment Studies",
-      "value": 3.63e-05,
+      "value": 3.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -1044,6 +1044,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405270190",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T18:21:27",
   "created_date": "2026-07-22T03:30:22"
 }
