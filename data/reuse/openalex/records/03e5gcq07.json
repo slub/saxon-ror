@@ -18,7 +18,7 @@
     "Institut für Ausbildung Jugendlicher"
   ],
   "repositories": [],
-  "works_count": 0,
+  "works_count": 1,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -48,14 +48,121 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210128456",
-      "works_count": 0
+      "works_count": 1
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10116",
+      "display_name": "Sperm and Testicular Function",
+      "count": 1,
+      "score": 0.9429000020027161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "count": 1,
+      "score": 0.018200000748038292,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10364",
+      "display_name": "Reproductive Biology and Fertility",
+      "count": 1,
+      "score": 0.024399999529123306,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "value": 4.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10116",
+      "display_name": "Sperm and Testicular Function",
+      "value": 4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10364",
+      "display_name": "Reproductive Biology and Fertility",
+      "value": 3.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210128456",
-  "updated_date": "2026-09-28T08:40:17",
+  "updated_date": "2026-10-08T06:00:02",
   "created_date": "2022-02-02T04:48:36"
 }

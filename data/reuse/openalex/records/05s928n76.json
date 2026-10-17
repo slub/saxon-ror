@@ -18,7 +18,7 @@
     "Bach-Archiv"
   ],
   "repositories": [],
-  "works_count": 26,
+  "works_count": 18,
   "cited_by_count": 21,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -35,11 +35,11 @@
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 51.338890075683594,
-    "longitude": 12.372221946716309
+    "latitude": 51.33962,
+    "longitude": 12.37129
   },
   "international": {},
   "associated_institutions": [
@@ -50,13 +50,21 @@
       "country_code": "DE",
       "type": "education",
       "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I926574661",
+      "ror": "https://ror.org/03s7gtk40",
+      "display_name": "Leipzig University",
+      "country_code": "DE",
+      "type": "education",
+      "relationship": "related"
     }
   ],
   "counts_by_year": [
     {
       "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 1,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
@@ -66,28 +74,10 @@
       "cited_by_count": 0
     },
     {
-      "year": 2023,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2021,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 2
-    },
-    {
-      "year": 2020,
-      "works_count": 4,
-      "oa_works_count": 4,
-      "cited_by_count": 0
-    },
-    {
       "year": 2019,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 0
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 2
     },
     {
       "year": 2018,
@@ -124,14 +114,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210166100",
-      "works_count": 26
+      "works_count": 18
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10941",
       "display_name": "Musicology and Musical Analysis",
-      "count": 18,
+      "count": 13,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
@@ -149,7 +139,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "count": 11,
+      "count": 7,
       "score": 0.9916999936103821,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
@@ -167,7 +157,7 @@
     {
       "id": "https://openalex.org/T11425",
       "display_name": "Diverse Music Education Insights",
-      "count": 6,
+      "count": 5,
       "score": 0.019700000062584877,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
@@ -180,42 +170,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13495",
-      "display_name": "Biographical and Historical Analysis",
-      "count": 6,
-      "score": 0.03550000116229057,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11349",
-      "display_name": "Music Technology and Sound Studies",
-      "count": 5,
-      "score": 0.9375,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -234,6 +188,24 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11349",
+      "display_name": "Music Technology and Sound Studies",
+      "count": 4,
+      "score": 0.5,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -327,75 +299,39 @@
       }
     },
     {
-      "id": "https://openalex.org/T10481",
-      "display_name": "Computer Graphics and Visualization Techniques",
-      "count": 1,
-      "score": 0.08869999647140503,
+      "id": "https://openalex.org/T13495",
+      "display_name": "Biographical and Historical Analysis",
+      "count": 2,
+      "score": 0.03550000116229057,
       "subfield": {
-        "id": "https://openalex.org/subfields/1704",
-        "display_name": "Computer Graphics and Computer-Aided Design"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T11309",
-      "display_name": "Music and Audio Processing",
+      "id": "https://openalex.org/T13757",
+      "display_name": "Graphic Design and Typography",
       "count": 1,
-      "score": 0.19599999487400055,
+      "score": 0.20419999957084656,
       "subfield": {
-        "id": "https://openalex.org/subfields/1711",
-        "display_name": "Signal Processing"
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11666",
-      "display_name": "Color Science and Applications",
-      "count": 1,
-      "score": 0.3467000126838684,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12111",
-      "display_name": "Industrial Vision Systems and Defect Detection",
-      "count": 1,
-      "score": 0.055799998342990875,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     }
   ],
@@ -420,7 +356,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "value": 8.79e-05,
+      "value": 6.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -437,7 +373,7 @@
     {
       "id": "https://openalex.org/T10941",
       "display_name": "Musicology and Musical Analysis",
-      "value": 7.51e-05,
+      "value": 5.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -454,7 +390,7 @@
     {
       "id": "https://openalex.org/T11425",
       "display_name": "Diverse Music Education Insights",
-      "value": 5.61e-05,
+      "value": 4.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -471,7 +407,7 @@
     {
       "id": "https://openalex.org/T11349",
       "display_name": "Music Technology and Sound Studies",
-      "value": 5.13e-05,
+      "value": 4.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -486,9 +422,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13757",
+      "display_name": "Graphic Design and Typography",
+      "value": 4.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11113",
       "display_name": "Music History and Culture",
-      "value": 2e-05,
+      "value": 2.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -503,26 +456,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13495",
-      "display_name": "Biographical and Historical Analysis",
-      "value": 1.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11657",
       "display_name": "Digital and Traditional Archives Management",
-      "value": 1.86e-05,
+      "value": 1.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -539,7 +475,7 @@
     {
       "id": "https://openalex.org/T14386",
       "display_name": "Libraries, Manuscripts, and Books",
-      "value": 1.67e-05,
+      "value": 1.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -554,26 +490,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11666",
-      "display_name": "Color Science and Applications",
-      "value": 1.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13673",
       "display_name": "Library Science and Information",
-      "value": 1.42e-05,
+      "value": 1.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -588,63 +507,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T11309",
-      "display_name": "Music and Audio Processing",
-      "value": 1e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1711",
-        "display_name": "Signal Processing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12111",
-      "display_name": "Industrial Vision Systems and Defect Detection",
+      "id": "https://openalex.org/T13495",
+      "display_name": "Biographical and Historical Analysis",
       "value": 6.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "value": 4.7e-06,
+      "value": 6.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10481",
-      "display_name": "Computer Graphics and Visualization Techniques",
-      "value": 4.4e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1704",
-        "display_name": "Computer Graphics and Computer-Aided Design"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -659,6 +544,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210166100",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-17T18:22:22",
   "created_date": "2022-02-02T04:48:36"
 }

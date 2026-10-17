@@ -16,7 +16,7 @@
     "Sächsische Krebsgesellschaft"
   ],
   "repositories": [],
-  "works_count": 5,
+  "works_count": 6,
   "cited_by_count": 98,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -43,6 +43,12 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
@@ -52,13 +58,13 @@
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 26
+      "cited_by_count": 25
     },
     {
       "year": 2017,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 3
+      "cited_by_count": 4
     },
     {
       "year": 2011,
@@ -71,18 +77,54 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210160709",
-      "works_count": 5
+      "works_count": 6
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10178",
       "display_name": "Cancer survivorship and care",
-      "count": 5,
+      "count": 6,
       "score": 0.8984000086784363,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11816",
+      "display_name": "Nursing Roles and Practices",
+      "count": 3,
+      "score": 0.1103999987244606,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13340",
+      "display_name": "Palliative and Oncologic Care",
+      "count": 3,
+      "score": 0.039000000804662704,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -130,42 +172,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11816",
-      "display_name": "Nursing Roles and Practices",
-      "count": 2,
-      "score": 0.1103999987244606,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13340",
-      "display_name": "Palliative and Oncologic Care",
-      "count": 2,
-      "score": 0.039000000804662704,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12708",
       "display_name": "Economic and Financial Impacts of Cancer",
       "count": 1,
@@ -206,7 +212,7 @@
     {
       "id": "https://openalex.org/T11816",
       "display_name": "Nursing Roles and Practices",
-      "value": 2.4e-05,
+      "value": 3.66e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -223,7 +229,7 @@
     {
       "id": "https://openalex.org/T10178",
       "display_name": "Cancer survivorship and care",
-      "value": 2.28e-05,
+      "value": 2.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -240,7 +246,7 @@
     {
       "id": "https://openalex.org/T12708",
       "display_name": "Economic and Financial Impacts of Cancer",
-      "value": 2.15e-05,
+      "value": 2.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -257,24 +263,7 @@
     {
       "id": "https://openalex.org/T10737",
       "display_name": "Health Literacy and Information Accessibility",
-      "value": 1.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10827",
-      "display_name": "Patient-Provider Communication in Healthcare",
-      "value": 1.15e-05,
+      "value": 1.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -291,7 +280,7 @@
     {
       "id": "https://openalex.org/T13340",
       "display_name": "Palliative and Oncologic Care",
-      "value": 1.14e-05,
+      "value": 1.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -306,9 +295,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10827",
+      "display_name": "Patient-Provider Communication in Healthcare",
+      "value": 1.18e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13944",
       "display_name": "Psychiatric care and mental health services",
-      "value": 7.2e-06,
+      "value": 7.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -326,6 +332,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210160709",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-16T05:59:56",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -20,7 +20,7 @@
     "Wasserstraßen- und Schifffahrtsamt Elbe"
   ],
   "repositories": [],
-  "works_count": 7,
+  "works_count": 3,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -56,21 +56,15 @@
   ],
   "counts_by_year": [
     {
-      "year": 2026,
+      "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
-      "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 0
-    },
-    {
       "year": 2022,
-      "works_count": 3,
-      "oa_works_count": 3,
+      "works_count": 1,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
@@ -84,14 +78,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4387153213",
-      "works_count": 7
+      "works_count": 3
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10577",
       "display_name": "Hydrology and Sediment Transport Processes",
-      "count": 6,
+      "count": 2,
       "score": 0.058400001376867294,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
@@ -109,7 +103,7 @@
     {
       "id": "https://openalex.org/T10930",
       "display_name": "Flood Risk Assessment and Management",
-      "count": 6,
+      "count": 2,
       "score": 0.8202999830245972,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
@@ -127,7 +121,7 @@
     {
       "id": "https://openalex.org/T11164",
       "display_name": "Remote Sensing and LiDAR Applications",
-      "count": 4,
+      "count": 2,
       "score": 0.9047999978065491,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
@@ -136,24 +130,6 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13511",
-      "display_name": "Geodetic Measurements and Engineering Structures",
-      "count": 3,
-      "score": 0.021299999207258224,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -195,13 +171,12 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    }
-  ],
-  "topic_share": [
+    },
     {
       "id": "https://openalex.org/T13511",
       "display_name": "Geodetic Measurements and Engineering Structures",
-      "value": 6.3e-05,
+      "count": 1,
+      "score": 0.021299999207258224,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -214,11 +189,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
+    }
+  ],
+  "topic_share": [
     {
       "id": "https://openalex.org/T11164",
       "display_name": "Remote Sensing and LiDAR Applications",
-      "value": 4.94e-05,
+      "value": 2.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -233,9 +210,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13511",
+      "display_name": "Geodetic Measurements and Engineering Structures",
+      "value": 2.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10930",
       "display_name": "Flood Risk Assessment and Management",
-      "value": 4.34e-05,
+      "value": 1.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -252,7 +246,7 @@
     {
       "id": "https://openalex.org/T10577",
       "display_name": "Hydrology and Sediment Transport Processes",
-      "value": 3.49e-05,
+      "value": 1.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -269,7 +263,7 @@
     {
       "id": "https://openalex.org/T12983",
       "display_name": "Satellite Image Processing and Photogrammetry",
-      "value": 1.09e-05,
+      "value": 1.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -286,7 +280,7 @@
     {
       "id": "https://openalex.org/T11211",
       "display_name": "3D Surveying and Cultural Heritage",
-      "value": 5.2e-06,
+      "value": 6.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1907",
         "display_name": "Geology"
@@ -304,6 +298,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4387153213",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-09T06:00:36",
   "created_date": "2023-09-29T19:15:43"
 }
