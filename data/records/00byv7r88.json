@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-20",
+      "date": "2026-10-20",
       "schema_version": "2.1"
     }
   },
@@ -18,6 +18,20 @@
       ],
       "preferred": "501100024251",
       "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 1230 5415"
+      ],
+      "preferred": "0000 0005 1230 5415",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1664735"
+      ],
+      "preferred": "Q1664735",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00byv7r88",
@@ -64,14 +78,44 @@
       "value": "HLD"
     },
     {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "HLD-EMFL"
+    },
+    {
       "lang": "de",
       "types": [
         "label"
       ],
       "value": "Hochfeld-Magnetlabor Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Institut Hochfeld-Magnetlabor Dresden"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "type": "parent",
+      "id": "https://ror.org/01zy2cs03"
+    },
+    {
+      "label": "European Magnetic Field Laboratory",
+      "type": "related",
+      "id": "https://ror.org/040n2wh36"
+    },
+    {
+      "label": "Complexity, Topology and Dynamics in Quantum Matter",
+      "type": "related",
+      "id": "https://ror.org/00kkpv737"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",
