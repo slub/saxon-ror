@@ -17,10 +17,10 @@
     "Poliklinik für Zahnerhaltung und Parodontologie"
   ],
   "repositories": [],
-  "works_count": 85,
+  "works_count": 86,
   "cited_by_count": 1261,
   "summary_stats": {
-    "2yr_mean_citedness": 0.3333333333333333,
+    "2yr_mean_citedness": 0.25,
     "h_index": 21,
     "i10_index": 23
   },
@@ -54,8 +54,8 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 0
     },
     {
@@ -153,7 +153,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210136954",
-      "works_count": 85
+      "works_count": 86
     }
   ],
   "topics": [
@@ -165,6 +165,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/3506",
         "display_name": "Periodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10536",
+      "display_name": "Endodontics and Root Canal Treatments",
+      "count": 19,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3504",
+        "display_name": "Oral Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/35",
@@ -194,27 +212,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10536",
-      "display_name": "Endodontics and Root Canal Treatments",
-      "count": 18,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3504",
-        "display_name": "Oral Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10113",
       "display_name": "Dental materials and restorations",
-      "count": 16,
+      "count": 17,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3505",
@@ -232,7 +232,7 @@
     {
       "id": "https://openalex.org/T11570",
       "display_name": "Periodontal Regeneration and Treatments",
-      "count": 10,
+      "count": 11,
       "score": 0.021700000390410423,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
@@ -612,7 +612,7 @@
     {
       "id": "https://openalex.org/T13457",
       "display_name": "Dental Education, Practice, Research",
-      "value": 0.000173,
+      "value": 0.0001728,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -629,7 +629,7 @@
     {
       "id": "https://openalex.org/T13768",
       "display_name": "Oral and gingival health research",
-      "value": 0.0001568,
+      "value": 0.0001566,
       "subfield": {
         "id": "https://openalex.org/subfields/3611",
         "display_name": "Pharmacy"
@@ -646,44 +646,10 @@
     {
       "id": "https://openalex.org/T10257",
       "display_name": "Oral microbiology and periodontitis research",
-      "value": 0.0001378,
+      "value": 0.0001376,
       "subfield": {
         "id": "https://openalex.org/subfields/3506",
         "display_name": "Periodontics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10368",
-      "display_name": "Dental Health and Care Utilization",
-      "value": 0.0001012,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3506",
-        "display_name": "Periodontics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11958",
-      "display_name": "Dental Erosion and Treatment",
-      "value": 0.0001012,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3505",
-        "display_name": "Orthodontics"
       },
       "field": {
         "id": "https://openalex.org/fields/35",
@@ -697,7 +663,7 @@
     {
       "id": "https://openalex.org/T10536",
       "display_name": "Endodontics and Root Canal Treatments",
-      "value": 9.89e-05,
+      "value": 0.0001043,
       "subfield": {
         "id": "https://openalex.org/subfields/3504",
         "display_name": "Oral Surgery"
@@ -712,9 +678,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11958",
+      "display_name": "Dental Erosion and Treatment",
+      "value": 0.0001011,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3505",
+        "display_name": "Orthodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10368",
+      "display_name": "Dental Health and Care Utilization",
+      "value": 0.000101,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3506",
+        "display_name": "Periodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12145",
       "display_name": "Dental Anxiety and Anesthesia Techniques",
-      "value": 8.63e-05,
+      "value": 8.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3504",
         "display_name": "Oral Surgery"
@@ -731,7 +731,7 @@
     {
       "id": "https://openalex.org/T13324",
       "display_name": "Scientific and Engineering Research Topics",
-      "value": 7.69e-05,
+      "value": 7.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3506",
         "display_name": "Periodontics"
@@ -748,7 +748,7 @@
     {
       "id": "https://openalex.org/T11570",
       "display_name": "Periodontal Regeneration and Treatments",
-      "value": 6.39e-05,
+      "value": 7.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2748",
         "display_name": "Urology"
@@ -756,6 +756,23 @@
       "field": {
         "id": "https://openalex.org/fields/27",
         "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10113",
+      "display_name": "Dental materials and restorations",
+      "value": 6.24e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3505",
+        "display_name": "Orthodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -780,26 +797,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10113",
-      "display_name": "Dental materials and restorations",
-      "value": 5.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3505",
-        "display_name": "Orthodontics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/35",
-        "display_name": "Dentistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11566",
       "display_name": "Laser Applications in Dentistry and Medicine",
-      "value": 5.85e-05,
+      "value": 5.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -816,7 +816,7 @@
     {
       "id": "https://openalex.org/T10359",
       "display_name": "Dental Implant Techniques and Outcomes",
-      "value": 5.66e-05,
+      "value": 5.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3504",
         "display_name": "Oral Surgery"
@@ -833,7 +833,7 @@
     {
       "id": "https://openalex.org/T12151",
       "display_name": "Interpreting and Communication in Healthcare",
-      "value": 5.27e-05,
+      "value": 5.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -850,7 +850,7 @@
     {
       "id": "https://openalex.org/T11497",
       "display_name": "Interprofessional Education and Collaboration",
-      "value": 4.93e-05,
+      "value": 4.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -867,7 +867,7 @@
     {
       "id": "https://openalex.org/T10852",
       "display_name": "Temporomandibular Joint Disorders",
-      "value": 4.53e-05,
+      "value": 4.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3603",
         "display_name": "Complementary and Manual Therapy"
@@ -1038,6 +1038,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136954",
-  "updated_date": "2026-10-10T05:59:40",
+  "updated_date": "2026-10-18T18:22:31",
   "created_date": "2022-02-02T04:48:36"
 }
