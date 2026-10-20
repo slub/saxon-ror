@@ -18,10 +18,10 @@
     "Institute of Automation"
   ],
   "repositories": [],
-  "works_count": 261,
-  "cited_by_count": 4616,
+  "works_count": 257,
+  "cited_by_count": 4630,
   "summary_stats": {
-    "2yr_mean_citedness": 2.8333333333333335,
+    "2yr_mean_citedness": 3.0153846153846153,
     "h_index": 33,
     "i10_index": 131
   },
@@ -55,9 +55,9 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 16,
-      "oa_works_count": 4,
-      "cited_by_count": 2
+      "works_count": 17,
+      "oa_works_count": 5,
+      "cited_by_count": 3
     },
     {
       "year": 2025,
@@ -67,9 +67,9 @@
     },
     {
       "year": 2024,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 89
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 91
     },
     {
       "year": 2023,
@@ -85,8 +85,8 @@
     },
     {
       "year": 2021,
-      "works_count": 13,
-      "oa_works_count": 2,
+      "works_count": 12,
+      "oa_works_count": 1,
       "cited_by_count": 12
     },
     {
@@ -97,20 +97,20 @@
     },
     {
       "year": 2019,
-      "works_count": 16,
-      "oa_works_count": 11,
+      "works_count": 15,
+      "oa_works_count": 10,
       "cited_by_count": 85
     },
     {
       "year": 2018,
-      "works_count": 17,
-      "oa_works_count": 7,
+      "works_count": 16,
+      "oa_works_count": 6,
       "cited_by_count": 66
     },
     {
       "year": 2017,
-      "works_count": 13,
-      "oa_works_count": 2,
+      "works_count": 12,
+      "oa_works_count": 1,
       "cited_by_count": 198
     },
     {
@@ -123,7 +123,7 @@
       "year": 2015,
       "works_count": 8,
       "oa_works_count": 1,
-      "cited_by_count": 93
+      "cited_by_count": 95
     },
     {
       "year": 2014,
@@ -151,8 +151,8 @@
     },
     {
       "year": 2010,
-      "works_count": 10,
-      "oa_works_count": 1,
+      "works_count": 11,
+      "oa_works_count": 2,
       "cited_by_count": 49
     }
   ],
@@ -160,14 +160,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210157642",
-      "works_count": 261
+      "works_count": 257
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T13344",
       "display_name": "Industrial Automation and Control Systems",
-      "count": 39,
+      "count": 38,
       "score": 0.9976000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
@@ -525,6 +525,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10571",
+      "display_name": "Robotic Mechanisms and Dynamics",
+      "count": 8,
+      "score": 0.6294000148773193,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10876",
       "display_name": "Fault Detection and Control Systems",
       "count": 8,
@@ -561,24 +579,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11325",
-      "display_name": "Inertial Sensor and Navigation",
-      "count": 8,
-      "score": 0.7422000169754028,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11357",
       "display_name": "Risk and Safety Analysis",
       "count": 8,
@@ -597,10 +597,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10040",
-      "display_name": "Adaptive Control of Nonlinear Systems",
+      "id": "https://openalex.org/T11236",
+      "display_name": "Control Systems and Identification",
       "count": 7,
-      "score": 0.9843999743461609,
+      "score": 0.10649999976158142,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -619,7 +619,7 @@
     {
       "id": "https://openalex.org/T13827",
       "display_name": "Mechatronics Education and Applications",
-      "value": 0.000615,
+      "value": 0.0006141,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -634,26 +634,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13295",
-      "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 0.000471,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2213",
-        "display_name": "Safety, Risk, Reliability and Quality"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11741",
       "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 0.0004709,
+      "value": 0.000471,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -668,9 +651,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13295",
+      "display_name": "Safety Systems Engineering in Autonomy",
+      "value": 0.0004705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13344",
       "display_name": "Industrial Automation and Control Systems",
-      "value": 0.0003839,
+      "value": 0.0003755,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -687,7 +687,7 @@
     {
       "id": "https://openalex.org/T13579",
       "display_name": "Image and Video Stabilization",
-      "value": 0.0003516,
+      "value": 0.0003515,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -704,7 +704,7 @@
     {
       "id": "https://openalex.org/T13286",
       "display_name": "Modeling and Simulation Systems",
-      "value": 0.0002718,
+      "value": 0.0002745,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -738,7 +738,7 @@
     {
       "id": "https://openalex.org/T12601",
       "display_name": "Web Applications and Data Management",
-      "value": 0.00018,
+      "value": 0.0001803,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -772,7 +772,7 @@
     {
       "id": "https://openalex.org/T11525",
       "display_name": "Piezoelectric Actuators and Control",
-      "value": 0.000177,
+      "value": 0.0001769,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -789,7 +789,7 @@
     {
       "id": "https://openalex.org/T12000",
       "display_name": "Systems Engineering Methodologies and Applications",
-      "value": 0.0001766,
+      "value": 0.0001765,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -806,7 +806,7 @@
     {
       "id": "https://openalex.org/T12423",
       "display_name": "Software Reliability and Analysis Research",
-      "value": 0.0001469,
+      "value": 0.0001468,
       "subfield": {
         "id": "https://openalex.org/subfields/1712",
         "display_name": "Software"
@@ -823,7 +823,7 @@
     {
       "id": "https://openalex.org/T11615",
       "display_name": "Control and Dynamics of Mobile Robots",
-      "value": 0.0001354,
+      "value": 0.0001353,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -840,7 +840,7 @@
     {
       "id": "https://openalex.org/T12805",
       "display_name": "Cognitive Science and Mapping",
-      "value": 0.0001245,
+      "value": 0.0001244,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -857,7 +857,7 @@
     {
       "id": "https://openalex.org/T10191",
       "display_name": "Robotics and Sensor-Based Localization",
-      "value": 0.0001182,
+      "value": 0.0001181,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -874,7 +874,7 @@
     {
       "id": "https://openalex.org/T10703",
       "display_name": "Business Process Modeling and Analysis",
-      "value": 0.0001159,
+      "value": 0.0001158,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -891,7 +891,7 @@
     {
       "id": "https://openalex.org/T10586",
       "display_name": "Robotic Path Planning Algorithms",
-      "value": 0.0001061,
+      "value": 0.000106,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -908,7 +908,7 @@
     {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
-      "value": 0.0001024,
+      "value": 0.0001023,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -925,7 +925,7 @@
     {
       "id": "https://openalex.org/T14381",
       "display_name": "Psychiatry, Mental Health, Neuroscience",
-      "value": 9.48e-05,
+      "value": 9.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -942,7 +942,7 @@
     {
       "id": "https://openalex.org/T13644",
       "display_name": "Control Systems in Engineering",
-      "value": 9.34e-05,
+      "value": 9.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -974,23 +974,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13855",
-      "display_name": "Aerospace Engineering and Control Systems",
-      "value": 8.14e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10470",
       "display_name": "Usability and User Interface Design",
       "value": 7.83e-05,
@@ -1010,7 +993,7 @@
     {
       "id": "https://openalex.org/T11357",
       "display_name": "Risk and Safety Analysis",
-      "value": 7.73e-05,
+      "value": 7.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1804",
         "display_name": "Statistics, Probability and Uncertainty"
@@ -1040,11 +1023,28 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11810",
+      "display_name": "Complex Systems and Decision Making",
+      "value": 7.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210157642",
-  "updated_date": "2026-10-17T18:22:22",
+  "updated_date": "2026-10-20T18:21:50",
   "created_date": "2022-02-02T04:48:36"
 }
