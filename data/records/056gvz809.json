@@ -1,7 +1,41 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488574.2"
+      ],
+      "preferred": "grid.488574.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q43896584"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056gvz809",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uniklinikum-dresden.de/de/das-klinikum/kliniken-polikliniken-institute/augenheilkunde"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,63 +46,134 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": null,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.488574.2"
-      ],
-      "preferred": "grid.488574.2"
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q43896584"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/056gvz809",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://augen.uniklinikum-dresden.de/"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus",
+      "lang": "de",
       "types": [
-        "ror_display",
+        "alias"
+      ],
+      "value": "Augenklinik, Universitätsklinikum Carl Gustav Carus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Ophthalmology, Carl Gustav Carus University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Ophthalmology, Medical Faculty Carl Gustav Carus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Ophthalmology, Technical University of Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
         "label"
       ],
-      "lang": "de"
+      "value": "Department of Ophthalmology, University Hospital Carl Gustav Carus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Ophthalmology, University Hospital Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Ophthalmology, University of Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Klinik für Augenheilkunde"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Klinik und Poliklinik für Augenheilkunde"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Klinik und Poliklinik für Augenheilkunde, Universitätsklinikum Carl Gustav Carus Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Klinik und Poliklinik für Augenkrankheiten der Medizinischen Akademie Carl Gustav Carus Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Eye Clinic Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Eye Hospital Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitäts-Augenklinik Carl Gustav Carus Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitäts-Augenklinik Dresden"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "University Hospital Carl Gustav Carus",
+      "type": "parent",
       "id": "https://ror.org/04za5zm41"
     }
   ],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

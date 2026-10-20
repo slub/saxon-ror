@@ -1082,7 +1082,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -1095,6 +1095,20 @@
         ],
         "preferred": "501100024251",
         "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0005 1230 5415"
+        ],
+        "preferred": "0000 0005 1230 5415",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1664735"
+        ],
+        "preferred": "Q1664735",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/00byv7r88",
@@ -1141,14 +1155,44 @@
         "value": "HLD"
       },
       {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "HLD-EMFL"
+      },
+      {
         "lang": "de",
         "types": [
           "label"
         ],
         "value": "Hochfeld-Magnetlabor Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut Hochfeld-Magnetlabor Dresden"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "type": "parent",
+        "id": "https://ror.org/01zy2cs03"
+      },
+      {
+        "label": "European Magnetic Field Laboratory",
+        "type": "related",
+        "id": "https://ror.org/040n2wh36"
+      },
+      {
+        "label": "Complexity, Topology and Dynamics in Quantum Matter",
+        "type": "related",
+        "id": "https://ror.org/00kkpv737"
+      }
+    ],
     "status": "active",
     "types": [
       "facility",
@@ -1808,9 +1852,43 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.491994.8"
+        ],
+        "preferred": "grid.491994.8",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q50038732"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00gfym921",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.uniklinikum-dresden.de/de/das-klinikum/kliniken-polikliniken-institute/uro"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -1821,65 +1899,164 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.491994.8"
-        ],
-        "preferred": "grid.491994.8"
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q50038732"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/00gfym921",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.uniklinikum-dresden.de/de/das-klinikum/kliniken-polikliniken-institute/uro"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Klinik und Poliklinik für Urologie",
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Carl Gustav Carus University Hospital"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Dresden University of Technology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Faculty of Medicine Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Faculty of Medicine and University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Medical Faculty Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Medizinische Fakultät Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, TU Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Technical University Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Technical University of Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, Technische Universität Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, University Clinics Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Department of Urology, University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, University Hospital Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Urology, University of Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik für Urologie, Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik für Urologie, Universitätsklinikum Dresden"
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Klinik und Poliklinik für Urologie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Urologie, Medizinische Fakultät Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Urologie, Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Urologie, Universitätsklinikum Dresden"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
         "id": "https://ror.org/04za5zm41"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -1974,7 +2151,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -2125,6 +2302,11 @@
         "label": "University of Würzburg",
         "type": "parent",
         "id": "https://ror.org/00fbnyb24"
+      },
+      {
+        "label": "Dresden High Magnetic Field Laboratory",
+        "type": "related",
+        "id": "https://ror.org/00byv7r88"
       }
     ],
     "status": "active",
@@ -6784,9 +6966,50 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2002,
+    "external_ids": [
+      {
+        "all": [
+          "grid.461764.6"
+        ],
+        "preferred": "grid.461764.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 4902 0627"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q30261282"
+        ],
+        "preferred": "Q30261282",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01t4pzq33",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ipfdd.de/mbc/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -6797,66 +7020,106 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2002,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.461764.6"
-        ],
-        "preferred": "grid.461764.6"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 4902 0627"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/01t4pzq33",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.mbc-dresden.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "MBZ",
+        "lang": "en",
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "MBC"
       },
       {
-        "value": "Max Bergmann Zentrum für Biomaterialien",
+        "lang": null,
         "types": [
-          "ror_display",
+          "acronym"
+        ],
+        "value": "MBZ"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Center for Biomaterials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Max Bergmann Center of Biomaterials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Center of Biomaterials Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Centre for Biomaterials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Centre of Biomaterials"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Centre of Biomaterials Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Max Bergmann Zentrum für Biomaterialien"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Max Bergmann Zentrum für Biomaterialien Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Max-Bergmann-Zentrum für Biomaterialien"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Leibniz Institute of Polymer Research",
+        "type": "parent",
+        "id": "https://ror.org/01tspta37"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -6938,7 +7201,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -7041,6 +7304,11 @@
         "label": "Climate-Neutral and Resource-Efficient Construction",
         "type": "related",
         "id": "https://ror.org/03k29yn40"
+      },
+      {
+        "label": "Max Bergmann Center of Biomaterials",
+        "type": "child",
+        "id": "https://ror.org/01t4pzq33"
       }
     ],
     "status": "active",
@@ -8257,7 +8525,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -8386,6 +8654,16 @@
         "label": "Responsible Electronics in the Climate Change Era",
         "type": "related",
         "id": "https://ror.org/03rymtb94"
+      },
+      {
+        "label": "OncoRay",
+        "type": "child",
+        "id": "https://ror.org/03aysbj82"
+      },
+      {
+        "label": "Dresden High Magnetic Field Laboratory",
+        "type": "child",
+        "id": "https://ror.org/00byv7r88"
       }
     ],
     "status": "active",
@@ -14952,9 +15230,45 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "oncoray.de"
+    ],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.490551.c"
+        ],
+        "preferred": "grid.490551.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q50037128"
+        ],
+        "preferred": "Q50037128",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/03aysbj82",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.oncoray.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -14965,59 +15279,55 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.490551.c"
-        ],
-        "preferred": "grid.490551.c"
-      }
-    ],
-    "id": "https://ror.org/03aysbj82",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.oncoray.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "OncoRay",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "OncoRay"
       },
       {
-        "value": "OncoRay – Nationales Zentrum für Strahlenforschung in der Onkologie",
+        "lang": "en",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "OncoRay – National Center for Radiation Research in Oncology"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "OncoRay – Nationales Zentrum für Strahlenforschung in der Onkologie"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
+        "id": "https://ror.org/04za5zm41"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "type": "parent",
+        "id": "https://ror.org/01zy2cs03"
+      }
+    ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -17337,7 +17647,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -17433,7 +17743,13 @@
         "value": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "archive",
@@ -17617,7 +17933,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -17643,7 +17959,7 @@
     "links": [
       {
         "type": "website",
-        "value": "https://flores.unu.edu/en/"
+        "value": "https://unu.edu/resource-nexus"
       },
       {
         "type": "wikipedia",
@@ -17668,6 +17984,13 @@
     ],
     "names": [
       {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für integriertes Materialfluss- und Ressourcenmanagement"
+      },
+      {
         "lang": "en",
         "types": [
           "ror_display",
@@ -17676,11 +17999,60 @@
         "value": "Institute for Integrated Management of Material Fluxes and of Resources"
       },
       {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Integrated Management of Matter Fluxes and of Resource"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Integrated Management of Matter Fluxes and of Resources"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "UNU Resource Nexus"
+      },
+      {
         "lang": null,
         "types": [
           "acronym"
         ],
         "value": "UNU-FLORES"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "United Nations University (UNU), Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "United Nations University Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "United Nations University Institute for Integrated Management of Material Fluxes and of Resources"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "United Nations University, Dresden"
       }
     ],
     "relationships": [
@@ -17693,6 +18065,11 @@
         "label": "Climate-Neutral and Resource-Efficient Construction",
         "type": "related",
         "id": "https://ror.org/03k29yn40"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
@@ -18106,7 +18483,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -18215,11 +18592,6 @@
         "label": "Complexity, Topology and Dynamics in Quantum Matter",
         "type": "child",
         "id": "https://ror.org/00kkpv737"
-      },
-      {
-        "label": "Förderverein Institut für Medizintechnik Dresden",
-        "type": "child",
-        "id": "https://ror.org/04wn6w972"
       },
       {
         "label": "Institut für Holztechnologie Dresden",
@@ -18445,6 +18817,31 @@
         "label": "Verein für Nationales Hochleistungsrechnen – NHR-Verein e.V.",
         "type": "related",
         "id": "https://ror.org/033mrbb45"
+      },
+      {
+        "label": "SLUB Dresden",
+        "type": "related",
+        "id": "https://ror.org/03wf51b65"
+      },
+      {
+        "label": "Institute for Integrated Management of Material Fluxes and of Resources",
+        "type": "related",
+        "id": "https://ror.org/03xp99m49"
+      },
+      {
+        "label": "GWT-TUD GmbH (Germany)",
+        "type": "related",
+        "id": "https://ror.org/049ag6g97"
+      },
+      {
+        "label": "OncoRay",
+        "type": "child",
+        "id": "https://ror.org/03aysbj82"
+      },
+      {
+        "label": "Max Bergmann Center of Biomaterials",
+        "type": "child",
+        "id": "https://ror.org/01t4pzq33"
       }
     ],
     "status": "active",
@@ -19684,7 +20081,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -19751,6 +20148,27 @@
         "types": [
           "alias"
         ],
+        "value": "GWT Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "GWT TU-Dresden GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "GWT-TU Dresden GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
         "value": "GWT-TUD (Germany)"
       },
       {
@@ -19783,6 +20201,13 @@
         "value": "Gesellschaft für Wissens- und Technologietransfer"
       },
       {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Gesellschaft für Wissens‐ und Technologietransfer‐TU Dresden GmbH"
+      },
+      {
         "lang": "en",
         "types": [
           "alias"
@@ -19795,6 +20220,21 @@
         "label": "GWT-TUD GmbH (Germany)",
         "type": "predecessor",
         "id": "https://ror.org/012d0t602"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Zittau/Görlitz University of Applied Sciences",
+        "type": "related",
+        "id": "https://ror.org/056tzgr32"
+      },
+      {
+        "label": "Otto-von-Guericke-Universität Magdeburg",
+        "type": "related",
+        "id": "https://ror.org/00ggpsq73"
       }
     ],
     "status": "active",
@@ -22360,7 +22800,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -22429,7 +22869,7 @@
         "id": "https://ror.org/042aqky30"
       }
     ],
-    "status": "active",
+    "status": "inactive",
     "types": [
       "nonprofit"
     ]
@@ -22899,7 +23339,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -22979,7 +23419,7 @@
     ],
     "relationships": [
       {
-        "label": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus",
+        "label": "Klinik und Poliklinik für Augenheilkunde",
         "type": "child",
         "id": "https://ror.org/056gvz809"
       },
@@ -23057,6 +23497,11 @@
         "label": "Herzzentrum Dresden Universitätsklinik",
         "type": "related",
         "id": "https://ror.org/01jx86h05"
+      },
+      {
+        "label": "OncoRay",
+        "type": "child",
+        "id": "https://ror.org/03aysbj82"
       }
     ],
     "status": "active",
@@ -24465,9 +24910,43 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-10-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "grid.488574.2"
+        ],
+        "preferred": "grid.488574.2",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q43896584"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/056gvz809",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.uniklinikum-dresden.de/de/das-klinikum/kliniken-polikliniken-institute/augenheilkunde"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -24478,65 +24957,136 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.488574.2"
-        ],
-        "preferred": "grid.488574.2"
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q43896584"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/056gvz809",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://augen.uniklinikum-dresden.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus",
+        "lang": "de",
         "types": [
-          "ror_display",
+          "alias"
+        ],
+        "value": "Augenklinik, Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Ophthalmology, Carl Gustav Carus University Hospital"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Ophthalmology, Medical Faculty Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Ophthalmology, Technical University of Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Department of Ophthalmology, University Hospital Carl Gustav Carus"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Ophthalmology, University Hospital Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Department of Ophthalmology, University of Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik für Augenheilkunde"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Klinik und Poliklinik für Augenheilkunde"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Augenheilkunde am Universitätsklinikum Carl Gustav Carus"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Augenheilkunde, Universitätsklinikum Carl Gustav Carus Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik und Poliklinik für Augenkrankheiten der Medizinischen Akademie Carl Gustav Carus Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University Eye Clinic Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University Eye Hospital Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitäts-Augenklinik Carl Gustav Carus Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Universitäts-Augenklinik Dresden"
       }
     ],
     "relationships": [
       {
-        "type": "parent",
         "label": "University Hospital Carl Gustav Carus",
+        "type": "parent",
         "id": "https://ror.org/04za5zm41"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -24619,7 +25169,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-10-20",
         "schema_version": "2.1"
       }
     },
@@ -24683,7 +25233,13 @@
         "value": "Zittau/Görlitz University of Applied Sciences"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "GWT-TUD GmbH (Germany)",
+        "type": "related",
+        "id": "https://ror.org/049ag6g97"
+      }
+    ],
     "status": "active",
     "types": [
       "education"
