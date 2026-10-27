@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100014221</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R31NJNGT</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">MathRepo</r3d:repositoryName>
+				<r3d:additionalName language="eng">Mathematical Research-Data Repository</r3d:additionalName>
+				<r3d:repositoryUrl>https://mathrepo.mis.mpg.de</r3d:repositoryUrl>
+				<r3d:description language="eng">MathRepo is a repository of the Max Planck Institute for Mathematics in the Sciences in Leipzig, dedicated to mathematical research data. Research data are all digital objects that arise during the process of doing research or are a result thereof. In particular, the purpose of this repository is to collect scripts and code, to explain applications of mathematical software, to showcase additional examples to paper publications, and more generally to host supplementary material developed for research projects or discussed in workshops.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>mathrepo@mis.mpg.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType></r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+								<r3d:startDate>2022-06</r3d:startDate>
+        									<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>33</r3d:subjectId>
+				<r3d:subjectName>Mathematics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>331</r3d:subjectId>
+				<r3d:subjectName>Mathematics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>33101</r3d:subjectId>
+				<r3d:subjectName>Mathematics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>3</r3d:subjectId>
+				<r3d:subjectName>Natural Sciences</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://arxiv.org/abs/2202.04022</r3d:missionStatementUrl>
+									<r3d:providerType>dataProvider</r3d:providerType>
+							<r3d:keyword>application</r3d:keyword>
+					<r3d:keyword>code</r3d:keyword>
+					<r3d:keyword>mathematical software</r3d:keyword>
+					<r3d:keyword>script</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="eng">Max Planck Institute for Mathematics in the Sciences</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Max-Planck-Institut für Mathematik in den Naturwissenschaften</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.mis.mpg.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/00ez2he07</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Guidelines developed by the Mathematical Research Data Initiative MaRDI</r3d:policyName>
+				<r3d:policyUrl>https://www.mardi4nfdi.de/about/mission</r3d:policyUrl>
+			</r3d:policy>
+					<r3d:policy>
+				<r3d:policyName>Terms of Use</r3d:policyName>
+				<r3d:policyUrl>https://mathrepo.mis.mpg.de/termsofuse.html</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+					<r3d:dataAccess>
+				<r3d:dataAccessType>restricted</r3d:dataAccessType>
+									<r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>CC</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://creativecommons.org/licenses/by/4.0/</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+					<r3d:dataLicense>
+				<r3d:dataLicenseName>other</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://spdx.org/licenses/MIT.html</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>restricted</r3d:dataUploadType>
+									<r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+							</r3d:dataUpload>
+									<r3d:software>other</r3d:software>
+											<r3d:pidSystem>none</r3d:pidSystem>
+															<r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+														<r3d:remarks></r3d:remarks>
+		<r3d:entryDate>2023-08-02</r3d:entryDate>
+		<r3d:lastUpdate>2023-08-05</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

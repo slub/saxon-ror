@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100014131</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R31NJNEB</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">MorpheusML model repository</r3d:repositoryName>
+				<r3d:additionalName language="eng">Morpheus model repository</r3d:additionalName>
+				<r3d:repositoryUrl>https://morpheus.gitlab.io/model/</r3d:repositoryUrl>
+				<r3d:repositoryIdentifier>
+			<r3d:repositoryIdentifierType>MIR</r3d:repositoryIdentifierType>
+			<r3d:repositoryIdentifierValue>00000725</r3d:repositoryIdentifierValue>
+		</r3d:repositoryIdentifier>
+				<r3d:repositoryIdentifier>
+			<r3d:repositoryIdentifierType>FAIRsharing</r3d:repositoryIdentifierType>
+			<r3d:repositoryIdentifierValue>10.25504/FAIRsharing.b83dd9</r3d:repositoryIdentifierValue>
+		</r3d:repositoryIdentifier>
+				<r3d:description language="eng">The public MorpheusML model repository collects, curates, documents and tests computational models for multi-scale and multicellular biological systems. Model must be encoded in the model description language MorpheusML. Subsections of the repository distinguish published models from contributed non-published and example models. New models are simulated in Morpheus or Artistoo independently from the authors and results are compared to published results. Successful reproduction is documented on the model&#039;s webpage. Models in this repository are included into the CI and test pipelines for each release of the model simulator Morpheus to check and guarantee reproducibility of results across future simulator updates. The model’s webpage provides a History-link to all past model versions and edits that are automatically tracked via Git. Each model is registered with a unique and persistent ID of the format M..... The model description page (incl. the biological context and key results of that model), the model’s XML file, the associated paper, and all further files (often simulation result videos) connected with that model can be retrieved via a persistent URL of the format https://identifiers.org/morpheus/M.....
+- for technical details on the citable ModelID please see https://registry.identifiers.org/registry/morpheus
+- for the model definition standard MorpheusML please see https://doi.org/10.25504/FAIRsharing.78b6a6
+- for the model simulator Morpheus please see https://morpheus.gitlab.io
+- for the model simulator Artistoo please see https://artistoo.net/converter.html</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>https://imc.zih.tu-dresden.de/imc/index.php?page=contact</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType></r3d:repositoryContactType>
+		</r3d:repositoryContact>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>lutz.brusch@tu-dresden.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType></r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+								<r3d:startDate>2021</r3d:startDate>
+        									<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>21</r3d:subjectId>
+				<r3d:subjectName>Biology</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31</r3d:subjectId>
+				<r3d:subjectName>Chemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>2</r3d:subjectId>
+				<r3d:subjectName>Life Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>33</r3d:subjectId>
+				<r3d:subjectName>Mathematics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>3</r3d:subjectId>
+				<r3d:subjectName>Natural Sciences</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://gitlab.com/morpheus.lab/morpheus/-/wikis/home</r3d:missionStatementUrl>
+									<r3d:providerType>dataProvider</r3d:providerType>
+					<r3d:providerType>serviceProvider</r3d:providerType>
+							<r3d:keyword>cell</r3d:keyword>
+					<r3d:keyword>disease</r3d:keyword>
+					<r3d:keyword>kinetic</r3d:keyword>
+					<r3d:keyword>model</r3d:keyword>
+					<r3d:keyword>multicellular</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="deu">Technische Universität Dresden</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">TU Dresden</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+									<r3d:responsibilityType>technical</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://tu-dresden.de</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/042aqky30</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+													<r3d:responsibilityStartDate>2021</r3d:responsibilityStartDate>
+											</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>legal notice</r3d:policyName>
+				<r3d:policyUrl>https://imc.zih.tu-dresden.de/imc/index.php?page=impressum</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>CC</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://creativecommons.org/licenses/by/4.0/</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>restricted</r3d:dataUploadType>
+									<r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+							</r3d:dataUpload>
+							<r3d:dataUploadLicense>
+				<r3d:dataUploadLicenseName>Submit Model</r3d:dataUploadLicenseName>
+				<r3d:dataUploadLicenseUrl>https://morpheus.gitlab.io/faq/model/submit/</r3d:dataUploadLicenseUrl>
+			</r3d:dataUploadLicense>
+							<r3d:software>other</r3d:software>
+							<r3d:versioning>yes</r3d:versioning>
+									<r3d:pidSystem>other</r3d:pidSystem>
+											<r3d:citationGuidelineUrl>https://morpheus.gitlab.io/model/</r3d:citationGuidelineUrl>
+									<r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+														<r3d:remarks>Computational models in this research data repository are encoded in the standard MorpheusML (https://doi.org/10.25504/FAIRsharing.78b6a6) and can be executed by the simulation software Morpheus (https://morpheus.gitlab.io) and Artistoo (https://artistoo.net/converter.html).</r3d:remarks>
+		<r3d:entryDate>2023-02-03</r3d:entryDate>
+		<r3d:lastUpdate>2023-02-09</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

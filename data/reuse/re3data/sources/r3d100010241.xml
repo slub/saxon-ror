@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100010241</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R3W891</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">RES³T</r3d:repositoryName>
+				<r3d:additionalName language="deu">RES[drei]T</r3d:additionalName>
+				<r3d:additionalName language="eng">RES[three]T</r3d:additionalName>
+				<r3d:additionalName language="eng">Rossendorf Expert System for Surface and Sorption Thermodynamics</r3d:additionalName>
+				<r3d:repositoryUrl>https://www.hzdr.de/db/res3t.login</r3d:repositoryUrl>
+				<r3d:description language="eng">RES³T is a digitized version of a thermodynamic sorption database as required for the parametrization of Surface Complexation Models (SCM). It is mineral-specific and can therefore also be used for additive models of more complex solid phases such as rocks or soils. A user interface helps to access selected mineral and sorption data, to convert parameter units, to extract internally consistent data sets for sorption modeling. Data records comprise of mineral properties, specific surface area values, characteristics of surface binding sites and their protolysis, sorption ligand information, and surface complexation reactions</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>https://www.hzdr.de/db/RES3T.CONTACT</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>res3t@hzdr.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+						<r3d:size>150 minerals; 149 sorbing ligands; 2.437 specific surface area measurements; 2.106 surface site data records; 7.647 surface complexation reactions; 3.623 literature references</r3d:size>
+						<r3d:startDate>2004</r3d:startDate>
+        									<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>312</r3d:subjectId>
+				<r3d:subjectName>Chemical Solid State and Surface Research</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31</r3d:subjectId>
+				<r3d:subjectName>Chemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>34</r3d:subjectId>
+				<r3d:subjectName>Geosciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>344</r3d:subjectId>
+				<r3d:subjectName>Mineralogy, Petrology and Geochemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>3</r3d:subjectId>
+				<r3d:subjectName>Natural Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31202</r3d:subjectId>
+				<r3d:subjectName>Physical Chemistry of Solids and Surfaces, Material Characterisation</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31201</r3d:subjectId>
+				<r3d:subjectName>Solid State and Surface Chemistry, Material Synthesis</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.hzdr.de/db/res3t.introduction</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/63NG-B465</r3d:contentTypeId>
+				<r3d:contentTypeName>experimental data</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+							<r3d:keyword>ion exchange</r3d:keyword>
+					<r3d:keyword>minerals</r3d:keyword>
+					<r3d:keyword>sorption</r3d:keyword>
+					<r3d:keyword>specific surface areas</r3d:keyword>
+					<r3d:keyword>surface complexation</r3d:keyword>
+					<r3d:keyword>surface site densities</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="deu">Bundesministerium für Wirschaft und Energie</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">BMWi</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">Federal Ministry for Economic Affairs and Energy</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">formerly: BMWA</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">formerly: Bundesministerium für Wirtschaft und Arbeit</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">formerly: Bundesministerium für Wirtschaft und Klimaschutz</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">formerly: Federal Ministry of Economics and Labour</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/02vgg2808</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="deu">Helmholtz-Zentrum Dresden-Rossendorf</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">HZDR</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">Helmholtz-Zentrum Dresden-Rossendorf</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+									<r3d:responsibilityType>technical</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.hzdr.de</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/01zy2cs03</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Data Protection and Privacy Policy</r3d:policyName>
+				<r3d:policyUrl>https://www.hzdr.de/db/Cms?pOid=50772&amp;pNid=0</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+					<r3d:databaseLicense>
+				<r3d:databaseLicenseName>Copyrights</r3d:databaseLicenseName>
+				<r3d:databaseLicenseUrl>https://www.hzdr.de/db/Cms?pOid=10115&amp;pNid=0</r3d:databaseLicenseUrl>
+			</r3d:databaseLicense>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://www.hzdr.de/db/Cms?pOid=10115&amp;pNid=0</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+					<r3d:dataLicense>
+				<r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://www.hzdr.de/db/RES3T.disclaimer</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>restricted</r3d:dataUploadType>
+									<r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+							</r3d:dataUpload>
+									<r3d:software>unknown</r3d:software>
+																	<r3d:citationGuidelineUrl>https://www.hzdr.de/db/res3t.PAPERMEMO?paperID=985</r3d:citationGuidelineUrl>
+															<r3d:profile>
+				<r3d:profileName>Helmholtz Association</r3d:profileName>
+				<r3d:profileUrl>https://os.helmholtz.de/open-research-data/forschungsdatenrepositorien/</r3d:profileUrl>
+			</r3d:profile>
+								<r3d:remarks></r3d:remarks>
+		<r3d:entryDate>2013-04-16</r3d:entryDate>
+		<r3d:lastUpdate>2026-02-13</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

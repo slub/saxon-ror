@@ -13,6 +13,8 @@
     issues: null, // object: suffix -> [{number,title,state,url}] (best-effort)
     history: null, // object: suffix -> [{version,event,date,url}] (best-effort)
     openalex: null, // Map: suffix -> entity (lazy, per record)
+    re3data: new Map(), // suffix -> projection record (lazy, successful loads only)
+    detailToken: 0, // bumped per detail render; stale async results compare against it
     filters: { q: "", types: new Set(), city: "", statuses: new Set(["active"]) },
   };
 
@@ -355,6 +357,7 @@
   const EXTID_LABELS = { wikidata: "Wikidata", isni: "ISNI", fundref: "Funder ID (Crossref)", grid: "GRID" };
 
   function renderDetail(sfx) {
+    const token = ++state.detailToken;
     const container = document.getElementById("detail-content");
     container.innerHTML = "";
     const rec = state.byId.get(sfx);
@@ -465,6 +468,11 @@
     const panel = el("section", { class: "openalex-panel", attrs: { "aria-label": t("openalexTitle") } });
     container.appendChild(panel);
     loadOpenalexPanel(rec, panel);
+
+    // re3data panel (lazy)
+    const r3 = el("section", { class: "re3data-panel", attrs: { "aria-label": t("re3dataTitle") } });
+    container.appendChild(r3);
+    loadRe3dataPanel(rec, r3, token);
   }
 
   function nameLine(label, names) {
@@ -766,6 +774,235 @@
       }
     });
     return svg;
+  }
+
+  // ---- re3data (lazy, per record) ----------------------------------------
+  // Four states stay distinct: no companion, a confirmed miss, a record the
+  // last evaluation did not cover yet, and a failed load.
+  const RE3DATA_ROLES = new Set(["general", "technical", "funding"]);
+  const RE3DATA_TYPES = new Set([
+    "disciplinary", "governmental", "institutional", "multidisciplinary", "project-related", "other",
+  ]);
+
+  // Only http(s) URLs from external data become links; anything else is text.
+  function safeHttpUrl(value) {
+    if (typeof value !== "string" || !value.trim()) return null;
+    try {
+      const u = new URL(value.trim());
+      return u.protocol === "http:" || u.protocol === "https:" ? u.href : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function re3dataBlock() {
+    return (state.meta && state.meta.reuse && state.meta.reuse.re3data) || null;
+  }
+
+  async function loadRe3dataPanel(rec, panel, token) {
+    panel.appendChild(el("h2", { text: t("re3dataTitle") }));
+    panel.appendChild(el("p", { class: "derived-note", text: t("re3dataDerived") }));
+
+    const block = re3dataBlock();
+    if (!block) {
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataNoCompanion") }));
+      return;
+    }
+    const sfx = suffix(rec);
+    if ((block.missing_ror_ids || []).includes(rec.id)) {
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataNone")(block.retrieved) }));
+      panel.appendChild(re3dataSourceLine(block, null));
+      return;
+    }
+    if (!(block.matched_ror_ids || []).includes(rec.id)) {
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataNotEvaluated")(block.retrieved) }));
+      panel.appendChild(re3dataSourceLine(block, null));
+      return;
+    }
+
+    const status = el("p", { class: "loading", text: t("re3dataLoading") });
+    panel.appendChild(status);
+    let data = state.re3data.get(sfx) || null;
+    if (!data) {
+      try {
+        const r = await fetch(`${state.dataBase}/reuse/re3data/records/${sfx}.json`, { cache: "no-cache" });
+        const body = r.ok ? await r.json() : null;
+        // Listed as matched: anything else is a data error, not a miss.
+        if (isRe3dataProjection(body, rec.id)) data = body;
+      } catch (_) {
+        data = null;
+      }
+    }
+    // Drop results for a detail view that has since been replaced.
+    if (token !== state.detailToken || !panel.isConnected) return;
+    status.remove();
+
+    // Built off-DOM and cached only on success, so a failure leaves no partial list.
+    let content = null;
+    if (data) {
+      try {
+        content = renderRe3data(data, sfx, block);
+      } catch (_) {
+        content = null;
+      }
+    }
+    if (!content) {
+      state.re3data.delete(sfx);
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataError") }));
+      panel.appendChild(re3dataSourceLine(block, null));
+      return;
+    }
+    state.re3data.set(sfx, data);
+    panel.appendChild(content);
+  }
+
+  // Checks every projection field the renderer reads.
+  function isRe3dataProjection(body, rorId) {
+    const isObj = (v) => v != null && typeof v === "object" && !Array.isArray(v);
+    const optStr = (v) => v == null || typeof v === "string";
+    const strList = (v) => Array.isArray(v) && v.every((x) => typeof x === "string");
+    const inst = (i) =>
+      isObj(i) && i.ror_id === rorId && optStr(i.name) && strList(i.responsibility_types) &&
+      optStr(i.responsibility_start_date) && optStr(i.responsibility_end_date);
+    const repo = (r) =>
+      isObj(r) && typeof r.re3data_id === "string" && typeof r.name === "string" && r.name !== "" &&
+      ["url", "re3data_url", "closed_date", "offline_date", "last_update"].every((k) => optStr(r[k])) &&
+      strList(r.types) && Array.isArray(r.matched_institutions) &&
+      r.matched_institutions.length > 0 && r.matched_institutions.every(inst);
+    return isObj(body) && body.ror_id === rorId && Array.isArray(body.repositories) &&
+      body.repositories.length > 0 && body.repositories.every(repo);
+  }
+
+  function renderRe3data(data, sfx, block) {
+    const panel = document.createDocumentFragment();
+    // Repositories still online first, then by name; ids break ties.
+    const repos = data.repositories.slice().sort((a, b) =>
+      (a.offline_date ? 1 : 0) - (b.offline_date ? 1 : 0) ||
+      String(a.name).localeCompare(String(b.name), undefined, { sensitivity: "base" }) ||
+      String(a.re3data_id).localeCompare(String(b.re3data_id))
+    );
+    panel.appendChild(el("p", { class: "r3-count", text: t("re3dataCount")(repos.length) }));
+    const list = el("ul", { class: "r3-list" }, repos.map(re3dataRepo));
+    panel.appendChild(list);
+
+    const roles = new Set();
+    repos.forEach((r) =>
+      (r.matched_institutions || []).forEach((i) => (i.responsibility_types || []).forEach((x) => roles.add(x)))
+    );
+    panel.appendChild(re3dataRoleLegend(roles));
+    panel.appendChild(re3dataSourceLine(block, sfx));
+    return panel;
+  }
+
+  function re3dataRepo(repo) {
+    const href = safeHttpUrl(repo.url);
+    const name = href
+      ? el("a", { class: "r3-name", text: repo.name, attrs: { href, target: "_blank", rel: "noopener" } })
+      : el("span", { class: "r3-name", text: repo.name });
+    const head = el("div", { class: "r3-head" }, [name]);
+    const types = (repo.types || []).map((x) => (RE3DATA_TYPES.has(x) ? t(`r3type_${x}`) : x));
+    if (types.length) head.appendChild(el("span", { class: "r3-types", text: types.join(" · ") }));
+
+    const parts = [head];
+    // The schema allows planned dates, so the date is quoted, not interpreted.
+    if (repo.offline_date) {
+      parts.push(el("p", { class: "r3-status", text: t("re3dataOffline")(repo.offline_date) }));
+    }
+    if (repo.closed_date) {
+      parts.push(el("p", { class: "r3-status", text: t("re3dataClosed")(repo.closed_date) }));
+    }
+
+    (repo.matched_institutions || []).forEach((inst) => parts.push(re3dataEntry(inst)));
+
+    const links = el("div", { class: "r3-links" });
+    const entryUrl = safeHttpUrl(repo.re3data_url);
+    if (entryUrl) {
+      links.appendChild(
+        el("a", { class: "chip", text: t("re3dataEntry"), attrs: { href: entryUrl, target: "_blank", rel: "noopener" } })
+      );
+    }
+    // The source path is built from the validated id, not taken from the data.
+    if (/^r3d\d{9}$/.test(repo.re3data_id || "")) {
+      links.appendChild(
+        el("a", {
+          class: "chip",
+          text: t("re3dataSourceXml"),
+          attrs: { href: `${state.dataBase}/reuse/re3data/sources/${repo.re3data_id}.xml`, target: "_blank", rel: "noopener" },
+        })
+      );
+    }
+    if (repo.last_update) {
+      links.appendChild(el("span", { class: "r3-updated", text: t("re3dataLastUpdate")(repo.last_update) }));
+    }
+    parts.push(links);
+    return el("li", { class: "r3-repo" }, parts);
+  }
+
+  // One institution entry carrying this record's ROR id, with its own roles.
+  function re3dataEntry(inst) {
+    const roles = (inst.responsibility_types || []).map((role) =>
+      RE3DATA_ROLES.has(role)
+        ? el("span", { class: `r3-role r3-role-${role}`, text: t(`r3role_${role}`) })
+        : el("span", { class: "r3-role r3-role-other", text: t("r3roleOther")(role) })
+    );
+    if (!roles.length) roles.push(el("span", { class: "r3-role r3-role-none", text: t("r3roleNone") }));
+
+    const rows = [
+      el("div", { class: "r3-entry-name" }, [
+        el("span", { class: "r3-k", text: `${t("re3dataNamedAs")}: ` }),
+        el("span", { text: inst.name || "—" }),
+      ]),
+      el("div", { class: "r3-roles" }, roles),
+    ];
+    const start = inst.responsibility_start_date;
+    const end = inst.responsibility_end_date;
+    if (start || end) {
+      rows.push(
+        el("div", { class: "r3-period" }, [
+          el("span", { class: "r3-k", text: `${t("re3dataPeriod")}: ` }),
+          el("span", { text: `${start || "…"} – ${end || "…"}` }),
+        ])
+      );
+    }
+    return el("div", { class: "r3-entry" }, rows);
+  }
+
+  function re3dataRoleLegend(roles) {
+    const items = [];
+    ["general", "technical", "funding"].forEach((role) => {
+      if (roles.has(role)) {
+        items.push(el("li", {}, [
+          el("span", { class: "r3-legend-term", text: `${t(`r3role_${role}`)}: ` }),
+          el("span", { text: t(`r3roleDef_${role}`) }),
+        ]));
+      }
+    });
+    if ([...roles].some((r) => !RE3DATA_ROLES.has(r))) {
+      items.push(el("li", { text: t("r3roleDef_other") }));
+    }
+    return el("details", { class: "r3-legend" }, [
+      el("summary", { text: t("re3dataRolesHelp") }),
+      el("ul", {}, items),
+      el("p", { text: t("re3dataRolesCaveat") }),
+    ]);
+  }
+
+  function re3dataSourceLine(block, sfx) {
+    const parts = [
+      el("span", { text: `${t("re3dataSource")}: ` }),
+      el("a", { text: "re3data.org", attrs: { href: "https://www.re3data.org/", target: "_blank", rel: "noopener" } }),
+      el("span", { text: ` · ${t("re3dataLicense")} · ${t("re3dataRetrieved")(block.retrieved)}` }),
+    ];
+    if (sfx) {
+      parts.push(el("span", { text: " · " }));
+      parts.push(
+        el("a", {
+          text: t("re3dataProjection"),
+          attrs: { href: `${state.dataBase}/reuse/re3data/records/${sfx}.json`, target: "_blank", rel: "noopener" },
+        })
+      );
+    }
+    return el("p", { class: "r3-source" }, parts);
   }
 
   // ---- Router -------------------------------------------------------------

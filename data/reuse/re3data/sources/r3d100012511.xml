@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100012511</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R3QF5P</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">Monitor of Settlement and Open Space Development</r3d:repositoryName>
+				<r3d:additionalName language="eng">IÖR-Monitor</r3d:additionalName>
+				<r3d:additionalName language="deu">Monitor der Siedlungs- und Freiraumentwicklung</r3d:additionalName>
+				<r3d:repositoryUrl>https://www.ioer-monitor.de/</r3d:repositoryUrl>
+				<r3d:description language="eng">The IOER Monitor is a research data infrastructure of the Leibniz Institute of Ecological Urban and Regional Development (IOER). It provides various information on land use structure and its development as well as on landscape quality for the Federal Republic of Germany.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>monitor@ioer.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+						<r3d:size>100 GByte</r3d:size>
+						<r3d:startDate>2008</r3d:startDate>
+        									<r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+					<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>231</r3d:subjectId>
+				<r3d:subjectName>Agriculture, Forestry and Veterinary Medicine</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>23</r3d:subjectId>
+				<r3d:subjectName>Agriculture, Forestry and Veterinary Medicine</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>451</r3d:subjectId>
+				<r3d:subjectName>Construction Engineering and Architecture</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>45</r3d:subjectId>
+				<r3d:subjectName>Construction Engineering and Architecture</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>4</r3d:subjectId>
+				<r3d:subjectName>Engineering Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>2</r3d:subjectId>
+				<r3d:subjectName>Life Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>45102</r3d:subjectId>
+				<r3d:subjectName>Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.ioer-monitor.de/service/faq/</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/2H0M-X761</r3d:contentTypeId>
+				<r3d:contentTypeName>geospatial data</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+							<r3d:keyword>agriculture</r3d:keyword>
+					<r3d:keyword>forest</r3d:keyword>
+					<r3d:keyword>fragmentation</r3d:keyword>
+					<r3d:keyword>hemerobie</r3d:keyword>
+					<r3d:keyword>land cover</r3d:keyword>
+					<r3d:keyword>land use</r3d:keyword>
+					<r3d:keyword>open space</r3d:keyword>
+					<r3d:keyword>settlement density</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="deu">Leibniz-Institut für ökologische Raumentwicklung</r3d:institutionName>
+									<r3d:institutionAdditionalName language="eng">IOER</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">IÖR</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">Leibniz Institute for Ecological Urban and Regional Development</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.ioer.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/02t26g637</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+													<r3d:responsibilityStartDate>1992</r3d:responsibilityStartDate>
+											</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Data Protection Statement</r3d:policyName>
+				<r3d:policyUrl>https://www.ioer.de/en/data-protection-statement</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://www.ioer.de/en/imprint</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>closed</r3d:dataUploadType>
+							</r3d:dataUpload>
+													<r3d:api>
+				<r3d:apiType>REST</r3d:apiType>
+				<r3d:apiUrl>https://monitor.ioer.de/monitor_api/</r3d:apiUrl>
+							</r3d:api>
+							<r3d:pidSystem>DOI</r3d:pidSystem>
+											<r3d:citationGuidelineUrl>https://www.ioer-monitor.de/service/faq/</r3d:citationGuidelineUrl>
+													<r3d:certificate>
+				<r3d:certificateName>RatSWD</r3d:certificateName>
+									<r3d:certificateStartDate>2020</r3d:certificateStartDate>
+												<r3d:certificateUrl>https://www.konsortswd.de/en/services/research/all-datacentres/ioer-monitor/</r3d:certificateUrl>
+							</r3d:certificate>
+										<r3d:remarks>Every map, table or figure from the IOER Monitor may be published. However, data must be marked with the copyright notice “IOER-Monitor©Leibniz Institute of Ecological Urban and Regional Development”.
+Monitor of Settlement and Open Space Development is part of the Research Data Centre of the Leibniz Institute of Ecological Urban and Regional Development https://www.re3data.org/repository/r3d100014379.</r3d:remarks>
+		<r3d:entryDate>2017-10-23</r3d:entryDate>
+		<r3d:lastUpdate>2025-07-09</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>
