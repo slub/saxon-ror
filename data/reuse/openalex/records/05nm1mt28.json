@@ -18,10 +18,12 @@
     "DBI - Gastechnologisches Institut"
   ],
   "repositories": [],
-  "works_count": 17,
-  "cited_by_count": 373,
+  "works_count": 18,
+  "works_count_with_children": 18,
+  "works_count_with_children_and_predecessors": 18,
+  "cited_by_count": 374,
   "summary_stats": {
-    "2yr_mean_citedness": 9.714285714285714,
+    "2yr_mean_citedness": 8.625,
     "h_index": 11,
     "i10_index": 11
   },
@@ -46,51 +48,57 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
+      "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 38
     },
     {
       "year": 2025,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 11
+      "cited_by_count": 39
     },
     {
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 27
+      "cited_by_count": 25
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 22
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 4
+      "cited_by_count": 12
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 36
+      "cited_by_count": 13
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 19
     },
     {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 55
+      "cited_by_count": 10
     },
     {
       "year": 2018,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 12
+      "cited_by_count": 6
     },
     {
       "year": 2017,
@@ -99,29 +107,47 @@
       "cited_by_count": 3
     },
     {
+      "year": 2016,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 21
+      "cited_by_count": 7
     },
     {
       "year": 2012,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 31
+      "cited_by_count": 5
     },
     {
       "year": 2010,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 19
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210153763",
-      "works_count": 17
+      "works_count": 18
     }
   ],
   "topics": [
@@ -396,6 +422,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10205",
+      "display_name": "Advanced Fiber Optic Sensors",
+      "count": 1,
+      "score": 0.0010000000474974513,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10284",
       "display_name": "Anaerobic Digestion and Biogas Production",
       "count": 1,
@@ -540,35 +584,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11225",
-      "display_name": "Geothermal Energy Systems and Applications",
+      "id": "https://openalex.org/T11111",
+      "display_name": "Spectroscopy and Laser Applications",
       "count": 1,
-      "score": 0.6826000213623047,
+      "score": 0.9945999979972839,
       "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
       },
       "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11351",
-      "display_name": "Catalysis and Hydrodesulfurization Studies",
-      "count": 1,
-      "score": 0.0017000000225380063,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -580,7 +606,7 @@
     {
       "id": "https://openalex.org/T14481",
       "display_name": "Renewable Energy and Sustainability",
-      "value": 3.87e-05,
+      "value": 3.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -597,7 +623,7 @@
     {
       "id": "https://openalex.org/T11302",
       "display_name": "CO2 Sequestration and Geologic Interactions",
-      "value": 3.62e-05,
+      "value": 3.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -614,7 +640,7 @@
     {
       "id": "https://openalex.org/T13758",
       "display_name": "Energy Law and Policy",
-      "value": 3.53e-05,
+      "value": 3.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -631,7 +657,7 @@
     {
       "id": "https://openalex.org/T10495",
       "display_name": "Catalysts for Methane Reforming",
-      "value": 2.7e-05,
+      "value": 2.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
         "display_name": "Catalysis"
@@ -716,7 +742,7 @@
     {
       "id": "https://openalex.org/T10967",
       "display_name": "Carbon Dioxide Capture Technologies",
-      "value": 1.92e-05,
+      "value": 1.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -750,7 +776,7 @@
     {
       "id": "https://openalex.org/T11362",
       "display_name": "Membrane Separation and Gas Transport",
-      "value": 1.71e-05,
+      "value": 1.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -801,7 +827,7 @@
     {
       "id": "https://openalex.org/T11825",
       "display_name": "Catalysis and Oxidation Reactions",
-      "value": 1.55e-05,
+      "value": 1.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1503",
         "display_name": "Catalysis"
@@ -818,7 +844,7 @@
     {
       "id": "https://openalex.org/T12129",
       "display_name": "Global Energy Security and Policy",
-      "value": 1.49e-05,
+      "value": 1.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2100",
         "display_name": "General Energy"
@@ -835,7 +861,7 @@
     {
       "id": "https://openalex.org/T13923",
       "display_name": "Nuclear and radioactivity studies",
-      "value": 1.41e-05,
+      "value": 1.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -867,26 +893,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10353",
-      "display_name": "Zeolite Catalysis and Synthesis",
-      "value": 1.25e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11588",
       "display_name": "Atmospheric and Environmental Gas Dynamics",
-      "value": 1.19e-05,
+      "value": 1.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -901,9 +910,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10353",
+      "display_name": "Zeolite Catalysis and Synthesis",
+      "value": 1.24e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11185",
       "display_name": "Integrated Energy Systems Optimization",
-      "value": 1.11e-05,
+      "value": 1.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -937,7 +963,7 @@
     {
       "id": "https://openalex.org/T11774",
       "display_name": "Adsorption and Cooling Systems",
-      "value": 1.03e-05,
+      "value": 1.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -971,7 +997,7 @@
     {
       "id": "https://openalex.org/T11007",
       "display_name": "Hybrid Renewable Energy Systems",
-      "value": 9.3e-06,
+      "value": 9.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2102",
         "display_name": "Energy Engineering and Power Technology"
@@ -988,7 +1014,7 @@
     {
       "id": "https://openalex.org/T10491",
       "display_name": "Enhanced Oil Recovery Techniques",
-      "value": 8.4e-06,
+      "value": 8.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -1006,6 +1032,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210153763",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2022-02-02T04:48:36"
 }

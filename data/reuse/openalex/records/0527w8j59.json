@@ -19,8 +19,10 @@
     "Institute for Technical and Scientific Hydrology (Germany)"
   ],
   "repositories": [],
-  "works_count": 50,
-  "cited_by_count": 1505,
+  "works_count": 48,
+  "works_count_with_children": 48,
+  "works_count_with_children_and_predecessors": 48,
+  "cited_by_count": 1509,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 22,
@@ -47,87 +49,99 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 5,
-      "oa_works_count": 4,
-      "cited_by_count": 0
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 125
     },
     {
       "year": 2024,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 0
+      "cited_by_count": 130
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 141
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 118
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 75
+      "cited_by_count": 110
     },
     {
       "year": 2020,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 1
+      "cited_by_count": 84
     },
     {
       "year": 2019,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 444
+      "cited_by_count": 52
     },
     {
       "year": 2018,
       "works_count": 5,
       "oa_works_count": 0,
-      "cited_by_count": 5
+      "cited_by_count": 55
     },
     {
       "year": 2017,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 51
+      "cited_by_count": 37
     },
     {
       "year": 2016,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 13
+      "cited_by_count": 27
     },
     {
       "year": 2015,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 40
+      "cited_by_count": 25
     },
     {
       "year": 2014,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 66
+      "cited_by_count": 28
     },
     {
       "year": 2013,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 156
+      "cited_by_count": 18
     },
     {
       "year": 2012,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 11
+      "cited_by_count": 19
     },
     {
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 40
+      "cited_by_count": 0
     },
     {
       "year": 2010,
@@ -140,7 +154,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210156265",
-      "works_count": 50
+      "works_count": 48
     }
   ],
   "topics": [
@@ -165,7 +179,7 @@
     {
       "id": "https://openalex.org/T10930",
       "display_name": "Flood Risk Assessment and Management",
-      "count": 16,
+      "count": 15,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
@@ -487,42 +501,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10229",
-      "display_name": "Geometric Analysis and Curvature Flows",
-      "count": 1,
-      "score": 0.11779999732971191,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2604",
-        "display_name": "Applied Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10339",
-      "display_name": "Advanced Numerical Methods in Computational Mathematics",
-      "count": 1,
-      "score": 0.36469998955726624,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10347",
       "display_name": "Atmospheric aerosols and clouds",
       "count": 1,
@@ -593,13 +571,49 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10753",
+      "display_name": "Microplastics and Plastic Pollution",
+      "count": 1,
+      "score": 0.04019999876618385,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "count": 1,
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11119",
       "display_name": "Urban Stormwater Management Solutions",
-      "value": 0.0003595,
+      "value": 0.0003594,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -616,7 +630,7 @@
     {
       "id": "https://openalex.org/T11220",
       "display_name": "Water Systems and Optimization",
-      "value": 0.0001805,
+      "value": 0.000181,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -633,7 +647,7 @@
     {
       "id": "https://openalex.org/T13375",
       "display_name": "Integrated Water Resources Management",
-      "value": 0.0001553,
+      "value": 0.0001551,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -650,7 +664,7 @@
     {
       "id": "https://openalex.org/T10930",
       "display_name": "Flood Risk Assessment and Management",
-      "value": 0.0001226,
+      "value": 0.0001161,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -667,7 +681,7 @@
     {
       "id": "https://openalex.org/T11490",
       "display_name": "Hydrological Forecasting Using AI",
-      "value": 9.16e-05,
+      "value": 9.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -684,7 +698,7 @@
     {
       "id": "https://openalex.org/T11234",
       "display_name": "Precipitation Measurement and Analysis",
-      "value": 6.82e-05,
+      "value": 7.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -718,7 +732,7 @@
     {
       "id": "https://openalex.org/T14164",
       "display_name": "Marine and Offshore Engineering Studies",
-      "value": 5.7e-05,
+      "value": 5.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -735,7 +749,7 @@
     {
       "id": "https://openalex.org/T10330",
       "display_name": "Hydrology and Watershed Management Studies",
-      "value": 5.36e-05,
+      "value": 5.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -752,7 +766,7 @@
     {
       "id": "https://openalex.org/T13916",
       "display_name": "Environmental Policies and Emissions",
-      "value": 4.03e-05,
+      "value": 4.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -769,7 +783,7 @@
     {
       "id": "https://openalex.org/T10894",
       "display_name": "Groundwater flow and contamination studies",
-      "value": 3.74e-05,
+      "value": 3.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -801,6 +815,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T14427",
+      "display_name": "Environmental Monitoring and Data Management",
+      "value": 3.42e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14455",
       "display_name": "Technology and Education Systems",
       "value": 3.42e-05,
@@ -818,26 +849,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14427",
-      "display_name": "Environmental Monitoring and Data Management",
-      "value": 3.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1907",
-        "display_name": "Geology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10969",
       "display_name": "Water resources management and optimization",
-      "value": 3.02e-05,
+      "value": 3.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -854,7 +868,7 @@
     {
       "id": "https://openalex.org/T11311",
       "display_name": "Soil and Water Nutrient Dynamics",
-      "value": 1.88e-05,
+      "value": 1.89e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -871,7 +885,7 @@
     {
       "id": "https://openalex.org/T10716",
       "display_name": "Soil and Unsaturated Flow",
-      "value": 1.84e-05,
+      "value": 1.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -903,23 +917,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11807",
-      "display_name": "Infrastructure Resilience and Vulnerability Analysis",
-      "value": 1.74e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10564",
       "display_name": "Wastewater Treatment and Nitrogen Removal",
       "value": 1.48e-05,
@@ -930,23 +927,6 @@
       "field": {
         "id": "https://openalex.org/fields/23",
         "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12141",
-      "display_name": "Fluid Dynamics and Thin Films",
-      "value": 1.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1020,11 +1000,45 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10753",
+      "display_name": "Microplastics and Plastic Pollution",
+      "value": 1.19e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2310",
+        "display_name": "Pollution"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "value": 1.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210156265",
-  "updated_date": "2026-10-17T18:22:22",
+  "updated_date": "2026-10-29T18:22:05",
   "created_date": "2022-02-02T04:48:36"
 }

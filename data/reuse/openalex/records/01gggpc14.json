@@ -19,10 +19,12 @@
     "German Centre for Rail Traffic Research"
   ],
   "repositories": [],
-  "works_count": 100,
-  "cited_by_count": 782,
+  "works_count": 102,
+  "works_count_with_children": 102,
+  "works_count_with_children_and_predecessors": 102,
+  "cited_by_count": 792,
   "summary_stats": {
-    "2yr_mean_citedness": 1.0106382978723405,
+    "2yr_mean_citedness": 1.1046511627906976,
     "h_index": 15,
     "i10_index": 18
   },
@@ -47,59 +49,59 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 15,
-      "oa_works_count": 12,
-      "cited_by_count": 2
+      "works_count": 21,
+      "oa_works_count": 18,
+      "cited_by_count": 94
     },
     {
       "year": 2025,
       "works_count": 19,
       "oa_works_count": 14,
-      "cited_by_count": 29
+      "cited_by_count": 98
     },
     {
       "year": 2024,
-      "works_count": 19,
-      "oa_works_count": 17,
-      "cited_by_count": 10
+      "works_count": 14,
+      "oa_works_count": 12,
+      "cited_by_count": 83
     },
     {
       "year": 2023,
-      "works_count": 23,
-      "oa_works_count": 17,
-      "cited_by_count": 143
+      "works_count": 24,
+      "oa_works_count": 18,
+      "cited_by_count": 41
     },
     {
       "year": 2022,
       "works_count": 14,
       "oa_works_count": 9,
-      "cited_by_count": 90
+      "cited_by_count": 9
     },
     {
       "year": 2021,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 40
+      "cited_by_count": 1
     },
     {
       "year": 2020,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 8
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405258976",
-      "works_count": 100
+      "works_count": 102
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11807",
       "display_name": "Infrastructure Resilience and Vulnerability Analysis",
-      "count": 28,
+      "count": 23,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
@@ -115,27 +117,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10535",
-      "display_name": "Landslides and related hazards",
-      "count": 19,
-      "score": 0.8223000168800354,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2308",
-        "display_name": "Management, Monitoring, Policy and Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10842",
       "display_name": "Railway Engineering and Dynamics",
-      "count": 17,
+      "count": 19,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
@@ -151,9 +135,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T10535",
+      "display_name": "Landslides and related hazards",
+      "count": 14,
+      "score": 0.8223000168800354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10930",
       "display_name": "Flood Risk Assessment and Management",
-      "count": 16,
+      "count": 11,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
@@ -187,6 +189,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T12169",
+      "display_name": "Non-Destructive Testing Techniques",
+      "count": 10,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10698",
+      "display_name": "Transportation Planning and Optimization",
+      "count": 9,
+      "score": 0.9726999998092651,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13615",
       "display_name": "Transportation Systems and Safety",
       "count": 9,
@@ -205,21 +243,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T12169",
-      "display_name": "Non-Destructive Testing Techniques",
+      "id": "https://openalex.org/T12725",
+      "display_name": "transportation and logistics systems",
       "count": 8,
-      "score": 0.9994999766349792,
+      "score": 0.7759000062942505,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -238,24 +276,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10698",
-      "display_name": "Transportation Planning and Optimization",
-      "count": 7,
-      "score": 0.8682000041007996,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -331,6 +351,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10298",
+      "display_name": "Urban Transport and Accessibility",
+      "count": 6,
+      "score": 0.3416000008583069,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10662",
       "display_name": "Ultrasonics and Acoustic Wave Propagation",
       "count": 6,
@@ -385,24 +423,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12725",
-      "display_name": "transportation and logistics systems",
-      "count": 6,
-      "score": 0.7759000062942505,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12759",
       "display_name": "Vehicle Noise and Vibration Control",
       "count": 6,
@@ -410,6 +430,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12940",
+      "display_name": "Structural Engineering and Materials Analysis",
+      "count": 6,
+      "score": 0.8270999789237976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -475,6 +513,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "count": 4,
+      "score": 0.035599999129772186,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12197",
       "display_name": "Brake Systems and Friction Analysis",
       "count": 4,
@@ -491,67 +547,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12940",
-      "display_name": "Structural Engineering and Materials Analysis",
-      "count": 4,
-      "score": 0.711899995803833,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2205",
-        "display_name": "Civil and Structural Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13530",
-      "display_name": "Climate Change and Environmental Impact",
-      "count": 4,
-      "score": 0.01640000008046627,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10298",
-      "display_name": "Urban Transport and Accessibility",
-      "count": 3,
-      "score": 0.1956000030040741,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11807",
       "display_name": "Infrastructure Resilience and Vulnerability Analysis",
-      "value": 0.0004872,
+      "value": 0.0003982,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -568,7 +570,7 @@
     {
       "id": "https://openalex.org/T13615",
       "display_name": "Transportation Systems and Safety",
-      "value": 0.0003125,
+      "value": 0.0003108,
       "subfield": {
         "id": "https://openalex.org/subfields/1704",
         "display_name": "Computer Graphics and Computer-Aided Design"
@@ -583,9 +585,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10842",
+      "display_name": "Railway Engineering and Dynamics",
+      "value": 0.0002098,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12197",
       "display_name": "Brake Systems and Friction Analysis",
-      "value": 0.0002002,
+      "value": 0.0001996,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -600,26 +619,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10842",
-      "display_name": "Railway Engineering and Dynamics",
-      "value": 0.0001884,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12729",
       "display_name": "Tree Root and Stability Studies",
-      "value": 0.0001749,
+      "value": 0.0001758,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -627,23 +629,6 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10535",
-      "display_name": "Landslides and related hazards",
-      "value": 0.0001516,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2308",
-        "display_name": "Management, Monitoring, Policy and Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -668,12 +653,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10930",
-      "display_name": "Flood Risk Assessment and Management",
-      "value": 0.0001226,
+      "id": "https://openalex.org/T10535",
+      "display_name": "Landslides and related hazards",
+      "value": 0.0001131,
       "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
       },
       "field": {
         "id": "https://openalex.org/fields/23",
@@ -687,7 +672,7 @@
     {
       "id": "https://openalex.org/T11856",
       "display_name": "Thermography and Photoacoustic Techniques",
-      "value": 9.22e-05,
+      "value": 9.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -704,7 +689,58 @@
     {
       "id": "https://openalex.org/T11963",
       "display_name": "Impact of Light on Environment and Health",
-      "value": 9.14e-05,
+      "value": 9.13e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12725",
+      "display_name": "transportation and logistics systems",
+      "value": 9.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12169",
+      "display_name": "Non-Destructive Testing Techniques",
+      "value": 8.94e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10930",
+      "display_name": "Flood Risk Assessment and Management",
+      "value": 8.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -721,7 +757,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 8.36e-05,
+      "value": 8.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -736,9 +772,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12487",
-      "display_name": "Structural Engineering and Vibration Analysis",
-      "value": 7.54e-05,
+      "id": "https://openalex.org/T13601",
+      "display_name": "Urban Transport Systems Analysis",
+      "value": 7.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -753,12 +789,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12169",
-      "display_name": "Non-Destructive Testing Techniques",
-      "value": 7.21e-05,
+      "id": "https://openalex.org/T12487",
+      "display_name": "Structural Engineering and Vibration Analysis",
+      "value": 7.52e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -772,7 +808,7 @@
     {
       "id": "https://openalex.org/T11692",
       "display_name": "Noise Effects and Management",
-      "value": 6.93e-05,
+      "value": 6.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3616",
         "display_name": "Speech and Hearing"
@@ -789,7 +825,7 @@
     {
       "id": "https://openalex.org/T11568",
       "display_name": "Railway Systems and Energy Efficiency",
-      "value": 6.84e-05,
+      "value": 6.8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -804,26 +840,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12725",
-      "display_name": "transportation and logistics systems",
-      "value": 6.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3313",
-        "display_name": "Transportation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12759",
       "display_name": "Vehicle Noise and Vibration Control",
-      "value": 6.66e-05,
+      "value": 6.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -840,7 +859,7 @@
     {
       "id": "https://openalex.org/T13530",
       "display_name": "Climate Change and Environmental Impact",
-      "value": 5.98e-05,
+      "value": 6.15e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -857,7 +876,7 @@
     {
       "id": "https://openalex.org/T14481",
       "display_name": "Renewable Energy and Sustainability",
-      "value": 5.81e-05,
+      "value": 5.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -874,7 +893,7 @@
     {
       "id": "https://openalex.org/T11099",
       "display_name": "Autonomous Vehicle Technology and Safety",
-      "value": 5.15e-05,
+      "value": 5.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -889,9 +908,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10298",
+      "display_name": "Urban Transport and Accessibility",
+      "value": 4.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13295",
       "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 4.7e-05,
+      "value": 4.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -906,9 +942,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10698",
+      "display_name": "Transportation Planning and Optimization",
+      "value": 4.31e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11864",
       "display_name": "Supply Chain Resilience and Risk Management",
-      "value": 4.31e-05,
+      "value": 4.26e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -921,62 +974,11 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11594",
-      "display_name": "Tree-ring climate responses",
-      "value": 4.12e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11276",
-      "display_name": "Solar Radiation and Photovoltaics",
-      "value": 4.08e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12838",
-      "display_name": "Photovoltaic Systems and Sustainability",
-      "value": 4.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405258976",
-  "updated_date": "2026-10-17T18:22:22",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-01-21T21:21:40"
 }

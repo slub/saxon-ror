@@ -17,10 +17,12 @@
     "Klinik und Poliklinik für Hals-, Nasen-, Ohrenheilkunde"
   ],
   "repositories": [],
-  "works_count": 410,
-  "cited_by_count": 2741,
+  "works_count": 406,
+  "works_count_with_children": 406,
+  "works_count_with_children_and_predecessors": 406,
+  "cited_by_count": 2742,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5072463768115942,
+    "2yr_mean_citedness": 0.568,
     "h_index": 22,
     "i10_index": 88
   },
@@ -54,112 +56,112 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 4,
+      "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 49
     },
     {
       "year": 2025,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 11
+      "cited_by_count": 91
     },
     {
       "year": 2024,
       "works_count": 33,
       "oa_works_count": 7,
-      "cited_by_count": 21
+      "cited_by_count": 111
     },
     {
       "year": 2023,
       "works_count": 20,
       "oa_works_count": 7,
-      "cited_by_count": 42
+      "cited_by_count": 119
     },
     {
       "year": 2022,
-      "works_count": 19,
-      "oa_works_count": 8,
-      "cited_by_count": 12
+      "works_count": 18,
+      "oa_works_count": 7,
+      "cited_by_count": 92
     },
     {
       "year": 2021,
       "works_count": 20,
       "oa_works_count": 12,
-      "cited_by_count": 48
+      "cited_by_count": 126
     },
     {
       "year": 2020,
       "works_count": 39,
       "oa_works_count": 28,
-      "cited_by_count": 161
+      "cited_by_count": 81
     },
     {
       "year": 2019,
       "works_count": 18,
       "oa_works_count": 11,
-      "cited_by_count": 104
+      "cited_by_count": 62
     },
     {
       "year": 2018,
       "works_count": 15,
       "oa_works_count": 8,
-      "cited_by_count": 16
+      "cited_by_count": 56
     },
     {
       "year": 2017,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 56
     },
     {
       "year": 2016,
       "works_count": 9,
       "oa_works_count": 5,
-      "cited_by_count": 17
+      "cited_by_count": 56
     },
     {
       "year": 2015,
       "works_count": 12,
       "oa_works_count": 4,
-      "cited_by_count": 43
+      "cited_by_count": 44
     },
     {
       "year": 2014,
       "works_count": 5,
       "oa_works_count": 0,
-      "cited_by_count": 19
+      "cited_by_count": 51
     },
     {
       "year": 2013,
       "works_count": 17,
       "oa_works_count": 0,
-      "cited_by_count": 65
+      "cited_by_count": 66
     },
     {
       "year": 2012,
       "works_count": 12,
       "oa_works_count": 1,
-      "cited_by_count": 55
+      "cited_by_count": 79
     },
     {
       "year": 2011,
       "works_count": 15,
       "oa_works_count": 2,
-      "cited_by_count": 103
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 8,
       "oa_works_count": 0,
-      "cited_by_count": 38
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210128537",
-      "works_count": 410
+      "works_count": 406
     }
   ],
   "topics": [
@@ -236,24 +238,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10283",
-      "display_name": "Hearing Loss and Rehabilitation",
-      "count": 29,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11306",
       "display_name": "Nonmelanoma Skin Cancer Studies",
       "count": 29,
@@ -290,9 +274,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T10283",
+      "display_name": "Hearing Loss and Rehabilitation",
+      "count": 28,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10861",
       "display_name": "Ear Surgery and Otitis Media",
-      "count": 28,
+      "count": 27,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
@@ -436,7 +438,7 @@
     {
       "id": "https://openalex.org/T11285",
       "display_name": "Hearing Impairment and Communication",
-      "count": 16,
+      "count": 15,
       "score": 0.29100000858306885,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
@@ -618,7 +620,7 @@
     {
       "id": "https://openalex.org/T10307",
       "display_name": "Head and Neck Cancer Studies",
-      "value": 0.0005415,
+      "value": 0.0005398,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -635,7 +637,7 @@
     {
       "id": "https://openalex.org/T11669",
       "display_name": "Head and Neck Surgical Oncology",
-      "value": 0.000532,
+      "value": 0.0005313,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -652,7 +654,7 @@
     {
       "id": "https://openalex.org/T13543",
       "display_name": "Oropharyngeal Anatomy and Pathologies",
-      "value": 0.0004217,
+      "value": 0.0004208,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -669,7 +671,7 @@
     {
       "id": "https://openalex.org/T11035",
       "display_name": "Salivary Gland Tumors Diagnosis and Treatment",
-      "value": 0.0003273,
+      "value": 0.000327,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -686,7 +688,7 @@
     {
       "id": "https://openalex.org/T11306",
       "display_name": "Nonmelanoma Skin Cancer Studies",
-      "value": 0.0003008,
+      "value": 0.0003003,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -701,26 +703,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10861",
-      "display_name": "Ear Surgery and Otitis Media",
-      "value": 0.0002943,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2733",
-        "display_name": "Otorhinolaryngology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10863",
       "display_name": "Voice and Speech Disorders",
-      "value": 0.0002937,
+      "value": 0.0002932,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -735,9 +720,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10861",
+      "display_name": "Ear Surgery and Otitis Media",
+      "value": 0.0002834,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10984",
       "display_name": "Sinusitis and nasal conditions",
-      "value": 0.000264,
+      "value": 0.0002633,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -754,7 +756,7 @@
     {
       "id": "https://openalex.org/T12297",
       "display_name": "Otolaryngology and Infectious Diseases",
-      "value": 0.0002216,
+      "value": 0.0002211,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -771,7 +773,7 @@
     {
       "id": "https://openalex.org/T13383",
       "display_name": "Tumors and Oncological Cases",
-      "value": 0.0002087,
+      "value": 0.0002109,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -788,7 +790,7 @@
     {
       "id": "https://openalex.org/T12901",
       "display_name": "Tattoo and Body Piercing Complications",
-      "value": 0.0001965,
+      "value": 0.0001957,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -805,7 +807,7 @@
     {
       "id": "https://openalex.org/T11812",
       "display_name": "Nasal Surgery and Airway Studies",
-      "value": 0.0001955,
+      "value": 0.0001951,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -822,7 +824,7 @@
     {
       "id": "https://openalex.org/T10619",
       "display_name": "Esophageal Cancer Research and Treatment",
-      "value": 0.0001796,
+      "value": 0.0001791,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -839,7 +841,7 @@
     {
       "id": "https://openalex.org/T14326",
       "display_name": "Ear and Head Tumors",
-      "value": 0.0001772,
+      "value": 0.000177,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -854,26 +856,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11285",
-      "display_name": "Hearing Impairment and Communication",
-      "value": 0.0001745,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3204",
-        "display_name": "Developmental and Educational Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10283",
       "display_name": "Hearing Loss and Rehabilitation",
-      "value": 0.0001701,
+      "value": 0.000164,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -888,9 +873,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11285",
+      "display_name": "Hearing Impairment and Communication",
+      "value": 0.0001628,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14512",
       "display_name": "Technology and Human Factors in Education and Health",
-      "value": 0.0001524,
+      "value": 0.0001512,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -907,7 +909,7 @@
     {
       "id": "https://openalex.org/T12523",
       "display_name": "Nasolacrimal Duct Obstruction Treatments",
-      "value": 0.0001512,
+      "value": 0.0001511,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -924,7 +926,7 @@
     {
       "id": "https://openalex.org/T12009",
       "display_name": "Hedgehog Signaling Pathway Studies",
-      "value": 0.0001312,
+      "value": 0.0001311,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -941,7 +943,7 @@
     {
       "id": "https://openalex.org/T11521",
       "display_name": "Salivary Gland Disorders and Functions",
-      "value": 0.0001264,
+      "value": 0.0001262,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -958,7 +960,7 @@
     {
       "id": "https://openalex.org/T12379",
       "display_name": "Cancer Diagnosis and Treatment",
-      "value": 0.0001253,
+      "value": 0.0001252,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -975,7 +977,7 @@
     {
       "id": "https://openalex.org/T12418",
       "display_name": "Respiratory and Cough-Related Research",
-      "value": 0.0001192,
+      "value": 0.0001191,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -992,7 +994,7 @@
     {
       "id": "https://openalex.org/T11358",
       "display_name": "Dysphagia Assessment and Management",
-      "value": 0.0001123,
+      "value": 0.000112,
       "subfield": {
         "id": "https://openalex.org/subfields/3616",
         "display_name": "Speech and Hearing"
@@ -1009,7 +1011,7 @@
     {
       "id": "https://openalex.org/T10334",
       "display_name": "Hearing, Cochlea, Tinnitus, Genetics",
-      "value": 0.0001069,
+      "value": 0.000107,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -1026,7 +1028,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 0.0001066,
+      "value": 0.0001061,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -1044,6 +1046,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210128537",
-  "updated_date": "2026-10-13T05:59:12",
+  "updated_date": "2026-10-29T18:22:05",
   "created_date": "2022-02-02T04:48:36"
 }

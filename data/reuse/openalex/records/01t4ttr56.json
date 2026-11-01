@@ -19,12 +19,14 @@
     "ScaDS.AI"
   ],
   "repositories": [],
-  "works_count": 1606,
-  "cited_by_count": 16037,
+  "works_count": 1581,
+  "works_count_with_children": 1581,
+  "works_count_with_children_and_predecessors": 1581,
+  "cited_by_count": 16364,
   "summary_stats": {
-    "2yr_mean_citedness": 4.695024875621891,
-    "h_index": 47,
-    "i10_index": 301
+    "2yr_mean_citedness": 4.8462686567164175,
+    "h_index": 48,
+    "i10_index": 308
   },
   "ids": {
     "openalex": "https://openalex.org/I4401726909",
@@ -64,83 +66,95 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 415,
-      "oa_works_count": 374,
-      "cited_by_count": 180
+      "works_count": 433,
+      "oa_works_count": 385,
+      "cited_by_count": 3872
     },
     {
       "year": 2025,
-      "works_count": 465,
-      "oa_works_count": 422,
-      "cited_by_count": 2233
+      "works_count": 448,
+      "oa_works_count": 401,
+      "cited_by_count": 3107
     },
     {
       "year": 2024,
-      "works_count": 411,
-      "oa_works_count": 356,
-      "cited_by_count": 3145
+      "works_count": 396,
+      "oa_works_count": 341,
+      "cited_by_count": 1527
     },
     {
       "year": 2023,
-      "works_count": 239,
-      "oa_works_count": 181,
-      "cited_by_count": 2569
+      "works_count": 229,
+      "oa_works_count": 170,
+      "cited_by_count": 653
     },
     {
       "year": 2022,
       "works_count": 36,
       "oa_works_count": 33,
-      "cited_by_count": 301
+      "cited_by_count": 240
     },
     {
       "year": 2021,
       "works_count": 17,
-      "oa_works_count": 13,
-      "cited_by_count": 216
+      "oa_works_count": 12,
+      "cited_by_count": 282
     },
     {
       "year": 2020,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 35
+      "cited_by_count": 254
     },
     {
       "year": 2019,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 8
+      "cited_by_count": 172
     },
     {
       "year": 2018,
       "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 92
+      "cited_by_count": 108
     },
     {
       "year": 2017,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 45
+      "cited_by_count": 52
     },
     {
       "year": 2016,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 1251
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4401726909",
-      "works_count": 1606
+      "works_count": 1581
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10028",
       "display_name": "Topic Modeling",
-      "count": 219,
+      "count": 226,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -158,7 +172,7 @@
     {
       "id": "https://openalex.org/T10286",
       "display_name": "Information Retrieval and Search Behavior",
-      "count": 109,
+      "count": 110,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
@@ -176,7 +190,7 @@
     {
       "id": "https://openalex.org/T11010",
       "display_name": "Logic, Reasoning, and Knowledge",
-      "count": 103,
+      "count": 105,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -194,7 +208,7 @@
     {
       "id": "https://openalex.org/T10181",
       "display_name": "Natural Language Processing Techniques",
-      "count": 96,
+      "count": 101,
       "score": 0.9804999828338623,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -212,7 +226,7 @@
     {
       "id": "https://openalex.org/T10215",
       "display_name": "Semantic Web and Ontologies",
-      "count": 89,
+      "count": 94,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -248,7 +262,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "count": 74,
+      "count": 73,
       "score": 0.9922000169754028,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
@@ -282,27 +296,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10029",
-      "display_name": "Climate variability and models",
-      "count": 53,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10044",
       "display_name": "Protein Structure and Dynamics",
-      "count": 50,
+      "count": 51,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -318,27 +314,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10466",
-      "display_name": "Meteorological Phenomena and Simulations",
-      "count": 50,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10036",
       "display_name": "Advanced Neural Network Applications",
-      "count": 49,
+      "count": 48,
       "score": 0.9887999892234802,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
@@ -356,7 +334,7 @@
     {
       "id": "https://openalex.org/T13904",
       "display_name": "Artificial Intelligence Applications",
-      "count": 47,
+      "count": 48,
       "score": 0.9682999849319458,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -372,27 +350,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10111",
-      "display_name": "Remote Sensing in Agriculture",
-      "count": 45,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10211",
       "display_name": "Computational Drug Discovery Methods",
-      "count": 45,
+      "count": 47,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
@@ -426,9 +386,45 @@
       }
     },
     {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "count": 43,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10111",
+      "display_name": "Remote Sensing in Agriculture",
+      "count": 41,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "count": 42,
+      "count": 41,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
@@ -444,46 +440,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10764",
-      "display_name": "Privacy-Preserving Technologies in Data",
-      "count": 41,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13702",
-      "display_name": "Machine Learning in Healthcare",
-      "count": 39,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10260",
       "display_name": "Software Engineering Research",
-      "count": 38,
-      "score": 0.9990000128746033,
+      "count": 39,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -500,7 +460,7 @@
     {
       "id": "https://openalex.org/T10374",
       "display_name": "Advanced Graph Theory Research",
-      "count": 37,
+      "count": 38,
       "score": 0.9663000106811523,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
@@ -516,13 +476,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10203",
-      "display_name": "Recommender Systems and Techniques",
-      "count": 33,
-      "score": 0.9984999895095825,
+      "id": "https://openalex.org/T13702",
+      "display_name": "Machine Learning in Healthcare",
+      "count": 38,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -536,7 +496,7 @@
     {
       "id": "https://openalex.org/T10456",
       "display_name": "Multi-Agent Systems and Negotiation",
-      "count": 33,
+      "count": 35,
       "score": 0.9965999722480774,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -552,13 +512,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10799",
-      "display_name": "Data Visualization and Analytics",
-      "count": 33,
-      "score": 0.9994999766349792,
+      "id": "https://openalex.org/T10203",
+      "display_name": "Recommender Systems and Techniques",
+      "count": 34,
+      "score": 0.9984999895095825,
       "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -572,7 +532,61 @@
     {
       "id": "https://openalex.org/T12026",
       "display_name": "Explainable Artificial Intelligence (XAI)",
-      "count": 32,
+      "count": 34,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "count": 33,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10100",
+      "display_name": "Metaheuristic Optimization Algorithms Research",
+      "count": 31,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "count": 31,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -592,7 +606,7 @@
     {
       "id": "https://openalex.org/T12536",
       "display_name": "Topological and Geometric Data Analysis",
-      "value": 0.0009966,
+      "value": 0.0010282,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -609,7 +623,7 @@
     {
       "id": "https://openalex.org/T12859",
       "display_name": "Cell Image Analysis Techniques",
-      "value": 0.0008343,
+      "value": 0.0008332,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
         "display_name": "Biophysics"
@@ -626,7 +640,7 @@
     {
       "id": "https://openalex.org/T13650",
       "display_name": "Computational Physics and Python Applications",
-      "value": 0.0006594,
+      "value": 0.0006615,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -643,7 +657,7 @@
     {
       "id": "https://openalex.org/T10028",
       "display_name": "Topic Modeling",
-      "value": 0.0006343,
+      "value": 0.0006467,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -658,26 +672,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14074",
-      "display_name": "Persona Design and Applications",
-      "value": 0.0006089,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1709",
-        "display_name": "Human-Computer Interaction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11010",
       "display_name": "Logic, Reasoning, and Knowledge",
-      "value": 0.0006061,
+      "value": 0.0006175,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -694,7 +691,7 @@
     {
       "id": "https://openalex.org/T10286",
       "display_name": "Information Retrieval and Search Behavior",
-      "value": 0.0005822,
+      "value": 0.000586,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -709,9 +706,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10215",
+      "display_name": "Semantic Web and Ontologies",
+      "value": 0.0005662,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "value": 0.000565,
+      "value": 0.0005606,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -726,9 +740,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10215",
-      "display_name": "Semantic Web and Ontologies",
-      "value": 0.0005359,
+      "id": "https://openalex.org/T12478",
+      "display_name": "Wikis in Education and Collaboration",
+      "value": 0.0005218,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3315",
+        "display_name": "Communication"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12380",
+      "display_name": "Authorship Attribution and Profiling",
+      "value": 0.0005018,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -745,7 +776,7 @@
     {
       "id": "https://openalex.org/T13702",
       "display_name": "Machine Learning in Healthcare",
-      "value": 0.0004971,
+      "value": 0.0004778,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -760,9 +791,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13904",
-      "display_name": "Artificial Intelligence Applications",
-      "value": 0.0004514,
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "value": 0.0004737,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -779,7 +810,7 @@
     {
       "id": "https://openalex.org/T12026",
       "display_name": "Explainable Artificial Intelligence (XAI)",
-      "value": 0.000443,
+      "value": 0.0004629,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -794,46 +825,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12478",
-      "display_name": "Wikis in Education and Collaboration",
-      "value": 0.0004336,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3315",
-        "display_name": "Communication"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11273",
-      "display_name": "Advanced Graph Neural Networks",
-      "value": 0.00043,
+      "id": "https://openalex.org/T13904",
+      "display_name": "Artificial Intelligence Applications",
+      "value": 0.000451,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11714",
-      "display_name": "Multimodal Machine Learning Applications",
-      "value": 0.0004064,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -847,7 +844,7 @@
     {
       "id": "https://openalex.org/T11491",
       "display_name": "CAR-T cell therapy research",
-      "value": 0.0004026,
+      "value": 0.0004167,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -862,9 +859,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T14074",
+      "display_name": "Persona Design and Applications",
+      "value": 0.0004035,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11714",
+      "display_name": "Multimodal Machine Learning Applications",
+      "value": 0.0004012,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13629",
       "display_name": "Text Readability and Simplification",
-      "value": 0.0003952,
+      "value": 0.0003902,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -879,9 +910,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12380",
-      "display_name": "Authorship Attribution and Profiling",
-      "value": 0.000355,
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "value": 0.0003612,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -898,7 +929,7 @@
     {
       "id": "https://openalex.org/T13937",
       "display_name": "Genetics, Bioinformatics, and Biomedical Research",
-      "value": 0.000355,
+      "value": 0.0003569,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -913,20 +944,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T10181",
-      "display_name": "Natural Language Processing Techniques",
-      "value": 0.0003475,
+      "id": "https://openalex.org/T12254",
+      "display_name": "Machine Learning in Bioinformatics",
+      "value": 0.0003428,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -947,16 +978,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T13377",
-      "display_name": "Ecosystem dynamics and resilience",
-      "value": 0.0003257,
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "value": 0.000331,
       "subfield": {
-        "id": "https://openalex.org/subfields/2306",
-        "display_name": "Global and Planetary Change"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -964,26 +995,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12254",
-      "display_name": "Machine Learning in Bioinformatics",
-      "value": 0.0003253,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12535",
-      "display_name": "Machine Learning and Data Classification",
-      "value": 0.0003215,
+      "id": "https://openalex.org/T10456",
+      "display_name": "Multi-Agent Systems and Negotiation",
+      "value": 0.0003194,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -1000,7 +1014,7 @@
     {
       "id": "https://openalex.org/T11636",
       "display_name": "Artificial Intelligence in Healthcare and Education",
-      "value": 0.0003184,
+      "value": 0.0003123,
       "subfield": {
         "id": "https://openalex.org/subfields/2718",
         "display_name": "Health Informatics"
@@ -1018,6 +1032,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4401726909",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2024-08-22T01:58:44"
 }

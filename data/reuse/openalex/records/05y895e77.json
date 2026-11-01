@@ -16,10 +16,12 @@
     "Landesuntersuchungsanstalt Sachsen"
   ],
   "repositories": [],
-  "works_count": 99,
-  "cited_by_count": 1762,
+  "works_count": 106,
+  "works_count_with_children": 106,
+  "works_count_with_children_and_predecessors": 106,
+  "cited_by_count": 1763,
   "summary_stats": {
-    "2yr_mean_citedness": 0.17391304347826086,
+    "2yr_mean_citedness": 0.13333333333333333,
     "h_index": 21,
     "i10_index": 41
   },
@@ -44,115 +46,151 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 8,
-      "oa_works_count": 4,
-      "cited_by_count": 4
+      "works_count": 15,
+      "oa_works_count": 11,
+      "cited_by_count": 51
     },
     {
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 0
+      "cited_by_count": 76
     },
     {
       "year": 2024,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 84
     },
     {
       "year": 2023,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 81
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 120
     },
     {
       "year": 2021,
       "works_count": 6,
       "oa_works_count": 5,
-      "cited_by_count": 17
+      "cited_by_count": 98
     },
     {
       "year": 2020,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 33
+      "cited_by_count": 99
     },
     {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 87
     },
     {
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 97
     },
     {
       "year": 2017,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 148
+      "cited_by_count": 91
     },
     {
       "year": 2016,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 59
+      "cited_by_count": 67
     },
     {
       "year": 2015,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 76
+      "cited_by_count": 91
     },
     {
       "year": 2014,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 46
+      "cited_by_count": 77
     },
     {
       "year": 2013,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 60
     },
     {
       "year": 2012,
       "works_count": 6,
       "oa_works_count": 0,
-      "cited_by_count": 157
+      "cited_by_count": 40
     },
     {
       "year": 2011,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 354
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 6,
       "oa_works_count": 2,
-      "cited_by_count": 45
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210166275",
-      "works_count": 99
+      "works_count": 106
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T11688",
+      "display_name": "Microbial infections and disease research",
+      "count": 18,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10873",
+      "display_name": "Bacterial Infections and Vaccines",
+      "count": 16,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10486",
       "display_name": "Salmonella and Campylobacter epidemiology",
@@ -172,17 +210,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11688",
-      "display_name": "Microbial infections and disease research",
-      "count": 11,
-      "score": 0.9916999936103821,
+      "id": "https://openalex.org/T10943",
+      "display_name": "Escherichia coli research studies",
+      "count": 10,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2404",
-        "display_name": "Microbiology"
+        "id": "https://openalex.org/subfields/1310",
+        "display_name": "Endocrinology"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -208,17 +246,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10873",
-      "display_name": "Bacterial Infections and Vaccines",
+      "id": "https://openalex.org/T11495",
+      "display_name": "Animal Virus Infections Studies",
       "count": 9,
-      "score": 1.0,
+      "score": 0.8695999979972839,
       "subfield": {
-        "id": "https://openalex.org/subfields/2404",
-        "display_name": "Microbiology"
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -237,24 +275,6 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11495",
-      "display_name": "Animal Virus Infections Studies",
-      "count": 8,
-      "score": 0.8695999979972839,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1103",
-        "display_name": "Animal Science and Zoology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -341,6 +361,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12733",
+      "display_name": "Vector-Borne Animal Diseases",
+      "count": 5,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
       },
       "field": {
         "id": "https://openalex.org/fields/11",
@@ -478,24 +516,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12733",
-      "display_name": "Vector-Borne Animal Diseases",
-      "count": 4,
-      "score": 0.0005000000237487257,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1105",
-        "display_name": "Ecology, Evolution, Behavior and Systematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10147",
       "display_name": "Antibiotic Resistance in Bacteria",
       "count": 3,
@@ -550,24 +570,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10943",
-      "display_name": "Escherichia coli research studies",
-      "count": 3,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1310",
-        "display_name": "Endocrinology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10976",
       "display_name": "Viral gastroenteritis research and epidemiology",
       "count": 3,
@@ -608,7 +610,7 @@
     {
       "id": "https://openalex.org/T13871",
       "display_name": "Melamine detection and toxicity",
-      "value": 0.0003439,
+      "value": 0.0003434,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -625,7 +627,7 @@
     {
       "id": "https://openalex.org/T12914",
       "display_name": "Infectious Disease Case Reports and Treatments",
-      "value": 0.0003177,
+      "value": 0.0003179,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -642,7 +644,7 @@
     {
       "id": "https://openalex.org/T12733",
       "display_name": "Vector-Borne Animal Diseases",
-      "value": 0.000132,
+      "value": 0.0001646,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -659,7 +661,7 @@
     {
       "id": "https://openalex.org/T12232",
       "display_name": "Yersinia bacterium, plague, ectoparasites research",
-      "value": 0.0001106,
+      "value": 0.0001107,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -667,6 +669,40 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10873",
+      "display_name": "Bacterial Infections and Vaccines",
+      "value": 9.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11688",
+      "display_name": "Microbial infections and disease research",
+      "value": 9.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -693,7 +729,7 @@
     {
       "id": "https://openalex.org/T11957",
       "display_name": "Food Safety and Hygiene",
-      "value": 8.72e-05,
+      "value": 8.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -710,7 +746,7 @@
     {
       "id": "https://openalex.org/T13165",
       "display_name": "Agricultural safety and regulations",
-      "value": 8.72e-05,
+      "value": 8.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -718,6 +754,23 @@
       "field": {
         "id": "https://openalex.org/fields/11",
         "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10943",
+      "display_name": "Escherichia coli research studies",
+      "value": 7.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1310",
+        "display_name": "Endocrinology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -744,7 +797,7 @@
     {
       "id": "https://openalex.org/T12388",
       "display_name": "Identification and Quantification in Food",
-      "value": 5.98e-05,
+      "value": 5.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -761,7 +814,7 @@
     {
       "id": "https://openalex.org/T12499",
       "display_name": "Diphtheria, Corynebacterium, and Tetanus",
-      "value": 5.93e-05,
+      "value": 5.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1310",
         "display_name": "Endocrinology"
@@ -795,7 +848,7 @@
     {
       "id": "https://openalex.org/T11288",
       "display_name": "Clostridium difficile and Clostridium perfringens research",
-      "value": 5.68e-05,
+      "value": 5.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -812,7 +865,7 @@
     {
       "id": "https://openalex.org/T11780",
       "display_name": "Rabies epidemiology and control",
-      "value": 5.63e-05,
+      "value": 5.62e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2406",
         "display_name": "Virology"
@@ -827,33 +880,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11688",
-      "display_name": "Microbial infections and disease research",
-      "value": 5.6e-05,
+      "id": "https://openalex.org/T11495",
+      "display_name": "Animal Virus Infections Studies",
+      "value": 5.07e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2404",
-        "display_name": "Microbiology"
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10873",
-      "display_name": "Bacterial Infections and Vaccines",
-      "value": 5.38e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2404",
-        "display_name": "Microbiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -863,7 +899,7 @@
     {
       "id": "https://openalex.org/T12167",
       "display_name": "Bacterial Identification and Susceptibility Testing",
-      "value": 4.99e-05,
+      "value": 4.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1308",
         "display_name": "Clinical Biochemistry"
@@ -880,7 +916,7 @@
     {
       "id": "https://openalex.org/T12492",
       "display_name": "Zoonotic diseases and public health",
-      "value": 4.86e-05,
+      "value": 4.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -897,7 +933,7 @@
     {
       "id": "https://openalex.org/T12134",
       "display_name": "Insect symbiosis and bacterial influences",
-      "value": 4.77e-05,
+      "value": 4.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1109",
         "display_name": "Insect Science"
@@ -914,27 +950,10 @@
     {
       "id": "https://openalex.org/T11426",
       "display_name": "Genetically Modified Organisms Research",
-      "value": 4.62e-05,
+      "value": 4.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11495",
-      "display_name": "Animal Virus Infections Studies",
-      "value": 4.51e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1103",
-        "display_name": "Animal Science and Zoology"
       },
       "field": {
         "id": "https://openalex.org/fields/11",
@@ -965,7 +984,7 @@
     {
       "id": "https://openalex.org/T12944",
       "display_name": "Animal Nutrition and Health",
-      "value": 4.24e-05,
+      "value": 4.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -982,7 +1001,7 @@
     {
       "id": "https://openalex.org/T12280",
       "display_name": "Magnesium in Health and Disease",
-      "value": 4.22e-05,
+      "value": 4.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2916",
         "display_name": "Nutrition and Dietetics"
@@ -999,7 +1018,7 @@
     {
       "id": "https://openalex.org/T13960",
       "display_name": "Dietetics, Nutrition, and Education",
-      "value": 4.06e-05,
+      "value": 4.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -1012,28 +1031,11 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11641",
-      "display_name": "Insect and Pesticide Research",
-      "value": 4.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1109",
-        "display_name": "Insect Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210166275",
-  "updated_date": "2026-10-15T06:00:45",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -18,12 +18,14 @@
     "Freiberger Compound Materials (Germany)"
   ],
   "repositories": [],
-  "works_count": 131,
-  "cited_by_count": 3286,
+  "works_count": 127,
+  "works_count_with_children": 127,
+  "works_count_with_children_and_predecessors": 127,
+  "cited_by_count": 3218,
   "summary_stats": {
-    "2yr_mean_citedness": 3.2857142857142856,
+    "2yr_mean_citedness": 5.111111111111111,
     "h_index": 23,
-    "i10_index": 123
+    "i10_index": 122
   },
   "ids": {
     "openalex": "https://openalex.org/I4210130450",
@@ -46,106 +48,112 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 3,
-      "oa_works_count": 2,
-      "cited_by_count": 0
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 47
     },
     {
       "year": 2025,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 21
+      "cited_by_count": 62
     },
     {
       "year": 2024,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 6
+      "cited_by_count": 40
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 45
     },
     {
       "year": 2022,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 10
+      "cited_by_count": 49
     },
     {
       "year": 2021,
-      "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 14
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 29
     },
     {
       "year": 2020,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 19
+      "cited_by_count": 41
     },
     {
       "year": 2019,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 8
+      "cited_by_count": 42
     },
     {
       "year": 2018,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 22
+      "cited_by_count": 69
     },
     {
       "year": 2017,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 9
+      "cited_by_count": 23
     },
     {
       "year": 2016,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 60
+      "cited_by_count": 48
     },
     {
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 30
     },
     {
       "year": 2014,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 20
+      "cited_by_count": 42
     },
     {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 32
+      "cited_by_count": 26
     },
     {
       "year": 2012,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 16
+      "cited_by_count": 35
     },
     {
       "year": 2011,
       "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 57
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 15
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210130450",
-      "works_count": 131
+      "works_count": 127
     }
   ],
   "topics": [
@@ -350,7 +358,7 @@
     {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "count": 8,
+      "count": 7,
       "score": 0.9667999744415283,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
@@ -384,24 +392,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11091",
-      "display_name": "Extraction and Separation Processes",
-      "count": 6,
-      "score": 0.9585000276565552,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
       "count": 6,
@@ -427,6 +417,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
+      "count": 4,
+      "score": 0.9585000276565552,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -510,24 +518,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10973",
-      "display_name": "Radioactive element chemistry and processing",
-      "count": 3,
-      "score": 0.801800012588501,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1604",
-        "display_name": "Inorganic Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/16",
-        "display_name": "Chemistry"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11881",
       "display_name": "Crystallization and Solubility Studies",
       "count": 3,
@@ -598,13 +588,31 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10016",
+      "display_name": "Adsorption and biosorption for pollutant removal",
+      "count": 2,
+      "score": 0.95169997215271,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11087",
       "display_name": "Solidification and crystal growth phenomena",
-      "value": 0.0002246,
+      "value": 0.0002243,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -621,7 +629,7 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 0.0001802,
+      "value": 0.0001798,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -638,7 +646,7 @@
     {
       "id": "https://openalex.org/T11853",
       "display_name": "Semiconductor materials and interfaces",
-      "value": 0.0001773,
+      "value": 0.0001772,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -655,7 +663,7 @@
     {
       "id": "https://openalex.org/T11637",
       "display_name": "Advanced Semiconductor Detectors and Materials",
-      "value": 0.0001705,
+      "value": 0.0001704,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -689,7 +697,7 @@
     {
       "id": "https://openalex.org/T10099",
       "display_name": "GaN-based semiconductor devices and materials",
-      "value": 0.0001388,
+      "value": 0.0001385,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -706,7 +714,7 @@
     {
       "id": "https://openalex.org/T11301",
       "display_name": "Advanced Surface Polishing Techniques",
-      "value": 0.000129,
+      "value": 0.0001288,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -723,7 +731,7 @@
     {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "value": 0.0001289,
+      "value": 0.0001286,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -740,7 +748,7 @@
     {
       "id": "https://openalex.org/T12309",
       "display_name": "solar cell performance optimization",
-      "value": 0.0001153,
+      "value": 0.0001151,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -757,7 +765,7 @@
     {
       "id": "https://openalex.org/T11160",
       "display_name": "Acoustic Wave Resonator Technologies",
-      "value": 9.15e-05,
+      "value": 9.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -774,7 +782,7 @@
     {
       "id": "https://openalex.org/T10377",
       "display_name": "Metal and Thin Film Mechanics",
-      "value": 8.38e-05,
+      "value": 8.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -791,7 +799,7 @@
     {
       "id": "https://openalex.org/T13097",
       "display_name": "Male Breast Health Studies",
-      "value": 7.95e-05,
+      "value": 7.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -808,7 +816,7 @@
     {
       "id": "https://openalex.org/T10361",
       "display_name": "Silicon Carbide Semiconductor Technologies",
-      "value": 7.75e-05,
+      "value": 7.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -840,60 +848,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12614",
-      "display_name": "Indigenous Studies and Ecology",
-      "value": 4.8e-05,
+      "id": "https://openalex.org/T12959",
+      "display_name": "Engineering and Materials Science Studies",
+      "value": 4.47e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11126",
       "display_name": "Metallurgical Processes and Thermodynamics",
-      "value": 4.59e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12959",
-      "display_name": "Engineering and Materials Science Studies",
-      "value": 4.49e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11091",
-      "display_name": "Extraction and Separation Processes",
-      "value": 3.85e-05,
+      "value": 4.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -925,26 +899,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11420",
-      "display_name": "Geographies of human-animal interactions",
-      "value": 3.7e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3305",
-        "display_name": "Geography, Planning and Development"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12017",
       "display_name": "Recycling and Waste Management Techniques",
-      "value": 3.65e-05,
+      "value": 3.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -961,7 +918,7 @@
     {
       "id": "https://openalex.org/T12932",
       "display_name": "Powder Metallurgy Techniques and Materials",
-      "value": 3.6e-05,
+      "value": 3.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -978,7 +935,7 @@
     {
       "id": "https://openalex.org/T12981",
       "display_name": "Conservation Techniques and Studies",
-      "value": 3.14e-05,
+      "value": 3.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -993,9 +950,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14128",
+      "display_name": "Metallurgical and Alloy Processes",
+      "value": 2.78e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2500",
+        "display_name": "General Materials Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13840",
       "display_name": "Chemical Safety and Risk Management",
-      "value": 2.77e-05,
+      "value": 2.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1504",
         "display_name": "Chemical Health and Safety"
@@ -1010,16 +984,50 @@
       }
     },
     {
-      "id": "https://openalex.org/T14128",
-      "display_name": "Metallurgical and Alloy Processes",
-      "value": 2.76e-05,
+      "id": "https://openalex.org/T13404",
+      "display_name": "Geological and Tectonic Studies in Latin America",
+      "value": 2.65e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2500",
-        "display_name": "General Materials Science"
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12898",
+      "display_name": "Induction Heating and Inverter Technology",
+      "value": 2.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11091",
+      "display_name": "Extraction and Separation Processes",
+      "value": 2.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1030,6 +1038,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210130450",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2022-02-02T04:48:36"
 }

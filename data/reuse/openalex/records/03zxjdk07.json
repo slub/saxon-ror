@@ -18,12 +18,14 @@
     "Sächsische Akademie der Wissenschaften zu Leipzig"
   ],
   "repositories": [],
-  "works_count": 844,
-  "cited_by_count": 17677,
+  "works_count": 837,
+  "works_count_with_children": 837,
+  "works_count_with_children_and_predecessors": 837,
+  "cited_by_count": 17500,
   "summary_stats": {
-    "2yr_mean_citedness": 0.2714285714285714,
+    "2yr_mean_citedness": 0.29901960784313725,
     "h_index": 62,
-    "i10_index": 381
+    "i10_index": 374
   },
   "ids": {
     "openalex": "https://openalex.org/I2802237209",
@@ -46,105 +48,105 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 43,
-      "oa_works_count": 38,
-      "cited_by_count": 4
+      "works_count": 39,
+      "oa_works_count": 36,
+      "cited_by_count": 260
     },
     {
       "year": 2025,
-      "works_count": 55,
-      "oa_works_count": 46,
-      "cited_by_count": 25
+      "works_count": 56,
+      "oa_works_count": 47,
+      "cited_by_count": 399
     },
     {
       "year": 2024,
       "works_count": 28,
       "oa_works_count": 23,
-      "cited_by_count": 20
+      "cited_by_count": 493
     },
     {
       "year": 2023,
       "works_count": 42,
       "oa_works_count": 35,
-      "cited_by_count": 173
+      "cited_by_count": 397
     },
     {
       "year": 2022,
       "works_count": 23,
       "oa_works_count": 18,
-      "cited_by_count": 35
+      "cited_by_count": 433
     },
     {
       "year": 2021,
       "works_count": 18,
       "oa_works_count": 7,
-      "cited_by_count": 20
+      "cited_by_count": 506
     },
     {
       "year": 2020,
       "works_count": 18,
       "oa_works_count": 8,
-      "cited_by_count": 96
+      "cited_by_count": 396
     },
     {
       "year": 2019,
-      "works_count": 14,
-      "oa_works_count": 9,
-      "cited_by_count": 66
+      "works_count": 13,
+      "oa_works_count": 8,
+      "cited_by_count": 479
     },
     {
       "year": 2018,
-      "works_count": 22,
-      "oa_works_count": 6,
-      "cited_by_count": 48
+      "works_count": 21,
+      "oa_works_count": 5,
+      "cited_by_count": 475
     },
     {
       "year": 2017,
       "works_count": 4,
       "oa_works_count": 3,
-      "cited_by_count": 2
+      "cited_by_count": 415
     },
     {
       "year": 2016,
       "works_count": 16,
       "oa_works_count": 8,
-      "cited_by_count": 92
+      "cited_by_count": 422
     },
     {
       "year": 2015,
       "works_count": 27,
       "oa_works_count": 3,
-      "cited_by_count": 254
+      "cited_by_count": 532
     },
     {
       "year": 2014,
       "works_count": 5,
       "oa_works_count": 1,
-      "cited_by_count": 14
+      "cited_by_count": 439
     },
     {
       "year": 2013,
       "works_count": 19,
       "oa_works_count": 4,
-      "cited_by_count": 287
+      "cited_by_count": 519
     },
     {
       "year": 2012,
       "works_count": 14,
       "oa_works_count": 6,
-      "cited_by_count": 222
+      "cited_by_count": 442
     },
     {
       "year": 2011,
       "works_count": 20,
       "oa_works_count": 5,
-      "cited_by_count": 531
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 30,
-      "oa_works_count": 5,
-      "cited_by_count": 815
+      "oa_works_count": 6,
+      "cited_by_count": 0
     }
   ],
   "roles": [
@@ -156,7 +158,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I2802237209",
-      "works_count": 844
+      "works_count": 837
     }
   ],
   "topics": [
@@ -217,7 +219,7 @@
     {
       "id": "https://openalex.org/T12768",
       "display_name": "Linguistics and language evolution",
-      "count": 40,
+      "count": 41,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
@@ -248,6 +250,24 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14170",
+      "display_name": "Classical Studies and Philology",
+      "count": 39,
+      "score": 0.6220999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -284,24 +304,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14170",
-      "display_name": "Classical Studies and Philology",
-      "count": 38,
-      "score": 0.6220999956130981,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -615,7 +617,7 @@
     {
       "id": "https://openalex.org/T13980",
       "display_name": "Alexander von Humboldt Studies",
-      "value": 0.0060314,
+      "value": 0.0060557,
       "subfield": {
         "id": "https://openalex.org/subfields/2404",
         "display_name": "Microbiology"
@@ -632,7 +634,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "value": 0.0007226,
+      "value": 0.0007197,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -649,7 +651,7 @@
     {
       "id": "https://openalex.org/T12424",
       "display_name": "Earthquake Detection and Analysis",
-      "value": 0.0004918,
+      "value": 0.0004931,
       "subfield": {
         "id": "https://openalex.org/subfields/1908",
         "display_name": "Geophysics"
@@ -666,7 +668,7 @@
     {
       "id": "https://openalex.org/T13108",
       "display_name": "Therapeutic Uses of Natural Elements",
-      "value": 0.0003793,
+      "value": 0.0003777,
       "subfield": {
         "id": "https://openalex.org/subfields/3603",
         "display_name": "Complementary and Manual Therapy"
@@ -683,7 +685,7 @@
     {
       "id": "https://openalex.org/T12768",
       "display_name": "Linguistics and language evolution",
-      "value": 0.0003657,
+      "value": 0.000372,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -700,7 +702,7 @@
     {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 0.0003445,
+      "value": 0.0003444,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -717,7 +719,7 @@
     {
       "id": "https://openalex.org/T10342",
       "display_name": "Circadian rhythm and melatonin",
-      "value": 0.0003045,
+      "value": 0.0003046,
       "subfield": {
         "id": "https://openalex.org/subfields/2807",
         "display_name": "Endocrine and Autonomic Systems"
@@ -732,26 +734,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12890",
-      "display_name": "Eurasian Exchange Networks",
-      "value": 0.0002913,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14210",
       "display_name": "Historical and Linguistic Studies",
-      "value": 0.00029,
+      "value": 0.0002882,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -768,7 +753,7 @@
     {
       "id": "https://openalex.org/T10839",
       "display_name": "Pancreatic function and diabetes",
-      "value": 0.000285,
+      "value": 0.0002847,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -780,6 +765,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12890",
+      "display_name": "Eurasian Exchange Networks",
+      "value": 0.0002846,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -802,7 +804,7 @@
     {
       "id": "https://openalex.org/T10423",
       "display_name": "Neurobiology and Insect Physiology Research",
-      "value": 0.0002661,
+      "value": 0.0002666,
       "subfield": {
         "id": "https://openalex.org/subfields/2804",
         "display_name": "Cellular and Molecular Neuroscience"
@@ -819,7 +821,7 @@
     {
       "id": "https://openalex.org/T12478",
       "display_name": "Wikis in Education and Collaboration",
-      "value": 0.0002602,
+      "value": 0.0002609,
       "subfield": {
         "id": "https://openalex.org/subfields/3315",
         "display_name": "Communication"
@@ -836,7 +838,7 @@
     {
       "id": "https://openalex.org/T13641",
       "display_name": "Historical Studies and Socio-cultural Analysis",
-      "value": 0.0002521,
+      "value": 0.000251,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -851,26 +853,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12353",
-      "display_name": "Lexicography and Language Studies",
-      "value": 0.0002222,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13175",
       "display_name": "Historical Astronomy and Related Studies",
-      "value": 0.0002199,
+      "value": 0.0002224,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -885,9 +870,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12353",
+      "display_name": "Lexicography and Language Studies",
+      "value": 0.0002197,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12976",
       "display_name": "Magnetic and Electromagnetic Effects",
-      "value": 0.0002188,
+      "value": 0.0002181,
       "subfield": {
         "id": "https://openalex.org/subfields/1314",
         "display_name": "Physiology"
@@ -904,7 +906,7 @@
     {
       "id": "https://openalex.org/T13507",
       "display_name": "Literature, Politics, and Exile Studies",
-      "value": 0.0002151,
+      "value": 0.000215,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -921,7 +923,7 @@
     {
       "id": "https://openalex.org/T12170",
       "display_name": "History and Theory of Mathematics",
-      "value": 0.0002134,
+      "value": 0.0002127,
       "subfield": {
         "id": "https://openalex.org/subfields/2614",
         "display_name": "Theoretical Computer Science"
@@ -938,7 +940,7 @@
     {
       "id": "https://openalex.org/T10087",
       "display_name": "Archaeology and ancient environmental studies",
-      "value": 0.0002034,
+      "value": 0.0002036,
       "subfield": {
         "id": "https://openalex.org/subfields/1911",
         "display_name": "Paleontology"
@@ -955,7 +957,7 @@
     {
       "id": "https://openalex.org/T12468",
       "display_name": "Radiation Effects and Dosimetry",
-      "value": 0.0002029,
+      "value": 0.0002024,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -970,9 +972,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14339",
+      "display_name": "Image Processing and 3D Reconstruction",
+      "value": 0.0002002,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13561",
       "display_name": "Chemical Reactions and Isotopes",
-      "value": 0.0001946,
+      "value": 0.0001942,
       "subfield": {
         "id": "https://openalex.org/subfields/3003",
         "display_name": "Pharmaceutical Science"
@@ -989,7 +1008,7 @@
     {
       "id": "https://openalex.org/T10874",
       "display_name": "Electromagnetic Fields and Biological Effects",
-      "value": 0.0001892,
+      "value": 0.0001889,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
         "display_name": "Biophysics"
@@ -1006,7 +1025,7 @@
     {
       "id": "https://openalex.org/T11893",
       "display_name": "German Literature and Culture Studies",
-      "value": 0.0001886,
+      "value": 0.0001883,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -1019,28 +1038,11 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T14177",
-      "display_name": "Water Resources and Management",
-      "value": 0.0001871,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I2802237209",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2018-05-17T00:00:00"
 }

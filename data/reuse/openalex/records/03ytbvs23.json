@@ -20,10 +20,12 @@
     "Wilderness International Deutschland"
   ],
   "repositories": [],
-  "works_count": 5,
+  "works_count": 6,
+  "works_count_with_children": 6,
+  "works_count_with_children_and_predecessors": 6,
   "cited_by_count": 98,
   "summary_stats": {
-    "2yr_mean_citedness": 1.0,
+    "2yr_mean_citedness": 0.5,
     "h_index": 3,
     "i10_index": 3
   },
@@ -47,38 +49,134 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 9
+    },
+    {
       "year": 2025,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 2
+      "cited_by_count": 9
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 5
     },
     {
       "year": 2016,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 75
+      "cited_by_count": 3
     },
     {
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 10
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
     },
     {
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 10
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405284646",
-      "works_count": 5
+      "works_count": 6
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T10174",
+      "display_name": "Animal Behavior and Reproduction",
+      "count": 2,
+      "score": 0.003599999938160181,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "count": 2,
+      "score": 0.989300012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T10431",
       "display_name": "Ethnobotanical and Medicinal Plants Studies",
@@ -134,42 +232,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10174",
-      "display_name": "Animal Behavior and Reproduction",
-      "count": 1,
-      "score": 0.003599999938160181,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1105",
-        "display_name": "Ecology, Evolution, Behavior and Systematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10199",
-      "display_name": "Wildlife Ecology and Conservation",
-      "count": 1,
-      "score": 0.989300012588501,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10332",
       "display_name": "Amphibian and Reptile Biology",
       "count": 1,
@@ -203,6 +265,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11144",
+      "display_name": "melanin and skin pigmentation",
+      "count": 1,
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -318,7 +398,7 @@
     {
       "id": "https://openalex.org/T12652",
       "display_name": "International Maritime Law Issues",
-      "value": 2.82e-05,
+      "value": 2.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2308",
         "display_name": "Management, Monitoring, Policy and Law"
@@ -333,26 +413,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10431",
-      "display_name": "Ethnobotanical and Medicinal Plants Studies",
-      "value": 2.41e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1110",
-        "display_name": "Plant Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12215",
       "display_name": "Phytochemical Studies and Bioactivities",
-      "value": 2.41e-05,
+      "value": 2.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -367,9 +430,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10431",
+      "display_name": "Ethnobotanical and Medicinal Plants Studies",
+      "value": 2.4e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13879",
       "display_name": "Indigenous Peoples' Rights and Law",
-      "value": 2.36e-05,
+      "value": 2.35e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -418,6 +498,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T11144",
+      "display_name": "melanin and skin pigmentation",
+      "value": 8.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10669",
       "display_name": "Freshwater macroinvertebrate diversity and ecology",
       "value": 8.2e-06,
@@ -437,7 +534,7 @@
     {
       "id": "https://openalex.org/T10332",
       "display_name": "Amphibian and Reptile Biology",
-      "value": 7.5e-06,
+      "value": 7.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2306",
         "display_name": "Global and Planetary Change"
@@ -452,26 +549,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11913",
-      "display_name": "Animal Ecology and Behavior Studies",
-      "value": 6.6e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2303",
-        "display_name": "Ecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10199",
       "display_name": "Wildlife Ecology and Conservation",
-      "value": 3.6e-06,
+      "value": 7.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2303",
         "display_name": "Ecology"
@@ -488,7 +568,7 @@
     {
       "id": "https://openalex.org/T10174",
       "display_name": "Animal Behavior and Reproduction",
-      "value": 3.5e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -500,6 +580,23 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11913",
+      "display_name": "Animal Ecology and Behavior Studies",
+      "value": 6.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -540,6 +637,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405284646",
-  "updated_date": "2026-10-10T05:59:40",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2026-10-08T03:30:21"
 }

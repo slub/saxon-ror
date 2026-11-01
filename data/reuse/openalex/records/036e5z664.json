@@ -30,12 +30,14 @@
     "German Cancer Consortium, Dresden"
   ],
   "repositories": [],
-  "works_count": 1406,
-  "cited_by_count": 386517,
+  "works_count": 1421,
+  "works_count_with_children": 1421,
+  "works_count_with_children_and_predecessors": 1421,
+  "cited_by_count": 391078,
   "summary_stats": {
-    "2yr_mean_citedness": 5.9962640099626405,
+    "2yr_mean_citedness": 5.910820451843044,
     "h_index": 183,
-    "i10_index": 2026
+    "i10_index": 2048
   },
   "ids": {
     "openalex": "https://openalex.org/I4405269127",
@@ -91,101 +93,107 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 133,
-      "oa_works_count": 108,
-      "cited_by_count": 108
+      "works_count": 147,
+      "oa_works_count": 124,
+      "cited_by_count": 6450
     },
     {
       "year": 2025,
       "works_count": 109,
-      "oa_works_count": 97,
-      "cited_by_count": 517
+      "oa_works_count": 96,
+      "cited_by_count": 7578
     },
     {
       "year": 2024,
       "works_count": 115,
       "oa_works_count": 106,
-      "cited_by_count": 1407
+      "cited_by_count": 7671
     },
     {
       "year": 2023,
       "works_count": 112,
       "oa_works_count": 97,
-      "cited_by_count": 2777
+      "cited_by_count": 7043
     },
     {
       "year": 2022,
       "works_count": 133,
       "oa_works_count": 112,
-      "cited_by_count": 2711
+      "cited_by_count": 6734
     },
     {
       "year": 2021,
       "works_count": 118,
       "oa_works_count": 99,
-      "cited_by_count": 6772
+      "cited_by_count": 6176
     },
     {
       "year": 2020,
       "works_count": 126,
       "oa_works_count": 101,
-      "cited_by_count": 8293
+      "cited_by_count": 4501
     },
     {
       "year": 2019,
       "works_count": 124,
       "oa_works_count": 84,
-      "cited_by_count": 5810
+      "cited_by_count": 2923
     },
     {
       "year": 2018,
       "works_count": 124,
-      "oa_works_count": 76,
-      "cited_by_count": 6099
+      "oa_works_count": 77,
+      "cited_by_count": 1854
     },
     {
       "year": 2017,
       "works_count": 130,
       "oa_works_count": 84,
-      "cited_by_count": 8000
+      "cited_by_count": 1224
     },
     {
       "year": 2016,
-      "works_count": 85,
-      "oa_works_count": 45,
-      "cited_by_count": 4281
+      "works_count": 86,
+      "oa_works_count": 46,
+      "cited_by_count": 757
     },
     {
       "year": 2015,
       "works_count": 61,
-      "oa_works_count": 30,
-      "cited_by_count": 4026
+      "oa_works_count": 29,
+      "cited_by_count": 324
     },
     {
       "year": 2014,
       "works_count": 29,
       "oa_works_count": 13,
-      "cited_by_count": 2003
+      "cited_by_count": 70
     },
     {
       "year": 2013,
       "works_count": 7,
       "oa_works_count": 2,
-      "cited_by_count": 219
+      "cited_by_count": 14
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405269127",
-      "works_count": 1406
+      "works_count": 1421
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10358",
       "display_name": "Advanced Radiotherapy Techniques",
-      "count": 273,
+      "count": 276,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3108",
@@ -203,7 +211,7 @@
     {
       "id": "https://openalex.org/T11176",
       "display_name": "Radiation Therapy and Dosimetry",
-      "count": 243,
+      "count": 245,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
@@ -221,7 +229,7 @@
     {
       "id": "https://openalex.org/T10307",
       "display_name": "Head and Neck Cancer Studies",
-      "count": 134,
+      "count": 135,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
@@ -239,7 +247,7 @@
     {
       "id": "https://openalex.org/T10129",
       "display_name": "Glioma Diagnosis and Treatment",
-      "count": 113,
+      "count": 115,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
@@ -262,6 +270,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10309",
+      "display_name": "Acute Myeloid Leukemia Research",
+      "count": 102,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -309,24 +335,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10309",
-      "display_name": "Acute Myeloid Leukemia Research",
-      "count": 100,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2720",
-        "display_name": "Hematology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
       "count": 97,
@@ -347,7 +355,7 @@
     {
       "id": "https://openalex.org/T11395",
       "display_name": "Radiopharmaceutical Chemistry and Applications",
-      "count": 95,
+      "count": 96,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
@@ -365,7 +373,7 @@
     {
       "id": "https://openalex.org/T10580",
       "display_name": "Immunotherapy and Immune Responses",
-      "count": 85,
+      "count": 86,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -401,7 +409,7 @@
     {
       "id": "https://openalex.org/T10769",
       "display_name": "BRCA gene mutations in cancer",
-      "count": 81,
+      "count": 82,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
@@ -419,7 +427,7 @@
     {
       "id": "https://openalex.org/T11491",
       "display_name": "CAR-T cell therapy research",
-      "count": 79,
+      "count": 80,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
@@ -437,7 +445,7 @@
     {
       "id": "https://openalex.org/T11287",
       "display_name": "Cancer Genomics and Diagnostics",
-      "count": 77,
+      "count": 78,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
@@ -455,7 +463,7 @@
     {
       "id": "https://openalex.org/T10183",
       "display_name": "Breast Cancer Treatment Studies",
-      "count": 62,
+      "count": 64,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
@@ -473,7 +481,7 @@
     {
       "id": "https://openalex.org/T10345",
       "display_name": "Hematopoietic Stem Cell Transplantation",
-      "count": 62,
+      "count": 63,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
@@ -491,7 +499,7 @@
     {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
-      "count": 59,
+      "count": 60,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
@@ -509,7 +517,7 @@
     {
       "id": "https://openalex.org/T12422",
       "display_name": "Radiomics and Machine Learning in Medical Imaging",
-      "count": 54,
+      "count": 55,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
@@ -543,13 +551,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10231",
-      "display_name": "Pancreatic and Hepatic Oncology Research",
-      "count": 43,
-      "score": 0.9990000128746033,
+      "id": "https://openalex.org/T10550",
+      "display_name": "Ovarian cancer diagnosis and treatment",
+      "count": 44,
+      "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -561,13 +569,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10550",
-      "display_name": "Ovarian cancer diagnosis and treatment",
+      "id": "https://openalex.org/T10231",
+      "display_name": "Pancreatic and Hepatic Oncology Research",
       "count": 43,
-      "score": 1.0,
+      "score": 0.9990000128746033,
       "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -637,7 +645,7 @@
     {
       "id": "https://openalex.org/T11176",
       "display_name": "Radiation Therapy and Dosimetry",
-      "value": 0.0015133,
+      "value": 0.0015173,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -654,7 +662,7 @@
     {
       "id": "https://openalex.org/T11491",
       "display_name": "CAR-T cell therapy research",
-      "value": 0.0013829,
+      "value": 0.0013889,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -671,7 +679,7 @@
     {
       "id": "https://openalex.org/T10358",
       "display_name": "Advanced Radiotherapy Techniques",
-      "value": 0.0010676,
+      "value": 0.0010714,
       "subfield": {
         "id": "https://openalex.org/subfields/3108",
         "display_name": "Radiation"
@@ -688,7 +696,7 @@
     {
       "id": "https://openalex.org/T10769",
       "display_name": "BRCA gene mutations in cancer",
-      "value": 0.0007297,
+      "value": 0.0007362,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -705,7 +713,7 @@
     {
       "id": "https://openalex.org/T10631",
       "display_name": "Cancer, Hypoxia, and Metabolism",
-      "value": 0.0007098,
+      "value": 0.0007069,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -722,7 +730,7 @@
     {
       "id": "https://openalex.org/T11395",
       "display_name": "Radiopharmaceutical Chemistry and Applications",
-      "value": 0.0006031,
+      "value": 0.0006076,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -739,7 +747,7 @@
     {
       "id": "https://openalex.org/T11914",
       "display_name": "PARP inhibition in cancer therapy",
-      "value": 0.0005971,
+      "value": 0.0005931,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -756,7 +764,7 @@
     {
       "id": "https://openalex.org/T10336",
       "display_name": "Cancer Cells and Metastasis",
-      "value": 0.0005802,
+      "value": 0.0005798,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -773,7 +781,7 @@
     {
       "id": "https://openalex.org/T11600",
       "display_name": "Brain Metastases and Treatment",
-      "value": 0.00058,
+      "value": 0.0005767,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -790,7 +798,7 @@
     {
       "id": "https://openalex.org/T11359",
       "display_name": "Effects of Radiation Exposure",
-      "value": 0.0005636,
+      "value": 0.0005619,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -805,9 +813,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13561",
+      "display_name": "Chemical Reactions and Isotopes",
+      "value": 0.0005097,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3003",
+        "display_name": "Pharmaceutical Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11287",
       "display_name": "Cancer Genomics and Diagnostics",
-      "value": 0.0004973,
+      "value": 0.0005024,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -824,7 +849,7 @@
     {
       "id": "https://openalex.org/T10309",
       "display_name": "Acute Myeloid Leukemia Research",
-      "value": 0.0004871,
+      "value": 0.0004945,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
         "display_name": "Hematology"
@@ -839,26 +864,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13561",
-      "display_name": "Chemical Reactions and Isotopes",
-      "value": 0.0004864,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3003",
-        "display_name": "Pharmaceutical Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10129",
       "display_name": "Glioma Diagnosis and Treatment",
-      "value": 0.0004632,
+      "value": 0.0004701,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -873,9 +881,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12874",
+      "display_name": "Digital Imaging for Blood Diseases",
+      "value": 0.0004588,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10307",
       "display_name": "Head and Neck Cancer Studies",
-      "value": 0.0004424,
+      "value": 0.0004444,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -892,7 +917,7 @@
     {
       "id": "https://openalex.org/T11020",
       "display_name": "Immune Cell Function and Interaction",
-      "value": 0.0004258,
+      "value": 0.0004262,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -907,26 +932,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12874",
-      "display_name": "Digital Imaging for Blood Diseases",
-      "value": 0.0004253,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12386",
       "display_name": "Advanced X-ray and CT Imaging",
-      "value": 0.0003974,
+      "value": 0.0003968,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -943,7 +951,7 @@
     {
       "id": "https://openalex.org/T14078",
       "display_name": "Multiple and Secondary Primary Cancers",
-      "value": 0.0003906,
+      "value": 0.0003891,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -960,7 +968,7 @@
     {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "value": 0.0003787,
+      "value": 0.0003767,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -977,7 +985,7 @@
     {
       "id": "https://openalex.org/T10158",
       "display_name": "Cancer Immunotherapy and Biomarkers",
-      "value": 0.0003484,
+      "value": 0.0003461,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -994,7 +1002,7 @@
     {
       "id": "https://openalex.org/T12422",
       "display_name": "Radiomics and Machine Learning in Medical Imaging",
-      "value": 0.0003406,
+      "value": 0.0003437,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -1011,7 +1019,7 @@
     {
       "id": "https://openalex.org/T10522",
       "display_name": "Medical Imaging Techniques and Applications",
-      "value": 0.000325,
+      "value": 0.0003244,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -1028,7 +1036,7 @@
     {
       "id": "https://openalex.org/T11559",
       "display_name": "Retinoids in leukemia and cellular processes",
-      "value": 0.0002981,
+      "value": 0.0002975,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1045,7 +1053,7 @@
     {
       "id": "https://openalex.org/T11369",
       "display_name": "Genetic factors in colorectal cancer",
-      "value": 0.0002851,
+      "value": 0.0002848,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -1063,6 +1071,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405269127",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-06-25T03:30:22"
 }

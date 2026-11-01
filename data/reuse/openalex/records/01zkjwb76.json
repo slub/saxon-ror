@@ -17,7 +17,9 @@
     "Angewandte System Technik"
   ],
   "repositories": [],
-  "works_count": 6,
+  "works_count": 5,
+  "works_count_with_children": 5,
+  "works_count_with_children_and_predecessors": 5,
   "cited_by_count": 133,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -44,23 +46,83 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2026,
-      "works_count": 1,
+      "year": 2025,
+      "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
     },
     {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210114352",
-      "works_count": 6
+      "works_count": 5
     }
   ],
   "topics": [
@@ -137,24 +199,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10917",
-      "display_name": "Smart Grid Security and Resilience",
-      "count": 1,
-      "score": 0.3515999913215637,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
       "count": 1,
@@ -170,24 +214,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
-      "count": 1,
-      "score": 0.13050000369548798,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -279,44 +305,9 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T14276",
-      "display_name": "Power Systems and Technologies",
-      "count": 1,
-      "score": 0.0982000008225441,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
-    {
-      "id": "https://openalex.org/T14276",
-      "display_name": "Power Systems and Technologies",
-      "value": 4.63e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
@@ -337,7 +328,7 @@
     {
       "id": "https://openalex.org/T11778",
       "display_name": "Electrical and Bioimpedance Tomography",
-      "value": 1.82e-05,
+      "value": 1.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -352,26 +343,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10917",
-      "display_name": "Smart Grid Security and Resilience",
-      "value": 1.55e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11608",
       "display_name": "Dielectric materials and actuators",
-      "value": 1.41e-05,
+      "value": 1.4e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -405,7 +379,7 @@
     {
       "id": "https://openalex.org/T10107",
       "display_name": "Ferroelectric and Piezoelectric Materials",
-      "value": 1.3e-05,
+      "value": 1.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -422,7 +396,7 @@
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
-      "value": 8.1e-06,
+      "value": 8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -457,23 +431,6 @@
       "id": "https://openalex.org/T11637",
       "display_name": "Advanced Semiconductor Detectors and Materials",
       "value": 6.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11185",
-      "display_name": "Integrated Energy Systems Optimization",
-      "value": 5.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -525,6 +482,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210114352",
-  "updated_date": "2026-10-12T06:00:48",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2022-02-02T04:48:36"
 }

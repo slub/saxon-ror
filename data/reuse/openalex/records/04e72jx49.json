@@ -19,12 +19,14 @@
     "Center for Interdisciplinary Digital Sciences"
   ],
   "repositories": [],
-  "works_count": 97,
-  "cited_by_count": 673,
+  "works_count": 104,
+  "works_count_with_children": 873,
+  "works_count_with_children_and_predecessors": 873,
+  "cited_by_count": 690,
   "summary_stats": {
-    "2yr_mean_citedness": 2.4350282485875705,
+    "2yr_mean_citedness": 2.3125,
     "h_index": 12,
-    "i10_index": 12
+    "i10_index": 13
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272610",
@@ -64,47 +66,101 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 26,
-      "oa_works_count": 24,
-      "cited_by_count": 12
+      "works_count": 32,
+      "oa_works_count": 29,
+      "cited_by_count": 126
     },
     {
       "year": 2025,
-      "works_count": 37,
-      "oa_works_count": 34,
-      "cited_by_count": 78
+      "works_count": 38,
+      "oa_works_count": 35,
+      "cited_by_count": 96
     },
     {
       "year": 2024,
       "works_count": 32,
       "oa_works_count": 26,
-      "cited_by_count": 128
+      "cited_by_count": 12
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 13
     },
     {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 121
+      "cited_by_count": 15
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272610",
-      "works_count": 97
+      "works_count": 104
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "count": 21,
+      "count": 22,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
@@ -138,6 +194,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11986",
+      "display_name": "Scientific Computing and Data Management",
+      "count": 13,
+      "score": 0.8291000127792358,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10101",
       "display_name": "Cloud Computing and Resource Management",
       "count": 12,
@@ -156,21 +230,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T11986",
-      "display_name": "Scientific Computing and Data Management",
-      "count": 12,
-      "score": 0.8291000127792358,
+      "id": "https://openalex.org/T12127",
+      "display_name": "Software System Performance and Reliability",
+      "count": 9,
+      "score": 0.31349998712539673,
       "subfield": {
-        "id": "https://openalex.org/subfields/1802",
-        "display_name": "Information Systems and Management"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -207,24 +281,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12127",
-      "display_name": "Software System Performance and Reliability",
-      "count": 8,
-      "score": 0.10170000046491623,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -354,6 +410,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10853",
+      "display_name": "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
+      "count": 4,
+      "score": 0.20679999887943268,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10028",
       "display_name": "Topic Modeling",
       "count": 3,
@@ -372,6 +446,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T10042",
+      "display_name": "Neural and Behavioral Psychology Studies",
+      "count": 3,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10056",
+      "display_name": "Neurotransmitter Receptor Influence on Behavior",
+      "count": 3,
+      "score": 0.8560000061988831,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10182",
       "display_name": "Child and Adolescent Psychosocial and Emotional Development",
       "count": 3,
@@ -379,24 +489,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10853",
-      "display_name": "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
-      "count": 3,
-      "score": 0.20679999887943268,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
       },
       "field": {
         "id": "https://openalex.org/fields/32",
@@ -480,42 +572,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10042",
-      "display_name": "Neural and Behavioral Psychology Studies",
-      "count": 2,
-      "score": 0.9984999895095825,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10056",
-      "display_name": "Neurotransmitter Receptor Influence on Behavior",
-      "count": 2,
-      "score": 0.8560000061988831,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10057",
       "display_name": "Face and Expression Recognition",
       "count": 2,
@@ -556,7 +612,7 @@
     {
       "id": "https://openalex.org/T14320",
       "display_name": "Optics and Image Analysis",
-      "value": 0.0002248,
+      "value": 0.0002243,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -573,7 +629,7 @@
     {
       "id": "https://openalex.org/T14201",
       "display_name": "Data Analysis and Archiving",
-      "value": 0.000172,
+      "value": 0.0001749,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -590,7 +646,7 @@
     {
       "id": "https://openalex.org/T14098",
       "display_name": "Energy Efficiency in Computing",
-      "value": 0.0001537,
+      "value": 0.0001532,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -607,7 +663,7 @@
     {
       "id": "https://openalex.org/T11829",
       "display_name": "Mathematical Biology Tumor Growth",
-      "value": 0.0001353,
+      "value": 0.0001352,
       "subfield": {
         "id": "https://openalex.org/subfields/2611",
         "display_name": "Modeling and Simulation"
@@ -624,7 +680,7 @@
     {
       "id": "https://openalex.org/T11839",
       "display_name": "Hormonal Regulation and Hypertension",
-      "value": 0.0001119,
+      "value": 0.0001116,
       "subfield": {
         "id": "https://openalex.org/subfields/2712",
         "display_name": "Endocrinology, Diabetes and Metabolism"
@@ -641,7 +697,7 @@
     {
       "id": "https://openalex.org/T12127",
       "display_name": "Software System Performance and Reliability",
-      "value": 9.39e-05,
+      "value": 0.000105,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -658,7 +714,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "value": 9.16e-05,
+      "value": 9.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -675,7 +731,7 @@
     {
       "id": "https://openalex.org/T13181",
       "display_name": "Economic and Technological Systems Analysis",
-      "value": 8.28e-05,
+      "value": 8.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -692,7 +748,7 @@
     {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "value": 6.37e-05,
+      "value": 6.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -709,7 +765,7 @@
     {
       "id": "https://openalex.org/T14067",
       "display_name": "Cloud Computing and Remote Desktop Technologies",
-      "value": 6.26e-05,
+      "value": 6.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -726,7 +782,7 @@
     {
       "id": "https://openalex.org/T10101",
       "display_name": "Cloud Computing and Resource Management",
-      "value": 5.88e-05,
+      "value": 5.87e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -743,7 +799,7 @@
     {
       "id": "https://openalex.org/T11054",
       "display_name": "Adrenal and Paraganglionic Tumors",
-      "value": 5.37e-05,
+      "value": 5.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -755,6 +811,23 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12592",
+      "display_name": "Opinion Dynamics and Social Influence",
+      "value": 5.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -775,9 +848,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11963",
+      "display_name": "Impact of Light on Environment and Health",
+      "value": 4.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12761",
       "display_name": "Data Stream Mining Techniques",
-      "value": 4.35e-05,
+      "value": 4.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -794,7 +884,7 @@
     {
       "id": "https://openalex.org/T11697",
       "display_name": "Numerical Methods and Algorithms",
-      "value": 4.34e-05,
+      "value": 4.33e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -811,7 +901,7 @@
     {
       "id": "https://openalex.org/T10715",
       "display_name": "Distributed and Parallel Computing Systems",
-      "value": 3.73e-05,
+      "value": 3.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -826,26 +916,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12690",
-      "display_name": "Cross-Border Cooperation and Integration",
-      "value": 3.15e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12238",
       "display_name": "Green IT and Sustainability",
-      "value": 3.14e-05,
+      "value": 3.12e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -860,9 +933,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12690",
+      "display_name": "Cross-Border Cooperation and Integration",
+      "value": 3.12e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
-      "value": 3.06e-05,
+      "value": 3.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -894,23 +984,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13081",
-      "display_name": "Digital Education and Society",
-      "value": 2.88e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
       "value": 2.87e-05,
@@ -930,7 +1003,7 @@
     {
       "id": "https://openalex.org/T12162",
       "display_name": "Cellular Automata and Applications",
-      "value": 2.84e-05,
+      "value": 2.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -945,29 +1018,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13404",
-      "display_name": "Geological and Tectonic Studies in Latin America",
-      "value": 2.64e-05,
+      "id": "https://openalex.org/T13081",
+      "display_name": "Digital Education and Society",
+      "value": 2.84e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1908",
-        "display_name": "Geophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12171",
-      "display_name": "Open Education and E-Learning",
-      "value": 2.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1706",
-        "display_name": "Computer Science Applications"
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -982,6 +1038,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272610",
-  "updated_date": "2026-10-19T18:23:29",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-07-22T03:30:22"
 }

@@ -22,12 +22,14 @@
     "Else Kröner Fresenius Zentrum für Digitale Gesundheit"
   ],
   "repositories": [],
-  "works_count": 778,
-  "cited_by_count": 46055,
+  "works_count": 784,
+  "works_count_with_children": 784,
+  "works_count_with_children_and_predecessors": 784,
+  "cited_by_count": 46891,
   "summary_stats": {
-    "2yr_mean_citedness": 11.75043528728961,
-    "h_index": 106,
-    "i10_index": 691
+    "2yr_mean_citedness": 12.01672433679354,
+    "h_index": 107,
+    "i10_index": 697
   },
   "ids": {
     "openalex": "https://openalex.org/I4405269091",
@@ -67,59 +69,59 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 198,
-      "oa_works_count": 162,
-      "cited_by_count": 282
+      "works_count": 203,
+      "oa_works_count": 168,
+      "cited_by_count": 5845
     },
     {
       "year": 2025,
-      "works_count": 247,
+      "works_count": 248,
       "oa_works_count": 194,
-      "cited_by_count": 2504
+      "cited_by_count": 5222
     },
     {
       "year": 2024,
       "works_count": 167,
       "oa_works_count": 133,
-      "cited_by_count": 3948
+      "cited_by_count": 2513
     },
     {
       "year": 2023,
       "works_count": 105,
-      "oa_works_count": 81,
-      "cited_by_count": 5594
+      "oa_works_count": 80,
+      "cited_by_count": 738
     },
     {
       "year": 2022,
       "works_count": 48,
       "oa_works_count": 39,
-      "cited_by_count": 1462
+      "cited_by_count": 114
     },
     {
       "year": 2021,
       "works_count": 11,
       "oa_works_count": 8,
-      "cited_by_count": 351
+      "cited_by_count": 6
     },
     {
       "year": 2020,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 21
+      "cited_by_count": 1
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405269091",
-      "works_count": 778
+      "works_count": 784
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11636",
       "display_name": "Artificial Intelligence in Healthcare and Education",
-      "count": 297,
+      "count": 301,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2718",
@@ -137,7 +139,7 @@
     {
       "id": "https://openalex.org/T10862",
       "display_name": "AI in cancer detection",
-      "count": 199,
+      "count": 200,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -209,8 +211,26 @@
     {
       "id": "https://openalex.org/T11396",
       "display_name": "Artificial Intelligence in Healthcare",
-      "count": 39,
+      "count": 41,
       "score": 0.6553000211715698,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14396",
+      "display_name": "Healthcare Regulation",
+      "count": 32,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -243,27 +263,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14396",
-      "display_name": "Healthcare Regulation",
-      "count": 31,
-      "score": 0.9961000084877014,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10309",
       "display_name": "Acute Myeloid Leukemia Research",
-      "count": 29,
+      "count": 30,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2720",
@@ -281,7 +283,7 @@
     {
       "id": "https://openalex.org/T11714",
       "display_name": "Multimodal Machine Learning Applications",
-      "count": 28,
+      "count": 29,
       "score": 0.8012999892234802,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
@@ -299,7 +301,7 @@
     {
       "id": "https://openalex.org/T10158",
       "display_name": "Cancer Immunotherapy and Biomarkers",
-      "count": 26,
+      "count": 27,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
@@ -330,6 +332,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13364",
+      "display_name": "Digitalization, Law, and Regulation",
+      "count": 24,
+      "score": 0.986299991607666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -366,24 +386,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13364",
-      "display_name": "Digitalization, Law, and Regulation",
-      "count": 23,
-      "score": 0.986299991607666,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -441,6 +443,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "count": 18,
+      "score": 0.5917999744415283,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10883",
       "display_name": "Ethics and Social Impacts of AI",
       "count": 18,
@@ -456,24 +476,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10028",
-      "display_name": "Topic Modeling",
-      "count": 17,
-      "score": 0.5917999744415283,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -549,21 +551,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T12859",
-      "display_name": "Cell Image Analysis Techniques",
-      "count": 15,
-      "score": 1.0,
+      "id": "https://openalex.org/T12874",
+      "display_name": "Digital Imaging for Blood Diseases",
+      "count": 16,
+      "score": 0.9990000128746033,
       "subfield": {
-        "id": "https://openalex.org/subfields/1304",
-        "display_name": "Biophysics"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
@@ -571,7 +573,7 @@
     {
       "id": "https://openalex.org/T11636",
       "display_name": "Artificial Intelligence in Healthcare and Education",
-      "value": 0.0013508,
+      "value": 0.0013427,
       "subfield": {
         "id": "https://openalex.org/subfields/2718",
         "display_name": "Health Informatics"
@@ -588,7 +590,7 @@
     {
       "id": "https://openalex.org/T10862",
       "display_name": "AI in cancer detection",
-      "value": 0.0011579,
+      "value": 0.0011542,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -605,7 +607,7 @@
     {
       "id": "https://openalex.org/T13702",
       "display_name": "Machine Learning in Healthcare",
-      "value": 0.0011472,
+      "value": 0.0011315,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -622,7 +624,7 @@
     {
       "id": "https://openalex.org/T12422",
       "display_name": "Radiomics and Machine Learning in Medical Imaging",
-      "value": 0.0009272,
+      "value": 0.0009185,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -639,7 +641,7 @@
     {
       "id": "https://openalex.org/T12874",
       "display_name": "Digital Imaging for Blood Diseases",
-      "value": 0.0005316,
+      "value": 0.0005647,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -654,26 +656,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14029",
-      "display_name": "Thoreau and American Literature",
-      "value": 0.0004987,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14396",
       "display_name": "Healthcare Regulation",
-      "value": 0.0004932,
+      "value": 0.0005088,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -688,9 +673,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14029",
+      "display_name": "Thoreau and American Literature",
+      "value": 0.000496,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13953",
       "display_name": "Digital Imaging in Medicine",
-      "value": 0.000372,
+      "value": 0.0003685,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -707,7 +709,7 @@
     {
       "id": "https://openalex.org/T11710",
       "display_name": "Biomedical Text Mining and Ontologies",
-      "value": 0.0003006,
+      "value": 0.0003004,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -724,7 +726,7 @@
     {
       "id": "https://openalex.org/T13585",
       "display_name": "Technostress in Professional Settings",
-      "value": 0.0002954,
+      "value": 0.0002903,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -741,7 +743,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 0.0002753,
+      "value": 0.0002741,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -758,7 +760,7 @@
     {
       "id": "https://openalex.org/T11714",
       "display_name": "Multimodal Machine Learning Applications",
-      "value": 0.0002586,
+      "value": 0.0002644,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -775,7 +777,7 @@
     {
       "id": "https://openalex.org/T10727",
       "display_name": "Ultrasound Imaging and Elastography",
-      "value": 0.000238,
+      "value": 0.0002374,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -792,7 +794,7 @@
     {
       "id": "https://openalex.org/T10350",
       "display_name": "Electronic Health Records Systems",
-      "value": 0.0002311,
+      "value": 0.0002299,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -809,7 +811,7 @@
     {
       "id": "https://openalex.org/T12026",
       "display_name": "Explainable Artificial Intelligence (XAI)",
-      "value": 0.0002215,
+      "value": 0.0002178,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -826,7 +828,7 @@
     {
       "id": "https://openalex.org/T11834",
       "display_name": "Liver Diseases and Immunity",
-      "value": 0.0001934,
+      "value": 0.000193,
       "subfield": {
         "id": "https://openalex.org/subfields/2721",
         "display_name": "Hepatology"
@@ -843,7 +845,7 @@
     {
       "id": "https://openalex.org/T11775",
       "display_name": "COVID-19 diagnosis using AI",
-      "value": 0.0001908,
+      "value": 0.0001892,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -860,7 +862,7 @@
     {
       "id": "https://openalex.org/T13364",
       "display_name": "Digitalization, Law, and Regulation",
-      "value": 0.0001798,
+      "value": 0.0001851,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -875,77 +877,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11369",
-      "display_name": "Genetic factors in colorectal cancer",
-      "value": 0.0001695,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13295",
-      "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 0.0001647,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2213",
-        "display_name": "Safety, Risk, Reliability and Quality"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11446",
-      "display_name": "Mobile Health and mHealth Applications",
-      "value": 0.000158,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11396",
-      "display_name": "Artificial Intelligence in Healthcare",
-      "value": 0.0001556,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14512",
       "display_name": "Technology and Human Factors in Education and Health",
-      "value": 0.0001524,
+      "value": 0.0001764,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -960,12 +894,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11738",
-      "display_name": "Ultrasound in Clinical Applications",
-      "value": 0.0001485,
+      "id": "https://openalex.org/T11369",
+      "display_name": "Genetic factors in colorectal cancer",
+      "value": 0.0001694,
       "subfield": {
-        "id": "https://openalex.org/subfields/2706",
-        "display_name": "Critical Care and Intensive Care Medicine"
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -979,10 +913,78 @@
     {
       "id": "https://openalex.org/T13417",
       "display_name": "Biomedical Ethics and Regulation",
-      "value": 0.0001467,
+      "value": 0.0001673,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13295",
+      "display_name": "Safety Systems Engineering in Autonomy",
+      "value": 0.0001637,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11396",
+      "display_name": "Artificial Intelligence in Healthcare",
+      "value": 0.0001616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11446",
+      "display_name": "Mobile Health and mHealth Applications",
+      "value": 0.0001575,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11738",
+      "display_name": "Ultrasound in Clinical Applications",
+      "value": 0.000148,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2706",
+        "display_name": "Critical Care and Intensive Care Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -997,6 +999,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405269091",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-06-25T03:30:22"
 }

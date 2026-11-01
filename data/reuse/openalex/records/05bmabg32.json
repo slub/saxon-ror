@@ -17,6 +17,8 @@
   ],
   "repositories": [],
   "works_count": 15,
+  "works_count_with_children": 15,
+  "works_count_with_children_and_predecessors": 15,
   "cited_by_count": 328,
   "summary_stats": {
     "2yr_mean_citedness": 2.0,
@@ -43,58 +45,100 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2024,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 2
-    },
-    {
-      "year": 2023,
-      "works_count": 2,
-      "oa_works_count": 1,
-      "cited_by_count": 1
-    },
-    {
-      "year": 2022,
-      "works_count": 1,
+      "year": 2026,
+      "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 11
     },
     {
-      "year": 2021,
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 23
     },
     {
+      "year": 2023,
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2022,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2021,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 42
+    },
+    {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 4
+      "cited_by_count": 23
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 24
     },
     {
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 11
+      "cited_by_count": 32
+    },
+    {
+      "year": 2017,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 23
     },
     {
       "year": 2016,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 69
+      "cited_by_count": 13
     },
     {
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 13
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 11
     },
     {
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 167
+      "cited_by_count": 0
     }
   ],
   "roles": [
@@ -452,7 +496,7 @@
     {
       "id": "https://openalex.org/T10205",
       "display_name": "Advanced Fiber Optic Sensors",
-      "value": 9.76e-05,
+      "value": 9.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -469,7 +513,7 @@
     {
       "id": "https://openalex.org/T12682",
       "display_name": "Smart Materials for Construction",
-      "value": 9.25e-05,
+      "value": 9.21e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -486,7 +530,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 8.36e-05,
+      "value": 8.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -503,7 +547,7 @@
     {
       "id": "https://openalex.org/T10767",
       "display_name": "Advanced Photonic Communication Systems",
-      "value": 3.58e-05,
+      "value": 3.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -511,6 +555,23 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11459",
+      "display_name": "Arctic and Antarctic ice dynamics",
+      "value": 3.01e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -535,26 +596,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11459",
-      "display_name": "Arctic and Antarctic ice dynamics",
-      "value": 2.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1902",
-        "display_name": "Atmospheric Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13885",
       "display_name": "Geophysics and Sensor Technology",
-      "value": 2.2e-05,
+      "value": 2.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -571,7 +615,7 @@
     {
       "id": "https://openalex.org/T10534",
       "display_name": "Structural Health Monitoring Techniques",
-      "value": 2.11e-05,
+      "value": 2.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -588,7 +632,7 @@
     {
       "id": "https://openalex.org/T10846",
       "display_name": "Photonic Crystal and Fiber Optics",
-      "value": 2.03e-05,
+      "value": 2.02e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -605,7 +649,7 @@
     {
       "id": "https://openalex.org/T10338",
       "display_name": "Advanced Sensor and Energy Harvesting Materials",
-      "value": 1.57e-05,
+      "value": 1.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -639,7 +683,7 @@
     {
       "id": "https://openalex.org/T11196",
       "display_name": "Non-Invasive Vital Sign Monitoring",
-      "value": 1.29e-05,
+      "value": 1.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -656,7 +700,7 @@
     {
       "id": "https://openalex.org/T11604",
       "display_name": "Ship Hydrodynamics and Maneuverability",
-      "value": 1.15e-05,
+      "value": 1.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -673,7 +717,7 @@
     {
       "id": "https://openalex.org/T13344",
       "display_name": "Industrial Automation and Control Systems",
-      "value": 9.9e-06,
+      "value": 9.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -690,7 +734,7 @@
     {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
-      "value": 7.9e-06,
+      "value": 7.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -707,7 +751,7 @@
     {
       "id": "https://openalex.org/T10644",
       "display_name": "Cryospheric studies and observations",
-      "value": 6.4e-06,
+      "value": 7.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1902",
         "display_name": "Atmospheric Science"
@@ -741,7 +785,7 @@
     {
       "id": "https://openalex.org/T10647",
       "display_name": "Coastal and Marine Dynamics",
-      "value": 4.9e-06,
+      "value": 5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1904",
         "display_name": "Earth-Surface Processes"
@@ -758,7 +802,7 @@
     {
       "id": "https://openalex.org/T10110",
       "display_name": "earthquake and tectonic studies",
-      "value": 3.2e-06,
+      "value": 3.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1908",
         "display_name": "Geophysics"
@@ -776,6 +820,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210144544",
-  "updated_date": "2026-10-16T18:21:27",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2022-02-02T04:48:36"
 }

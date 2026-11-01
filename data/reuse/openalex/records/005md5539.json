@@ -17,10 +17,12 @@
   ],
   "repositories": [],
   "works_count": 9,
-  "cited_by_count": 25,
+  "works_count_with_children": 9,
+  "works_count_with_children_and_predecessors": 9,
+  "cited_by_count": 26,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 3,
+    "h_index": 4,
     "i10_index": 0
   },
   "ids": {
@@ -41,7 +43,74 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    }
+  ],
   "roles": [
     {
       "role": "institution",
@@ -253,7 +322,7 @@
     {
       "id": "https://openalex.org/T11111",
       "display_name": "Spectroscopy and Laser Applications",
-      "value": 3.62e-05,
+      "value": 3.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
@@ -287,7 +356,7 @@
     {
       "id": "https://openalex.org/T11517",
       "display_name": "Advanced optical system design",
-      "value": 2.51e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -321,7 +390,7 @@
     {
       "id": "https://openalex.org/T10640",
       "display_name": "Spectroscopy and Chemometric Analyses",
-      "value": 2.03e-05,
+      "value": 2.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1602",
         "display_name": "Analytical Chemistry"
@@ -333,6 +402,23 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11324",
+      "display_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "value": 1.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -353,26 +439,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11324",
-      "display_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
-      "value": 1.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1304",
-        "display_name": "Biophysics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11666",
       "display_name": "Color Science and Applications",
-      "value": 1.53e-05,
+      "value": 1.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -406,7 +475,7 @@
     {
       "id": "https://openalex.org/T10977",
       "display_name": "Optical Imaging and Spectroscopy Techniques",
-      "value": 7e-06,
+      "value": 6.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -423,7 +492,7 @@
     {
       "id": "https://openalex.org/T10245",
       "display_name": "Metamaterials and Metasurfaces Applications",
-      "value": 4.7e-06,
+      "value": 4.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -441,6 +510,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210087430",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-27T19:54:23",
   "created_date": "2022-02-02T04:48:36"
 }

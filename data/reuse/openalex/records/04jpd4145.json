@@ -17,10 +17,12 @@
     "FormFactor (Germany)"
   ],
   "repositories": [],
-  "works_count": 7,
-  "cited_by_count": 572,
+  "works_count": 8,
+  "works_count_with_children": 8,
+  "works_count_with_children_and_predecessors": 8,
+  "cited_by_count": 578,
   "summary_stats": {
-    "2yr_mean_citedness": 1.5,
+    "2yr_mean_citedness": 0.75,
     "h_index": 3,
     "i10_index": 1
   },
@@ -53,35 +55,47 @@
   ],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 154
+    },
+    {
       "year": 2025,
       "works_count": 4,
       "oa_works_count": 3,
-      "cited_by_count": 6
+      "cited_by_count": 188
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 150
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 9
+      "cited_by_count": 74
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 555
+      "cited_by_count": 12
     },
     {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210136860",
-      "works_count": 7
+      "works_count": 8
     }
   ],
   "topics": [
@@ -158,6 +172,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10327",
+      "display_name": "Adolescent Sexual and Reproductive Health",
+      "count": 1,
+      "score": 0.34299999475479126,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
       "count": 1,
@@ -173,6 +205,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10459",
+      "display_name": "Sexual function and dysfunction studies",
+      "count": 1,
+      "score": 0.16300000250339508,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -248,6 +298,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12041",
+      "display_name": "Public Health Policies and Education",
+      "count": 1,
+      "score": 0.060499999672174454,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13200",
       "display_name": "Spacecraft and Cryogenic Technologies",
       "count": 1,
@@ -288,7 +356,7 @@
     {
       "id": "https://openalex.org/T11607",
       "display_name": "Microwave and Dielectric Measurement Techniques",
-      "value": 5.15e-05,
+      "value": 5.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -305,7 +373,7 @@
     {
       "id": "https://openalex.org/T10752",
       "display_name": "Terahertz technology and applications",
-      "value": 3.36e-05,
+      "value": 3.35e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -339,7 +407,7 @@
     {
       "id": "https://openalex.org/T11851",
       "display_name": "Electromagnetic Compatibility and Measurements",
-      "value": 2.4e-05,
+      "value": 2.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -356,7 +424,7 @@
     {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "value": 2.15e-05,
+      "value": 2.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -373,7 +441,7 @@
     {
       "id": "https://openalex.org/T11527",
       "display_name": "3D IC and TSV technologies",
-      "value": 1.64e-05,
+      "value": 1.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -422,9 +490,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12041",
+      "display_name": "Public Health Policies and Education",
+      "value": 9.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11007",
       "display_name": "Hybrid Renewable Energy Systems",
-      "value": 9.3e-06,
+      "value": 9.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2102",
         "display_name": "Energy Engineering and Power Technology"
@@ -441,7 +526,7 @@
     {
       "id": "https://openalex.org/T10811",
       "display_name": "Hydrogen Storage and Materials",
-      "value": 9.1e-06,
+      "value": 9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -453,6 +538,40 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10327",
+      "display_name": "Adolescent Sexual and Reproductive Health",
+      "value": 8.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10459",
+      "display_name": "Sexual function and dysfunction studies",
+      "value": 8.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -476,6 +595,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136860",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2022-02-02T04:48:36"
 }

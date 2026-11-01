@@ -18,6 +18,8 @@
   ],
   "repositories": [],
   "works_count": 1,
+  "works_count_with_children": 1,
+  "works_count_with_children_and_predecessors": 1,
   "cited_by_count": 1,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -44,10 +46,16 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
       "year": 2017,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 0
     }
   ],
   "roles": [
@@ -134,7 +142,7 @@
     {
       "id": "https://openalex.org/T11159",
       "display_name": "Manufacturing Process and Optimization",
-      "value": 7.5e-06,
+      "value": 7.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -169,6 +177,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210161637",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2022-02-02T04:48:36"
 }

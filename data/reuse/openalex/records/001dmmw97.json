@@ -2,7 +2,7 @@
   "id": "https://openalex.org/I4400573300",
   "ror": "https://ror.org/001dmmw97",
   "display_name": "Leipzig Research Centre Global Dynamics",
-  "country_code": null,
+  "country_code": "DE",
   "type": "education",
   "type_id": "https://openalex.org/institution-types/education",
   "lineage": [
@@ -17,10 +17,12 @@
     "ReCentGlobe"
   ],
   "repositories": [],
-  "works_count": 113,
+  "works_count": 111,
+  "works_count_with_children": 111,
+  "works_count_with_children_and_predecessors": 111,
   "cited_by_count": 99,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5176470588235295,
+    "2yr_mean_citedness": 0.4943820224719101,
     "h_index": 6,
     "i10_index": 4
   },
@@ -33,9 +35,9 @@
   },
   "geo": {
     "city": "Leipzig",
-    "geonames_city_id": null,
+    "geonames_city_id": "2879139",
     "region": null,
-    "country_code": null,
+    "country_code": "DE",
     "country": "Germany",
     "latitude": 51.33961868286133,
     "longitude": 12.37129020690918
@@ -45,45 +47,45 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 10,
+      "works_count": 12,
       "oa_works_count": 2,
-      "cited_by_count": 0
+      "cited_by_count": 27
     },
     {
       "year": 2025,
-      "works_count": 62,
-      "oa_works_count": 58,
-      "cited_by_count": 17
+      "works_count": 63,
+      "oa_works_count": 59,
+      "cited_by_count": 36
     },
     {
       "year": 2024,
       "works_count": 12,
       "oa_works_count": 8,
-      "cited_by_count": 27
+      "cited_by_count": 21
     },
     {
       "year": 2023,
-      "works_count": 11,
-      "oa_works_count": 7,
-      "cited_by_count": 20
+      "works_count": 8,
+      "oa_works_count": 4,
+      "cited_by_count": 11
     },
     {
       "year": 2022,
-      "works_count": 7,
-      "oa_works_count": 6,
-      "cited_by_count": 14
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 2
     },
     {
       "year": 2021,
       "works_count": 6,
       "oa_works_count": 2,
-      "cited_by_count": 12
+      "cited_by_count": 2
     },
     {
       "year": 2020,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 9
+      "cited_by_count": 0
     },
     {
       "year": 2019,
@@ -96,7 +98,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4400573300",
-      "works_count": 113
+      "works_count": 111
     }
   ],
   "topics": [
@@ -173,10 +175,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T10053",
-      "display_name": "International Relations and Foreign Policy",
-      "count": 8,
-      "score": 0.24709999561309814,
+      "id": "https://openalex.org/T14429",
+      "display_name": "Global Political and Social Dynamics",
+      "count": 9,
+      "score": 0.875,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -191,10 +193,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T14429",
-      "display_name": "Global Political and Social Dynamics",
+      "id": "https://openalex.org/T10053",
+      "display_name": "International Relations and Foreign Policy",
       "count": 8,
-      "score": 0.875,
+      "score": 0.24709999561309814,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -479,6 +481,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T11397",
+      "display_name": "Populism, Right-Wing Movements",
+      "count": 3,
+      "score": 0.9452999830245972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12775",
       "display_name": "Legal Issues in South Africa",
       "count": 3,
@@ -531,31 +551,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T13879",
-      "display_name": "Indigenous Peoples' Rights and Law",
-      "count": 3,
-      "score": 0.7163000106811523,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T14395",
       "display_name": "African history and culture studies",
-      "value": 0.0003713,
+      "value": 0.0003694,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -572,7 +574,7 @@
     {
       "id": "https://openalex.org/T12635",
       "display_name": "African studies and sociopolitical issues",
-      "value": 0.0003445,
+      "value": 0.0003422,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -589,7 +591,7 @@
     {
       "id": "https://openalex.org/T14429",
       "display_name": "Global Political and Social Dynamics",
-      "value": 0.0002943,
+      "value": 0.0003282,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -606,7 +608,7 @@
     {
       "id": "https://openalex.org/T13162",
       "display_name": "African Studies and Ethnography",
-      "value": 0.0002774,
+      "value": 0.0002762,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -623,7 +625,7 @@
     {
       "id": "https://openalex.org/T12160",
       "display_name": "African cultural and philosophical studies",
-      "value": 0.0002756,
+      "value": 0.0002736,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -640,7 +642,7 @@
     {
       "id": "https://openalex.org/T11695",
       "display_name": "South African History and Culture",
-      "value": 0.0002211,
+      "value": 0.0002203,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -657,7 +659,7 @@
     {
       "id": "https://openalex.org/T12972",
       "display_name": "German Colonialism and Identity Studies",
-      "value": 0.0001646,
+      "value": 0.0001637,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -674,7 +676,7 @@
     {
       "id": "https://openalex.org/T12775",
       "display_name": "Legal Issues in South Africa",
-      "value": 0.0001607,
+      "value": 0.0001602,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -708,7 +710,7 @@
     {
       "id": "https://openalex.org/T12752",
       "display_name": "Global Peace and Security Dynamics",
-      "value": 0.0001301,
+      "value": 0.000129,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -725,7 +727,7 @@
     {
       "id": "https://openalex.org/T12470",
       "display_name": "Caribbean and African Literature and Culture",
-      "value": 0.0001271,
+      "value": 0.0001266,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -742,7 +744,7 @@
     {
       "id": "https://openalex.org/T14228",
       "display_name": "Religion and Sociopolitical Dynamics in Nigeria",
-      "value": 0.0001065,
+      "value": 0.0001058,
       "subfield": {
         "id": "https://openalex.org/subfields/3300",
         "display_name": "General Social Sciences"
@@ -759,7 +761,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 0.0001047,
+      "value": 0.0001054,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -776,7 +778,7 @@
     {
       "id": "https://openalex.org/T13504",
       "display_name": "African history and culture analysis",
-      "value": 0.0001045,
+      "value": 0.0001043,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -793,7 +795,7 @@
     {
       "id": "https://openalex.org/T13347",
       "display_name": "Christian Theology and Mission",
-      "value": 0.0001035,
+      "value": 0.0001031,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -810,7 +812,7 @@
     {
       "id": "https://openalex.org/T13826",
       "display_name": "Bangladesh Politics, Society, and Development",
-      "value": 0.000102,
+      "value": 0.0001015,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -827,10 +829,27 @@
     {
       "id": "https://openalex.org/T14141",
       "display_name": "Colonial History and Postcolonial Studies",
-      "value": 8.85e-05,
+      "value": 8.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14133",
+      "display_name": "Border Security and International Relations",
+      "value": 8.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -844,24 +863,7 @@
     {
       "id": "https://openalex.org/T11507",
       "display_name": "Religion and Society Interactions",
-      "value": 7.74e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13051",
-      "display_name": "Qualitative Comparative Analysis Research",
-      "value": 7.61e-05,
+      "value": 7.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -878,7 +880,7 @@
     {
       "id": "https://openalex.org/T13850",
       "display_name": "Night-time city culture",
-      "value": 7.61e-05,
+      "value": 7.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3322",
         "display_name": "Urban Studies"
@@ -893,9 +895,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T13051",
+      "display_name": "Qualitative Comparative Analysis Research",
+      "value": 7.56e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13879",
       "display_name": "Indigenous Peoples' Rights and Law",
-      "value": 7.07e-05,
+      "value": 7.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -912,7 +931,7 @@
     {
       "id": "https://openalex.org/T12263",
       "display_name": "Peacebuilding and International Security",
-      "value": 6.74e-05,
+      "value": 6.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -929,7 +948,7 @@
     {
       "id": "https://openalex.org/T11198",
       "display_name": "Japanese History and Culture",
-      "value": 6.55e-05,
+      "value": 6.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -946,27 +965,10 @@
     {
       "id": "https://openalex.org/T13150",
       "display_name": "Study and Philosophy of Religion",
-      "value": 6.34e-05,
+      "value": 6.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11717",
-      "display_name": "Postcolonial and Cultural Literary Studies",
-      "value": 6.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -981,6 +983,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4400573300",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-28T18:23:19",
   "created_date": "2024-07-12T15:31:11"
 }

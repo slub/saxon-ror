@@ -29,12 +29,14 @@
     "IFAM Dresden"
   ],
   "repositories": [],
-  "works_count": 579,
-  "cited_by_count": 31625,
+  "works_count": 581,
+  "works_count_with_children": 581,
+  "works_count_with_children_and_predecessors": 581,
+  "cited_by_count": 31717,
   "summary_stats": {
-    "2yr_mean_citedness": 3.2427536231884058,
+    "2yr_mean_citedness": 3.2482517482517483,
     "h_index": 79,
-    "i10_index": 566
+    "i10_index": 565
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272449",
@@ -66,112 +68,112 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 27,
+      "works_count": 29,
       "oa_works_count": 22,
-      "cited_by_count": 34
+      "cited_by_count": 1174
     },
     {
       "year": 2025,
       "works_count": 40,
       "oa_works_count": 22,
-      "cited_by_count": 111
+      "cited_by_count": 1400
     },
     {
       "year": 2024,
-      "works_count": 45,
+      "works_count": 46,
       "oa_works_count": 33,
-      "cited_by_count": 263
+      "cited_by_count": 1271
     },
     {
       "year": 2023,
       "works_count": 36,
       "oa_works_count": 21,
-      "cited_by_count": 253
+      "cited_by_count": 1183
     },
     {
       "year": 2022,
       "works_count": 52,
       "oa_works_count": 22,
-      "cited_by_count": 495
+      "cited_by_count": 1064
     },
     {
       "year": 2021,
       "works_count": 26,
       "oa_works_count": 21,
-      "cited_by_count": 463
+      "cited_by_count": 1058
     },
     {
       "year": 2020,
       "works_count": 31,
       "oa_works_count": 19,
-      "cited_by_count": 1280
+      "cited_by_count": 791
     },
     {
       "year": 2019,
       "works_count": 33,
       "oa_works_count": 17,
-      "cited_by_count": 1054
+      "cited_by_count": 635
     },
     {
       "year": 2018,
       "works_count": 11,
       "oa_works_count": 4,
-      "cited_by_count": 325
+      "cited_by_count": 523
     },
     {
       "year": 2017,
       "works_count": 24,
       "oa_works_count": 14,
-      "cited_by_count": 710
+      "cited_by_count": 489
     },
     {
       "year": 2016,
       "works_count": 31,
-      "oa_works_count": 12,
-      "cited_by_count": 814
+      "oa_works_count": 13,
+      "cited_by_count": 403
     },
     {
       "year": 2015,
-      "works_count": 30,
-      "oa_works_count": 8,
-      "cited_by_count": 519
+      "works_count": 29,
+      "oa_works_count": 7,
+      "cited_by_count": 398
     },
     {
       "year": 2014,
       "works_count": 25,
       "oa_works_count": 4,
-      "cited_by_count": 383
+      "cited_by_count": 347
     },
     {
       "year": 2013,
       "works_count": 21,
       "oa_works_count": 5,
-      "cited_by_count": 630
+      "cited_by_count": 268
     },
     {
       "year": 2012,
       "works_count": 23,
       "oa_works_count": 2,
-      "cited_by_count": 480
+      "cited_by_count": 248
     },
     {
       "year": 2011,
       "works_count": 26,
       "oa_works_count": 2,
-      "cited_by_count": 557
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 19,
       "oa_works_count": 3,
-      "cited_by_count": 1277
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405272449",
-      "works_count": 579
+      "works_count": 581
     }
   ],
   "topics": [
@@ -250,7 +252,7 @@
     {
       "id": "https://openalex.org/T10030",
       "display_name": "Electrocatalysts for Energy Conversion",
-      "count": 45,
+      "count": 47,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
@@ -338,6 +340,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10409",
+      "display_name": "Fuel Cells and Related Materials",
+      "count": 31,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10717",
       "display_name": "Aluminum Alloys Composites Properties",
       "count": 30,
@@ -367,24 +387,6 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10409",
-      "display_name": "Fuel Cells and Related Materials",
-      "count": 29,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -630,7 +632,7 @@
     {
       "id": "https://openalex.org/T12932",
       "display_name": "Powder Metallurgy Techniques and Materials",
-      "value": 0.0012109,
+      "value": 0.0012078,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -647,7 +649,7 @@
     {
       "id": "https://openalex.org/T13775",
       "display_name": "Hydrogen's biological and therapeutic effects",
-      "value": 0.0008606,
+      "value": 0.0008595,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -664,7 +666,7 @@
     {
       "id": "https://openalex.org/T12099",
       "display_name": "Advanced materials and composites",
-      "value": 0.0005777,
+      "value": 0.0005765,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -681,7 +683,7 @@
     {
       "id": "https://openalex.org/T10705",
       "display_name": "Additive Manufacturing Materials and Processes",
-      "value": 0.0005265,
+      "value": 0.0005232,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -698,7 +700,7 @@
     {
       "id": "https://openalex.org/T13129",
       "display_name": "Material Properties and Applications",
-      "value": 0.0004903,
+      "value": 0.0004887,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -715,7 +717,7 @@
     {
       "id": "https://openalex.org/T10811",
       "display_name": "Hydrogen Storage and Materials",
-      "value": 0.0004624,
+      "value": 0.000461,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -732,7 +734,7 @@
     {
       "id": "https://openalex.org/T10707",
       "display_name": "Cellular and Composite Structures",
-      "value": 0.0004546,
+      "value": 0.0004518,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -749,7 +751,7 @@
     {
       "id": "https://openalex.org/T12581",
       "display_name": "Engineering Structural Analysis Methods",
-      "value": 0.000414,
+      "value": 0.000413,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -766,7 +768,7 @@
     {
       "id": "https://openalex.org/T14369",
       "display_name": "Diverse Interdisciplinary Research Innovations",
-      "value": 0.0003964,
+      "value": 0.0003959,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -783,7 +785,7 @@
     {
       "id": "https://openalex.org/T10717",
       "display_name": "Aluminum Alloys Composites Properties",
-      "value": 0.0003152,
+      "value": 0.000314,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -800,7 +802,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 0.0003144,
+      "value": 0.0003131,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -817,7 +819,7 @@
     {
       "id": "https://openalex.org/T10783",
       "display_name": "Additive Manufacturing and 3D Printing Technologies",
-      "value": 0.0002831,
+      "value": 0.0002813,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -834,7 +836,7 @@
     {
       "id": "https://openalex.org/T11442",
       "display_name": "Titanium Alloys Microstructure and Properties",
-      "value": 0.0002514,
+      "value": 0.0002508,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -851,7 +853,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 0.0002507,
+      "value": 0.0002502,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -868,7 +870,7 @@
     {
       "id": "https://openalex.org/T11100",
       "display_name": "Intermetallics and Advanced Alloy Properties",
-      "value": 0.0002419,
+      "value": 0.0002416,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -885,7 +887,7 @@
     {
       "id": "https://openalex.org/T11277",
       "display_name": "Thermal properties of materials",
-      "value": 0.0002397,
+      "value": 0.0002391,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -902,7 +904,7 @@
     {
       "id": "https://openalex.org/T10530",
       "display_name": "Magnesium Alloys: Properties and Applications",
-      "value": 0.0001977,
+      "value": 0.0001969,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -919,7 +921,7 @@
     {
       "id": "https://openalex.org/T13251",
       "display_name": "Electrical and Thermal Properties of Materials",
-      "value": 0.0001897,
+      "value": 0.0001894,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -936,7 +938,7 @@
     {
       "id": "https://openalex.org/T14214",
       "display_name": "Space Exploration and Technology",
-      "value": 0.0001834,
+      "value": 0.0001831,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -953,7 +955,7 @@
     {
       "id": "https://openalex.org/T10736",
       "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
-      "value": 0.0001768,
+      "value": 0.0001763,
       "subfield": {
         "id": "https://openalex.org/subfields/2506",
         "display_name": "Metals and Alloys"
@@ -970,7 +972,7 @@
     {
       "id": "https://openalex.org/T10440",
       "display_name": "Advanced Thermoelectric Materials and Devices",
-      "value": 0.0001761,
+      "value": 0.0001758,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -985,43 +987,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11143",
-      "display_name": "High Entropy Alloys Studies",
-      "value": 0.0001643,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11774",
-      "display_name": "Adsorption and Cooling Systems",
-      "value": 0.0001641,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10409",
       "display_name": "Fuel Cells and Related Materials",
-      "value": 0.0001634,
+      "value": 0.0001736,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1036,9 +1004,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11774",
+      "display_name": "Adsorption and Cooling Systems",
+      "value": 0.0001632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "value": 0.000163,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10219",
       "display_name": "Mechanical Behavior of Composites",
-      "value": 0.0001589,
+      "value": 0.0001584,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -1056,6 +1058,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272449",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-07-22T03:30:22"
 }
