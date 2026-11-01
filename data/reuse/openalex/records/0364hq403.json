@@ -16,10 +16,12 @@
     "AXO Dresden (Germany)"
   ],
   "repositories": [],
-  "works_count": 61,
+  "works_count": 62,
+  "works_count_with_children": 62,
+  "works_count_with_children_and_predecessors": 62,
   "cited_by_count": 1164,
   "summary_stats": {
-    "2yr_mean_citedness": 0.6363636363636364,
+    "2yr_mean_citedness": 0.5833333333333334,
     "h_index": 17,
     "i10_index": 42
   },
@@ -46,98 +48,110 @@
       "year": 2026,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 1
+      "cited_by_count": 47
     },
     {
       "year": 2025,
       "works_count": 6,
       "oa_works_count": 6,
-      "cited_by_count": 6
+      "cited_by_count": 49
     },
     {
       "year": 2024,
-      "works_count": 2,
-      "oa_works_count": 2,
-      "cited_by_count": 0
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 65
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 64
     },
     {
       "year": 2022,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 33
+      "cited_by_count": 45
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 16
+      "cited_by_count": 44
     },
     {
       "year": 2020,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 66
+      "cited_by_count": 38
     },
     {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 26
+      "cited_by_count": 53
     },
     {
       "year": 2018,
       "works_count": 4,
       "oa_works_count": 3,
-      "cited_by_count": 54
+      "cited_by_count": 33
     },
     {
       "year": 2017,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 95
+      "cited_by_count": 22
     },
     {
       "year": 2016,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 19
+      "cited_by_count": 20
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 8
     },
     {
       "year": 2014,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 41
+      "cited_by_count": 16
+    },
+    {
+      "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 5
     },
     {
       "year": 2012,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 12
+      "cited_by_count": 19
     },
     {
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 10
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 12,
       "oa_works_count": 4,
-      "cited_by_count": 140
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210129975",
-      "works_count": 61
+      "works_count": 62
     }
   ],
   "topics": [
@@ -162,7 +176,7 @@
     {
       "id": "https://openalex.org/T12613",
       "display_name": "X-ray Diffraction in Crystallography",
-      "count": 41,
+      "count": 42,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -265,6 +279,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10857",
+      "display_name": "Advanced Electron Microscopy Techniques and Applications",
+      "count": 3,
+      "score": 0.06449999660253525,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1315",
+        "display_name": "Structural Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -376,24 +408,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10857",
-      "display_name": "Advanced Electron Microscopy Techniques and Applications",
-      "count": 2,
-      "score": 0.06449999660253525,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1315",
-        "display_name": "Structural Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11162",
       "display_name": "Enzyme Structure and Function",
       "count": 2,
@@ -423,6 +437,24 @@
       "field": {
         "id": "https://openalex.org/fields/31",
         "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13552",
+      "display_name": "Advanced Materials Characterization Techniques",
+      "count": 2,
+      "score": 0.6929000020027161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -572,24 +604,6 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11527",
-      "display_name": "3D IC and TSV technologies",
-      "count": 1,
-      "score": 0.9824000000953674,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
@@ -613,7 +627,7 @@
     {
       "id": "https://openalex.org/T12613",
       "display_name": "X-ray Diffraction in Crystallography",
-      "value": 0.0003764,
+      "value": 0.000405,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -630,7 +644,7 @@
     {
       "id": "https://openalex.org/T12762",
       "display_name": "Crystallography and Radiation Phenomena",
-      "value": 0.0003023,
+      "value": 0.000302,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -647,7 +661,7 @@
     {
       "id": "https://openalex.org/T11733",
       "display_name": "X-ray Spectroscopy and Fluorescence Analysis",
-      "value": 0.0001218,
+      "value": 0.0001281,
       "subfield": {
         "id": "https://openalex.org/subfields/3108",
         "display_name": "Radiation"
@@ -664,7 +678,7 @@
     {
       "id": "https://openalex.org/T12039",
       "display_name": "Electron and X-Ray Spectroscopy Techniques",
-      "value": 6.73e-05,
+      "value": 7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2508",
         "display_name": "Surfaces, Coatings and Films"
@@ -681,7 +695,7 @@
     {
       "id": "https://openalex.org/T11723",
       "display_name": "Optical Coatings and Gratings",
-      "value": 3.93e-05,
+      "value": 3.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2508",
         "display_name": "Surfaces, Coatings and Films"
@@ -689,6 +703,23 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13552",
+      "display_name": "Advanced Materials Characterization Techniques",
+      "value": 3.92e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -715,7 +746,7 @@
     {
       "id": "https://openalex.org/T12299",
       "display_name": "Radiation Shielding Materials Analysis",
-      "value": 3.02e-05,
+      "value": 3.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -764,6 +795,23 @@
       }
     },
     {
+      "id": "https://openalex.org/T10857",
+      "display_name": "Advanced Electron Microscopy Techniques and Applications",
+      "value": 2.43e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1315",
+        "display_name": "Structural Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10478",
       "display_name": "Diamond and Carbon-based Materials Research",
       "value": 2.23e-05,
@@ -783,27 +831,10 @@
     {
       "id": "https://openalex.org/T14117",
       "display_name": "Integrated Circuits and Semiconductor Failure Analysis",
-      "value": 2.15e-05,
+      "value": 2.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13552",
-      "display_name": "Advanced Materials Characterization Techniques",
-      "value": 1.94e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -851,7 +882,7 @@
     {
       "id": "https://openalex.org/T11527",
       "display_name": "3D IC and TSV technologies",
-      "value": 1.64e-05,
+      "value": 1.63e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -863,23 +894,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10857",
-      "display_name": "Advanced Electron Microscopy Techniques and Applications",
-      "value": 1.62e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1315",
-        "display_name": "Structural Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -936,7 +950,7 @@
     {
       "id": "https://openalex.org/T11854",
       "display_name": "Laser-induced spectroscopy and plasma",
-      "value": 1.19e-05,
+      "value": 1.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -970,7 +984,7 @@
     {
       "id": "https://openalex.org/T11517",
       "display_name": "Advanced optical system design",
-      "value": 8.4e-06,
+      "value": 8.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -987,7 +1001,7 @@
     {
       "id": "https://openalex.org/T11212",
       "display_name": "Cultural Heritage Materials Analysis",
-      "value": 8.1e-06,
+      "value": 8.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -1022,6 +1036,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210129975",
-  "updated_date": "2026-10-16T18:21:27",
+  "updated_date": "2026-10-27T19:54:23",
   "created_date": "2022-02-02T04:48:36"
 }

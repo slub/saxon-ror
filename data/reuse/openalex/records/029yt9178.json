@@ -25,12 +25,14 @@
     "PoL: Physics of Life"
   ],
   "repositories": [],
-  "works_count": 1080,
-  "cited_by_count": 34543,
+  "works_count": 1078,
+  "works_count_with_children": 1078,
+  "works_count_with_children_and_predecessors": 1078,
+  "cited_by_count": 34869,
   "summary_stats": {
-    "2yr_mean_citedness": 9.307486631016042,
+    "2yr_mean_citedness": 9.501333333333333,
     "h_index": 87,
-    "i10_index": 633
+    "i10_index": 638
   },
   "ids": {
     "openalex": "https://openalex.org/I4405267341",
@@ -94,56 +96,68 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 123,
-      "oa_works_count": 109,
-      "cited_by_count": 152
+      "works_count": 125,
+      "oa_works_count": 111,
+      "cited_by_count": 4592
     },
     {
       "year": 2025,
-      "works_count": 158,
-      "oa_works_count": 148,
-      "cited_by_count": 1049
+      "works_count": 157,
+      "oa_works_count": 147,
+      "cited_by_count": 5375
     },
     {
       "year": 2024,
       "works_count": 156,
-      "oa_works_count": 139,
-      "cited_by_count": 2970
+      "oa_works_count": 138,
+      "cited_by_count": 3957
     },
     {
       "year": 2023,
       "works_count": 157,
       "oa_works_count": 142,
-      "cited_by_count": 2367
+      "cited_by_count": 2904
     },
     {
       "year": 2022,
       "works_count": 168,
       "oa_works_count": 150,
-      "cited_by_count": 3614
+      "cited_by_count": 1971
     },
     {
       "year": 2021,
-      "works_count": 170,
-      "oa_works_count": 134,
-      "cited_by_count": 3383
+      "works_count": 167,
+      "oa_works_count": 131,
+      "cited_by_count": 1364
     },
     {
       "year": 2020,
-      "works_count": 112,
+      "works_count": 113,
       "oa_works_count": 100,
-      "cited_by_count": 4832
+      "cited_by_count": 476
     },
     {
       "year": 2019,
       "works_count": 34,
       "oa_works_count": 31,
-      "cited_by_count": 2049
+      "cited_by_count": 67
     },
     {
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
       "cited_by_count": 2
     }
   ],
@@ -151,14 +165,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4405267341",
-      "works_count": 1080
+      "works_count": 1078
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10379",
       "display_name": "Cellular Mechanics and Interactions",
-      "count": 246,
+      "count": 245,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
@@ -176,7 +190,7 @@
     {
       "id": "https://openalex.org/T12859",
       "display_name": "Cell Image Analysis Techniques",
-      "count": 163,
+      "count": 160,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
@@ -212,7 +226,7 @@
     {
       "id": "https://openalex.org/T10492",
       "display_name": "Microtubule and mitosis dynamics",
-      "count": 96,
+      "count": 95,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
@@ -248,8 +262,26 @@
     {
       "id": "https://openalex.org/T10044",
       "display_name": "Protein Structure and Dynamics",
-      "count": 66,
+      "count": 64,
       "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "count": 55,
+      "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -266,7 +298,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "count": 57,
+      "count": 54,
       "score": 0.6240000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
@@ -279,24 +311,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10604",
-      "display_name": "RNA Research and Splicing",
-      "count": 56,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -356,7 +370,7 @@
     {
       "id": "https://openalex.org/T10222",
       "display_name": "Genomics and Chromatin Dynamics",
-      "count": 46,
+      "count": 47,
       "score": 0.9961000084877014,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -392,7 +406,7 @@
     {
       "id": "https://openalex.org/T10521",
       "display_name": "RNA and protein synthesis mechanisms",
-      "count": 42,
+      "count": 40,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -428,7 +442,7 @@
     {
       "id": "https://openalex.org/T11737",
       "display_name": "Advanced Materials and Mechanics",
-      "count": 39,
+      "count": 38,
       "score": 0.9696999788284302,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
@@ -464,7 +478,7 @@
     {
       "id": "https://openalex.org/T10407",
       "display_name": "Lipid Membrane Structure and Behavior",
-      "count": 31,
+      "count": 32,
       "score": 0.9961000084877014,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -477,24 +491,6 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11513",
-      "display_name": "stochastic dynamics and bifurcation",
-      "count": 30,
-      "score": 0.9746000170707703,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3109",
-        "display_name": "Statistical and Nonlinear Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -527,6 +523,24 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11513",
+      "display_name": "stochastic dynamics and bifurcation",
+      "count": 29,
+      "score": 0.9746000170707703,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -610,7 +624,7 @@
     {
       "id": "https://openalex.org/T11486",
       "display_name": "Micro and Nano Robotics",
-      "value": 0.0017353,
+      "value": 0.0017378,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -627,7 +641,7 @@
     {
       "id": "https://openalex.org/T12859",
       "display_name": "Cell Image Analysis Techniques",
-      "value": 0.0015454,
+      "value": 0.0015149,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
         "display_name": "Biophysics"
@@ -644,7 +658,7 @@
     {
       "id": "https://openalex.org/T10379",
       "display_name": "Cellular Mechanics and Interactions",
-      "value": 0.0012297,
+      "value": 0.0012244,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -661,7 +675,7 @@
     {
       "id": "https://openalex.org/T12923",
       "display_name": "Digital Image Processing Techniques",
-      "value": 0.0011047,
+      "value": 0.0011048,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -678,7 +692,7 @@
     {
       "id": "https://openalex.org/T13650",
       "display_name": "Computational Physics and Python Applications",
-      "value": 0.0009478,
+      "value": 0.0009509,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -695,7 +709,7 @@
     {
       "id": "https://openalex.org/T12789",
       "display_name": "Planarian Biology and Electrostimulation",
-      "value": 0.0008364,
+      "value": 0.0008356,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -710,9 +724,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10492",
-      "display_name": "Microtubule and mitosis dynamics",
-      "value": 0.0006945,
+      "id": "https://openalex.org/T11685",
+      "display_name": "Zebrafish Biomedical Research Applications",
+      "value": 0.0006891,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -727,9 +741,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11685",
-      "display_name": "Zebrafish Biomedical Research Applications",
-      "value": 0.0006889,
+      "id": "https://openalex.org/T10492",
+      "display_name": "Microtubule and mitosis dynamics",
+      "value": 0.0006871,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -746,7 +760,7 @@
     {
       "id": "https://openalex.org/T12344",
       "display_name": "Silicon Effects in Agriculture",
-      "value": 0.0005685,
+      "value": 0.0005668,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -763,7 +777,7 @@
     {
       "id": "https://openalex.org/T12065",
       "display_name": "Hippo pathway signaling and YAP/TAZ",
-      "value": 0.0005649,
+      "value": 0.0005638,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -778,9 +792,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13187",
+      "display_name": "Diffusion and Search Dynamics",
+      "value": 0.0005525,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
+      "value": 0.0005375,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13052",
       "display_name": "Molecular Communication and Nanonetworks",
-      "value": 0.0005381,
+      "value": 0.0005373,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -795,43 +843,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10621",
-      "display_name": "Gene Regulatory Network Analysis",
-      "value": 0.0005357,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11513",
-      "display_name": "stochastic dynamics and bifurcation",
-      "value": 0.0005318,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3109",
-        "display_name": "Statistical and Nonlinear Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11445",
       "display_name": "Origins and Evolution of Life",
-      "value": 0.0005081,
+      "value": 0.0005177,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -846,9 +860,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11513",
+      "display_name": "stochastic dynamics and bifurcation",
+      "value": 0.0005158,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12012",
       "display_name": "Diatoms and Algae Research",
-      "value": 0.0005074,
+      "value": 0.0005082,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -863,26 +894,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13187",
-      "display_name": "Diffusion and Search Dynamics",
-      "value": 0.0004962,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10268",
       "display_name": "Developmental Biology and Gene Regulation",
-      "value": 0.0004537,
+      "value": 0.0004539,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -899,7 +913,7 @@
     {
       "id": "https://openalex.org/T11986",
       "display_name": "Scientific Computing and Data Management",
-      "value": 0.0004352,
+      "value": 0.0004147,
       "subfield": {
         "id": "https://openalex.org/subfields/1802",
         "display_name": "Information Systems and Management"
@@ -916,7 +930,7 @@
     {
       "id": "https://openalex.org/T11829",
       "display_name": "Mathematical Biology Tumor Growth",
-      "value": 0.0003866,
+      "value": 0.0003862,
       "subfield": {
         "id": "https://openalex.org/subfields/2611",
         "display_name": "Modeling and Simulation"
@@ -933,7 +947,7 @@
     {
       "id": "https://openalex.org/T13114",
       "display_name": "Image Processing Techniques and Applications",
-      "value": 0.0003821,
+      "value": 0.0003816,
       "subfield": {
         "id": "https://openalex.org/subfields/2214",
         "display_name": "Media Technology"
@@ -950,7 +964,7 @@
     {
       "id": "https://openalex.org/T11897",
       "display_name": "Digital Holography and Microscopy",
-      "value": 0.0003637,
+      "value": 0.0003635,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -967,7 +981,7 @@
     {
       "id": "https://openalex.org/T10540",
       "display_name": "Advanced Fluorescence Microscopy Techniques",
-      "value": 0.0003606,
+      "value": 0.0003602,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
         "display_name": "Biophysics"
@@ -984,7 +998,7 @@
     {
       "id": "https://openalex.org/T10604",
       "display_name": "RNA Research and Splicing",
-      "value": 0.0003454,
+      "value": 0.0003391,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -1001,7 +1015,7 @@
     {
       "id": "https://openalex.org/T10306",
       "display_name": "Liquid Crystal Research Advancements",
-      "value": 0.0003291,
+      "value": 0.0003287,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -1036,6 +1050,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405267341",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-06-04T03:30:29"
 }

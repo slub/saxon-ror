@@ -18,6 +18,8 @@
   ],
   "repositories": [],
   "works_count": 5,
+  "works_count_with_children": 5,
+  "works_count_with_children_and_predecessors": 5,
   "cited_by_count": 41,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -50,22 +52,52 @@
       "cited_by_count": 0
     },
     {
-      "year": 2017,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
+      "year": 2021,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     },
     {
-      "year": 2014,
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
       "works_count": 1,
       "oa_works_count": 1,
       "cited_by_count": 1
     },
     {
+      "year": 2016,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 20
+      "cited_by_count": 1
     }
   ],
   "roles": [
@@ -333,7 +365,7 @@
     {
       "id": "https://openalex.org/T14467",
       "display_name": "Public Administration, ICT, and Policy Development",
-      "value": 0.000116,
+      "value": 0.000115,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -350,7 +382,7 @@
     {
       "id": "https://openalex.org/T14320",
       "display_name": "Optics and Image Analysis",
-      "value": 4.5e-05,
+      "value": 4.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -362,23 +394,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12984",
-      "display_name": "Transport and Logistics Innovations",
-      "value": 2.82e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
       }
     },
     {
@@ -396,6 +411,23 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12984",
+      "display_name": "Transport and Logistics Innovations",
+      "value": 2.79e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -435,7 +467,7 @@
     {
       "id": "https://openalex.org/T14121",
       "display_name": "Logistics and Transportation Systems",
-      "value": 1.72e-05,
+      "value": 1.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1404",
         "display_name": "Management Information Systems"
@@ -452,7 +484,7 @@
     {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 1.44e-05,
+      "value": 1.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -469,7 +501,7 @@
     {
       "id": "https://openalex.org/T11902",
       "display_name": "Intelligent Tutoring Systems and Adaptive Learning",
-      "value": 1.09e-05,
+      "value": 1.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -572,6 +604,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210129063",
-  "updated_date": "2026-10-09T06:00:36",
+  "updated_date": "2026-10-29T18:22:05",
   "created_date": "2022-02-02T04:48:36"
 }

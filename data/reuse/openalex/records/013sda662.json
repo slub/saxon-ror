@@ -27,12 +27,14 @@
     "Zentrum für Evidenzbasierte Gesundheitsversorgung, Universitätsklinikum und Medizinische Fakultät Carl Gustav Carus"
   ],
   "repositories": [],
-  "works_count": 1088,
-  "cited_by_count": 61712,
+  "works_count": 1102,
+  "works_count_with_children": 1102,
+  "works_count_with_children_and_predecessors": 1102,
+  "cited_by_count": 62007,
   "summary_stats": {
-    "2yr_mean_citedness": 2.5504252733900366,
+    "2yr_mean_citedness": 2.5673758865248226,
     "h_index": 112,
-    "i10_index": 803
+    "i10_index": 808
   },
   "ids": {
     "openalex": "https://openalex.org/I4405270655",
@@ -72,117 +74,135 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 85,
-      "oa_works_count": 51,
-      "cited_by_count": 14
+      "works_count": 97,
+      "oa_works_count": 64,
+      "cited_by_count": 2686
     },
     {
       "year": 2025,
       "works_count": 103,
-      "oa_works_count": 83,
-      "cited_by_count": 191
+      "oa_works_count": 82,
+      "cited_by_count": 3383
     },
     {
       "year": 2024,
       "works_count": 121,
       "oa_works_count": 105,
-      "cited_by_count": 800
+      "cited_by_count": 3619
     },
     {
       "year": 2023,
       "works_count": 94,
       "oa_works_count": 81,
-      "cited_by_count": 1001
+      "cited_by_count": 3500
     },
     {
       "year": 2022,
       "works_count": 104,
       "oa_works_count": 92,
-      "cited_by_count": 1921
+      "cited_by_count": 3242
     },
     {
       "year": 2021,
-      "works_count": 101,
-      "oa_works_count": 85,
-      "cited_by_count": 1522
+      "works_count": 102,
+      "oa_works_count": 86,
+      "cited_by_count": 3266
     },
     {
       "year": 2020,
       "works_count": 62,
       "oa_works_count": 48,
-      "cited_by_count": 1687
+      "cited_by_count": 2651
     },
     {
       "year": 2019,
       "works_count": 84,
       "oa_works_count": 65,
-      "cited_by_count": 1364
+      "cited_by_count": 2365
     },
     {
       "year": 2018,
       "works_count": 89,
-      "oa_works_count": 39,
-      "cited_by_count": 1346
+      "oa_works_count": 38,
+      "cited_by_count": 2131
     },
     {
       "year": 2017,
       "works_count": 56,
       "oa_works_count": 23,
-      "cited_by_count": 4115
+      "cited_by_count": 1938
     },
     {
       "year": 2016,
       "works_count": 62,
       "oa_works_count": 36,
-      "cited_by_count": 3384
+      "cited_by_count": 1319
     },
     {
       "year": 2015,
-      "works_count": 48,
-      "oa_works_count": 20,
-      "cited_by_count": 7810
+      "works_count": 49,
+      "oa_works_count": 21,
+      "cited_by_count": 797
     },
     {
       "year": 2014,
       "works_count": 42,
       "oa_works_count": 10,
-      "cited_by_count": 2966
+      "cited_by_count": 297
     },
     {
       "year": 2013,
       "works_count": 28,
       "oa_works_count": 5,
-      "cited_by_count": 1791
+      "cited_by_count": 158
     },
     {
       "year": 2012,
       "works_count": 8,
       "oa_works_count": 3,
-      "cited_by_count": 503
+      "cited_by_count": 98
     },
     {
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 877
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405270655",
-      "works_count": 1088
+      "works_count": 1102
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10837",
       "display_name": "Dermatology and Skin Diseases",
-      "count": 179,
+      "count": 180,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10051",
+      "display_name": "Asthma and respiratory diseases",
+      "count": 112,
+      "score": 0.5342000126838684,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -205,24 +225,6 @@
       "field": {
         "id": "https://openalex.org/fields/36",
         "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10051",
-      "display_name": "Asthma and respiratory diseases",
-      "count": 111,
-      "score": 0.5342000126838684,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -286,7 +288,7 @@
     {
       "id": "https://openalex.org/T11446",
       "display_name": "Mobile Health and mHealth Applications",
-      "count": 57,
+      "count": 58,
       "score": 0.9976000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
@@ -392,6 +394,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10469",
+      "display_name": "Psoriasis: Treatment and Pathogenesis",
+      "count": 49,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10562",
       "display_name": "Total Knee Arthroplasty Outcomes",
       "count": 49,
@@ -410,27 +430,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10469",
-      "display_name": "Psoriasis: Treatment and Pathogenesis",
-      "count": 48,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2403",
-        "display_name": "Immunology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11590",
       "display_name": "Primary Care and Health Outcomes",
-      "count": 44,
+      "count": 45,
       "score": 0.7343999743461609,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
@@ -448,7 +450,7 @@
     {
       "id": "https://openalex.org/T14186",
       "display_name": "Healthcare Systems and Practices",
-      "count": 43,
+      "count": 44,
       "score": 0.9682999849319458,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
@@ -461,6 +463,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10206",
+      "display_name": "Meta-analysis and systematic reviews",
+      "count": 40,
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1804",
+        "display_name": "Statistics, Probability and Uncertainty"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -482,27 +502,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10206",
-      "display_name": "Meta-analysis and systematic reviews",
-      "count": 39,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1804",
-        "display_name": "Statistics, Probability and Uncertainty"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10178",
       "display_name": "Cancer survivorship and care",
-      "count": 37,
+      "count": 38,
       "score": 0.9932000041007996,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
@@ -630,7 +632,7 @@
     {
       "id": "https://openalex.org/T13820",
       "display_name": "SAS software applications and methods",
-      "value": 0.0039152,
+      "value": 0.0041166,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -647,7 +649,7 @@
     {
       "id": "https://openalex.org/T12443",
       "display_name": "Delphi Technique in Research",
-      "value": 0.0024454,
+      "value": 0.0024497,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -664,7 +666,7 @@
     {
       "id": "https://openalex.org/T13022",
       "display_name": "Health and Medical Studies",
-      "value": 0.0017011,
+      "value": 0.0018797,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -681,7 +683,7 @@
     {
       "id": "https://openalex.org/T11033",
       "display_name": "Contact Dermatitis and Allergies",
-      "value": 0.0010104,
+      "value": 0.0010086,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -698,7 +700,7 @@
     {
       "id": "https://openalex.org/T10837",
       "display_name": "Dermatology and Skin Diseases",
-      "value": 0.0007256,
+      "value": 0.0007273,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -715,7 +717,7 @@
     {
       "id": "https://openalex.org/T12664",
       "display_name": "Clinical practice guidelines implementation",
-      "value": 0.0006288,
+      "value": 0.0006271,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -730,26 +732,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12871",
-      "display_name": "Healthcare Quality and Management",
-      "value": 0.0005176,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13398",
       "display_name": "Data Analysis with R",
-      "value": 0.0005168,
+      "value": 0.0005273,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -764,9 +749,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12871",
+      "display_name": "Healthcare Quality and Management",
+      "value": 0.0005154,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3605",
+        "display_name": "Health Information Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14029",
       "display_name": "Thoreau and American Literature",
-      "value": 0.0004987,
+      "value": 0.000496,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -783,7 +785,7 @@
     {
       "id": "https://openalex.org/T14400",
       "display_name": "Medical Coding and Health Information",
-      "value": 0.0004911,
+      "value": 0.0004897,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -800,7 +802,7 @@
     {
       "id": "https://openalex.org/T14186",
       "display_name": "Healthcare Systems and Practices",
-      "value": 0.0004551,
+      "value": 0.0004633,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -817,7 +819,7 @@
     {
       "id": "https://openalex.org/T12918",
       "display_name": "Healthcare Systems and Technology",
-      "value": 0.0004367,
+      "value": 0.0004555,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -834,7 +836,7 @@
     {
       "id": "https://openalex.org/T11446",
       "display_name": "Mobile Health and mHealth Applications",
-      "value": 0.000429,
+      "value": 0.0004349,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -851,7 +853,24 @@
     {
       "id": "https://openalex.org/T11722",
       "display_name": "Patient Satisfaction in Healthcare",
-      "value": 0.0004169,
+      "value": 0.0004152,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11590",
+      "display_name": "Primary Care and Health Outcomes",
+      "value": 0.0004147,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -868,7 +887,7 @@
     {
       "id": "https://openalex.org/T10912",
       "display_name": "Telemedicine and Telehealth Implementation",
-      "value": 0.0004117,
+      "value": 0.0004096,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -883,26 +902,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11590",
-      "display_name": "Primary Care and Health Outcomes",
-      "value": 0.0004069,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13944",
       "display_name": "Psychiatric care and mental health services",
-      "value": 0.0004022,
+      "value": 0.0004011,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -917,43 +919,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10562",
-      "display_name": "Total Knee Arthroplasty Outcomes",
-      "value": 0.0003877,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10629",
-      "display_name": "Health Policy Implementation Science",
-      "value": 0.0003867,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10206",
       "display_name": "Meta-analysis and systematic reviews",
-      "value": 0.0003828,
+      "value": 0.0003935,
       "subfield": {
         "id": "https://openalex.org/subfields/1804",
         "display_name": "Statistics, Probability and Uncertainty"
@@ -968,12 +936,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11670",
-      "display_name": "Pressure Ulcer Prevention and Management",
-      "value": 0.0003603,
+      "id": "https://openalex.org/T10629",
+      "display_name": "Health Policy Implementation Science",
+      "value": 0.000388,
       "subfield": {
-        "id": "https://openalex.org/subfields/3609",
-        "display_name": "Occupational Therapy"
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
       },
       "field": {
         "id": "https://openalex.org/fields/36",
@@ -985,9 +953,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10562",
+      "display_name": "Total Knee Arthroplasty Outcomes",
+      "value": 0.0003866,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10469",
       "display_name": "Psoriasis: Treatment and Pathogenesis",
-      "value": 0.0003544,
+      "value": 0.00036,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -1002,9 +987,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11670",
+      "display_name": "Pressure Ulcer Prevention and Management",
+      "value": 0.0003594,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3609",
+        "display_name": "Occupational Therapy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10350",
       "display_name": "Electronic Health Records Systems",
-      "value": 0.000301,
+      "value": 0.0002994,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -1021,7 +1023,7 @@
     {
       "id": "https://openalex.org/T14416",
       "display_name": "Health, Technology, Consumer Behavior",
-      "value": 0.0002901,
+      "value": 0.0002868,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -1038,7 +1040,7 @@
     {
       "id": "https://openalex.org/T10051",
       "display_name": "Asthma and respiratory diseases",
-      "value": 0.0002777,
+      "value": 0.0002791,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -1056,6 +1058,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405270655",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-07-22T03:30:22"
 }

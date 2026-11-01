@@ -17,12 +17,14 @@
     "Zittau/Görlitz University of Applied Sciences"
   ],
   "repositories": [],
-  "works_count": 1540,
-  "cited_by_count": 25166,
+  "works_count": 1561,
+  "works_count_with_children": 1561,
+  "works_count_with_children_and_predecessors": 1561,
+  "cited_by_count": 25269,
   "summary_stats": {
-    "2yr_mean_citedness": 1.9520697167755992,
+    "2yr_mean_citedness": 1.8234126984126984,
     "h_index": 68,
-    "i10_index": 443
+    "i10_index": 444
   },
   "ids": {
     "openalex": "https://openalex.org/I4210148079",
@@ -34,130 +36,139 @@
   "geo": {
     "city": "Görlitz",
     "geonames_city_id": "2918987",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 51.155181884765625,
-    "longitude": 14.988530158996582
+    "latitude": 51.15518,
+    "longitude": 14.98853
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210136887",
+      "ror": "https://ror.org/049ag6g97",
+      "display_name": "GWT-TUD GmbH (Germany)",
+      "country_code": "DE",
+      "type": "company",
+      "relationship": "related"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 63,
-      "oa_works_count": 47,
-      "cited_by_count": 8
+      "works_count": 84,
+      "oa_works_count": 53,
+      "cited_by_count": 1601
     },
     {
       "year": 2025,
-      "works_count": 84,
-      "oa_works_count": 46,
-      "cited_by_count": 116
+      "works_count": 87,
+      "oa_works_count": 49,
+      "cited_by_count": 1966
     },
     {
       "year": 2024,
       "works_count": 130,
       "oa_works_count": 99,
-      "cited_by_count": 598
+      "cited_by_count": 1772
     },
     {
       "year": 2023,
-      "works_count": 85,
-      "oa_works_count": 44,
-      "cited_by_count": 373
+      "works_count": 83,
+      "oa_works_count": 41,
+      "cited_by_count": 1662
     },
     {
       "year": 2022,
       "works_count": 105,
       "oa_works_count": 37,
-      "cited_by_count": 379
+      "cited_by_count": 1577
     },
     {
       "year": 2021,
       "works_count": 69,
       "oa_works_count": 26,
-      "cited_by_count": 1077
+      "cited_by_count": 1443
     },
     {
       "year": 2020,
       "works_count": 72,
       "oa_works_count": 24,
-      "cited_by_count": 932
+      "cited_by_count": 1280
     },
     {
       "year": 2019,
-      "works_count": 58,
-      "oa_works_count": 21,
-      "cited_by_count": 1017
+      "works_count": 57,
+      "oa_works_count": 20,
+      "cited_by_count": 1080
     },
     {
       "year": 2018,
       "works_count": 106,
-      "oa_works_count": 27,
-      "cited_by_count": 1300
+      "oa_works_count": 26,
+      "cited_by_count": 919
     },
     {
       "year": 2017,
       "works_count": 73,
       "oa_works_count": 19,
-      "cited_by_count": 1272
+      "cited_by_count": 810
     },
     {
       "year": 2016,
       "works_count": 77,
       "oa_works_count": 10,
-      "cited_by_count": 901
+      "cited_by_count": 704
     },
     {
       "year": 2015,
       "works_count": 90,
       "oa_works_count": 20,
-      "cited_by_count": 1175
+      "cited_by_count": 648
     },
     {
       "year": 2014,
       "works_count": 67,
       "oa_works_count": 9,
-      "cited_by_count": 570
+      "cited_by_count": 613
     },
     {
       "year": 2013,
       "works_count": 38,
       "oa_works_count": 11,
-      "cited_by_count": 506
+      "cited_by_count": 532
     },
     {
       "year": 2012,
       "works_count": 37,
       "oa_works_count": 7,
-      "cited_by_count": 1076
+      "cited_by_count": 444
     },
     {
       "year": 2011,
       "works_count": 53,
       "oa_works_count": 19,
-      "cited_by_count": 276
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 26,
       "oa_works_count": 8,
-      "cited_by_count": 300
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210148079",
-      "works_count": 1540
+      "works_count": 1561
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10511",
       "display_name": "High voltage insulation and dielectric phenomena",
-      "count": 110,
+      "count": 111,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -175,7 +186,7 @@
     {
       "id": "https://openalex.org/T11954",
       "display_name": "Energy Efficiency and Management",
-      "count": 86,
+      "count": 87,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
@@ -389,6 +400,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10880",
+      "display_name": "Environmental Sustainability in Business",
+      "count": 30,
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10396",
       "display_name": "Fatigue and fracture mechanics",
       "count": 29,
@@ -404,24 +433,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10880",
-      "display_name": "Environmental Sustainability in Business",
-      "count": 29,
-      "score": 0.9922000169754028,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -609,7 +620,7 @@
     {
       "id": "https://openalex.org/T12972",
       "display_name": "German Colonialism and Identity Studies",
-      "value": 0.0032911,
+      "value": 0.0032744,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -626,7 +637,7 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 0.0020666,
+      "value": 0.0020571,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -643,7 +654,7 @@
     {
       "id": "https://openalex.org/T11954",
       "display_name": "Energy Efficiency and Management",
-      "value": 0.0016463,
+      "value": 0.0016563,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -660,7 +671,7 @@
     {
       "id": "https://openalex.org/T13916",
       "display_name": "Environmental Policies and Emissions",
-      "value": 0.0015732,
+      "value": 0.0015917,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -677,7 +688,7 @@
     {
       "id": "https://openalex.org/T12164",
       "display_name": "Education Practices and Challenges",
-      "value": 0.0012118,
+      "value": 0.0012099,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -694,7 +705,7 @@
     {
       "id": "https://openalex.org/T13691",
       "display_name": "Energy, Environment, Agriculture Analysis",
-      "value": 0.0009546,
+      "value": 0.001016,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -711,7 +722,7 @@
     {
       "id": "https://openalex.org/T10511",
       "display_name": "High voltage insulation and dielectric phenomena",
-      "value": 0.0009062,
+      "value": 0.0009118,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -728,7 +739,7 @@
     {
       "id": "https://openalex.org/T14140",
       "display_name": "Elite Sociology and Global Capitalism",
-      "value": 0.0008774,
+      "value": 0.0008755,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -743,26 +754,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13164",
-      "display_name": "Quality and Management Systems",
-      "value": 0.0007374,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 0.0007331,
+      "value": 0.000738,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -777,16 +771,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T14350",
-      "display_name": "Innovation, Sustainability, Human-Machine Systems",
-      "value": 0.000706,
+      "id": "https://openalex.org/T13164",
+      "display_name": "Quality and Management Systems",
+      "value": 0.0007316,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -796,7 +790,7 @@
     {
       "id": "https://openalex.org/T11148",
       "display_name": "Language, Metaphor, and Cognition",
-      "value": 0.0006989,
+      "value": 0.0006927,
       "subfield": {
         "id": "https://openalex.org/subfields/3205",
         "display_name": "Experimental and Cognitive Psychology"
@@ -811,9 +805,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14350",
+      "display_name": "Innovation, Sustainability, Human-Machine Systems",
+      "value": 0.000688,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12880",
       "display_name": "Qualitative Research Methods and Applications",
-      "value": 0.0006438,
+      "value": 0.0006428,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -830,7 +841,7 @@
     {
       "id": "https://openalex.org/T11343",
       "display_name": "Power Transformer Diagnostics and Insulation",
-      "value": 0.0006334,
+      "value": 0.0006308,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -847,7 +858,7 @@
     {
       "id": "https://openalex.org/T12753",
       "display_name": "Psychology, Coaching, and Therapy",
-      "value": 0.0006075,
+      "value": 0.0006064,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -864,7 +875,7 @@
     {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "value": 0.0005993,
+      "value": 0.0006003,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -881,7 +892,7 @@
     {
       "id": "https://openalex.org/T12560",
       "display_name": "Nuclear Engineering Thermal-Hydraulics",
-      "value": 0.0005978,
+      "value": 0.0005862,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -898,7 +909,7 @@
     {
       "id": "https://openalex.org/T14054",
       "display_name": "Humic Substances and Bio-Organic Studies",
-      "value": 0.000556,
+      "value": 0.0005544,
       "subfield": {
         "id": "https://openalex.org/subfields/1111",
         "display_name": "Soil Science"
@@ -915,7 +926,7 @@
     {
       "id": "https://openalex.org/T13818",
       "display_name": "Cultural Studies and Colonialism",
-      "value": 0.0005456,
+      "value": 0.0005423,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -932,7 +943,7 @@
     {
       "id": "https://openalex.org/T13190",
       "display_name": "Engineering and Environmental Studies",
-      "value": 0.0004327,
+      "value": 0.0004297,
       "subfield": {
         "id": "https://openalex.org/subfields/2212",
         "display_name": "Ocean Engineering"
@@ -949,7 +960,7 @@
     {
       "id": "https://openalex.org/T12737",
       "display_name": "Electrical Fault Detection and Protection",
-      "value": 0.0004185,
+      "value": 0.0004164,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -966,7 +977,7 @@
     {
       "id": "https://openalex.org/T11205",
       "display_name": "Numerical methods in inverse problems",
-      "value": 0.0004081,
+      "value": 0.0004078,
       "subfield": {
         "id": "https://openalex.org/subfields/2610",
         "display_name": "Mathematical Physics"
@@ -983,7 +994,7 @@
     {
       "id": "https://openalex.org/T12510",
       "display_name": "Magneto-Optical Properties and Applications",
-      "value": 0.0003973,
+      "value": 0.000397,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1000,7 +1011,7 @@
     {
       "id": "https://openalex.org/T13464",
       "display_name": "Higher Education and Sustainability",
-      "value": 0.0003961,
+      "value": 0.0003947,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -1017,7 +1028,7 @@
     {
       "id": "https://openalex.org/T13139",
       "display_name": "Polish Legal and Social Issues",
-      "value": 0.000376,
+      "value": 0.0003749,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -1035,6 +1046,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210148079",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2022-02-02T04:48:36"
 }

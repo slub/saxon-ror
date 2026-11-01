@@ -27,12 +27,14 @@
     "Zentrum für taktiles Internet mit Mensch-Maschine-Interaktion"
   ],
   "repositories": [],
-  "works_count": 899,
-  "cited_by_count": 18862,
+  "works_count": 904,
+  "works_count_with_children": 904,
+  "works_count_with_children_and_predecessors": 904,
+  "cited_by_count": 19051,
   "summary_stats": {
-    "2yr_mean_citedness": 3.6856780735107733,
+    "2yr_mean_citedness": 3.7313432835820897,
     "h_index": 55,
-    "i10_index": 480
+    "i10_index": 483
   },
   "ids": {
     "openalex": "https://openalex.org/I4405267400",
@@ -88,77 +90,89 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 119,
-      "oa_works_count": 96,
-      "cited_by_count": 71
+      "works_count": 122,
+      "oa_works_count": 98,
+      "cited_by_count": 2386
     },
     {
       "year": 2025,
-      "works_count": 117,
-      "oa_works_count": 84,
-      "cited_by_count": 412
+      "works_count": 119,
+      "oa_works_count": 87,
+      "cited_by_count": 2863
     },
     {
       "year": 2024,
       "works_count": 151,
       "oa_works_count": 102,
-      "cited_by_count": 1087
+      "cited_by_count": 2218
     },
     {
       "year": 2023,
       "works_count": 172,
       "oa_works_count": 100,
-      "cited_by_count": 2241
+      "cited_by_count": 1581
     },
     {
       "year": 2022,
       "works_count": 138,
       "oa_works_count": 64,
-      "cited_by_count": 2135
+      "cited_by_count": 960
     },
     {
       "year": 2021,
       "works_count": 101,
       "oa_works_count": 58,
-      "cited_by_count": 2214
+      "cited_by_count": 502
     },
     {
       "year": 2020,
       "works_count": 74,
-      "oa_works_count": 35,
-      "cited_by_count": 1700
+      "oa_works_count": 34,
+      "cited_by_count": 141
     },
     {
       "year": 2019,
       "works_count": 25,
       "oa_works_count": 15,
-      "cited_by_count": 692
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
     },
     {
       "year": 2015,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 0
     },
     {
       "year": 2013,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405267400",
-      "works_count": 899
+      "works_count": 904
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "count": 75,
+      "count": 77,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
@@ -194,7 +208,7 @@
     {
       "id": "https://openalex.org/T10914",
       "display_name": "Tactile and Sensory Interactions",
-      "count": 67,
+      "count": 68,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
@@ -392,7 +406,7 @@
     {
       "id": "https://openalex.org/T10142",
       "display_name": "Formal Methods in Verification",
-      "count": 30,
+      "count": 31,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
@@ -428,7 +442,7 @@
     {
       "id": "https://openalex.org/T10789",
       "display_name": "Interactive and Immersive Displays",
-      "count": 29,
+      "count": 28,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/1709",
@@ -441,6 +455,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11636",
+      "display_name": "Artificial Intelligence in Healthcare and Education",
+      "count": 28,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2718",
+        "display_name": "Health Informatics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -498,24 +530,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11636",
-      "display_name": "Artificial Intelligence in Healthcare and Education",
-      "count": 26,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2718",
-        "display_name": "Health Informatics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10964",
       "display_name": "Wireless Communication Security Techniques",
       "count": 25,
@@ -552,6 +566,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10904",
+      "display_name": "Embedded Systems Design Techniques",
+      "count": 22,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10052",
       "display_name": "Medical Image Segmentation Techniques",
       "count": 21,
@@ -570,35 +602,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10904",
-      "display_name": "Embedded Systems Design Techniques",
-      "count": 21,
-      "score": 1.0,
+      "id": "https://openalex.org/T10036",
+      "display_name": "Advanced Neural Network Applications",
+      "count": 20,
+      "score": 0.9990000128746033,
       "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
         "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10891",
-      "display_name": "Radar Systems and Signal Processing",
-      "count": 19,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -610,7 +624,7 @@
     {
       "id": "https://openalex.org/T13052",
       "display_name": "Molecular Communication and Nanonetworks",
-      "value": 0.0009565,
+      "value": 0.0009553,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -627,7 +641,7 @@
     {
       "id": "https://openalex.org/T11687",
       "display_name": "Teleoperation and Haptic Systems",
-      "value": 0.0008531,
+      "value": 0.0008513,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -644,7 +658,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 0.0006661,
+      "value": 0.0006809,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -661,7 +675,7 @@
     {
       "id": "https://openalex.org/T13918",
       "display_name": "Advanced Data and IoT Technologies",
-      "value": 0.0006609,
+      "value": 0.0006569,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -678,7 +692,7 @@
     {
       "id": "https://openalex.org/T10914",
       "display_name": "Tactile and Sensory Interactions",
-      "value": 0.0005895,
+      "value": 0.0005992,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -693,26 +707,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14067",
-      "display_name": "Cloud Computing and Remote Desktop Technologies",
-      "value": 0.0005008,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13638",
       "display_name": "Human auditory perception and evaluation",
-      "value": 0.0004643,
+      "value": 0.0005296,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -727,9 +724,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14067",
+      "display_name": "Cloud Computing and Remote Desktop Technologies",
+      "value": 0.0005,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10796",
       "display_name": "Cooperative Communication and Network Coding",
-      "value": 0.0004519,
+      "value": 0.0004521,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -746,7 +760,7 @@
     {
       "id": "https://openalex.org/T10714",
       "display_name": "Software-Defined Networks and 5G",
-      "value": 0.0004378,
+      "value": 0.0004362,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -763,7 +777,7 @@
     {
       "id": "https://openalex.org/T10964",
       "display_name": "Wireless Communication Security Techniques",
-      "value": 0.0004137,
+      "value": 0.0004132,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -780,7 +794,7 @@
     {
       "id": "https://openalex.org/T11431",
       "display_name": "Action Observation and Synchronization",
-      "value": 0.0004095,
+      "value": 0.0004097,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -814,7 +828,7 @@
     {
       "id": "https://openalex.org/T10653",
       "display_name": "Robot Manipulation and Learning",
-      "value": 0.0003676,
+      "value": 0.0003652,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -831,7 +845,7 @@
     {
       "id": "https://openalex.org/T10338",
       "display_name": "Advanced Sensor and Energy Harvesting Materials",
-      "value": 0.0003525,
+      "value": 0.0003505,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -848,24 +862,7 @@
     {
       "id": "https://openalex.org/T11997",
       "display_name": "Free Will and Agency",
-      "value": 0.0003437,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11883",
-      "display_name": "Embodied and Extended Cognition",
-      "value": 0.0003076,
+      "value": 0.0003444,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -882,7 +879,7 @@
     {
       "id": "https://openalex.org/T11523",
       "display_name": "Nanomaterials and Printing Technologies",
-      "value": 0.0003043,
+      "value": 0.0003098,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -897,9 +894,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11883",
+      "display_name": "Embodied and Extended Cognition",
+      "value": 0.0003072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13382",
       "display_name": "Robotics and Automated Systems",
-      "value": 0.0002905,
+      "value": 0.0002891,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -916,7 +930,7 @@
     {
       "id": "https://openalex.org/T10648",
       "display_name": "Virtual Reality Applications and Impacts",
-      "value": 0.0002819,
+      "value": 0.0002804,
       "subfield": {
         "id": "https://openalex.org/subfields/1709",
         "display_name": "Human-Computer Interaction"
@@ -931,12 +945,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10273",
-      "display_name": "IoT and Edge/Fog Computing",
-      "value": 0.0002801,
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "value": 0.000279,
       "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -950,7 +964,7 @@
     {
       "id": "https://openalex.org/T11321",
       "display_name": "Error Correcting Code Techniques",
-      "value": 0.0002788,
+      "value": 0.0002786,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -965,12 +979,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10682",
-      "display_name": "Quantum Computing Algorithms and Architecture",
-      "value": 0.0002786,
+      "id": "https://openalex.org/T10273",
+      "display_name": "IoT and Edge/Fog Computing",
+      "value": 0.0002777,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -1001,7 +1015,7 @@
     {
       "id": "https://openalex.org/T10789",
       "display_name": "Interactive and Immersive Displays",
-      "value": 0.0002647,
+      "value": 0.0002553,
       "subfield": {
         "id": "https://openalex.org/subfields/1709",
         "display_name": "Human-Computer Interaction"
@@ -1018,7 +1032,7 @@
     {
       "id": "https://openalex.org/T11458",
       "display_name": "Advanced Wireless Communication Technologies",
-      "value": 0.0002633,
+      "value": 0.0002471,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1036,6 +1050,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405267400",
-  "updated_date": "2026-10-20T18:21:50",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-06-04T03:30:29"
 }

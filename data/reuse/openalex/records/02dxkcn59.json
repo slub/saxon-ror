@@ -18,7 +18,9 @@
     "Hochschuldidaktischen Zentrum Sachsen"
   ],
   "repositories": [],
-  "works_count": 17,
+  "works_count": 18,
+  "works_count_with_children": 18,
+  "works_count_with_children_and_predecessors": 18,
   "cited_by_count": 8,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -46,7 +48,7 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
+      "works_count": 2,
       "oa_works_count": 1,
       "cited_by_count": 0
     },
@@ -57,22 +59,28 @@
       "cited_by_count": 0
     },
     {
-      "year": 2023,
-      "works_count": 4,
-      "oa_works_count": 4,
-      "cited_by_count": 2
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     },
     {
-      "year": 2022,
+      "year": 2023,
       "works_count": 4,
       "oa_works_count": 4,
       "cited_by_count": 1
     },
     {
+      "year": 2022,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 0
+    },
+    {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 0
     },
     {
       "year": 2018,
@@ -87,20 +95,44 @@
       "cited_by_count": 0
     },
     {
+      "year": 2014,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210119236",
-      "works_count": 17
+      "works_count": 18
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T11039",
+      "display_name": "Evaluation of Teaching Practices",
+      "count": 6,
+      "score": 0.9150000214576721,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T12408",
       "display_name": "Educational Innovations and Challenges",
@@ -117,24 +149,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11039",
-      "display_name": "Evaluation of Teaching Practices",
-      "count": 5,
-      "score": 0.9150000214576721,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -158,8 +172,8 @@
     {
       "id": "https://openalex.org/T10546",
       "display_name": "Higher Education Governance and Development",
-      "count": 2,
-      "score": 0.007199999876320362,
+      "count": 3,
+      "score": 0.6474999785423279,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -516,17 +530,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T12950",
-      "display_name": "Educational Environments and Student Outcomes",
+      "id": "https://openalex.org/T12905",
+      "display_name": "Management Systems and Quality Improvement",
       "count": 1,
-      "score": 0.33809998631477356,
+      "score": 0.061000000685453415,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -534,10 +548,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13084",
-      "display_name": "Education during COVID-19 pandemic",
+      "id": "https://openalex.org/T12950",
+      "display_name": "Educational Environments and Student Outcomes",
       "count": 1,
-      "score": 0.9833999872207642,
+      "score": 0.33809998631477356,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -556,7 +570,7 @@
     {
       "id": "https://openalex.org/T12826",
       "display_name": "Education Methods and Technologies",
-      "value": 0.0001441,
+      "value": 0.0001408,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -573,7 +587,7 @@
     {
       "id": "https://openalex.org/T12408",
       "display_name": "Educational Innovations and Challenges",
-      "value": 9.43e-05,
+      "value": 9.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -590,7 +604,7 @@
     {
       "id": "https://openalex.org/T12354",
       "display_name": "Innovations in Educational Methods",
-      "value": 6.65e-05,
+      "value": 6.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -607,7 +621,7 @@
     {
       "id": "https://openalex.org/T14240",
       "display_name": "E-Learning and COVID-19",
-      "value": 6.13e-05,
+      "value": 6.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -624,7 +638,7 @@
     {
       "id": "https://openalex.org/T13321",
       "display_name": "Radio, Podcasts, and Digital Media",
-      "value": 5.79e-05,
+      "value": 5.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3315",
         "display_name": "Communication"
@@ -641,7 +655,7 @@
     {
       "id": "https://openalex.org/T13081",
       "display_name": "Digital Education and Society",
-      "value": 5.76e-05,
+      "value": 5.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -658,7 +672,7 @@
     {
       "id": "https://openalex.org/T14207",
       "display_name": "Higher Education Practises and Engagement",
-      "value": 5.06e-05,
+      "value": 5.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -675,7 +689,7 @@
     {
       "id": "https://openalex.org/T11039",
       "display_name": "Evaluation of Teaching Practices",
-      "value": 3.91e-05,
+      "value": 4.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -692,7 +706,7 @@
     {
       "id": "https://openalex.org/T13945",
       "display_name": "Legal, Health, Environmental and COVID-19 Challenges",
-      "value": 2.96e-05,
+      "value": 3.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -724,23 +738,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T12256",
-      "display_name": "Facilities and Workplace Management",
-      "value": 2.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12217",
       "display_name": "Higher Education Teaching and Evaluation",
       "value": 2.48e-05,
@@ -758,9 +755,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12256",
+      "display_name": "Facilities and Workplace Management",
+      "value": 2.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12481",
       "display_name": "Digital Accessibility for Disabilities",
-      "value": 2.32e-05,
+      "value": 2.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3307",
         "display_name": "Human Factors and Ergonomics"
@@ -777,7 +791,7 @@
     {
       "id": "https://openalex.org/T11466",
       "display_name": "Innovative Education and Learning Practices",
-      "value": 2.15e-05,
+      "value": 2.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3307",
         "display_name": "Human Factors and Ergonomics"
@@ -794,7 +808,7 @@
     {
       "id": "https://openalex.org/T13735",
       "display_name": "History of Medical Practice",
-      "value": 1.82e-05,
+      "value": 1.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -811,7 +825,7 @@
     {
       "id": "https://openalex.org/T12105",
       "display_name": "Hygrothermal properties of building materials",
-      "value": 1.61e-05,
+      "value": 1.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -828,7 +842,7 @@
     {
       "id": "https://openalex.org/T13704",
       "display_name": "French Literature and Poetry",
-      "value": 1.59e-05,
+      "value": 1.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -845,7 +859,7 @@
     {
       "id": "https://openalex.org/T12950",
       "display_name": "Educational Environments and Student Outcomes",
-      "value": 1.57e-05,
+      "value": 1.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -862,7 +876,7 @@
     {
       "id": "https://openalex.org/T12802",
       "display_name": "Competency Development and Evaluation",
-      "value": 1.45e-05,
+      "value": 1.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -877,9 +891,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10546",
+      "display_name": "Higher Education Governance and Development",
+      "value": 1.38e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12905",
+      "display_name": "Management Systems and Quality Improvement",
+      "value": 1.29e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11514",
       "display_name": "Disability Education and Employment",
-      "value": 1.1e-05,
+      "value": 1.09e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3311",
         "display_name": "Safety Research"
@@ -911,26 +959,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10546",
-      "display_name": "Higher Education Governance and Development",
-      "value": 9.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11122",
       "display_name": "Online Learning and Analytics",
-      "value": 9.2e-06,
+      "value": 9.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1706",
         "display_name": "Computer Science Applications"
@@ -947,7 +978,7 @@
     {
       "id": "https://openalex.org/T14496",
       "display_name": "Educational Technology and E-Learning",
-      "value": 9.1e-06,
+      "value": 9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -960,28 +991,11 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11277",
-      "display_name": "Thermal properties of materials",
-      "value": 8.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210119236",
-  "updated_date": "2026-10-08T06:00:02",
+  "updated_date": "2026-10-28T18:23:19",
   "created_date": "2022-02-02T04:48:36"
 }

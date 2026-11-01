@@ -17,7 +17,9 @@
   ],
   "repositories": [],
   "works_count": 22,
-  "cited_by_count": 383,
+  "works_count_with_children": 22,
+  "works_count_with_children_and_predecessors": 22,
+  "cited_by_count": 379,
   "summary_stats": {
     "2yr_mean_citedness": 20.0,
     "h_index": 10,
@@ -43,64 +45,94 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 42
+    },
+    {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 20
+      "cited_by_count": 39
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 29
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 5
+      "cited_by_count": 35
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 91
+      "cited_by_count": 17
     },
     {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 18
+      "cited_by_count": 17
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 13
     },
     {
       "year": 2017,
       "works_count": 5,
       "oa_works_count": 0,
-      "cited_by_count": 99
+      "cited_by_count": 11
     },
     {
       "year": 2016,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 22
+      "cited_by_count": 2
     },
     {
       "year": 2015,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 7
+      "cited_by_count": 0
     },
     {
       "year": 2014,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 1
     },
     {
       "year": 2013,
       "works_count": 4,
       "oa_works_count": 3,
-      "cited_by_count": 0
+      "cited_by_count": 1
     },
     {
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 0
     }
   ],
   "roles": [
@@ -566,7 +598,7 @@
     {
       "id": "https://openalex.org/T14512",
       "display_name": "Technology and Human Factors in Education and Health",
-      "value": 7.62e-05,
+      "value": 7.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -583,7 +615,7 @@
     {
       "id": "https://openalex.org/T13248",
       "display_name": "Healthcare Technology and Patient Monitoring",
-      "value": 5.25e-05,
+      "value": 5.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -600,7 +632,7 @@
     {
       "id": "https://openalex.org/T10984",
       "display_name": "Sinusitis and nasal conditions",
-      "value": 4.8e-05,
+      "value": 4.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -617,7 +649,7 @@
     {
       "id": "https://openalex.org/T12476",
       "display_name": "Intraoperative Neuromonitoring and Anesthetic Effects",
-      "value": 4.78e-05,
+      "value": 4.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -634,7 +666,7 @@
     {
       "id": "https://openalex.org/T10916",
       "display_name": "Surgical Simulation and Training",
-      "value": 3.55e-05,
+      "value": 3.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -642,23 +674,6 @@
       "field": {
         "id": "https://openalex.org/fields/27",
         "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11773",
-      "display_name": "Healthcare Operations and Scheduling Optimization",
-      "value": 2.36e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3604",
-        "display_name": "Emergency Medical Services"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -683,9 +698,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11773",
+      "display_name": "Healthcare Operations and Scheduling Optimization",
+      "value": 2.35e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3604",
+        "display_name": "Emergency Medical Services"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11238",
       "display_name": "Simulation-Based Education in Healthcare",
-      "value": 2.2e-05,
+      "value": 2.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -753,7 +785,7 @@
     {
       "id": "https://openalex.org/T11778",
       "display_name": "Electrical and Bioimpedance Tomography",
-      "value": 1.82e-05,
+      "value": 1.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -804,7 +836,7 @@
     {
       "id": "https://openalex.org/T10350",
       "display_name": "Electronic Health Records Systems",
-      "value": 1.61e-05,
+      "value": 1.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -889,7 +921,7 @@
     {
       "id": "https://openalex.org/T10508",
       "display_name": "Patient Safety and Medication Errors",
-      "value": 1.28e-05,
+      "value": 1.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -906,7 +938,7 @@
     {
       "id": "https://openalex.org/T10442",
       "display_name": "Knee injuries and reconstruction techniques",
-      "value": 1.25e-05,
+      "value": 1.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -992,6 +1024,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210131672",
-  "updated_date": "2026-10-15T06:00:45",
+  "updated_date": "2026-10-27T19:54:23",
   "created_date": "2022-02-02T04:48:36"
 }

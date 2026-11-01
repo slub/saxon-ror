@@ -17,10 +17,12 @@
     "Institute Chemnitzer Maschinen - und Anlagenbau"
   ],
   "repositories": [],
-  "works_count": 67,
+  "works_count": 62,
+  "works_count_with_children": 62,
+  "works_count_with_children_and_predecessors": 62,
   "cited_by_count": 169,
   "summary_stats": {
-    "2yr_mean_citedness": 0.5686274509803921,
+    "2yr_mean_citedness": 0.7073170731707317,
     "h_index": 7,
     "i10_index": 2
   },
@@ -47,37 +49,37 @@
       "year": 2026,
       "works_count": 7,
       "oa_works_count": 6,
-      "cited_by_count": 4
+      "cited_by_count": 12
     },
     {
       "year": 2025,
-      "works_count": 11,
-      "oa_works_count": 11,
-      "cited_by_count": 4
+      "works_count": 6,
+      "oa_works_count": 6,
+      "cited_by_count": 15
     },
     {
       "year": 2024,
       "works_count": 9,
       "oa_works_count": 6,
-      "cited_by_count": 10
+      "cited_by_count": 12
     },
     {
       "year": 2023,
       "works_count": 20,
       "oa_works_count": 18,
-      "cited_by_count": 25
+      "cited_by_count": 30
     },
     {
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 8
+      "cited_by_count": 3
     },
     {
       "year": 2021,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 12
+      "cited_by_count": 4
     },
     {
       "year": 2020,
@@ -89,13 +91,13 @@
       "year": 2019,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 4
+      "cited_by_count": 1
     },
     {
       "year": 2018,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 7
+      "cited_by_count": 1
     },
     {
       "year": 2017,
@@ -113,53 +115,17 @@
       "year": 2010,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210159512",
-      "works_count": 67
+      "works_count": 62
     }
   ],
   "topics": [
-    {
-      "id": "https://openalex.org/T10680",
-      "display_name": "Wind Energy Research and Development",
-      "count": 10,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10740",
-      "display_name": "Wind Turbine Control Systems",
-      "count": 10,
-      "score": 0.0008999999845400453,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
     {
       "id": "https://openalex.org/T10780",
       "display_name": "Reliability and Maintenance Optimization",
@@ -251,24 +217,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11371",
-      "display_name": "Wind and Air Flow Studies",
-      "count": 6,
-      "score": 0.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10105",
       "display_name": "Osteoarthritis Treatment and Mechanisms",
       "count": 5,
@@ -323,6 +271,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "count": 5,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10700",
       "display_name": "Metal Forming Simulation Techniques",
       "count": 5,
@@ -330,6 +296,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10740",
+      "display_name": "Wind Turbine Control Systems",
+      "count": 5,
+      "score": 0.0008999999845400453,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -395,24 +379,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11052",
-      "display_name": "Energy Load and Power Forecasting",
-      "count": 4,
-      "score": 9.999999747378752e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10588",
       "display_name": "Mathematical Dynamics and Fractals",
       "count": 3,
@@ -460,6 +426,24 @@
       "field": {
         "id": "https://openalex.org/fields/22",
         "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11371",
+      "display_name": "Wind and Air Flow Studies",
+      "count": 3,
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -573,13 +557,31 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10691",
+      "display_name": "Retinal Development and Disorders",
+      "count": 2,
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T14484",
       "display_name": "Technology and Data Analysis",
-      "value": 0.0008271,
+      "value": 0.0008203,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -596,7 +598,7 @@
     {
       "id": "https://openalex.org/T14042",
       "display_name": "Technology and Security Systems",
-      "value": 0.0001427,
+      "value": 0.0001417,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -613,27 +615,10 @@
     {
       "id": "https://openalex.org/T13020",
       "display_name": "Heat Transfer and Mathematical Modeling",
-      "value": 0.000117,
+      "value": 0.0001167,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10740",
-      "display_name": "Wind Turbine Control Systems",
-      "value": 0.0001079,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -662,26 +647,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10680",
-      "display_name": "Wind Energy Research and Development",
-      "value": 9.73e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12677",
       "display_name": "Sports Dynamics and Biomechanics",
-      "value": 8.44e-05,
+      "value": 8.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -698,7 +666,7 @@
     {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 8.36e-05,
+      "value": 8.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -715,7 +683,7 @@
     {
       "id": "https://openalex.org/T12920",
       "display_name": "Healthcare and Environmental Waste Management",
-      "value": 7.43e-05,
+      "value": 7.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -732,7 +700,7 @@
     {
       "id": "https://openalex.org/T10872",
       "display_name": "Veterinary Equine Medical Research",
-      "value": 6.78e-05,
+      "value": 6.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3402",
         "display_name": "Equine"
@@ -749,7 +717,7 @@
     {
       "id": "https://openalex.org/T13722",
       "display_name": "Ergonomics and Human Factors",
-      "value": 6.37e-05,
+      "value": 6.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -766,7 +734,7 @@
     {
       "id": "https://openalex.org/T11954",
       "display_name": "Energy Efficiency and Management",
-      "value": 5.74e-05,
+      "value": 5.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -781,16 +749,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11371",
-      "display_name": "Wind and Air Flow Studies",
-      "value": 5.64e-05,
+      "id": "https://openalex.org/T10763",
+      "display_name": "Digital Transformation in Industry",
+      "value": 5.45e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -798,12 +766,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10763",
-      "display_name": "Digital Transformation in Industry",
-      "value": 5.51e-05,
+      "id": "https://openalex.org/T10740",
+      "display_name": "Wind Turbine Control Systems",
+      "value": 5.42e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -834,7 +802,7 @@
     {
       "id": "https://openalex.org/T14384",
       "display_name": "Ophthalmology and Visual Health Research",
-      "value": 5.4e-05,
+      "value": 5.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -851,7 +819,7 @@
     {
       "id": "https://openalex.org/T12662",
       "display_name": "Digitalization and Economic Development in Agriculture",
-      "value": 5.15e-05,
+      "value": 5.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -866,12 +834,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11052",
-      "display_name": "Energy Load and Power Forecasting",
-      "value": 4.96e-05,
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "value": 4.94e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -885,7 +853,7 @@
     {
       "id": "https://openalex.org/T10780",
       "display_name": "Reliability and Maintenance Optimization",
-      "value": 4.92e-05,
+      "value": 4.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -902,7 +870,7 @@
     {
       "id": "https://openalex.org/T13752",
       "display_name": "Mechanics and Biomechanics Studies",
-      "value": 4.78e-05,
+      "value": 4.77e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -919,7 +887,7 @@
     {
       "id": "https://openalex.org/T11372",
       "display_name": "Hydraulic and Pneumatic Systems",
-      "value": 4.06e-05,
+      "value": 4.05e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -953,7 +921,7 @@
     {
       "id": "https://openalex.org/T12907",
       "display_name": "Mechanical Engineering and Vibrations Research",
-      "value": 3.51e-05,
+      "value": 3.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -970,7 +938,7 @@
     {
       "id": "https://openalex.org/T10244",
       "display_name": "Chaos control and synchronization",
-      "value": 3.46e-05,
+      "value": 3.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3109",
         "display_name": "Statistical and Nonlinear Physics"
@@ -987,7 +955,7 @@
     {
       "id": "https://openalex.org/T14474",
       "display_name": "Industrial Technology and Control Systems",
-      "value": 3.17e-05,
+      "value": 3.16e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -1000,11 +968,45 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11371",
+      "display_name": "Wind and Air Flow Studies",
+      "value": 2.84e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13690",
+      "display_name": "Quality and Safety in Healthcare",
+      "value": 2.53e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3607",
+        "display_name": "Medical Laboratory Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210159512",
-  "updated_date": "2026-10-11T06:00:04",
+  "updated_date": "2026-10-29T18:22:05",
   "created_date": "2022-02-02T04:48:36"
 }

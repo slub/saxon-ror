@@ -19,6 +19,8 @@
   ],
   "repositories": [],
   "works_count": 3,
+  "works_count_with_children": 3,
+  "works_count_with_children_and_predecessors": 3,
   "cited_by_count": 17,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -43,7 +45,44 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    }
+  ],
   "roles": [
     {
       "role": "institution",
@@ -129,7 +168,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 8.98e-05,
+      "value": 8.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -146,7 +185,7 @@
     {
       "id": "https://openalex.org/T13129",
       "display_name": "Material Properties and Applications",
-      "value": 5.88e-05,
+      "value": 5.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -163,7 +202,7 @@
     {
       "id": "https://openalex.org/T11664",
       "display_name": "Fiber-reinforced polymer composites",
-      "value": 2.66e-05,
+      "value": 2.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -198,6 +237,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210104999",
-  "updated_date": "2026-10-06T05:59:16",
+  "updated_date": "2026-10-26T23:48:29",
   "created_date": "2022-02-02T04:48:36"
 }

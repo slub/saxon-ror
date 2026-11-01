@@ -25,10 +25,12 @@
     "Elblandklinikum Meißen"
   ],
   "repositories": [],
-  "works_count": 203,
-  "cited_by_count": 3917,
+  "works_count": 204,
+  "works_count_with_children": 204,
+  "works_count_with_children_and_predecessors": 204,
+  "cited_by_count": 3918,
   "summary_stats": {
-    "2yr_mean_citedness": 5.037037037037037,
+    "2yr_mean_citedness": 5.035714285714286,
     "h_index": 34,
     "i10_index": 94
   },
@@ -62,112 +64,112 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 6,
+      "works_count": 7,
       "oa_works_count": 5,
-      "cited_by_count": 1
+      "cited_by_count": 191
     },
     {
       "year": 2025,
       "works_count": 8,
       "oa_works_count": 7,
-      "cited_by_count": 8
+      "cited_by_count": 270
     },
     {
       "year": 2024,
       "works_count": 10,
-      "oa_works_count": 7,
-      "cited_by_count": 123
+      "oa_works_count": 6,
+      "cited_by_count": 244
     },
     {
       "year": 2023,
       "works_count": 10,
       "oa_works_count": 8,
-      "cited_by_count": 93
+      "cited_by_count": 214
     },
     {
       "year": 2022,
       "works_count": 9,
       "oa_works_count": 6,
-      "cited_by_count": 53
+      "cited_by_count": 234
     },
     {
       "year": 2021,
       "works_count": 8,
       "oa_works_count": 5,
-      "cited_by_count": 31
+      "cited_by_count": 258
     },
     {
       "year": 2020,
       "works_count": 13,
-      "oa_works_count": 11,
-      "cited_by_count": 310
+      "oa_works_count": 10,
+      "cited_by_count": 219
     },
     {
       "year": 2019,
       "works_count": 7,
       "oa_works_count": 2,
-      "cited_by_count": 46
+      "cited_by_count": 161
     },
     {
       "year": 2018,
       "works_count": 9,
       "oa_works_count": 4,
-      "cited_by_count": 105
+      "cited_by_count": 150
     },
     {
       "year": 2017,
       "works_count": 12,
       "oa_works_count": 3,
-      "cited_by_count": 282
+      "cited_by_count": 149
     },
     {
       "year": 2016,
       "works_count": 16,
       "oa_works_count": 5,
-      "cited_by_count": 146
+      "cited_by_count": 103
     },
     {
       "year": 2015,
       "works_count": 12,
       "oa_works_count": 2,
-      "cited_by_count": 198
+      "cited_by_count": 95
     },
     {
       "year": 2014,
       "works_count": 9,
       "oa_works_count": 3,
-      "cited_by_count": 157
+      "cited_by_count": 79
     },
     {
       "year": 2013,
       "works_count": 9,
-      "oa_works_count": 4,
-      "cited_by_count": 496
+      "oa_works_count": 3,
+      "cited_by_count": 49
     },
     {
       "year": 2012,
       "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 111
+      "cited_by_count": 27
     },
     {
       "year": 2011,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 83
+      "cited_by_count": 0
     },
     {
       "year": 2010,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 16
+      "cited_by_count": 0
     }
   ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4405270983",
-      "works_count": 203
+      "works_count": 204
     }
   ],
   "topics": [
@@ -264,7 +266,7 @@
     {
       "id": "https://openalex.org/T10009",
       "display_name": "Dementia and Cognitive Impairment Research",
-      "count": 8,
+      "count": 9,
       "score": 0.6991999745368958,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
@@ -352,6 +354,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T10316",
+      "display_name": "Sleep and related disorders",
+      "count": 6,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10816",
       "display_name": "Cerebrovascular and Carotid Artery Diseases",
       "count": 6,
@@ -403,24 +423,6 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10316",
-      "display_name": "Sleep and related disorders",
-      "count": 5,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -626,7 +628,7 @@
     {
       "id": "https://openalex.org/T14344",
       "display_name": "Pathogenesis and Treatment of Hiccups",
-      "value": 0.0003817,
+      "value": 0.0003812,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -643,7 +645,7 @@
     {
       "id": "https://openalex.org/T10085",
       "display_name": "Parkinson's Disease Mechanisms and Treatments",
-      "value": 0.0001457,
+      "value": 0.0001453,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -660,7 +662,7 @@
     {
       "id": "https://openalex.org/T11763",
       "display_name": "Intracerebral and Subarachnoid Hemorrhage Research",
-      "value": 0.000144,
+      "value": 0.0001437,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -677,7 +679,7 @@
     {
       "id": "https://openalex.org/T14360",
       "display_name": "Psidium guajava Extracts and Applications",
-      "value": 0.0001415,
+      "value": 0.0001408,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -694,7 +696,7 @@
     {
       "id": "https://openalex.org/T13543",
       "display_name": "Oropharyngeal Anatomy and Pathologies",
-      "value": 0.0001265,
+      "value": 0.0001262,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -711,7 +713,7 @@
     {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "value": 0.0001262,
+      "value": 0.0001256,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -728,7 +730,7 @@
     {
       "id": "https://openalex.org/T10919",
       "display_name": "Neurological disorders and treatments",
-      "value": 0.0001193,
+      "value": 0.0001192,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -745,7 +747,7 @@
     {
       "id": "https://openalex.org/T10420",
       "display_name": "Intracranial Aneurysms: Treatment and Complications",
-      "value": 0.0001079,
+      "value": 0.0001076,
       "subfield": {
         "id": "https://openalex.org/subfields/2728",
         "display_name": "Neurology"
@@ -762,7 +764,7 @@
     {
       "id": "https://openalex.org/T13962",
       "display_name": "Omental and Epiploic Conditions",
-      "value": 0.0001046,
+      "value": 0.0001045,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -779,7 +781,7 @@
     {
       "id": "https://openalex.org/T12901",
       "display_name": "Tattoo and Body Piercing Complications",
-      "value": 9.83e-05,
+      "value": 9.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -796,7 +798,7 @@
     {
       "id": "https://openalex.org/T14297",
       "display_name": "Plant-Derived Bioactive Compounds",
-      "value": 9.79e-05,
+      "value": 9.78e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1605",
         "display_name": "Organic Chemistry"
@@ -813,7 +815,7 @@
     {
       "id": "https://openalex.org/T12625",
       "display_name": "Sympathectomy and Hyperhidrosis Treatments",
-      "value": 9.02e-05,
+      "value": 9.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -830,7 +832,7 @@
     {
       "id": "https://openalex.org/T12918",
       "display_name": "Healthcare Systems and Technology",
-      "value": 8.32e-05,
+      "value": 8.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1407",
         "display_name": "Organizational Behavior and Human Resource Management"
@@ -847,7 +849,7 @@
     {
       "id": "https://openalex.org/T10872",
       "display_name": "Veterinary Equine Medical Research",
-      "value": 7.91e-05,
+      "value": 7.9e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3402",
         "display_name": "Equine"
@@ -864,7 +866,7 @@
     {
       "id": "https://openalex.org/T10227",
       "display_name": "Acute Ischemic Stroke Management",
-      "value": 7.4e-05,
+      "value": 7.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -881,7 +883,7 @@
     {
       "id": "https://openalex.org/T12297",
       "display_name": "Otolaryngology and Infectious Diseases",
-      "value": 7e-05,
+      "value": 6.98e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2725",
         "display_name": "Infectious Diseases"
@@ -898,7 +900,7 @@
     {
       "id": "https://openalex.org/T12600",
       "display_name": "Eosinophilic Disorders and Syndromes",
-      "value": 6.93e-05,
+      "value": 6.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -915,7 +917,7 @@
     {
       "id": "https://openalex.org/T11667",
       "display_name": "Advanced Chemical Sensor Technologies",
-      "value": 6.82e-05,
+      "value": 6.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -932,7 +934,7 @@
     {
       "id": "https://openalex.org/T14108",
       "display_name": "Medical and Pharmaceutic Studies",
-      "value": 6.77e-05,
+      "value": 6.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -947,26 +949,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11123",
-      "display_name": "Obsessive-Compulsive Spectrum Disorders",
-      "value": 6.4e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10971",
       "display_name": "Olfactory and Sensory Function Studies",
-      "value": 6.38e-05,
+      "value": 6.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -978,6 +963,23 @@
       "domain": {
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11123",
+      "display_name": "Obsessive-Compulsive Spectrum Disorders",
+      "value": 6.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -1000,7 +1002,7 @@
     {
       "id": "https://openalex.org/T11473",
       "display_name": "Appendicitis Diagnosis and Management",
-      "value": 5.87e-05,
+      "value": 5.85e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
         "display_name": "Emergency Medicine"
@@ -1017,7 +1019,7 @@
     {
       "id": "https://openalex.org/T13738",
       "display_name": "Congenital Ear and Nasal Anomalies",
-      "value": 5.78e-05,
+      "value": 5.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2716",
         "display_name": "Genetics"
@@ -1034,7 +1036,7 @@
     {
       "id": "https://openalex.org/T14020",
       "display_name": "Medical research and treatments",
-      "value": 5.55e-05,
+      "value": 5.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -1052,6 +1054,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405270983",
-  "updated_date": "2026-10-16T18:21:27",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-07-22T03:30:22"
 }

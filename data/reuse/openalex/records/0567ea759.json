@@ -26,11 +26,13 @@
   ],
   "repositories": [],
   "works_count": 120,
-  "cited_by_count": 1878,
+  "works_count_with_children": 120,
+  "works_count_with_children_and_predecessors": 120,
+  "cited_by_count": 1891,
   "summary_stats": {
-    "2yr_mean_citedness": 1.1533333333333333,
+    "2yr_mean_citedness": 1.1282051282051282,
     "h_index": 19,
-    "i10_index": 70
+    "i10_index": 74
   },
   "ids": {
     "openalex": "https://openalex.org/I4405273043",
@@ -79,86 +81,98 @@
     {
       "year": 2026,
       "works_count": 9,
-      "oa_works_count": 9,
-      "cited_by_count": 11
+      "oa_works_count": 8,
+      "cited_by_count": 128
     },
     {
       "year": 2025,
       "works_count": 25,
       "oa_works_count": 23,
-      "cited_by_count": 12
+      "cited_by_count": 155
     },
     {
       "year": 2024,
       "works_count": 18,
       "oa_works_count": 16,
-      "cited_by_count": 40
+      "cited_by_count": 78
     },
     {
       "year": 2023,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 34
+      "cited_by_count": 77
     },
     {
       "year": 2022,
       "works_count": 11,
       "oa_works_count": 8,
-      "cited_by_count": 66
+      "cited_by_count": 79
     },
     {
       "year": 2021,
       "works_count": 10,
       "oa_works_count": 4,
-      "cited_by_count": 106
+      "cited_by_count": 41
     },
     {
       "year": 2020,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 11
+      "cited_by_count": 37
     },
     {
       "year": 2019,
       "works_count": 4,
       "oa_works_count": 2,
-      "cited_by_count": 27
+      "cited_by_count": 37
     },
     {
       "year": 2018,
       "works_count": 12,
       "oa_works_count": 0,
-      "cited_by_count": 84
+      "cited_by_count": 43
     },
     {
       "year": 2017,
       "works_count": 5,
       "oa_works_count": 1,
-      "cited_by_count": 28
+      "cited_by_count": 18
     },
     {
       "year": 2016,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 12
+      "cited_by_count": 32
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 10
     },
     {
       "year": 2014,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 169
+      "cited_by_count": 17
+    },
+    {
+      "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     },
     {
       "year": 2012,
       "works_count": 5,
       "oa_works_count": 1,
-      "cited_by_count": 77
+      "cited_by_count": 9
     },
     {
       "year": 2011,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 29
+      "cited_by_count": 0
     }
   ],
   "roles": [
@@ -260,6 +274,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13344",
+      "display_name": "Industrial Automation and Control Systems",
+      "count": 10,
+      "score": 0.3589000105857849,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10313",
       "display_name": "Surface Modification and Superhydrophobicity",
       "count": 9,
@@ -296,27 +328,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13344",
-      "display_name": "Industrial Automation and Control Systems",
-      "count": 9,
-      "score": 0.1858000010251999,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12092",
       "display_name": "Erosion and Abrasive Machining",
-      "count": 8,
+      "count": 9,
       "score": 0.8452000021934509,
       "subfield": {
         "id": "https://openalex.org/subfields/2302",
@@ -329,6 +343,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11455",
+      "display_name": "Microbial Inactivation Methods",
+      "count": 8,
+      "score": 0.46480000019073486,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
@@ -350,13 +382,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10876",
-      "display_name": "Fault Detection and Control Systems",
+      "id": "https://openalex.org/T12111",
+      "display_name": "Industrial Vision Systems and Defect Detection",
       "count": 7,
-      "score": 0.9750999808311462,
+      "score": 0.9286999702453613,
       "subfield": {
-        "id": "https://openalex.org/subfields/2207",
-        "display_name": "Control and Systems Engineering"
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -365,24 +397,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11455",
-      "display_name": "Microbial Inactivation Methods",
-      "count": 7,
-      "score": 0.46480000019073486,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1305",
-        "display_name": "Biotechnology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
       }
     },
     {
@@ -404,31 +418,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10998",
-      "display_name": "Heat Transfer and Optimization",
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
       "count": 6,
-      "score": 0.9487000107765198,
+      "score": 0.9750999808311462,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12111",
-      "display_name": "Industrial Vision Systems and Defect Detection",
-      "count": 6,
-      "score": 0.9286999702453613,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -469,6 +465,24 @@
       "field": {
         "id": "https://openalex.org/fields/25",
         "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10998",
+      "display_name": "Heat Transfer and Optimization",
+      "count": 5,
+      "score": 0.9487000107765198,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -602,21 +616,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T10888",
-      "display_name": "Augmented Reality Applications",
+      "id": "https://openalex.org/T10900",
+      "display_name": "Listeria monocytogenes in Food Safety",
       "count": 4,
-      "score": 0.051600001752376556,
+      "score": 0.010599999688565731,
       "subfield": {
-        "id": "https://openalex.org/subfields/1707",
-        "display_name": "Computer Vision and Pattern Recognition"
+        "id": "https://openalex.org/subfields/1305",
+        "display_name": "Biotechnology"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     }
   ],
@@ -624,7 +638,7 @@
     {
       "id": "https://openalex.org/T12971",
       "display_name": "Material Properties and Processing",
-      "value": 0.0005916,
+      "value": 0.0005905,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -641,7 +655,7 @@
     {
       "id": "https://openalex.org/T13965",
       "display_name": "Laser and Thermal Forming Techniques",
-      "value": 0.0002468,
+      "value": 0.0002464,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -656,26 +670,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11957",
-      "display_name": "Food Safety and Hygiene",
-      "value": 0.0001919,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1106",
-        "display_name": "Food Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12092",
       "display_name": "Erosion and Abrasive Machining",
-      "value": 0.0001754,
+      "value": 0.0001968,
       "subfield": {
         "id": "https://openalex.org/subfields/2302",
         "display_name": "Ecological Modeling"
@@ -690,9 +687,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11957",
+      "display_name": "Food Safety and Hygiene",
+      "value": 0.0001913,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14055",
       "display_name": "Consumer Packaging Perceptions and Trends",
-      "value": 0.000154,
+      "value": 0.0001526,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -709,7 +723,7 @@
     {
       "id": "https://openalex.org/T10864",
       "display_name": "Fluid Dynamics and Mixing",
-      "value": 0.0001485,
+      "value": 0.0001482,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -726,7 +740,7 @@
     {
       "id": "https://openalex.org/T11864",
       "display_name": "Supply Chain Resilience and Risk Management",
-      "value": 0.0001078,
+      "value": 0.0001064,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -743,7 +757,7 @@
     {
       "id": "https://openalex.org/T12080",
       "display_name": "Injection Molding Process and Properties",
-      "value": 0.0001041,
+      "value": 0.0001038,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -758,26 +772,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10313",
-      "display_name": "Surface Modification and Superhydrophobicity",
-      "value": 9.16e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2508",
-        "display_name": "Surfaces, Coatings and Films"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13344",
       "display_name": "Industrial Automation and Control Systems",
-      "value": 8.89e-05,
+      "value": 9.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -792,9 +789,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10313",
+      "display_name": "Surface Modification and Superhydrophobicity",
+      "value": 9.13e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2508",
+        "display_name": "Surfaces, Coatings and Films"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
-      "value": 8.65e-05,
+      "value": 8.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -811,7 +825,7 @@
     {
       "id": "https://openalex.org/T11455",
       "display_name": "Microbial Inactivation Methods",
-      "value": 7.17e-05,
+      "value": 8.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1305",
         "display_name": "Biotechnology"
@@ -826,9 +840,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11842",
+      "display_name": "Ultrasound and Cavitation Phenomena",
+      "value": 7.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13192",
       "display_name": "Forensic Fingerprint Detection Methods",
-      "value": 6.96e-05,
+      "value": 6.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3311",
         "display_name": "Safety Research"
@@ -862,7 +893,7 @@
     {
       "id": "https://openalex.org/T10700",
       "display_name": "Metal Forming Simulation Techniques",
-      "value": 6.48e-05,
+      "value": 6.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -879,7 +910,7 @@
     {
       "id": "https://openalex.org/T13722",
       "display_name": "Ergonomics and Human Factors",
-      "value": 6.37e-05,
+      "value": 6.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -896,7 +927,7 @@
     {
       "id": "https://openalex.org/T13734",
       "display_name": "Advanced Computational Techniques and Applications",
-      "value": 6.02e-05,
+      "value": 6.01e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -913,7 +944,7 @@
     {
       "id": "https://openalex.org/T10900",
       "display_name": "Listeria monocytogenes in Food Safety",
-      "value": 5.57e-05,
+      "value": 5.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1305",
         "display_name": "Biotechnology"
@@ -928,26 +959,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11842",
-      "display_name": "Ultrasound and Cavitation Phenomena",
-      "value": 5.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10610",
       "display_name": "Advanced Cellulose Research Studies",
-      "value": 5.31e-05,
+      "value": 5.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2502",
         "display_name": "Biomaterials"
@@ -964,7 +978,7 @@
     {
       "id": "https://openalex.org/T11741",
       "display_name": "Flexible and Reconfigurable Manufacturing Systems",
-      "value": 5.23e-05,
+      "value": 5.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -981,7 +995,7 @@
     {
       "id": "https://openalex.org/T11807",
       "display_name": "Infrastructure Resilience and Vulnerability Analysis",
-      "value": 5.22e-05,
+      "value": 5.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -996,9 +1010,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12111",
+      "display_name": "Industrial Vision Systems and Defect Detection",
+      "value": 4.81e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12349",
       "display_name": "Food Chemistry and Fat Analysis",
-      "value": 4.72e-05,
+      "value": 4.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1106",
         "display_name": "Food Science"
@@ -1015,27 +1046,10 @@
     {
       "id": "https://openalex.org/T12938",
       "display_name": "Material Selection and Properties",
-      "value": 4.71e-05,
+      "value": 4.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10859",
-      "display_name": "Polymer Surface Interaction Studies",
-      "value": 4.59e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2508",
-        "display_name": "Surfaces, Coatings and Films"
       },
       "field": {
         "id": "https://openalex.org/fields/25",
@@ -1050,6 +1064,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405273043",
-  "updated_date": "2026-10-18T18:22:31",
+  "updated_date": "2026-10-31T18:21:36",
   "created_date": "2026-07-22T03:30:22"
 }
