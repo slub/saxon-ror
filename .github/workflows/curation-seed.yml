@@ -1,10 +1,12 @@
 name: Reseed ROR curation links
 
 # Re-runs scripts/update_curation.py --seed across every record, catching links
-# that update.yml's scoped seed could not see yet: an "add new organization"
-# request only becomes linkable once its "Assigned ROR ID ... in release vX.Y"
-# comment is posted, which can lag the dump by weeks. Opens a PR only when the
-# seed finds something new; most runs are a no-op.
+# that update.yml's scoped seed misses: it only searches records the new dump
+# touched, so modify/deprecate requests filed against any other record are never
+# seen there; and an "add new organization" request only becomes linkable once
+# its "Assigned ROR ID ... in release vX.Y" comment is posted, which can lag the
+# dump by weeks. Opens a PR only when the seed finds something new; most runs
+# are a no-op.
 
 on:
   schedule:
@@ -76,27 +78,31 @@ jobs:
                   for n in numbers
               )
 
-          added = sorted(set(after) - set(before))
-          updated = sorted(
-              sfx for sfx in (set(after) & set(before))
-              if sorted(after[sfx]) != sorted(before[sfx])
-          )
+          # Only the issues this run linked, so a record's long-known requests
+          # do not hide what is new.
+          new = {
+              sfx: sorted(set(nums) - set(before.get(sfx, [])), reverse=True)
+              for sfx, nums in after.items()
+          }
+          first = sorted(sfx for sfx in new if new[sfx] and sfx not in before)
+          further = sorted(sfx for sfx in new if new[sfx] and sfx in before)
 
           print(
-              "Automated re-seed from `ror-community/ror-updates` -- picks up "
-              "curation issues that were closed (and got their `Assigned ROR ID` "
-              "assignment comment) since the last seed run."
+              "Automated re-seed from `ror-community/ror-updates` -- links curation "
+              "requests found since the last seed run: update/modify/deprecate "
+              "requests naming a record's ROR ID (open or closed), and add requests "
+              "once their `Assigned ROR ID` comment has been posted."
           )
           print()
-          if added:
-              print(f"**New records linked ({len(added)}):**")
-              for sfx in added:
-                  print(f"- `{sfx}`: {links(after[sfx])}")
+          if first:
+              print(f"**Records with their first curation request ({len(first)}):**")
+              for sfx in first:
+                  print(f"- `{sfx}`: {links(new[sfx])}")
               print()
-          if updated:
-              print(f"**Records with additional issues linked ({len(updated)}):**")
-              for sfx in updated:
-                  print(f"- `{sfx}`: {links(after[sfx])}")
+          if further:
+              print(f"**Records with further curation requests ({len(further)}):**")
+              for sfx in further:
+                  print(f"- `{sfx}`: {links(new[sfx])}")
           PY
 
       - name: Open curation-update pull request
