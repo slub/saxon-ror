@@ -170,7 +170,8 @@ def main() -> int:
     }
     R.write_meta(meta)
 
-    problems = R.validate_pairing()
+    # Own layer only: another companion may still await its post-ROR refresh.
+    problems = R.validate_pairing(reuse_sources=["openalex"])
     if problems:
         print("ERROR: data consistency problems:", file=sys.stderr)
         for p in problems:

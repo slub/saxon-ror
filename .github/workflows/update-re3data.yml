@@ -1,0 +1,146 @@
+name: Update re3data companion data
+
+# Refreshes the re3data companion layer monthly and after ROR id list changes.
+# It proposes only the reuse.re3data block of data/meta.json, but PRs of the
+# other data workflows can still conflict there textually.
+
+on:
+  schedule:
+    # Second day of each month, 10:45 UTC, clear of the other scheduled jobs.
+    - cron: "45 10 2 * *"
+  push:
+    branches: [main]
+    paths:
+      # The script's only ROR input. Companion-only merges do not retrigger.
+      - data/records.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: re3data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # A failed run leaves the previous layer untouched and opens no PR.
+      - name: Update re3data companion data
+        run: python scripts/update_re3data.py
+
+      - name: Summarize changes
+        id: diff
+        run: |
+          set -euo pipefail
+          # Stage only this companion (incl. deletions) and meta.json.
+          git add -A -- data/reuse/re3data data/meta.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No re3data changes."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          python3 - <<'PY' > /tmp/pr-body.md
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          def at_head(path, default):
+              show = subprocess.run(["git", "show", f"HEAD:{path}"],
+                                    capture_output=True, text=True)
+              return json.loads(show.stdout) if show.returncode == 0 else default
+
+          meta_before = at_head("data/meta.json", {})
+          meta_after = json.loads(Path("data/meta.json").read_text())
+
+          # Refuse to propose meta.json changes outside reuse.re3data.
+          strip = lambda m: {**m, "reuse": {k: v for k, v in m.get("reuse", {}).items() if k != "re3data"}}
+          if strip(meta_before) != strip(meta_after):
+              sys.exit("meta.json changed outside reuse.re3data -- refusing to propose it")
+
+          before = meta_before.get("reuse", {}).get("re3data", {})
+          after = meta_after["reuse"]["re3data"]
+
+          def pairs(records):
+              return {(r["ror_id"], repo["re3data_id"]): repo["name"]
+                      for r in records for repo in r["repositories"]}
+
+          old = pairs(at_head("data/reuse/re3data/records.json", []))
+          new = pairs(json.loads(Path("data/reuse/re3data/records.json").read_text()))
+
+          print("Automated refresh of the re3data companion layer "
+                f"(export retrieved {after['retrieved']}).")
+          print()
+          print("| Counter | Before | After | Delta |")
+          print("| --- | ---: | ---: | ---: |")
+          for key in ("ror_total", "matched", "missing", "repositories", "relationships",
+                      "matched_institution_entries"):
+              o, n = before.get(key, 0), after[key]
+              print(f"| `{key}` | {o} | {n} | {n - o:+d} |")
+          print()
+          print("`repositories` counts distinct re3data ids; `relationships` counts "
+                "ROR record – repository pairs (one repository can name several "
+                "Saxon organizations).")
+          print()
+          for title, keys in (("Added relationships", sorted(new.keys() - old.keys())),
+                              ("Removed relationships", sorted(old.keys() - new.keys()))):
+              print(f"**{title} ({len(keys)}):**")
+              for ror, rid in keys:
+                  name = new.get((ror, rid)) or old.get((ror, rid))
+                  print(f"- `{ror.rsplit('/', 1)[-1]}` – `{rid}` {name}")
+              if not keys:
+                  print("None.")
+              print()
+
+          changed = subprocess.run(
+              ["git", "diff", "--cached", "--no-renames", "--diff-filter=M", "--name-only",
+               "--", "data/reuse/re3data/sources/"],
+              capture_output=True, text=True, check=True,
+          ).stdout.split()
+          print(f"**Updated source records ({len(changed)}):** "
+                + (", ".join(f"`{Path(p).stem}`" for p in changed) or "None."))
+          print()
+          rejected = after.get("rejected_ror_identifiers", [])
+          print(f"{len(rejected)} ROR-typed identifiers in the export were rejected "
+                "as malformed (listed in `data/meta.json`).")
+          PY
+          cat /tmp/pr-body.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open re3data-update pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # One reusable branch, so a refresh replaces an open proposal.
+          branch="automated/re3data-update"
+          git switch -c "$branch"
+          git commit -m "reuse: refresh re3data companion layer"
+          git push --force origin "$branch"
+
+          gh label create re3data-update --color 1d76db --force >/dev/null 2>&1 || true
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            gh pr create \
+              --base main --head "$branch" \
+              --title "reuse: refresh re3data companion layer" \
+              --body-file /tmp/pr-body.md \
+              --label re3data-update
+          else
+            gh pr edit "$branch" --body-file /tmp/pr-body.md --add-label re3data-update
+          fi

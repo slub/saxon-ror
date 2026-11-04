@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100010431</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R36W3R</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">Pairfam</r3d:repositoryName>
+				<r3d:additionalName language="eng">FDZ pairfam</r3d:additionalName>
+				<r3d:additionalName language="eng">Forschungsdatenzentrum pairfam</r3d:additionalName>
+				<r3d:additionalName language="eng">Panel Analysis of Intimate Relationships and Family Dynamics</r3d:additionalName>
+				<r3d:repositoryUrl>https://www.pairfam.de/en/</r3d:repositoryUrl>
+				<r3d:description language="eng">&lt;&lt;&lt;!!!&lt;&lt;&lt; This is an archived website (as of 2025-07-09), data access can still be requested&gt;&gt;&gt;!!!&gt;&gt;&gt; 
+The 2008-launched German Family Panel pairfam (“Panel Analysis of Intimate Relationships and Family Dynamics”) is a multi-disciplinary, longitudinal study for researching partnership and family dynamics in Germany. The annually collected survey data from a nationwide random sample of more than 12,000 persons of the three birth cohorts 1971-73, 1981-83, 1991-93 and their partners, parents and children offers unique opportunities for the analysis of partner and generational relationships as they develop over the course of multiple life phases. A restocking and refreshment sample in wave 11 has added the birth cohort 2001-03.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>https://www.pairfam.de/en/links/contact/</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>support@pairfam.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+						<r3d:size>sample of more than 12.000 persons of the three birth cohorts 1971-73, 1981-83, 1991-93 and their partners, parents and children</r3d:size>
+						<r3d:startDate>2008-05-01</r3d:startDate>
+        				<r3d:endDate>
+						<r3d:closed>2025-07-09</r3d:closed>
+								</r3d:endDate>
+        							<r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+					<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>12302</r3d:subjectId>
+				<r3d:subjectName>Empirical Social Research</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>1</r3d:subjectId>
+				<r3d:subjectName>Humanities and Social Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>123</r3d:subjectId>
+				<r3d:subjectName>Social Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>12</r3d:subjectId>
+				<r3d:subjectName>Social and Behavioural Sciences</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.pairfam.de/en/study/concept-and-design/</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/NHD0-W6SY</r3d:contentTypeId>
+				<r3d:contentTypeName>survey data</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_18cf</r3d:contentTypeId>
+				<r3d:contentTypeName>text</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+							<r3d:keyword>child development</r3d:keyword>
+					<r3d:keyword>empirical social research</r3d:keyword>
+					<r3d:keyword>intergenerational relationships</r3d:keyword>
+					<r3d:keyword>parenthood</r3d:keyword>
+					<r3d:keyword>parenting</r3d:keyword>
+					<r3d:keyword>partnership</r3d:keyword>
+					<r3d:keyword>social embeddedness</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="eng">Chemnitz University of Technology</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Technische Universität Chemnitz</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+									<r3d:responsibilityType>technical</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.tu-chemnitz.de/index.html</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/00a208s56</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Friedrich Schiller University Jena</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Friedrich-Schiller-Universität Jena</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.uni-jena.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/05qpz1x62</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011249</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">German Research Foundation</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">DFG</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Deutsche Forschungsgemeinschaft</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.dfg.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/018mejw64</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_012420</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:nlx_144062</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">LMU Munich</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">LMU</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Ludwig-Maximilians-Universität München</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.lmu.de/en/index.html</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/05591te55</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011358</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:nlx_28705</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">University of Bremen</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Universität Bremen</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.uni-bremen.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/04ers2y35</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011612</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">University of Cologne</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Universität zu Köln</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://portal.uni-koeln.de/en/uoc-home</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/00rcxh774</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_002903</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Access to pairfam Data</r3d:policyName>
+				<r3d:policyUrl>https://www.pairfam.de/en/data/data-access/</r3d:policyUrl>
+			</r3d:policy>
+					<r3d:policy>
+				<r3d:policyName>Kriterien des RatSWD</r3d:policyName>
+				<r3d:policyUrl>https://www.konsortswd.de/wp-content/uploads/RatSWD_FDZKriterien.PDF</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+					<r3d:databaseLicense>
+				<r3d:databaseLicenseName>Copyrights</r3d:databaseLicenseName>
+				<r3d:databaseLicenseUrl>https://www.pairfam.de/en/links/legal-notes/</r3d:databaseLicenseUrl>
+			</r3d:databaseLicense>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+					<r3d:dataAccess>
+				<r3d:dataAccessType>restricted</r3d:dataAccessType>
+									<r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://www.pairfam.de/en/links/legal-notes/</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>closed</r3d:dataUploadType>
+							</r3d:dataUpload>
+									<r3d:software>unknown</r3d:software>
+							<r3d:versioning>yes</r3d:versioning>
+									<r3d:pidSystem>DOI</r3d:pidSystem>
+											<r3d:citationGuidelineUrl>https://www.pairfam.de/en/data/citation/</r3d:citationGuidelineUrl>
+																		<r3d:remarks>FDZ pairfam was a member of the RatSWD research data infrastructure until 2024. FDZ pairfam was RatSWD accredited from 2010 until 2024.
+The pairfam data are archived and described in the GESIS data catalog: https://search.gesis.org/research_data/ZA5678</r3d:remarks>
+		<r3d:entryDate>2013-07-11</r3d:entryDate>
+		<r3d:lastUpdate>2025-07-09</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

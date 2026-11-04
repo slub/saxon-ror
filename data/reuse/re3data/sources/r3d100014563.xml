@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100014563</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R31NJNQB</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">German Human Genome-Phenome Archive</r3d:repositoryName>
+				<r3d:additionalName language="deu">Deutsches Humangenom-Phänomarchiv</r3d:additionalName>
+				<r3d:additionalName language="eng">GHGA</r3d:additionalName>
+				<r3d:repositoryUrl>https://data.ghga.de/</r3d:repositoryUrl>
+				<r3d:repositoryIdentifier>
+			<r3d:repositoryIdentifierType>Wikidata</r3d:repositoryIdentifierType>
+			<r3d:repositoryIdentifierValue>Q98380337</r3d:repositoryIdentifierValue>
+		</r3d:repositoryIdentifier>
+				<r3d:description language="eng">The German Human Genome-Phenome Archive (GHGA) is a dedicated repository for storing and sharing diverse genomic and phenotypic data from a wide range of scientific studies, including clinical trials, population research, routine healthcare, and biomedical investigations usually coming from research institutions in Germany. By connecting with international initiatives such as the European Genome-phenome Archive (EGA) and the European Genomic Data Infrastructure (GDI), GHGA ensures that data is FAIRly stored, accessible, and interoperable across the globe.
+GHGA has set up a trusted, long-term repository, with plans to preserve data at every stage, from raw sequencing files to processed data and research results. Developed in phases, GHGA will continually add features that support secondary research, including secure processing environments, data statistics, and data analysis tools. In this way, GHGA provides a secure and evolving resource for researchers, accelerating scientific discoveries and the development of innovative healthcare solutions.
+Recognizing the sensitivity of human omics data, GHGA ensures strict data protection through robust security systems that maintain patient privacy and comply with ethical standards. Access to restricted datasets is not managed by GHGA, but by relevant Data Access Committees (DACs) appointed by the respective data controllers. DACs oversee requests based on established ethical and legal guidelines, while complying with the data subject’s consent. GHGA functions as an intermediate - who facilitates access for authorized users, such as researchers and healthcare professionals, ensuring that only those with proper clearance can access controlled data.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>contact@ghga.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>https://www.ghga.de/about-us/contact</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>support</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+						<r3d:size>66 datasets, 2.046 donors, 11.802 files</r3d:size>
+						<r3d:startDate>2020-10-01</r3d:startDate>
+        									<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>211</r3d:subjectId>
+				<r3d:subjectName>Basic Research in Biology and Medicine</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>21107</r3d:subjectId>
+				<r3d:subjectName>Bioinformatics and Theoretical Biology</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>21</r3d:subjectId>
+				<r3d:subjectName>Biology</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>22214</r3d:subjectId>
+				<r3d:subjectName>Hematology, Oncology</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>22203</r3d:subjectId>
+				<r3d:subjectName>Human Genetics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>2</r3d:subjectId>
+				<r3d:subjectName>Life Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>22207</r3d:subjectId>
+				<r3d:subjectName>Medical Informatics and Medical Bioinformatics</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>22</r3d:subjectId>
+				<r3d:subjectName>Medicine</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>222</r3d:subjectId>
+				<r3d:subjectName>Medicine</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.ghga.de/about-us/mission</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/63NG-B465</r3d:contentTypeId>
+				<r3d:contentTypeName>experimental data</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/A8F1-NPV9</r3d:contentTypeId>
+				<r3d:contentTypeName>genomic data</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+					<r3d:providerType>serviceProvider</r3d:providerType>
+							<r3d:keyword>EGA</r3d:keyword>
+					<r3d:keyword>FAIR</r3d:keyword>
+					<r3d:keyword>Genomics</r3d:keyword>
+					<r3d:keyword>NFDI</r3d:keyword>
+					<r3d:keyword>cancer</r3d:keyword>
+					<r3d:keyword>human data</r3d:keyword>
+					<r3d:keyword>rare disease</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="eng">German Cancer Research Center</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">DKFZ</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Deutsches Krebsforschungszentrum</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.dkfz.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ISNI</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://isni.org/isni/0000000404920584</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/04cdgtt98</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_012942</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>GRID</r3d:institutionIdentifierType>
+																	<r3d:institutionIdentifierUrl>GRID:grid.7497.d</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">German Human Genome-Phenome Archive</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Deutsches Humangenom-Phänomarchiv</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.ghga.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/05nfk7108</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">German Research Foundation</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">DFG</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Deutsche Forschungsgemeinschaft</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.dfg.de/en</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/018mejw64</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_012420</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Max Delbrück Center for Molecular Medicine</r3d:institutionName>
+									<r3d:institutionAdditionalName language="eng">MDC-Berlin</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">Max Delbruck Center for Molecular Medicine</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.mdc-berlin.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/04p5ggc03</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011369</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">TU Dresden</r3d:institutionName>
+									<r3d:institutionAdditionalName language="eng">Dresden University of Technology</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Technische Universität Dresden</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://tu-dresden.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/042aqky30</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_004799</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Technical University of Munich</r3d:institutionName>
+									<r3d:institutionAdditionalName language="eng">TUM</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Technische Universität München</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.tum.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/02kkvpp62</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011560</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">University Hospital Schleswig-Holstein</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">UKSH</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Universitätsklinikum Schleswig-Holstein</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.uksh.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/01tvm6f46</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">University of Cologne</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Universität zu Köln</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">UzK</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.uni-koeln.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/00rcxh774</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_002903</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">University of Tübingen</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Eberhard Karls Universität Tübingen</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Universität Tübingen</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://uni-tuebingen.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/03a1kwz48</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_011735</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>GHGA Data Protection Policy</r3d:policyName>
+				<r3d:policyUrl>https://www.ghga.de/data-protection</r3d:policyUrl>
+			</r3d:policy>
+					<r3d:policy>
+				<r3d:policyName>GHGA Legal Documents</r3d:policyName>
+				<r3d:policyUrl>https://www.ghga.de/datenportal/legal-documents</r3d:policyUrl>
+			</r3d:policy>
+					<r3d:policy>
+				<r3d:policyName>GHGA Terms of Use</r3d:policyName>
+				<r3d:policyUrl>https://zenodo.org/records/14357642</r3d:policyUrl>
+			</r3d:policy>
+					<r3d:policy>
+				<r3d:policyName>GHGA User Documentation</r3d:policyName>
+				<r3d:policyUrl>https://docs.ghga.de/</r3d:policyUrl>
+			</r3d:policy>
+							<r3d:fundingInformation>
+				<r3d:funderName>Nationale Forschungsdateninfrastruktur (NFDI)</r3d:funderName>
+											</r3d:fundingInformation>
+					<r3d:fundingInformation>
+				<r3d:funderName>German Research Foundation</r3d:funderName>
+									<r3d:funderIdentifier>
+						<r3d:funderIdentifierType>CrossrefFunderID</r3d:funderIdentifierType>
+						<r3d:funderIdentifierValue>501100001659</r3d:funderIdentifierValue>
+					</r3d:funderIdentifier>
+													<r3d:grantIdentifier>441914366</r3d:grantIdentifier>
+							</r3d:fundingInformation>
+				<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+					<r3d:databaseLicense>
+				<r3d:databaseLicenseName>CC</r3d:databaseLicenseName>
+				<r3d:databaseLicenseUrl>https://www.ghga.de/Downloads/GHGA_Licensing.pdf</r3d:databaseLicenseUrl>
+			</r3d:databaseLicense>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>restricted</r3d:dataAccessType>
+									<r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>other</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://www.ghga.de/Downloads/GHGA_Licensing.pdf</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>restricted</r3d:dataUploadType>
+									<r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+							</r3d:dataUpload>
+							<r3d:dataUploadLicense>
+				<r3d:dataUploadLicenseName>Submitting Data</r3d:dataUploadLicenseName>
+				<r3d:dataUploadLicenseUrl>https://docs.ghga.de/user_stories/submission/submitting_data/</r3d:dataUploadLicenseUrl>
+			</r3d:dataUploadLicense>
+									<r3d:versioning>yes</r3d:versioning>
+							<r3d:api>
+				<r3d:apiType>REST</r3d:apiType>
+				<r3d:apiUrl>https://data.ghga.de/api/metldata/</r3d:apiUrl>
+									<r3d:apiDocumentation>https://data.ghga.de/api/metldata/docs</r3d:apiDocumentation>
+							</r3d:api>
+					<r3d:api>
+				<r3d:apiType>REST</r3d:apiType>
+				<r3d:apiUrl>https://data.ghga.de/api/mass/</r3d:apiUrl>
+									<r3d:apiDocumentation>https://data.ghga.de/api/mass/docs</r3d:apiDocumentation>
+							</r3d:api>
+							<r3d:pidSystem>other</r3d:pidSystem>
+															<r3d:enhancedPublication>yes</r3d:enhancedPublication>
+														<r3d:remarks>For datasets with access restrictions, a designated Data Access Committee (DAC) is responsible for determining permissions. GHGA itself does not review data access requests; they are evaluated by the relevant DAC. The GHGA data infrastructure is designed as a federated network: https://www.ghga.de/about-us/how-we-work/data-hubs</r3d:remarks>
+		<r3d:entryDate>2025-03-13</r3d:entryDate>
+		<r3d:lastUpdate>2025-05-27</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

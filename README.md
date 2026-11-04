@@ -43,8 +43,9 @@ All organization types (education, funder, facility, government, healthcare, non
 
 - **ROR** — original data dumps published on Zenodo under the concept DOI `10.5281/zenodo.6347574`. The scripts always resolve the concept DOI to the latest version and use the v2 schema JSON. The exact dump version, version-specific DOI, and retrieval date are recorded in `data/meta.json`.
 - **OpenAlex** — fetched from the public OpenAlex institutions API. Derived companion data; ROR remains authoritative.
+- **re3data** — derived from re3data's full daily XML export (schema 4.0). re3data waives all rights to its database entries (CC0 1.0); its website text is CC BY 4.0, and the research data in the listed repositories carries the repositories' own licences — neither is part of this dataset.
 
-Both upstream sources are CC0 1.0. The data under `data/` is likewise dedicated to the public domain under [CC0 1.0 Universal](data/LICENSE); the code (scripts and website) is licensed under the [MIT License](LICENSE).
+All three upstream sources are CC0 1.0 for the data used here. The data under `data/` is likewise dedicated to the public domain under [CC0 1.0 Universal](data/LICENSE); the code (scripts and website) is licensed under the [MIT License](LICENSE).
 
 ## Reporting an error in a record
 
@@ -72,7 +73,7 @@ The full model — how each artifact is validated, when a release is `classified
 
 ## Companion data
 
-ROR is authoritative here. Other datasets that describe the same institutions live under `data/reuse/<source>/` as derived companion layers, never merged into the ROR records. Currently there is one source, OpenAlex. Every companion source follows the same pattern:
+ROR is authoritative here. Other datasets that describe the same institutions live under `data/reuse/<source>/` as derived companion layers, never merged into the ROR records. Currently there are two sources, OpenAlex and re3data. Every companion source follows the same pattern:
 
 ```
 data/reuse/<source>/
@@ -83,6 +84,8 @@ data/reuse/<source>/
 plus its own block in `data/meta.json` and a matching `scripts/update_<source>.py`.
 
 OpenAlex institution entities are keyed by ROR ID, so each record here is fetched via `filter=ror:<id>` from the OpenAlex institutions API and stored unmodified. Only the institution entities are kept — their built-in aggregates (`works_count`, `cited_by_count`, `counts_by_year`, `topics`) travel with the entity. No works/publication metadata is fetched. Being derived, the layer may lag behind or diverge from ROR — so, for example, some ROR records may have no OpenAlex counterpart. Match statistics are recorded in `data/meta.json`.
+
+re3data is read from its full daily XML export and filtered locally. A repository is linked to an organization only where one of its re3data institution entries names that organization by **explicit ROR identifier** — no name, domain or other-identifier matching, nothing inherited through ROR relationships. Here the per-record files are a small derived projection, not native re3data objects: each lists the linked repositories together with the matching institution entries and their own responsibility types (`general`, `technical`, `funding`, as defined in the re3data schema; other values are kept as given). These types are re3data's statements, not claims about operation, ownership or who may deposit. The original XML of every linked repository is kept unchanged under `data/reuse/re3data/sources/<re3data-id>.xml`. A record without a link means only that the evaluated export names it by no ROR ID — not that the organization has no repository. `data/meta.json` lists linked and unlinked ROR IDs and counts distinct `repositories` separately from ROR–repository `relationships`.
 
 ## Running the update locally
 
@@ -96,14 +99,17 @@ python scripts/update_ror.py
 export OPENALEX_API_KEY="your-key"   # optional; larger API allowance
 python scripts/update_openalex.py
 
-# 3. Refresh the release-history overlay (reads data/records.json and git).
+# 3. Refresh the re3data companion layer (reads data/records.json).
+python scripts/update_re3data.py     # or --input <export.zip>; --check validates
+
+# 4. Refresh the release-history overlay (reads data/records.json and git).
 export GITHUB_TOKEN="your-token"     # optional; higher GitHub rate limit
 python scripts/update_history.py
 ```
 
 `OPENALEX_API_KEY` is read from the environment only, never as a command-line option; without it the script warns and uses anonymous access. Requests always include `mailto=openalex@slub-dresden.de`, which `--mailto you@example.org` overrides. In CI, `update-openalex.yml` reads the repository secret of the same name, configured separately by a repository administrator: a missing secret warns and falls back anonymously, while a configured but rejected key, or another API failure, fails the step.
 
-Both refresh scripts fail loudly rather than write partial data. `update_ror.py` downloads the raw dump to a temporary directory outside the repository, commits only the filtered Saxon subset, and exits non-zero if that subset is empty or shrinks by more than 20% versus the previous run — a guard against an upstream schema change silently breaking the filter. `update_history.py` rebuilds the whole overlay every run, so the result depends only on upstream and not on what the file already said, and refuses to write at all if the release catalog comes back missing releases the overlay already records. Their module docstrings give the details.
+The refresh scripts fail loudly rather than write partial data. `update_re3data.py` builds the new layer in a staging directory and swaps it in only after the export parsed cleanly under the known schema and every consistency check passed; it also refuses to drop every match after a run that had some (`--allow-empty` overrides). `update_ror.py` downloads the raw dump to a temporary directory outside the repository, commits only the filtered Saxon subset, and exits non-zero if that subset is empty or shrinks by more than 20% versus the previous run — a guard against an upstream schema change silently breaking the filter. `update_history.py` rebuilds the whole overlay every run, so the result depends only on upstream and not on what the file already said, and refuses to write at all if the release catalog comes back missing releases the overlay already records. Their module docstrings give the details.
 
 Tests are standard-library `unittest` and never touch the network:
 
@@ -126,12 +132,13 @@ The workflows in `.github/workflows/`:
 
 - **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, updates the release history, links any curation requests for the records that changed, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
 - **`update-openalex.yml`** refreshes the OpenAlex companion layer monthly (first day, 10:15 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. Its separate `openalex-update` PR reports matching counters and added/removed matches; a changed retrieval date alone also counts as a refresh.
+- **`update-re3data.yml`** refreshes the re3data companion layer monthly (second day, 10:45 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. It commits only `data/reuse/re3data/` and the `reuse.re3data` block of `data/meta.json` to its `automated/re3data-update` branch and reports linked records, repositories, relationships and added/removed links in a `re3data-update` PR. Until that PR is merged after a ROR update, new records show as "not yet evaluated" on the site.
 - **`curation-seed.yml`** re-runs curation discovery across all records weekly, catching links that only became discoverable after the dump that introduced the record.
 - **`history-retry.yml`** re-runs release-history classification daily, so a release ROR had not annotated when its dump landed gets picked up later. While a data-update PR is open, it skips before checkout; after that PR is merged, retries classify against the updated records on `main`.
 - **`pages.yml`** deploys `www/` and the data files it needs to GitHub Pages, on push and weekly (so curation-request states stay current).
 - **`tag-releases.yml`** tags each dump commit on `main` with its ROR version.
 
-The four data workflows open a pull request only when they actually find a change; most runs are a no-op.
+The five data workflows open a pull request only when they actually find a change; most runs are a no-op.
 
 ## Git history as a change log
 
@@ -143,7 +150,7 @@ git log --format='%ad %s' --date=short data/records/
 
 reads as a true timeline of Saxon ROR records. Note the schema switch from v1 to v2 partway through: records are stored in whatever schema their dump provided (v1 records are not converted to v2), so the large diff at the transition is honest and expected.
 
-The backfill is a one-time operation (`scripts/backfill_history.py`), run manually and not part of the scheduled workflow. OpenAlex has no equivalent public snapshot history, so its companion data starts at the present.
+The backfill is a one-time operation (`scripts/backfill_history.py`), run manually and not part of the scheduled workflow. OpenAlex has no equivalent public snapshot history, so its companion data starts at the present; the re3data companion was likewise not backfilled.
 
 ## Repository layout
 
@@ -160,13 +167,15 @@ saxon-ror/
 │   ├── records/*.json
 │   ├── curation.json
 │   ├── history.json
-│   └── reuse/openalex/
+│   ├── reuse/openalex/
+│   └── reuse/re3data/          projection + verbatim source XML
 ├── scripts/
 │   ├── ror_lib.py              shared helpers (stdlib only)
 │   ├── ror_records.py          official per-release record deltas
 │   ├── ror_releases.py         official release-note reader
 │   ├── update_ror.py
 │   ├── update_openalex.py
+│   ├── update_re3data.py
 │   ├── update_curation.py
 │   ├── update_history.py
 │   └── backfill_history.py
@@ -175,6 +184,7 @@ saxon-ror/
 └── .github/workflows/
     ├── update.yml
     ├── update-openalex.yml
+    ├── update-re3data.yml
     ├── curation-seed.yml
     ├── history-retry.yml
     ├── pages.yml
@@ -198,6 +208,13 @@ saxon-ror/
 - Website: <https://openalex.org>
 - Institutions API: <https://api.openalex.org/institutions>
 - Authentication guide: <https://developers.openalex.org/guides/authentication>
+
+**re3data**
+
+- Website: <https://www.re3data.org>
+- Data export and licence: <https://www.re3data.org/data>
+- API documentation: <https://www.re3data.org/api/doc/>
+- Schema 4.0 documentation: <https://doi.org/10.48440/re3.014>
 
 **SLUB Dresden**
 

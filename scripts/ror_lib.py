@@ -634,8 +634,18 @@ def normalize(text: str) -> str:
     return stripped.casefold()
 
 
-def validate_pairing(data_dir: Path = DATA_DIR, *, include_reuse: bool = True) -> list[str]:
+def validate_pairing(
+    data_dir: Path = DATA_DIR,
+    *,
+    include_reuse: bool = True,
+    reuse_sources: list[str] | None = None,
+) -> list[str]:
     """Check records/ <-> records.json and, optionally, reuse/*/records/ pairing.
+
+    ``reuse_sources`` limits the reuse check to the named companion layers. A
+    companion refresh passes its own name: after a ROR update removed a record,
+    every companion legitimately holds an orphan until its own refresh, and one
+    layer's pending repair must not fail another layer's refresh.
 
     Returns a list of human-readable problems (empty when consistent).
     """
@@ -657,6 +667,8 @@ def validate_pairing(data_dir: Path = DATA_DIR, *, include_reuse: bool = True) -
     reuse = data_dir / "reuse"
     if include_reuse and reuse.exists():
         for source_dir in sorted(reuse.iterdir()):
+            if reuse_sources is not None and source_dir.name not in reuse_sources:
+                continue
             recs = source_dir / "records"
             if not recs.is_dir():
                 continue

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100013291</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R31NJMQZ</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">MOSES Data Discovery Portal</r3d:repositoryName>
+				<r3d:additionalName language="eng">Modular Observation Solutions for Earth Systems Data Discovery Portal</r3d:additionalName>
+				<r3d:repositoryUrl>https://moses-data.gfz-potsdam.de/onestop/#/</r3d:repositoryUrl>
+				<r3d:repositoryIdentifier>
+			<r3d:repositoryIdentifierType>FAIRsharing</r3d:repositoryIdentifierType>
+			<r3d:repositoryIdentifierValue>10.25504/FAIRsharing.36b459</r3d:repositoryIdentifierValue>
+		</r3d:repositoryIdentifier>
+				<r3d:description language="eng">The MOSES Data Discovery Portal is the central component of the MOSES data management infrastructure. It holds the metadata of MOSES campaigns, sensors and data and enables high-performance data searches. In addition, it provides access to the decentral data repositories and infrastructures of the participating Helmholtz centers where MOSES data is stored.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>moses-dmp@gfz-potsdam.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+															<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>34101</r3d:subjectId>
+				<r3d:subjectName>Atmospheric Science</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>341</r3d:subjectId>
+				<r3d:subjectName>Atmospheric Science, Oceanography and Climate Research</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>345</r3d:subjectId>
+				<r3d:subjectName>Geography</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>342</r3d:subjectId>
+				<r3d:subjectName>Geology and Palaeontology</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>343</r3d:subjectId>
+				<r3d:subjectName>Geophysics and Geodesy</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>34</r3d:subjectId>
+				<r3d:subjectName>Geosciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>3</r3d:subjectId>
+				<r3d:subjectName>Natural Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>32401</r3d:subjectId>
+				<r3d:subjectName>Nuclear and Elementary Particle Physics, Quantum Mechanics, Relativity, Fields</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>34102</r3d:subjectId>
+				<r3d:subjectName>Oceanography</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>324</r3d:subjectId>
+				<r3d:subjectName>Particles, Nuclei and Fields</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>32</r3d:subjectId>
+				<r3d:subjectName>Physics</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.ufz.de/moses/</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/2H0M-X761</r3d:contentTypeId>
+				<r3d:contentTypeName>geospatial data</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/FF4C-28RK</r3d:contentTypeId>
+				<r3d:contentTypeName>observational data</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+					<r3d:providerType>serviceProvider</r3d:providerType>
+							<r3d:keyword>T-MOSAIC</r3d:keyword>
+					<r3d:keyword>climate change</r3d:keyword>
+					<r3d:keyword>heat waves</r3d:keyword>
+					<r3d:keyword>hydrological extremes</r3d:keyword>
+					<r3d:keyword>ocean eddies</r3d:keyword>
+					<r3d:keyword>permafrost thaw</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="eng">GFZ Helmholtz Centre for Geosciences</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">GFZ</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">GFZ Helmholtz-Zentrum für Geoforschung</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+									<r3d:responsibilityType>technical</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.gfz.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/04z8jg394</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Helmholtz Association of German Research Centres</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">HGF</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Helmholtz-Gemeinschaft Deutscher Forschungszentren</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.helmholtz.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/0281dp749</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+													<r3d:responsibilityStartDate>2017</r3d:responsibilityStartDate>
+													<r3d:responsibilityEndDate>2021</r3d:responsibilityEndDate>
+							</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Helmholtz Centre for Environmental Research</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">Helmholtz-Zentrum für Umweltforschung GmbH - UFZ</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">UFZ</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.ufz.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/000h6jb29</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Project MOSES</r3d:institutionName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.ufz.de/moses/index.php?en=44514</r3d:institutionUrl>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Legal information</r3d:policyName>
+				<r3d:policyUrl>https://moses-dmp.gfz-potsdam.de/imprint/</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>open</r3d:databaseAccessType>
+					</r3d:databaseAccess>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>open</r3d:dataAccessType>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>CC</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://creativecommons.org/licenses/by/4.0/</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+					<r3d:dataLicense>
+				<r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://moses-dmp.gfz-potsdam.de/imprint/</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>restricted</r3d:dataUploadType>
+									<r3d:dataUploadRestriction>institutional membership</r3d:dataUploadRestriction>
+									<r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+							</r3d:dataUpload>
+									<r3d:software>other</r3d:software>
+											<r3d:pidSystem>DOI</r3d:pidSystem>
+																					<r3d:profile>
+				<r3d:profileName>Helmholtz Association</r3d:profileName>
+				<r3d:profileUrl>https://os.helmholtz.de/open-research-data/forschungsdatenrepositorien/</r3d:profileUrl>
+			</r3d:profile>
+					<r3d:profile>
+				<r3d:profileName>NFDI</r3d:profileName>
+				<r3d:profileUrl>https://www.nfdi.de/nfdi-repository/</r3d:profileUrl>
+			</r3d:profile>
+								<r3d:remarks>MOSES contributors: https://www.ufz.de/moses/index.php?en=44860
+
+Related IDs für instruments/devices are available via SENSOR.awi.de: http://doi.org/10.17616/R31NJMJ8</r3d:remarks>
+		<r3d:entryDate>2020-04-21</r3d:entryDate>
+		<r3d:lastUpdate>2026-09-21</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

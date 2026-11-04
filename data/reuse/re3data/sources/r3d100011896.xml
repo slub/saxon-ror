@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- re3data.org Metadata Schema for the Description of Research Data Repositories. Version 4.0, August 2023. https://doi.org/10.48440/re3.014 -->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/4-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/4-0 http://schema.re3data.org/4-0/re3dataV4-0.xsd">
+	<r3d:repository>
+		<r3d:identifiers>
+			<r3d:re3data>r3d100011896</r3d:re3data>
+			<r3d:doi>https://doi.org/10.17616/R36G9W</r3d:doi>
+		</r3d:identifiers>
+		<r3d:repositoryName language="eng">THEREDA</r3d:repositoryName>
+				<r3d:additionalName language="eng">Thermodynamic Reference Database</r3d:additionalName>
+				<r3d:additionalName language="deu">Thermodynamische Referenz-Datenbasis</r3d:additionalName>
+				<r3d:repositoryUrl>https://www.thereda.de/en</r3d:repositoryUrl>
+				<r3d:repositoryIdentifier>
+			<r3d:repositoryIdentifierType>FAIRsharing</r3d:repositoryIdentifierType>
+			<r3d:repositoryIdentifierValue>10.25504/FAIRsharing.9ba615</r3d:repositoryIdentifierValue>
+		</r3d:repositoryIdentifier>
+				<r3d:description language="eng">THEREDA (Thermodynamic Reference Database) is a joint project dedicated to the creation of a comprehensive, internally consistent thermodynamic reference database, to be used with suitable codes for the geochemical modeling of aqueous electrolyte solutions up to high concentrations.</r3d:description>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>https://www.thereda.de/de/impressum</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+				<r3d:repositoryContact>
+			<r3d:repositoryContactInformation>info@grs.de</r3d:repositoryContactInformation>
+			<r3d:repositoryContactType>administrative</r3d:repositoryContactType>
+		</r3d:repositoryContact>
+						<r3d:type>disciplinary</r3d:type>
+								<r3d:startDate>2006</r3d:startDate>
+        									<r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+					<r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+							<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>312</r3d:subjectId>
+				<r3d:subjectName>Chemical Solid State and Surface Research</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31</r3d:subjectId>
+				<r3d:subjectName>Chemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>34</r3d:subjectId>
+				<r3d:subjectName>Geosciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>344</r3d:subjectId>
+				<r3d:subjectName>Mineralogy, Petrology and Geochemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>3</r3d:subjectId>
+				<r3d:subjectName>Natural Sciences</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>313</r3d:subjectId>
+				<r3d:subjectName>Physical Chemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>317</r3d:subjectId>
+				<r3d:subjectName>Theoretical Chemistry</r3d:subjectName>
+			</r3d:subject>
+					<r3d:subject subjectScheme="DFG">
+				<r3d:subjectId>31701</r3d:subjectId>
+				<r3d:subjectName>Theoretical Chemistry: Electron Structure, Dynamics, Simulation</r3d:subjectName>
+			</r3d:subject>
+							<r3d:missionStatementUrl>https://www.grs.de/en/news/projects/thereda-thermodynamic-reference-database</r3d:missionStatementUrl>
+							<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/c_ddb1</r3d:contentTypeId>
+				<r3d:contentTypeName>dataset</r3d:contentTypeName>
+			</r3d:contentType>
+					<r3d:contentType contentTypeScheme="COAR">
+				<r3d:contentTypeId>http://purl.org/coar/resource_type/DD58-GFSX</r3d:contentTypeId>
+				<r3d:contentTypeName>measurement and test data</r3d:contentTypeName>
+			</r3d:contentType>
+							<r3d:providerType>dataProvider</r3d:providerType>
+							<r3d:keyword>Pitzer interaction coefficients</r3d:keyword>
+					<r3d:keyword>actinides</r3d:keyword>
+					<r3d:keyword>cement</r3d:keyword>
+					<r3d:keyword>chemical-toxic elements</r3d:keyword>
+					<r3d:keyword>oceanic salts</r3d:keyword>
+					<r3d:keyword>radio-toxic elements</r3d:keyword>
+					<r3d:keyword>thermodynamic data</r3d:keyword>
+							<r3d:institution>
+				<r3d:institutionName language="deu">Bundesgesellschaft für Endlagerung</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">BGE</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>funding</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.bge.de/en/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/050asrz41</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">CSD Engineers</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">CSD Ingenieure</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>CHE</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.csd.ch/en</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/042sgv520</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="deu">Gesellschaft für Anlagen- und Reaktorsicherheit</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">GRS</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="eng">Global Research for Safety</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+									<r3d:responsibilityType>technical</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.grs.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/03sj2jc05</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="deu">Helmholtz-Zentrum Dresden-Rossendorf</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">HZDR</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.hzdr.de/db/Cms?pNid=0</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/01zy2cs03</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="eng">Karlsruhe Institute of Technology</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">KIT</r3d:institutionAdditionalName>
+									<r3d:institutionAdditionalName language="deu">Karlsruher Institut für Technologie</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://www.kit.edu/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/04t3en479</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>RRID</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://scicrunch.org/resolver/RRID:SCR_001552</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+					<r3d:institution>
+				<r3d:institutionName language="deu">Technische Universität Bergakademie Freiberg</r3d:institutionName>
+									<r3d:institutionAdditionalName language="deu">TU-BAF</r3d:institutionAdditionalName>
+								<r3d:institutionCountry>DEU</r3d:institutionCountry>
+									<r3d:responsibilityType>general</r3d:responsibilityType>
+								<r3d:institutionType>non-profit</r3d:institutionType>
+				<r3d:institutionUrl>https://tu-freiberg.de/</r3d:institutionUrl>
+									<r3d:institutionIdentifier>
+						<r3d:institutionIdentifierType>ROR</r3d:institutionIdentifierType>
+											<r3d:institutionIdentifierUrl>https://ror.org/031vc2293</r3d:institutionIdentifierUrl>
+										</r3d:institutionIdentifier>
+															</r3d:institution>
+							<r3d:policy>
+				<r3d:policyName>Copyright and trademark law</r3d:policyName>
+				<r3d:policyUrl>https://www.thereda.de/en/disclaimer</r3d:policyUrl>
+			</r3d:policy>
+						<r3d:databaseAccess>
+			<r3d:databaseAccessType>restricted</r3d:databaseAccessType>
+							<r3d:databaseAccessRestriction>registration</r3d:databaseAccessRestriction>
+					</r3d:databaseAccess>
+							<r3d:dataAccess>
+				<r3d:dataAccessType>restricted</r3d:dataAccessType>
+									<r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+							</r3d:dataAccess>
+							<r3d:dataLicense>
+				<r3d:dataLicenseName>CC</r3d:dataLicenseName>
+				<r3d:dataLicenseUrl>https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en</r3d:dataLicenseUrl>
+			</r3d:dataLicense>
+							<r3d:dataUpload>
+				<r3d:dataUploadType>closed</r3d:dataUploadType>
+							</r3d:dataUpload>
+									<r3d:software>unknown</r3d:software>
+																	<r3d:citationGuidelineUrl>https://www.thereda.de/en/disclaimer</r3d:citationGuidelineUrl>
+											<r3d:qualityManagement>
+				<r3d:qualityManagementStatus>yes</r3d:qualityManagementStatus>
+								<r3d:qualityManagementMeasure>
+					<r3d:qualityManagementMeasureName>Data Quality Classification</r3d:qualityManagementMeasureName>
+					<r3d:qualityManagementMeasureUrl>https://www.thereda.de/en/data-access/quality-criteria</r3d:qualityManagementMeasureUrl>
+				</r3d:qualityManagementMeasure>
+							</r3d:qualityManagement>
+									<r3d:profile>
+				<r3d:profileName>Helmholtz Association</r3d:profileName>
+				<r3d:profileUrl>https://os.helmholtz.de/open-research-data/forschungsdatenrepositorien/</r3d:profileUrl>
+			</r3d:profile>
+					<r3d:profile>
+				<r3d:profileName>NFDI</r3d:profileName>
+				<r3d:profileUrl>https://www.nfdi.de/nfdi-repository/</r3d:profileUrl>
+			</r3d:profile>
+								<r3d:remarks>THEREDA Team  and Partner organizations from prior project phases: https://www.thereda.de/en/partner</r3d:remarks>
+		<r3d:entryDate>2015-12-07</r3d:entryDate>
+		<r3d:lastUpdate>2026-09-16</r3d:lastUpdate>
+	</r3d:repository>
+</r3d:re3data>

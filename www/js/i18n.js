@@ -100,6 +100,50 @@ window.I18N = {
     altNames: "Additional names in OpenAlex",
     viewOnOpenalex: "View on OpenAlex",
     openalexLoading: "Loading OpenAlex data…",
+    // re3data panel
+    re3dataTitle: "Research data repositories in re3data",
+    re3dataDerived:
+      "Derived companion data from re3data — repositories whose re3data entry names this organization explicitly by its ROR ID. Not part of ROR.",
+    re3dataLoading: "Loading re3data data…",
+    re3dataNoCompanion: "No re3data companion data is available in this dataset.",
+    re3dataNone: (date) =>
+      `No repository entry in re3data names this organization by its ROR ID (evaluated ${date}). This does not mean the organization has no research data repository.`,
+    re3dataNotEvaluated: (date) =>
+      `This organization was not part of the last re3data evaluation (${date}); the companion data has not yet caught up with the current ROR data.`,
+    re3dataError: "The re3data data for this organization could not be loaded.",
+    re3dataCount: (n) => (n === 1 ? "1 repository" : `${n} repositories`),
+    re3dataNamedAs: "Named in re3data as",
+    re3dataPeriod: "Responsibility period",
+    re3dataOffline: (d) => `Offline according to re3data: ${d}`,
+    re3dataClosed: (d) => `Closed to new data according to re3data: ${d}`,
+    re3dataEntry: "re3data entry",
+    re3dataSourceXml: "Source XML",
+    re3dataLastUpdate: (d) => `re3data entry updated ${d}`,
+    re3dataRolesHelp: "What do the responsibility types mean?",
+    re3dataRolesCaveat:
+      "Responsibility types are recorded by re3data. They do not state who operates or owns a repository, who may deposit data, or whether it suits a particular purpose.",
+    re3dataSource: "Source",
+    re3dataLicense: "database entries CC0",
+    re3dataRetrieved: (d) => `retrieved ${d}`,
+    re3dataProjection: "Projection (JSON)",
+    r3role_general: "General responsibility",
+    r3role_technical: "Technical responsibility",
+    r3role_funding: "Funding",
+    r3roleOther: (v) => `Other: ${v}`,
+    r3roleNone: "No responsibility type given",
+    r3roleDef_general:
+      "the institution is generally responsible for providing services, such as curation, and content of the repository.",
+    r3roleDef_technical:
+      "the institution is responsible for technical matters of the repository, e.g. hosting.",
+    r3roleDef_funding: "the institution provides funding for the repository.",
+    r3roleDef_other:
+      "Other: a value outside the re3data schema 4.0 vocabulary, shown as given.",
+    r3type_disciplinary: "disciplinary",
+    r3type_governmental: "governmental",
+    r3type_institutional: "institutional",
+    r3type_multidisciplinary: "multidisciplinary",
+    "r3type_project-related": "project-related",
+    r3type_other: "other",
     // Footer
     footerMeta: (v, date, count) =>
       `ROR dump ${v} · ${date} · ${count} Saxon records`,
@@ -204,6 +248,49 @@ window.I18N = {
     altNames: "Zusätzliche Namen in OpenAlex",
     viewOnOpenalex: "Auf OpenAlex ansehen",
     openalexLoading: "OpenAlex-Daten werden geladen…",
+    re3dataTitle: "Forschungsdatenrepositorien in re3data",
+    re3dataDerived:
+      "Abgeleitete Begleitdaten aus re3data – Repositorien, deren re3data-Eintrag diese Einrichtung ausdrücklich über ihre ROR-ID nennt. Nicht Teil von ROR.",
+    re3dataLoading: "re3data-Daten werden geladen…",
+    re3dataNoCompanion: "Für diesen Datenstand liegen keine re3data-Begleitdaten vor.",
+    re3dataNone: (date) =>
+      `Kein Repository-Eintrag in re3data nennt diese Einrichtung über ihre ROR-ID (ausgewertet am ${date}). Das bedeutet nicht, dass die Einrichtung kein Forschungsdatenrepositorium hat.`,
+    re3dataNotEvaluated: (date) =>
+      `Diese Einrichtung war nicht Teil der letzten re3data-Auswertung (${date}); die Begleitdaten sind noch nicht auf dem Stand der aktuellen ROR-Daten.`,
+    re3dataError: "Die re3data-Daten für diese Einrichtung konnten nicht geladen werden.",
+    re3dataCount: (n) => (n === 1 ? "1 Repositorium" : `${n} Repositorien`),
+    re3dataNamedAs: "In re3data genannt als",
+    re3dataPeriod: "Verantwortungszeitraum",
+    re3dataOffline: (d) => `Laut re3data offline: ${d}`,
+    re3dataClosed: (d) => `Laut re3data für neue Daten geschlossen: ${d}`,
+    re3dataEntry: "re3data-Eintrag",
+    re3dataSourceXml: "Quell-XML",
+    re3dataLastUpdate: (d) => `re3data-Eintrag aktualisiert am ${d}`,
+    re3dataRolesHelp: "Was bedeuten die Verantwortungsarten?",
+    re3dataRolesCaveat:
+      "Die Verantwortungsarten stammen aus re3data. Sie sagen nicht aus, wer ein Repositorium betreibt oder besitzt, wer Daten einreichen darf oder ob es für einen bestimmten Zweck geeignet ist.",
+    re3dataSource: "Quelle",
+    re3dataLicense: "Datenbankeinträge CC0",
+    re3dataRetrieved: (d) => `abgerufen am ${d}`,
+    re3dataProjection: "Projektion (JSON)",
+    r3role_general: "Allgemeine Verantwortung",
+    r3role_technical: "Technische Verantwortung",
+    r3role_funding: "Finanzierung",
+    r3roleOther: (v) => `Sonstige: ${v}`,
+    r3roleNone: "Keine Verantwortungsart angegeben",
+    r3roleDef_general:
+      "Die Einrichtung ist allgemein für die Bereitstellung von Diensten, etwa Kuratierung, und für die Inhalte des Repositoriums verantwortlich.",
+    r3roleDef_technical:
+      "Die Einrichtung ist für technische Belange des Repositoriums verantwortlich, z. B. das Hosting.",
+    r3roleDef_funding: "Die Einrichtung finanziert das Repositorium.",
+    r3roleDef_other:
+      "Sonstige: ein Wert außerhalb des Vokabulars von re3data-Schema 4.0, unverändert angezeigt.",
+    r3type_disciplinary: "fachspezifisch",
+    r3type_governmental: "behördlich",
+    r3type_institutional: "institutionell",
+    r3type_multidisciplinary: "fachübergreifend",
+    "r3type_project-related": "projektbezogen",
+    r3type_other: "sonstige",
     footerMeta: (v, date, count) =>
       `ROR-Dump ${v} · ${date} · ${count} sächsische Datensätze`,
     disclaimer:
