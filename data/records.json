@@ -564,7 +564,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -577,6 +577,13 @@
         ],
         "preferred": "501100009520",
         "type": "fundref"
+      },
+      {
+        "all": [
+          "Q105703421"
+        ],
+        "preferred": "Q105703421",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/005f1n095",
@@ -624,9 +631,29 @@
           "alias"
         ],
         "value": "Dr.-Erich Krüger Foundation"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Dr.-Erich-Krüger-Stiftung"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Dr.-Erich-Krüger-Stiftung an der TU Bergakademie Freiberg"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "TU Bergakademie Freiberg",
+        "type": "related",
+        "id": "https://ror.org/031vc2293"
+      }
+    ],
     "status": "active",
     "types": [
       "funder",
@@ -693,6 +720,68 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "cewotec.de"
+    ],
+    "established": 2001,
+    "external_ids": [],
+    "id": "https://ror.org/005y5m159",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.cewotec.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.8357,
+          "lng": 12.92922,
+          "name": "Chemnitz"
+        },
+        "geonames_id": 2940132
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "CeWOTec"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "CeWOTec gGmbH – Chemnitzer Werkstoff- und OberflächenTechnik"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
   },
   {
     "admin": {
@@ -817,9 +906,45 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "klinikum-dresden.de"
+    ],
+    "established": 2017,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506533.6"
+        ],
+        "preferred": "grid.506533.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q28738058"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/007gt1a87",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.klinikum-dresden.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -830,59 +955,52 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2017,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506533.6"
-        ],
-        "preferred": "grid.506533.6"
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q28738058"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/007gt1a87",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.klinikum-dresden.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Städtisches Klinikum Dresden",
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Municipal Hospital"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Municipal Hospital Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Municipal Hospital of Dresden"
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Städtisches Klinikum Dresden"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -953,6 +1071,75 @@
           "label"
         ],
         "value": "Deutsches Biomasseforschungszentrum"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "kowid.de"
+    ],
+    "established": 2012,
+    "external_ids": [],
+    "id": "https://ror.org/009hz3k46",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://kowid.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Centre of Excellence for Public Economy, Infrastructure and Services"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "KOWID"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Kompetenzzentrum Öffentliche Wirtschaft, Infrastruktur und Daseinsvorsorge e. V."
       }
     ],
     "relationships": [],
@@ -1197,6 +1384,81 @@
     "types": [
       "facility",
       "funder"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ifem-mittweida.de"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/00cv0b090",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ifem-mittweida.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.98622,
+          "lng": 12.97537,
+          "name": "Mittweida"
+        },
+        "geonames_id": 2870318
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für Energiemanagement der Hochschule Mittweida"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute of Energy Management"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ifem"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Hochschule Mittweida",
+        "type": "parent",
+        "id": "https://ror.org/024ga3r86"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "other"
     ]
   },
   {
@@ -2321,11 +2583,14 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "ihd-dresden.com",
+      "ihd-dresden.de"
+    ],
     "established": 1952,
     "external_ids": [
       {
@@ -2354,7 +2619,7 @@
     "links": [
       {
         "type": "website",
-        "value": "https://www.ihd-dresden.com"
+        "value": "https://www.ihd-dresden.de/"
       }
     ],
     "locations": [
@@ -2375,6 +2640,13 @@
     ],
     "names": [
       {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Dresden Institute of Wood Technology"
+      },
+      {
         "lang": null,
         "types": [
           "acronym"
@@ -2388,18 +2660,94 @@
           "label"
         ],
         "value": "Institut für Holztechnologie Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Wood Technology Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Wood Technology Dresden"
       }
     ],
     "relationships": [
       {
         "label": "Technische Universität Dresden",
-        "type": "parent",
+        "type": "related",
         "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1998,
+    "external_ids": [],
+    "id": "https://ror.org/00mr0j858",
+    "links": [],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.8357,
+          "lng": 12.92922,
+          "name": "Chemnitz"
+        },
+        "geonames_id": 2940132
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "KMC"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Kompetenzzentrum Maschinenbau Chemnitz/Sachsen e.V."
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Mechanical Engineering Competence Centre Chemnitz/Saxony (KMC/Sachsen e.V.)"
+      }
+    ],
+    "relationships": [],
+    "status": "inactive",
+    "types": [
+      "nonprofit"
     ]
   },
   {
@@ -2549,9 +2897,45 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2019-11-07",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ifm-zwota.de"
+    ],
+    "established": 1951,
+    "external_ids": [
+      {
+        "all": [
+          "grid.506284.d"
+        ],
+        "preferred": "grid.506284.d",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q77075910"
+        ],
+        "preferred": "Q77075910",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00njqng43",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ifm-zwota.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2803474,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -2562,59 +2946,38 @@
           "lat": 50.35103,
           "lng": 12.42241,
           "name": "Zwota"
-        }
-      }
-    ],
-    "established": 1951,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506284.d"
-        ],
-        "preferred": "grid.506284.d"
-      }
-    ],
-    "id": "https://ror.org/00njqng43",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.ifm-zwota.de/"
+        },
+        "geonames_id": 2803474
       }
     ],
     "names": [
       {
-        "value": "IfM",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "IfM"
       },
       {
-        "value": "Institut für Musikinstrumentenbau",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Institut für Musikinstrumentenbau"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -2752,11 +3115,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "klinikum-goerlitz.de"
+    ],
     "established": 1905,
     "external_ids": [
       {
@@ -2765,13 +3130,27 @@
         ],
         "preferred": "grid.470122.2",
         "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0622 0047"
+        ],
+        "preferred": "0000 0004 0622 0047",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1431657"
+        ],
+        "preferred": "Q1431657",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/00qcpjs09",
     "links": [
       {
         "type": "website",
-        "value": "http://www.klinikum-goerlitz.de/"
+        "value": "https://www.klinikum-goerlitz.de"
       }
     ],
     "locations": [
@@ -2794,10 +3173,59 @@
       {
         "lang": "de",
         "types": [
+          "alias"
+        ],
+        "value": "Bezirkskrankenhaus Görlitz"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "City Hospital Görlitz"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "District Hospital Görlitz"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Görlitz Municipal Hospital"
+      },
+      {
+        "lang": "de",
+        "types": [
           "ror_display",
           "label"
         ],
         "value": "Klinikum Görlitz"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Municipal Hospital Görlitz"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Städtisches Klinikum Görlitz"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Städtisches Klinikum Görlitz gGmbH"
       }
     ],
     "relationships": [
@@ -3163,6 +3591,75 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "institut-se.de"
+    ],
+    "established": 2015,
+    "external_ids": [],
+    "id": "https://ror.org/00x14zn17",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://institut-se.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.8357,
+          "lng": 12.92922,
+          "name": "Chemnitz"
+        },
+        "geonames_id": 2940132
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ISE"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "ISE – Institute for Lightweight Structural Design and Energy Efficiency gGmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für Strukturleichtbau und Energieeffizienz gGmbH"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2940132,
@@ -3394,18 +3891,37 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
     "domains": [],
     "established": 1992,
-    "external_ids": [],
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 0467 9356"
+        ],
+        "preferred": "0000 0004 0467 9356",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1393813"
+        ],
+        "preferred": "Q1393813",
+        "type": "wikidata"
+      }
+    ],
     "id": "https://ror.org/010rfe342",
     "links": [
       {
         "type": "website",
         "value": "https://tu-dresden.de/bu/verkehr"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Fakult%C3%A4t_Verkehrswissenschaften_%E2%80%9EFriedrich_List%E2%80%9C"
       }
     ],
     "locations": [
@@ -3426,6 +3942,20 @@
     ],
     "names": [
       {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "\"Friedrich List\" Faculty of Transport and Traffic Sciences"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Faculty of Transportation and Traffic Science \"Friedrich List\""
+      },
+      {
         "lang": "de",
         "types": [
           "label",
@@ -3439,6 +3969,11 @@
         "label": "Technische Universität Dresden",
         "type": "parent",
         "id": "https://ror.org/042aqky30"
+      },
+      {
+        "label": "Hochschule für Verkehrswesen \"Friedrich List\" Dresden",
+        "type": "predecessor",
+        "id": "https://ror.org/01xq0x465"
       }
     ],
     "status": "active",
@@ -3453,13 +3988,11 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "g-wt.de"
-    ],
+    "domains": [],
     "established": null,
     "external_ids": [],
     "id": "https://ror.org/012d0t602",
@@ -4388,9 +4921,49 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "sms.sachsen.de"
+    ],
+    "established": 1990,
+    "external_ids": [
+      {
+        "all": [
+          "grid.492045.e"
+        ],
+        "preferred": "grid.492045.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q1508671"
+        ],
+        "preferred": "Q1508671",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0198kn518",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.sms.sachsen.de/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Soziales,_Gesundheit_und_Gesellschaftlichen_Zusammenhalt"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -4401,59 +4974,175 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1990,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.492045.e"
-        ],
-        "preferred": "grid.492045.e"
-      }
-    ],
-    "id": "https://ror.org/0198kn518",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.sms.sachsen.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "SMS",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "SMS"
       },
       {
-        "value": "Sächsisches Staatsministerium für Soziales und Verbraucherschutz",
+        "lang": "en",
         "types": [
-          "ror_display",
+          "alias"
+        ],
+        "value": "Saxon State Ministry for Social Affairs and Cohesion"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Saxon State Ministry for Social Affairs and Social Cohesion"
+      },
+      {
+        "lang": "en",
+        "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Saxon State Ministry for Social Affairs, Health and Social Cohesion"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Saxon State Ministry of Social Affairs"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Saxon State Ministry of Social Affairs and Consumer Protection"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Soziales"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Soziales und Gesellschaftlichen Zusammenhalt"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Soziales und Verbraucherschutz"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Soziales, Gesundheit und Familie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Landesuntersuchungsanstalt Sachsen",
+        "type": "child",
+        "id": "https://ror.org/05y895e77"
+      },
+      {
+        "label": "Sächsisches Krankenhaus Rodewisch",
+        "type": "child",
+        "id": "https://ror.org/044s59k57"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "government"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "enreg.eu"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/01aphaq45",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://enreg.eu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für Energie- und Regulierungsrecht Berlin e. V."
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute for Energy and Regulatory Law Berlin e. V."
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "enreg"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
-      "government"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+      "nonprofit"
+    ]
   },
   {
     "admin": {
@@ -5078,13 +5767,11 @@
         "schema_version": "2.0"
       },
       "last_modified": {
-        "date": "2024-12-11",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "base4nfdi.de"
-    ],
+    "domains": [],
     "established": 2023,
     "external_ids": [
       {
@@ -5312,6 +5999,75 @@
   {
     "admin": {
       "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "lfz-dresden.de"
+    ],
+    "established": 2006,
+    "external_ids": [],
+    "id": "https://ror.org/01fjvgr62",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://lfz-dresden.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "LFZ"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Landscape Research Centre Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Landschaftsforschungszentrum e.V."
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2025-12-15",
         "schema_version": "2.1"
       },
@@ -5388,6 +6144,74 @@
     "status": "active",
     "types": [
       "government"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "zaft-dresden.de"
+    ],
+    "established": 1998,
+    "external_ids": [],
+    "id": "https://ror.org/01hc8qq74",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.zaft-dresden.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "ZAFT"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Zentrum für angewandte Forschung und Technologie e.V."
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+        "type": "related",
+        "id": "https://ror.org/05q5pk319"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "nonprofit"
     ]
   },
   {
@@ -6015,13 +6839,11 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "elblandkliniken.de"
-    ],
+    "domains": [],
     "established": 1863,
     "external_ids": [
       {
@@ -6407,13 +7229,11 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "elblandkliniken.de"
-    ],
+    "domains": [],
     "established": 1848,
     "external_ids": [
       {
@@ -6586,9 +7406,50 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1994,
+    "external_ids": [
+      {
+        "all": [
+          "grid.466318.e"
+        ],
+        "preferred": "grid.466318.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2195 0310"
+        ],
+        "preferred": "0000 0001 2195 0310",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1509323"
+        ],
+        "preferred": "Q1509323",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01qjbb734",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.polizei.sachsen.de/de/polfh.htm"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2844062,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -6599,66 +7460,53 @@
           "lat": 51.334,
           "lng": 14.96874,
           "name": "Rothenburg"
-        }
-      }
-    ],
-    "established": 1994,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.466318.e"
-        ],
-        "preferred": "grid.466318.e"
-      }
-    ],
-    "id": "https://ror.org/01qjbb734",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.polizei.sachsen.de/eng/index.htm"
+        },
+        "geonames_id": 2844062
       }
     ],
     "names": [
       {
-        "value": "FH",
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Fachhochschule für Polizei Sachsen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Hochschule der Sächsischen Polizei"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Hochschule der Sächsischen Polizei (FH)"
+      },
+      {
+        "lang": "de",
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "PolFH"
       },
       {
-        "value": "Hochschule der Sächsischen Polizei",
+        "lang": "en",
         "types": [
           "label"
         ],
-        "lang": "de"
-      },
-      {
-        "value": "Saxon Police Force",
-        "types": [
-          "ror_display",
-          "label"
-        ],
-        "lang": "en"
+        "value": "University of Applied Sciences of the Saxon Police"
       }
     ],
     "relationships": [],
     "status": "active",
     "types": [
       "education"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -6884,9 +7732,52 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "di-uni.de"
+    ],
+    "established": 2003,
+    "external_ids": [
+      {
+        "all": [
+          "grid.440925.e"
+        ],
+        "preferred": "grid.440925.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 9874 1261"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1258462"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01t4pxy10",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.di-uni.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -6897,73 +7788,38 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2003,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.440925.e"
-        ],
-        "preferred": "grid.440925.e"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0000 9874 1261"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q1258462"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/01t4pxy10",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.di-uni.de/index.php?id=20"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "DIU",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "DIU"
       },
       {
-        "value": "Dresden International University",
+        "lang": "en",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "en"
+        "value": "Dresden International University"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "education"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -7702,6 +8558,136 @@
     "status": "active",
     "types": [
       "company"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-18",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1952,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0001 2191 4416"
+        ],
+        "preferred": "0000 0001 2191 4416",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1622225"
+        ],
+        "preferred": "Q1622225",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01xq0x465",
+    "links": [
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Hochschule_f%C3%BCr_Verkehrswesen"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "\"Friedrich List\" College of Transport and Communications"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "College of Transport and Communications \"Friedrich List\""
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Friedrich List University of Transport and Communications"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "HfV"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Hochschule für Verkehrswesen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Hochschule für Verkehrswesen \"Friedrich List\" Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Hochschule für Verkehrswesen Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Hochschule für Verkehrswesen Friedrich List"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "List University of Transport and Communications"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Fakultät Verkehrswissenschaften \"Friedrich List\"",
+        "type": "successor",
+        "id": "https://ror.org/010rfe342"
+      }
+    ],
+    "status": "inactive",
+    "types": [
+      "education"
     ]
   },
   {
@@ -8679,7 +9665,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -8785,7 +9771,13 @@
         "value": "Papiertechnische Stiftung"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "nonprofit"
@@ -8974,7 +9966,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -9059,14 +10051,19 @@
     ],
     "relationships": [
       {
+        "label": "Center Nanoelectronic Technologies",
+        "type": "child",
+        "id": "https://ror.org/035wqzf29"
+      },
+      {
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
       },
       {
-        "label": "Center Nanoelectronic Technologies",
-        "type": "child",
-        "id": "https://ror.org/035wqzf29"
+        "label": "Fraunhofer-Zentrum Erfurt",
+        "type": "related",
+        "id": "https://ror.org/018rm6156"
       }
     ],
     "status": "active",
@@ -9304,7 +10301,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-25",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -9379,7 +10376,18 @@
         "value": "University of Applied Sciences Mittweida"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Laserinstitut Mittelsachsen e.V.",
+        "type": "related",
+        "id": "https://ror.org/044bp2f44"
+      },
+      {
+        "label": "Institut für Energiemanagement der Hochschule Mittweida",
+        "type": "child",
+        "id": "https://ror.org/00cv0b090"
+      }
+    ],
     "status": "active",
     "types": [
       "education"
@@ -9842,7 +10850,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-06-24",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -9864,6 +10872,13 @@
         ],
         "preferred": null,
         "type": "isni"
+      },
+      {
+        "all": [
+          "Q108737228"
+        ],
+        "preferred": "Q108737228",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/0260qqv98",
@@ -9920,7 +10935,13 @@
         "value": "Barkhausen Institute"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "parent",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "facility"
@@ -10362,11 +11383,14 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "namlab.com",
+      "namlab.de"
+    ],
     "established": 2006,
     "external_ids": [
       {
@@ -10395,7 +11419,7 @@
     "links": [
       {
         "type": "website",
-        "value": "http://www.namlab.de/home?set_language=en&cl=en"
+        "value": "https://www.namlab.com/"
       }
     ],
     "locations": [
@@ -10416,12 +11440,47 @@
     ],
     "names": [
       {
-        "lang": null,
+        "lang": "en",
         "types": [
-          "ror_display",
-          "label"
+          "acronym"
+        ],
+        "value": "NaMLab"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
         ],
         "value": "NaMLab (Germany)"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "NaMLab gGmbH"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Nano-electronic Materials Laboratory"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Nanoelectronic Materials Laboratory"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Nanoelectronic Materials Laboratory gGmbH"
       }
     ],
     "relationships": [
@@ -10438,7 +11497,7 @@
     ],
     "status": "active",
     "types": [
-      "company"
+      "nonprofit"
     ]
   },
   {
@@ -11090,6 +12149,79 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1997,
+    "external_ids": [],
+    "id": "https://ror.org/02bc7wt55",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://tu-freiberg.de/fakultaet5/iest/stahlzentrum-freiberg-ev"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.91089,
+          "lng": 13.33881,
+          "name": "Freiberg"
+        },
+        "geonames_id": 2925192
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Freiberg Steel Centre (e.V.) at the Technical University Mining Academy, Freiberg"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "SZF"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Stahlzentrum Freiberg e.V."
+      }
+    ],
+    "relationships": [
+      {
+        "label": "TU Bergakademie Freiberg",
+        "type": "related",
+        "id": "https://ror.org/031vc2293"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2893437,
@@ -11166,6 +12298,142 @@
         "schema_version": "2.1"
       }
     }
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "cewus.de"
+    ],
+    "established": 2002,
+    "external_ids": [],
+    "id": "https://ror.org/02bd2vt45",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.cewus.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.8357,
+          "lng": 12.92922,
+          "name": "Chemnitz"
+        },
+        "geonames_id": 2940132
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "CEWUS"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "CEWUS Chemnitzer Werkstoff- und Oberflächentechnik GmbH"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "company"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "kirchenmusik-dresden.de"
+    ],
+    "established": 1949,
+    "external_ids": [
+      {
+        "all": [
+          "Q1380217"
+        ],
+        "preferred": "Q1380217",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02d5r4918",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.kirchenmusik-dresden.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Hochschule_f%C3%BCr_Kirchenmusik_Dresden"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "College of Church Music Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Hochschule für Kirchenmusik Dresden"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "education"
+    ]
   },
   {
     "locations": [
@@ -11338,9 +12606,52 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "inc-leipzig.de"
+    ],
+    "established": 1996,
+    "external_ids": [
+      {
+        "all": [
+          "grid.500380.e"
+        ],
+        "preferred": "grid.500380.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0005 0261 6121"
+        ],
+        "preferred": "0000 0005 0261 6121",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q59536785"
+        ],
+        "preferred": "Q59536785",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02hcvme33",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://inc-leipzig.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2879139,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -11351,65 +12662,129 @@
           "lat": 51.33962,
           "lng": 12.37129,
           "name": "Leipzig"
-        }
-      }
-    ],
-    "established": 1996,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.500380.e"
-        ],
-        "preferred": "grid.500380.e"
-      }
-    ],
-    "id": "https://ror.org/02hcvme33",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://research.uni-leipzig.de/inc/index_engl.htm"
+        },
+        "geonames_id": 2879139
       }
     ],
     "names": [
       {
-        "value": "INC",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "INC"
       },
       {
-        "value": "Institut für Nichtklassische Chemie",
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "INC Leipzig"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "INC Leipzig e.V."
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Institut für Nichtklassische Chemie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Nichtklassische Chemie an der Universität Leipzig"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Nichtklassische Chemie e.V."
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Nichtklassische Chemie e.V. (INC)"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Nichtklassische Chemie e.V. an der Universität Leipzig"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute for Non-Classical Chemistry"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Non-Classical Chemistry at Leipzig University"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Non-Classical Chemistry at the University of Leipzig"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Non-Classic Chemistry"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Non-Classical Chemistry"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Non-Classical Chemistry at the University of Leipzig"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Non-Classical Chemistry e. V. at the Leipzig University"
       }
     ],
     "relationships": [
       {
-        "type": "related",
         "label": "Leipzig University",
+        "type": "related",
         "id": "https://ror.org/03s7gtk40"
       }
     ],
     "status": "active",
     "types": [
       "facility"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -11912,9 +13287,56 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "lfa.sachsen.de"
+    ],
+    "established": 1991,
+    "external_ids": [
+      {
+        "all": [
+          "grid.461743.3"
+        ],
+        "preferred": "grid.461743.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2152 2236"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1789735"
+        ],
+        "preferred": "Q1789735",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02kv9xm28",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.lfa.sachsen.de/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Landesamt_f%C3%BCr_Arch%C3%A4ologie_Sachsen"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -11925,66 +13347,45 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1991,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.461743.3"
-        ],
-        "preferred": "grid.461743.3"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 2152 2236"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/02kv9xm28",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.lfa.sachsen.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Archaeological Heritage Office in Saxony",
+        "lang": "en",
         "types": [
           "label"
         ],
-        "lang": "en"
+        "value": "Archaeological Heritage Office in Saxony"
       },
       {
-        "value": "Landesamt für Archäologie Sachsen",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Landesamt für Archäologie Sachsen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "LfA"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus",
+        "type": "parent",
+        "id": "https://ror.org/05wnef833"
+      }
+    ],
     "status": "active",
     "types": [
       "archive"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -13548,7 +14949,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-09-22",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -13642,6 +15043,16 @@
         "label": "Responsible Electronics in the Climate Change Era",
         "type": "related",
         "id": "https://ror.org/03rymtb94"
+      },
+      {
+        "label": "Dr. Erich-Krüger-Stiftung",
+        "type": "related",
+        "id": "https://ror.org/005f1n095"
+      },
+      {
+        "label": "Stahlzentrum Freiberg e.V.",
+        "type": "related",
+        "id": "https://ror.org/02bc7wt55"
       }
     ],
     "status": "active",
@@ -14059,7 +15470,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-06-23",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -14080,7 +15491,7 @@
     "links": [
       {
         "type": "website",
-        "value": "https://www.cnt.fraunhofer.de"
+        "value": "https://www.ipms.fraunhofer.de/de/Components-and-Systems/Components-and-Systems-Computing.html"
       },
       {
         "type": "wikipedia",
@@ -14731,13 +16142,11 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [
-      "elblandkliniken.de"
-    ],
+    "domains": [],
     "established": 1861,
     "external_ids": [
       {
@@ -15519,6 +16928,88 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "deutsches-bauminstitut.de"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/03d1m9197",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.deutsches-bauminstitut.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.98525,
+          "lng": 13.58035,
+          "name": "Tharandt"
+        },
+        "geonames_id": 2822939
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "DeBI"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Dendro-Institut Tharandt e.V."
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Deutsches Baum-Institut e.V. an der Technischen Universität Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Dendrochronologie, Baumpflege und Gehölzmanagement Tharandt e.V."
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2879139,
@@ -15723,9 +17214,56 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "smul.sachsen.de"
+    ],
+    "established": 1998,
+    "external_ids": [
+      {
+        "all": [
+          "grid.494437.9"
+        ],
+        "preferred": "grid.494437.9",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0941 9973"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2802518"
+        ],
+        "preferred": "Q2802518",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/03ekpdz59",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.smul.sachsen.de/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Umwelt_und_Landwirtschaft"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -15736,56 +17274,53 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1998,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.494437.9"
-        ],
-        "preferred": "grid.494437.9"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 0941 9973"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/03ekpdz59",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.smul.sachsen.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "SMUL",
+        "lang": "de",
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "SMEKUL"
       },
       {
-        "value": "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft",
+        "lang": null,
         "types": [
-          "ror_display",
-          "label"
+          "acronym"
         ],
-        "lang": "de"
+        "value": "SMUL"
       },
       {
-        "value": "Sächsisches Staatsministerium für Umwelt und Landwirtschaft",
+        "lang": "en",
         "types": [
           "alias"
         ],
-        "lang": "de"
+        "value": "Saxon State Ministry for Energy, Climate Protection, Environment and Agriculture"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Saxon State Ministry of the Environment and Agriculture"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Sächsisches Staatsministerium für Umwelt und Landwirtschaft"
       }
     ],
     "relationships": [
@@ -15798,17 +17333,7 @@
     "status": "active",
     "types": [
       "government"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -15946,7 +17471,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-09-22",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -16034,9 +17559,19 @@
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Fraunhofer Institute for Systems and Innovation Research",
+        "type": "successor",
+        "id": "https://ror.org/03vyq6t71"
+      },
+      {
+        "label": "Fraunhofer Institute for Ceramic Technologies and Systems",
+        "type": "successor",
+        "id": "https://ror.org/0448sak71"
       }
     ],
-    "status": "active",
+    "status": "inactive",
     "types": [
       "facility"
     ]
@@ -17150,7 +18685,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -17258,7 +18793,7 @@
         "id": "https://ror.org/01tspta37"
       },
       {
-        "label": "NaMLab (Germany)",
+        "label": "NaMLab gGmbH",
         "type": "related",
         "id": "https://ror.org/028070c57"
       },
@@ -17305,7 +18840,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-06",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -17448,6 +18983,11 @@
         "label": "Bach Archiv Leipzig",
         "type": "related",
         "id": "https://ror.org/05s928n76"
+      },
+      {
+        "label": "Liturgiewissenschaftliches Institut der VELKD bei der Theologischen Fakultät der Universität Leipzig",
+        "type": "related",
+        "id": "https://ror.org/05b78qt24"
       }
     ],
     "status": "active",
@@ -18483,7 +20023,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -18594,17 +20134,12 @@
         "id": "https://ror.org/00kkpv737"
       },
       {
-        "label": "Institut für Holztechnologie Dresden",
-        "type": "child",
-        "id": "https://ror.org/00me29179"
-      },
-      {
         "label": "Institute of Automation",
         "type": "child",
         "id": "https://ror.org/056qj1t15"
       },
       {
-        "label": "NaMLab (Germany)",
+        "label": "NaMLab gGmbH",
         "type": "child",
         "id": "https://ror.org/028070c57"
       },
@@ -18729,6 +20264,16 @@
         "id": "https://ror.org/01y4jnr14"
       },
       {
+        "label": "OncoRay",
+        "type": "child",
+        "id": "https://ror.org/03aysbj82"
+      },
+      {
+        "label": "Max Bergmann Center of Biomaterials",
+        "type": "child",
+        "id": "https://ror.org/01t4pzq33"
+      },
+      {
         "label": "Medizinische Universität Lausitz - Carl Thiem",
         "type": "related",
         "id": "https://ror.org/044fhy270"
@@ -18834,14 +20379,54 @@
         "id": "https://ror.org/049ag6g97"
       },
       {
-        "label": "OncoRay",
+        "label": "Barkhausen Institut",
         "type": "child",
-        "id": "https://ror.org/03aysbj82"
+        "id": "https://ror.org/0260qqv98"
       },
       {
-        "label": "Max Bergmann Center of Biomaterials",
-        "type": "child",
-        "id": "https://ror.org/01t4pzq33"
+        "label": "Institut für Holztechnologie Dresden",
+        "type": "related",
+        "id": "https://ror.org/00me29179"
+      },
+      {
+        "label": "Dresden International University",
+        "type": "related",
+        "id": "https://ror.org/01t4pxy10"
+      },
+      {
+        "label": "PTS - Institut für Fasern & Papier gGmbH",
+        "type": "related",
+        "id": "https://ror.org/020268t49"
+      },
+      {
+        "label": "Städtisches Klinikum Dresden",
+        "type": "related",
+        "id": "https://ror.org/007gt1a87"
+      },
+      {
+        "label": "Stiftung Hochschulmedizin Dresden",
+        "type": "related",
+        "id": "https://ror.org/04ajdc372"
+      },
+      {
+        "label": "Institut für Musikinstrumentenbau",
+        "type": "related",
+        "id": "https://ror.org/00njqng43"
+      },
+      {
+        "label": "Klinikum Chemnitz",
+        "type": "related",
+        "id": "https://ror.org/04wkp4f46"
+      },
+      {
+        "label": "Deutsches Baum-Institut e.V. an der Technischen Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/03d1m9197"
+      },
+      {
+        "label": "Institut für Dopinganalytik und Sportbiochemie Dresden",
+        "type": "related",
+        "id": "https://ror.org/04e4p4y25"
       }
     ],
     "status": "active",
@@ -19181,7 +20766,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-09-22",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -19269,6 +20854,16 @@
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Fraunhofer Center for International Management and Knowledge Economy",
+        "type": "predecessor",
+        "id": "https://ror.org/03h61ra63"
+      },
+      {
+        "label": "Institut für Nanotechnologie und korrelative Mikroskopie gGmbH",
+        "type": "related",
+        "id": "https://ror.org/01zsj3z24"
       }
     ],
     "status": "active",
@@ -19277,9 +20872,131 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "laserinstitut-mittelsachsen.de"
+    ],
+    "established": 1997,
+    "external_ids": [],
+    "id": "https://ror.org/044bp2f44",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://laserinstitut-mittelsachsen.de"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2845953,
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.98622,
+          "lng": 12.97537,
+          "name": "Mittweida"
+        },
+        "geonames_id": 2870318
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "LIM"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Laser Institute Mittelsachsen (LIM e.V.)"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Laserinstitut Mittelsachsen e.V."
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Hochschule Mittweida",
+        "type": "related",
+        "id": "https://ror.org/024ga3r86"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "skh-rodewisch.sachsen.de"
+    ],
+    "established": 1893,
+    "external_ids": [
+      {
+        "all": [
+          "grid.492103.d"
+        ],
+        "preferred": "grid.492103.d",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 6091 0356"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2378773"
+        ],
+        "preferred": "Q2378773",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/044s59k57",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.skh-rodewisch.sachsen.de/startseite/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Krankenhaus_Rodewisch,_Zentrum_f%C3%BCr_Psychiatrie,_Psychotherapie,_Psychosomatik_und_Neurologie"
+      }
+    ],
+    "locations": [
+      {
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -19290,59 +21007,52 @@
           "lat": 50.53083,
           "lng": 12.41329,
           "name": "Rodewisch"
-        }
-      }
-    ],
-    "established": 1893,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.492103.d"
-        ],
-        "preferred": "grid.492103.d"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 6091 0356"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/044s59k57",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.skh-rodewisch.sachsen.de/startseite/"
+        },
+        "geonames_id": 2845953
       }
     ],
     "names": [
       {
-        "value": "Sächsisches Krankenhaus Rodewisch",
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "SKH Rodewisch"
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Sächsisches Krankenhaus Rodewisch"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Krankenhaus Rodewisch, Zentrum für Psychiatrie, Psychotherapie, Psychosomatik und Neurologie"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Krankenhaus für Psychiatrie und Neurologie Rodewisch"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
+        "type": "parent",
+        "id": "https://ror.org/0198kn518"
+      }
+    ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -20310,7 +22020,7 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -20325,6 +22035,20 @@
         ],
         "preferred": "501100014159",
         "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0004 8309 4566"
+        ],
+        "preferred": "0000 0004 8309 4566",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q140873422"
+        ],
+        "preferred": "Q140873422",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/04ajdc372",
@@ -20374,10 +22098,97 @@
         "value": "Stiftung zur Förderung der Hochschulmedizin in Dresden"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "University Hospital Carl Gustav Carus",
+        "type": "related",
+        "id": "https://ror.org/04za5zm41"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
     "status": "active",
     "types": [
       "funder",
+      "nonprofit"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "kultur.org"
+    ],
+    "established": 1994,
+    "external_ids": [],
+    "id": "https://ror.org/04atckr28",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://kultur.org"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.05089,
+          "lng": 13.73832,
+          "name": "Dresden"
+        },
+        "geonames_id": 2935022
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "IKS"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für kulturelle Infrastruktur Sachsen"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute for Cultural Infrastructure Saxony"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Saxonian Institute for Cultural Infrastructure"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
       "nonprofit"
     ]
   },
@@ -20527,6 +22338,110 @@
     "status": "active",
     "types": [
       "education"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "idas-kreischa.de"
+    ],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 6005 8140"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/04e4p4y25",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.idas-kreischa.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 50.94534,
+          "lng": 13.75514,
+          "name": "Kreischa"
+        },
+        "geonames_id": 2884451
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "IDAS"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut für Dopinganalytik und Sportbiochemie Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute of Doping Analysis and Sports Biochemistry Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Doping Analysis and Sports Biochemistry"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut für Dopinganalytik und Sportbiochemie Dresden an der TU Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "IDAS Dresden"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
     ]
   },
   {
@@ -20825,9 +22740,43 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2008,
+    "external_ids": [
+      {
+        "all": [
+          "grid.500242.1"
+        ],
+        "preferred": "grid.500242.1",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 9466 9696"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/04facpy29",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.lfulg.sachsen.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -20838,54 +22787,30 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 2008,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.500242.1"
-        ],
-        "preferred": "grid.500242.1"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0000 9466 9696"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/04facpy29",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.lfulg.sachsen.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "LfULG",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "LfULG"
       },
       {
-        "value": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie"
       }
     ],
     "relationships": [
       {
-        "label": "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft",
+        "label": "Sächsisches Staatsministerium für Umwelt und Landwirtschaft",
         "type": "parent",
         "id": "https://ror.org/03ekpdz59"
       }
@@ -20893,17 +22818,7 @@
     "status": "active",
     "types": [
       "government"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "locations": [
@@ -21432,13 +23347,12 @@
         "schema_version": "2.1"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
     "domains": [
-      "elbland-reha.de",
-      "elblandkliniken.de"
+      "elbland-reha.de"
     ],
     "established": 2013,
     "external_ids": [
@@ -22713,9 +24627,58 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "klinikum-chemnitz.de",
+      "klinikumchemnitz.de",
+      "skc.de"
+    ],
+    "established": 1994,
+    "external_ids": [
+      {
+        "all": [
+          "grid.459629.5"
+        ],
+        "preferred": "grid.459629.5",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0389 4214"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q1774602"
+        ],
+        "preferred": "Q1774602",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04wkp4f46",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.klinikumchemnitz.de"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/Klinikum_Chemnitz"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2940132,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -22726,49 +24689,39 @@
           "lat": 50.8357,
           "lng": 12.92922,
           "name": "Chemnitz"
-        }
-      }
-    ],
-    "established": 1994,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.459629.5"
-        ],
-        "preferred": "grid.459629.5"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 0389 4214"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q1774602"
-        ],
-        "preferred": "Q1774602"
-      }
-    ],
-    "id": "https://ror.org/04wkp4f46",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.klinikumchemnitz.de"
+        },
+        "geonames_id": 2940132
       }
     ],
     "names": [
       {
-        "value": "Klinikum Chemnitz",
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Chemnitz Hospital"
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Klinikum Chemnitz"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinikum Chemnitz GmbH"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinikum Chemnitz gGmbH"
       }
     ],
     "relationships": [
@@ -22776,22 +24729,17 @@
         "label": "Leipzig University",
         "type": "related",
         "id": "https://ror.org/03s7gtk40"
+      },
+      {
+        "label": "Technische Universität Dresden",
+        "type": "related",
+        "id": "https://ror.org/042aqky30"
       }
     ],
     "status": "active",
     "types": [
       "healthcare"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   },
   {
     "admin": {
@@ -23067,7 +25015,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-09-22",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -23162,6 +25110,11 @@
         "label": "Fraunhofer-Gesellschaft",
         "type": "parent",
         "id": "https://ror.org/05hkkdn48"
+      },
+      {
+        "label": "Fraunhofer-Zentrum Erfurt",
+        "type": "related",
+        "id": "https://ror.org/018rm6156"
       }
     ],
     "status": "active",
@@ -23339,7 +25292,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -23479,6 +25432,11 @@
         "id": "https://ror.org/01jq4d775"
       },
       {
+        "label": "OncoRay",
+        "type": "child",
+        "id": "https://ror.org/03aysbj82"
+      },
+      {
         "label": "Technische Universität Dresden",
         "type": "related",
         "id": "https://ror.org/042aqky30"
@@ -23499,9 +25457,9 @@
         "id": "https://ror.org/01jx86h05"
       },
       {
-        "label": "OncoRay",
-        "type": "child",
-        "id": "https://ror.org/03aysbj82"
+        "label": "Stiftung Hochschulmedizin Dresden",
+        "type": "related",
+        "id": "https://ror.org/04ajdc372"
       }
     ],
     "status": "active",
@@ -24288,6 +26246,68 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "wilhelm-ostwald.de"
+    ],
+    "established": 1990,
+    "external_ids": [],
+    "id": "https://ror.org/0527avv57",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.wilhelm-ostwald.de/joomla/index.php/de/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.18784,
+          "lng": 12.75101,
+          "name": "Großbothen"
+        },
+        "geonames_id": 2916937
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Wilhelm-Ostwald-Gesellschaft e.V."
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Wilhelm-Ostwald-Gesellschaft zu Großbothen e.V."
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
+    ]
+  },
+  {
     "locations": [
       {
         "geonames_id": 2935022,
@@ -24916,7 +26936,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-10-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -25016,7 +27036,14 @@
         "types": [
           "alias"
         ],
-        "value": "Klinik für Augenheilkunde"
+        "value": "Klinik für Augenheilkunde der Medizinischen Akademie Carl Gustav Carus Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Klinik für Augenheilkunde, Universitätsklinikum Carl Gustav Carus"
       },
       {
         "lang": "de",
@@ -25095,7 +27122,7 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -25108,13 +27135,27 @@
         ],
         "preferred": "grid.506552.1",
         "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0005 1101 1896"
+        ],
+        "preferred": "0000 0005 1101 1896",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q77077376"
+        ],
+        "preferred": "Q77077376",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/056qj1t15",
     "links": [
       {
         "type": "website",
-        "value": "http://www.et.tu-dresden.de/ifa/"
+        "value": "https://tu-dresden.de/ing/elektrotechnik/ifa"
       }
     ],
     "locations": [
@@ -25137,9 +27178,23 @@
       {
         "lang": "de",
         "types": [
+          "acronym"
+        ],
+        "value": "IfA"
+      },
+      {
+        "lang": "de",
+        "types": [
           "label"
         ],
         "value": "Institut für Automatisierungstechnik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Automation Technology"
       },
       {
         "lang": "en",
@@ -25148,6 +27203,13 @@
           "label"
         ],
         "value": "Institute of Automation"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Automation Technology"
       }
     ],
     "relationships": [
@@ -25160,6 +27222,68 @@
     "status": "active",
     "types": [
       "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "scrc-leipzig.de"
+    ],
+    "established": 2014,
+    "external_ids": [],
+    "id": "https://ror.org/056tqp339",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://scrc-leipzig.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "SCRC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Social CRM Research Center e. V."
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "nonprofit"
     ]
   },
   {
@@ -25398,6 +27522,75 @@
   {
     "admin": {
       "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "sustainability-justice-climate.eu"
+    ],
+    "established": 2009,
+    "external_ids": [],
+    "id": "https://ror.org/0590vdt86",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.sustainability-justice-climate.eu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "FNK"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Forschungsstelle Nachhaltigkeit und Klimapolitik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Research Unit Sustainability and Climate Policy"
+      }
+    ],
+    "relationships": [],
+    "status": "active",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
         "date": "2026-07-19",
         "schema_version": "2.1"
       },
@@ -25499,6 +27692,88 @@
     "status": "active",
     "types": [
       "facility"
+    ]
+  },
+  {
+    "admin": {
+      "created": {
+        "date": "2026-11-10",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "liturgiewissenschaft-evangelisch.de"
+    ],
+    "established": 1993,
+    "external_ids": [],
+    "id": "https://ror.org/05b78qt24",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://liturgiewissenschaft-evangelisch.de"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Saxony",
+          "lat": 51.33962,
+          "lng": 12.37129,
+          "name": "Leipzig"
+        },
+        "geonames_id": 2879139
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Institute of Liturgical Studies of the United Evangelical Lutheran Church of Germany (VELKD) at the Theological Faculty of the University of Leipzig"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "LWI"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Liturgiewissenschaftliches Institut der VELKD bei der Theologischen Fakultät der Universität Leipzig"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Liturgiewissenschaftliches Institut der Vereinigten Evangelisch-Lutherischen Kirche Deutschlands bei der Theologischen Fakultät der Universität Leipzig"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Leipzig University",
+        "type": "related",
+        "id": "https://ror.org/03s7gtk40"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "nonprofit"
     ]
   },
   {
@@ -26107,11 +28382,13 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2025-04-28",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
+    "domains": [
+      "csbdresden.de"
+    ],
     "established": 2010,
     "external_ids": [
       {
@@ -26120,13 +28397,27 @@
         ],
         "preferred": "grid.495510.c",
         "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 9335 670X"
+        ],
+        "preferred": "0000 0004 9335 670X",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q50425792"
+        ],
+        "preferred": "Q50425792",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/05hrn3e05",
     "links": [
       {
         "type": "website",
-        "value": "http://www.csbdresden.de/"
+        "value": "https://www.csbdresden.de/"
       }
     ],
     "locations": [
@@ -26160,6 +28451,20 @@
           "label"
         ],
         "value": "Center for Systems Biology Dresden"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Systems Biology Dresden"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Zentrum für Systembiologie Dresden"
       }
     ],
     "relationships": [
@@ -26512,12 +28817,14 @@
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-08-03",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
-    "domains": [],
-    "established": null,
+    "domains": [
+      "plid.de"
+    ],
+    "established": 2009,
     "external_ids": [
       {
         "all": [
@@ -26525,6 +28832,20 @@
         ],
         "preferred": "grid.507329.a",
         "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0005 1088 2972"
+        ],
+        "preferred": "0000 0005 1088 2972",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q77084201"
+        ],
+        "preferred": "Q77084201",
+        "type": "wikidata"
       }
     ],
     "id": "https://ror.org/05ke5hb07",
@@ -26879,92 +29200,13 @@
     }
   },
   {
-    "locations": [
-      {
-        "geonames_id": 2823081,
-        "geonames_details": {
-          "continent_code": "EU",
-          "continent_name": "Europe",
-          "country_code": "DE",
-          "country_name": "Germany",
-          "country_subdivision_code": "SN",
-          "country_subdivision_name": "Saxony",
-          "lat": 50.70077,
-          "lng": 12.84996,
-          "name": "Thalheim"
-        }
-      }
-    ],
-    "established": 1999,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.506714.1"
-        ],
-        "preferred": "grid.506714.1"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 5997 3923"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "wikidata",
-        "all": [
-          "Q265176"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/05nt5a548",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.q-cells.com/"
-      },
-      {
-        "type": "wikipedia",
-        "value": "https://en.wikipedia.org/wiki/Q-Cells"
-      }
-    ],
-    "names": [
-      {
-        "value": "Q-Cells (Germany)",
-        "types": [
-          "ror_display",
-          "label"
-        ],
-        "lang": null
-      }
-    ],
-    "relationships": [],
-    "status": "active",
-    "types": [
-      "company"
-    ],
-    "admin": {
-      "created": {
-        "date": "2019-11-07",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
-  },
-  {
     "admin": {
       "created": {
         "date": "2018-11-14",
         "schema_version": "1.0"
       },
       "last_modified": {
-        "date": "2026-07-20",
+        "date": "2026-11-19",
         "schema_version": "2.1"
       }
     },
@@ -27068,6 +29310,11 @@
         "label": "Responsible Electronics in the Climate Change Era",
         "type": "related",
         "id": "https://ror.org/03rymtb94"
+      },
+      {
+        "label": "Zentrum für angewandte Forschung und Technologie e.V.",
+        "type": "related",
+        "id": "https://ror.org/01hc8qq74"
       }
     ],
     "status": "active",
@@ -27599,9 +29846,63 @@
     }
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "smwk.sachsen.de"
+    ],
+    "established": 1990,
+    "external_ids": [
+      {
+        "all": [
+          "501100006114"
+        ],
+        "preferred": null,
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.467785.f"
+        ],
+        "preferred": "grid.467785.f",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2227 3534"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2378820"
+        ],
+        "preferred": "Q2378820",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/05wnef833",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.smwk.sachsen.de/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Wissenschaft,_Kultur_und_Tourismus"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -27612,81 +29913,67 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": 1990,
-    "external_ids": [
-      {
-        "type": "fundref",
-        "all": [
-          "501100006114"
-        ],
-        "preferred": null
-      },
-      {
-        "type": "grid",
-        "all": [
-          "grid.467785.f"
-        ],
-        "preferred": "grid.467785.f"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0001 2227 3534"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/05wnef833",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "http://www.sachsen.de/en/24.htm"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "SMWK",
+        "lang": null,
         "types": [
           "acronym"
         ],
-        "lang": null
+        "value": "SMWK"
       },
       {
-        "value": "Saxon State Ministry for Science and the Arts",
+        "lang": "en",
         "types": [
-          "ror_display",
-          "label"
+          "alias"
         ],
-        "lang": "en"
+        "value": "Saxon State Ministry for Higher Education, Research and the Arts"
       },
       {
-        "value": "Sächsisches Staatsministerium für Wissenschaft und Kunst",
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Saxon State Ministry for Science and the Arts"
+      },
+      {
+        "lang": "en",
         "types": [
           "label"
         ],
-        "lang": "de"
+        "value": "Saxon State Ministry for Science, Culture and Tourism"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Sächsisches Staatsministerium für Wissenschaft und Kunst"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Landesamt für Archäologie Sachsen",
+        "type": "child",
+        "id": "https://ror.org/02kv9xm28"
+      }
+    ],
     "status": "active",
     "types": [
-      "government",
-      "funder"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+      "funder",
+      "government"
+    ]
   },
   {
     "admin": {
@@ -27752,9 +30039,45 @@
     ]
   },
   {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-11-19",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "lua.sachsen.de"
+    ],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "grid.491943.2"
+        ],
+        "preferred": "grid.491943.2",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0636 2942"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/05y895e77",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.lua.sachsen.de/"
+      }
+    ],
     "locations": [
       {
-        "geonames_id": 2935022,
         "geonames_details": {
           "continent_code": "EU",
           "continent_name": "Europe",
@@ -27765,58 +30088,58 @@
           "lat": 51.05089,
           "lng": 13.73832,
           "name": "Dresden"
-        }
-      }
-    ],
-    "established": null,
-    "external_ids": [
-      {
-        "type": "grid",
-        "all": [
-          "grid.491943.2"
-        ],
-        "preferred": "grid.491943.2"
-      },
-      {
-        "type": "isni",
-        "all": [
-          "0000 0004 0636 2942"
-        ],
-        "preferred": null
-      }
-    ],
-    "id": "https://ror.org/05y895e77",
-    "domains": [],
-    "links": [
-      {
-        "type": "website",
-        "value": "https://www.lua.sachsen.de/"
+        },
+        "geonames_id": 2935022
       }
     ],
     "names": [
       {
-        "value": "Landesuntersuchungsanstalt Sachsen",
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "LUA"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "LUA Sachsen"
+      },
+      {
+        "lang": "de",
         "types": [
           "ror_display",
           "label"
         ],
-        "lang": "de"
+        "value": "Landesuntersuchungsanstalt Sachsen"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "alias"
+        ],
+        "value": "Landesuntersuchungsanstalt für das Gesundheits- und Veterinärwesen Sachsen"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Saxon State Laboratory of Health and Veterinary Affairs"
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "label": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
+        "type": "parent",
+        "id": "https://ror.org/0198kn518"
+      }
+    ],
     "status": "active",
     "types": [
       "government"
-    ],
-    "admin": {
-      "created": {
-        "date": "2018-11-14",
-        "schema_version": "1.0"
-      },
-      "last_modified": {
-        "date": "2024-12-11",
-        "schema_version": "2.1"
-      }
-    }
+    ]
   }
 ]

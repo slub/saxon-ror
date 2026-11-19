@@ -1,7 +1,41 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.500242.1"
+      ],
+      "preferred": "grid.500242.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9466 9696"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04facpy29",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lfulg.sachsen.de/"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,54 +46,30 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 2008,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.500242.1"
-      ],
-      "preferred": "grid.500242.1"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0000 9466 9696"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/04facpy29",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.lfulg.sachsen.de/"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "LfULG",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "LfULG"
     },
     {
-      "value": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie"
     }
   ],
   "relationships": [
     {
-      "label": "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft",
+      "label": "Sächsisches Staatsministerium für Umwelt und Landwirtschaft",
       "type": "parent",
       "id": "https://ror.org/03ekpdz59"
     }
@@ -67,15 +77,5 @@
   "status": "active",
   "types": [
     "government"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

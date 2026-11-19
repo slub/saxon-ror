@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-20",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -18,6 +18,13 @@
       ],
       "preferred": "501100009520",
       "type": "fundref"
+    },
+    {
+      "all": [
+        "Q105703421"
+      ],
+      "preferred": "Q105703421",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/005f1n095",
@@ -65,9 +72,29 @@
         "alias"
       ],
       "value": "Dr.-Erich Krüger Foundation"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Dr.-Erich-Krüger-Stiftung"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Dr.-Erich-Krüger-Stiftung an der TU Bergakademie Freiberg"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "TU Bergakademie Freiberg",
+      "type": "related",
+      "id": "https://ror.org/031vc2293"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

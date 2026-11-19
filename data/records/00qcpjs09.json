@@ -5,11 +5,13 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-04-28",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "klinikum-goerlitz.de"
+  ],
   "established": 1905,
   "external_ids": [
     {
@@ -18,13 +20,27 @@
       ],
       "preferred": "grid.470122.2",
       "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0622 0047"
+      ],
+      "preferred": "0000 0004 0622 0047",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1431657"
+      ],
+      "preferred": "Q1431657",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00qcpjs09",
   "links": [
     {
       "type": "website",
-      "value": "http://www.klinikum-goerlitz.de/"
+      "value": "https://www.klinikum-goerlitz.de"
     }
   ],
   "locations": [
@@ -47,10 +63,59 @@
     {
       "lang": "de",
       "types": [
+        "alias"
+      ],
+      "value": "Bezirkskrankenhaus Görlitz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "City Hospital Görlitz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "District Hospital Görlitz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Görlitz Municipal Hospital"
+    },
+    {
+      "lang": "de",
+      "types": [
         "ror_display",
         "label"
       ],
       "value": "Klinikum Görlitz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Municipal Hospital Görlitz"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Städtisches Klinikum Görlitz"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Städtisches Klinikum Görlitz gGmbH"
     }
   ],
   "relationships": [

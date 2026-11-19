@@ -1,7 +1,50 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "di-uni.de"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440925.e"
+      ],
+      "preferred": "grid.440925.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9874 1261"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1258462"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01t4pxy10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.di-uni.de/"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2935022,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,71 +55,36 @@
         "lat": 51.05089,
         "lng": 13.73832,
         "name": "Dresden"
-      }
-    }
-  ],
-  "established": 2003,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.440925.e"
-      ],
-      "preferred": "grid.440925.e"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0000 9874 1261"
-      ],
-      "preferred": null
-    },
-    {
-      "type": "wikidata",
-      "all": [
-        "Q1258462"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/01t4pxy10",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.di-uni.de/index.php?id=20"
+      },
+      "geonames_id": 2935022
     }
   ],
   "names": [
     {
-      "value": "DIU",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "lang": null
+      "value": "DIU"
     },
     {
-      "value": "Dresden International University",
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "en"
+      "value": "Dresden International University"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technische Universität Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

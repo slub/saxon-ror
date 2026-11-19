@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-20",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -20,6 +20,20 @@
       ],
       "preferred": "501100014159",
       "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 8309 4566"
+      ],
+      "preferred": "0000 0004 8309 4566",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q140873422"
+      ],
+      "preferred": "Q140873422",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04ajdc372",
@@ -69,7 +83,18 @@
       "value": "Stiftung zur Förderung der Hochschulmedizin in Dresden"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University Hospital Carl Gustav Carus",
+      "type": "related",
+      "id": "https://ror.org/04za5zm41"
+    },
+    {
+      "label": "Technische Universität Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",
