@@ -1,7 +1,54 @@
 {
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "skh-rodewisch.sachsen.de"
+  ],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "grid.492103.d"
+      ],
+      "preferred": "grid.492103.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6091 0356"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2378773"
+      ],
+      "preferred": "Q2378773",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/044s59k57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.skh-rodewisch.sachsen.de/startseite/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Krankenhaus_Rodewisch,_Zentrum_f%C3%BCr_Psychiatrie,_Psychotherapie,_Psychosomatik_und_Neurologie"
+    }
+  ],
   "locations": [
     {
-      "geonames_id": 2845953,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -12,57 +59,50 @@
         "lat": 50.53083,
         "lng": 12.41329,
         "name": "Rodewisch"
-      }
-    }
-  ],
-  "established": 1893,
-  "external_ids": [
-    {
-      "type": "grid",
-      "all": [
-        "grid.492103.d"
-      ],
-      "preferred": "grid.492103.d"
-    },
-    {
-      "type": "isni",
-      "all": [
-        "0000 0004 6091 0356"
-      ],
-      "preferred": null
-    }
-  ],
-  "id": "https://ror.org/044s59k57",
-  "domains": [],
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.skh-rodewisch.sachsen.de/startseite/"
+      },
+      "geonames_id": 2845953
     }
   ],
   "names": [
     {
-      "value": "Sächsisches Krankenhaus Rodewisch",
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "SKH Rodewisch"
+    },
+    {
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "lang": "de"
+      "value": "Sächsisches Krankenhaus Rodewisch"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Sächsisches Krankenhaus Rodewisch, Zentrum für Psychiatrie, Psychotherapie, Psychosomatik und Neurologie"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Sächsisches Krankenhaus für Psychiatrie und Neurologie Rodewisch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
+      "type": "parent",
+      "id": "https://ror.org/0198kn518"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
-  ],
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
-    },
-    "last_modified": {
-      "date": "2024-12-11",
-      "schema_version": "2.1"
-    }
-  }
+  ]
 }

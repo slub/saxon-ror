@@ -5,11 +5,14 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-04-28",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "ihd-dresden.com",
+    "ihd-dresden.de"
+  ],
   "established": 1952,
   "external_ids": [
     {
@@ -38,7 +41,7 @@
   "links": [
     {
       "type": "website",
-      "value": "https://www.ihd-dresden.com"
+      "value": "https://www.ihd-dresden.de/"
     }
   ],
   "locations": [
@@ -59,6 +62,13 @@
   ],
   "names": [
     {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Institute of Wood Technology"
+    },
+    {
       "lang": null,
       "types": [
         "acronym"
@@ -72,12 +82,26 @@
         "label"
       ],
       "value": "Institut für Holztechnologie Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute for Wood Technology Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Wood Technology Dresden"
     }
   ],
   "relationships": [
     {
       "label": "Technische Universität Dresden",
-      "type": "parent",
+      "type": "related",
       "id": "https://ror.org/042aqky30"
     }
   ],

@@ -5,11 +5,14 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-07-20",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "namlab.com",
+    "namlab.de"
+  ],
   "established": 2006,
   "external_ids": [
     {
@@ -38,7 +41,7 @@
   "links": [
     {
       "type": "website",
-      "value": "http://www.namlab.de/home?set_language=en&cl=en"
+      "value": "https://www.namlab.com/"
     }
   ],
   "locations": [
@@ -59,12 +62,47 @@
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "acronym"
+      ],
+      "value": "NaMLab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
       ],
       "value": "NaMLab (Germany)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "NaMLab gGmbH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nano-electronic Materials Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nanoelectronic Materials Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nanoelectronic Materials Laboratory gGmbH"
     }
   ],
   "relationships": [
@@ -81,6 +119,6 @@
   ],
   "status": "active",
   "types": [
-    "company"
+    "nonprofit"
   ]
 }

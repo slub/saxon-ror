@@ -5,11 +5,13 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-04-28",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "csbdresden.de"
+  ],
   "established": 2010,
   "external_ids": [
     {
@@ -18,13 +20,27 @@
       ],
       "preferred": "grid.495510.c",
       "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 9335 670X"
+      ],
+      "preferred": "0000 0004 9335 670X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q50425792"
+      ],
+      "preferred": "Q50425792",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05hrn3e05",
   "links": [
     {
       "type": "website",
-      "value": "http://www.csbdresden.de/"
+      "value": "https://www.csbdresden.de/"
     }
   ],
   "locations": [
@@ -58,6 +74,20 @@
         "label"
       ],
       "value": "Center for Systems Biology Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre for Systems Biology Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Zentrum für Systembiologie Dresden"
     }
   ],
   "relationships": [

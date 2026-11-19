@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-06-24",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -27,6 +27,13 @@
       ],
       "preferred": null,
       "type": "isni"
+    },
+    {
+      "all": [
+        "Q108737228"
+      ],
+      "preferred": "Q108737228",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/0260qqv98",
@@ -83,7 +90,13 @@
       "value": "Barkhausen Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technische Universität Dresden",
+      "type": "parent",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
