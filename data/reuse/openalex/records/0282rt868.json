@@ -20,7 +20,7 @@
   "works_count": 38,
   "works_count_with_children": 38,
   "works_count_with_children_and_predecessors": 38,
-  "cited_by_count": 106,
+  "cited_by_count": 127,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 5,
@@ -31,12 +31,12 @@
     "ror": "https://ror.org/0282rt868",
     "grid": "grid.438116.9",
     "wikipedia": "http://en.wikipedia.org/wiki/German_Hygiene_Museum",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q874373"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.044166564941406,
@@ -46,10 +46,16 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
-      "year": 2025,
+      "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
       "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 4
     },
     {
       "year": 2024,
@@ -61,7 +67,7 @@
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2022,
@@ -73,19 +79,19 @@
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 4
+      "cited_by_count": 6
     },
     {
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 8
     },
     {
       "year": 2019,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 3
+      "cited_by_count": 5
     },
     {
       "year": 2018,
@@ -97,7 +103,7 @@
       "year": 2017,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 7
     },
     {
       "year": 2016,
@@ -115,7 +121,7 @@
       "year": 2014,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 10
     },
     {
       "year": 2013,
@@ -127,7 +133,7 @@
       "year": 2012,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 4
     },
     {
       "year": 2011,
@@ -151,6 +157,24 @@
   ],
   "topics": [
     {
+      "id": "https://openalex.org/T12041",
+      "display_name": "Public Health Policies and Education",
+      "count": 12,
+      "score": 0.9775000214576721,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14475",
       "display_name": "History of Science and Medicine",
       "count": 12,
@@ -166,24 +190,6 @@
       "domain": {
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12041",
-      "display_name": "Public Health Policies and Education",
-      "count": 11,
-      "score": 0.9775000214576721,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
       }
     },
     {
@@ -210,12 +216,12 @@
       "count": 7,
       "score": 0.9833999872207642,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -223,46 +229,28 @@
       }
     },
     {
+      "id": "https://openalex.org/T12778",
+      "display_name": "History of Medicine and Tropical Health",
+      "count": 6,
+      "score": 0.8628000020980835,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12324",
       "display_name": "History of Medicine Studies",
       "count": 5,
       "score": 0.7699999809265137,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12575",
-      "display_name": "Medical History and Research",
-      "count": 5,
-      "score": 0.5648999810218811,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12778",
-      "display_name": "History of Medicine and Tropical Health",
-      "count": 5,
-      "score": 0.8628000020980835,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -295,6 +283,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T12575",
+      "display_name": "Medical History and Research",
+      "count": 4,
+      "score": 0.5414999723434448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12990",
       "display_name": "Medical History and Innovations",
       "count": 3,
@@ -302,6 +308,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14517",
+      "display_name": "Diverse Historical and Scientific Studies",
+      "count": 3,
+      "score": 0.14000000059604645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -372,12 +396,12 @@
       "count": 2,
       "score": 0.8086000084877014,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -421,13 +445,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T14517",
-      "display_name": "Diverse Historical and Scientific Studies",
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
       "count": 2,
-      "score": 0.14000000059604645,
+      "score": 0.3659999966621399,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -514,7 +538,7 @@
       "id": "https://openalex.org/T10582",
       "display_name": "Ethics in Clinical Research",
       "count": 1,
-      "score": 0.07699999958276749,
+      "score": 0.4456000030040741,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -534,12 +558,12 @@
       "count": 1,
       "score": 0.2736999988555908,
       "subfield": {
-        "id": "https://openalex.org/subfields/3103",
-        "display_name": "Astronomy and Astrophysics"
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -571,7 +595,7 @@
       "score": 0.7612000107765198,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
+        "display_name": "Pharmacology (medical)"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -581,31 +605,13 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "count": 1,
-      "score": 0.0203000009059906,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12575",
       "display_name": "Medical History and Research",
-      "value": 0.0003679,
+      "value": 0.0002877,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -622,14 +628,14 @@
     {
       "id": "https://openalex.org/T12041",
       "display_name": "Public Health Policies and Education",
-      "value": 0.000104,
+      "value": 0.0001119,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -639,7 +645,7 @@
     {
       "id": "https://openalex.org/T12778",
       "display_name": "History of Medicine and Tropical Health",
-      "value": 8.91e-05,
+      "value": 0.0001061,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -654,9 +660,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14517",
+      "display_name": "Diverse Historical and Scientific Studies",
+      "value": 9.81e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12324",
       "display_name": "History of Medicine Studies",
-      "value": 7.17e-05,
+      "value": 7.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -673,7 +696,7 @@
     {
       "id": "https://openalex.org/T13974",
       "display_name": "Health, Education, and Aging",
-      "value": 6.96e-05,
+      "value": 6.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3306",
         "display_name": "Health"
@@ -688,33 +711,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T14517",
-      "display_name": "Diverse Historical and Scientific Studies",
-      "value": 6.54e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12831",
       "display_name": "School Health and Nursing Education",
-      "value": 5.86e-05,
+      "value": 5.37e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -724,7 +730,7 @@
     {
       "id": "https://openalex.org/T12413",
       "display_name": "Health and Medical Education",
-      "value": 5.35e-05,
+      "value": 5.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -741,7 +747,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 5.27e-05,
+      "value": 5.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -758,7 +764,7 @@
     {
       "id": "https://openalex.org/T13708",
       "display_name": "History of Emotions Research",
-      "value": 5.06e-05,
+      "value": 4.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -775,7 +781,7 @@
     {
       "id": "https://openalex.org/T11462",
       "display_name": "Museums and Cultural Heritage",
-      "value": 4.8e-05,
+      "value": 4.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1209",
         "display_name": "Museology"
@@ -792,18 +798,18 @@
     {
       "id": "https://openalex.org/T14307",
       "display_name": "Bioethics and Human Rights Issues",
-      "value": 4.37e-05,
+      "value": 4.29e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -826,7 +832,7 @@
     {
       "id": "https://openalex.org/T13118",
       "display_name": "Psychological Treatments and Disorders",
-      "value": 3.83e-05,
+      "value": 3.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -843,14 +849,14 @@
     {
       "id": "https://openalex.org/T12927",
       "display_name": "Memory, History, Trauma, Identity",
-      "value": 3.71e-05,
+      "value": 3.52e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -860,7 +866,7 @@
     {
       "id": "https://openalex.org/T14475",
       "display_name": "History of Science and Medicine",
-      "value": 3.48e-05,
+      "value": 3.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -875,9 +881,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "value": 3.03e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12990",
       "display_name": "Medical History and Innovations",
-      "value": 2.71e-05,
+      "value": 2.67e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -894,7 +917,7 @@
     {
       "id": "https://openalex.org/T12645",
       "display_name": "European history and politics",
-      "value": 2.68e-05,
+      "value": 2.61e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -909,9 +932,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12471",
+      "display_name": "History of Science and Natural History",
+      "value": 2.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "value": 2.62e-05,
+      "value": 2.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -928,7 +968,7 @@
     {
       "id": "https://openalex.org/T11893",
       "display_name": "German Literature and Culture Studies",
-      "value": 2.51e-05,
+      "value": 2.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -943,26 +983,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12471",
-      "display_name": "History of Science and Natural History",
-      "value": 2.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13099",
       "display_name": "Health, Medicine and Society",
-      "value": 1.96e-05,
+      "value": 1.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -977,33 +1000,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T14376",
-      "display_name": "Science and Education Research",
-      "value": 1.87e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12493",
       "display_name": "Memory, violence, and history",
-      "value": 1.8e-05,
+      "value": 1.7e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -1013,7 +1019,7 @@
     {
       "id": "https://openalex.org/T14432",
       "display_name": "Freedom of Expression and Defamation",
-      "value": 1.78e-05,
+      "value": 1.7e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -1031,6 +1037,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210115191",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 12,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210115191",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -22,7 +22,7 @@
   "works_count": 7,
   "works_count_with_children": 7,
   "works_count_with_children_and_predecessors": 7,
-  "cited_by_count": 19,
+  "cited_by_count": 29,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -38,7 +38,7 @@
   "geo": {
     "city": "Chemnitz",
     "geonames_city_id": "2940132",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.82064437866211,
@@ -57,22 +57,28 @@
   ],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
       "year": 2025,
       "works_count": 6,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 5
     },
     {
       "year": 2024,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 5
+      "cited_by_count": 7
     },
     {
       "year": 2023,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 6
     },
     {
       "year": 2022,
@@ -84,7 +90,7 @@
       "year": 2021,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2020,
@@ -110,11 +116,65 @@
     {
       "id": "https://openalex.org/T10154",
       "display_name": "Customer Service Quality and Loyalty",
-      "count": 3,
+      "count": 4,
       "score": 0.9926999807357788,
       "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10910",
+      "display_name": "Corporate Governance and Management",
+      "count": 2,
+      "score": 0.017500000074505806,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12128",
+      "display_name": "AI in Service Interactions",
+      "count": 2,
+      "score": 0.4214000105857849,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12885",
+      "display_name": "Digital Innovation in Industries",
+      "count": 2,
+      "score": 0.45170000195503235,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -162,24 +222,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10609",
-      "display_name": "Digital Marketing and Social Media",
-      "count": 1,
-      "score": 0.08070000261068344,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
       "count": 1,
@@ -198,57 +240,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T10910",
-      "display_name": "Corporate Governance and Management",
-      "count": 1,
-      "score": 0.001500000013038516,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11531",
       "display_name": "Healthcare Systems and Reforms",
       "count": 1,
       "score": 0.22599999606609344,
       "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12128",
-      "display_name": "AI in Service Interactions",
-      "count": 1,
-      "score": 0.22050000727176666,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -259,24 +265,6 @@
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12885",
-      "display_name": "Digital Innovation in Industries",
-      "count": 1,
-      "score": 0.45170000195503235,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1405",
-        "display_name": "Management of Technology and Innovation"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -309,7 +297,7 @@
       "id": "https://openalex.org/T13355",
       "display_name": "Marketing and Advertising Strategies",
       "count": 1,
-      "score": 0.7378000020980835,
+      "score": 0.04259999841451645,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -346,7 +334,7 @@
     {
       "id": "https://openalex.org/T10259",
       "display_name": "Sociology and Education Studies",
-      "value": 5.46e-05,
+      "value": 5.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -361,26 +349,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12384",
-      "display_name": "Customer churn and segmentation",
-      "value": 2.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10910",
       "display_name": "Corporate Governance and Management",
-      "value": 2.63e-05,
+      "value": 4.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -397,24 +368,24 @@
     {
       "id": "https://openalex.org/T12128",
       "display_name": "AI in Service Interactions",
-      "value": 1.56e-05,
+      "value": 2.91e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12885",
       "display_name": "Digital Innovation in Industries",
-      "value": 1.49e-05,
+      "value": 2.72e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -429,9 +400,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T12384",
+      "display_name": "Customer churn and segmentation",
+      "value": 2.5e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10154",
+      "display_name": "Customer Service Quality and Loyalty",
+      "value": 1.52e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14260",
       "display_name": "Impact of AI and Big Data on Business and Society",
-      "value": 1.47e-05,
+      "value": 1.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -448,7 +453,7 @@
     {
       "id": "https://openalex.org/T12984",
       "display_name": "Transport and Logistics Innovations",
-      "value": 1.39e-05,
+      "value": 1.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -463,43 +468,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10154",
-      "display_name": "Customer Service Quality and Loyalty",
-      "value": 1.29e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11531",
       "display_name": "Healthcare Systems and Reforms",
-      "value": 8.1e-06,
+      "value": 7.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
-      "value": 7.8e-06,
+      "value": 7.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -516,7 +504,7 @@
     {
       "id": "https://openalex.org/T10391",
       "display_name": "Healthcare Policy and Management",
-      "value": 5.5e-06,
+      "value": 5.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -533,7 +521,7 @@
     {
       "id": "https://openalex.org/T13355",
       "display_name": "Marketing and Advertising Strategies",
-      "value": 5e-06,
+      "value": 4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -546,28 +534,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10609",
-      "display_name": "Digital Marketing and Social Media",
-      "value": 4.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210143478",
-  "updated_date": "2026-10-29T18:22:05",
+  "awards_count": 3,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210143478",
+  "updated_date": "2026-11-19T18:23:24",
   "created_date": "2022-02-02T04:48:36"
 }

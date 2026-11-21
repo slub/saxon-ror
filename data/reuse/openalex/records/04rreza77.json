@@ -19,10 +19,10 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 54,
+  "cited_by_count": 48,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 4,
+    "h_index": 2,
     "i10_index": 1
   },
   "ids": {
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Freital",
     "geonames_city_id": "2925017",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.02195739746094,
@@ -51,10 +51,16 @@
       "cited_by_count": 1
     },
     {
-      "year": 2024,
+      "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
       "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
     },
     {
       "year": 2023,
@@ -96,19 +102,19 @@
       "year": 2014,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 4
+      "cited_by_count": 6
     },
     {
       "year": 2013,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 5
     },
     {
       "year": 2012,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 6
+      "cited_by_count": 7
     },
     {
       "year": 2011,
@@ -149,12 +155,12 @@
       "count": 2,
       "score": 0.04399999976158142,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/3005",
+        "display_name": "Toxicology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -256,14 +262,14 @@
     {
       "id": "https://openalex.org/T12756",
       "display_name": "Plant Toxicity and Pharmacological Properties",
-      "value": 6.88e-05,
+      "value": 6.71e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/3005",
+        "display_name": "Toxicology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -273,7 +279,7 @@
     {
       "id": "https://openalex.org/T12657",
       "display_name": "Phytochemistry Medicinal Plant Applications",
-      "value": 2.42e-05,
+      "value": 2.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -290,7 +296,7 @@
     {
       "id": "https://openalex.org/T11465",
       "display_name": "Drug-Induced Hepatotoxicity and Protection",
-      "value": 6.8e-06,
+      "value": 6.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3004",
         "display_name": "Pharmacology"
@@ -307,7 +313,7 @@
     {
       "id": "https://openalex.org/T12754",
       "display_name": "Plant Growth and Agriculture Techniques",
-      "value": 4.9e-06,
+      "value": 4.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1111",
         "display_name": "Soil Science"
@@ -324,7 +330,7 @@
     {
       "id": "https://openalex.org/T10135",
       "display_name": "Insect-Plant Interactions and Control",
-      "value": 3.5e-06,
+      "value": 3.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1109",
         "display_name": "Insect Science"
@@ -341,7 +347,7 @@
     {
       "id": "https://openalex.org/T14521",
       "display_name": "Medicinal Plant Research",
-      "value": 3.4e-06,
+      "value": 3.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1110",
         "display_name": "Plant Science"
@@ -376,6 +382,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210150551",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 3,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210150551",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

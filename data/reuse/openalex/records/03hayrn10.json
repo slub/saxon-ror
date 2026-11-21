@@ -18,14 +18,14 @@
     "Sorbisches Institut"
   ],
   "repositories": [],
-  "works_count": 113,
-  "works_count_with_children": 113,
-  "works_count_with_children_and_predecessors": 113,
-  "cited_by_count": 85,
+  "works_count": 115,
+  "works_count_with_children": 115,
+  "works_count_with_children_and_predecessors": 115,
+  "cited_by_count": 167,
   "summary_stats": {
-    "2yr_mean_citedness": 0.1724137931034483,
-    "h_index": 4,
-    "i10_index": 1
+    "2yr_mean_citedness": 0.2413793103448276,
+    "h_index": 5,
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4210137492",
@@ -37,7 +37,7 @@
   "geo": {
     "city": "Bautzen",
     "geonames_city_id": "2951881",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.17546844482422,
@@ -48,45 +48,45 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 12,
-      "oa_works_count": 11,
-      "cited_by_count": 9
+      "works_count": 14,
+      "oa_works_count": 13,
+      "cited_by_count": 17
     },
     {
       "year": 2025,
-      "works_count": 27,
-      "oa_works_count": 25,
-      "cited_by_count": 44
+      "works_count": 26,
+      "oa_works_count": 24,
+      "cited_by_count": 54
     },
     {
       "year": 2024,
       "works_count": 14,
       "oa_works_count": 12,
-      "cited_by_count": 7
+      "cited_by_count": 14
     },
     {
       "year": 2023,
       "works_count": 15,
       "oa_works_count": 13,
-      "cited_by_count": 5
+      "cited_by_count": 10
     },
     {
       "year": 2022,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 5
+      "cited_by_count": 39
     },
     {
       "year": 2021,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 0
+      "cited_by_count": 5
     },
     {
       "year": 2020,
       "works_count": 8,
       "oa_works_count": 4,
-      "cited_by_count": 2
+      "cited_by_count": 5
     },
     {
       "year": 2019,
@@ -98,7 +98,7 @@
       "year": 2018,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 6
     },
     {
       "year": 2017,
@@ -110,7 +110,7 @@
       "year": 2016,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2015,
@@ -134,7 +134,7 @@
       "year": 2012,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 0
+      "cited_by_count": 2
     },
     {
       "year": 2011,
@@ -153,10 +153,28 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210137492",
-      "works_count": 113
+      "works_count": 115
     }
   ],
   "topics": [
+    {
+      "id": "https://openalex.org/T14332",
+      "display_name": "European Linguistics and Anthropology",
+      "count": 25,
+      "score": 0.9301999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
@@ -176,27 +194,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14332",
-      "display_name": "European Linguistics and Anthropology",
-      "count": 23,
-      "score": 0.9301999807357788,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12686",
       "display_name": "Central European national history",
-      "count": 15,
+      "count": 16,
       "score": 0.8476999998092651,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
@@ -230,45 +230,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T13673",
-      "display_name": "Library Science and Information",
-      "count": 12,
-      "score": 0.0421999990940094,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13260",
-      "display_name": "Linguistics and Language Studies",
-      "count": 11,
-      "score": 0.8960000276565552,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13495",
       "display_name": "Biographical and Historical Analysis",
-      "count": 11,
+      "count": 12,
       "score": 0.9688000082969666,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
@@ -286,7 +250,7 @@
     {
       "id": "https://openalex.org/T13549",
       "display_name": "Minority Rights and Languages",
-      "count": 11,
+      "count": 12,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
@@ -295,6 +259,42 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13673",
+      "display_name": "Library Science and Information",
+      "count": 12,
+      "score": 0.0421999990940094,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13260",
+      "display_name": "Linguistics and Language Studies",
+      "count": 11,
+      "score": 0.8960000276565552,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -340,7 +340,7 @@
     {
       "id": "https://openalex.org/T13727",
       "display_name": "Linguistic and Sociocultural Studies",
-      "count": 9,
+      "count": 8,
       "score": 0.9467999935150146,
       "subfield": {
         "id": "https://openalex.org/subfields/3310",
@@ -367,6 +367,24 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11846",
+      "display_name": "Cultural Heritage Management and Preservation",
+      "count": 7,
+      "score": 0.9937000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology (arts and humanities)"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -428,24 +446,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11846",
-      "display_name": "Cultural Heritage Management and Preservation",
-      "count": 6,
-      "score": 0.9951000213623047,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11937",
       "display_name": "Research Data Management Practices",
       "count": 6,
@@ -464,10 +464,46 @@
       }
     },
     {
+      "id": "https://openalex.org/T13070",
+      "display_name": "Cultural Identity and Heritage",
+      "count": 6,
+      "score": 0.357699990272522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14170",
+      "display_name": "Classical Studies and Philology",
+      "count": 6,
+      "score": 0.4016000032424927,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10034",
       "display_name": "Syntax, Semantics, Linguistic Variation",
       "count": 5,
-      "score": 0.9955999851226807,
+      "score": 0.9961000084877014,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -500,17 +536,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T13070",
-      "display_name": "Cultural Identity and Heritage",
+      "id": "https://openalex.org/T12619",
+      "display_name": "Political Systems and Governance",
       "count": 5,
-      "score": 0.2345999926328659,
+      "score": 0.989300012588501,
       "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -539,28 +575,10 @@
       "id": "https://openalex.org/T14041",
       "display_name": "Central European Literary Studies",
       "count": 5,
-      "score": 0.9839000105857849,
+      "score": 0.9765999913215637,
       "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14170",
-      "display_name": "Classical Studies and Philology",
-      "count": 5,
-      "score": 0.4011000096797943,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -588,31 +606,13 @@
         "id": "https://openalex.org/domains/2",
         "display_name": "Social Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12619",
-      "display_name": "Political Systems and Governance",
-      "count": 4,
-      "score": 0.989300012588501,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13549",
       "display_name": "Minority Rights and Languages",
-      "value": 0.0008589,
+      "value": 0.0008956,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -629,7 +629,7 @@
     {
       "id": "https://openalex.org/T14332",
       "display_name": "European Linguistics and Anthropology",
-      "value": 0.0005672,
+      "value": 0.0006043,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -646,7 +646,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 0.000369,
+      "value": 0.0003526,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -663,7 +663,7 @@
     {
       "id": "https://openalex.org/T12686",
       "display_name": "Central European national history",
-      "value": 0.0002414,
+      "value": 0.0002437,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -680,7 +680,7 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "value": 0.0002299,
+      "value": 0.0002252,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -697,14 +697,14 @@
     {
       "id": "https://openalex.org/T14041",
       "display_name": "Central European Literary Studies",
-      "value": 0.00016,
+      "value": 0.0001428,
       "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -714,7 +714,7 @@
     {
       "id": "https://openalex.org/T13173",
       "display_name": "Gender Studies in Language",
-      "value": 0.0001586,
+      "value": 0.00014,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -731,7 +731,7 @@
     {
       "id": "https://openalex.org/T12353",
       "display_name": "Lexicography and Language Studies",
-      "value": 0.0001221,
+      "value": 0.0001144,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -748,7 +748,7 @@
     {
       "id": "https://openalex.org/T12768",
       "display_name": "Linguistics and language evolution",
-      "value": 0.0001089,
+      "value": 0.0001059,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -765,7 +765,7 @@
     {
       "id": "https://openalex.org/T13260",
       "display_name": "Linguistics and Language Studies",
-      "value": 9.35e-05,
+      "value": 9.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -780,9 +780,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T13070",
+      "display_name": "Cultural Identity and Heritage",
+      "value": 8.52e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12619",
+      "display_name": "Political Systems and Governance",
+      "value": 7.91e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12409",
       "display_name": "Reformation and Early Modern Christianity",
-      "value": 7.73e-05,
+      "value": 7.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -797,63 +831,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13070",
-      "display_name": "Cultural Identity and Heritage",
-      "value": 7.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12764",
       "display_name": "Polish Historical and Cultural Studies",
-      "value": 6.7e-05,
+      "value": 6.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13914",
-      "display_name": "European Cultural and National Identity",
-      "value": 6.68e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13727",
-      "display_name": "Linguistic and Sociocultural Studies",
-      "value": 6.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3310",
-        "display_name": "Linguistics and Language"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -867,7 +850,7 @@
     {
       "id": "https://openalex.org/T14142",
       "display_name": "Multicultural Socio-Legal Studies",
-      "value": 6.57e-05,
+      "value": 6.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -882,12 +865,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12619",
-      "display_name": "Political Systems and Governance",
-      "value": 6.56e-05,
+      "id": "https://openalex.org/T13914",
+      "display_name": "European Cultural and National Identity",
+      "value": 6.21e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -901,7 +884,7 @@
     {
       "id": "https://openalex.org/T14426",
       "display_name": "Religion, Gender, and Enlightenment",
-      "value": 6.35e-05,
+      "value": 6.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1212",
         "display_name": "Religious studies"
@@ -918,41 +901,7 @@
     {
       "id": "https://openalex.org/T11640",
       "display_name": "Linguistic Variation and Morphology",
-      "value": 6.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3310",
-        "display_name": "Linguistics and Language"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14006",
-      "display_name": "Linguistics, Language Diversity, and Identity",
-      "value": 6.12e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10265",
-      "display_name": "Multilingual Education and Policy",
-      "value": 5.67e-05,
+      "value": 5.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3310",
         "display_name": "Linguistics and Language"
@@ -984,9 +933,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T14006",
+      "display_name": "Linguistics, Language Diversity, and Identity",
+      "value": 5.55e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13006",
       "display_name": "Spanish History and Politics",
-      "value": 5.44e-05,
+      "value": 5.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -1001,16 +967,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T11893",
-      "display_name": "German Literature and Culture Studies",
-      "value": 5.02e-05,
+      "id": "https://openalex.org/T13727",
+      "display_name": "Linguistic and Sociocultural Studies",
+      "value": 5.4e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
+        "id": "https://openalex.org/subfields/3310",
+        "display_name": "Linguistics and Language"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10265",
+      "display_name": "Multilingual Education and Policy",
+      "value": 5.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3310",
+        "display_name": "Linguistics and Language"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -1020,7 +1003,7 @@
     {
       "id": "https://openalex.org/T12380",
       "display_name": "Authorship Attribution and Profiling",
-      "value": 5.02e-05,
+      "value": 4.8e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -1033,11 +1016,30 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11893",
+      "display_name": "German Literature and Culture Studies",
+      "value": 4.79e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210137492",
-  "updated_date": "2026-10-28T18:23:19",
+  "awards_count": 5,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210137492",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

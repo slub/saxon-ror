@@ -19,7 +19,7 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 20,
+  "cited_by_count": 29,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 3,
@@ -30,12 +30,12 @@
     "ror": "https://ror.org/05smvaw93",
     "grid": "grid.439270.b",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q30292739"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.02362823486328,
@@ -48,13 +48,13 @@
       "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 6
     },
     {
       "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2024,
@@ -72,7 +72,7 @@
       "year": 2022,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2021,
@@ -93,6 +93,12 @@
       "cited_by_count": 2
     },
     {
+      "year": 2018,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
       "year": 2017,
       "works_count": 0,
       "oa_works_count": 0,
@@ -103,6 +109,12 @@
       "works_count": 1,
       "oa_works_count": 0,
       "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     },
     {
       "year": 2014,
@@ -167,12 +179,12 @@
       "count": 1,
       "score": 0.9980000257492065,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -238,7 +250,7 @@
     {
       "id": "https://openalex.org/T10326",
       "display_name": "Indoor and Outdoor Localization Technologies",
-      "value": 2.79e-05,
+      "value": 2.69e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -255,7 +267,7 @@
     {
       "id": "https://openalex.org/T12024",
       "display_name": "Ultra-Wideband Communications Technology",
-      "value": 2.48e-05,
+      "value": 2.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -272,7 +284,7 @@
     {
       "id": "https://openalex.org/T10711",
       "display_name": "Target Tracking and Data Fusion in Sensor Networks",
-      "value": 1.63e-05,
+      "value": 1.59e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -289,7 +301,7 @@
     {
       "id": "https://openalex.org/T10655",
       "display_name": "GNSS positioning and interference",
-      "value": 9e-06,
+      "value": 8.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -306,14 +318,14 @@
     {
       "id": "https://openalex.org/T10191",
       "display_name": "Robotics and Sensor-Based Localization",
-      "value": 7.9e-06,
+      "value": 7.5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -323,7 +335,7 @@
     {
       "id": "https://openalex.org/T10331",
       "display_name": "Video Surveillance and Tracking Methods",
-      "value": 6.3e-06,
+      "value": 6.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -341,6 +353,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210165519",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 7,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210165519",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

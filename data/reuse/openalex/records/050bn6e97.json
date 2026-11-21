@@ -32,12 +32,12 @@
     "ror": "https://ror.org/050bn6e97",
     "grid": "grid.437616.1",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q30291638"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.064456939697266,
@@ -58,6 +58,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210160976",
-  "updated_date": "2026-10-27T19:54:23",
+  "awards_count": 10,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210160976",
+  "updated_date": "2026-11-16T19:36:12",
   "created_date": "2022-02-02T04:48:36"
 }

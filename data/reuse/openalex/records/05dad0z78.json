@@ -20,11 +20,11 @@
   "works_count": 62,
   "works_count_with_children": 62,
   "works_count_with_children_and_predecessors": 62,
-  "cited_by_count": 169,
+  "cited_by_count": 115,
   "summary_stats": {
-    "2yr_mean_citedness": 0.7073170731707317,
-    "h_index": 7,
-    "i10_index": 2
+    "2yr_mean_citedness": 0.6206896551724138,
+    "h_index": 6,
+    "i10_index": 3
   },
   "ids": {
     "openalex": "https://openalex.org/I4210159512",
@@ -36,7 +36,7 @@
   "geo": {
     "city": "Chemnitz",
     "geonames_city_id": "2940132",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.81177520751953,
@@ -49,37 +49,37 @@
       "year": 2026,
       "works_count": 7,
       "oa_works_count": 6,
-      "cited_by_count": 12
+      "cited_by_count": 27
     },
     {
       "year": 2025,
       "works_count": 6,
       "oa_works_count": 6,
-      "cited_by_count": 15
+      "cited_by_count": 25
     },
     {
       "year": 2024,
       "works_count": 9,
       "oa_works_count": 6,
-      "cited_by_count": 12
+      "cited_by_count": 17
     },
     {
       "year": 2023,
       "works_count": 20,
       "oa_works_count": 18,
-      "cited_by_count": 30
+      "cited_by_count": 31
     },
     {
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 3,
-      "cited_by_count": 3
+      "cited_by_count": 5
     },
     {
       "year": 2021,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 4
+      "cited_by_count": 5
     },
     {
       "year": 2020,
@@ -129,7 +129,7 @@
     {
       "id": "https://openalex.org/T10780",
       "display_name": "Reliability and Maintenance Optimization",
-      "count": 10,
+      "count": 11,
       "score": 0.8769999742507935,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
@@ -148,7 +148,7 @@
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
       "count": 7,
-      "score": 0.45260000228881836,
+      "score": 0.7045999765396118,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -184,7 +184,7 @@
       "id": "https://openalex.org/T10872",
       "display_name": "Veterinary Equine Medical Research",
       "count": 6,
-      "score": 0.9297000169754028,
+      "score": 0.9154999852180481,
       "subfield": {
         "id": "https://openalex.org/subfields/3402",
         "display_name": "Equine"
@@ -271,60 +271,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10680",
-      "display_name": "Wind Energy Research and Development",
-      "count": 5,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10700",
-      "display_name": "Metal Forming Simulation Techniques",
-      "count": 5,
-      "score": 0.9980000257492065,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10740",
-      "display_name": "Wind Turbine Control Systems",
-      "count": 5,
-      "score": 0.0008999999845400453,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12677",
       "display_name": "Sports Dynamics and Biomechanics",
       "count": 5,
@@ -346,7 +292,7 @@
       "id": "https://openalex.org/T10220",
       "display_name": "Machine Fault Diagnosis Techniques",
       "count": 4,
-      "score": 0.9916999936103821,
+      "score": 0.9955999851226807,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -379,6 +325,42 @@
       }
     },
     {
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "count": 4,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "count": 4,
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10588",
       "display_name": "Mathematical Dynamics and Fractals",
       "count": 3,
@@ -402,8 +384,8 @@
       "count": 3,
       "score": 0.4675000011920929,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2732",
+        "display_name": "Orthopedics and Sports Medicine"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -412,6 +394,24 @@
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10740",
+      "display_name": "Wind Turbine Control Systems",
+      "count": 3,
+      "score": 0.0007999999797903001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -433,17 +433,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T11371",
-      "display_name": "Wind and Air Flow Studies",
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
       "count": 3,
-      "score": 0.0,
+      "score": 0.3978999853134155,
       "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -487,24 +487,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T13706",
-      "display_name": "Management and Optimization Techniques",
-      "count": 3,
-      "score": 0.12409999966621399,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14384",
       "display_name": "Ophthalmology and Visual Health Research",
       "count": 3,
@@ -526,7 +508,7 @@
       "id": "https://openalex.org/T10455",
       "display_name": "Foot and Ankle Surgery",
       "count": 2,
-      "score": 0.008899999782443047,
+      "score": 0.007300000172108412,
       "subfield": {
         "id": "https://openalex.org/subfields/2732",
         "display_name": "Orthopedics and Sports Medicine"
@@ -546,12 +528,12 @@
       "count": 2,
       "score": 0.009200000204145908,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -564,16 +546,34 @@
       "count": 2,
       "score": 0.9922000169754028,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11052",
+      "display_name": "Energy Load and Power Forecasting",
+      "count": 2,
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
@@ -581,7 +581,7 @@
     {
       "id": "https://openalex.org/T14484",
       "display_name": "Technology and Data Analysis",
-      "value": 0.0008203,
+      "value": 0.0015492,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -598,7 +598,7 @@
     {
       "id": "https://openalex.org/T14042",
       "display_name": "Technology and Security Systems",
-      "value": 0.0001417,
+      "value": 0.0001258,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -615,7 +615,7 @@
     {
       "id": "https://openalex.org/T13020",
       "display_name": "Heat Transfer and Mathematical Modeling",
-      "value": 0.0001167,
+      "value": 0.0001156,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -632,7 +632,7 @@
     {
       "id": "https://openalex.org/T12249",
       "display_name": "Veterinary Orthopedics and Neurology",
-      "value": 0.0001043,
+      "value": 9.82e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3404",
         "display_name": "Small Animals"
@@ -647,26 +647,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12677",
-      "display_name": "Sports Dynamics and Biomechanics",
-      "value": 8.39e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12897",
       "display_name": "Structural Analysis of Composite Materials",
-      "value": 8.34e-05,
+      "value": 7.81e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -681,26 +664,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12920",
-      "display_name": "Healthcare and Environmental Waste Management",
-      "value": 7.38e-05,
+      "id": "https://openalex.org/T12677",
+      "display_name": "Sports Dynamics and Biomechanics",
+      "value": 7.8e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10872",
       "display_name": "Veterinary Equine Medical Research",
-      "value": 6.77e-05,
+      "value": 6.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3402",
         "display_name": "Equine"
@@ -717,92 +700,24 @@
     {
       "id": "https://openalex.org/T13722",
       "display_name": "Ergonomics and Human Factors",
-      "value": 6.34e-05,
+      "value": 5.92e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11954",
-      "display_name": "Energy Efficiency and Management",
-      "value": 5.71e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2105",
-        "display_name": "Renewable Energy, Sustainability and the Environment"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10763",
-      "display_name": "Digital Transformation in Industry",
-      "value": 5.45e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2209",
-        "display_name": "Industrial and Manufacturing Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10740",
-      "display_name": "Wind Turbine Control Systems",
-      "value": 5.42e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11366",
-      "display_name": "Elasticity and Material Modeling",
-      "value": 5.41e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T14384",
       "display_name": "Ophthalmology and Visual Health Research",
-      "value": 5.39e-05,
+      "value": 5.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2731",
         "display_name": "Ophthalmology"
@@ -817,29 +732,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12662",
-      "display_name": "Digitalization and Economic Development in Agriculture",
-      "value": 5.06e-05,
+      "id": "https://openalex.org/T11366",
+      "display_name": "Elasticity and Material Modeling",
+      "value": 5.25e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T10680",
-      "display_name": "Wind Energy Research and Development",
-      "value": 4.94e-05,
+      "id": "https://openalex.org/T10763",
+      "display_name": "Digital Transformation in Industry",
+      "value": 5.11e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -853,7 +768,7 @@
     {
       "id": "https://openalex.org/T10780",
       "display_name": "Reliability and Maintenance Optimization",
-      "value": 4.9e-05,
+      "value": 5.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -868,9 +783,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11954",
+      "display_name": "Energy Efficiency and Management",
+      "value": 5.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12662",
+      "display_name": "Digitalization and Economic Development in Agriculture",
+      "value": 4.93e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13752",
       "display_name": "Mechanics and Biomechanics Studies",
-      "value": 4.77e-05,
+      "value": 4.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -887,7 +836,7 @@
     {
       "id": "https://openalex.org/T11372",
       "display_name": "Hydraulic and Pneumatic Systems",
-      "value": 4.05e-05,
+      "value": 3.83e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -902,33 +851,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10700",
-      "display_name": "Metal Forming Simulation Techniques",
-      "value": 3.6e-05,
+      "id": "https://openalex.org/T10680",
+      "display_name": "Wind Energy Research and Development",
+      "value": 3.76e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12907",
-      "display_name": "Mechanical Engineering and Vibrations Research",
-      "value": 3.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -938,7 +870,7 @@
     {
       "id": "https://openalex.org/T10244",
       "display_name": "Chaos control and synchronization",
-      "value": 3.45e-05,
+      "value": 3.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3109",
         "display_name": "Statistical and Nonlinear Physics"
@@ -953,9 +885,60 @@
       }
     },
     {
+      "id": "https://openalex.org/T12920",
+      "display_name": "Healthcare and Environmental Waste Management",
+      "value": 3.41e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12907",
+      "display_name": "Mechanical Engineering and Vibrations Research",
+      "value": 3.28e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10740",
+      "display_name": "Wind Turbine Control Systems",
+      "value": 3.15e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14474",
       "display_name": "Industrial Technology and Control Systems",
-      "value": 3.16e-05,
+      "value": 3.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -970,16 +953,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T11371",
-      "display_name": "Wind and Air Flow Studies",
-      "value": 2.84e-05,
+      "id": "https://openalex.org/T10700",
+      "display_name": "Metal Forming Simulation Techniques",
+      "value": 2.77e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2305",
-        "display_name": "Environmental Engineering"
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -987,26 +970,45 @@
       }
     },
     {
-      "id": "https://openalex.org/T13690",
-      "display_name": "Quality and Safety in Healthcare",
-      "value": 2.53e-05,
+      "id": "https://openalex.org/T10379",
+      "display_name": "Cellular Mechanics and Interactions",
+      "value": 2.44e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3607",
-        "display_name": "Medical Laboratory Technology"
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11052",
+      "display_name": "Energy Load and Power Forecasting",
+      "value": 2.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210159512",
-  "updated_date": "2026-10-29T18:22:05",
+  "awards_count": 24,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210159512",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

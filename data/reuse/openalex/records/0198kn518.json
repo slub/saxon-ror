@@ -1,7 +1,7 @@
 {
   "id": "https://openalex.org/I4210091277",
   "ror": "https://ror.org/0198kn518",
-  "display_name": "Sächsisches Staatsministerium für Soziales und Verbraucherschutz",
+  "display_name": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
   "country_code": "DE",
   "type": "government",
   "type_id": "https://openalex.org/institution-types/government",
@@ -15,42 +15,68 @@
     "SMS"
   ],
   "display_name_alternatives": [
-    "Sächsisches Staatsministerium für Soziales und Verbraucherschutz"
+    "Saxon State Ministry for Social Affairs and Cohesion",
+    "Saxon State Ministry for Social Affairs and Social Cohesion",
+    "Saxon State Ministry for Social Affairs, Health and Social Cohesion",
+    "Saxon State Ministry of Social Affairs",
+    "Saxon State Ministry of Social Affairs and Consumer Protection",
+    "Sächsisches Staatsministerium für Soziales",
+    "Sächsisches Staatsministerium für Soziales und Gesellschaftlichen Zusammenhalt",
+    "Sächsisches Staatsministerium für Soziales und Verbraucherschutz",
+    "Sächsisches Staatsministerium für Soziales, Gesundheit und Familie",
+    "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt"
   ],
   "repositories": [],
   "works_count": 21,
-  "works_count_with_children": 21,
-  "works_count_with_children_and_predecessors": 21,
-  "cited_by_count": 72,
+  "works_count_with_children": 198,
+  "works_count_with_children_and_predecessors": 198,
+  "cited_by_count": 87,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 5,
-    "i10_index": 4
+    "h_index": 6,
+    "i10_index": 5
   },
   "ids": {
     "openalex": "https://openalex.org/I4210091277",
     "ror": "https://ror.org/0198kn518",
     "grid": "grid.492045.e",
-    "wikipedia": "",
-    "wikidata": null
+    "wikipedia": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Soziales,_Gesundheit_und_Gesellschaftlichen_Zusammenhalt",
+    "wikidata": "https://www.wikidata.org/wiki/Q1508671"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 51.06500244140625,
-    "longitude": 13.751312255859375
+    "latitude": 51.05089,
+    "longitude": 13.73832
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210142017",
+      "ror": "https://ror.org/044s59k57",
+      "display_name": "Sächsisches Krankenhaus Rodewisch",
+      "country_code": "DE",
+      "type": "healthcare",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210166275",
+      "ror": "https://ror.org/05y895e77",
+      "display_name": "Landesuntersuchungsanstalt Sachsen",
+      "country_code": "DE",
+      "type": "government",
+      "relationship": "child"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 6
     },
     {
       "year": 2025,
@@ -62,7 +88,7 @@
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 3
+      "cited_by_count": 4
     },
     {
       "year": 2023,
@@ -86,13 +112,13 @@
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 6
     },
     {
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 5
     },
     {
       "year": 2018,
@@ -110,13 +136,13 @@
       "year": 2016,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 6
+      "cited_by_count": 7
     },
     {
       "year": 2015,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 7
     },
     {
       "year": 2014,
@@ -128,7 +154,7 @@
       "year": 2013,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2012,
@@ -235,16 +261,16 @@
       "count": 3,
       "score": 0.017100000753998756,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -271,12 +297,12 @@
       "count": 3,
       "score": 0.9042999744415283,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -307,12 +333,12 @@
       "count": 2,
       "score": 0.9750999808311462,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -325,12 +351,12 @@
       "count": 2,
       "score": 0.04699999839067459,
       "subfield": {
-        "id": "https://openalex.org/subfields/3605",
-        "display_name": "Health Information Management"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -397,23 +423,23 @@
       "count": 1,
       "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/1313",
-        "display_name": "Molecular Medicine"
+        "id": "https://openalex.org/subfields/2726",
+        "display_name": "Microbiology (medical)"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10167",
       "display_name": "Influenza Virus Research Studies",
       "count": 1,
-      "score": 0.4077000021934509,
+      "score": 0.4350999891757965,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -451,16 +477,16 @@
       "count": 1,
       "score": 0.00019999999494757503,
       "subfield": {
-        "id": "https://openalex.org/subfields/2402",
-        "display_name": "Applied Microbiology and Biotechnology"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
       },
       "field": {
-        "id": "https://openalex.org/fields/24",
-        "display_name": "Immunology and Microbiology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -487,8 +513,8 @@
       "count": 1,
       "score": 0.9980000257492065,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -503,7 +529,7 @@
       "id": "https://openalex.org/T11430",
       "display_name": "Disaster Response and Management",
       "count": 1,
-      "score": 0.5625,
+      "score": 0.5439000129699707,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -523,16 +549,16 @@
       "count": 1,
       "score": 0.02539999969303608,
       "subfield": {
-        "id": "https://openalex.org/subfields/2003",
-        "display_name": "Finance"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -541,12 +567,12 @@
       "count": 1,
       "score": 0.033799998462200165,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -612,31 +638,31 @@
     {
       "id": "https://openalex.org/T14118",
       "display_name": "Social and Demographic Issues in Germany",
-      "value": 0.0001286,
+      "value": 0.000119,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13022",
       "display_name": "Health and Medical Studies",
-      "value": 8.95e-05,
+      "value": 8.72e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -646,7 +672,7 @@
     {
       "id": "https://openalex.org/T13944",
       "display_name": "Psychiatric care and mental health services",
-      "value": 4.38e-05,
+      "value": 4.11e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -663,7 +689,7 @@
     {
       "id": "https://openalex.org/T12666",
       "display_name": "Historical Psychiatry and Medical Practices",
-      "value": 3.99e-05,
+      "value": 3.88e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -680,7 +706,7 @@
     {
       "id": "https://openalex.org/T13055",
       "display_name": "Global Security and Public Health",
-      "value": 3.69e-05,
+      "value": 3.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -697,14 +723,14 @@
     {
       "id": "https://openalex.org/T14186",
       "display_name": "Healthcare Systems and Practices",
-      "value": 3.16e-05,
+      "value": 3.05e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -714,41 +740,7 @@
     {
       "id": "https://openalex.org/T13574",
       "display_name": "Family Support in Illness",
-      "value": 2.61e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12481",
-      "display_name": "Digital Accessibility for Disabilities",
-      "value": 2.3e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3307",
-        "display_name": "Human Factors and Ergonomics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11678",
-      "display_name": "Healthcare Decision-Making and Restraints",
-      "value": 2.23e-05,
+      "value": 2.38e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -763,16 +755,50 @@
       }
     },
     {
-      "id": "https://openalex.org/T11610",
-      "display_name": "Food Security and Health in Diverse Populations",
-      "value": 2.16e-05,
+      "id": "https://openalex.org/T11678",
+      "display_name": "Healthcare Decision-Making and Restraints",
+      "value": 2.13e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12481",
+      "display_name": "Digital Accessibility for Disabilities",
+      "value": 2.11e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11610",
+      "display_name": "Food Security and Health in Diverse Populations",
+      "value": 2.07e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -782,7 +808,7 @@
     {
       "id": "https://openalex.org/T13511",
       "display_name": "Geodetic Measurements and Engineering Structures",
-      "value": 2.16e-05,
+      "value": 1.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -799,7 +825,7 @@
     {
       "id": "https://openalex.org/T12873",
       "display_name": "Nutrition, Health and Food Behavior",
-      "value": 2.06e-05,
+      "value": 1.92e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2916",
         "display_name": "Nutrition and Dietetics"
@@ -814,145 +840,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10589",
-      "display_name": "Early Childhood Education and Development",
-      "value": 1.93e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12041",
       "display_name": "Public Health Policies and Education",
-      "value": 1.89e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14124",
-      "display_name": "Food, Nutrition, and Cultural Practices",
-      "value": 1.83e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1106",
-        "display_name": "Food Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13633",
-      "display_name": "Public Health and Social Inequalities",
-      "value": 1.79e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3306",
-        "display_name": "Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10272",
-      "display_name": "Mental Health Treatment and Access",
-      "value": 1.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13393",
-      "display_name": "Child Nutrition and Feeding Issues",
-      "value": 1.38e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2738",
-        "display_name": "Psychiatry and Mental health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12698",
-      "display_name": "3D Modeling in Geospatial Applications",
-      "value": 1.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13067",
-      "display_name": "Geological Modeling and Analysis",
-      "value": 1.26e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1906",
-        "display_name": "Geochemistry and Petrology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10010",
-      "display_name": "Obesity, Physical Activity, Diet",
-      "value": 1.25e-05,
+      "value": 1.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -967,12 +857,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12948",
-      "display_name": "Inclusion and Disability in Education and Sport",
-      "value": 1.21e-05,
+      "id": "https://openalex.org/T13633",
+      "display_name": "Public Health and Social Inequalities",
+      "value": 1.72e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -984,9 +874,128 @@
       }
     },
     {
+      "id": "https://openalex.org/T14124",
+      "display_name": "Food, Nutrition, and Cultural Practices",
+      "value": 1.71e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10589",
+      "display_name": "Early Childhood Education and Development",
+      "value": 1.57e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10272",
+      "display_name": "Mental Health Treatment and Access",
+      "value": 1.41e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13393",
+      "display_name": "Child Nutrition and Feeding Issues",
+      "value": 1.3e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "value": 1.21e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "value": 1.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12698",
+      "display_name": "3D Modeling in Geospatial Applications",
+      "value": 1.17e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13340",
       "display_name": "Palliative and Oncologic Care",
-      "value": 1.16e-05,
+      "value": 1.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -1003,7 +1012,7 @@
     {
       "id": "https://openalex.org/T14212",
       "display_name": "Health Promotion and Cardiovascular Prevention",
-      "value": 1.1e-05,
+      "value": 1.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -1020,7 +1029,7 @@
     {
       "id": "https://openalex.org/T11430",
       "display_name": "Disaster Response and Management",
-      "value": 1.07e-05,
+      "value": 1.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -1033,11 +1042,30 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T12948",
+      "display_name": "Inclusion and Disability in Education and Sport",
+      "value": 1.04e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210091277",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210091277",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

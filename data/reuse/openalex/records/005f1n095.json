@@ -15,7 +15,9 @@
   "display_name_alternatives": [
     "Dr. Erich Krüger Foundation",
     "Dr. Erich-Krüger-Stiftung",
-    "Dr.-Erich Krüger Foundation"
+    "Dr.-Erich Krüger Foundation",
+    "Dr.-Erich-Krüger-Stiftung",
+    "Dr.-Erich-Krüger-Stiftung an der TU Bergakademie Freiberg"
   ],
   "repositories": [],
   "works_count": 0,
@@ -32,7 +34,7 @@
     "ror": "https://ror.org/005f1n095",
     "grid": null,
     "wikipedia": null,
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q105703421"
   },
   "geo": {
     "city": "Freiberg",
@@ -44,7 +46,16 @@
     "longitude": 13.33881
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I61893789",
+      "ror": "https://ror.org/031vc2293",
+      "display_name": "TU Bergakademie Freiberg",
+      "country_code": "DE",
+      "type": "education",
+      "relationship": "related"
+    }
+  ],
   "counts_by_year": [],
   "roles": [
     {
@@ -58,6 +69,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405270157",
-  "updated_date": "2026-07-22T05:59:22",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405270157",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2026-07-22T03:30:22"
 }

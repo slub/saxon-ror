@@ -30,12 +30,12 @@
     "ror": "https://ror.org/03r41zp91",
     "grid": "grid.433889.d",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q30256251"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.00046157836914,
@@ -63,7 +63,7 @@
       "id": "https://openalex.org/T10564",
       "display_name": "Wastewater Treatment and Nitrogen Removal",
       "count": 1,
-      "score": 0.9839000105857849,
+      "score": 0.9843999743461609,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -81,7 +81,7 @@
       "id": "https://openalex.org/T11781",
       "display_name": "Wastewater Treatment and Reuse",
       "count": 1,
-      "score": 0.009100000374019146,
+      "score": 0.009600000455975533,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -101,12 +101,12 @@
       "count": 1,
       "score": 0.001500000013038516,
       "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -118,14 +118,14 @@
     {
       "id": "https://openalex.org/T14252",
       "display_name": "Water and Wastewater Treatment",
-      "value": 2.75e-05,
+      "value": 2.39e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -135,7 +135,7 @@
     {
       "id": "https://openalex.org/T10564",
       "display_name": "Wastewater Treatment and Nitrogen Removal",
-      "value": 7.4e-06,
+      "value": 7.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2310",
         "display_name": "Pollution"
@@ -152,7 +152,7 @@
     {
       "id": "https://openalex.org/T11781",
       "display_name": "Wastewater Treatment and Reuse",
-      "value": 6e-06,
+      "value": 5.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2311",
         "display_name": "Waste Management and Disposal"
@@ -170,6 +170,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133267",
-  "updated_date": "2026-10-23T18:22:09",
+  "awards_count": 9,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210133267",
+  "updated_date": "2026-11-16T19:36:12",
   "created_date": "2022-02-02T04:48:36"
 }

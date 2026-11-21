@@ -19,11 +19,11 @@
   "works_count": 9,
   "works_count_with_children": 9,
   "works_count_with_children_and_predecessors": 9,
-  "cited_by_count": 26,
+  "cited_by_count": 38,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 4,
-    "i10_index": 0
+    "i10_index": 1
   },
   "ids": {
     "openalex": "https://openalex.org/I4210087430",
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Chemnitz",
     "geonames_city_id": "2940132",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.87004089355469,
@@ -48,16 +48,28 @@
       "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 3
     },
     {
       "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
       "works_count": 0,
       "oa_works_count": 0,
       "cited_by_count": 1
@@ -72,7 +84,7 @@
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 4
     },
     {
       "year": 2019,
@@ -84,7 +96,7 @@
       "year": 2018,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 4
     },
     {
       "year": 2017,
@@ -108,7 +120,7 @@
       "year": 2012,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     }
   ],
   "roles": [
@@ -197,12 +209,12 @@
       "count": 3,
       "score": 0.3917999863624573,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -213,7 +225,7 @@
       "id": "https://openalex.org/T10245",
       "display_name": "Metamaterials and Metasurfaces Applications",
       "count": 1,
-      "score": 0.0012000000569969416,
+      "score": 0.0013000000035390258,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -285,14 +297,14 @@
       "id": "https://openalex.org/T12050",
       "display_name": "Optical Polarization and Ellipsometry",
       "count": 1,
-      "score": 0.9883000254631042,
+      "score": 0.9887999892234802,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -322,7 +334,7 @@
     {
       "id": "https://openalex.org/T11111",
       "display_name": "Spectroscopy and Laser Applications",
-      "value": 3.67e-05,
+      "value": 3.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1607",
         "display_name": "Spectroscopy"
@@ -339,7 +351,7 @@
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 3.19e-05,
+      "value": 3.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -356,31 +368,14 @@
     {
       "id": "https://openalex.org/T11517",
       "display_name": "Advanced optical system design",
-      "value": 2.5e-05,
+      "value": 2.44e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11992",
-      "display_name": "CCD and CMOS Imaging Sensors",
-      "value": 2.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -390,7 +385,7 @@
     {
       "id": "https://openalex.org/T10640",
       "display_name": "Spectroscopy and Chemometric Analyses",
-      "value": 2.04e-05,
+      "value": 1.99e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1602",
         "display_name": "Analytical Chemistry"
@@ -407,7 +402,7 @@
     {
       "id": "https://openalex.org/T11324",
       "display_name": "Spectroscopy Techniques in Biomedical and Chemical Research",
-      "value": 1.69e-05,
+      "value": 1.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1304",
         "display_name": "Biophysics"
@@ -424,24 +419,7 @@
     {
       "id": "https://openalex.org/T12050",
       "display_name": "Optical Polarization and Ellipsometry",
-      "value": 1.67e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11666",
-      "display_name": "Color Science and Applications",
-      "value": 1.54e-05,
+      "value": 1.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -456,9 +434,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11666",
+      "display_name": "Color Science and Applications",
+      "value": 1.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11992",
+      "display_name": "CCD and CMOS Imaging Sensors",
+      "value": 1.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14257",
       "display_name": "Advanced Measurement and Detection Methods",
-      "value": 8.8e-06,
+      "value": 8.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -475,7 +487,7 @@
     {
       "id": "https://openalex.org/T10977",
       "display_name": "Optical Imaging and Spectroscopy Techniques",
-      "value": 6.9e-06,
+      "value": 6.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -510,6 +522,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210087430",
-  "updated_date": "2026-10-27T19:54:23",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210087430",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

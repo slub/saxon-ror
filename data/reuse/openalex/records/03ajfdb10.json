@@ -20,11 +20,11 @@
   "works_count": 20,
   "works_count_with_children": 20,
   "works_count_with_children_and_predecessors": 20,
-  "cited_by_count": 974,
+  "cited_by_count": 369,
   "summary_stats": {
-    "2yr_mean_citedness": 8.4,
-    "h_index": 16,
-    "i10_index": 20
+    "2yr_mean_citedness": 0.0,
+    "h_index": 10,
+    "i10_index": 11
   },
   "ids": {
     "openalex": "https://openalex.org/I4210133223",
@@ -36,7 +36,7 @@
   "geo": {
     "city": "Hohenstein-Ernstthal",
     "geonames_city_id": "2901420",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.81200408935547,
@@ -58,61 +58,67 @@
       "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 34
+      "cited_by_count": 49
     },
     {
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 29
+      "cited_by_count": 33
     },
     {
       "year": 2024,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 34
+      "cited_by_count": 35
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 29
+      "cited_by_count": 35
     },
     {
       "year": 2022,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 33
+      "cited_by_count": 43
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 61
+      "cited_by_count": 63
     },
     {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 54
+      "cited_by_count": 57
     },
     {
       "year": 2019,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 30
+      "cited_by_count": 34
     },
     {
       "year": 2018,
       "works_count": 7,
       "oa_works_count": 0,
-      "cited_by_count": 13
+      "cited_by_count": 17
     },
     {
       "year": 2017,
       "works_count": 3,
       "oa_works_count": 2,
       "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     }
   ],
   "roles": [
@@ -183,12 +189,12 @@
       "count": 4,
       "score": 9.999999747378752e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -199,7 +205,7 @@
       "id": "https://openalex.org/T10247",
       "display_name": "Perovskite Materials and Applications",
       "count": 3,
-      "score": 0.9829000234603882,
+      "score": 0.9824000000953674,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -309,8 +315,8 @@
       "count": 1,
       "score": 0.0066999997943639755,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -323,7 +329,7 @@
     },
     {
       "id": "https://openalex.org/T10781",
-      "display_name": "Plasma Diagnostics and Applications",
+      "display_name": "Low-Pressure Plasma Processing and Diagnostics",
       "count": 1,
       "score": 0.09009999781847,
       "subfield": {
@@ -399,8 +405,8 @@
       "count": 1,
       "score": 0.13809999823570251,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -415,7 +421,7 @@
       "id": "https://openalex.org/T13889",
       "display_name": "Advanced Materials and Semiconductor Technologies",
       "count": 1,
-      "score": 0.0007999999797903001,
+      "score": 0.0008999999845400453,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -452,7 +458,7 @@
     {
       "id": "https://openalex.org/T10623",
       "display_name": "Thin-Film Transistor Technologies",
-      "value": 0.0001093,
+      "value": 0.0001069,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -469,7 +475,7 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 0.0001092,
+      "value": 0.0001069,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -486,7 +492,7 @@
     {
       "id": "https://openalex.org/T12309",
       "display_name": "solar cell performance optimization",
-      "value": 7.68e-05,
+      "value": 7.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -503,7 +509,7 @@
     {
       "id": "https://openalex.org/T10247",
       "display_name": "Perovskite Materials and Applications",
-      "value": 2.97e-05,
+      "value": 2.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -520,7 +526,7 @@
     {
       "id": "https://openalex.org/T13889",
       "display_name": "Advanced Materials and Semiconductor Technologies",
-      "value": 1.57e-05,
+      "value": 1.52e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -537,7 +543,7 @@
     {
       "id": "https://openalex.org/T11856",
       "display_name": "Thermography and Photoacoustic Techniques",
-      "value": 1.53e-05,
+      "value": 1.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -554,7 +560,7 @@
     {
       "id": "https://openalex.org/T11169",
       "display_name": "Silicon Nanostructures and Photoluminescence",
-      "value": 1.29e-05,
+      "value": 1.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -571,14 +577,14 @@
     {
       "id": "https://openalex.org/T11853",
       "display_name": "Semiconductor materials and interfaces",
-      "value": 1.18e-05,
+      "value": 1.17e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -588,10 +594,10 @@
     {
       "id": "https://openalex.org/T10657",
       "display_name": "Topological Materials and Phenomena",
-      "value": 9.9e-06,
+      "value": 9.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -605,7 +611,7 @@
     {
       "id": "https://openalex.org/T10472",
       "display_name": "Semiconductor materials and devices",
-      "value": 9.2e-06,
+      "value": 9.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -622,7 +628,7 @@
     {
       "id": "https://openalex.org/T10808",
       "display_name": "Electric and Hybrid Vehicle Technologies",
-      "value": 8.8e-06,
+      "value": 8.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -639,7 +645,7 @@
     {
       "id": "https://openalex.org/T10468",
       "display_name": "Photovoltaic System Optimization Techniques",
-      "value": 7.9e-06,
+      "value": 7.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2105",
         "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -656,7 +662,7 @@
     {
       "id": "https://openalex.org/T14444",
       "display_name": "Power Systems and Renewable Energy",
-      "value": 7e-06,
+      "value": 6.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2102",
         "display_name": "Energy Engineering and Power Technology"
@@ -673,10 +679,10 @@
     {
       "id": "https://openalex.org/T13531",
       "display_name": "Surface and Thin Film Phenomena",
-      "value": 6e-06,
+      "value": 5.9e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -690,7 +696,7 @@
     {
       "id": "https://openalex.org/T10640",
       "display_name": "Spectroscopy and Chemometric Analyses",
-      "value": 5.1e-06,
+      "value": 5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1602",
         "display_name": "Analytical Chemistry"
@@ -707,7 +713,7 @@
     {
       "id": "https://openalex.org/T10045",
       "display_name": "Organic Electronics and Photovoltaics",
-      "value": 4.7e-06,
+      "value": 4.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -740,7 +746,7 @@
     },
     {
       "id": "https://openalex.org/T10781",
-      "display_name": "Plasma Diagnostics and Applications",
+      "display_name": "Low-Pressure Plasma Processing and Diagnostics",
       "value": 1e-07,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -759,6 +765,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210133223",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 46,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210133223",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

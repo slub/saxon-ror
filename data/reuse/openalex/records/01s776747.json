@@ -21,10 +21,10 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 17,
+  "cited_by_count": 11,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 4,
+    "h_index": 2,
     "i10_index": 0
   },
   "ids": {
@@ -37,7 +37,7 @@
   "geo": {
     "city": "Döbeln",
     "geonames_city_id": "2936658",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.11357498168945,
@@ -168,7 +168,7 @@
     {
       "id": "https://openalex.org/T12959",
       "display_name": "Engineering and Materials Science Studies",
-      "value": 8.94e-05,
+      "value": 7.95e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -185,7 +185,7 @@
     {
       "id": "https://openalex.org/T13129",
       "display_name": "Material Properties and Applications",
-      "value": 5.86e-05,
+      "value": 5.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2500",
         "display_name": "General Materials Science"
@@ -202,7 +202,7 @@
     {
       "id": "https://openalex.org/T11664",
       "display_name": "Fiber-reinforced polymer composites",
-      "value": 2.65e-05,
+      "value": 2.54e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -219,7 +219,7 @@
     {
       "id": "https://openalex.org/T10219",
       "display_name": "Mechanical Behavior of Composites",
-      "value": 3.8e-06,
+      "value": 3.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2211",
         "display_name": "Mechanics of Materials"
@@ -237,6 +237,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210104999",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 10,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210104999",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

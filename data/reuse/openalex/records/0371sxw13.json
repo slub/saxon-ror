@@ -19,10 +19,10 @@
   "works_count": 9,
   "works_count_with_children": 9,
   "works_count_with_children_and_predecessors": 9,
-  "cited_by_count": 2,
+  "cited_by_count": 8,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 1,
+    "h_index": 2,
     "i10_index": 0
   },
   "ids": {
@@ -48,19 +48,25 @@
       "year": 2026,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 0
+      "cited_by_count": 2
     },
     {
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     },
     {
       "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 4
     },
     {
       "year": 2020,
@@ -77,7 +83,7 @@
     {
       "year": 2017,
       "works_count": 3,
-      "oa_works_count": 1,
+      "oa_works_count": 2,
       "cited_by_count": 0
     }
   ],
@@ -95,23 +101,23 @@
       "count": 7,
       "score": 0.7842000126838684,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12289",
       "display_name": "Library Science and Administration",
       "count": 6,
-      "score": 0.95169997215271,
+      "score": 0.9531000256538391,
       "subfield": {
         "id": "https://openalex.org/subfields/3309",
         "display_name": "Library and Information Sciences"
@@ -128,8 +134,8 @@
     {
       "id": "https://openalex.org/T12377",
       "display_name": "Digital Humanities and Scholarship",
-      "count": 2,
-      "score": 0.014700000174343586,
+      "count": 3,
+      "score": 0.2572999894618988,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -149,34 +155,34 @@
       "count": 2,
       "score": 0.01140000019222498,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13166",
       "display_name": "Information Science and Libraries",
       "count": 2,
-      "score": 0.030400000512599945,
+      "score": 0.03290000185370445,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -216,13 +222,31 @@
       }
     },
     {
+      "id": "https://openalex.org/T11657",
+      "display_name": "Digital and Traditional Archives Management",
+      "count": 1,
+      "score": 0.21459999680519104,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1206",
+        "display_name": "Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11846",
       "display_name": "Cultural Heritage Management and Preservation",
       "count": 1,
       "score": 0.5717999935150146,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -250,13 +274,31 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "count": 1,
+      "score": 0.1485999971628189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T12289",
       "display_name": "Library Science and Administration",
-      "value": 8.89e-05,
+      "value": 8.32e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3309",
         "display_name": "Library and Information Sciences"
@@ -271,9 +313,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12377",
+      "display_name": "Digital Humanities and Scholarship",
+      "value": 2.94e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 2.87e-05,
+      "value": 2.79e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -290,61 +349,61 @@
     {
       "id": "https://openalex.org/T13673",
       "display_name": "Library Science and Information",
-      "value": 2.66e-05,
+      "value": 2.63e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12863",
       "display_name": "Web and Library Services",
-      "value": 2.3e-05,
+      "value": 2.22e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13166",
       "display_name": "Information Science and Libraries",
-      "value": 2.13e-05,
+      "value": 1.98e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T12377",
-      "display_name": "Digital Humanities and Scholarship",
-      "value": 2e-05,
+      "id": "https://openalex.org/T14380",
+      "display_name": "Libraries and Information Services",
+      "value": 1.52e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1208",
-        "display_name": "Literature and Literary Theory"
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -358,7 +417,7 @@
     {
       "id": "https://openalex.org/T11120",
       "display_name": "Nonprofit Sector and Volunteering",
-      "value": 1.11e-05,
+      "value": 9.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -373,12 +432,29 @@
       }
     },
     {
+      "id": "https://openalex.org/T11657",
+      "display_name": "Digital and Traditional Archives Management",
+      "value": 9.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1206",
+        "display_name": "Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11846",
       "display_name": "Cultural Heritage Management and Preservation",
-      "value": 6.1e-06,
+      "value": 5.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -392,7 +468,7 @@
     {
       "id": "https://openalex.org/T12188",
       "display_name": "Architecture, Modernity, and Design",
-      "value": 6e-06,
+      "value": 4.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2216",
         "display_name": "Architecture"
@@ -410,6 +486,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405255605",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 2,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405255605",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2025-07-08T02:42:24"
 }

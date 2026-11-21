@@ -1,52 +1,70 @@
 {
   "id": "https://openalex.org/I4210166960",
   "ror": "https://ror.org/05wnef833",
-  "display_name": "Saxon State Ministry for Science and the Arts",
+  "display_name": "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus",
   "country_code": "DE",
   "type": "government",
   "type_id": "https://openalex.org/institution-types/government",
   "lineage": [
     "https://openalex.org/I4210166960"
   ],
-  "homepage_url": "http://www.sachsen.de/en/24.htm",
+  "homepage_url": "https://www.smwk.sachsen.de/",
   "image_url": null,
   "image_thumbnail_url": null,
   "display_name_acronyms": [
     "SMWK"
   ],
   "display_name_alternatives": [
+    "Saxon State Ministry for Higher Education, Research and the Arts",
     "Saxon State Ministry for Science and the Arts",
-    "Sächsisches Staatsministerium für Wissenschaft und Kunst"
+    "Saxon State Ministry for Science, Culture and Tourism",
+    "Sächsisches Staatsministerium für Wissenschaft und Kunst",
+    "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus"
   ],
   "repositories": [],
   "works_count": 6,
-  "works_count_with_children": 6,
-  "works_count_with_children_and_predecessors": 6,
-  "cited_by_count": 0,
+  "works_count_with_children": 96,
+  "works_count_with_children_and_predecessors": 96,
+  "cited_by_count": 2,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 0,
+    "h_index": 1,
     "i10_index": 0
   },
   "ids": {
     "openalex": "https://openalex.org/I4210166960",
     "ror": "https://ror.org/05wnef833",
     "grid": "grid.467785.f",
-    "wikipedia": "",
-    "wikidata": null
+    "wikipedia": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Wissenschaft,_Kultur_und_Tourismus",
+    "wikidata": "https://www.wikidata.org/wiki/Q2378820"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 51.05836868286133,
-    "longitude": 13.750225067138672
+    "latitude": 51.05089,
+    "longitude": 13.73832
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210119132",
+      "ror": "https://ror.org/02kv9xm28",
+      "display_name": "Landesamt für Archäologie Sachsen",
+      "country_code": "DE",
+      "type": "archive",
+      "relationship": "child"
+    }
+  ],
   "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
     {
       "year": 2023,
       "works_count": 1,
@@ -63,7 +81,7 @@
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 1
     },
     {
       "year": 2016,
@@ -76,7 +94,7 @@
     {
       "role": "funder",
       "id": "https://openalex.org/F4320323644",
-      "works_count": 1230
+      "works_count": 1331
     },
     {
       "role": "institution",
@@ -127,8 +145,8 @@
       "count": 1,
       "score": 0.41260001063346863,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -143,7 +161,7 @@
       "id": "https://openalex.org/T11516",
       "display_name": "Visual and Cognitive Learning Processes",
       "count": 1,
-      "score": 0.0658000037074089,
+      "score": 0.12020000070333481,
       "subfield": {
         "id": "https://openalex.org/subfields/3205",
         "display_name": "Experimental and Cognitive Psychology"
@@ -163,16 +181,16 @@
       "count": 1,
       "score": 0.2069000005722046,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -181,16 +199,34 @@
       "count": 1,
       "score": 0.2964000105857849,
       "subfield": {
-        "id": "https://openalex.org/subfields/3604",
-        "display_name": "Emergency Medical Services"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12408",
+      "display_name": "Digital Transformation of Higher Education",
+      "count": 1,
+      "score": 0.08540000021457672,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -199,12 +235,12 @@
       "count": 1,
       "score": 0.5054000020027161,
       "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -215,18 +251,18 @@
       "id": "https://openalex.org/T13071",
       "display_name": "Digital Storytelling and Education",
       "count": 1,
-      "score": 0.32910001277923584,
+      "score": 0.2493000030517578,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -289,16 +325,16 @@
       "count": 1,
       "score": 0.7523999810218811,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -356,35 +392,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "count": 1,
-      "score": 0.1688999980688095,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14185",
       "display_name": "Research, Science, and Academia",
       "count": 1,
       "score": 0.003700000001117587,
       "subfield": {
-        "id": "https://openalex.org/subfields/1802",
-        "display_name": "Information Systems and Management"
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -414,24 +432,24 @@
     {
       "id": "https://openalex.org/T13071",
       "display_name": "Digital Storytelling and Education",
-      "value": 4.08e-05,
+      "value": 3.72e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13368",
       "display_name": "University Challenges and Reforms",
-      "value": 2.03e-05,
+      "value": 2.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -448,7 +466,7 @@
     {
       "id": "https://openalex.org/T13099",
       "display_name": "Health, Medicine and Society",
-      "value": 1.96e-05,
+      "value": 1.91e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -465,31 +483,31 @@
     {
       "id": "https://openalex.org/T11813",
       "display_name": "Library Collection Development and Digital Resources",
-      "value": 1.84e-05,
+      "value": 1.79e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T14081",
-      "display_name": "Linguistic Education and Pedagogy",
-      "value": 1.64e-05,
+      "id": "https://openalex.org/T12408",
+      "display_name": "Digital Transformation of Higher Education",
+      "value": 1.51e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1203",
-        "display_name": "Language and Linguistics"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -499,7 +517,7 @@
     {
       "id": "https://openalex.org/T11516",
       "display_name": "Visual and Cognitive Learning Processes",
-      "value": 1.57e-05,
+      "value": 1.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3205",
         "display_name": "Experimental and Cognitive Psychology"
@@ -514,9 +532,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11990",
+      "display_name": "Global Health Workforce Issues",
+      "value": 1.47e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12809",
+      "display_name": "Contact Mechanics and Variational Inequalities",
+      "value": 1.44e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T14006",
       "display_name": "Linguistics, Language Diversity, and Identity",
-      "value": 1.53e-05,
+      "value": 1.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1203",
         "display_name": "Language and Linguistics"
@@ -531,43 +583,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11990",
-      "display_name": "Global Health Workforce Issues",
-      "value": 1.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3604",
-        "display_name": "Emergency Medical Services"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12809",
-      "display_name": "Contact Mechanics and Variational Inequalities",
-      "value": 1.46e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14330",
       "display_name": "Library Science and Information Systems",
-      "value": 1.43e-05,
+      "value": 1.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -584,7 +602,7 @@
     {
       "id": "https://openalex.org/T13896",
       "display_name": "Health Services Management and Policy",
-      "value": 8.3e-06,
+      "value": 8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -601,7 +619,7 @@
     {
       "id": "https://openalex.org/T10265",
       "display_name": "Multilingual Education and Policy",
-      "value": 8.1e-06,
+      "value": 7.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3310",
         "display_name": "Linguistics and Language"
@@ -618,7 +636,7 @@
     {
       "id": "https://openalex.org/T13727",
       "display_name": "Linguistic and Sociocultural Studies",
-      "value": 7.3e-06,
+      "value": 6.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3310",
         "display_name": "Linguistics and Language"
@@ -652,14 +670,14 @@
     {
       "id": "https://openalex.org/T14185",
       "display_name": "Research, Science, and Academia",
-      "value": 5e-06,
+      "value": 4.9e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/1802",
-        "display_name": "Information Systems and Management"
+        "id": "https://openalex.org/subfields/1405",
+        "display_name": "Management of Technology and Innovation"
       },
       "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -669,10 +687,10 @@
     {
       "id": "https://openalex.org/T10546",
       "display_name": "Higher Education Governance and Development",
-      "value": 4.6e-06,
+      "value": 4.5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -688,16 +706,16 @@
       "display_name": "Library Science and Information",
       "value": 3.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -721,6 +739,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210166960",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 27,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210166960",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

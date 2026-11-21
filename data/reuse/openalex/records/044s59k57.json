@@ -6,6 +6,7 @@
   "type": "healthcare",
   "type_id": "https://openalex.org/institution-types/healthcare",
   "lineage": [
+    "https://openalex.org/I4210091277",
     "https://openalex.org/I4210142017"
   ],
   "homepage_url": "https://www.skh-rodewisch.sachsen.de/startseite/",
@@ -13,126 +14,138 @@
   "image_thumbnail_url": null,
   "display_name_acronyms": [],
   "display_name_alternatives": [
-    "Sächsisches Krankenhaus Rodewisch"
+    "SKH Rodewisch",
+    "Sächsisches Krankenhaus Rodewisch",
+    "Sächsisches Krankenhaus Rodewisch, Zentrum für Psychiatrie, Psychotherapie, Psychosomatik und Neurologie",
+    "Sächsisches Krankenhaus für Psychiatrie und Neurologie Rodewisch"
   ],
   "repositories": [],
   "works_count": 73,
   "works_count_with_children": 73,
   "works_count_with_children_and_predecessors": 73,
-  "cited_by_count": 772,
+  "cited_by_count": 811,
   "summary_stats": {
-    "2yr_mean_citedness": 5.0,
-    "h_index": 15,
+    "2yr_mean_citedness": 4.75,
+    "h_index": 13,
     "i10_index": 18
   },
   "ids": {
     "openalex": "https://openalex.org/I4210142017",
     "ror": "https://ror.org/044s59k57",
     "grid": "grid.492103.d",
-    "wikipedia": "",
-    "wikidata": null
+    "wikipedia": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Krankenhaus_Rodewisch,_Zentrum_f%C3%BCr_Psychiatrie,_Psychotherapie,_Psychosomatik_und_Neurologie",
+    "wikidata": "https://www.wikidata.org/wiki/Q2378773"
   },
   "geo": {
     "city": "Rodewisch",
     "geonames_city_id": "2845953",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
-    "latitude": 50.532073974609375,
-    "longitude": 12.400261878967285
+    "latitude": 50.53083,
+    "longitude": 12.41329
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210091277",
+      "ror": "https://ror.org/0198kn518",
+      "display_name": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
+      "country_code": "DE",
+      "type": "government",
+      "relationship": "parent"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 45
+      "cited_by_count": 56
     },
     {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 64
+      "cited_by_count": 91
     },
     {
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 69
+      "cited_by_count": 77
     },
     {
       "year": 2023,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 71
+      "cited_by_count": 85
     },
     {
       "year": 2022,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 54
+      "cited_by_count": 59
     },
     {
       "year": 2021,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 71
+      "cited_by_count": 75
     },
     {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 41
+      "cited_by_count": 52
     },
     {
       "year": 2019,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 40
+      "cited_by_count": 46
     },
     {
       "year": 2018,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 39
+      "cited_by_count": 47
     },
     {
       "year": 2017,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 45
+      "cited_by_count": 49
     },
     {
       "year": 2016,
       "works_count": 4,
       "oa_works_count": 0,
-      "cited_by_count": 46
+      "cited_by_count": 59
     },
     {
       "year": 2015,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 30
+      "cited_by_count": 36
     },
     {
       "year": 2014,
       "works_count": 6,
       "oa_works_count": 1,
-      "cited_by_count": 19
+      "cited_by_count": 24
     },
     {
       "year": 2013,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 25
+      "cited_by_count": 28
     },
     {
       "year": 2012,
       "works_count": 14,
       "oa_works_count": 2,
-      "cited_by_count": 8
+      "cited_by_count": 9
     },
     {
       "year": 2011,
@@ -194,11 +207,11 @@
     {
       "id": "https://openalex.org/T11071",
       "display_name": "Treatment of Major Depression",
-      "count": 10,
+      "count": 11,
       "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
+        "display_name": "Pharmacology (medical)"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -231,7 +244,7 @@
       "id": "https://openalex.org/T10786",
       "display_name": "Maternal Mental Health During Pregnancy and Postpartum",
       "count": 7,
-      "score": 0.33059999346733093,
+      "score": 0.4018999934196472,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -336,21 +349,21 @@
       }
     },
     {
-      "id": "https://openalex.org/T12229",
-      "display_name": "Pharmacological Effects and Toxicity Studies",
+      "id": "https://openalex.org/T13944",
+      "display_name": "Psychiatric care and mental health services",
       "count": 5,
-      "score": 0.0027000000700354576,
+      "score": 0.4372999966144562,
       "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -372,24 +385,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T10056",
-      "display_name": "Neurotransmitter Receptor Influence on Behavior",
-      "count": 4,
-      "score": 0.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2804",
-        "display_name": "Cellular and Molecular Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10316",
       "display_name": "Sleep and related disorders",
       "count": 4,
@@ -408,28 +403,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T13944",
-      "display_name": "Psychiatric care and mental health services",
+      "id": "https://openalex.org/T12229",
+      "display_name": "Pharmacological Effects and Toxicity Studies",
       "count": 4,
-      "score": 0.4372999966144562,
+      "score": 0.0027000000700354576,
       "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10056",
+      "display_name": "Neurotransmitter Receptor Influence on Behavior",
+      "count": 3,
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10576",
       "display_name": "Opioid Use Disorder Treatment",
       "count": 3,
-      "score": 0.0017000000225380063,
+      "score": 0.0015999999595806003,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -451,6 +464,24 @@
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10826",
+      "display_name": "Behavioral and Psychological Studies",
+      "count": 3,
+      "score": 0.003100000089034438,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
       },
       "field": {
         "id": "https://openalex.org/fields/32",
@@ -485,12 +516,12 @@
       "count": 3,
       "score": 0.0005000000237487257,
       "subfield": {
-        "id": "https://openalex.org/subfields/3404",
-        "display_name": "Small Animals"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
       },
       "field": {
-        "id": "https://openalex.org/fields/34",
-        "display_name": "Veterinary"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -539,16 +570,16 @@
       "count": 3,
       "score": 0.1624000072479248,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/3202",
+        "display_name": "Applied Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -586,38 +617,20 @@
         "id": "https://openalex.org/domains/1",
         "display_name": "Life Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10467",
-      "display_name": "Psychometric Methodologies and Testing",
-      "count": 2,
-      "score": 0.9315999746322632,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1803",
-        "display_name": "Management Science and Operations Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T13798",
       "display_name": "Hops Chemistry and Applications",
-      "value": 0.0001931,
+      "value": 0.0001817,
       "subfield": {
-        "id": "https://openalex.org/subfields/3004",
-        "display_name": "Pharmacology"
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/30",
-        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -627,7 +640,7 @@
     {
       "id": "https://openalex.org/T10537",
       "display_name": "Attention Deficit Hyperactivity Disorder",
-      "value": 0.0001798,
+      "value": 0.0001684,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -644,24 +657,24 @@
     {
       "id": "https://openalex.org/T14040",
       "display_name": "Problem Solving Skills Development",
-      "value": 9.77e-05,
+      "value": 8.65e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/3202",
+        "display_name": "Applied Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11964",
       "display_name": "Pregnancy and Medication Impact",
-      "value": 8.64e-05,
+      "value": 8.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -678,7 +691,7 @@
     {
       "id": "https://openalex.org/T13090",
       "display_name": "Medicinal Plant Extracts Effects",
-      "value": 7.04e-05,
+      "value": 6.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2707",
         "display_name": "Complementary and alternative medicine"
@@ -693,26 +706,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T12704",
-      "display_name": "Stress and Burnout Research",
-      "value": 6.73e-05,
+      "id": "https://openalex.org/T11071",
+      "display_name": "Treatment of Major Depression",
+      "value": 6.63e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology (medical)"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12684",
       "display_name": "Stuttering Research and Treatment",
-      "value": 6.41e-05,
+      "value": 6.07e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -727,43 +740,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11071",
-      "display_name": "Treatment of Major Depression",
-      "value": 6.1e-05,
+      "id": "https://openalex.org/T12704",
+      "display_name": "Stress and Burnout Research",
+      "value": 5.96e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2736",
-        "display_name": "Pharmacology"
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12229",
-      "display_name": "Pharmacological Effects and Toxicity Studies",
-      "value": 5.52e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2735",
-        "display_name": "Pediatrics, Perinatology and Child Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10786",
       "display_name": "Maternal Mental Health During Pregnancy and Postpartum",
-      "value": 5.41e-05,
+      "value": 5.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -780,14 +776,14 @@
     {
       "id": "https://openalex.org/T11899",
       "display_name": "Brucella: diagnosis, epidemiology, treatment",
-      "value": 5.04e-05,
+      "value": 4.93e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3404",
-        "display_name": "Small Animals"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
       },
       "field": {
-        "id": "https://openalex.org/fields/34",
-        "display_name": "Veterinary"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -797,7 +793,7 @@
     {
       "id": "https://openalex.org/T12867",
       "display_name": "Advanced Biosensing Techniques and Applications",
-      "value": 4.66e-05,
+      "value": 4.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -814,10 +810,27 @@
     {
       "id": "https://openalex.org/T11934",
       "display_name": "Syphilis Diagnosis and Treatment",
-      "value": 4.55e-05,
+      "value": 4.46e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12229",
+      "display_name": "Pharmacological Effects and Toxicity Studies",
+      "value": 4.34e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -831,7 +844,7 @@
     {
       "id": "https://openalex.org/T10023",
       "display_name": "Schizophrenia research and treatment",
-      "value": 4.25e-05,
+      "value": 4.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -846,26 +859,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14085",
-      "display_name": "Student Stress and Coping",
-      "value": 3.66e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3204",
-        "display_name": "Developmental and Educational Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10296",
       "display_name": "Vector-borne infectious diseases",
-      "value": 3.65e-05,
+      "value": 3.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2405",
         "display_name": "Parasitology"
@@ -880,9 +876,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10214",
-      "display_name": "Psychotherapy Techniques and Applications",
-      "value": 3.51e-05,
+      "id": "https://openalex.org/T13944",
+      "display_name": "Psychiatric care and mental health services",
+      "value": 3.42e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -899,7 +895,7 @@
     {
       "id": "https://openalex.org/T12947",
       "display_name": "Health, psychology, and well-being",
-      "value": 3.49e-05,
+      "value": 3.34e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -914,9 +910,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10708",
-      "display_name": "Mindfulness and Compassion Interventions",
-      "value": 3.38e-05,
+      "id": "https://openalex.org/T14085",
+      "display_name": "Student Stress and Coping",
+      "value": 3.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10214",
+      "display_name": "Psychotherapy Techniques and Applications",
+      "value": 3.3e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -933,7 +946,7 @@
     {
       "id": "https://openalex.org/T10342",
       "display_name": "Circadian rhythm and melatonin",
-      "value": 3.31e-05,
+      "value": 3.24e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2807",
         "display_name": "Endocrine and Autonomic Systems"
@@ -948,43 +961,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12308",
-      "display_name": "Mental Health and Psychiatry",
-      "value": 3.13e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11923",
-      "display_name": "Mine drainage and remediation techniques",
-      "value": 2.92e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2304",
-        "display_name": "Environmental Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/23",
-        "display_name": "Environmental Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13944",
-      "display_name": "Psychiatric care and mental health services",
-      "value": 2.92e-05,
+      "id": "https://openalex.org/T10708",
+      "display_name": "Mindfulness and Compassion Interventions",
+      "value": 3.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -999,12 +978,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T12505",
-      "display_name": "Peptidase Inhibition and Analysis",
-      "value": 2.82e-05,
+      "id": "https://openalex.org/T12308",
+      "display_name": "Mental Health and Psychiatry",
+      "value": 3.08e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2730",
-        "display_name": "Oncology"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11892",
+      "display_name": "Kawasaki Disease and Coronary Complications",
+      "value": 2.79e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -1016,26 +1012,45 @@
       }
     },
     {
-      "id": "https://openalex.org/T11892",
-      "display_name": "Kawasaki Disease and Coronary Complications",
-      "value": 2.79e-05,
+      "id": "https://openalex.org/T12505",
+      "display_name": "Peptidase Inhibition and Analysis",
+      "value": 2.76e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2746",
-        "display_name": "Surgery"
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11923",
+      "display_name": "Mine drainage and remediation techniques",
+      "value": 2.72e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210142017",
-  "updated_date": "2026-10-27T19:54:23",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210142017",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

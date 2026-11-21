@@ -6,7 +6,8 @@
   "type": "facility",
   "type_id": "https://openalex.org/institution-types/facility",
   "lineage": [
-    "https://openalex.org/I4210113131"
+    "https://openalex.org/I4210113131",
+    "https://openalex.org/I78650965"
   ],
   "homepage_url": "https://www.barkhauseninstitut.org",
   "image_url": null,
@@ -20,21 +21,21 @@
     "Barkhausen Institute"
   ],
   "repositories": [],
-  "works_count": 401,
-  "works_count_with_children": 401,
-  "works_count_with_children_and_predecessors": 401,
-  "cited_by_count": 7071,
+  "works_count": 411,
+  "works_count_with_children": 411,
+  "works_count_with_children_and_predecessors": 411,
+  "cited_by_count": 4869,
   "summary_stats": {
-    "2yr_mean_citedness": 1.8535031847133758,
-    "h_index": 31,
-    "i10_index": 165
+    "2yr_mean_citedness": 3.5391304347826087,
+    "h_index": 28,
+    "i10_index": 101
   },
   "ids": {
     "openalex": "https://openalex.org/I4210113131",
     "ror": "https://ror.org/0260qqv98",
     "grid": "grid.512267.5",
     "wikipedia": null,
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q108737228"
   },
   "geo": {
     "city": "Dresden",
@@ -46,73 +47,76 @@
     "longitude": 13.73832
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I78650965",
+      "ror": "https://ror.org/042aqky30",
+      "display_name": "Technische Universität Dresden",
+      "country_code": "DE",
+      "type": "education",
+      "relationship": "parent"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 66,
-      "oa_works_count": 32,
-      "cited_by_count": 543
+      "works_count": 76,
+      "oa_works_count": 37,
+      "cited_by_count": 1110
     },
     {
       "year": 2025,
-      "works_count": 83,
-      "oa_works_count": 31,
-      "cited_by_count": 795
+      "works_count": 86,
+      "oa_works_count": 36,
+      "cited_by_count": 1136
     },
     {
       "year": 2024,
       "works_count": 56,
       "oa_works_count": 29,
-      "cited_by_count": 739
+      "cited_by_count": 868
     },
     {
       "year": 2023,
       "works_count": 59,
       "oa_works_count": 42,
-      "cited_by_count": 676
+      "cited_by_count": 807
     },
     {
       "year": 2022,
-      "works_count": 48,
-      "oa_works_count": 22,
-      "cited_by_count": 403
+      "works_count": 44,
+      "oa_works_count": 20,
+      "cited_by_count": 472
     },
     {
       "year": 2021,
       "works_count": 38,
-      "oa_works_count": 20,
-      "cited_by_count": 277
+      "oa_works_count": 21,
+      "cited_by_count": 298
     },
     {
       "year": 2020,
       "works_count": 23,
       "oa_works_count": 6,
-      "cited_by_count": 98
+      "cited_by_count": 113
     },
     {
       "year": 2019,
-      "works_count": 23,
-      "oa_works_count": 5,
-      "cited_by_count": 21
+      "works_count": 24,
+      "oa_works_count": 6,
+      "cited_by_count": 32
     },
     {
       "year": 2018,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 3
-    },
-    {
-      "year": 2017,
-      "works_count": 0,
-      "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 6
     },
     {
       "year": 2016,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2015,
@@ -124,7 +128,7 @@
       "year": 2013,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 5
+      "cited_by_count": 6
     },
     {
       "year": 2012,
@@ -143,14 +147,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210113131",
-      "works_count": 401
+      "works_count": 411
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10964",
       "display_name": "Wireless Communication Security Techniques",
-      "count": 59,
+      "count": 60,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -168,7 +172,7 @@
     {
       "id": "https://openalex.org/T10891",
       "display_name": "Radar Systems and Signal Processing",
-      "count": 51,
+      "count": 54,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
@@ -189,8 +193,8 @@
       "count": 48,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -207,12 +211,12 @@
       "count": 43,
       "score": 0.9804999828338623,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -222,11 +226,11 @@
     {
       "id": "https://openalex.org/T10069",
       "display_name": "Antenna Design and Analysis",
-      "count": 41,
+      "count": 43,
       "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -240,7 +244,7 @@
     {
       "id": "https://openalex.org/T11504",
       "display_name": "Advanced Authentication Protocols Security",
-      "count": 40,
+      "count": 43,
       "score": 0.9872999787330627,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
@@ -258,7 +262,7 @@
     {
       "id": "https://openalex.org/T10904",
       "display_name": "Embedded Systems Design Techniques",
-      "count": 37,
+      "count": 38,
       "score": 0.9976000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
@@ -276,7 +280,7 @@
     {
       "id": "https://openalex.org/T10054",
       "display_name": "Parallel Computing and Optimization Techniques",
-      "count": 34,
+      "count": 35,
       "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
@@ -285,6 +289,24 @@
       "field": {
         "id": "https://openalex.org/fields/17",
         "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11383",
+      "display_name": "Advanced Antenna and Metasurface Technologies",
+      "count": 34,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -310,28 +332,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11383",
-      "display_name": "Advanced Antenna and Metasurface Technologies",
-      "count": 28,
-      "score": 0.9990000128746033,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10125",
-      "display_name": "Advanced Wireless Communication Techniques",
-      "count": 27,
-      "score": 0.8945000171661377,
+      "id": "https://openalex.org/T10936",
+      "display_name": "Millimeter-Wave Propagation and Modeling",
+      "count": 29,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -348,7 +352,7 @@
     {
       "id": "https://openalex.org/T10273",
       "display_name": "IoT and Edge/Fog Computing",
-      "count": 27,
+      "count": 28,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
@@ -364,10 +368,46 @@
       }
     },
     {
-      "id": "https://openalex.org/T10936",
-      "display_name": "Millimeter-Wave Propagation and Modeling",
-      "count": 25,
+      "id": "https://openalex.org/T12122",
+      "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+      "count": 26,
       "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11458",
+      "display_name": "Advanced Wireless Communication Technologies",
+      "count": 24,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10125",
+      "display_name": "Advanced Wireless Communication Techniques",
+      "count": 23,
+      "score": 0.8945000171661377,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -400,17 +440,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T12122",
-      "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
-      "count": 23,
-      "score": 1.0,
+      "id": "https://openalex.org/T11409",
+      "display_name": "Advanced Wireless Network Optimization",
+      "count": 22,
+      "score": 0.8291000127792358,
       "subfield": {
-        "id": "https://openalex.org/subfields/1708",
-        "display_name": "Hardware and Architecture"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -420,7 +460,7 @@
     {
       "id": "https://openalex.org/T10262",
       "display_name": "Microwave Engineering and Waveguides",
-      "count": 22,
+      "count": 21,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -438,7 +478,7 @@
     {
       "id": "https://openalex.org/T10951",
       "display_name": "Cryptographic Implementations and Security",
-      "count": 20,
+      "count": 21,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -454,28 +494,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T11409",
-      "display_name": "Advanced Wireless Network Optimization",
-      "count": 20,
-      "score": 0.8291000127792358,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11458",
-      "display_name": "Advanced Wireless Communication Technologies",
-      "count": 20,
-      "score": 1.0,
+      "id": "https://openalex.org/T11248",
+      "display_name": "Advanced Power Amplifier Design",
+      "count": 18,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -495,8 +517,26 @@
       "count": 17,
       "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/1712",
+        "display_name": "Software"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10237",
+      "display_name": "Cryptography and Data Security",
+      "count": 17,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -511,46 +551,10 @@
       "id": "https://openalex.org/T10933",
       "display_name": "Real-Time Systems Scheduling",
       "count": 17,
-      "score": 0.9682999849319458,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11248",
-      "display_name": "Advanced Power Amplifier Design",
-      "count": 17,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10772",
-      "display_name": "Distributed systems and fault tolerance",
-      "count": 16,
-      "score": 0.1559000015258789,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -580,13 +584,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T13983",
-      "display_name": "Cybersecurity and Information Systems",
-      "count": 16,
-      "score": 0.8393999934196472,
+      "id": "https://openalex.org/T10142",
+      "display_name": "Formal Methods in Verification",
+      "count": 15,
+      "score": 0.7519999742507935,
       "subfield": {
-        "id": "https://openalex.org/subfields/1705",
-        "display_name": "Computer Networks and Communications"
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
       },
       "field": {
         "id": "https://openalex.org/fields/17",
@@ -602,7 +606,7 @@
     {
       "id": "https://openalex.org/T10964",
       "display_name": "Wireless Communication Security Techniques",
-      "value": 0.0009752,
+      "value": 0.000977,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -619,7 +623,7 @@
     {
       "id": "https://openalex.org/T12122",
       "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
-      "value": 0.0005204,
+      "value": 0.0005731,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -634,26 +638,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12131",
-      "display_name": "Wireless Signal Modulation Classification",
-      "value": 0.0004196,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12791",
       "display_name": "Full-Duplex Wireless Communications",
-      "value": 0.0004176,
+      "value": 0.0004122,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -668,9 +655,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11424",
-      "display_name": "Security and Verification in Computing",
-      "value": 0.0004127,
+      "id": "https://openalex.org/T12131",
+      "display_name": "Wireless Signal Modulation Classification",
+      "value": 0.0004084,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -685,9 +672,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11424",
+      "display_name": "Security and Verification in Computing",
+      "value": 0.0003899,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11504",
       "display_name": "Advanced Authentication Protocols Security",
-      "value": 0.0003569,
+      "value": 0.0003727,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -702,9 +706,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12079",
-      "display_name": "IoT Networks and Protocols",
-      "value": 0.0003426,
+      "id": "https://openalex.org/T11458",
+      "display_name": "Advanced Wireless Communication Technologies",
+      "value": 0.0003649,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -721,7 +725,7 @@
     {
       "id": "https://openalex.org/T10891",
       "display_name": "Radar Systems and Signal Processing",
-      "value": 0.0003344,
+      "value": 0.0003462,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -736,9 +740,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11458",
-      "display_name": "Advanced Wireless Communication Technologies",
-      "value": 0.0003089,
+      "id": "https://openalex.org/T10936",
+      "display_name": "Millimeter-Wave Propagation and Modeling",
+      "value": 0.0003351,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12079",
+      "display_name": "IoT Networks and Protocols",
+      "value": 0.0003274,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -755,7 +776,7 @@
     {
       "id": "https://openalex.org/T13983",
       "display_name": "Cybersecurity and Information Systems",
-      "value": 0.0002992,
+      "value": 0.0002597,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -770,26 +791,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10936",
-      "display_name": "Millimeter-Wave Propagation and Modeling",
-      "value": 0.0002971,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10951",
       "display_name": "Cryptographic Implementations and Security",
-      "value": 0.0002298,
+      "value": 0.0002329,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -806,7 +810,7 @@
     {
       "id": "https://openalex.org/T11248",
       "display_name": "Advanced Power Amplifier Design",
-      "value": 0.0002204,
+      "value": 0.0002259,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -823,7 +827,7 @@
     {
       "id": "https://openalex.org/T10933",
       "display_name": "Real-Time Systems Scheduling",
-      "value": 0.0002157,
+      "value": 0.0002088,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -840,7 +844,7 @@
     {
       "id": "https://openalex.org/T10904",
       "display_name": "Embedded Systems Design Techniques",
-      "value": 0.0001954,
+      "value": 0.0001935,
       "subfield": {
         "id": "https://openalex.org/subfields/1708",
         "display_name": "Hardware and Architecture"
@@ -855,9 +859,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10714",
-      "display_name": "Software-Defined Networks and 5G",
+      "id": "https://openalex.org/T11409",
+      "display_name": "Advanced Wireless Network Optimization",
       "value": 0.0001791,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10273",
+      "display_name": "IoT and Edge/Fog Computing",
+      "value": 0.0001761,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -874,14 +895,14 @@
     {
       "id": "https://openalex.org/T10020",
       "display_name": "Quantum Information and Cryptography",
-      "value": 0.0001789,
+      "value": 0.000173,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -889,9 +910,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10273",
-      "display_name": "IoT and Edge/Fog Computing",
-      "value": 0.0001744,
+      "id": "https://openalex.org/T10714",
+      "display_name": "Software-Defined Networks and 5G",
+      "value": 0.0001722,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -906,9 +927,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11409",
-      "display_name": "Advanced Wireless Network Optimization",
-      "value": 0.0001677,
+      "id": "https://openalex.org/T10069",
+      "display_name": "Antenna Design and Analysis",
+      "value": 0.0001628,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -923,26 +944,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10069",
-      "display_name": "Antenna Design and Analysis",
-      "value": 0.0001581,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10187",
-      "display_name": "Radio Frequency Integrated Circuit Design",
-      "value": 0.0001509,
+      "id": "https://openalex.org/T11383",
+      "display_name": "Advanced Antenna and Metasurface Technologies",
+      "value": 0.0001621,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -959,7 +963,7 @@
     {
       "id": "https://openalex.org/T13553",
       "display_name": "Age of Information Optimization",
-      "value": 0.0001492,
+      "value": 0.0001489,
       "subfield": {
         "id": "https://openalex.org/subfields/1705",
         "display_name": "Computer Networks and Communications"
@@ -974,26 +978,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T14042",
-      "display_name": "Technology and Security Systems",
-      "value": 0.0001417,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10125",
-      "display_name": "Advanced Wireless Communication Techniques",
-      "value": 0.0001392,
+      "id": "https://openalex.org/T10187",
+      "display_name": "Radio Frequency Integrated Circuit Design",
+      "value": 0.0001471,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1010,10 +997,27 @@
     {
       "id": "https://openalex.org/T13905",
       "display_name": "Telecommunications and Broadcasting Technologies",
-      "value": 0.0001368,
+      "value": 0.0001288,
       "subfield": {
         "id": "https://openalex.org/subfields/2214",
         "display_name": "Media Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13918",
+      "display_name": "Advanced Data and IoT Technologies",
+      "value": 0.0001269,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -1028,6 +1032,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210113131",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 16,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210113131",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

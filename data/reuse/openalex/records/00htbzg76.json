@@ -20,7 +20,7 @@
   "works_count": 6,
   "works_count_with_children": 6,
   "works_count_with_children_and_predecessors": 6,
-  "cited_by_count": 16,
+  "cited_by_count": 19,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -31,12 +31,12 @@
     "ror": "https://ror.org/00htbzg76",
     "grid": "grid.500856.e",
     "wikipedia": "https://en.wikipedia.org/wiki/Stiftung_S%C3%A4chsische_Gedenkst%C3%A4tten_zur_Erinnerung_an_die_Opfer_politischer_Gewaltherrschaft",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q2349185"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.0267333984375,
@@ -49,19 +49,19 @@
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2023,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2022,
@@ -85,13 +85,13 @@
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 2
     },
     {
       "year": 2018,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2016,
@@ -130,7 +130,25 @@
       "id": "https://openalex.org/T11070",
       "display_name": "Soviet and Russian History",
       "count": 3,
-      "score": 0.8154000043869019,
+      "score": 0.8062000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11971",
+      "display_name": "World Wars: History, Literature, and Impact",
+      "count": 3,
+      "score": 0.9868000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -149,24 +167,6 @@
       "display_name": "European history and politics",
       "count": 3,
       "score": 0.7846999764442444,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11971",
-      "display_name": "World Wars: History, Literature, and Impact",
-      "count": 2,
-      "score": 0.9868000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -204,8 +204,8 @@
       "count": 1,
       "score": 0.7128999829292297,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -307,28 +307,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T14115",
-      "display_name": "Legal processes and jurisprudence",
-      "count": 1,
-      "score": 0.00430000014603138,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14492",
       "display_name": "War, Law, and Justice",
       "count": 1,
-      "score": 0.15049999952316284,
+      "score": 0.15530000627040863,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -347,7 +329,7 @@
     {
       "id": "https://openalex.org/T13998",
       "display_name": "History, Medicine, and Leadership",
-      "value": 9.75e-05,
+      "value": 9.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -364,7 +346,7 @@
     {
       "id": "https://openalex.org/T12645",
       "display_name": "European history and politics",
-      "value": 8.04e-05,
+      "value": 7.84e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -381,7 +363,7 @@
     {
       "id": "https://openalex.org/T12575",
       "display_name": "Medical History and Research",
-      "value": 7.36e-05,
+      "value": 7.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -398,7 +380,7 @@
     {
       "id": "https://openalex.org/T13484",
       "display_name": "German History and Society",
-      "value": 5.27e-05,
+      "value": 5.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -415,7 +397,7 @@
     {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "value": 5.24e-05,
+      "value": 4.96e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -432,7 +414,7 @@
     {
       "id": "https://openalex.org/T13014",
       "display_name": "Peace and Human Rights Education",
-      "value": 3.83e-05,
+      "value": 3.48e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -447,9 +429,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11971",
+      "display_name": "World Wars: History, Literature, and Impact",
+      "value": 2.51e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11070",
       "display_name": "Soviet and Russian History",
-      "value": 2.01e-05,
+      "value": 2.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -466,24 +465,7 @@
     {
       "id": "https://openalex.org/T14492",
       "display_name": "War, Law, and Justice",
-      "value": 1.81e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11971",
-      "display_name": "World Wars: History, Literature, and Impact",
-      "value": 1.68e-05,
+      "value": 1.73e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -500,7 +482,7 @@
     {
       "id": "https://openalex.org/T12666",
       "display_name": "Historical Psychiatry and Medical Practices",
-      "value": 1.33e-05,
+      "value": 1.29e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -517,27 +499,10 @@
     {
       "id": "https://openalex.org/T11859",
       "display_name": "Educator Training and Historical Pedagogy",
-      "value": 1.18e-05,
+      "value": 1.04e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14115",
-      "display_name": "Legal processes and jurisprudence",
-      "value": 6.7e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -552,6 +517,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210099709",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210099709",
+  "updated_date": "2026-11-16T19:36:12",
   "created_date": "2022-02-02T04:48:36"
 }

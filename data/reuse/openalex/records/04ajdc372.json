@@ -21,18 +21,18 @@
   "works_count": 17,
   "works_count_with_children": 17,
   "works_count_with_children_and_predecessors": 17,
-  "cited_by_count": 384,
+  "cited_by_count": 272,
   "summary_stats": {
-    "2yr_mean_citedness": 3.0,
-    "h_index": 10,
-    "i10_index": 10
+    "2yr_mean_citedness": 17.0,
+    "h_index": 8,
+    "i10_index": 8
   },
   "ids": {
     "openalex": "https://openalex.org/I4405272536",
     "ror": "https://ror.org/04ajdc372",
     "grid": null,
     "wikipedia": null,
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q140873422"
   },
   "geo": {
     "city": "Dresden",
@@ -44,25 +44,42 @@
     "longitude": 13.73832
   },
   "international": {},
-  "associated_institutions": [],
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I4210162051",
+      "ror": "https://ror.org/04za5zm41",
+      "display_name": "University Hospital Carl Gustav Carus",
+      "country_code": "DE",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I78650965",
+      "ror": "https://ror.org/042aqky30",
+      "display_name": "Technische Universität Dresden",
+      "country_code": "DE",
+      "type": "education",
+      "relationship": "related"
+    }
+  ],
   "counts_by_year": [
     {
       "year": 2026,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 19
+      "cited_by_count": 29
     },
     {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 27
+      "cited_by_count": 28
     },
     {
       "year": 2024,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 27
+      "cited_by_count": 31
     },
     {
       "year": 2023,
@@ -74,25 +91,25 @@
       "year": 2022,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 15
+      "cited_by_count": 19
     },
     {
       "year": 2021,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 9
+      "cited_by_count": 27
     },
     {
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 15
+      "cited_by_count": 17
     },
     {
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 8
     },
     {
       "year": 2018,
@@ -104,13 +121,13 @@
       "year": 2017,
       "works_count": 4,
       "oa_works_count": 1,
-      "cited_by_count": 12
+      "cited_by_count": 14
     },
     {
       "year": 2016,
       "works_count": 3,
       "oa_works_count": 0,
-      "cited_by_count": 14
+      "cited_by_count": 13
     },
     {
       "year": 2015,
@@ -134,7 +151,7 @@
       "year": 2012,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 8
+      "cited_by_count": 9
     }
   ],
   "roles": [
@@ -149,7 +166,7 @@
       "id": "https://openalex.org/T11144",
       "display_name": "melanin and skin pigmentation",
       "count": 6,
-      "score": 0.9984999895095825,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -164,9 +181,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T12355",
+      "display_name": "Genetic and rare skin diseases.",
+      "count": 4,
+      "score": 0.052400000393390656,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11172",
       "display_name": "Dermatologic Treatments and Research",
-      "count": 4,
+      "count": 3,
       "score": 0.0024999999441206455,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
@@ -182,28 +217,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12355",
-      "display_name": "Genetic and rare skin diseases.",
-      "count": 3,
-      "score": 0.1062999963760376,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13597",
       "display_name": "Medicine and Dermatology Studies History",
       "count": 3,
-      "score": 0.391400009393692,
+      "score": 0.392300009727478,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -221,7 +238,7 @@
       "id": "https://openalex.org/T10392",
       "display_name": "Cutaneous Melanoma Detection and Management",
       "count": 2,
-      "score": 0.0003000000142492354,
+      "score": 0.00019999999494757503,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -241,8 +258,8 @@
       "count": 2,
       "score": 0.00019999999494757503,
       "subfield": {
-        "id": "https://openalex.org/subfields/2748",
-        "display_name": "Urology"
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -295,8 +312,8 @@
       "count": 2,
       "score": 0.07479999959468842,
       "subfield": {
-        "id": "https://openalex.org/subfields/2711",
-        "display_name": "Emergency Medicine"
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -385,8 +402,8 @@
       "count": 1,
       "score": 0.9990000128746033,
       "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Clinical Neurology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -457,23 +474,23 @@
       "count": 1,
       "score": 0.0052999998442828655,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10837",
       "display_name": "Dermatology and Skin Diseases",
       "count": 1,
-      "score": 0.31450000405311584,
+      "score": 0.4077000021934509,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -563,7 +580,7 @@
       "id": "https://openalex.org/T11494",
       "display_name": "Coleoptera Taxonomy and Distribution",
       "count": 1,
-      "score": 0.0007999999797903001,
+      "score": 0.0008999999845400453,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -615,9 +632,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T12355",
+      "display_name": "Genetic and rare skin diseases.",
+      "value": 5.61e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11144",
       "display_name": "melanin and skin pigmentation",
-      "value": 5.36e-05,
+      "value": 5.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1307",
         "display_name": "Cell Biology"
@@ -634,41 +668,7 @@
     {
       "id": "https://openalex.org/T12937",
       "display_name": "Chemotherapy-related skin toxicity",
-      "value": 5.28e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2708",
-        "display_name": "Dermatology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12355",
-      "display_name": "Genetic and rare skin diseases.",
-      "value": 4.22e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11172",
-      "display_name": "Dermatologic Treatments and Research",
-      "value": 4.01e-05,
+      "value": 5.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -685,14 +685,14 @@
     {
       "id": "https://openalex.org/T13866",
       "display_name": "Occupational health in dentistry",
-      "value": 3.65e-05,
+      "value": 3.42e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3607",
-        "display_name": "Medical Laboratory Technology"
+        "id": "https://openalex.org/subfields/3500",
+        "display_name": "General Dentistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -702,7 +702,7 @@
     {
       "id": "https://openalex.org/T12433",
       "display_name": "Skin Diseases and Diabetes",
-      "value": 3.24e-05,
+      "value": 3.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -719,10 +719,27 @@
     {
       "id": "https://openalex.org/T11167",
       "display_name": "Hair Growth and Disorders",
-      "value": 3.15e-05,
+      "value": 3.12e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2748",
-        "display_name": "Urology"
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11172",
+      "display_name": "Dermatologic Treatments and Research",
+      "value": 2.98e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -736,10 +753,10 @@
     {
       "id": "https://openalex.org/T13374",
       "display_name": "Hematological disorders and diagnostics",
-      "value": 2.56e-05,
+      "value": 2.54e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2711",
-        "display_name": "Emergency Medicine"
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -753,7 +770,7 @@
     {
       "id": "https://openalex.org/T13328",
       "display_name": "Osteomyelitis and Bone Disorders Research",
-      "value": 2.53e-05,
+      "value": 2.51e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2745",
         "display_name": "Rheumatology"
@@ -770,10 +787,10 @@
     {
       "id": "https://openalex.org/T13735",
       "display_name": "History of Medical Practice",
-      "value": 1.81e-05,
+      "value": 1.82e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2728",
-        "display_name": "Neurology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -787,7 +804,7 @@
     {
       "id": "https://openalex.org/T10392",
       "display_name": "Cutaneous Melanoma Detection and Management",
-      "value": 1.47e-05,
+      "value": 1.45e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -804,7 +821,7 @@
     {
       "id": "https://openalex.org/T11964",
       "display_name": "Pregnancy and Medication Impact",
-      "value": 1.23e-05,
+      "value": 1.22e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -821,24 +838,24 @@
     {
       "id": "https://openalex.org/T11692",
       "display_name": "Noise Effects and Management",
-      "value": 1.15e-05,
+      "value": 1.09e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3616",
-        "display_name": "Speech and Hearing"
+        "id": "https://openalex.org/subfields/3102",
+        "display_name": "Acoustics and Ultrasonics"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11620",
       "display_name": "Medication Adherence and Compliance",
-      "value": 1.09e-05,
+      "value": 1.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2714",
         "display_name": "Family Practice"
@@ -855,7 +872,7 @@
     {
       "id": "https://openalex.org/T11207",
       "display_name": "Alcohol Consumption and Health Effects",
-      "value": 7.8e-06,
+      "value": 7.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2734",
         "display_name": "Pathology and Forensic Medicine"
@@ -889,7 +906,7 @@
     {
       "id": "https://openalex.org/T10902",
       "display_name": "Complementary and Alternative Medicine Studies",
-      "value": 7.3e-06,
+      "value": 7.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2707",
         "display_name": "Complementary and alternative medicine"
@@ -906,24 +923,24 @@
     {
       "id": "https://openalex.org/T10691",
       "display_name": "Retinal Development and Disorders",
-      "value": 6.8e-06,
+      "value": 6.7e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
+        "id": "https://openalex.org/subfields/2731",
+        "display_name": "Ophthalmology"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11219",
       "display_name": "Bone Metabolism and Diseases",
-      "value": 6.6e-06,
+      "value": 6.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -931,23 +948,6 @@
       "field": {
         "id": "https://openalex.org/fields/13",
         "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10429",
-      "display_name": "EEG and Brain-Computer Interfaces",
-      "value": 6e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
       },
       "domain": {
         "id": "https://openalex.org/domains/1",
@@ -957,7 +957,7 @@
     {
       "id": "https://openalex.org/T12132",
       "display_name": "Hymenoptera taxonomy and phylogeny",
-      "value": 6e-06,
+      "value": 5.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -974,10 +974,10 @@
     {
       "id": "https://openalex.org/T10137",
       "display_name": "Multiple Sclerosis Research Studies",
-      "value": 5.9e-06,
+      "value": 5.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Clinical Neurology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -989,9 +989,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10429",
+      "display_name": "EEG and Brain-Computer Interfaces",
+      "value": 5.8e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12606",
       "display_name": "Diptera species taxonomy and behavior",
-      "value": 5.8e-06,
+      "value": 5.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1105",
         "display_name": "Ecology, Evolution, Behavior and Systematics"
@@ -1006,26 +1023,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T10334",
-      "display_name": "Hearing, Cochlea, Tinnitus, Genetics",
-      "value": 5.1e-06,
+      "id": "https://openalex.org/T11000",
+      "display_name": "Infection Control in Healthcare",
+      "value": 5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2809",
-        "display_name": "Sensory Systems"
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405272536",
-  "updated_date": "2026-10-29T18:22:05",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405272536",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2026-07-22T03:30:22"
 }

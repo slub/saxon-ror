@@ -17,9 +17,9 @@
     "Nuvo Pharmaceuticals (Germany)"
   ],
   "repositories": [],
-  "works_count": 0,
-  "works_count_with_children": 0,
-  "works_count_with_children_and_predecessors": 0,
+  "works_count": 1,
+  "works_count_with_children": 1,
+  "works_count_with_children_and_predecessors": 1,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -31,12 +31,12 @@
     "ror": "https://ror.org/029tvtf63",
     "grid": "grid.476560.6",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q30269177"
   },
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.3208122253418,
@@ -53,19 +53,135 @@
       "relationship": "parent"
     }
   ],
-  "counts_by_year": [],
+  "counts_by_year": [
+    {
+      "year": 2013,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    }
+  ],
   "roles": [
     {
       "role": "institution",
       "id": "https://openalex.org/I4210115908",
-      "works_count": 0
+      "works_count": 1
     }
   ],
-  "topics": [],
-  "topic_share": [],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10200",
+      "display_name": "Rheumatoid Arthritis Research and Therapies",
+      "count": 1,
+      "score": 0.9398999810218811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10308",
+      "display_name": "Systemic Lupus Erythematosus Research",
+      "count": 1,
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13026",
+      "display_name": "Natural Compounds in Disease Treatment",
+      "count": 1,
+      "score": 0.05889999866485596,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T13026",
+      "display_name": "Natural Compounds in Disease Treatment",
+      "value": 1.27e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10308",
+      "display_name": "Systemic Lupus Erythematosus Research",
+      "value": 4.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10200",
+      "display_name": "Rheumatoid Arthritis Research and Therapies",
+      "value": 4.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210115908",
-  "updated_date": "2026-09-28T08:40:17",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210115908",
+  "updated_date": "2026-11-17T18:23:19",
   "created_date": "2022-02-02T04:48:36"
 }

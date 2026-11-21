@@ -23,9 +23,9 @@
   "works_count": 16,
   "works_count_with_children": 16,
   "works_count_with_children_and_predecessors": 16,
-  "cited_by_count": 86,
+  "cited_by_count": 110,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
+    "2yr_mean_citedness": 1.6666666666666667,
     "h_index": 6,
     "i10_index": 2
   },
@@ -52,43 +52,43 @@
       "year": 2026,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 4
+      "cited_by_count": 7
     },
     {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 9
+      "cited_by_count": 12
     },
     {
       "year": 2024,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 14
+      "cited_by_count": 21
     },
     {
       "year": 2023,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 18
+      "cited_by_count": 21
     },
     {
       "year": 2022,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 18
+      "cited_by_count": 20
     },
     {
       "year": 2021,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 10
+      "cited_by_count": 17
     },
     {
       "year": 2020,
       "works_count": 3,
       "oa_works_count": 1,
-      "cited_by_count": 5
+      "cited_by_count": 6
     },
     {
       "year": 2019,
@@ -241,14 +241,14 @@
       "id": "https://openalex.org/T10609",
       "display_name": "Digital Marketing and Social Media",
       "count": 2,
-      "score": 0.9214000105857849,
+      "score": 0.9276999831199646,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -297,16 +297,16 @@
       "count": 2,
       "score": 0.10400000214576721,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -315,8 +315,8 @@
       "count": 1,
       "score": 0.2705000042915344,
       "subfield": {
-        "id": "https://openalex.org/subfields/1407",
-        "display_name": "Organizational Behavior and Human Resource Management"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -423,12 +423,12 @@
       "count": 1,
       "score": 0.03280000016093254,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -564,26 +564,9 @@
   ],
   "topic_share": [
     {
-      "id": "https://openalex.org/T11114",
-      "display_name": "Service and Product Innovation",
-      "value": 9.17e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T14147",
       "display_name": "Innovative Approaches in Technology and Social Development",
-      "value": 9.03e-05,
+      "value": 8.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -598,9 +581,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11114",
+      "display_name": "Service and Product Innovation",
+      "value": 8.1e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10679",
       "display_name": "Service-Oriented Architecture and Web Services",
-      "value": 3.99e-05,
+      "value": 3.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -634,7 +634,7 @@
     {
       "id": "https://openalex.org/T12797",
       "display_name": "History of Computing Technologies",
-      "value": 3.12e-05,
+      "value": 3.06e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1706",
         "display_name": "Computer Science Applications"
@@ -651,7 +651,7 @@
     {
       "id": "https://openalex.org/T14512",
       "display_name": "Technology and Human Factors in Education and Health",
-      "value": 2.52e-05,
+      "value": 2.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -668,24 +668,24 @@
     {
       "id": "https://openalex.org/T12863",
       "display_name": "Web and Library Services",
-      "value": 2.3e-05,
+      "value": 2.22e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3309",
+        "display_name": "Library and Information Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T13276",
       "display_name": "University-Industry-Government Innovation Models",
-      "value": 2.03e-05,
+      "value": 1.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1405",
         "display_name": "Management of Technology and Innovation"
@@ -700,9 +700,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11024",
+      "display_name": "Information Systems Theories and Implementation",
+      "value": 1.49e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1404",
+        "display_name": "Management Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10763",
       "display_name": "Digital Transformation in Industry",
-      "value": 1.56e-05,
+      "value": 1.46e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2209",
         "display_name": "Industrial and Manufacturing Engineering"
@@ -717,43 +734,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11024",
-      "display_name": "Information Systems Theories and Implementation",
-      "value": 1.56e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12601",
-      "display_name": "Web Applications and Data Management",
-      "value": 1.5e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12000",
       "display_name": "Systems Engineering Methodologies and Applications",
-      "value": 1.47e-05,
+      "value": 1.39e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2207",
         "display_name": "Control and Systems Engineering"
@@ -768,26 +751,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11711",
-      "display_name": "COVID-19 Pandemic Impacts",
-      "value": 1.33e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13641",
       "display_name": "Historical Studies and Socio-cultural Analysis",
-      "value": 1.32e-05,
+      "value": 1.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1207",
         "display_name": "History and Philosophy of Science"
@@ -802,43 +768,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11398",
-      "display_name": "Hand Gesture Recognition Systems",
-      "value": 1.2e-05,
+      "id": "https://openalex.org/T11711",
+      "display_name": "COVID-19 Pandemic Impacts",
+      "value": 1.3e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1709",
-        "display_name": "Human-Computer Interaction"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
-      "id": "https://openalex.org/T11550",
-      "display_name": "Text and Document Classification Technologies",
-      "value": 1.2e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10286",
-      "display_name": "Information Retrieval and Search Behavior",
-      "value": 1.07e-05,
+      "id": "https://openalex.org/T12601",
+      "display_name": "Web Applications and Data Management",
+      "value": 1.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -853,9 +802,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11550",
+      "display_name": "Text and Document Classification Technologies",
+      "value": 1.16e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11398",
+      "display_name": "Hand Gesture Recognition Systems",
+      "value": 1.15e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10350",
       "display_name": "Electronic Health Records Systems",
-      "value": 1.07e-05,
+      "value": 1.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3605",
         "display_name": "Health Information Management"
@@ -870,9 +853,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10286",
+      "display_name": "Information Retrieval and Search Behavior",
+      "value": 1.02e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10003",
       "display_name": "Innovation and Knowledge Management",
-      "value": 9.5e-06,
+      "value": 9.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -887,26 +887,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11536",
-      "display_name": "Consumer Retail Behavior Studies",
-      "value": 9.5e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10789",
       "display_name": "Interactive and Immersive Displays",
-      "value": 9.1e-06,
+      "value": 8.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1709",
         "display_name": "Human-Computer Interaction"
@@ -923,7 +906,7 @@
     {
       "id": "https://openalex.org/T11636",
       "display_name": "Artificial Intelligence in Healthcare and Education",
-      "value": 8.9e-06,
+      "value": 8.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2718",
         "display_name": "Health Informatics"
@@ -938,29 +921,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T10609",
-      "display_name": "Digital Marketing and Social Media",
-      "value": 8.5e-06,
+      "id": "https://openalex.org/T11536",
+      "display_name": "Consumer Retail Behavior Studies",
+      "value": 8.2e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13151",
-      "display_name": "Business Strategies and Innovation",
-      "value": 8.3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -974,7 +940,7 @@
     {
       "id": "https://openalex.org/T10912",
       "display_name": "Telemedicine and Telehealth Implementation",
-      "value": 7.9e-06,
+      "value": 7.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -987,11 +953,47 @@
         "id": "https://openalex.org/domains/4",
         "display_name": "Health Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10609",
+      "display_name": "Digital Marketing and Social Media",
+      "value": 7.4e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10648",
+      "display_name": "Virtual Reality Applications and Impacts",
+      "value": 7.2e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405260981",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 4,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405260981",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2026-01-21T21:21:40"
 }
