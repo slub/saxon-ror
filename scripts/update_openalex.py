@@ -10,7 +10,7 @@ entity unmodified as:
     data/reuse/openalex/records/<ror-id-suffix>.json
     data/reuse/openalex/records.json      the combined array
 
-Match statistics land in the ``reuse.openalex`` block of ``data/meta.json``.
+Provenance and match statistics land in ``data/reuse/openalex/meta.json``.
 ROR records without an OpenAlex counterpart are expected and normal -- they are
 counted, not treated as errors. Only institution entities are fetched; no
 works/publication metadata is retrieved (the entities' built-in aggregates such
@@ -142,9 +142,7 @@ def main() -> int:
     R.dump_json(combined, OPENALEX_DIR / "records.json")
 
     # --- meta.json -----------------------------------------------------------
-    meta = R.read_meta()
-    meta.setdefault("reuse", {})
-    meta["reuse"]["openalex"] = {
+    meta = {
         "source": "https://openalex.org/",
         "api": API_URL,
         "retrieved": R.today_iso(),
@@ -168,10 +166,10 @@ def main() -> int:
             "from ROR."
         ),
     }
-    R.write_meta(meta)
+    R.write_meta(meta, OPENALEX_DIR)
 
     # Own layer only: another companion may still await its post-ROR refresh.
-    problems = R.validate_pairing(reuse_sources=["openalex"])
+    problems = R.validate_pairing(R.DATA_DIR, reuse_sources=["openalex"])
     if problems:
         print("ERROR: data consistency problems:", file=sys.stderr)
         for p in problems:

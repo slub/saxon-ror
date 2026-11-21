@@ -45,7 +45,7 @@ jobs:
           mkdir -p _deploy
           cp -R www/. _deploy/
           mkdir -p _deploy/data
-          # Copy the data the site reads (records + OpenAlex companion + meta).
+          # Copy ROR data and companion layers, including their metadata.
           cp -R data/. _deploy/data/
 
       - name: Enrich ROR curation-request links

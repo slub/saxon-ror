@@ -25,7 +25,7 @@ The records are the original ROR records, stored verbatim: only re-indented, wit
 | `data/records/<ror-id-suffix>.json` | One file per organization |
 | `data/records.json` | The combined array of all records |
 | `data/records.csv` | Convenience CSV, one row per record (names, identifiers, dates, relationships); multi-value fields are `"; "`-joined |
-| `data/meta.json` | Dump and schema version, Zenodo concept + version DOI, creation datetime, retrieval date, record counts, and one block per companion source (retrieval date, match statistics, licence, access terms) |
+| `data/meta.json` | ROR dump and schema version, Zenodo concept + version DOI, creation datetime, retrieval date, and record counts |
 | `data/curation.json` | Record → ROR curation-request issue numbers (see [Reporting an error](#reporting-an-error-in-a-record)) |
 | `data/history.json` | Derived overlay: each record's ROR release history (see [Record history](#record-history)) |
 | `data/reuse/<source>/…` | Derived companion data (see [Companion data](#companion-data)) |
@@ -78,14 +78,17 @@ ROR is authoritative here. Other datasets that describe the same institutions li
 ```
 data/reuse/<source>/
 ├── records/<ror-id-suffix>.json   # keyed by ROR ID suffix, pairs with data/records/
-└── records.json                   # combined array
+├── records.json                   # combined array
+└── meta.json                      # source, retrieval date, match statistics, licence, access
 ```
 
-plus its own block in `data/meta.json` and a matching `scripts/update_<source>.py`.
+Each has a matching `scripts/update_<source>.py`. Its updater and workflow write only that source's directory. Companion metadata lives in the source's own `meta.json`; `data/meta.json` retains the `ror` block only. Consumers of the former `reuse` blocks should use these source-specific files.
 
-OpenAlex institution entities are keyed by ROR ID, so each record here is fetched via `filter=ror:<id>` from the OpenAlex institutions API and stored unmodified. Only the institution entities are kept — their built-in aggregates (`works_count`, `cited_by_count`, `counts_by_year`, `topics`) travel with the entity. No works/publication metadata is fetched. Being derived, the layer may lag behind or diverge from ROR — so, for example, some ROR records may have no OpenAlex counterpart. Match statistics are recorded in `data/meta.json`.
+OpenAlex institution entities are keyed by ROR ID, so each record here is fetched via `filter=ror:<id>` from the OpenAlex institutions API and stored unmodified. Only the institution entities are kept — their built-in aggregates (`works_count`, `cited_by_count`, `counts_by_year`, `topics`) travel with the entity. No works/publication metadata is fetched. Being derived, the layer may lag behind or diverge from ROR — so, for example, some ROR records may have no OpenAlex counterpart. Match statistics are recorded in `data/reuse/openalex/meta.json`.
 
-re3data is read from its full daily XML export and filtered locally. A repository is linked to an organization only where one of its re3data institution entries names that organization by **explicit ROR identifier** — no name, domain or other-identifier matching, nothing inherited through ROR relationships. Here the per-record files are a small derived projection, not native re3data objects: each lists the linked repositories together with the matching institution entries and their own responsibility types (`general`, `technical`, `funding`, as defined in the re3data schema; other values are kept as given). These types are re3data's statements, not claims about operation, ownership or who may deposit. The original XML of every linked repository is kept unchanged under `data/reuse/re3data/sources/<re3data-id>.xml`. A record without a link means only that the evaluated export names it by no ROR ID — not that the organization has no repository. `data/meta.json` lists linked and unlinked ROR IDs and counts distinct `repositories` separately from ROR–repository `relationships`.
+re3data is read from its full daily XML export and filtered locally. A repository is linked to an organization only where one of its re3data institution entries names that organization by **explicit ROR identifier** — no name, domain or other-identifier matching, nothing inherited through ROR relationships. Here the per-record files are a small derived projection, not native re3data objects: each lists the linked repositories together with the matching institution entries and their own responsibility types (`general`, `technical`, `funding`, as defined in the re3data schema; other values are kept as given). These types are re3data's statements, not claims about operation, ownership or who may deposit. The original XML of every linked repository is kept unchanged under `data/reuse/re3data/sources/<re3data-id>.xml`. A record without a link means only that the evaluated export names it by no ROR ID — not that the organization has no repository. `data/reuse/re3data/meta.json` lists linked and unlinked ROR IDs and counts distinct `repositories` separately from ROR–repository `relationships`.
+
+Both companion panels load their metadata on demand and show the source, licence and retrieval date. Each re3data repository shows the matching institution entries with their roles, source names and responsibility periods, plus links to its re3data entry and original XML. Relevant repository status dates remain visible.
 
 ## Running the update locally
 
@@ -132,7 +135,7 @@ The workflows in `.github/workflows/`:
 
 - **`update.yml`** polls daily (and on manual dispatch) for a new Zenodo dump. When one appears it refreshes the ROR subset, updates the release history, links any curation requests for the records that changed, and opens a pull request summarizing added/removed/modified records. It never pushes to `main` directly.
 - **`update-openalex.yml`** refreshes the OpenAlex companion layer monthly (first day, 10:15 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. Its separate `openalex-update` PR reports matching counters and added/removed matches; a changed retrieval date alone also counts as a refresh.
-- **`update-re3data.yml`** refreshes the re3data companion layer monthly (second day, 10:45 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. It commits only `data/reuse/re3data/` and the `reuse.re3data` block of `data/meta.json` to its `automated/re3data-update` branch and reports linked records, repositories, relationships and added/removed links in a `re3data-update` PR. Until that PR is merged after a ROR update, new records show as "not yet evaluated" on the site.
+- **`update-re3data.yml`** refreshes the re3data companion layer monthly (second day, 10:45 UTC), on pushes to `main` that change `data/records.json`, and on manual dispatch. It commits only `data/reuse/re3data/`, including its `meta.json`, to its `automated/re3data-update` branch and reports linked records, repositories, relationships and added/removed links in a `re3data-update` PR. Until that PR is merged after a ROR update, new records show as "not yet evaluated" on the site.
 - **`curation-seed.yml`** re-runs curation discovery across all records weekly, catching links that only became discoverable after the dump that introduced the record.
 - **`history-retry.yml`** re-runs release-history classification daily, so a release ROR had not annotated when its dump landed gets picked up later. While a data-update PR is open, it skips before checkout; after that PR is merged, retries classify against the updated records on `main`.
 - **`pages.yml`** deploys `www/` and the data files it needs to GitHub Pages, on push and weekly (so curation-request states stay current).

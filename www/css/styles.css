@@ -276,13 +276,18 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 .issue-new { margin-top: 0.6rem; font-size: 0.88rem; }
 .issue-new-label, .issue-new-sep { color: var(--text-soft); }
 
-/* OpenAlex panel — visually distinct (derived data) */
-.openalex-panel {
-  margin-top: 1.75rem; padding: 1.25rem 1.4rem;
+/* Companion panels */
+.companion-panel {
+  margin-top: 1.25rem; padding: 1.25rem 1.4rem;
   border: 1px dashed var(--accent); border-radius: var(--radius);
+}
+.companion-panel h2 { margin: 0 0 0.2rem; font-size: 1.05rem; color: var(--accent-dark); }
+.companion-panel .empty { padding: 0.5rem 0; }
+.companion-source { margin: 0.9rem 0 0; font-size: 0.8rem; color: var(--text-soft); overflow-wrap: anywhere; }
+.openalex-panel {
+  margin-top: 1.75rem;
   background: var(--accent-soft);
 }
-.openalex-panel h2 { margin: 0 0 0.2rem; font-size: 1.05rem; color: var(--accent-dark); }
 .openalex-panel h3 { margin: 1.2rem 0 0.5rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-soft); }
 .derived-note { margin: 0 0 1rem; font-size: 0.82rem; color: var(--text-soft); font-style: italic; }
 .oa-stats { display: flex; gap: 2rem; flex-wrap: wrap; }
@@ -302,12 +307,8 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 
 /* re3data panel — derived like OpenAlex, neutral-toned to keep them apart. */
 .re3data-panel {
-  margin-top: 1.25rem; padding: 1.25rem 1.4rem;
-  border: 1px dashed var(--accent); border-radius: var(--radius);
   background: var(--bg-soft);
 }
-.re3data-panel h2 { margin: 0 0 0.2rem; font-size: 1.05rem; color: var(--accent-dark); }
-.re3data-panel .empty { padding: 0.5rem 0; }
 .r3-count { margin: 0 0 0.6rem; font-size: 0.85rem; color: var(--text-soft); }
 .r3-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
 .r3-repo {
@@ -323,6 +324,7 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 }
 .r3-entry { margin-top: 0.5rem; font-size: 0.9rem; display: flex; flex-direction: column; gap: 0.25rem; }
 .r3-entry + .r3-entry { padding-top: 0.5rem; border-top: 1px dashed var(--border); }
+.r3-entry-name { overflow-wrap: anywhere; }
 .r3-k { color: var(--text-soft); }
 .r3-roles { display: flex; flex-wrap: wrap; gap: 0.3rem; }
 .r3-role {
@@ -334,14 +336,12 @@ main.wrap { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
 }
 .r3-period { font-size: 0.82rem; }
 .r3-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; margin-top: 0.6rem; }
-.r3-updated { font-size: 0.78rem; color: var(--text-soft); }
 .r3-legend { margin-top: 0.9rem; font-size: 0.85rem; }
 .r3-legend summary { cursor: pointer; color: var(--accent); }
 .r3-legend summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .r3-legend ul { margin: 0.5rem 0 0; padding-left: 1.1rem; }
 .r3-legend p { margin: 0.5rem 0 0; color: var(--text-soft); }
 .r3-legend-term { font-weight: 600; }
-.r3-source { margin: 0.9rem 0 0; font-size: 0.8rem; color: var(--text-soft); overflow-wrap: anywhere; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); background: var(--bg-soft); padding: 1.75rem 0; margin-top: 2rem; }

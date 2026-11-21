@@ -5,9 +5,7 @@ name: Update OpenAlex companion data
 # Monthly polling limits counter churn; changes to the authoritative ID list
 # or record contents on main also trigger a follow-up against fresh ROR data.
 #
-# Both this workflow and update.yml write neighboring blocks of data/meta.json.
-# Concurrent PRs can still conflict there; the push trigger after a ROR merge
-# usually resolves this by rebuilding the companion PR from fresh main.
+# This workflow writes only data/reuse/openalex/, including its metadata.
 # Optional secret: OPENALEX_API_KEY -- see the refresh step for fallback policy.
 
 on:
@@ -19,7 +17,7 @@ on:
     branches: [main]
     paths:
       # This is the script's only ROR input; companion-only merges do not
-      # trigger another sweep, even though they also update data/meta.json.
+      # trigger another sweep.
       - data/records.json
   workflow_dispatch:
     inputs:
@@ -82,8 +80,8 @@ jobs:
           set -euo pipefail
           # The script rebuilds records/: stage first so new, deleted and
           # modified files all participate, including previously untracked IDs.
-          git add -A -- data
-          if git diff --cached --quiet -- data; then
+          git add -A -- data/reuse/openalex
+          if git diff --cached --quiet -- data/reuse/openalex; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No OpenAlex changes."
             exit 0
@@ -98,13 +96,11 @@ jobs:
           from pathlib import Path
 
           show = subprocess.run(
-              ["git", "show", "HEAD:data/meta.json"],
-              capture_output=True, text=True, check=True,
+              ["git", "show", "HEAD:data/reuse/openalex/meta.json"],
+              capture_output=True, text=True,
           )
-          # An absent companion block means this is the first OpenAlex run;
-          # the ROR metadata file itself must already exist.
-          before = json.loads(show.stdout).get("reuse", {}).get("openalex", {})
-          after = json.loads(Path("data/meta.json").read_text())["reuse"]["openalex"]
+          before = json.loads(show.stdout) if show.returncode == 0 else {}
+          after = json.loads(Path("data/reuse/openalex/meta.json").read_text())
 
           print("Automated refresh of the OpenAlex companion layer.")
           print()

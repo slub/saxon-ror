@@ -1,8 +1,7 @@
 name: Update re3data companion data
 
 # Refreshes the re3data companion layer monthly and after ROR id list changes.
-# It proposes only the reuse.re3data block of data/meta.json, but PRs of the
-# other data workflows can still conflict there textually.
+# It writes only data/reuse/re3data/, including its metadata.
 
 on:
   schedule:
@@ -43,8 +42,8 @@ jobs:
         id: diff
         run: |
           set -euo pipefail
-          # Stage only this companion (incl. deletions) and meta.json.
-          git add -A -- data/reuse/re3data data/meta.json
+          # Stage only this companion, including metadata and deletions.
+          git add -A -- data/reuse/re3data
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No re3data changes."
@@ -55,7 +54,6 @@ jobs:
           python3 - <<'PY' > /tmp/pr-body.md
           import json
           import subprocess
-          import sys
           from pathlib import Path
 
           def at_head(path, default):
@@ -63,16 +61,8 @@ jobs:
                                     capture_output=True, text=True)
               return json.loads(show.stdout) if show.returncode == 0 else default
 
-          meta_before = at_head("data/meta.json", {})
-          meta_after = json.loads(Path("data/meta.json").read_text())
-
-          # Refuse to propose meta.json changes outside reuse.re3data.
-          strip = lambda m: {**m, "reuse": {k: v for k, v in m.get("reuse", {}).items() if k != "re3data"}}
-          if strip(meta_before) != strip(meta_after):
-              sys.exit("meta.json changed outside reuse.re3data -- refusing to propose it")
-
-          before = meta_before.get("reuse", {}).get("re3data", {})
-          after = meta_after["reuse"]["re3data"]
+          before = at_head("data/reuse/re3data/meta.json", {})
+          after = json.loads(Path("data/reuse/re3data/meta.json").read_text())
 
           def pairs(records):
               return {(r["ror_id"], repo["re3data_id"]): repo["name"]
@@ -115,7 +105,7 @@ jobs:
           print()
           rejected = after.get("rejected_ror_identifiers", [])
           print(f"{len(rejected)} ROR-typed identifiers in the export were rejected "
-                "as malformed (listed in `data/meta.json`).")
+                "as malformed (listed in `data/reuse/re3data/meta.json`).")
           PY
           cat /tmp/pr-body.md >> "$GITHUB_STEP_SUMMARY"
 

@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 """Derive the re3data companion layer for the Saxon ROR subset.
 
-Reads re3data's full daily XML export (schema 4.0, one file per repository)
-and links a repository to a record of ``data/records.json`` only where one of
-its ``institution`` entries carries an identifier of type ``ROR`` with that
-record's id. Names, other identifiers and ROR relationships are never used.
-Responsibility types and dates come from the matching entry itself, never from
-a sibling entry. Filtering the complete export keeps misses independent of any
-search index; a miss means "no explicit ROR link", not "no repository".
+Reads the full daily XML export (schema 4.0) and links repositories only by
+explicit ROR identifiers in their institution entries. Roles and dates stay
+with the matching entry. A miss means "no explicit ROR link", not "no repository".
 
 Output, keyed by ROR id suffix like every companion:
 
@@ -15,11 +11,11 @@ Output, keyed by ROR id suffix like every companion:
     data/reuse/re3data/records.json                   the combined array
     data/reuse/re3data/sources/<re3data-id>.xml       export bytes, unchanged
 
-plus ``reuse.re3data`` in ``data/meta.json``.
+plus provenance and match statistics in ``data/reuse/re3data/meta.json``.
 
-Any download, ZIP, XML, schema or consistency error aborts before ``data/`` is
-touched. A run that would drop every match after a run that had some is refused
-unless ``--allow-empty`` is given -- a broken export is the likelier cause.
+The layer is staged and checked before replacing the previous one. Complete
+loss of existing matches requires ``--allow-empty``; ``--check`` also rebuilds
+the projection from the stored XML.
 
 Usage:
     python scripts/update_re3data.py                  # download and update
@@ -279,8 +275,6 @@ def match(repos: dict[str, dict], ror_ids: list[str]) -> dict[str, dict]:
         for ror, entries in entries_by_ror.items():
             record = out.setdefault(ror, {"ror_id": ror, "repositories": []})
             record["repositories"].append(project_repository(repo, ror, entries))
-    for record in out.values():
-        record["repositories"].sort(key=lambda r: r["re3data_id"])
     return out
 
 
@@ -311,7 +305,7 @@ def project_repository(repo: dict, ror: str, entries: list[dict]) -> dict:
                 "responsibility_start_date": inst["responsibility_start_date"],
                 "responsibility_end_date": inst["responsibility_end_date"],
             }
-            for inst in sorted(entries, key=lambda i: i["position"])
+            for inst in entries
         ],
     }
 
@@ -449,24 +443,24 @@ def _source_problems(
             continue
         parsed[rid] = repo
 
-    rebuilt = match(parsed, ror_ids)
-    stored = {rec.get("ror_id"): rec for rec in combined if isinstance(rec, dict)}
-    for ror in sorted(set(stored) | set(rebuilt), key=lambda x: suffix_of(x or "")):
-        old = {r.get("re3data_id"): r for r in (stored.get(ror) or {}).get("repositories") or []}
-        new = {r["re3data_id"]: r for r in (rebuilt.get(ror) or {}).get("repositories") or []}
-        for rid in sorted(set(old) | set(new), key=str):
-            if rid not in parsed:
-                continue  # already reported as missing or unusable above
-            if rid not in new:
-                problems.append(f"re3data {rid}: source does not link {ror}")
-            elif rid not in old:
-                problems.append(f"re3data {rid}: source links {ror}, projection does not")
-            elif old[rid] != new[rid]:
-                fields = sorted(k for k in set(old[rid]) | set(new[rid])
-                                if old[rid].get(k) != new[rid].get(k))
-                problems.append(
-                    f"re3data {rid} for {ror}: projection differs from source in {', '.join(fields)}"
-                )
+    stored = {(rec["ror_id"], repo["re3data_id"]): repo
+              for rec in combined for repo in rec.get("repositories") or []}
+    rebuilt = {(ror, repo["re3data_id"]): repo
+               for ror, rec in match(parsed, ror_ids).items() for repo in rec["repositories"]}
+    for pair in sorted(stored.keys() | rebuilt.keys()):
+        ror, rid = pair
+        if rid not in parsed:
+            continue  # already reported as missing or unusable above
+        old, new = stored.get(pair), rebuilt.get(pair)
+        if new is None:
+            problems.append(f"re3data {rid}: source does not link {ror}")
+        elif old is None:
+            problems.append(f"re3data {rid}: source links {ror}, projection does not")
+        elif old != new:
+            fields = sorted(k for k in old.keys() | new.keys() if old.get(k) != new.get(k))
+            problems.append(
+                f"re3data {rid} for {ror}: projection differs from source in {', '.join(fields)}"
+            )
     return problems
 
 
@@ -485,9 +479,9 @@ def check_layer(layer: Path, block: dict, ror_ids: list[str]) -> list[str]:
         if ror not in known:
             problems.append(f"re3data record {ror!r} is not in data/records.json")
         by_suffix[suffix_of(ror)] = rec
-    if [r.get("ror_id") for r in combined] != sorted(
-        (r.get("ror_id") for r in combined), key=lambda x: suffix_of(x or "")
-    ):
+    matched = [rec.get("ror_id") for rec in combined]
+    matched_set = set(matched)
+    if matched != sorted(matched, key=lambda ror: suffix_of(ror or "")):
         problems.append("re3data records.json is not sorted by ROR id suffix")
 
     files = {p.stem: p for p in (layer / "records").glob("*.json")}
@@ -538,12 +532,12 @@ def check_layer(layer: Path, block: dict, ror_ids: list[str]) -> list[str]:
         "repositories": len(referenced),
         "relationships": pairs,
         "matched_institution_entries": entries,
-        "matched_ror_ids": [r.get("ror_id") for r in combined],
-        "missing_ror_ids": [rid for rid in ror_ids if rid not in {r.get("ror_id") for r in combined}],
+        "matched_ror_ids": matched,
+        "missing_ror_ids": [rid for rid in ror_ids if rid not in matched_set],
     }
     for key, value in expected.items():
         if block.get(key) != value:
-            problems.append(f"meta reuse.re3data.{key} is {block.get(key)!r}, expected {value!r}")
+            problems.append(f"re3data meta.{key} is {block.get(key)!r}, expected {value!r}")
     return problems
 
 
@@ -574,8 +568,9 @@ def update(
         retrieved=retrieved, method=method, last_modified=last_modified,
     )
 
-    meta = R.read_meta(data_dir)
-    previous = (meta.get("reuse") or {}).get(SOURCE_NAME) or {}
+    reuse_dir = data_dir / "reuse"
+    live = reuse_dir / SOURCE_NAME
+    previous = R.read_meta(live)
     if not projection and previous.get("matched", 0) > 0 and not allow_empty:
         raise ExportError(
             f"no Saxon ROR record matched, but the previous run had "
@@ -583,33 +578,26 @@ def update(
             "(use --allow-empty if this is real)"
         )
 
-    reuse_dir = data_dir / "reuse"
     reuse_dir.mkdir(parents=True, exist_ok=True)
-    live = reuse_dir / SOURCE_NAME
     staging = Path(tempfile.mkdtemp(dir=reuse_dir, prefix=f".{SOURCE_NAME}-staging-"))
     retired = None
     # The staging directory may end up holding the only copy of the old layer.
     keep_staging = False
     try:
         write_layer(staging / "layer", projection, raw)
+        R.dump_json_atomic(block, staging / "layer" / "meta.json")
         problems = check_layer(staging / "layer", block, ror_ids)
         if problems:
             raise ExportError("staged layer is inconsistent:\n  - " + "\n  - ".join(problems))
 
-        meta.setdefault("reuse", {})[SOURCE_NAME] = block
         if live.exists():
             retired = staging / "previous"
             os.replace(live, retired)
-        swapped_in = False
         try:
             os.replace(staging / "layer", live)
-            swapped_in = True
-            R.dump_json_atomic(meta, data_dir / "meta.json")
         except BaseException:
-            # meta.json is still the old one; restore the matching layer.
+            # Records and metadata travel together in the layer directory.
             try:
-                if swapped_in:
-                    os.replace(live, staging / "rejected")
                 if retired is not None:
                     os.replace(retired, live)
             except BaseException as restore_exc:
@@ -671,12 +659,15 @@ def own_pairing_problems(data_dir: Path) -> list[str]:
 
 
 def run_check(data_dir: Path) -> int:
-    meta = R.read_meta(data_dir)
-    block = (meta.get("reuse") or {}).get(SOURCE_NAME)
-    if block is None:
-        print("No reuse.re3data block in meta.json -- nothing to check.")
+    layer = data_dir / "reuse" / SOURCE_NAME
+    if not layer.exists():
+        print("No re3data companion -- nothing to check.")
         return 0
-    problems = check_layer(data_dir / "reuse" / SOURCE_NAME, block, load_ror_ids(data_dir))
+    if not (layer / "meta.json").exists():
+        print("ERROR: re3data meta.json is missing", file=sys.stderr)
+        return 1
+    block = R.read_meta(layer)
+    problems = check_layer(layer, block, load_ror_ids(data_dir))
     problems += own_pairing_problems(data_dir)
     for p in problems:
         print("  -", p, file=sys.stderr)

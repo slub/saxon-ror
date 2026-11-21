@@ -12,7 +12,7 @@
     dataBase: "data", // resolved at load time
     issues: null, // object: suffix -> [{number,title,state,url}] (best-effort)
     history: null, // object: suffix -> [{version,event,date,url}] (best-effort)
-    openalex: null, // Map: suffix -> entity (lazy, per record)
+    companionMeta: new Map(), // source -> pending or successful metadata load
     re3data: new Map(), // suffix -> projection record (lazy, successful loads only)
     detailToken: 0, // bumped per detail render; stale async results compare against it
     filters: { q: "", types: new Set(), city: "", statuses: new Set(["active"]) },
@@ -465,12 +465,12 @@
     container.appendChild(grid);
 
     // OpenAlex panel (lazy)
-    const panel = el("section", { class: "openalex-panel", attrs: { "aria-label": t("openalexTitle") } });
+    const panel = el("section", { class: "companion-panel openalex-panel", attrs: { "aria-label": t("openalexTitle") } });
     container.appendChild(panel);
-    loadOpenalexPanel(rec, panel);
+    loadOpenalexPanel(rec, panel, token);
 
     // re3data panel (lazy)
-    const r3 = el("section", { class: "re3data-panel", attrs: { "aria-label": t("re3dataTitle") } });
+    const r3 = el("section", { class: "companion-panel re3data-panel", attrs: { "aria-label": t("re3dataTitle") } });
     container.appendChild(r3);
     loadRe3dataPanel(rec, r3, token);
   }
@@ -650,36 +650,90 @@
     return el("div", { class: "kv" }, [el("span", { class: "k", text: k }), el("span", { class: "v" }, [val])]);
   }
 
+  // ---- Companion metadata (lazy, per source) ----------------------------
+  async function loadCompanionMeta(source) {
+    if (state.companionMeta.has(source)) return state.companionMeta.get(source);
+    const pending = (async () => {
+      try {
+        const r = await fetch(`${state.dataBase}/reuse/${source}/meta.json`, { cache: "no-cache" });
+        if (r.status === 404) return { status: "absent" };
+        if (!r.ok) throw new Error("metadata unavailable");
+        const block = await r.json();
+        const ids = (v) => Array.isArray(v) && v.every((id) => typeof id === "string");
+        if (!block || typeof block.retrieved !== "string" || !ids(block.missing_ror_ids) ||
+            (source === "re3data" && !ids(block.matched_ror_ids))) {
+          throw new Error("invalid companion metadata");
+        }
+        return { status: "ready", block };
+      } catch (_) {
+        return { status: "error" };
+      }
+    })();
+    state.companionMeta.set(source, pending);
+    const result = await pending;
+    if (result.status !== "ready") state.companionMeta.delete(source);
+    return result;
+  }
+
+  function companionSourceLine(source, block, sfx = null) {
+    const url = source === "openalex" ? "https://openalex.org/" : "https://www.re3data.org/";
+    const license = block.license === "CC0-1.0" ? "CC0 1.0" : (block.license || "—");
+    const parts = [
+      el("span", { text: `${t("companionSource")}: ` }),
+      el("a", { text: `${source}.org`, attrs: { href: url, target: "_blank", rel: "noopener" } }),
+      el("span", { text: ` · ${license} · ${t("companionRetrieved")(block.retrieved)}` }),
+    ];
+    if (sfx) {
+      parts.push(el("span", { text: " · " }));
+      parts.push(el("a", {
+        text: t("companionData"),
+        attrs: { href: `${state.dataBase}/reuse/${source}/records/${sfx}.json`, target: "_blank", rel: "noopener" },
+      }));
+    }
+    return el("p", { class: "companion-source" }, parts);
+  }
+
   // ---- OpenAlex (lazy, per record) ---------------------------------------
-  async function loadOpenalexPanel(rec, panel) {
+  async function loadOpenalexPanel(rec, panel, token) {
     panel.appendChild(el("h2", { text: t("openalexTitle") }));
     panel.appendChild(el("p", { class: "derived-note", text: t("openalexDerived") }));
 
-    // Known miss from meta.json → no fetch.
-    const missing = (state.meta && state.meta.reuse && state.meta.reuse.openalex &&
-      state.meta.reuse.openalex.missing_ror_ids) || [];
-    if (missing.includes(rec.id)) {
-      panel.appendChild(el("p", { class: "empty", text: t("openalexNone") }));
-      return;
-    }
-
     const status = el("p", { class: "loading", text: t("openalexLoading") });
     panel.appendChild(status);
-
-    let entity = null;
-    try {
-      const r = await fetch(`${state.dataBase}/reuse/openalex/records/${suffix(rec)}.json`, { cache: "no-cache" });
-      if (r.ok) entity = await r.json();
-    } catch (_) {
-      /* treat as miss */
-    }
-    status.remove();
-
-    if (!entity) {
-      panel.appendChild(el("p", { class: "empty", text: t("openalexNone") }));
+    const meta = await loadCompanionMeta("openalex");
+    if (token !== state.detailToken || !panel.isConnected) return;
+    if (meta.status !== "ready") {
+      status.remove();
+      panel.appendChild(el("p", { class: "empty", text: t(meta.status === "absent" ? "openalexNoCompanion" : "openalexError") }));
       return;
     }
-    renderOpenalex(entity, rec, panel);
+    const block = meta.block;
+    if (block.missing_ror_ids.includes(rec.id)) {
+      status.remove();
+      panel.appendChild(el("p", { class: "empty", text: t("openalexNone") }));
+      panel.appendChild(companionSourceLine("openalex", block));
+      return;
+    }
+    let content = null;
+    let message = "openalexError";
+    try {
+      const r = await fetch(`${state.dataBase}/reuse/openalex/records/${suffix(rec)}.json`, { cache: "no-cache" });
+      if (r.status === 404) message = "openalexUnavailable";
+      if (r.ok) {
+        const entity = await r.json();
+        if (entity && entity.ror === rec.id && typeof entity.id === "string") {
+          const fragment = document.createDocumentFragment();
+          renderOpenalex(entity, rec, fragment);
+          content = fragment;
+        }
+      }
+    } catch (_) {
+      content = null;
+    }
+    if (token !== state.detailToken || !panel.isConnected) return;
+    status.remove();
+    panel.appendChild(content || el("p", { class: "empty", text: t(message) }));
+    panel.appendChild(companionSourceLine("openalex", block));
   }
 
   function renderOpenalex(e, rec, panel) {
@@ -795,82 +849,66 @@
     }
   }
 
-  function re3dataBlock() {
-    return (state.meta && state.meta.reuse && state.meta.reuse.re3data) || null;
-  }
-
   async function loadRe3dataPanel(rec, panel, token) {
     panel.appendChild(el("h2", { text: t("re3dataTitle") }));
     panel.appendChild(el("p", { class: "derived-note", text: t("re3dataDerived") }));
 
-    const block = re3dataBlock();
-    if (!block) {
-      panel.appendChild(el("p", { class: "empty", text: t("re3dataNoCompanion") }));
-      return;
-    }
-    const sfx = suffix(rec);
-    if ((block.missing_ror_ids || []).includes(rec.id)) {
-      panel.appendChild(el("p", { class: "empty", text: t("re3dataNone")(block.retrieved) }));
-      panel.appendChild(re3dataSourceLine(block, null));
-      return;
-    }
-    if (!(block.matched_ror_ids || []).includes(rec.id)) {
-      panel.appendChild(el("p", { class: "empty", text: t("re3dataNotEvaluated")(block.retrieved) }));
-      panel.appendChild(re3dataSourceLine(block, null));
-      return;
-    }
-
     const status = el("p", { class: "loading", text: t("re3dataLoading") });
     panel.appendChild(status);
-    let data = state.re3data.get(sfx) || null;
-    if (!data) {
-      try {
-        const r = await fetch(`${state.dataBase}/reuse/re3data/records/${sfx}.json`, { cache: "no-cache" });
-        const body = r.ok ? await r.json() : null;
-        // Listed as matched: anything else is a data error, not a miss.
-        if (isRe3dataProjection(body, rec.id)) data = body;
-      } catch (_) {
-        data = null;
-      }
-    }
-    // Drop results for a detail view that has since been replaced.
+    const meta = await loadCompanionMeta("re3data");
     if (token !== state.detailToken || !panel.isConnected) return;
-    status.remove();
-
-    // Built off-DOM and cached only on success, so a failure leaves no partial list.
-    let content = null;
-    if (data) {
-      try {
-        content = renderRe3data(data, sfx, block);
-      } catch (_) {
-        content = null;
-      }
-    }
-    if (!content) {
-      state.re3data.delete(sfx);
-      panel.appendChild(el("p", { class: "empty", text: t("re3dataError") }));
-      panel.appendChild(re3dataSourceLine(block, null));
+    if (meta.status !== "ready") {
+      status.remove();
+      panel.appendChild(el("p", { class: "empty", text: t(meta.status === "absent" ? "re3dataNoCompanion" : "re3dataError") }));
       return;
     }
-    state.re3data.set(sfx, data);
-    panel.appendChild(content);
+    const block = meta.block;
+    const sfx = suffix(rec);
+    if (block.missing_ror_ids.includes(rec.id)) {
+      status.remove();
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataNone") }));
+      panel.appendChild(companionSourceLine("re3data", block));
+      return;
+    }
+    if (!block.matched_ror_ids.includes(rec.id)) {
+      status.remove();
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataNotEvaluated") }));
+      panel.appendChild(companionSourceLine("re3data", block));
+      return;
+    }
+    try {
+      let data = state.re3data.get(sfx);
+      if (!data) {
+        const r = await fetch(`${state.dataBase}/reuse/re3data/records/${sfx}.json`, { cache: "no-cache" });
+        if (!r.ok) throw new Error("re3data record unavailable");
+        data = await r.json();
+        if (!isRe3dataProjection(data, rec.id)) throw new Error("invalid re3data projection");
+      }
+      if (token !== state.detailToken || !panel.isConnected) return;
+      // Render off-DOM; only a complete result may enter the cache or the page.
+      const content = renderRe3data(data, sfx, block);
+      state.re3data.set(sfx, data);
+      panel.appendChild(content);
+    } catch (_) {
+      if (token !== state.detailToken || !panel.isConnected) return;
+      state.re3data.delete(sfx);
+      panel.appendChild(el("p", { class: "empty", text: t("re3dataError") }));
+      panel.appendChild(companionSourceLine("re3data", block));
+    } finally {
+      status.remove();
+    }
   }
 
-  // Checks every projection field the renderer reads.
+  // Check identity and structure; scalar fields come from our validated export.
   function isRe3dataProjection(body, rorId) {
-    const isObj = (v) => v != null && typeof v === "object" && !Array.isArray(v);
-    const optStr = (v) => v == null || typeof v === "string";
-    const strList = (v) => Array.isArray(v) && v.every((x) => typeof x === "string");
-    const inst = (i) =>
-      isObj(i) && i.ror_id === rorId && optStr(i.name) && strList(i.responsibility_types) &&
-      optStr(i.responsibility_start_date) && optStr(i.responsibility_end_date);
-    const repo = (r) =>
-      isObj(r) && typeof r.re3data_id === "string" && typeof r.name === "string" && r.name !== "" &&
-      ["url", "re3data_url", "closed_date", "offline_date", "last_update"].every((k) => optStr(r[k])) &&
-      strList(r.types) && Array.isArray(r.matched_institutions) &&
-      r.matched_institutions.length > 0 && r.matched_institutions.every(inst);
-    return isObj(body) && body.ror_id === rorId && Array.isArray(body.repositories) &&
-      body.repositories.length > 0 && body.repositories.every(repo);
+    const nonempty = (v) => Array.isArray(v) && v.length > 0;
+    return body?.ror_id === rorId && nonempty(body.repositories) && body.repositories.every((repo) =>
+      repo && typeof repo.re3data_id === "string" && typeof repo.name === "string" && repo.name !== "" &&
+      Array.isArray(repo.types) && nonempty(repo.matched_institutions) &&
+      repo.matched_institutions.every((inst) =>
+        inst?.ror_id === rorId && Array.isArray(inst.responsibility_types)
+      )
+    );
   }
 
   function renderRe3data(data, sfx, block) {
@@ -890,7 +928,7 @@
       (r.matched_institutions || []).forEach((i) => (i.responsibility_types || []).forEach((x) => roles.add(x)))
     );
     panel.appendChild(re3dataRoleLegend(roles));
-    panel.appendChild(re3dataSourceLine(block, sfx));
+    panel.appendChild(companionSourceLine("re3data", block, sfx));
     return panel;
   }
 
@@ -912,7 +950,8 @@
       parts.push(el("p", { class: "r3-status", text: t("re3dataClosed")(repo.closed_date) }));
     }
 
-    (repo.matched_institutions || []).forEach((inst) => parts.push(re3dataEntry(inst)));
+    const entries = repo.matched_institutions || [];
+    entries.forEach((inst) => parts.push(re3dataEntry(inst)));
 
     const links = el("div", { class: "r3-links" });
     const entryUrl = safeHttpUrl(repo.re3data_url);
@@ -931,9 +970,6 @@
         })
       );
     }
-    if (repo.last_update) {
-      links.appendChild(el("span", { class: "r3-updated", text: t("re3dataLastUpdate")(repo.last_update) }));
-    }
     parts.push(links);
     return el("li", { class: "r3-repo" }, parts);
   }
@@ -948,11 +984,11 @@
     if (!roles.length) roles.push(el("span", { class: "r3-role r3-role-none", text: t("r3roleNone") }));
 
     const rows = [
+      el("div", { class: "r3-roles" }, roles),
       el("div", { class: "r3-entry-name" }, [
         el("span", { class: "r3-k", text: `${t("re3dataNamedAs")}: ` }),
         el("span", { text: inst.name || "—" }),
       ]),
-      el("div", { class: "r3-roles" }, roles),
     ];
     const start = inst.responsibility_start_date;
     const end = inst.responsibility_end_date;
@@ -985,24 +1021,6 @@
       el("ul", {}, items),
       el("p", { text: t("re3dataRolesCaveat") }),
     ]);
-  }
-
-  function re3dataSourceLine(block, sfx) {
-    const parts = [
-      el("span", { text: `${t("re3dataSource")}: ` }),
-      el("a", { text: "re3data.org", attrs: { href: "https://www.re3data.org/", target: "_blank", rel: "noopener" } }),
-      el("span", { text: ` · ${t("re3dataLicense")} · ${t("re3dataRetrieved")(block.retrieved)}` }),
-    ];
-    if (sfx) {
-      parts.push(el("span", { text: " · " }));
-      parts.push(
-        el("a", {
-          text: t("re3dataProjection"),
-          attrs: { href: `${state.dataBase}/reuse/re3data/records/${sfx}.json`, target: "_blank", rel: "noopener" },
-        })
-      );
-    }
-    return el("p", { class: "r3-source" }, parts);
   }
 
   // ---- Router -------------------------------------------------------------

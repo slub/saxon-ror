@@ -12,7 +12,7 @@ import sys
 import tempfile
 import unittest
 import zipfile
-from contextlib import redirect_stderr
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest import mock
 
@@ -113,9 +113,10 @@ class Fixture(unittest.TestCase):
             R.dump_json(rec, self.data / "records" / f"{R.ror_suffix(rec)}.json")
         self.meta = {
             "ror": {"dump_version": "v2.15", "record_count": 3},
-            "reuse": {"openalex": {"matched": 3, "missing_ror_ids": []}},
         }
         R.write_meta(self.meta, self.data)
+        self.openalex_meta = {"matched": 3, "missing_ror_ids": []}
+        R.write_meta(self.openalex_meta, self.data / "reuse/openalex")
         # The fixtures are tiny; lift the real-export sanity floors.
         for name, value in (("MIN_EXPORT_REPOSITORIES", 1), ("MIN_EXPORT_ROR_IDENTIFIERS", 1)):
             patcher = mock.patch.object(U, name, value)
@@ -323,11 +324,12 @@ class MatchTests(Fixture):
 
 class PublishTests(Fixture):
     def test_meta_counters_and_foreign_blocks(self):
+        root_meta = (self.data / "meta.json").read_bytes()
+        openalex_meta = (self.data / "reuse/openalex/meta.json").read_bytes()
         block = self.run_update({"a.xml": OPARA})
-        meta = R.read_meta(self.data)
-        self.assertEqual(meta["ror"], self.meta["ror"])
-        self.assertEqual(meta["reuse"]["openalex"], self.meta["reuse"]["openalex"])
-        self.assertEqual(meta["reuse"]["re3data"], block)
+        self.assertEqual((self.data / "meta.json").read_bytes(), root_meta)
+        self.assertEqual((self.data / "reuse/openalex/meta.json").read_bytes(), openalex_meta)
+        self.assertEqual(R.read_meta(self.layer()), block)
         for key, value in {
             "ror_total": 3, "matched": 1, "missing": 2, "repositories": 1,
             "relationships": 1, "retrieved": "2026-10-27", "license": "CC0-1.0",
@@ -409,7 +411,7 @@ class PublishTests(Fixture):
         block = self.run_update({"z.xml": unrelated})
         self.assertEqual(block["matched"], 0)
 
-    def test_failed_meta_write_restores_previous_layer(self):
+    def test_failed_meta_write_keeps_previous_layer(self):
         self.run_update({"a.xml": OPARA})
         before = self.snapshot()
         shared = repository_xml("r3d100000020", "Shared", [institution("TUBAF", ["general"], TUBAF)])
@@ -451,8 +453,8 @@ class PublishTests(Fixture):
         [staging] = list((self.data / "reuse").glob(".re3data-staging-*"))
         self.assertIn(f"preserved at {staging / 'previous'}", err.getvalue())
         self.assertEqual((staging / "previous/records/042aqky30.json").read_bytes(), old_record)
-        # Metadata was never replaced.
-        self.assertEqual(R.read_meta(self.data)["reuse"]["re3data"]["matched_ror_ids"], [TUD])
+        self.assertEqual(R.read_meta(staging / "previous")["matched_ror_ids"], [TUD])
+        self.assertFalse(self.layer().exists())
 
     def test_other_companions_orphan_does_not_block_this_refresh(self):
         # A ROR update removed SLUB; the OpenAlex layer still holds its file.
@@ -519,17 +521,27 @@ class PublishTests(Fixture):
         block = dict(self.run_update({"a.xml": OPARA}), relationships=2)
         self.assertEqual(
             U.check_layer(self.layer(), block, [TUD, TUBAF, SLUB]),
-            ["meta reuse.re3data.relationships is 2, expected 1"],
+            ["re3data meta.relationships is 2, expected 1"],
         )
+
+    def test_check_reads_companion_metadata(self):
+        self.run_update({"a.xml": OPARA})
+        with redirect_stdout(io.StringIO()):
+            self.assertEqual(U.run_check(self.data), 0)
+
+    def test_check_flags_missing_companion_metadata(self):
+        self.run_update({"a.xml": OPARA})
+        (self.layer() / "meta.json").unlink()
+        with redirect_stderr(io.StringIO()):
+            self.assertEqual(U.run_check(self.data), 1)
 
 
 class CommittedLayerTests(unittest.TestCase):
     """The committed companion must agree with its own metadata."""
 
     def test_committed_layer_is_consistent(self):
-        meta = R.read_meta()
-        block = (meta.get("reuse") or {}).get("re3data")
-        if block is None:
+        block = R.read_meta(R.REUSE_DIR / "re3data")
+        if not block:
             self.skipTest("no re3data companion committed")
         ror_ids = U.load_ror_ids(R.DATA_DIR)
         # After a ROR update the layer is stale until its own refresh.
