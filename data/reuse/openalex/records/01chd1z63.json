@@ -21,26 +21,26 @@
     "Key Safety Systems"
   ],
   "repositories": [],
-  "works_count": 16,
-  "works_count_with_children": 16,
-  "works_count_with_children_and_predecessors": 16,
-  "cited_by_count": 175,
+  "works_count": 17,
+  "works_count_with_children": 17,
+  "works_count_with_children_and_predecessors": 17,
+  "cited_by_count": 151,
   "summary_stats": {
-    "2yr_mean_citedness": 3.9,
-    "h_index": 6,
-    "i10_index": 6
+    "2yr_mean_citedness": 7.0,
+    "h_index": 5,
+    "i10_index": 5
   },
   "ids": {
     "openalex": "https://openalex.org/I4210103260",
     "ror": "https://ror.org/01chd1z63",
     "grid": "grid.474502.0",
     "wikipedia": "https://en.wikipedia.org/wiki/Joyson_Safety_Systems",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q29123878"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.89451599121094,
@@ -60,21 +60,21 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 0,
+      "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 17
+      "cited_by_count": 27
     },
     {
       "year": 2025,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 36
+      "cited_by_count": 53
     },
     {
       "year": 2024,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 19
+      "cited_by_count": 24
     },
     {
       "year": 2023,
@@ -98,7 +98,7 @@
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 6
+      "cited_by_count": 7
     },
     {
       "year": 2019,
@@ -123,7 +123,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210103260",
-      "works_count": 16
+      "works_count": 17
     }
   ],
   "topics": [
@@ -133,12 +133,12 @@
       "count": 7,
       "score": 0.9839000105857849,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -236,6 +236,24 @@
       }
     },
     {
+      "id": "https://openalex.org/T13093",
+      "display_name": "Electric Power Systems and Control",
+      "count": 2,
+      "score": 0.2070000022649765,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13295",
       "display_name": "Safety Systems Engineering in Autonomy",
       "count": 2,
@@ -313,8 +331,8 @@
       "count": 1,
       "score": 0.0003000000142492354,
       "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
+        "id": "https://openalex.org/subfields/2506",
+        "display_name": "Metals and Alloys"
       },
       "field": {
         "id": "https://openalex.org/fields/25",
@@ -403,8 +421,26 @@
       "count": 1,
       "score": 0.9682999849319458,
       "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10808",
+      "display_name": "Electric and Hybrid Vehicle Technologies",
+      "count": 1,
+      "score": 0.2345000058412552,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -540,56 +576,20 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T12099",
-      "display_name": "Advanced materials and composites",
-      "count": 1,
-      "score": 0.5473999977111816,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12513",
-      "display_name": "Rocket and propulsion systems research",
-      "count": 1,
-      "score": 0.012400000356137753,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T10525",
       "display_name": "Human-Automation Interaction and Safety",
-      "value": 5.24e-05,
+      "value": 4.98e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -599,7 +599,7 @@
     {
       "id": "https://openalex.org/T13295",
       "display_name": "Safety Systems Engineering in Autonomy",
-      "value": 4.68e-05,
+      "value": 4.43e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -616,7 +616,24 @@
     {
       "id": "https://openalex.org/T11099",
       "display_name": "Autonomous Vehicle Technology and Safety",
-      "value": 3.66e-05,
+      "value": 3.49e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10805",
+      "display_name": "Vehicle Dynamics and Control Systems",
+      "value": 3.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -633,7 +650,7 @@
     {
       "id": "https://openalex.org/T11309",
       "display_name": "Music and Audio Processing",
-      "value": 3.26e-05,
+      "value": 3.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
@@ -648,46 +665,29 @@
       }
     },
     {
-      "id": "https://openalex.org/T10805",
-      "display_name": "Vehicle Dynamics and Control Systems",
-      "value": 3.24e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2203",
-        "display_name": "Automotive Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13722",
       "display_name": "Ergonomics and Human Factors",
-      "value": 3.17e-05,
+      "value": 2.96e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3307",
+        "display_name": "Human Factors and Ergonomics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12898",
       "display_name": "Induction Heating and Inverter Technology",
-      "value": 2.56e-05,
+      "value": 2.47e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -701,7 +701,7 @@
     {
       "id": "https://openalex.org/T10201",
       "display_name": "Speech Recognition and Synthesis",
-      "value": 1.81e-05,
+      "value": 1.74e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -718,14 +718,14 @@
     {
       "id": "https://openalex.org/T12099",
       "display_name": "Advanced materials and composites",
-      "value": 1.65e-05,
+      "value": 1.63e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
+        "id": "https://openalex.org/subfields/2503",
+        "display_name": "Ceramics and Composites"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -733,12 +733,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11619",
-      "display_name": "Combustion and Detonation Processes",
-      "value": 1.55e-05,
+      "id": "https://openalex.org/T12737",
+      "display_name": "Electrical Fault Detection and Protection",
+      "value": 1.61e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2202",
-        "display_name": "Aerospace Engineering"
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -752,7 +752,7 @@
     {
       "id": "https://openalex.org/T12513",
       "display_name": "Rocket and propulsion systems research",
-      "value": 1.54e-05,
+      "value": 1.53e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2202",
         "display_name": "Aerospace Engineering"
@@ -767,9 +767,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11619",
+      "display_name": "Combustion and Detonation Processes",
+      "value": 1.5e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13093",
+      "display_name": "Electric Power Systems and Control",
+      "value": 1.43e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10860",
       "display_name": "Speech and Audio Processing",
-      "value": 1.41e-05,
+      "value": 1.35e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
         "display_name": "Signal Processing"
@@ -786,14 +820,14 @@
     {
       "id": "https://openalex.org/T10806",
       "display_name": "Energetic Materials and Combustion",
-      "value": 1.22e-05,
+      "value": 1.21e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2211",
-        "display_name": "Mechanics of Materials"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -803,7 +837,7 @@
     {
       "id": "https://openalex.org/T11687",
       "display_name": "Teleoperation and Haptic Systems",
-      "value": 1.14e-05,
+      "value": 1.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -820,7 +854,7 @@
     {
       "id": "https://openalex.org/T11373",
       "display_name": "Sleep and Work-Related Fatigue",
-      "value": 1.03e-05,
+      "value": 9.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3205",
         "display_name": "Experimental and Cognitive Psychology"
@@ -837,7 +871,7 @@
     {
       "id": "https://openalex.org/T10914",
       "display_name": "Tactile and Sensory Interactions",
-      "value": 8.8e-06,
+      "value": 8.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -854,7 +888,7 @@
     {
       "id": "https://openalex.org/T11100",
       "display_name": "Intermetallics and Advanced Alloy Properties",
-      "value": 8.3e-06,
+      "value": 8.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -869,12 +903,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13093",
-      "display_name": "Electric Power Systems and Control",
-      "value": 7.9e-06,
+      "id": "https://openalex.org/T10808",
+      "display_name": "Electric and Hybrid Vehicle Technologies",
+      "value": 8.3e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2203",
+        "display_name": "Automotive Engineering"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -888,7 +922,7 @@
     {
       "id": "https://openalex.org/T11196",
       "display_name": "Non-Invasive Vital Sign Monitoring",
-      "value": 6.4e-06,
+      "value": 6.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -903,9 +937,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10840",
+      "display_name": "High Temperature Alloys and Creep",
+      "value": 5.7e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10370",
       "display_name": "Traffic and Road Safety",
-      "value": 5.9e-06,
+      "value": 5.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2213",
         "display_name": "Safety, Risk, Reliability and Quality"
@@ -922,24 +973,7 @@
     {
       "id": "https://openalex.org/T10386",
       "display_name": "Microstructure and Mechanical Properties of Steels",
-      "value": 5.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2210",
-        "display_name": "Mechanical Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10840",
-      "display_name": "High Temperature Alloys and Creep",
-      "value": 5.8e-06,
+      "value": 5.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2210",
         "display_name": "Mechanical Engineering"
@@ -956,7 +990,7 @@
     {
       "id": "https://openalex.org/T10553",
       "display_name": "Combustion and flame dynamics",
-      "value": 5.7e-06,
+      "value": 5.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
         "display_name": "Computational Mechanics"
@@ -969,45 +1003,13 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
-    },
-    {
-      "id": "https://openalex.org/T10175",
-      "display_name": "Advanced DC-DC Converters",
-      "value": 4.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10204",
-      "display_name": "Microstructure and mechanical properties",
-      "value": 4.7e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210103260",
-  "updated_date": "2026-10-30T18:21:15",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210103260",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

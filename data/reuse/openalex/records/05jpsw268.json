@@ -19,11 +19,11 @@
   "works_count": 6,
   "works_count_with_children": 6,
   "works_count_with_children_and_predecessors": 6,
-  "cited_by_count": 98,
+  "cited_by_count": 48,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 4,
-    "i10_index": 3
+    "h_index": 3,
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4210160709",
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Zwickau",
     "geonames_city_id": "2803560",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.72542190551758,
@@ -48,19 +48,19 @@
       "year": 2026,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 5
+      "cited_by_count": 7
     },
     {
       "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 3
     },
     {
       "year": 2024,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 5
+      "cited_by_count": 6
     },
     {
       "year": 2023,
@@ -78,19 +78,19 @@
       "year": 2021,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 8
+      "cited_by_count": 7
     },
     {
       "year": 2020,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 2
+      "cited_by_count": 5
     },
     {
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2018,
@@ -262,7 +262,7 @@
     {
       "id": "https://openalex.org/T11816",
       "display_name": "Nursing Roles and Practices",
-      "value": 3.64e-05,
+      "value": 3.49e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -279,7 +279,7 @@
     {
       "id": "https://openalex.org/T10178",
       "display_name": "Cancer survivorship and care",
-      "value": 2.8e-05,
+      "value": 2.71e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -296,7 +296,7 @@
     {
       "id": "https://openalex.org/T12708",
       "display_name": "Economic and Financial Impacts of Cancer",
-      "value": 2.22e-05,
+      "value": 2.19e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -313,7 +313,7 @@
     {
       "id": "https://openalex.org/T10737",
       "display_name": "Health Literacy and Information Accessibility",
-      "value": 1.83e-05,
+      "value": 1.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -330,7 +330,7 @@
     {
       "id": "https://openalex.org/T13340",
       "display_name": "Palliative and Oncologic Care",
-      "value": 1.73e-05,
+      "value": 1.64e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2739",
         "display_name": "Public Health, Environmental and Occupational Health"
@@ -347,7 +347,7 @@
     {
       "id": "https://openalex.org/T10827",
       "display_name": "Patient-Provider Communication in Healthcare",
-      "value": 1.18e-05,
+      "value": 1.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -364,7 +364,7 @@
     {
       "id": "https://openalex.org/T13944",
       "display_name": "Psychiatric care and mental health services",
-      "value": 7.3e-06,
+      "value": 6.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -382,6 +382,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210160709",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210160709",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -37,7 +37,7 @@
   "geo": {
     "city": "Zwickau",
     "geonames_city_id": "2803560",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.72938919067383,
@@ -120,7 +120,7 @@
     {
       "id": "https://openalex.org/T10808",
       "display_name": "Electric and Hybrid Vehicle Technologies",
-      "value": 8.8e-06,
+      "value": 8.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2203",
         "display_name": "Automotive Engineering"
@@ -137,7 +137,7 @@
     {
       "id": "https://openalex.org/T10504",
       "display_name": "Sensorless Control of Electric Motors",
-      "value": 6.6e-06,
+      "value": 6.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -154,7 +154,7 @@
     {
       "id": "https://openalex.org/T10278",
       "display_name": "Electric Motor Design and Analysis",
-      "value": 4.9e-06,
+      "value": 4.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -172,6 +172,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210143243",
-  "updated_date": "2026-10-23T18:22:09",
+  "awards_count": 4,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210143243",
+  "updated_date": "2026-11-09T18:42:03",
   "created_date": "2022-02-02T04:48:36"
 }

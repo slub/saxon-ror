@@ -21,10 +21,10 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 101,
+  "cited_by_count": 116,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 1,
+    "h_index": 2,
     "i10_index": 1
   },
   "ids": {
@@ -32,12 +32,12 @@
     "ror": "https://ror.org/01zvnqb17",
     "grid": "grid.499340.3",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q21040689"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.03151321411133,
@@ -50,43 +50,43 @@
       "year": 2026,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 17
+      "cited_by_count": 23
     },
     {
       "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 9
+      "cited_by_count": 10
     },
     {
       "year": 2024,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 15
+      "cited_by_count": 16
     },
     {
       "year": 2023,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 7
+      "cited_by_count": 8
     },
     {
       "year": 2022,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 16
+      "cited_by_count": 19
     },
     {
       "year": 2021,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 12
+      "cited_by_count": 11
     },
     {
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 14
+      "cited_by_count": 15
     },
     {
       "year": 2019,
@@ -98,7 +98,7 @@
       "year": 2018,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 4
     }
   ],
   "roles": [
@@ -115,16 +115,16 @@
       "count": 1,
       "score": 0.02669999934732914,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -151,8 +151,8 @@
       "count": 1,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -259,12 +259,12 @@
       "count": 1,
       "score": 0.037300001829862595,
       "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -276,31 +276,14 @@
     {
       "id": "https://openalex.org/T14163",
       "display_name": "Astronomical Observations and Instrumentation",
-      "value": 4.01e-05,
+      "value": 3.96e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2206",
-        "display_name": "Computational Mechanics"
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11992",
-      "display_name": "CCD and CMOS Imaging Sensors",
-      "value": 2.23e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -310,10 +293,10 @@
     {
       "id": "https://openalex.org/T11422",
       "display_name": "Burn Injury Management and Outcomes",
-      "value": 1.43e-05,
+      "value": 1.41e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -327,7 +310,7 @@
     {
       "id": "https://openalex.org/T11644",
       "display_name": "Spam and Phishing Detection",
-      "value": 1.41e-05,
+      "value": 1.36e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -342,9 +325,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11992",
+      "display_name": "CCD and CMOS Imaging Sensors",
+      "value": 1.33e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11172",
       "display_name": "Dermatologic Treatments and Research",
-      "value": 1e-05,
+      "value": 9.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2708",
         "display_name": "Dermatology"
@@ -361,7 +361,7 @@
     {
       "id": "https://openalex.org/T11689",
       "display_name": "Adversarial Robustness in Machine Learning",
-      "value": 9.7e-06,
+      "value": 9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -378,24 +378,24 @@
     {
       "id": "https://openalex.org/T10883",
       "display_name": "Ethics and Social Impacts of AI",
-      "value": 6.2e-06,
+      "value": 6e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T11467",
       "display_name": "Trauma and Emergency Care Studies",
-      "value": 5.1e-06,
+      "value": 5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2711",
         "display_name": "Emergency Medicine"
@@ -412,7 +412,7 @@
     {
       "id": "https://openalex.org/T12917",
       "display_name": "Astronomy and Astrophysical Research",
-      "value": 3.8e-06,
+      "value": 2.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3105",
         "display_name": "Instrumentation"
@@ -430,6 +430,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210114603",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 2,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210114603",
+  "updated_date": "2026-11-20T18:22:16",
   "created_date": "2022-02-02T04:48:36"
 }

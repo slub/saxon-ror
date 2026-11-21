@@ -22,7 +22,7 @@
   "works_count": 12,
   "works_count_with_children": 12,
   "works_count_with_children_and_predecessors": 12,
-  "cited_by_count": 3,
+  "cited_by_count": 2,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -110,16 +110,16 @@
       "count": 11,
       "score": 0.9901999831199646,
       "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
+        "id": "https://openalex.org/subfields/3616",
+        "display_name": "Speech and Hearing"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -236,8 +236,8 @@
       "count": 1,
       "score": 0.364300012588501,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -271,7 +271,7 @@
     {
       "id": "https://openalex.org/T11285",
       "display_name": "Hearing Impairment and Communication",
-      "value": 0.0001085,
+      "value": 9.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -288,24 +288,24 @@
     {
       "id": "https://openalex.org/T10283",
       "display_name": "Hearing Loss and Rehabilitation",
-      "value": 6.44e-05,
+      "value": 6.06e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
+        "id": "https://openalex.org/subfields/3616",
+        "display_name": "Speech and Hearing"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10334",
       "display_name": "Hearing, Cochlea, Tinnitus, Genetics",
-      "value": 3.06e-05,
+      "value": 2.93e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2809",
         "display_name": "Sensory Systems"
@@ -322,7 +322,7 @@
     {
       "id": "https://openalex.org/T10730",
       "display_name": "Language Development and Disorders",
-      "value": 2.15e-05,
+      "value": 1.97e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -339,10 +339,10 @@
     {
       "id": "https://openalex.org/T11514",
       "display_name": "Disability Education and Employment",
-      "value": 1.09e-05,
+      "value": 9.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3311",
-        "display_name": "Safety Research"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -356,7 +356,7 @@
     {
       "id": "https://openalex.org/T14104",
       "display_name": "Developmental and Educational Neuropsychology",
-      "value": 1.04e-05,
+      "value": 9.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3206",
         "display_name": "Neuropsychology and Physiological Psychology"
@@ -373,7 +373,7 @@
     {
       "id": "https://openalex.org/T10542",
       "display_name": "Vestibular and auditory disorders",
-      "value": 6.8e-06,
+      "value": 6.6e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2808",
         "display_name": "Neurology"
@@ -390,7 +390,7 @@
     {
       "id": "https://openalex.org/T10106",
       "display_name": "Autism Spectrum Disorder Research",
-      "value": 5.7e-06,
+      "value": 5.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -407,7 +407,7 @@
     {
       "id": "https://openalex.org/T10103",
       "display_name": "Reading and Literacy Development",
-      "value": 4.8e-06,
+      "value": 4.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -425,6 +425,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405256814",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 9,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405256814",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2025-07-08T02:42:24"
 }

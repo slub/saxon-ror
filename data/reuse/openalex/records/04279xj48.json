@@ -19,10 +19,10 @@
   "works_count": 1,
   "works_count_with_children": 1,
   "works_count_with_children_and_predecessors": 1,
-  "cited_by_count": 0,
+  "cited_by_count": 3,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 0,
+    "h_index": 1,
     "i10_index": 0
   },
   "ids": {
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.35670852661133,
@@ -45,10 +45,16 @@
   "associated_institutions": [],
   "counts_by_year": [
     {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 1
     }
   ],
   "roles": [
@@ -79,7 +85,7 @@
     },
     {
       "id": "https://openalex.org/T10274",
-      "display_name": "Synthesis and biological activity",
+      "display_name": "Heterocyclic Compound Synthesis and Bioactivity",
       "count": 1,
       "score": 0.03869999945163727,
       "subfield": {
@@ -134,7 +140,7 @@
     },
     {
       "id": "https://openalex.org/T10274",
-      "display_name": "Synthesis and biological activity",
+      "display_name": "Heterocyclic Compound Synthesis and Bioactivity",
       "value": 4.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1605",
@@ -170,6 +176,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136688",
-  "updated_date": "2026-10-23T18:22:09",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210136688",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

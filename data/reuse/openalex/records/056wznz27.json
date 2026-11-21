@@ -18,12 +18,12 @@
     "Landesamt für Denkmalpflege Sachsen"
   ],
   "repositories": [],
-  "works_count": 16,
-  "works_count_with_children": 16,
-  "works_count_with_children_and_predecessors": 16,
-  "cited_by_count": 22,
+  "works_count": 22,
+  "works_count_with_children": 22,
+  "works_count_with_children_and_predecessors": 22,
+  "cited_by_count": 31,
   "summary_stats": {
-    "2yr_mean_citedness": 0.0,
+    "2yr_mean_citedness": 0.6666666666666666,
     "h_index": 3,
     "i10_index": 1
   },
@@ -32,12 +32,12 @@
     "ror": "https://ror.org/056wznz27",
     "grid": "grid.500258.a",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q1420476"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.0532112121582,
@@ -48,20 +48,20 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    },
-    {
-      "year": 2025,
-      "works_count": 2,
-      "oa_works_count": 2,
+      "works_count": 3,
+      "oa_works_count": 3,
       "cited_by_count": 3
     },
     {
+      "year": 2025,
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 4
+    },
+    {
       "year": 2024,
-      "works_count": 2,
-      "oa_works_count": 1,
+      "works_count": 1,
+      "oa_works_count": 0,
       "cited_by_count": 2
     },
     {
@@ -92,19 +92,31 @@
       "year": 2019,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 2
+      "cited_by_count": 3
     },
     {
       "year": 2016,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 0
+      "cited_by_count": 1
     },
     {
       "year": 2015,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2013,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2012,
@@ -117,18 +129,36 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210156048",
-      "works_count": 16
+      "works_count": 22
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11846",
       "display_name": "Cultural Heritage Management and Preservation",
-      "count": 10,
-      "score": 0.9926999807357788,
+      "count": 13,
+      "score": 0.9951000213623047,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14388",
+      "display_name": "Medieval European History and Architecture",
+      "count": 8,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -158,13 +188,103 @@
       }
     },
     {
-      "id": "https://openalex.org/T14388",
-      "display_name": "Medieval European History and Architecture",
-      "count": 5,
-      "score": 0.7782999873161316,
+      "id": "https://openalex.org/T13133",
+      "display_name": "Architecture and Art History Studies",
+      "count": 4,
+      "score": 0.03790000081062317,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14191",
+      "display_name": "Historical Art and Architecture Studies",
+      "count": 4,
+      "score": 0.23409999907016754,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "count": 3,
+      "score": 0.9086999893188477,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11212",
+      "display_name": "Cultural Heritage Materials Analysis",
+      "count": 3,
+      "score": 0.9696999788284302,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13519",
+      "display_name": "Historical Architecture and Urbanism",
+      "count": 3,
+      "score": 0.10249999910593033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13595",
+      "display_name": "Archaeology and Cultural Heritage",
+      "count": 3,
+      "score": 0.016499999910593033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -178,7 +298,7 @@
     {
       "id": "https://openalex.org/T11643",
       "display_name": "Building materials and conservation",
-      "count": 3,
+      "count": 2,
       "score": 0.09440000355243683,
       "subfield": {
         "id": "https://openalex.org/subfields/1904",
@@ -191,42 +311,6 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14191",
-      "display_name": "Historical Art and Architecture Studies",
-      "count": 3,
-      "score": 0.15839999914169312,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1206",
-        "display_name": "Conservation"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11212",
-      "display_name": "Cultural Heritage Materials Analysis",
-      "count": 2,
-      "score": 0.9696999788284302,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
       }
     },
     {
@@ -248,13 +332,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T13133",
-      "display_name": "Architecture and Art History Studies",
+      "id": "https://openalex.org/T13484",
+      "display_name": "German History and Society",
       "count": 2,
-      "score": 0.056299999356269836,
+      "score": 0.05480000004172325,
       "subfield": {
-        "id": "https://openalex.org/subfields/1213",
-        "display_name": "Visual Arts and Performing Arts"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -269,14 +353,14 @@
       "id": "https://openalex.org/T10402",
       "display_name": "Phase Equilibria and Thermodynamics",
       "count": 1,
-      "score": 0.8974999785423279,
+      "score": 0.365200012922287,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -302,24 +386,6 @@
       }
     },
     {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "count": 1,
-      "score": 0.006000000052154064,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11657",
       "display_name": "Digital and Traditional Archives Management",
       "count": 1,
@@ -338,21 +404,39 @@
       }
     },
     {
+      "id": "https://openalex.org/T12188",
+      "display_name": "Architecture, Modernity, and Design",
+      "count": 1,
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T12364",
       "display_name": "Archaeological Research and Protection",
       "count": 1,
       "score": 0.055399999022483826,
       "subfield": {
-        "id": "https://openalex.org/subfields/1912",
-        "display_name": "Space and Planetary Science"
+        "id": "https://openalex.org/subfields/3302",
+        "display_name": "Archeology"
       },
       "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -367,24 +451,6 @@
       "field": {
         "id": "https://openalex.org/fields/33",
         "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13070",
-      "display_name": "Cultural Identity and Heritage",
-      "count": 1,
-      "score": 0.014499999582767487,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -433,16 +499,16 @@
       "count": 1,
       "score": 0.9369999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
@@ -464,31 +530,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T13519",
-      "display_name": "Historical Architecture and Urbanism",
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
       "count": 1,
-      "score": 0.10249999910593033,
+      "score": 0.012500000186264515,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13595",
-      "display_name": "Archaeology and Cultural Heritage",
-      "count": 1,
-      "score": 0.0024999999441206455,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -506,7 +554,7 @@
       "score": 0.00989999994635582,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -524,29 +572,11 @@
       "score": 0.0008999999845400453,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
         "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14208",
-      "display_name": "Death, Funerary Practices, and Mourning",
-      "count": 1,
-      "score": 0.9672999978065491,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -558,7 +588,7 @@
     {
       "id": "https://openalex.org/T12981",
       "display_name": "Conservation Techniques and Studies",
-      "value": 0.0001559,
+      "value": 0.0001423,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -575,10 +605,27 @@
     {
       "id": "https://openalex.org/T14388",
       "display_name": "Medieval European History and Architecture",
-      "value": 9.12e-05,
+      "value": 0.0001404,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13484",
+      "display_name": "German History and Society",
+      "value": 0.0001007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -592,78 +639,10 @@
     {
       "id": "https://openalex.org/T11846",
       "display_name": "Cultural Heritage Management and Preservation",
-      "value": 6.11e-05,
+      "value": 7.17e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11643",
-      "display_name": "Building materials and conservation",
-      "value": 4.98e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1904",
-        "display_name": "Earth-Surface Processes"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13339",
-      "display_name": "Landscape and Cultural Studies",
-      "value": 4.01e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13256",
-      "display_name": "Archaeology and Rock Art Studies",
-      "value": 3.78e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3302",
-        "display_name": "Archeology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14191",
-      "display_name": "Historical Art and Architecture Studies",
-      "value": 3.47e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1206",
-        "display_name": "Conservation"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -677,7 +656,7 @@
     {
       "id": "https://openalex.org/T13133",
       "display_name": "Architecture and Art History Studies",
-      "value": 3e-05,
+      "value": 5.65e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1213",
         "display_name": "Visual Arts and Performing Arts"
@@ -694,7 +673,7 @@
     {
       "id": "https://openalex.org/T13519",
       "display_name": "Historical Architecture and Urbanism",
-      "value": 1.88e-05,
+      "value": 5.1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -709,12 +688,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T11212",
-      "display_name": "Cultural Heritage Materials Analysis",
-      "value": 1.63e-05,
+      "id": "https://openalex.org/T14191",
+      "display_name": "Historical Art and Architecture Studies",
+      "value": 4.46e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -726,9 +705,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12670",
-      "display_name": "Urbanism, Landscape, and Tourism Studies",
-      "value": 1.55e-05,
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "value": 4.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -743,12 +722,80 @@
       }
     },
     {
-      "id": "https://openalex.org/T13070",
-      "display_name": "Cultural Identity and Heritage",
-      "value": 1.53e-05,
+      "id": "https://openalex.org/T13339",
+      "display_name": "Landscape and Cultural Studies",
+      "value": 3.7e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13256",
+      "display_name": "Archaeology and Rock Art Studies",
+      "value": 3.69e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3302",
+        "display_name": "Archeology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11643",
+      "display_name": "Building materials and conservation",
+      "value": 3.2e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1904",
+        "display_name": "Earth-Surface Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13537",
+      "display_name": "German legal, social, and political studies",
+      "value": 2.48e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11212",
+      "display_name": "Cultural Heritage Materials Analysis",
+      "value": 2.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -760,16 +807,33 @@
       }
     },
     {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "value": 1.44e-05,
+      "id": "https://openalex.org/T13595",
+      "display_name": "Archaeology and Cultural Heritage",
+      "value": 1.47e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/1204",
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12670",
+      "display_name": "Urbanism, Landscape, and Tourism Studies",
+      "value": 1.39e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -779,7 +843,7 @@
     {
       "id": "https://openalex.org/T14208",
       "display_name": "Death, Funerary Practices, and Mourning",
-      "value": 1.2e-05,
+      "value": 1.13e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -794,26 +858,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12995",
-      "display_name": "Urban Development and Cultural Heritage",
-      "value": 1.06e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3322",
-        "display_name": "Urban Studies"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11657",
       "display_name": "Digital and Traditional Archives Management",
-      "value": 9.8e-06,
+      "value": 9.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1206",
         "display_name": "Conservation"
@@ -828,12 +875,29 @@
       }
     },
     {
+      "id": "https://openalex.org/T12995",
+      "display_name": "Urban Development and Cultural Heritage",
+      "value": 9.3e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3322",
+        "display_name": "Urban Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T13831",
       "display_name": "Archaeological and Geological Studies",
-      "value": 9.6e-06,
+      "value": 9.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "display_name": "Archeology (arts and humanities)"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -847,7 +911,7 @@
     {
       "id": "https://openalex.org/T13263",
       "display_name": "Building energy efficiency and sustainability",
-      "value": 7.2e-06,
+      "value": 6.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2215",
         "display_name": "Building and Construction"
@@ -866,8 +930,25 @@
       "display_name": "Phase Equilibria and Thermodynamics",
       "value": 5e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12188",
+      "display_name": "Architecture, Modernity, and Design",
+      "value": 4.9e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2216",
+        "display_name": "Architecture"
       },
       "field": {
         "id": "https://openalex.org/fields/22",
@@ -879,12 +960,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13595",
-      "display_name": "Archaeology and Cultural Heritage",
-      "value": 4.5e-06,
+      "id": "https://openalex.org/T12364",
+      "display_name": "Archaeological Research and Protection",
+      "value": 4.6e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/3302",
+        "display_name": "Archeology"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -898,7 +979,7 @@
     {
       "id": "https://openalex.org/T10941",
       "display_name": "Musicology and Musical Analysis",
-      "value": 4.4e-06,
+      "value": 3.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1210",
         "display_name": "Music"
@@ -913,46 +994,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T12364",
-      "display_name": "Archaeological Research and Protection",
-      "value": 4.2e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1912",
-        "display_name": "Space and Planetary Science"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/19",
-        "display_name": "Earth and Planetary Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T13495",
       "display_name": "Biographical and Historical Analysis",
-      "value": 3.4e-06,
+      "value": 3.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T13621",
-      "display_name": "Ancient and Medieval Archaeology Studies",
-      "value": 3e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -967,6 +1014,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210156048",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 1,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210156048",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

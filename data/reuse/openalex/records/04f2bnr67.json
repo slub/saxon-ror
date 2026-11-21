@@ -21,10 +21,10 @@
   "works_count": 2,
   "works_count_with_children": 2,
   "works_count_with_children_and_predecessors": 2,
-  "cited_by_count": 0,
+  "cited_by_count": 1,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 0,
+    "h_index": 1,
     "i10_index": 0
   },
   "ids": {
@@ -50,7 +50,7 @@
       "year": 2026,
       "works_count": 2,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 1
     }
   ],
   "roles": [
@@ -121,8 +121,8 @@
       "count": 1,
       "score": 0.00570000009611249,
       "subfield": {
-        "id": "https://openalex.org/subfields/2707",
-        "display_name": "Complementary and alternative medicine"
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology (medical)"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -156,7 +156,7 @@
     {
       "id": "https://openalex.org/T12677",
       "display_name": "Sports Dynamics and Biomechanics",
-      "value": 1.68e-05,
+      "value": 1.56e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -173,7 +173,7 @@
     {
       "id": "https://openalex.org/T10157",
       "display_name": "Sports Performance and Training",
-      "value": 7.7e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2732",
         "display_name": "Orthopedics and Sports Medicine"
@@ -190,7 +190,7 @@
     {
       "id": "https://openalex.org/T10813",
       "display_name": "Sport Psychology and Performance",
-      "value": 7e-06,
+      "value": 6.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/3204",
         "display_name": "Developmental and Educational Psychology"
@@ -207,7 +207,7 @@
     {
       "id": "https://openalex.org/T11018",
       "display_name": "Lower Extremity Biomechanics and Pathologies",
-      "value": 4.7e-06,
+      "value": 4.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -224,10 +224,10 @@
     {
       "id": "https://openalex.org/T11209",
       "display_name": "Cardiovascular and exercise physiology",
-      "value": 3.4e-06,
+      "value": 3.3e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2707",
-        "display_name": "Complementary and alternative medicine"
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology (medical)"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -242,6 +242,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405263262",
-  "updated_date": "2026-10-23T18:22:09",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405263262",
+  "updated_date": "2026-11-16T18:24:22",
   "created_date": "2026-02-26T03:30:23"
 }

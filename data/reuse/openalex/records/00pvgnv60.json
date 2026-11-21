@@ -19,7 +19,7 @@
   "works_count": 2,
   "works_count_with_children": 2,
   "works_count_with_children_and_predecessors": 2,
-  "cited_by_count": 4,
+  "cited_by_count": 3,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Weinböhla",
     "geonames_city_id": "2812225",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.185386657714844,
@@ -143,16 +143,16 @@
       "count": 1,
       "score": 0.7904999852180481,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -196,7 +196,7 @@
     {
       "id": "https://openalex.org/T12580",
       "display_name": "Vagus Nerve Stimulation Research",
-      "value": 2.55e-05,
+      "value": 2.5e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2808",
         "display_name": "Neurology"
@@ -213,27 +213,10 @@
     {
       "id": "https://openalex.org/T10272",
       "display_name": "Mental Health Treatment and Access",
-      "value": 4.9e-06,
+      "value": 4.7e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10745",
-      "display_name": "Heart Rate Variability and Autonomic Control",
-      "value": 4.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2705",
-        "display_name": "Cardiology and Cardiovascular Medicine"
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -245,20 +228,20 @@
       }
     },
     {
-      "id": "https://openalex.org/T10182",
-      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
-      "value": 3.7e-06,
+      "id": "https://openalex.org/T10745",
+      "display_name": "Heart Rate Variability and Autonomic Control",
+      "value": 4.7e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -279,9 +262,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "value": 3.5e-06,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10043",
       "display_name": "Substance Abuse Treatment and Outcomes",
-      "value": 2.6e-06,
+      "value": 2.5e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2713",
         "display_name": "Epidemiology"
@@ -299,6 +299,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210097002",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210097002",
+  "updated_date": "2026-11-18T18:22:36",
   "created_date": "2022-02-02T04:48:36"
 }

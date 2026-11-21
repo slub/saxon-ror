@@ -20,7 +20,7 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 3,
+  "cited_by_count": 4,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -31,12 +31,12 @@
     "ror": "https://ror.org/01z40a451",
     "grid": "grid.477967.c",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q30270494"
   },
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.33897018432617,
@@ -58,7 +58,7 @@
       "year": 2025,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2024,
@@ -135,16 +135,16 @@
       "count": 2,
       "score": 0.0012000000569969416,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/2922",
+        "display_name": "Research and Theory"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
@@ -188,24 +188,24 @@
     {
       "id": "https://openalex.org/T13117",
       "display_name": "Health Education and Validation",
-      "value": 1.71e-05,
+      "value": 1.63e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/2922",
+        "display_name": "Research and Theory"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12848",
       "display_name": "Psychological Testing and Assessment",
-      "value": 1.63e-05,
+      "value": 1.58e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3202",
         "display_name": "Applied Psychology"
@@ -222,7 +222,7 @@
     {
       "id": "https://openalex.org/T10023",
       "display_name": "Schizophrenia research and treatment",
-      "value": 1.06e-05,
+      "value": 1.04e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2738",
         "display_name": "Psychiatry and Mental health"
@@ -239,7 +239,7 @@
     {
       "id": "https://openalex.org/T12308",
       "display_name": "Mental Health and Psychiatry",
-      "value": 1.04e-05,
+      "value": 1.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -256,7 +256,7 @@
     {
       "id": "https://openalex.org/T10467",
       "display_name": "Psychometric Methodologies and Testing",
-      "value": 4.4e-06,
+      "value": 4.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -274,6 +274,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210118502",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210118502",
+  "updated_date": "2026-11-16T19:36:12",
   "created_date": "2022-02-02T04:48:36"
 }

@@ -20,11 +20,11 @@
   "works_count": 5,
   "works_count_with_children": 5,
   "works_count_with_children_and_predecessors": 5,
-  "cited_by_count": 133,
+  "cited_by_count": 66,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 7,
-    "i10_index": 4
+    "h_index": 4,
+    "i10_index": 2
   },
   "ids": {
     "openalex": "https://openalex.org/I4210114352",
@@ -36,7 +36,7 @@
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.05075454711914,
@@ -73,13 +73,13 @@
       "year": 2020,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 5
     },
     {
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 3
+      "cited_by_count": 2
     },
     {
       "year": 2018,
@@ -168,12 +168,12 @@
       "count": 2,
       "score": 0.003100000089034438,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -294,12 +294,12 @@
       "count": 1,
       "score": 0.00019999999494757503,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -311,7 +311,7 @@
     {
       "id": "https://openalex.org/T10369",
       "display_name": "Advanced MEMS and NEMS Technologies",
-      "value": 1.91e-05,
+      "value": 1.86e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -328,7 +328,7 @@
     {
       "id": "https://openalex.org/T11778",
       "display_name": "Electrical and Bioimpedance Tomography",
-      "value": 1.81e-05,
+      "value": 1.76e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -345,14 +345,14 @@
     {
       "id": "https://openalex.org/T11608",
       "display_name": "Dielectric materials and actuators",
-      "value": 1.4e-05,
+      "value": 1.38e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -362,7 +362,7 @@
     {
       "id": "https://openalex.org/T11661",
       "display_name": "Copper Interconnects and Reliability",
-      "value": 1.33e-05,
+      "value": 1.31e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -379,7 +379,7 @@
     {
       "id": "https://openalex.org/T10107",
       "display_name": "Ferroelectric and Piezoelectric Materials",
-      "value": 1.29e-05,
+      "value": 1.28e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -396,7 +396,7 @@
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
-      "value": 8e-06,
+      "value": 7.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -413,7 +413,7 @@
     {
       "id": "https://openalex.org/T11196",
       "display_name": "Non-Invasive Vital Sign Monitoring",
-      "value": 6.4e-06,
+      "value": 6.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2204",
         "display_name": "Biomedical Engineering"
@@ -430,7 +430,7 @@
     {
       "id": "https://openalex.org/T11637",
       "display_name": "Advanced Semiconductor Detectors and Materials",
-      "value": 6.3e-06,
+      "value": 6.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -447,7 +447,7 @@
     {
       "id": "https://openalex.org/T10472",
       "display_name": "Semiconductor materials and devices",
-      "value": 3.1e-06,
+      "value": 3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -464,14 +464,14 @@
     {
       "id": "https://openalex.org/T11853",
       "display_name": "Semiconductor materials and interfaces",
-      "value": 3e-06,
+      "value": 2.9e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
       },
       "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -482,6 +482,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210114352",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 10,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210114352",
+  "updated_date": "2026-11-20T18:22:16",
   "created_date": "2022-02-02T04:48:36"
 }

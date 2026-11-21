@@ -29,14 +29,14 @@
     "ctd.qmat"
   ],
   "repositories": [],
-  "works_count": 1459,
-  "works_count_with_children": 1459,
-  "works_count_with_children_and_predecessors": 1459,
-  "cited_by_count": 70533,
+  "works_count": 1594,
+  "works_count_with_children": 1594,
+  "works_count_with_children_and_predecessors": 1594,
+  "cited_by_count": 32583,
   "summary_stats": {
-    "2yr_mean_citedness": 6.212100139082058,
-    "h_index": 114,
-    "i10_index": 1532
+    "2yr_mean_citedness": 6.506112469437653,
+    "h_index": 75,
+    "i10_index": 731
   },
   "ids": {
     "openalex": "https://openalex.org/I4210095490",
@@ -84,60 +84,72 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 244,
-      "oa_works_count": 233,
-      "cited_by_count": 4113
+      "works_count": 317,
+      "oa_works_count": 307,
+      "cited_by_count": 9706
     },
     {
       "year": 2025,
-      "works_count": 167,
-      "oa_works_count": 153,
-      "cited_by_count": 5681
+      "works_count": 233,
+      "oa_works_count": 224,
+      "cited_by_count": 7102
     },
     {
       "year": 2024,
-      "works_count": 182,
-      "oa_works_count": 165,
-      "cited_by_count": 4700
+      "works_count": 215,
+      "oa_works_count": 197,
+      "cited_by_count": 5479
     },
     {
       "year": 2023,
-      "works_count": 214,
-      "oa_works_count": 190,
-      "cited_by_count": 3679
+      "works_count": 194,
+      "oa_works_count": 177,
+      "cited_by_count": 4121
     },
     {
       "year": 2022,
       "works_count": 216,
-      "oa_works_count": 192,
-      "cited_by_count": 3050
+      "oa_works_count": 190,
+      "cited_by_count": 3220
     },
     {
       "year": 2021,
-      "works_count": 231,
-      "oa_works_count": 202,
-      "cited_by_count": 2075
+      "works_count": 220,
+      "oa_works_count": 193,
+      "cited_by_count": 2054
     },
     {
       "year": 2020,
-      "works_count": 152,
-      "oa_works_count": 138,
-      "cited_by_count": 756
+      "works_count": 147,
+      "oa_works_count": 136,
+      "cited_by_count": 780
     },
     {
       "year": 2019,
-      "works_count": 53,
-      "oa_works_count": 46,
-      "cited_by_count": 73
+      "works_count": 52,
+      "oa_works_count": 45,
+      "cited_by_count": 100
     },
     {
       "year": 2018,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 4
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
     },
     {
       "year": 2013,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
       "works_count": 0,
       "oa_works_count": 0,
       "cited_by_count": 1
@@ -147,14 +159,14 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210095490",
-      "works_count": 1459
+      "works_count": 1594
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T11682",
       "display_name": "Advanced Condensed Matter Physics",
-      "count": 570,
+      "count": 658,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
@@ -172,11 +184,11 @@
     {
       "id": "https://openalex.org/T10657",
       "display_name": "Topological Materials and Phenomena",
-      "count": 478,
+      "count": 521,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -190,7 +202,7 @@
     {
       "id": "https://openalex.org/T10037",
       "display_name": "Physics of Superconductivity and Magnetism",
-      "count": 426,
+      "count": 500,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
@@ -206,9 +218,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "count": 249,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10275",
       "display_name": "2D Materials and Applications",
-      "count": 232,
+      "count": 233,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -224,31 +254,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T11804",
-      "display_name": "Quantum many-body systems",
-      "count": 212,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10382",
       "display_name": "Quantum and electron transport phenomena",
-      "count": 181,
-      "score": 0.9990000128746033,
+      "count": 203,
+      "score": 0.9984999895095825,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -262,11 +274,11 @@
     {
       "id": "https://openalex.org/T10049",
       "display_name": "Magnetic properties of thin films",
-      "count": 158,
+      "count": 175,
       "score": 0.9994999766349792,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -280,7 +292,7 @@
     {
       "id": "https://openalex.org/T10591",
       "display_name": "Theoretical and Computational Physics",
-      "count": 138,
+      "count": 173,
       "score": 0.9384999871253967,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
@@ -296,27 +308,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10022",
-      "display_name": "Semiconductor Quantum Structures and Devices",
-      "count": 122,
-      "score": 0.9994999766349792,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10681",
       "display_name": "Rare-earth and actinide compounds",
-      "count": 118,
+      "count": 136,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
@@ -334,7 +328,7 @@
     {
       "id": "https://openalex.org/T10607",
       "display_name": "Magnetic and transport properties of perovskites and related materials",
-      "count": 115,
+      "count": 133,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
@@ -350,9 +344,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T10022",
+      "display_name": "Semiconductor Quantum Structures and Devices",
+      "count": 115,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11262",
       "display_name": "Quantum Mechanics and Non-Hermitian Physics",
-      "count": 90,
+      "count": 97,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -370,7 +382,7 @@
     {
       "id": "https://openalex.org/T12612",
       "display_name": "Strong Light-Matter Interactions",
-      "count": 88,
+      "count": 86,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -388,7 +400,7 @@
     {
       "id": "https://openalex.org/T10025",
       "display_name": "Black Holes and Theoretical Physics",
-      "count": 71,
+      "count": 72,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -424,7 +436,7 @@
     {
       "id": "https://openalex.org/T10083",
       "display_name": "Graphene research and applications",
-      "count": 49,
+      "count": 53,
       "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -442,7 +454,7 @@
     {
       "id": "https://openalex.org/T10886",
       "display_name": "Multiferroics and related materials",
-      "count": 46,
+      "count": 52,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
@@ -460,7 +472,7 @@
     {
       "id": "https://openalex.org/T12588",
       "display_name": "Electronic and Structural Properties of Oxides",
-      "count": 43,
+      "count": 45,
       "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
@@ -476,17 +488,17 @@
       }
     },
     {
-      "id": "https://openalex.org/T10020",
-      "display_name": "Quantum Information and Cryptography",
-      "count": 38,
-      "score": 0.98580002784729,
+      "id": "https://openalex.org/T13531",
+      "display_name": "Surface and Thin Film Phenomena",
+      "count": 40,
+      "score": 0.9872999787330627,
       "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -494,10 +506,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T13531",
-      "display_name": "Surface and Thin Film Phenomena",
-      "count": 38,
-      "score": 0.9872999787330627,
+      "id": "https://openalex.org/T10020",
+      "display_name": "Quantum Information and Cryptography",
+      "count": 37,
+      "score": 0.98580002784729,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -514,15 +526,33 @@
     {
       "id": "https://openalex.org/T10295",
       "display_name": "Plasmonic and Surface Plasmon Research",
-      "count": 36,
-      "score": 0.9458000063896179,
+      "count": 35,
+      "score": 0.9434000253677368,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10612",
+      "display_name": "Magnetism in coordination complexes",
+      "count": 34,
+      "score": 0.8945000171661377,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -532,7 +562,7 @@
     {
       "id": "https://openalex.org/T11050",
       "display_name": "Photorefractive and Nonlinear Optics",
-      "count": 31,
+      "count": 32,
       "score": 0.9818999767303467,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -550,11 +580,11 @@
     {
       "id": "https://openalex.org/T11415",
       "display_name": "Noncommutative and Quantum Gravity Theories",
-      "count": 31,
+      "count": 32,
       "score": 0.9599999785423279,
       "subfield": {
-        "id": "https://openalex.org/subfields/3109",
-        "display_name": "Statistical and Nonlinear Physics"
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -566,28 +596,10 @@
       }
     },
     {
-      "id": "https://openalex.org/T12808",
-      "display_name": "Ferroelectric and Negative Capacitance Devices",
-      "count": 30,
+      "id": "https://openalex.org/T11766",
+      "display_name": "Iron-based superconductors research",
+      "count": 31,
       "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10612",
-      "display_name": "Magnetism in coordination complexes",
-      "count": 27,
-      "score": 0.8945000171661377,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -606,10 +618,10 @@
     {
       "id": "https://openalex.org/T10657",
       "display_name": "Topological Materials and Phenomena",
-      "value": 0.0047435,
+      "value": 0.0050871,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -623,7 +635,7 @@
     {
       "id": "https://openalex.org/T11682",
       "display_name": "Advanced Condensed Matter Physics",
-      "value": 0.0027833,
+      "value": 0.0031383,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -640,7 +652,7 @@
     {
       "id": "https://openalex.org/T11262",
       "display_name": "Quantum Mechanics and Non-Hermitian Physics",
-      "value": 0.0020972,
+      "value": 0.0022319,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -657,7 +669,7 @@
     {
       "id": "https://openalex.org/T11804",
       "display_name": "Quantum many-body systems",
-      "value": 0.0014562,
+      "value": 0.0016575,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -674,7 +686,24 @@
     {
       "id": "https://openalex.org/T10037",
       "display_name": "Physics of Superconductivity and Magnetism",
-      "value": 0.0011623,
+      "value": 0.0013448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10681",
+      "display_name": "Rare-earth and actinide compounds",
+      "value": 0.0012057,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -691,7 +720,7 @@
     {
       "id": "https://openalex.org/T12612",
       "display_name": "Strong Light-Matter Interactions",
-      "value": 0.0011514,
+      "value": 0.0011001,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -708,7 +737,7 @@
     {
       "id": "https://openalex.org/T10275",
       "display_name": "2D Materials and Applications",
-      "value": 0.001068,
+      "value": 0.001067,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -723,9 +752,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10681",
-      "display_name": "Rare-earth and actinide compounds",
-      "value": 0.0010498,
+      "id": "https://openalex.org/T10382",
+      "display_name": "Quantum and electron transport phenomena",
+      "value": 0.0009278,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
         "display_name": "Condensed Matter Physics"
@@ -740,26 +769,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10382",
-      "display_name": "Quantum and electron transport phenomena",
-      "value": 0.000847,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11766",
       "display_name": "Iron-based superconductors research",
-      "value": 0.0007545,
+      "value": 0.0008471,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -776,10 +788,27 @@
     {
       "id": "https://openalex.org/T10049",
       "display_name": "Magnetic properties of thin films",
-      "value": 0.0007362,
+      "value": 0.0008023,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10591",
+      "display_name": "Theoretical and Computational Physics",
+      "value": 0.0006437,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -793,7 +822,7 @@
     {
       "id": "https://openalex.org/T12200",
       "display_name": "Heusler alloys: electronic and magnetic properties",
-      "value": 0.0006415,
+      "value": 0.0006382,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -810,7 +839,7 @@
     {
       "id": "https://openalex.org/T12588",
       "display_name": "Electronic and Structural Properties of Oxides",
-      "value": 0.0005753,
+      "value": 0.0005922,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -825,26 +854,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10591",
-      "display_name": "Theoretical and Computational Physics",
-      "value": 0.0005182,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3104",
-        "display_name": "Condensed Matter Physics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10607",
       "display_name": "Magnetic and transport properties of perovskites and related materials",
-      "value": 0.0004981,
+      "value": 0.0005705,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -859,26 +871,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10022",
-      "display_name": "Semiconductor Quantum Structures and Devices",
-      "value": 0.000448,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/31",
-        "display_name": "Physics and Astronomy"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12808",
       "display_name": "Ferroelectric and Negative Capacitance Devices",
-      "value": 0.0004249,
+      "value": 0.0004204,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -895,7 +890,41 @@
     {
       "id": "https://openalex.org/T10886",
       "display_name": "Multiferroics and related materials",
-      "value": 0.0003721,
+      "value": 0.0004174,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10022",
+      "display_name": "Semiconductor Quantum Structures and Devices",
+      "value": 0.0004144,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11758",
+      "display_name": "Organic and Molecular Conductors Research",
+      "value": 0.0003114,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -912,7 +941,7 @@
     {
       "id": "https://openalex.org/T10025",
       "display_name": "Black Holes and Theoretical Physics",
-      "value": 0.0002912,
+      "value": 0.0002892,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -927,9 +956,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11758",
-      "display_name": "Organic and Molecular Conductors Research",
-      "value": 0.0002852,
+      "id": "https://openalex.org/T10612",
+      "display_name": "Magnetism in coordination complexes",
+      "value": 0.0002802,
       "subfield": {
         "id": "https://openalex.org/subfields/2504",
         "display_name": "Electronic, Optical and Magnetic Materials"
@@ -946,31 +975,14 @@
     {
       "id": "https://openalex.org/T12466",
       "display_name": "Near-Field Optical Microscopy",
-      "value": 0.0002683,
+      "value": 0.0002629,
       "subfield": {
-        "id": "https://openalex.org/subfields/2204",
-        "display_name": "Biomedical Engineering"
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10478",
-      "display_name": "Diamond and Carbon-based Materials Research",
-      "value": 0.0002671,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2505",
-        "display_name": "Materials Chemistry"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/25",
-        "display_name": "Materials Science"
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -980,7 +992,7 @@
     {
       "id": "https://openalex.org/T10107",
       "display_name": "Ferroelectric and Piezoelectric Materials",
-      "value": 0.0002586,
+      "value": 0.0002566,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -995,16 +1007,16 @@
       }
     },
     {
-      "id": "https://openalex.org/T10247",
-      "display_name": "Perovskite Materials and Applications",
-      "value": 0.0002473,
+      "id": "https://openalex.org/T10478",
+      "display_name": "Diamond and Carbon-based Materials Research",
+      "value": 0.0002522,
       "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -1014,10 +1026,10 @@
     {
       "id": "https://openalex.org/T13531",
       "display_name": "Surface and Thin Film Phenomena",
-      "value": 0.000229,
+      "value": 0.0002374,
       "subfield": {
-        "id": "https://openalex.org/subfields/3107",
-        "display_name": "Atomic and Molecular Physics, and Optics"
+        "id": "https://openalex.org/subfields/3104",
+        "display_name": "Condensed Matter Physics"
       },
       "field": {
         "id": "https://openalex.org/fields/31",
@@ -1032,6 +1044,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210095490",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210095490",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

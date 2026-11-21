@@ -18,9 +18,9 @@
     "Roland Ernst Stiftung"
   ],
   "repositories": [],
-  "works_count": 1,
-  "works_count_with_children": 1,
-  "works_count_with_children_and_predecessors": 1,
+  "works_count": 0,
+  "works_count_with_children": 0,
+  "works_count_with_children_and_predecessors": 0,
   "cited_by_count": 0,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
@@ -37,7 +37,7 @@
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.0508918762207,
@@ -45,138 +45,26 @@
   },
   "international": {},
   "associated_institutions": [],
-  "counts_by_year": [
-    {
-      "year": 2011,
-      "works_count": 1,
-      "oa_works_count": 1,
-      "cited_by_count": 0
-    }
-  ],
+  "counts_by_year": [],
   "roles": [
     {
       "role": "funder",
       "id": "https://openalex.org/F4320330250",
-      "works_count": 113
+      "works_count": 114
     },
     {
       "role": "institution",
       "id": "https://openalex.org/I4210135152",
-      "works_count": 1
+      "works_count": 0
     }
   ],
-  "topics": [
-    {
-      "id": "https://openalex.org/T10215",
-      "display_name": "Semantic Web and Ontologies",
-      "count": 1,
-      "score": 0.8393999934196472,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11450",
-      "display_name": "Model-Driven Software Engineering Techniques",
-      "count": 1,
-      "score": 0.03660000115633011,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1712",
-        "display_name": "Software"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11719",
-      "display_name": "Data Quality and Management",
-      "count": 1,
-      "score": 0.03310000151395798,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1803",
-        "display_name": "Management Science and Operations Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    }
-  ],
-  "topic_share": [
-    {
-      "id": "https://openalex.org/T11719",
-      "display_name": "Data Quality and Management",
-      "value": 2.13e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1803",
-        "display_name": "Management Science and Operations Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11450",
-      "display_name": "Model-Driven Software Engineering Techniques",
-      "value": 7.9e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1712",
-        "display_name": "Software"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10215",
-      "display_name": "Semantic Web and Ontologies",
-      "value": 6e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    }
-  ],
+  "topics": [],
+  "topic_share": [],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210135152",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210135152",
+  "updated_date": "2026-11-20T18:22:16",
   "created_date": "2022-02-02T04:48:36"
 }

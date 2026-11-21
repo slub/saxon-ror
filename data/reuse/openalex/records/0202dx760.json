@@ -130,7 +130,7 @@
     {
       "id": "https://openalex.org/T11021",
       "display_name": "ECG Monitoring and Analysis",
-      "value": 8e-06,
+      "value": 7.8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -147,7 +147,7 @@
     {
       "id": "https://openalex.org/T10745",
       "display_name": "Heart Rate Variability and Autonomic Control",
-      "value": 4.8e-06,
+      "value": 4.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2705",
         "display_name": "Cardiology and Cardiovascular Medicine"
@@ -182,6 +182,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4405274593",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4405274593",
   "updated_date": "2026-10-26T23:48:29",
   "created_date": "2026-08-05T03:30:19"
 }

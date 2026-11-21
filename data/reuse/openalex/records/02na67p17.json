@@ -19,7 +19,7 @@
   "works_count": 3,
   "works_count_with_children": 3,
   "works_count_with_children_and_predecessors": 3,
-  "cited_by_count": 4,
+  "cited_by_count": 5,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -35,7 +35,7 @@
   "geo": {
     "city": "Halsbrücke",
     "geonames_city_id": "2911426",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 50.93592834472656,
@@ -44,6 +44,12 @@
   "international": {},
   "associated_institutions": [],
   "counts_by_year": [
+    {
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
     {
       "year": 2024,
       "works_count": 1,
@@ -256,7 +262,7 @@
     {
       "id": "https://openalex.org/T12247",
       "display_name": "Microbial Applications in Construction Materials",
-      "value": 3.44e-05,
+      "value": 3.37e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -273,7 +279,7 @@
     {
       "id": "https://openalex.org/T13596",
       "display_name": "Grouting, Rheology, and Soil Mechanics",
-      "value": 3.24e-05,
+      "value": 3.14e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -290,7 +296,7 @@
     {
       "id": "https://openalex.org/T11643",
       "display_name": "Building materials and conservation",
-      "value": 1.66e-05,
+      "value": 1.6e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1904",
         "display_name": "Earth-Surface Processes"
@@ -307,7 +313,7 @@
     {
       "id": "https://openalex.org/T11169",
       "display_name": "Silicon Nanostructures and Photoluminescence",
-      "value": 1.29e-05,
+      "value": 1.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -324,7 +330,7 @@
     {
       "id": "https://openalex.org/T11302",
       "display_name": "CO2 Sequestration and Geologic Interactions",
-      "value": 1.2e-05,
+      "value": 1.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -341,7 +347,7 @@
     {
       "id": "https://openalex.org/T13104",
       "display_name": "Chemical and Physical Properties of Materials",
-      "value": 1.09e-05,
+      "value": 1.08e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -358,7 +364,7 @@
     {
       "id": "https://openalex.org/T11881",
       "display_name": "Crystallization and Solubility Studies",
-      "value": 8.2e-06,
+      "value": 8e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2505",
         "display_name": "Materials Chemistry"
@@ -375,7 +381,7 @@
     {
       "id": "https://openalex.org/T10624",
       "display_name": "Silicon and Solar Cell Technologies",
-      "value": 6.4e-06,
+      "value": 6.3e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -392,7 +398,7 @@
     {
       "id": "https://openalex.org/T10033",
       "display_name": "Concrete and Cement Materials Research",
-      "value": 4.2e-06,
+      "value": 4.1e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2205",
         "display_name": "Civil and Structural Engineering"
@@ -410,6 +416,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210125962",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 2,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210125962",
+  "updated_date": "2026-11-16T18:24:22",
   "created_date": "2022-02-02T04:48:36"
 }

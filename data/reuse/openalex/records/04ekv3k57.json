@@ -22,11 +22,11 @@
   "works_count": 1,
   "works_count_with_children": 1,
   "works_count_with_children_and_predecessors": 1,
-  "cited_by_count": 242,
+  "cited_by_count": 25,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
-    "h_index": 11,
-    "i10_index": 11
+    "h_index": 1,
+    "i10_index": 1
   },
   "ids": {
     "openalex": "https://openalex.org/I4210136162",
@@ -38,7 +38,7 @@
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.04668045043945,
@@ -63,7 +63,7 @@
       "year": 2023,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2022,
@@ -93,7 +93,7 @@
       "year": 2013,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2012,
@@ -106,7 +106,7 @@
     {
       "role": "funder",
       "id": "https://openalex.org/F4320323752",
-      "works_count": 1022
+      "works_count": 1064
     },
     {
       "role": "institution",
@@ -174,7 +174,7 @@
     {
       "id": "https://openalex.org/T10458",
       "display_name": "Bladder and Urothelial Cancer Treatments",
-      "value": 7.1e-06,
+      "value": 6.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -191,7 +191,7 @@
     {
       "id": "https://openalex.org/T10760",
       "display_name": "Pancreatitis Pathology and Treatment",
-      "value": 7e-06,
+      "value": 6.9e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -226,6 +226,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210136162",
-  "updated_date": "2026-10-31T18:21:36",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210136162",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

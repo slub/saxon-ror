@@ -17,14 +17,14 @@
     "Prima Biomed"
   ],
   "repositories": [],
-  "works_count": 39,
-  "works_count_with_children": 39,
-  "works_count_with_children_and_predecessors": 39,
-  "cited_by_count": 494,
+  "works_count": 38,
+  "works_count_with_children": 38,
+  "works_count_with_children_and_predecessors": 38,
+  "cited_by_count": 425,
   "summary_stats": {
-    "2yr_mean_citedness": 4.0625,
-    "h_index": 12,
-    "i10_index": 19
+    "2yr_mean_citedness": 4.25,
+    "h_index": 13,
+    "i10_index": 16
   },
   "ids": {
     "openalex": "https://openalex.org/I4210141277",
@@ -36,7 +36,7 @@
   "geo": {
     "city": "Leipzig",
     "geonames_city_id": "2879139",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.32080841064453,
@@ -49,66 +49,66 @@
       "year": 2026,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 41
+      "cited_by_count": 51
     },
     {
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 2,
-      "cited_by_count": 73
+      "cited_by_count": 80
     },
     {
       "year": 2024,
       "works_count": 6,
       "oa_works_count": 6,
-      "cited_by_count": 100
+      "cited_by_count": 94
     },
     {
       "year": 2023,
       "works_count": 6,
       "oa_works_count": 6,
-      "cited_by_count": 68
+      "cited_by_count": 70
     },
     {
       "year": 2022,
       "works_count": 4,
       "oa_works_count": 3,
-      "cited_by_count": 47
+      "cited_by_count": 41
     },
     {
       "year": 2021,
       "works_count": 5,
       "oa_works_count": 2,
-      "cited_by_count": 43
+      "cited_by_count": 38
     },
     {
       "year": 2020,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 13
+      "cited_by_count": 8
     },
     {
       "year": 2019,
       "works_count": 0,
       "oa_works_count": 0,
-      "cited_by_count": 11
+      "cited_by_count": 9
     },
     {
       "year": 2018,
       "works_count": 2,
       "oa_works_count": 0,
-      "cited_by_count": 12
+      "cited_by_count": 10
     },
     {
       "year": 2017,
       "works_count": 1,
       "oa_works_count": 0,
-      "cited_by_count": 12
+      "cited_by_count": 9
     },
     {
       "year": 2016,
-      "works_count": 3,
-      "oa_works_count": 3,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 4
     },
     {
@@ -134,7 +134,7 @@
     {
       "role": "institution",
       "id": "https://openalex.org/I4210141277",
-      "works_count": 39
+      "works_count": 38
     }
   ],
   "topics": [
@@ -159,7 +159,7 @@
     {
       "id": "https://openalex.org/T10580",
       "display_name": "Immunotherapy and Immune Responses",
-      "count": 24,
+      "count": 23,
       "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -270,26 +270,8 @@
       "count": 5,
       "score": 0.6039999723434448,
       "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10550",
-      "display_name": "Ovarian cancer diagnosis and treatment",
-      "count": 4,
-      "score": 0.9663000106811523,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -319,13 +301,31 @@
       }
     },
     {
+      "id": "https://openalex.org/T10550",
+      "display_name": "Ovarian cancer diagnosis and treatment",
+      "count": 3,
+      "score": 0.5557000041007996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10129",
       "display_name": "Glioma Diagnosis and Treatment",
       "count": 2,
       "score": 0.00039999998989515007,
       "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -355,31 +355,13 @@
       }
     },
     {
-      "id": "https://openalex.org/T10668",
-      "display_name": "Endometrial and Cervical Cancer Treatments",
-      "count": 1,
-      "score": 0.00019999999494757503,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2729",
-        "display_name": "Obstetrics and Gynecology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11306",
       "display_name": "Nonmelanoma Skin Cancer Studies",
       "count": 1,
       "score": 0.0005000000237487257,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -413,10 +395,10 @@
     {
       "id": "https://openalex.org/T12829",
       "display_name": "Advanced Breast Cancer Therapies",
-      "value": 0.000157,
+      "value": 0.000156,
       "subfield": {
-        "id": "https://openalex.org/subfields/2740",
-        "display_name": "Pulmonary and Respiratory Medicine"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -430,7 +412,7 @@
     {
       "id": "https://openalex.org/T10158",
       "display_name": "Cancer Immunotherapy and Biomarkers",
-      "value": 0.0001051,
+      "value": 0.0001038,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -447,7 +429,7 @@
     {
       "id": "https://openalex.org/T10580",
       "display_name": "Immunotherapy and Immune Responses",
-      "value": 7.4e-05,
+      "value": 6.94e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -464,7 +446,7 @@
     {
       "id": "https://openalex.org/T10417",
       "display_name": "Lung Cancer Treatments and Mutations",
-      "value": 6.32e-05,
+      "value": 6.25e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
@@ -481,7 +463,7 @@
     {
       "id": "https://openalex.org/T12334",
       "display_name": "Lung Cancer Research Studies",
-      "value": 5.55e-05,
+      "value": 5.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -498,7 +480,7 @@
     {
       "id": "https://openalex.org/T10183",
       "display_name": "Breast Cancer Treatment Studies",
-      "value": 2.6e-05,
+      "value": 2.57e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1306",
         "display_name": "Cancer Research"
@@ -515,7 +497,7 @@
     {
       "id": "https://openalex.org/T10307",
       "display_name": "Head and Neck Cancer Studies",
-      "value": 2.3e-05,
+      "value": 2.27e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2733",
         "display_name": "Otorhinolaryngology"
@@ -532,7 +514,7 @@
     {
       "id": "https://openalex.org/T10392",
       "display_name": "Cutaneous Melanoma Detection and Management",
-      "value": 2.21e-05,
+      "value": 2.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -547,26 +529,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10550",
-      "display_name": "Ovarian cancer diagnosis and treatment",
-      "value": 2.03e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2743",
-        "display_name": "Reproductive Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T12255",
       "display_name": "Biosimilars and Bioanalytical Methods",
-      "value": 1.78e-05,
+      "value": 1.75e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -581,9 +546,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10550",
+      "display_name": "Ovarian cancer diagnosis and treatment",
+      "value": 1.51e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10031",
       "display_name": "T-cell and B-cell Immunology",
-      "value": 1.26e-05,
+      "value": 1.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -600,10 +582,10 @@
     {
       "id": "https://openalex.org/T11306",
       "display_name": "Nonmelanoma Skin Cancer Studies",
-      "value": 1.04e-05,
+      "value": 1.03e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/2713",
-        "display_name": "Epidemiology"
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -617,10 +599,10 @@
     {
       "id": "https://openalex.org/T10129",
       "display_name": "Glioma Diagnosis and Treatment",
-      "value": 8.2e-06,
+      "value": 8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/2716",
-        "display_name": "Genetics"
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -634,27 +616,10 @@
     {
       "id": "https://openalex.org/T10202",
       "display_name": "Lung Cancer Diagnosis and Treatment",
-      "value": 7.1e-06,
+      "value": 7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/2740",
         "display_name": "Pulmonary and Respiratory Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10668",
-      "display_name": "Endometrial and Cervical Cancer Treatments",
-      "value": 5.8e-06,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2729",
-        "display_name": "Obstetrics and Gynecology"
       },
       "field": {
         "id": "https://openalex.org/fields/27",
@@ -669,6 +634,8 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210141277",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 0,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210141277",
+  "updated_date": "2026-11-21T18:21:58",
   "created_date": "2022-02-02T04:48:36"
 }

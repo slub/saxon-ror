@@ -19,7 +19,7 @@
   "works_count": 5,
   "works_count_with_children": 5,
   "works_count_with_children_and_predecessors": 5,
-  "cited_by_count": 2,
+  "cited_by_count": 4,
   "summary_stats": {
     "2yr_mean_citedness": 0.0,
     "h_index": 1,
@@ -30,12 +30,12 @@
     "ror": "https://ror.org/02yvvjj13",
     "grid": "grid.506249.c",
     "wikipedia": "",
-    "wikidata": null
+    "wikidata": "https://www.wikidata.org/wiki/Q1134065"
   },
   "geo": {
     "city": "Dresden",
     "geonames_city_id": "2935022",
-    "region": null,
+    "region": "Saxony",
     "country_code": "DE",
     "country": "Germany",
     "latitude": 51.51805877685547,
@@ -48,13 +48,13 @@
       "year": 2026,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 0
+      "cited_by_count": 1
     },
     {
       "year": 2025,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 2
     },
     {
       "year": 2021,
@@ -141,6 +141,24 @@
       "domain": {
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11454",
+      "display_name": "Cultural Differences and Values",
+      "count": 1,
+      "score": 0.052000001072883606,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     {
@@ -239,48 +257,12 @@
       "count": 1,
       "score": 0.9800000190734863,
       "subfield": {
-        "id": "https://openalex.org/subfields/1706",
-        "display_name": "Computer Science Applications"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12408",
-      "display_name": "Educational Innovations and Challenges",
-      "count": 1,
-      "score": 0.00279999990016222,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T12815",
-      "display_name": "Management and Organizational Practices",
-      "count": 1,
-      "score": 0.17080000042915344,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -288,10 +270,28 @@
       }
     },
     {
-      "id": "https://openalex.org/T13137",
-      "display_name": "Strategic Planning and Analysis",
+      "id": "https://openalex.org/T12408",
+      "display_name": "Digital Transformation of Higher Education",
       "count": 1,
-      "score": 0.28299999237060547,
+      "score": 0.00279999990016222,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12815",
+      "display_name": "Management and Organizational Practices",
+      "count": 1,
+      "score": 0.02850000001490116,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -309,14 +309,14 @@
       "id": "https://openalex.org/T14031",
       "display_name": "Global and Cross-Cultural Management",
       "count": 1,
-      "score": 0.13050000369548798,
+      "score": 0.8353999853134155,
       "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
+        "id": "https://openalex.org/subfields/1403",
+        "display_name": "Business and International Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -329,16 +329,16 @@
       "count": 1,
       "score": 0.10249999910593033,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     }
   ],
@@ -346,7 +346,7 @@
     {
       "id": "https://openalex.org/T11969",
       "display_name": "Fluoride Effects and Removal",
-      "value": 3.74e-05,
+      "value": 3.68e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
         "display_name": "Water Science and Technology"
@@ -363,27 +363,10 @@
     {
       "id": "https://openalex.org/T12171",
       "display_name": "Open Education and E-Learning",
-      "value": 2.62e-05,
+      "value": 2.55e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1706",
-        "display_name": "Computer Science Applications"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T14031",
-      "display_name": "Global and Cross-Cultural Management",
-      "value": 2.35e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -397,7 +380,7 @@
     {
       "id": "https://openalex.org/T11869",
       "display_name": "Per- and polyfluoroalkyl substances research",
-      "value": 2.26e-05,
+      "value": 2.23e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
         "display_name": "Environmental Chemistry"
@@ -412,12 +395,12 @@
       }
     },
     {
-      "id": "https://openalex.org/T13137",
-      "display_name": "Strategic Planning and Analysis",
-      "value": 1.97e-05,
+      "id": "https://openalex.org/T14031",
+      "display_name": "Global and Cross-Cultural Management",
+      "value": 2.16e-05,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/1403",
+        "display_name": "Business and International Management"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -429,9 +412,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11454",
+      "display_name": "Cultural Differences and Values",
+      "value": 1.61e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12408",
+      "display_name": "Digital Transformation of Higher Education",
+      "value": 1.51e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11516",
       "display_name": "Visual and Cognitive Learning Processes",
-      "value": 1.57e-05,
+      "value": 1.47e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/3205",
         "display_name": "Experimental and Cognitive Psychology"
@@ -446,26 +463,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T12408",
-      "display_name": "Educational Innovations and Challenges",
-      "value": 1.54e-05,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11493",
       "display_name": "Water Treatment and Disinfection",
-      "value": 1.24e-05,
+      "value": 1.18e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/2307",
         "display_name": "Health, Toxicology and Mutagenesis"
@@ -482,7 +482,7 @@
     {
       "id": "https://openalex.org/T11902",
       "display_name": "Intelligent Tutoring Systems and Adaptive Learning",
-      "value": 1.07e-05,
+      "value": 1.03e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -499,7 +499,7 @@
     {
       "id": "https://openalex.org/T10888",
       "display_name": "Augmented Reality Applications",
-      "value": 1.05e-05,
+      "value": 1e-05,
       "subfield": {
         "id": "https://openalex.org/subfields/1707",
         "display_name": "Computer Vision and Pattern Recognition"
@@ -516,7 +516,7 @@
     {
       "id": "https://openalex.org/T14496",
       "display_name": "Educational Technology and E-Learning",
-      "value": 9e-06,
+      "value": 8.4e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -533,7 +533,7 @@
     {
       "id": "https://openalex.org/T12815",
       "display_name": "Management and Organizational Practices",
-      "value": 8.8e-06,
+      "value": 7.7e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -550,7 +550,7 @@
     {
       "id": "https://openalex.org/T10648",
       "display_name": "Virtual Reality Applications and Impacts",
-      "value": 7.6e-06,
+      "value": 7.2e-06,
       "subfield": {
         "id": "https://openalex.org/subfields/1709",
         "display_name": "Human-Computer Interaction"
@@ -567,24 +567,26 @@
     {
       "id": "https://openalex.org/T14414",
       "display_name": "Artificial Intelligence in Education",
-      "value": 7.1e-06,
+      "value": 6.8e-06,
       "subfield": {
-        "id": "https://openalex.org/subfields/1710",
-        "display_name": "Information Systems"
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210138631",
-  "updated_date": "2026-10-26T23:48:29",
+  "awards_count": 15,
+  "awards_api_url": "https://api.openalex.org/awards?filter=institution_awarded.id:I4210138631",
+  "updated_date": "2026-11-16T19:36:12",
   "created_date": "2022-02-02T04:48:36"
 }
